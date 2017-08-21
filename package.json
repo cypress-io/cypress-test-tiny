@@ -1,0 +1,16 @@
+{
+  "name": "foo-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha spec.js --reporter mochawesome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.5.0",
+    "mochawesome": "^2.3.0"
+  }
+}
