@@ -8,6 +8,11 @@ describe('page', () => {
     cy.contains('h2', 'test')
   })
 
+  it('execs node twice', () => {
+    cy.exec('node --version')
+    cy.exec('node --version')
+  })
+
   it('works with exec', () => {
     cy.exec('node -e "console.log(process.env)"')
       .its('stdout')
