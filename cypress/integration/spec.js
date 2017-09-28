@@ -9,6 +9,13 @@ describe('page', () => {
   })
 
   it('works with exec', () => {
+    cy.exec('node -e "console.log(process.env)"')
+      .its('stdout')
+
+    cy.exec('node --version')
+      .its('stdout')
+      .should('match', /^v/)
+
     cy.exec('echo foo')
       .its('stdout')
       .should('eq', 'foo')
