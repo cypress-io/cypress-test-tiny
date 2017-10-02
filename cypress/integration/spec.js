@@ -23,7 +23,7 @@ describe('page', () => {
 
     cy.exec('echo foo')
       .its('stdout')
-      .should('eq', 'foo')
+      .should('eq', 'foo\n')
 
     // assuming the folder same as project name
     cy.exec('pwd')
@@ -45,6 +45,6 @@ describe('page', () => {
 
     cy.exec('npm run echo -- foo-bar')
       .its('stdout')
-      .should('match', /foo-bar$/)
+      .should('match', /foo-bar/)
   })
 })
