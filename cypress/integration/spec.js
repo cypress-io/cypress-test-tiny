@@ -13,6 +13,19 @@ describe('page', () => {
     cy.exec('node --version')
   })
 
+  it('trims or not exec output', () => {
+    const {major, minor, patch} = Cypress.version.split('.')
+    let expected
+    if (major === 0 && minor <= 20 && patch <= 1) {
+      expected = 'foo\n'
+    } else {
+      expected = 'foo'
+    }
+    cy.exec('echo foo')
+      .its('stdout')
+      .should('eq', expected)
+  })
+
   it('works with exec', () => {
     cy.exec('node -e "console.log(process.env)"')
       .its('stdout')
@@ -21,16 +34,13 @@ describe('page', () => {
       .its('stdout')
       .should('match', /^v/)
 
-    cy.exec('echo foo')
-      .its('stdout')
-      .should('eq', 'foo\n')
-
     // assuming the folder same as project name
-    cy.exec('pwd')
-      .its('stdout')
-      .should('include', 'foo-page')
+    // need OS platform support
+    // cy.exec('pwd')
+    //   .its('stdout')
+    //   .should('include', 'foo-page')
 
-    cy.exec('ls')
+    // cy.exec('ls')
 
     cy.exec('node --version')
       .its('stdout')
