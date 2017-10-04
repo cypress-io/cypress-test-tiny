@@ -1,18 +1,12 @@
 {
-  "name": "foo-page",
+  "name": "cypress-test-tiny",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha spec.js --reporter mochawesome",
-    "echo": "echo $1"
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^0.20.1",
-    "mocha": "^3.5.0",
-    "mochawesome": "^2.3.0"
+    "cypress": "0.20.1"
   }
 }

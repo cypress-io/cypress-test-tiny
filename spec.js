@@ -1,3 +1,0 @@
-it('works', () => {
-  // dummy test
-})
