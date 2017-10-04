@@ -1,8 +1,7 @@
-
 # https://www.appveyor.com/docs/lang/nodejs-iojs/
 # Test against the latest version of this Node.js version
 environment:
-  nodejs_version: "6"
+  nodejs_version: "8"
 
 # Install scripts. (runs after repo cloning)
 install:
@@ -18,7 +17,8 @@ install:
 
 # Post-install test scripts.
 test_script:
-  - .\node_modules\.bin\cypress verify
+  - npm run verify
+  - npm run run
 
 # Don't actually build.
 build: off

@@ -2,7 +2,11 @@
   "name": "cypress-test-tiny",
   "version": "1.0.0",
   "description": "",
-  "scripts": {},
+  "scripts": {
+    "run": "cypress run",
+    "open": "cypress open",
+    "verify": "cypress verify"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
