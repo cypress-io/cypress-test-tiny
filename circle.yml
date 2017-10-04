@@ -2,6 +2,10 @@ machine:
   node:
     version: 8
 
+dependencies:
+  override:
+    - npm install $CYPRESS_NPM_PACKAGE_NAME
+
 test:
   override:
     - $(npm bin)/cypress run
