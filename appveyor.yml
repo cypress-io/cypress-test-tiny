@@ -16,6 +16,8 @@ install:
   # Output useful info for debugging.
   - node --version
   - npm --version
+  - node -e "console.log(process.platform)"
+  - node -e "console.log(process.arch)"
   - echo Installing %CYPRESS_NPM_PACKAGE_NAME%
   - echo binary version %CYPRESS_BINARY_VERSION%
   - npm install %CYPRESS_NPM_PACKAGE_NAME%
