@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "0.20.1",
+    "cypress": "0.20.3",
     "ok-file": "^1.0.2"
   }
 }
