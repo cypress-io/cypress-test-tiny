@@ -8,4 +8,6 @@ dependencies:
 
 test:
   override:
+    - $(npm bin)/cypress version
     - $(npm bin)/cypress run
+    - $(npm bin)/ok-file 'cypress/videos/*.mp4'
