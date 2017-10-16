@@ -4,6 +4,7 @@ machine:
 
 dependencies:
   override:
+    - npm install
     - npm install $CYPRESS_NPM_PACKAGE_NAME
 
 test:
