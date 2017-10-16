@@ -29,7 +29,7 @@ test_script:
   - npm run run
   # check output video file
   # using ok-file
-  - node_modules/.bin/ok-file 'cypress/videos/*.mp4'
+  - node_modules\.bin\ok-file 'cypress\videos\*.mp4'
 
 # Don't actually build.
 build: off
