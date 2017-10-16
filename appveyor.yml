@@ -30,7 +30,7 @@ test_script:
   # check output video file
   # using ok-file
   - dir cypress\videos
-  - node_modules\.bin\ok-file 'cypress\videos\*.mp4'
+  - node_modules\.bin\ok-file cypress\videos\*.mp4
 
 # Don't actually build.
 build: off
