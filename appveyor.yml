@@ -1,7 +1,6 @@
-# platform:
-#   - x86
-#   - x64
-#   - ia32
+platform:
+  - x86
+  - x64
 
 # https://www.appveyor.com/docs/lang/nodejs-iojs/
 # Test against the latest version of this Node.js version
