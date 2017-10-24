@@ -1,0 +1,31 @@
+env:
+  TERM: "xterm"
+  CYPRESS_NPM_PACKAGE_NAME: "cypress"
+  CYPRESS_BINARY_VERSION: "1.0.2"
+
+# https://buildkite.com/docs/pipelines/command-step
+steps:
+  - label: "print environment"
+    command:
+      - "npm install -g print-arch @bahmutov/print-env"
+      - "print-arch"
+      - "print-env BUILDKITE"
+
+  - "wait"
+
+  - label: "install"
+    command:
+      - "npm install"
+      - "npm install $CYPRESS_NPM_PACKAGE_NAME"
+
+  - "wait"
+
+  - label: "run"
+    command: "$(npm bin)/cypress run --record"
+
+  - "wait"
+
+  - label: "check video file"
+    command:
+      - "$(npm bin)/ok-file 'cypress/videos/*.mp4'"
+      - "ls -l cypress/videos"
