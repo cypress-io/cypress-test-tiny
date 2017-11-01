@@ -14,16 +14,17 @@ steps:
   - label: "install"
     command:
       - "npm install"
-      - "npm install $CYPRESS_NPM_PACKAGE_NAME"
+      - "$(npm bin)/commit-message-install"
+      - "$(npm bin)/run-if npm run cy:version"
 
   - "wait"
 
   - label: "run"
-    command: "$(npm bin)/cypress run --record"
+    command: "$(npm bin)/run-if npm run cy:run -- --record"
 
   - "wait"
 
   - label: "check video file"
     command:
-      - "$(npm bin)/ok-file 'cypress/videos/*.mp4'"
-      - "ls -l cypress/videos"
+      - "$(npm bin)/run-if npm run check-videos"
+      - "$(npm bin)/run-if npm run list-videos"

@@ -7,6 +7,7 @@
     "cy:open": "cypress open",
     "cy:verify": "cypress verify",
     "cy:version": "cypress version",
+    "list-videos": "ls -l cypress/videos",
     "check-videos": "ok-file 'cypress/videos/*.mp4'"
   },
   "keywords": [],
