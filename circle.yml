@@ -5,13 +5,12 @@ machine:
 dependencies:
   override:
     - npm install
-    # - npm install $CYPRESS_NPM_PACKAGE_NAME
   cache_directories:
     - node_modules
 
 test:
   override:
-    - $(npm bin)/run-if node -e 'console.log(os.platform())'
-    # - $(npm bin)/cypress version
-    # - $(npm bin)/cypress run
-    # - $(npm bin)/ok-file 'cypress/videos/*.mp4'
+    - $(npm bin)/commit-message-install
+    - $(npm bin)/run-if npm run cy:version
+    - $(npm bin)/run-if npm run cy:run
+    - $(npm bin)/run-if npm run check-videos

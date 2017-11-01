@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "run": "cypress run",
-    "open": "cypress open",
-    "verify": "cypress verify"
+    "cy:run": "cypress run",
+    "cy:open": "cypress open",
+    "cy:verify": "cypress verify",
+    "cy:version": "cypress version",
+    "check-videos": "ok-file 'cypress/videos/*.mp4'"
   },
   "keywords": [],
   "author": "",
