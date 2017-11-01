@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "commit-message-install": "1.2.0",
+    "commit-message-install": "1.2.1",
     "cypress": "1.0.3",
     "ok-file": "1.3.0"
   }
