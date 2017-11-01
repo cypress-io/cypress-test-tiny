@@ -18,18 +18,14 @@ install:
   - node -e "console.log(process.platform)"
   - node -e "console.log(process.arch)"
   - npm install
-  - echo Installing %CYPRESS_NPM_PACKAGE_NAME%
-  - echo binary version %CYPRESS_BINARY_VERSION%
-  - npm install %CYPRESS_NPM_PACKAGE_NAME%
+  # maybe install Cypress based on commit message
+  - node_modules\.bin\commit-message-install
 
 # Post-install test scripts.
 test_script:
-  - npm run verify
-  - npm run run
-  # check output video file
-  # using ok-file
-  - dir cypress\videos
-  - node_modules\.bin\ok-file cypress\videos\*.mp4
+  - node_modules\.bin\run-if npm run cy:verify
+  - node_modules\.bin\run-if npm run cy:run
+  - node_modules\.bin\run-if npm run check-videos
 
 # Don't actually build.
 build: off
