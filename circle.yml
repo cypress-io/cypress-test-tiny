@@ -11,6 +11,6 @@ dependencies:
 test:
   override:
     - $(npm bin)/commit-message-install
-    - $(npm bin)/run-if npm run cy:version
-    - $(npm bin)/run-if npm run cy:run
+    - $(npm bin)/run-if npm run cypress:version
+    - $(npm bin)/run-if npm run cypress:run
     - $(npm bin)/run-if npm run check-videos

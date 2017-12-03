@@ -15,12 +15,12 @@ steps:
     command:
       - "npm install"
       - "$(npm bin)/commit-message-install"
-      - "$(npm bin)/run-if npm run cy:version"
+      - "$(npm bin)/run-if npm run cypress:version"
 
   - "wait"
 
   - label: "run"
-    command: "$(npm bin)/run-if npm run cy:run -- --record"
+    command: "$(npm bin)/run-if npm run cypress:run -- --record"
 
   - "wait"
 
