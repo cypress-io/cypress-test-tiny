@@ -19,7 +19,7 @@ install:
   - node -e "console.log(process.arch)"
   - npm install
   # maybe install Cypress based on commit message
-  - node_modules\.bin\commit-message-install
+  - node_modules\.bin\commit-message-install --else "npm install cypress"
 
 # Post-install test scripts.
 test_script:

@@ -1,7 +1,7 @@
 {
   "name": "cypress-test-tiny",
   "version": "1.0.0",
-  "description": "",
+  "description": "Small project for quickly testing Cypress.io test runner",
   "scripts": {
     "cypress:run": "cypress run",
     "cypress:open": "cypress open",
@@ -11,10 +11,10 @@
     "check-videos": "ok-file 'cypress/videos/*.mp4'"
   },
   "keywords": [],
-  "author": "",
+  "author": "Gleb Bahmutov <gleb@cypress.io>",
   "license": "ISC",
   "devDependencies": {
-    "commit-message-install": "1.4.0",
+    "commit-message-install": "1.10.1",
     "ok-file": "1.4.0"
   },
   "repository": {
