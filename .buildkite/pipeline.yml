@@ -14,7 +14,7 @@ steps:
   - label: "install"
     command:
       - "npm install"
-      - "$(npm bin)/commit-message-install"
+      - "$(npm bin)/commit-message-install --else \"npm install cypress\""
       - "$(npm bin)/run-if npm run cypress:version"
 
   - "wait"
