@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Small project for quickly testing Cypress.io test runner",
   "scripts": {
-    "cypress:run": "cypress run",
-    "cypress:open": "cypress open",
+    "cypress:run": "unset -v NODE_ENV && cypress run",
+    "cypress:open": "unset -v NODE_ENV && cypress open",
     "cypress:verify": "cypress verify",
     "cypress:version": "cypress version",
     "list-videos": "ls -l cypress/videos",
