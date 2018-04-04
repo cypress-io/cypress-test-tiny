@@ -1,0 +1,22 @@
+<body>
+  Page with XHR after 1 second, shows result
+
+  <div id="result"></div>
+
+  <script>
+    function reqListener () {
+      const list = JSON.parse(this.responseText)
+      console.log(list);
+      document.getElementById('result').innerText = this.responseText
+    }
+
+    function fireXHR() {
+      var oReq = new XMLHttpRequest();
+      oReq.addEventListener("load", reqListener);
+      oReq.open("GET", "http://jsonplaceholder.typicode.com/users?_limit=1");
+      oReq.send();
+    }
+
+    setTimeout(fireXHR, 1000)
+  </script>
+</body>
