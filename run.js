@@ -1,4 +1,4 @@
-// const cypress = require('cypress')
+const cypress = require('cypress')
 const Promise = require('bluebird')
 
 const glob = Promise.promisify(require('glob'))
