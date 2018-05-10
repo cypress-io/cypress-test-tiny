@@ -14,7 +14,9 @@
   "author": "Gleb Bahmutov <gleb@cypress.io>",
   "license": "ISC",
   "devDependencies": {
+    "bluebird": "^3.5.1",
     "commit-message-install": "1.10.1",
+    "glob": "^7.1.2",
     "ok-file": "1.4.0"
   },
   "repository": {
