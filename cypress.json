@@ -1,3 +1,4 @@
 {
+  "pageLoadTimeout": 8000,
   "videoRecording": true
 }
