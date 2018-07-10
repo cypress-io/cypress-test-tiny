@@ -1,3 +1,5 @@
 // describe(function page() {})
 
-describe('nope')
+// describe('nope')
+
+it('works')
