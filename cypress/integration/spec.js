@@ -1,3 +1,5 @@
 describe('page', () => {
-  it('works', () => {})
+  it('works', () => {
+    cy.visit('https://example.cypress.io/')
+  })
 })
