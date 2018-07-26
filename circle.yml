@@ -1,18 +1,41 @@
-machine:
-  node:
-    version: 8
+# Check https://circleci.com/docs/2.0/ for more details
+# for config.yml syntax see https://circleci.com/docs/2.0/configuration-reference/
+version: 2
+jobs:
+  test:
+    docker:
+      # find Docker image at https://github.com/cypress-io/cypress-docker-images
+      - image: cypress/base:10
 
-dependencies:
-  override:
-    - npm install
-  cache_directories:
-    - node_modules
-    - ~/.cache
-    - ~/.npm
+    working_directory: ~/repo
 
-test:
-  override:
-    - $(npm bin)/commit-message-install --else "npm install cypress"
-    - $(npm bin)/run-if npm run cypress:version
-    - $(npm bin)/run-if npm run cypress:run
-    - $(npm bin)/run-if npm run check-videos
+    steps:
+      - checkout
+
+      # Download and cache dependencies for the app and for tests
+      - restore_cache:
+          keys:
+          - dependencies-{{ checksum "package.json" }}
+          # fallback to using the latest cache if no exact match is found
+          - dependencies-
+
+      - save_cache:
+          paths:
+            # local NPM modules
+            - node_modules
+            # all NPM modules
+            - ~/.npm
+            # Cypress binary (or yarn dependencies)
+            - ~/.cache
+          key: dependencies-{{ checksum "package.json" }}
+
+      - run: $(npm bin)/commit-message-install --else "npm install cypress"
+      - run: $(npm bin)/run-if npm run cypress:version
+      - run: $(npm bin)/run-if npm run cypress:run
+      - run: $(npm bin)/run-if npm run check-videos
+
+workflows:
+  version: 2
+  tests:
+    jobs:
+      - test
