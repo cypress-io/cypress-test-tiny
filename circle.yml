@@ -19,6 +19,8 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - dependencies-
 
+      - run: npm install
+
       - save_cache:
           paths:
             # local NPM modules
