@@ -1,3 +1,6 @@
+/// <reference types="cypress" />
 describe('page', () => {
-  it('works', () => {})
+  it('fails', () => {
+    cy.wrap(null).then(Cypress.Promise.reject)
+  })
 })
