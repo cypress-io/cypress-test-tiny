@@ -1,6 +1,12 @@
 # Check https://circleci.com/docs/2.0/ for more details
 # for config.yml syntax see https://circleci.com/docs/2.0/configuration-reference/
 version: 2.1
+
+executors:
+  mac:
+    macos:
+      xcode: "10.1.0"
+
 jobs:
   test:
     docker:
@@ -15,9 +21,9 @@ jobs:
       # Download and cache dependencies for the app and for tests
       - restore_cache:
           keys:
-          - dependencies-{{ checksum "package.json" }}
+          - dependencies-{{ arch }}-{{ .Branch }}-{{ checksum "package.json" }}
           # fallback to using the latest cache if no exact match is found
-          - dependencies-
+          - dependencies-{{ arch }}-{{ .Branch }}-
 
       - run: npm install
 
@@ -27,9 +33,9 @@ jobs:
             - node_modules
             # all NPM modules
             - ~/.npm
-            # Cypress binary (or yarn dependencies)
+            # Cypress binary (or yarn dependencies) on Linux
             - ~/.cache
-          key: dependencies-{{ checksum "package.json" }}
+          key: dependencies-{{ arch }}-{{ .Branch }}-{{ checksum "package.json" }}
 
       - run: $(npm bin)/commit-message-install --else "npm install cypress"
       - run: $(npm bin)/run-if npm run cypress:version
@@ -40,4 +46,8 @@ workflows:
   version: 2
   tests:
     jobs:
-      - test
+      - test:
+          name: Linux test
+      - test:
+          name: Mac test
+          executor: mac
