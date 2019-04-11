@@ -10,18 +10,23 @@ executors:
 commands:
   early-stop:
     description: |
-      Early halt if this commit is for testing Linux or Windows binaries
+      Early halt if this commit is for testing binaries for different platform
       Place this command AFTER checkout command because we need to look
       at the commit subject text
+    parameters:
+      substring:
+        type: string
+        description: String to search for in the commit subject to skip build
     steps:
       - run:
-          name: Check OS platform
+          name: Checking OS platform for "<< parameters.substring >>"
           command: |
             subject=$(git show -s --pretty=%s)
             echo "Commit subject: $subject"
 
-            if [[ $subject == *"Testing new win32"* ]]; then
-              echo Skipping testing Windows binary
+            if [[ $subject == *"<< parameters.substring >>"* ]]; then
+              echo Skipping testing binary ⏭
+              echo Found string "<< parameters.substring >>"
               circleci step halt
             fi
 
@@ -29,6 +34,7 @@ commands:
               echo Skipping testing Linux binary
               circleci step halt
             fi
+
 jobs:
   mac-test:
     executor: mac
@@ -37,7 +43,11 @@ jobs:
 
     steps:
       - checkout
-      - early-stop
+      - early-stop:
+          substring: Testing new win32
+      - early-stop:
+          substring: Testing new linux
+
       # Download and cache dependencies for the app and for tests
       - restore_cache:
           keys:
@@ -72,7 +82,8 @@ jobs:
 
     steps:
       - checkout
-      - early-stop
+      - early-stop:
+          substring: Testing new win32
 
       # Download and cache dependencies for the app and for tests
       - restore_cache:
