@@ -19,7 +19,7 @@ jobs:
       # early halt if this commit is for testing Linux or Windows binaries
       - run: |
           subject=$(git show -s --pretty=%s)
-          echo Commit subject $subject
+          echo "Commit subject: $subject"
 
           if [[ $subject == *"Testing new win32"* ]]; then
             echo Skipping testing Windows binary
