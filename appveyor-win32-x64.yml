@@ -4,7 +4,6 @@ skip_commits:
   message: /Testing new linux/
 
 platform:
-  - x86
   - x64
 
 # https://www.appveyor.com/docs/lang/nodejs-iojs/
