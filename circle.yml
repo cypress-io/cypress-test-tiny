@@ -16,6 +16,18 @@ jobs:
     steps:
       - checkout
 
+      # early halt if this commit is for testing Linux or Windows binaries
+      - run: |
+          if [[ $(git show --format='%s') == *"Testing new win32"* ]]; then
+            echo Skipping testing Windows binary
+            circleci step halt
+          fi
+
+          if [[ $(git show --format='%s') == *"Testing new linux"* ]]; then
+            echo Skipping testing Linux binary
+            circleci step halt
+          fi
+
       # Download and cache dependencies for the app and for tests
       - restore_cache:
           keys:
