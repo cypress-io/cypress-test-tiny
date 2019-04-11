@@ -1,0 +1,34 @@
+# https://www.appveyor.com/docs/appveyor-yml/
+skip_commits:
+  # do not run for testing new Linux builds
+  message: /Testing new linux/
+
+platform:
+  - x86
+
+# https://www.appveyor.com/docs/lang/nodejs-iojs/
+# Test against the latest version of this Node.js version
+environment:
+  nodejs_version: "8"
+
+# Install scripts. (runs after repo cloning)
+install:
+  - ps: Install-Product node $env:nodejs_version $env:platform
+  # Output useful info for debugging.
+  - node --version
+  - npm --version
+  - node -e "console.log(process.platform)"
+  - node -e "console.log(process.arch)"
+  - npm install
+  # maybe install Cypress based on commit message
+  - node_modules\.bin\commit-message-install --else "npm install cypress"
+
+# Post-install test scripts.
+test_script:
+  - node_modules\.bin\run-if npm run cypress:verify
+  - node_modules\.bin\run-if npm run cypress:run -- --record
+  # ugghh, what is wrong with Windows not finding files by wildcard
+  # - node_modules\.bin\run-if npm run check-videos
+
+# Don't actually build.
+build: off
