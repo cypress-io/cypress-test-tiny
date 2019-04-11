@@ -30,11 +30,6 @@ commands:
               circleci step halt
             fi
 
-            if [[ $subject == *"Testing new linux"* ]]; then
-              echo Skipping testing Linux binary
-              circleci step halt
-            fi
-
 jobs:
   mac-test:
     executor: mac
