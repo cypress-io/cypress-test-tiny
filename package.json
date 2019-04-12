@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Small project for quickly testing Cypress.io test runner",
   "scripts": {
-    "cypress:run": "cypress run",
+    "cypress:run": "node ./test",
     "cypress:open": "cypress open",
     "cypress:verify": "cypress verify",
     "cypress:version": "cypress version",
@@ -15,6 +15,7 @@
   "license": "ISC",
   "devDependencies": {
     "@cypress/commit-message-install": "2.3.0",
+    "cypress": "3.2.0",
     "ok-file": "1.4.0"
   },
   "repository": {
