@@ -31,5 +31,11 @@ test_script:
   # ugghh, what is wrong with Windows not finding files by wildcard
   # - node_modules\.bin\run-if npm run check-videos
 
+# set commit status if necessary
+on_success:
+  - npm run set-status -- --state success --description "on AppVeyor"
+on_failure:
+  - npm run set-status -- --state failure --description "on AppVeyor"
+
 # Don't actually build.
 build: off

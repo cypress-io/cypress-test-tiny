@@ -8,7 +8,8 @@
     "cypress:verify": "cypress verify",
     "cypress:version": "cypress version",
     "list-videos": "ls -l cypress/videos",
-    "check-videos": "ok-file 'cypress/videos/*.mp4'"
+    "check-videos": "ok-file 'cypress/videos/*.mp4'",
+    "set-status": "set-status"
   },
   "keywords": [],
   "author": "Gleb Bahmutov <gleb@cypress.io>",
