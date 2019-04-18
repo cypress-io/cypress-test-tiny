@@ -15,7 +15,7 @@
   "author": "Gleb Bahmutov <gleb@cypress.io>",
   "license": "ISC",
   "devDependencies": {
-    "@cypress/commit-message-install": "2.4.0",
+    "@cypress/commit-message-install": "2.4.2",
     "ok-file": "1.4.0"
   },
   "repository": {
