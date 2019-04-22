@@ -21,7 +21,9 @@ install:
   - node -e "console.log(process.platform)"
   - node -e "console.log(process.arch)"
   - npm install
-  - npm install @cypress/commit-message-install
+  - npm install @cypress/commit-message-install @bahmutov/print-env
+  - node_modules\.bin\print-env APPVEYOR
+
   # maybe install Cypress based on commit message
   - node_modules\.bin\commit-message-install --else "npm install cypress"
 
