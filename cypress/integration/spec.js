@@ -1,3 +1,5 @@
 describe('page', () => {
-  it('works', () => {})
+  it('works', () => {
+    cy.task('test')
+  })
 })
