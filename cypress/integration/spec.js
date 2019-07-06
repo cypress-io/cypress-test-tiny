@@ -2,5 +2,7 @@
 describe('page', () => {
   it('works', () => {
     cy.visit('/')
+      .contains('Go Home')
+      .click()
   })
 })
