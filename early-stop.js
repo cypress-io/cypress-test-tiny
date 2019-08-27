@@ -1,6 +1,17 @@
 // exits with 1 if the last commit subject includes a given string
 // $ node ./early-stop.js foo
 
+// examples using this script with "|| <some other command>"
+//
+//  1) failed to find substring
+//  $ node ./early-stop "foo" || echo "yes"
+//  cannot find string "foo" in commit subject "trying a node script on Window
+//
+//  2) finds substring
+//  $ node ./early-stop "foo" && echo "yes"
+//  cannot find string "foo" in commit subject "trying a node script on Windows
+//  yes
+
 const util = require('util')
 const exec = util.promisify(require('child_process').exec)
 const substring = process.argv[2]
