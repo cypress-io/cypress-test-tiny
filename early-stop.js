@@ -25,6 +25,6 @@ exec('git show -s --pretty=%s').then(result => {
     console.log('found "%s" in commit subject "%s"', substring, subject)
     process.exit(1)
   } else {
-    console.log('cannot find string "%s" in commit subject "%s', substring, subject)
+    console.log('cannot find string "%s" in commit subject "%s"', substring, subject)
   }
 })

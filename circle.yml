@@ -26,18 +26,6 @@ commands:
       - run:
           name: Checking OS platform for "<< parameters.substring >>"
           command: node ./early-stop "<< parameters.substring >>" || circleci step halt
-          # command: |
-            # subject=$(git show -s --pretty=%s)
-            # echo "Commit subject: $subject"
-
-            # if [[ $subject == *"<< parameters.substring >>"* ]]; then
-
-            # if node ./early-stop "<< parameters.substring >>"; then
-            #   echo Skipping testing binary ⏭
-            #   echo Found string "<< parameters.substring >>"
-            #   circleci step halt
-            # fi
-
 jobs:
   mac-test:
     executor: mac
@@ -178,6 +166,6 @@ workflows:
   tests:
     jobs:
       # temporarily disable other test jobs
-      # - linux-test
-      # - mac-test
+      - linux-test
+      - mac-test
       - win-test
