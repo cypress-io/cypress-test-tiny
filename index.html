@@ -1,0 +1,24 @@
+<body>
+  <p>Example app with promises</p>
+  <script>
+    window.app = {
+      resolves () {
+        return new Promise((resolve) => {
+          setTimeout(resolve, 1000)
+        })
+      },
+      rejects () {
+        return new Promise((resolve, reject) => {
+          setTimeout(() => {
+            reject(new Error('App says no'))
+          }, 1000)
+        })
+      },
+      rejectsWithUndefined () {
+        return new Promise((resolve, reject) => {
+          setTimeout(reject, 1000)
+        })
+      }
+    }
+  </script>
+</body>
