@@ -137,7 +137,7 @@ jobs:
       - restore_cache:
           key: dependencies-{{ arch }}-{{ .Branch }}-{{ checksum "package.json" }}
 
-      - run: npm install
+      - run: npm ci
 
       - save_cache:
           key: dependencies-{{ arch }}-{{ .Branch }}-{{ checksum "package.json" }}
@@ -147,7 +147,8 @@ jobs:
             - C:\Users\circleci\AppData\Roaming\npm-cache
 
       - run: npm install @cypress/commit-message-install
-      - run: $(npm bin)/commit-message-install --else "npm install cypress"
+      - run: $(npm bin)/commit-message-install --else "npm ci"
+      - run: npx patch-package
       - run: $(npm bin)/run-if npm run cypress:version
       - run: $(npm bin)/run-if npm run cypress:run
       - run: $(npm bin)/run-if npm run check-videos
