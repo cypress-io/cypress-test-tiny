@@ -109,7 +109,7 @@ jobs:
           key: dependencies-{{ arch }}-{{ .Branch }}-{{ checksum "package.json" }}
 
       - run: npm install @cypress/commit-message-install
-      - run: $(npm bin)/commit-message-install --else "npm ci"
+      - run: $(npm bin)/commit-message-install --else "npm install cypress"
       - run: npx patch-package
       - run: $(npm bin)/run-if npm run cypress:version
       - run: $(npm bin)/run-if npm run cypress:run
@@ -149,7 +149,7 @@ jobs:
             - C:\Users\circleci\AppData\Roaming\npm-cache
 
       - run: npm install @cypress/commit-message-install
-      - run: $(npm bin)/commit-message-install --else "npm ci"
+      - run: $(npm bin)/commit-message-install --else "npm install cypress"
       - run: npx patch-package
       - run: $(npm bin)/run-if npm run cypress:version
       - run: $(npm bin)/run-if npm run cypress:run
