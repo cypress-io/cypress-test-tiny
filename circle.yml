@@ -128,5 +128,7 @@ workflows:
   version: 2
   tests:
     jobs:
-      - linux-test
-      - mac-test
+      - linux-test:
+          context: test-runner:commit-status-checks
+      - mac-test:
+          context: test-runner:commit-status-checks
