@@ -1,3 +1,3 @@
-describe('page', () => {
+describe('foo', () => {
   it('works', () => {})
 })
