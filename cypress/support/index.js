@@ -15,9 +15,10 @@
 
 // Import commands.js and defaults.js
 // using ES2015 syntax:
-import "./commands"
-import "./defaults"
+// import "./commands"
+// import "./defaults"
 
+require('cypress-skip-and-only-ui/support')
 // Alternatively you can use CommonJS syntax:
 // require("./commands")
 // require("./defaults")

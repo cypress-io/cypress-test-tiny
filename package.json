@@ -16,6 +16,7 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "3.5.0",
+    "cypress-skip-and-only-ui": "1.2.5",
     "ok-file": "1.4.0"
   },
   "repository": {

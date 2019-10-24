@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-// describe('block', () => {
+describe('block', () => {
   it('first', () => {
     cy.log('here')
     cy.wait(100)
@@ -10,11 +10,16 @@
     cy.wait(100)
     // cy.visit('www.google.com')
   })
-// })
+})
 // after(function firstAfter (){
 //   cy.log('in after')
 // })
-after(() => {
+describe('block', () => {
+  it('skipped')
+
+})
+
+after(function () {
   cy.log('in after')
   // throw new Error('foo')
   // foo
