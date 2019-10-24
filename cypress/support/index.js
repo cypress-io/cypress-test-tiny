@@ -13,6 +13,10 @@
 // https://on.cypress.io/guides/configuration#section-global
 // ***********************************************************
 
+after(() => {
+    console.log('global after')
+})
+
 // Import commands.js and defaults.js
 // using ES2015 syntax:
 import "./commands"
