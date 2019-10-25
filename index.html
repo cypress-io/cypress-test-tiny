@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<body>
+<label for="mydate">
+    <input id="mydate" type="date">
+</label>
+<script>
+    window.receivedInput = false
+    document.getElementById("mydate").addEventListener("input", event => {
+        window.receivedInput = true
+        console.log("receiving input", event)
+    })
+</script>
+</body>
+</html>
