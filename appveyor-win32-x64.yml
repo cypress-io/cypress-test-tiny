@@ -26,7 +26,6 @@ install:
 
   # maybe install Cypress based on commit message
   - node_modules\.bin\commit-message-install --else "npm install cypress"
-  - npx patch-package
 
 # Post-install test scripts.
 test_script:
