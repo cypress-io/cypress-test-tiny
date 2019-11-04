@@ -150,7 +150,7 @@ jobs:
       - run: npm install @cypress/commit-message-install
       - run: $(npm bin)/commit-message-install --else "npm install cypress"
       - run: $(npm bin)/run-if npm run cypress:version
-      - run: $(npm bin)/run-if npm run cypress:run
+      - run: DEBUG=* $(npm bin)/run-if npm run cypress:run
       - run: $(npm bin)/run-if npm run check-videos
 
       - run:
