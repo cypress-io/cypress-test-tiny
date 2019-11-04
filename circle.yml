@@ -47,7 +47,8 @@ jobs:
             - dependencies-{{ arch }}-{{ .Branch }}-
 
       - run: npm ci
-      - run: npm install @cypress/commit-message-install --else "npm install cypress"
+      - run: npm install @cypress/commit-message-install
+      - run: $(npm bin)/commit-message-install --else "npm install cypress"
       - run: npx cypress cache path
 
       - save_cache:
