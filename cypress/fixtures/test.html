@@ -1,0 +1,10 @@
+<html>
+  <body>
+    <input type="text" value="1" />
+  </body>
+  <script>
+	const el = document.getElementsByTagName('input')[0];
+	el.addEventListener('focus', (ev) => ev.target.select());
+  </script>
+  
+</html>
