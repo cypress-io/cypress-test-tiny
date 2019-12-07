@@ -1,3 +1,4 @@
-describe('page', () => {
-  it('works', () => {})
+/// <reference types="cypress" />
+it('calls task', () => {
+  cy.task('hello')
 })
