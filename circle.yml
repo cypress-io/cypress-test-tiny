@@ -172,8 +172,7 @@ workflows:
     jobs:
       - win-test:
           context: test-runner:commit-status-checks
-      # temporarily disable other test jobs
-      # - linux-test:
-      #    context: test-runner:commit-status-checks
-      # - mac-test:
-      #    context: test-runner:commit-status-checks
+      - linux-test:
+          context: test-runner:commit-status-checks
+      - mac-test:
+          context: test-runner:commit-status-checks
