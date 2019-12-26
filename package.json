@@ -16,7 +16,7 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "3.8.1",
-    "ok-file": "1.4.0"
+    "ok-file": "1.5.0"
   },
   "repository": {
     "type": "git",
