@@ -20,7 +20,7 @@ install:
   - npm --version
   - node -e "console.log(process.platform)"
   - node -e "console.log(process.arch)"
-  - npm install
+  - npm ci
   - npm install @cypress/commit-message-install @bahmutov/print-env
   - node_modules\.bin\print-env APPVEYOR
 
@@ -30,9 +30,8 @@ install:
 # Post-install test scripts.
 test_script:
   - node_modules\.bin\run-if npm run cypress:verify
-  - node_modules\.bin\run-if npm run cypress:run -- --record
-  # ugghh, what is wrong with Windows not finding files by wildcard
-  # - node_modules\.bin\run-if npm run check-videos
+  - node_modules\.bin\run-if npm run cypress:run
+  - node_modules\.bin\run-if npm run check-videos
 
 # set commit status if necessary
 on_success:

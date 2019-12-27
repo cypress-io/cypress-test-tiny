@@ -2,6 +2,11 @@
 # for config.yml syntax see https://circleci.com/docs/2.0/configuration-reference/
 version: 2.1
 
+# for testing on Windows
+# https://circleci.com/docs/2.0/hello-world-windows/
+orbs:
+  win: circleci/windows@1
+
 executors:
   mac:
     macos:
@@ -20,16 +25,7 @@ commands:
     steps:
       - run:
           name: Checking OS platform for "<< parameters.substring >>"
-          command: |
-            subject=$(git show -s --pretty=%s)
-            echo "Commit subject: $subject"
-
-            if [[ $subject == *"<< parameters.substring >>"* ]]; then
-              echo Skipping testing binary ⏭
-              echo Found string "<< parameters.substring >>"
-              circleci step halt
-            fi
-
+          command: node ./early-stop "<< parameters.substring >>" || circleci step halt
 jobs:
   mac-test:
     executor: mac
@@ -50,8 +46,9 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - dependencies-{{ arch }}-{{ .Branch }}-
 
-      - run: npm install
+      - run: npm ci
       - run: npm install @cypress/commit-message-install
+      - run: $(npm bin)/commit-message-install --else "npm install cypress"
       - run: npx cypress cache path
 
       - save_cache:
@@ -89,6 +86,8 @@ jobs:
       - checkout
       - early-stop:
           substring: Testing new win32
+      - early-stop:
+          substring: Testing new darwin
 
       # Download and cache dependencies for the app and for tests
       - restore_cache:
@@ -97,7 +96,7 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - dependencies-{{ arch }}-{{ .Branch }}-
 
-      - run: npm install
+      - run: npm ci
 
       - save_cache:
           paths:
@@ -124,10 +123,55 @@ jobs:
           name: Set status check
           command: $(npm bin)/set-status --state failure --description "on CircleCI"
 
+  win-test:
+    working_directory: ~/app
+    executor:
+      name: win/vs2019
+      shell: bash.exe
+    steps:
+      - checkout
+      - early-stop:
+          substring: Testing new linux
+      - early-stop:
+          substring: Testing new darwin
+
+      - restore_cache:
+          key: dependencies-{{ arch }}-{{ .Branch }}-{{ checksum "package.json" }}
+
+      - run: npm ci
+
+      - save_cache:
+          key: dependencies-{{ arch }}-{{ .Branch }}-{{ checksum "package.json" }}
+          paths:
+            # could not use environment variables for some reason
+            - C:\Users\circleci\AppData\Local\Cypress\Cache
+            - C:\Users\circleci\AppData\Roaming\npm-cache
+
+      - run: npm install @cypress/commit-message-install
+      - run: $(npm bin)/commit-message-install --else "npm install cypress"
+      - run: $(npm bin)/run-if npm run cypress:version
+      - run: $(npm bin)/run-if npm run cypress:run
+      - run:
+          name: check videos
+          command: $(npm bin)/run-if npm run check-videos
+          environment:
+            DEBUG: ok-file
+
+      - run:
+          when: on_success
+          name: Set status check
+          command: $(npm bin)/set-status --state success --description "on CircleCI"
+      - run:
+          when: on_fail
+          name: Set status check
+          command: $(npm bin)/set-status --state failure --description "on CircleCI"
+
 workflows:
   version: 2
   tests:
     jobs:
+      - win-test:
+          context: test-runner:commit-status-checks
       - linux-test:
           context: test-runner:commit-status-checks
       - mac-test:
