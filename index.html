@@ -1,0 +1,14 @@
+<body>
+  <p>Clicking on the button below will show window confirm dialog</p>
+  <button id="click">Click</button>
+  <script>
+    document.getElementById('click').addEventListener('click', () => {
+      // for demo purposes, add 1 second delay
+      // to show how the test finishes too quickly
+      setTimeout(() => {
+        const answer = window.confirm('Are you sure?')
+        console.log('confirm returned', answer)
+      }, 1000)
+    })
+  </script>
+</body>
