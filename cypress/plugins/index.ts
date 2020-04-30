@@ -10,8 +10,20 @@
 
 // This function is called when a project is opened or re-opened (e.g. due to
 // the project's config changing)
+import './helper'
 
-module.exports = (on, config) => {
-  // `on` is used to hook into various events Cypress emits
-  // `config` is the resolved Cypress config
+console.log('plugins TS')
+
+export default function (on: Cypress.PluginEvents, _config: Cypress.ConfigOptions) {
+  on('task', {
+    hello: async () => {
+      return null
+    }
+  })
 }
+
+// module.exports = (on: Cypress.PluginEvents, _config: Cypress.ConfigOptions): void {
+//   on('before:browser:launch', async () => {
+//     console.log("hello");
+//   });
+// }
