@@ -1,5 +1,6 @@
 /// <reference types="cypress" />
-import { Username } from '../support/globals'
+
+const Username = window.Username
 
 describe('globals', () => {
   it('shows username', () => {
