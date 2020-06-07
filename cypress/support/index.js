@@ -17,6 +17,28 @@
 // using ES2015 syntax:
 import "./commands"
 import "./defaults"
+const baseUrl = "www.google.com"
+
+Cypress.Commands.add('login', () => {
+    // The promise gets ignored - the program doesn't wait 5s
+    new Cypress.Promise((resolve) => { 
+      setTimeout(() => {
+        resolve();
+      }, 5000);
+    });
+  
+    cy.visit(baseUrl);
+  });
+  
+  Cypress.Commands.add('login', () => {
+    // Throws an error
+    return new Cypress.Promise((resolve) => { 
+      setTimeout(() => {
+        cy.visit(baseUrl);
+        resolve();
+      }, 5000);
+    });
+  });
 
 // Alternatively you can use CommonJS syntax:
 // require("./commands")
