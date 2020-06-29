@@ -1,0 +1,11 @@
+<body>
+  <a href="second.html">second</a>
+  <script>
+    fetch('https://jsonplaceholder.cypress.io/posts')
+    fetch('https://jsonplaceholder.cypress.io/users')
+    setTimeout(() => {
+      fetch('https://jsonplaceholder.cypress.io/users')
+    }, 10)
+    document.location = 'http://localhost:5000/second'
+  </script>
+</body>

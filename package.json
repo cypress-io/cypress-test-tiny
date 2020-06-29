@@ -9,13 +9,16 @@
     "cypress:version": "cypress version",
     "list-videos": "ls -l cypress/videos",
     "check-videos": "ok-file 'cypress/videos/*.mp4'",
-    "set-status": "set-status"
+    "set-status": "set-status",
+    "start": "serve ."
   },
   "keywords": [],
   "author": "Gleb Bahmutov <gleb@cypress.io>",
   "license": "ISC",
   "devDependencies": {
-    "ok-file": "1.5.2"
+    "http-static": "0.1.1",
+    "ok-file": "1.5.2",
+    "serve": "11.3.2"
   },
   "repository": {
     "type": "git",
