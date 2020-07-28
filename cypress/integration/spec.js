@@ -19,6 +19,8 @@ describe('page', () => {
 
     cy.getFrame('encryptedCardNumber')
       .find('#encryptedCardNumber')
-      .type(4242424242424242);
+      .type(4242424242424242)
+
+      .should('have.value', 4242424242424242);
   });
 })
