@@ -1,0 +1,86 @@
+{
+    "__count": 3,
+    "Data": [
+        {
+            "BeneficiaryDetails": {
+                "AccountNumber": "DK123456789123456",
+                "BankAddress": "5th Street, NY, USA",
+                "BankName": "ABC Bank",
+                "Bic": "DABADKKK",
+                "ClearingCode": "83456348",
+                "CountryCode": "US",
+                "Iban": ""
+            },
+            "ClientDetails": {
+                "Id": "922174",
+                "Name": "Richard James"
+            },
+            "Currency": "EUR",
+            "Id": "1",
+            "IntermediaryBank": {
+                "AccountNumber": "",
+                "Bic": "CITIGB2L",
+                "ClearingCode": "32432"
+            },
+            "Name": "EUR,DK123456789123456",
+            "RegulatedBroker": {
+                "AccountNumber": "",
+                "Name": ""
+            }
+        },
+        {
+            "BeneficiaryDetails": {
+                "AccountNumber": "DK123456789123456",
+                "BankAddress": "7th Street, NY, Denmark",
+                "BankName": "PPPP Bank",
+                "Bic": "PPPPADKKK",
+                "ClearingCode": "53745732",
+                "CountryCode": "RU",
+                "Iban": "USD123456789123456"
+            },
+            "ClientDetails": {
+                "Id": "922174",
+                "Name": "Richard James"
+            },
+            "Currency": "USD",
+            "Id": "2",
+            "IntermediaryBank": {
+                "AccountNumber": "",
+                "Bic": "CITIGB2L",
+                "ClearingCode": ""
+            },
+            "Name": "USD,DK123456789123456",
+            "RegulatedBroker": {
+                "AccountNumber": "",
+                "Name": ""
+            }
+        },
+        {
+            "BeneficiaryDetails": {
+                "AccountNumber": "DK123456789123456",
+                "BankAddress": "7th Street, NY, Denmark",
+                "BankName": "Anup Bank",
+                "Bic": "",
+                "ClearingCode": "",
+                "CountryCode": "US",
+                "Iban": "USD123456789123456"
+            },
+            "ClientDetails": {
+                "Id": "922174",
+                "Name": "Richard James"
+            },
+            "Currency": "USD",
+            "Id": "3",
+            "IntermediaryBank": {
+                "AccountNumber": "",
+                "Bic": "CITIGB2L",
+                "ClearingCode": ""
+            },
+            "Name": "AKY,DK123456789123456",
+            "RegulatedBroker": {
+                "AccountNumber": "",
+                "Name": ""
+            }
+        }
+    ]
+}

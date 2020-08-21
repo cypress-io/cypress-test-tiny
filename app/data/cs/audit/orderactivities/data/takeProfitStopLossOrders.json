@@ -1,0 +1,91 @@
+{
+    "__count": 3,
+    "Data": [
+        {
+            "AccountId": "test1",
+            "ActivityId": "18600",
+            "ActivityTime": "2019-02-10T11:16:00.000Z",
+            "Amount": 200.0,
+            "AssetType": "FxSpot",
+            "BuySell": "Buy",
+            "ClientId": "324268",
+            "CorrelationKey": "cff8b77a-9045-4188-8080-260e705ceb69",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 2,
+                "Description": "Tesla Inc.",
+                "OrderDecimals": 2,
+                "Symbol": "TSLA:xnas"
+            },
+            "Duration": { "DurationType": "GoodTillCancel" },
+            "HandledBy": "32155041",
+            "OrderId": "327972192",
+            "OrderRelation": "StandAlone",
+            "OrderState": "Working",
+            "OrderType": "Limit",
+            "Price": 998.02,
+            "Status": "Placed",
+            "SubStatus": "Confirmed",
+            "Uic": 21,
+            "UserId": "32155041"
+        },
+        {
+            "AccountId": "test1",
+            "ActivityId": "18601",
+            "ActivityTime": "2019-02-10T11:17:00.001Z",
+            "Amount": 200.0,
+            "AssetType": "FxSpot",
+            "BuySell": "Sell",
+            "ClientId": "324268",
+            "CorrelationKey": "cff8b77a-9045-4188-8080-260e705ceb69",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 2,
+                "Description": "Tesla Inc.",
+                "OrderDecimals": 2,
+                "Symbol": "TSLA:xnas"
+            },
+            "Duration": { "DurationType": "GoodTillCancel" },
+            "HandledBy": "32155041",
+            "OrderId": "327972193",
+            "OrderRelation": "IfDoneSlave",
+            "OrderState": "Working",
+            "OrderType": "Limit",
+            "Price": 1003.01,
+            "RelatedOrderIds": ["327972192"],
+            "Status": "Placed",
+            "SubStatus": "Confirmed",
+            "Uic": 21,
+            "UserId": "32155041"
+        },
+        {
+            "AccountId": "test1",
+            "ActivityId": "18602",
+            "ActivityTime": "2019-02-10T11:17:00.002Z",
+            "Amount": 200.0,
+            "AssetType": "FxSpot",
+            "BuySell": "Sell",
+            "ClientId": "324268",
+            "CorrelationKey": "cff8b77a-9045-4188-8080-260e705ceb69",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 2,
+                "Description": "Tesla Inc.",
+                "OrderDecimals": 2,
+                "Symbol": "TSLA:xnas"
+            },
+            "Duration": { "DurationType": "GoodTillCancel" },
+            "HandledBy": "32155041",
+            "OrderId": "327972194",
+            "OrderRelation": "IfDoneSlaveOco",
+            "OrderState": "Working",
+            "OrderType": "StopIfTraded",
+            "Price": 993.03,
+            "RelatedOrderIds": ["327972192", "327972193"],
+            "Status": "Placed",
+            "SubStatus": "Confirmed",
+            "Uic": 21,
+            "UserId": "32155041"
+        }
+    ]
+}

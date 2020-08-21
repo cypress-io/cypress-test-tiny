@@ -1,0 +1,87 @@
+{
+    "AmountDecimals": 0,
+    "AssetType": "Stock",
+    "CurrencyCode": "EUR",
+    "DefaultAmount": 0,
+    "DefaultSlippage": 0,
+    "DefaultSlippageType": "Ticks",
+    "Description": "L&G Gold Mining UCITS ETF",
+    "DisplayHint": "Etf",
+    "Exchange": {
+        "CountryCode": "DE",
+        "ExchangeId": "XETR_ETF",
+        "Name": "Deutsche Börse (Indices & ETFs)",
+        "PriceSourceName": "Deutsche Börse"
+    },
+    "Format": { "Decimals": 3, "OrderDecimals": 3 },
+    "GroupId": 0,
+    "IncrementSize": 1,
+    "Isin": "DE000A0Q8NC8",
+    "IssuerCountry": "IE",
+    "IsTradable": true,
+    "MarketData": {
+        "Country": "DE",
+        "FundCategory": {
+            "Key": "Precious Metals Sector Equity",
+            "Value": "Precious Metals Sector Equity"
+        },
+        "FundIssuerName": "LGIM ETF Managers Limited",
+        "FundRating": "Avg",
+        "FundRatingEffectiveEndDate": "2018-10-31T00:00:00",
+        "FundType": {
+            "Key": "Open Ended Investment Company",
+            "Value": "Open Ended Investment Company"
+        },
+        "OneYearReturnPct": -16.01593,
+        "ThreeYearsReturnPct": 8.01844,
+        "YearlyCostPercentage": 1.2
+    },
+    "MinimumOrderValue": 50,
+    "MinimumTradeSize": 50,
+    "OrderDistances": {
+        "EntryDefaultDistance": 0.25,
+        "EntryDefaultDistanceType": "Percentage",
+        "StopLimitDefaultDistance": 5,
+        "StopLimitDefaultDistanceType": "Pips",
+        "StopLossDefaultDistance": 0.5,
+        "StopLossDefaultDistanceType": "Percentage",
+        "StopLossDefaultEnabled": false,
+        "StopLossDefaultOrderType": "GuaranteedStop",
+        "TakeProfitDefaultDistance": 0.5,
+        "TakeProfitDefaultDistanceType": "Percentage",
+        "TakeProfitDefaultEnabled": false
+    },
+    "PriceCurrency": "EUR",
+    "PriceToContractFactor": 1,
+    "SaxoFeePercent": 0,
+    "StandardAmounts": [1, 10, 100, 500, 1000, 10000, 50000, 100000],
+    "SupportedOrderTypes": [
+        "Market",
+        "Limit",
+        "StopIfTraded",
+        "TrailingStopIfTraded",
+        "StopLimit"
+    ],
+    "SupportedStrategies": [
+        "VWAP",
+        "With Volume",
+        "Implementation Shortfall",
+        "Reload",
+        "Iceberg",
+        "TWAP",
+        "Dark"
+    ],
+    "Symbol": "ETLX:xetr",
+    "TickSizeScheme": {
+        "DefaultTickSize": 0.01,
+        "Elements": [
+            { "HighPrice": 4.999, "TickSize": 0.001 },
+            { "HighPrice": 9.995, "TickSize": 0.005 }
+        ]
+    },
+    "TradableAs": ["Stock"],
+    "TradableOn": [],
+    "Uic": 49571,
+    "YearlyExpensePercent": 0,
+    "id": "49571-Stock"
+}

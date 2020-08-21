@@ -1,0 +1,29 @@
+{
+    "Data": [
+        {
+            "Email": "email1_1790080@email.com",
+            "Identifier": "[CRM1]",
+            "Validated": true
+        },
+        {
+            "Email": "",
+            "Identifier": "[CRM2]",
+            "Validated": false
+        },
+        {
+            "Email": "",
+            "Identifier": "[CRM3]",
+            "Validated": false
+        },
+        {
+            "Email": "",
+            "Identifier": "[CRM4]",
+            "Validated": false
+        },
+        {
+            "Email": "xyz@saxobank.com",
+            "Identifier": "[PriceAlerter]",
+            "Validated": false
+        }
+    ]
+}

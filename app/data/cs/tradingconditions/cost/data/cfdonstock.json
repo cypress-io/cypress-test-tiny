@@ -1,0 +1,104 @@
+{
+    "AccountCurrency": "GBP",
+    "AccountID": "",
+    "Amount": 1000,
+    "AssetType": "CfdOnStock",
+    "Cost": {
+        "Long": {
+            "BuySell": "Buy",
+            "Currency": "USD",
+            "HoldingCost": {
+                "OvernightFinancing": {
+                    "Pct": 0.003,
+                    "Rule": {
+                        "Markup": 0.035
+                    },
+                    "Value": 4.902
+                }
+            },
+            "TotalCost": 84.902,
+            "TotalCostPct": 0.05,
+            "TradingCost": {
+                "Commissions": [
+                    {
+                        "Pct": 0.023,
+                        "Rule": {
+                            "BaseCommission": 20,
+                            "Currency": "USD"
+                        },
+                        "Value": 40
+                    },
+                    {
+                        "Pct": 0.023,
+                        "Rule": {
+                            "Currency": "USD",
+                            "MinCommission": 20
+                        },
+                        "Value": 40
+                    }
+                ]
+            }
+        },
+        "Short": {
+            "BuySell": "Sell",
+            "Currency": "USD",
+            "HoldingCost": {
+                "OvernightFinancing": {
+                    "Pct": 0.002,
+                    "Rule": {
+                        "Markup": 0.03
+                    },
+                    "Value": 4.202
+                },
+                "BorrowingCost": {
+                    "Pct": 1,
+                    "Rule": {
+                        "Pct": 1
+                    },
+                    "Value": 3461.1
+                },
+                "CustodyFee": {
+                    "Pct": 0.0,
+                    "Rule": {
+                        "Currency": "EUR",
+                        "MinFee": 0
+                    },
+                    "Value": 0.0
+                }
+            },
+            "TotalCost": 84.202,
+            "TotalCostPct": 0.049,
+            "TradingCost": {
+                "Commissions": [
+                    {
+                        "Pct": 0.023,
+                        "Rule": {
+                            "BaseCommission": 20,
+                            "Currency": "USD"
+                        },
+                        "Value": 40
+                    },
+                    {
+                        "Pct": 0.023,
+                        "Rule": {
+                            "Currency": "USD",
+                            "MinCommission": 20
+                        },
+                        "Value": 40
+                    }
+                ]
+            }
+        }
+    },
+    "CostCalculationAssumptions": [
+        "IncludesOpenAndCloseCost",
+        "EquivalentOpenAndClosePrice",
+        "BasisOnLastClosePrice",
+        "ConversionCostNotIncluded",
+        "InterbankChargesExcluded"
+    ],
+    "HoldingPeriodInDays": 30,
+    "Instrument": "Apple Inc.",
+    "Price": 170.42,
+    "Uic": 211
+}

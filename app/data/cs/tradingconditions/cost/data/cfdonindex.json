@@ -1,0 +1,108 @@
+{
+    "AccountCurrency": "EUR",
+    "AccountID": "",
+    "Amount": 1000,
+    "AssetType": "CfdOnIndex",
+    "Cost": {
+        "Long": {
+            "BuySell": "Buy",
+            "Currency": "EUR",
+            "HoldingCost": {
+                "OvernightFinancing": {
+                    "Pct": 0.002,
+                    "Rule": {
+                        "Markup": 0.025
+                    },
+                    "Value": 423.54
+                }
+            },
+            "TotalCost": 20868.5,
+            "TotalCostPct": 0.101,
+            "TradingCost": {
+                "Commissions": [
+                    {
+                        "Pct": 0.04,
+                        "Rule": {
+                            "Currency": "EUR",
+                            "RateOnAmount": 0.0002
+                        },
+                        "Value": 8244.96
+                    }
+                ],
+                "Spread": {
+                    "DisplayDecimals": 0,
+                    "Pct": 0.058,
+                    "Rule": {
+                        "Value": 12
+                    },
+                    "Value": 12000
+                },
+                "Tax": [
+                    {
+                        "Rule": {
+                            "CalculationType": "FixedAmount",
+                            "Description": "Italian Financial Transaction Tax",
+                            "Value": 200
+                        },
+                        "Value": 200
+                    }
+                ]
+            }
+        },
+        "Short": {
+            "BuySell": "Sell",
+            "Currency": "EUR",
+            "HoldingCost": {
+                "OvernightFinancing": {
+                    "Pct": 0.002,
+                    "Rule": {
+                        "Markup": 0.03
+                    },
+                    "Value": 508.25
+                }
+            },
+            "TotalCost": 20953.21,
+            "TotalCostPct": 0.102,
+            "TradingCost": {
+                "Commissions": [
+                    {
+                        "Pct": 0.04,
+                        "Rule": {
+                            "Currency": "EUR",
+                            "RateOnAmount": 0.0002
+                        },
+                        "Value": 8244.96
+                    }
+                ],
+                "Spread": {
+                    "DisplayDecimals": 0,
+                    "Pct": 0.058,
+                    "Rule": {
+                        "Value": 12
+                    },
+                    "Value": 12000
+                },
+                "Tax": [
+                    {
+                        "Rule": {
+                            "CalculationType": "FixedAmount",
+                            "Description": "Italian Financial Transaction Tax",
+                            "Value": 200
+                        },
+                        "Value": 200
+                    }
+                ]
+            }
+        }
+    },
+    "CostCalculationAssumptions": [
+        "IncludesOpenAndCloseCost",
+        "EquivalentOpenAndClosePrice",
+        "BasisOnLastClosePrice",
+        "InterbankChargesExcluded"
+    ],
+    "HoldingPeriodInDays": 30,
+    "Instrument": "Italy 40",
+    "Price": 20612.4,
+    "Uic": 5770
+}

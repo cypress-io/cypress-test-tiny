@@ -1,0 +1,111 @@
+{
+    "AccountCurrency": "EUR",
+    "AmountCurrency": "EUR",
+    "CommissionLimits": [
+        {
+            "Currency": "USD",
+            "OrderAction": "ExecuteOrder"
+        }
+    ],
+    "ExposureLimits": [
+        {
+            "Currency": "USD",
+            "Identifier": "EUR",
+            "Level": "Currency",
+            "RuleType": "Value",
+            "Value": 115000000
+        },
+        {
+            "Currency": "USD",
+            "Identifier": "USD",
+            "Level": "Currency",
+            "RuleType": "Value",
+            "Value": 115000000
+        },
+        {
+            "Currency": "USD",
+            "Identifier": "Fx-NOP",
+            "Level": "Asset",
+            "RuleType": "Value",
+            "Value": 50000000
+        }
+    ],
+    "IndicativeSpread": {
+        "CalculationTime": "2019-06-13T11:46:27.812424Z",
+        "PipSize": 0.0001,
+        "Tenors": [
+            {
+                "Period": "1D",
+                "Spread": 6.1
+            },
+            {
+                "Period": "1W",
+                "Spread": 7.1
+            },
+            {
+                "Period": "2W",
+                "Spread": 7.1
+            },
+            {
+                "Period": "1M",
+                "Spread": 5.1
+            },
+            {
+                "Period": "2M",
+                "Spread": 6.1
+            },
+            {
+                "Period": "3M",
+                "Spread": 6.1
+            },
+            {
+                "Period": "6M",
+                "Spread": 8.1
+            },
+            {
+                "Period": "9M",
+                "Spread": 8.1
+            },
+            {
+                "Period": "1Y",
+                "Spread": 9.1
+            }
+        ]
+    },
+    "InstrumentCurrency": "EUR",
+    "IsTradable": true,
+    "MarginTierRequirement": {
+        "Entries": [
+            {
+                "ExtraWeekMarginRate": 0.02,
+                "InitialMarginRate": 0.04,
+                "IntraWeekMarginRate": 0.01,
+                "TierLowerBound": 0
+            }
+        ],
+        "TierCurrency": "USD"
+    },
+    "MaxStreamingAmountFarDate": 20000,
+    "MaxStreamingAmountNearDate": 3000,
+    "MinOrderSize": 100,
+    "MinOrderSizeCurrency": "EUR",
+    "Rating": 0,
+    "ScheduledTradingConditions": [
+        {
+            "ScheduledDate": "2019-06-20T00:00:00",
+            "TradingCondition": {
+                "MarginTierRequirement": {
+                    "Entries": [
+                        {
+                            "ExtraWeekMarginRate": 0.0045,
+                            "InitialMarginRate": 0.0055,
+                            "IntraWeekMarginRate": 0.0035,
+                            "TierLowerBound": 0
+                        }
+                    ],
+                    "TierCurrency": "USD"
+                }
+            }
+        }
+    ]
+}

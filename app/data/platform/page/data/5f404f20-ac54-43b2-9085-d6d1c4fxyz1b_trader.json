@@ -1,0 +1,66 @@
+{
+    "Name": "srdonetf",
+    "Sections": [
+        {
+            "Type": "Header",
+            "IsDividerShown": false,
+            "IsNarrow": false,
+            "Name": "header",
+            "Title": "",
+            "Id": "57fd5a5e-e77a-4782-b4a6-536e526d2f33"
+        },
+        {
+            "Type": "MarketDepth",
+            "IsDividerShown": true,
+            "Title": "MarketDepth",
+            "Name": "MarketDepthSection",
+            "Id": "MarketDepth",
+            "TabId": "Overview"
+        },
+        {
+            "Type": "InstrumentChart",
+            "IsDividerShown": true,
+            "Title": "PriceChart",
+            "Name": "ChartSection",
+            "Id": "InstrumentChart",
+            "TabId": "Overview"
+        },
+        {
+            "Type": "NewsList",
+            "IsDividerShown": false,
+            "LayoutType": "stretch",
+            "viewType": "grid",
+            "NewsLists": [
+                {
+                    "Title": "",
+                    "NewsLimit": 10,
+                    "Id": "eb01c89c-9107-4ed6-9aaa-2da77f4d6bab1"
+                }
+            ],
+            "Name": "latest news - newslistsection",
+            "Title": "Latest news",
+            "Tags": null,
+            "Id": "a228164d-5213-47fb-a526-4297556275e72"
+        },
+        {
+            "Type": "AllocationChart",
+            "IsDividerShown": true,
+            "Name": "allocationchartsection",
+            "Title": "Allocation",
+            "Id": "allocationChart",
+            "Charts": ["asset", "sector", "countryWeight", "exposureCountry"]
+        },
+        {
+            "Type": "GeneralInfo",
+            "Title": "General Information",
+            "IsDividerShown": true,
+            "Id": "GeneralInfo",
+            "IsInset": true
+        }
+    ],
+    "Tags": null,
+    "Title": "",
+    "Url": "/page/product/SrdOnEtf",
+    "Id": "5f404f20-ac54-43b2-9085-d6d1c4fxyz1b_trader",
+    "IsBackButtonHidden": true
+}

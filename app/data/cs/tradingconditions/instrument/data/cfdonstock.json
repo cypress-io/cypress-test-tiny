@@ -1,0 +1,139 @@
+{
+    "AccountCurrency": "USD",
+    "AmountCurrency": "USD",
+    "CommissionLimits": [
+        {
+            "Currency": "USD",
+            "MinCommission": 20,
+            "OrderAction": "ExecuteOrder",
+            "PerUnitRate": 0.02
+        }
+    ],
+    "ExposureLimits": [
+        {
+            "Currency": "EUR",
+            "Identifier": "AAPL:xnas",
+            "Level": "Instrument",
+            "RuleType": "Value",
+            "Value": 1000000
+        }
+    ],
+    "Financing": {
+        "AskMarkUp": 0.035,
+        "BidMarkDown": 0.03
+    },
+    "InstrumentCurrency": "USD",
+    "IsShortTraded": true,
+    "IsTradable": true,
+    "MarginTierRequirement": {
+        "Entries": [
+            {
+                "ExtraWeekMarginRate": 0.01,
+                "InitialMarginRate": 0.02,
+                "IntraWeekMarginRate": 0.01,
+                "TierLowerBound": 0
+            },
+            {
+                "ExtraWeekMarginRate": 0.015,
+                "InitialMarginRate": 0.02,
+                "IntraWeekMarginRate": 0.015,
+                "TierLowerBound": 1000000
+            },
+            {
+                "ExtraWeekMarginRate": 0.02,
+                "InitialMarginRate": 0.02,
+                "IntraWeekMarginRate": 0.02,
+                "TierLowerBound": 3000000
+            },
+            {
+                "ExtraWeekMarginRate": 0.03,
+                "InitialMarginRate": 0.03,
+                "IntraWeekMarginRate": 0.03,
+                "TierLowerBound": 10000000
+            },
+            {
+                "ExtraWeekMarginRate": 0.045,
+                "InitialMarginRate": 0.045,
+                "IntraWeekMarginRate": 0.045,
+                "TierLowerBound": 25000000
+            },
+            {
+                "ExtraWeekMarginRate": 0.07,
+                "InitialMarginRate": 0.07,
+                "IntraWeekMarginRate": 0.07,
+                "TierLowerBound": 50000000
+            },
+            {
+                "ExtraWeekMarginRate": 1,
+                "InitialMarginRate": 1,
+                "IntraWeekMarginRate": 1,
+                "TierLowerBound": 150000000
+            }
+        ],
+        "TierCurrency": "USD"
+    },
+    "ScheduledTradingConditions": [
+        {
+            "ScheduledDate": "2020-08-31T08:29:39",
+            "TradingCondition": {
+                "MarginTierRequirement": {
+                    "Entries": [
+                        {
+                            "ExtraWeekMarginRate": 0.01,
+                            "InitialMarginRate": 0.02,
+                            "IntraWeekMarginRate": 0.01,
+                            "TierLowerBound": 0
+                        },
+                        {
+                            "ExtraWeekMarginRate": 0.015,
+                            "InitialMarginRate": 0.02,
+                            "IntraWeekMarginRate": 0.015,
+                            "TierLowerBound": 1000000
+                        },
+                        {
+                            "ExtraWeekMarginRate": 0.02,
+                            "InitialMarginRate": 0.02,
+                            "IntraWeekMarginRate": 0.02,
+                            "TierLowerBound": 3000000
+                        },
+                        {
+                            "ExtraWeekMarginRate": 0.03,
+                            "InitialMarginRate": 0.03,
+                            "IntraWeekMarginRate": 0.03,
+                            "TierLowerBound": 10000000
+                        },
+                        {
+                            "ExtraWeekMarginRate": 0.045,
+                            "InitialMarginRate": 0.045,
+                            "IntraWeekMarginRate": 0.045,
+                            "TierLowerBound": 25000000
+                        },
+                        {
+                            "ExtraWeekMarginRate": 0.07,
+                            "InitialMarginRate": 0.07,
+                            "IntraWeekMarginRate": 0.07,
+                            "TierLowerBound": 50000000
+                        },
+                        {
+                            "ExtraWeekMarginRate": 1,
+                            "InitialMarginRate": 1,
+                            "IntraWeekMarginRate": 1,
+                            "TierLowerBound": 150000000
+                        }
+                    ],
+                    "TierCurrency": "USD"
+                },
+                "Rating": 5
+            }
+        }
+    ],
+    "MarginSchedule": {
+        "CutoffTimeInMinutes": 0,
+        "IntradayMarginPct": 0.1,
+        "TimeZoneAbbreviation": "EDT",
+        "TimeZoneOffset": "-04:00:00"
+    },
+    "MaxExposure": 0,
+    "MinOrderSizeCurrency": "USD",
+    "Rating": 1
+}

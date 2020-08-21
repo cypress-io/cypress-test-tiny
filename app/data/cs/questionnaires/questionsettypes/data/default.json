@@ -1,0 +1,61 @@
+{
+    "__count": 14,
+    "Data": [
+        {
+            "QuestionSetTypeId": "0ece6e1b-3395-e811-80ed-00155d14292b",
+            "QuestionSetTypeName": "BGSaxo Appropriateness Test"
+        },
+        {
+            "QuestionSetTypeId": "f22a99e8-0bdd-e811-80f4-00155d14292b",
+            "QuestionSetTypeName": "Invester Platform Suitability Test"
+        },
+        {
+            "QuestionSetTypeId": "32b7b06c-77c2-e911-9103-00155dc39e5f",
+            "QuestionSetTypeName": "Saxo Trader Go Suitability Test"
+        },
+        {
+            "QuestionSetTypeId": "1ab8b06c-77c2-e911-9103-00155dc39e5f",
+            "QuestionSetTypeName": "Saxo Investor Suitability Test"
+        },
+        {
+            "QuestionSetTypeId": "f307e3dd-028d-e911-8119-001dd8b71cf7",
+            "QuestionSetTypeName": "HK Appropriateness Test"
+        },
+        {
+            "QuestionSetTypeId": "00eb02d3-39c6-df11-a44d-00215aaeaef2",
+            "QuestionSetTypeName": "Suitability Test"
+        },
+        {
+            "QuestionSetTypeId": "96d1d6a4-1985-df11-8db0-0022640ba414",
+            "QuestionSetTypeName": "Appropriateness Test"
+        },
+        {
+            "QuestionSetTypeId": "445e2a83-9e58-e711-9018-d485645e7728",
+            "QuestionSetTypeName": "MIFID II Appropriateness Test"
+        },
+        {
+            "QuestionSetTypeId": "70d5a955-a3f3-e311-90b7-d485645e7728",
+            "QuestionSetTypeName": "AutoTrading Suitability Test"
+        },
+        {
+            "QuestionSetTypeId": "05071aee-ac66-e611-9535-d485645e7728",
+            "QuestionSetTypeName": "Appropriateness Test FIDLEG"
+        },
+        {
+            "QuestionSetTypeId": "c711de5d-f462-e311-a524-d485645e7728",
+            "QuestionSetTypeName": "SCMAU"
+        },
+        {
+            "QuestionSetTypeId": "075d5674-7368-e311-a524-d485645e7728",
+            "QuestionSetTypeName": "SCM SG (Client Declaration)"
+        },
+        {
+            "QuestionSetTypeId": "8059210d-6040-e311-96a8-d485645ea7e8",
+            "QuestionSetTypeName": "SCM SG"
+        },
+        {
+            "QuestionSetTypeId": "817867cf-ad34-e211-9f63-d485645ea7e8",
+            "QuestionSetTypeName": "SCML"
+        }
+    ]
+}

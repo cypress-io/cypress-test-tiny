@@ -1,0 +1,63 @@
+{
+    "AmountDecimals": 0,
+    "AssetType": "StockOption",
+    "ContractSize": 100,
+    "CurrencyCode": "USD",
+    "DefaultAmount": 1,
+    "Description": "Apple Inc.  Jul2019 200 C",
+    "Exchange": {
+        "CountryCode": "US",
+        "ExchangeId": "OPRA",
+        "Name": "Options Price Reporting Authority",
+        "PriceSourceName": "OPRA"
+    },
+    "ExerciseCutOffTime": "16:30:00",
+    "ExpiryDate": "2019-07-26",
+    "Format": { "Decimals": 2, "OrderDecimals": 2, "StrikeDecimals": 2 },
+    "GroupId": 0,
+    "IncrementSize": 1,
+    "IsTradable": true,
+    "LotSizeText": "0",
+    "LotSizeType": "OddLotsNotAllowed",
+    "OptionsChainSubscriptionAllowed": true,
+    "OrderDistances": {
+        "EntryDefaultDistance": 0,
+        "EntryDefaultDistanceType": "Percentage",
+        "StopLimitDefaultDistance": 5,
+        "StopLimitDefaultDistanceType": "Pips",
+        "StopLossDefaultDistance": 0.5,
+        "StopLossDefaultDistanceType": "Percentage",
+        "StopLossDefaultEnabled": false,
+        "StopLossDefaultOrderType": "Stop",
+        "TakeProfitDefaultDistance": 0.5,
+        "TakeProfitDefaultDistanceType": "Percentage",
+        "TakeProfitDefaultEnabled": false
+    },
+    "OrderSetting": {},
+    "PriceCurrency": "USD",
+    "PriceToContractFactor": 100,
+    "PutCall": "Call",
+    "RelatedInstruments": [
+        { "AssetType": "CfdOnStock", "Uic": 211 },
+        { "AssetType": "Bond", "Uic": 9454653 },
+        { "AssetType": "Stock", "Uic": 211 }
+    ],
+    "RelatedOptionRoots": [309],
+    "RelatedOptionRootsEnhanced": [{ "AssetType": "StockOption", "OptionRootId": 309 }],
+    "Sector": { "Name": "Computer Hardware", "SectorId": "681" },
+    "SettlementStyle": "PhysicalDelivery",
+    "StandardAmounts": [1, 5, 10, 25, 50, 100, 500, 1000],
+    "StrikePrice": 200,
+    "SupportedOrderTypes": ["Limit"],
+    "Symbol": "AAPL/26N19C200:xcbf",
+    "TickSizeScheme": {
+        "DefaultTickSize": 0.05,
+        "Elements": [{ "HighPrice": 2.99, "TickSize": 0.01 }]
+    },
+    "TradableAs": ["StockOption"],
+    "TradableOn": [],
+    "TradingSignals": "NotAllowed",
+    "Uic": 13993712,
+    "UnderlyingAssetType": "Stock",
+    "UnderlyingUic": 211
+}

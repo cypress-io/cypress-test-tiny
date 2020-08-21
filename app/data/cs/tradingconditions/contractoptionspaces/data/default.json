@@ -1,0 +1,48 @@
+{
+    "AccountCurrency": "USD",
+    "CarryingCost": {
+        "MarkUpRate": 1.5
+    },
+    "CommissionLimits": [
+        {
+            "Currency": "USD",
+            "OrderAction": "ExecuteOrder",
+            "PerUnitRate": 6
+        }
+    ],
+    "ExchangeFeeRules": [
+        {
+            "Currency": "USD",
+            "Maximum": 9999,
+            "OrderAction": "ExecuteOrder",
+            "Type": "PerLot",
+            "Value": 1.47
+        }
+    ],
+
+    "ExerciseCutOffTime": "15:30:00",
+    "ExpirationTime": "13:00:00",
+    "ExpiryTime": "0001-01-01T13:00:00.000000Z",
+
+    "ExposureLimits": [
+        {
+            "Identifier": "HG",
+            "Level": "BaseContractNet",
+            "RuleType": "Amount",
+            "Value": 120
+        }
+    ],
+    "HoldingFee": {
+        "FromPeriodInDays": 31,
+        "Value": 1
+    },
+    "InstrumentCurrency": "USD",
+    "IsTradable": true,
+    "MarginRequirement": {
+        "MinimumUnderlyingValue": 0.5,
+        "Premium": 1,
+        "TradingProfile": "Basic",
+        "UnderlyingValueOvernightExposure": 1
+    },
+    "SettlementStyle": "PhysicalDelivery"
+}

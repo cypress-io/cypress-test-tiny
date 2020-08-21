@@ -1,0 +1,46 @@
+{
+    "AmountDecimals": 0,
+    "AssetType": "StockIndex",
+    "CurrencyCode": "EUR",
+    "DefaultAmount": 0,
+    "Description": "AEX Index",
+    "Exchange": {
+        "CountryCode": "NL",
+        "ExchangeId": "AMS",
+        "Name": "Euronext Amsterdam",
+        "PriceSourceName": "Euronext"
+    },
+    "Format": { "Decimals": 2, "OrderDecimals": 2 },
+    "GroupId": 0,
+    "IncrementSize": 0,
+    "Isin": "NL0000000107",
+    "IssuerCountry": "NL",
+    "IsTradable": false,
+    "OrderSetting": {},
+    "PriceCurrency": "EUR",
+    "RelatedInstruments": [],
+    "RelatedOptionRoots": [1, 10627713],
+    "RelatedOptionRootsEnhanced": [
+        { "AssetType": "StockIndexOption", "OptionRootId": 1 },
+        { "AssetType": "CfdIndexOption", "OptionRootId": 10627713 }
+    ],
+    "SupportedOrderTypes": [
+        "Market",
+        "Limit",
+        "StopIfTraded",
+        "TrailingStopIfTraded",
+        "StopLimit"
+    ],
+    "Symbol": "AEX.I",
+    "TickSizeScheme": {
+        "DefaultTickSize": 0.05,
+        "Elements": [
+            { "HighPrice": 9.999, "TickSize": 0.001 },
+            { "HighPrice": 49.995, "TickSize": 0.005 },
+            { "HighPrice": 99.99, "TickSize": 0.01 }
+        ]
+    },
+    "TradableOn": [],
+    "TradingSignals": "NotAllowed",
+    "Uic": 1957254
+}

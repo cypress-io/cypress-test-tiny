@@ -1,0 +1,145 @@
+{
+    "Data": [
+        {
+            "NetPositionBase": {
+                "Amount": -80000,
+                "AssetType": "FxSpot",
+                "CanBeClosed": true,
+                "ClientId": "1260653",
+                "IsMarketOpen": true,
+                "NumberOfRelatedOrders": 1,
+                "PositionsAccount": "test1",
+                "SinglePositionId": "1480377793",
+                "SinglePositionStatus": "Open",
+                "Uic": 21,
+                "ValueDate": "2019-10-03T00:00:00.000000Z"
+            },
+            "NetPositionId": "EURUSD__FxSpot",
+            "Positions": [
+                {
+                    "PositionBase": {
+                        "AccountId": "test1",
+                        "AccountKey": "acc-key-1",
+                        "Amount": -80000,
+                        "AssetType": "FxSpot",
+                        "CanBeClosed": true,
+                        "ClientId": "1260653",
+                        "CloseConversionRateSettled": false,
+                        "CorrelationKey": "5b1bd492-2ceb-4e6c-ab1d-f871068eaf04",
+                        "ExecutionTimeOpen": "2019-10-01T10:07:22.701353Z",
+                        "IsMarketOpen": true,
+                        "OpenPrice": 1.08962,
+                        "RelatedOpenOrders": [
+                            {
+                                "Amount": 100000,
+                                "Duration": {
+                                    "DurationType": "GoodTillCancel"
+                                },
+                                "OpenOrderType": "Limit",
+                                "OrderId": "262949115",
+                                "OrderPrice": 1.0622,
+                                "Status": "Working"
+                            }
+                        ],
+                        "SourceOrderId": "288220754",
+                        "SpotDate": "2019-10-03",
+                        "Status": "Open",
+                        "Uic": 21,
+                        "ValueDate": "2019-10-03T00:00:00.000000Z"
+                    },
+                    "PositionId": "1480377793",
+                    "PositionView": {}
+                }
+            ],
+            "LastUpdated": "2019-10-01T10:15:32.039Z"
+        },
+        {
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 3,
+                "Description": "Apple Inc.",
+                "Format": "Normal",
+                "Symbol": "AAPL:xnas"
+            },
+            "Exchange": {
+                "Description": "NASDAQ",
+                "ExchangeId": "NASDAQ",
+                "IsOpen": false
+            },
+            "NetPositionBase": {
+                "Amount": -100,
+                "AmountLong": 0,
+                "AmountShort": 100,
+                "AssetType": "CfdOnStock",
+                "CanBeClosed": true,
+                "ClientId": "2147044530",
+                "IsMarketOpen": false,
+                "NumberOfRelatedOrders": 1,
+                "OpeningDirection": "Sell",
+                "PositionsAccount": "test1",
+                "SinglePositionId": "157490640",
+                "SinglePositionStatus": "Open",
+                "Uic": 211
+            },
+            "NetPositionId": "AAPL:xnas__CfdOnShare",
+            "NetPositionView": {
+                "AverageOpenPrice": 226.72,
+                "CalculationReliability": "OkWithConditions",
+                "CurrentPrice": 227.03,
+                "CurrentPriceDelayMinutes": 15,
+                "CurrentPriceLastTraded": "2019-10-04T19:59:59.863000Z",
+                "CurrentPriceType": "LastTraded",
+                "Exposure": -22703,
+                "ExposureCurrency": "USD",
+                "ExposureInBaseCurrency": -18415.08,
+                "InstrumentPriceDayPercentChange": 2.8,
+                "PositionCount": 1,
+                "PositionsAverageBuyPrice": 0,
+                "PositionsAverageSellPrice": 226.72,
+                "PositionsNotClosedCount": 1,
+                "ProfitLossOnTrade": -31,
+                "ProfitLossOnTradeInBaseCurrency": -25.15,
+                "Status": "Open",
+                "TradeCostsTotal": -2000,
+                "TradeCostsTotalInBaseCurrency": -1622.26
+            },
+            "Positions": [
+                {
+                    "PositionBase": {
+                        "AccountId": "test1",
+                        "AccountKey": "acc-key-1",
+                        "Amount": -100,
+                        "AssetType": "CfdOnStock",
+                        "CanBeClosed": true,
+                        "ClientId": "2147044530",
+                        "CloseConversionRateSettled": false,
+                        "CorrelationKey": "c578de50-e4bd-4ce9-ae22-06b534a884b7",
+                        "ExecutionTimeOpen": "2019-10-07T12:22:53.865897Z",
+                        "IsForceOpen": true,
+                        "IsMarketOpen": false,
+                        "OpenPrice": 184.84,
+                        "RelatedOpenOrders": [
+                            {
+                                "Amount": 100,
+                                "Duration": {
+                                    "DurationType": "GoodTillCancel"
+                                },
+                                "OpenOrderType": "Limit",
+                                "OrderId": "257986308",
+                                "OrderPrice": 181.84,
+                                "Status": "Working"
+                            }
+                        ],
+                        "SourceOrderId": "59297309",
+                        "Status": "Open",
+                        "Uic": 211,
+                        "ValueDate": "2019-10-07T00:00:00.000000Z"
+                    },
+                    "PositionId": "157490640",
+                    "PositionView": {}
+                }
+            ],
+            "LastUpdated": "2019-10-07T12:23:24.112Z"
+        }
+    ]
+}

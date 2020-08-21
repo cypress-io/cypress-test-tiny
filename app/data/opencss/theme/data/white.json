@@ -1,0 +1,1293 @@
+{
+    "theme-variables": {
+        "windowframe-titlebar-macos-bg-start": {
+            "type": "color",
+            "r": 245,
+            "g": 245,
+            "b": 245,
+            "a": 1
+        },
+        "windowframe-titlebar-macos-bg-end": {
+            "type": "color",
+            "r": 245,
+            "g": 245,
+            "b": 245,
+            "a": 1
+        },
+        "windowframe-titlebar-macos-border": {
+            "type": "color",
+            "r": 220,
+            "g": 220,
+            "b": 220,
+            "a": 1
+        },
+        "windowframe-titlebar-macos-active-bg-start": {
+            "type": "color",
+            "r": 228,
+            "g": 228,
+            "b": 228,
+            "a": 1
+        },
+        "windowframe-titlebar-macos-active-bg-end": {
+            "type": "color",
+            "r": 206,
+            "g": 206,
+            "b": 206,
+            "a": 1
+        },
+        "windowframe-titlebar-macos-active-border": {
+            "type": "color",
+            "r": 179,
+            "g": 179,
+            "b": 179,
+            "a": 1
+        },
+        "app-base": { "type": "color", "r": 255, "g": 255, "b": 255, "a": 1 },
+        "app-bg": { "type": "color", "r": 238, "g": 238, "b": 238, "a": 1 },
+        "app-underlay-bg": { "type": "color", "r": 0, "g": 0, "b": 0, "a": 1 },
+        "app-bg-gradient-edge": { "type": "color", "r": 254, "g": 254, "b": 254, "a": 1 },
+        "app-bg-gradient-mid": { "type": "color", "r": 255, "g": 255, "b": 255, "a": 1 },
+        "app-header-border": { "type": "color", "r": 183, "g": 183, "b": 183, "a": 1 },
+        "app-scroll-bg": { "type": "color", "r": 136, "g": 136, "b": 136, "a": 1 },
+        "app-scroll-astro-bg": { "type": "color", "r": 187, "g": 187, "b": 187, "a": 1 },
+        "app-scroll-border": { "type": "color", "r": 136, "g": 136, "b": 136, "a": 1 },
+        "app-scroll-width": { "type": "dimension", "value": 8, "unit": "px" },
+        "app-scroll-bg-ie": { "type": "color", "r": 221, "g": 221, "b": 221, "a": 1 },
+        "app-scroll-border-ie": { "type": "color", "r": 153, "g": 153, "b": 153, "a": 1 },
+        "app-scroll-track-ie": { "type": "color", "r": 255, "g": 255, "b": 255, "a": 1 },
+        "app-color": { "type": "color", "r": 17, "g": 17, "b": 17, "a": 1 },
+        "app-error-color": { "type": "color", "r": 238, "g": 153, "b": 0, "a": 1 },
+        "app-active-color": { "type": "color", "r": 255, "g": 81, "b": 0, "a": 1 },
+        "app-etch-color": { "type": "color", "r": 255, "g": 255, "b": 255, "a": 1 },
+        "app-inverse-color": { "type": "color", "r": 0, "g": 0, "b": 0, "a": 1 },
+        "app-nav-color": { "type": "color", "r": 136, "g": 136, "b": 136, "a": 1 },
+        "app-nav-active-color": { "type": "color", "r": 17, "g": 17, "b": 17, "a": 1 },
+        "pro-app-nav-color": { "type": "color", "r": 136, "g": 136, "b": 136, "a": 1 },
+        "pro-app-nav-border-color": {
+            "type": "color",
+            "r": 187,
+            "g": 187,
+            "b": 187,
+            "a": 1
+        },
+        "app-content-bg": { "type": "color", "r": 255, "g": 255, "b": 255, "a": 1 },
+        "app-related-bg": { "type": "color", "r": 249, "g": 249, "b": 249, "a": 1 },
+        "app-highlight-bg": { "type": "color", "r": 255, "g": 251, "b": 204, "a": 1 },
+        "app-active-bg": { "type": "color", "r": 238, "g": 238, "b": 238, "a": 1 },
+        "app-keyline": { "type": "color", "r": 204, "g": 204, "b": 204, "a": 1 },
+        "app-hairline": { "type": "color", "r": 221, "g": 221, "b": 221, "a": 1 },
+        "app-transline": { "type": "color", "r": 255, "g": 255, "b": 255, "a": 1 },
+        "app-etchline": { "type": "color", "r": 255, "g": 255, "b": 255, "a": 1 },
+        "app-meta-color": { "type": "color", "r": 136, "g": 136, "b": 136, "a": 1 },
+        "app-muted-color": { "type": "color", "r": 170, "g": 170, "b": 170, "a": 1 },
+        "app-sup-bg": { "type": "color", "r": 229, "g": 229, "b": 229, "a": 1 },
+        "app-sup-color": { "type": "color", "r": 17, "g": 17, "b": 17, "a": 1 },
+        "app-sup-label-color": { "type": "color", "r": 255, "g": 255, "b": 255, "a": 1 },
+        "app-sup-active-bg": { "type": "color", "r": 213, "g": 213, "b": 213, "a": 1 },
+        "app-sup-active-color": { "type": "color", "r": 17, "g": 17, "b": 17, "a": 1 },
+        "app-sup-border": { "type": "color", "r": 229, "g": 229, "b": 229, "a": 1 },
+        "app-sub-bg": { "type": "color", "r": 255, "g": 255, "b": 255, "a": 1 },
+        "app-sub-color": { "type": "color", "r": 102, "g": 102, "b": 102, "a": 1 },
+        "app-sub-active-bg": { "type": "color", "r": 255, "g": 255, "b": 255, "a": 1 },
+        "app-sub-active-color": { "type": "color", "r": 102, "g": 102, "b": 102, "a": 1 },
+        "app-sub-active-border": {
+            "type": "color",
+            "r": 221,
+            "g": 221,
+            "b": 221,
+            "a": 1
+        },
+        "app-sub-deep-bg": { "type": "color", "r": 255, "g": 255, "b": 255, "a": 1 },
+        "app-sub-deep-color": { "type": "color", "r": 102, "g": 102, "b": 102, "a": 1 },
+        "app-sub-deep-border": { "type": "color", "r": 221, "g": 221, "b": 221, "a": 1 },
+        "app-sub-deep-border-size": { "type": "dimension", "value": 1, "unit": "px" },
+        "app-sub-border": { "type": "color", "r": 221, "g": 221, "b": 221, "a": 1 },
+        "app-alt-content-bg": { "type": "color", "r": 238, "g": 238, "b": 238, "a": 1 },
+        "app-alt-related-bg": { "type": "color", "r": 204, "g": 204, "b": 204, "a": 1 },
+        "app-alt-accent-bg": { "type": "color", "r": 249, "g": 249, "b": 249, "a": 1 },
+        "app-alt-highlight-bg": { "type": "color", "r": 235, "g": 245, "b": 252, "a": 1 },
+        "app-alt-active-bg": { "type": "color", "r": 221, "g": 221, "b": 221, "a": 1 },
+        "app-alt-keyline": { "type": "color", "r": 187, "g": 187, "b": 187, "a": 1 },
+        "app-alt-hairline": { "type": "color", "r": 221, "g": 221, "b": 221, "a": 1 },
+        "app-alt-transline": { "type": "color", "r": 238, "g": 238, "b": 238, "a": 1 },
+        "app-alt-etchline": { "type": "color", "r": 255, "g": 255, "b": 255, "a": 1 },
+        "app-alt-meta-color": { "type": "color", "r": 102, "g": 102, "b": 102, "a": 1 },
+        "app-alt-muted-color": { "type": "color", "r": 170, "g": 170, "b": 170, "a": 1 },
+        "app-alt-sup-bg": { "type": "color", "r": 187, "g": 187, "b": 187, "a": 1 },
+        "app-alt-sup-color": { "type": "color", "r": 17, "g": 17, "b": 17, "a": 1 },
+        "app-alt-sup-label-color": {
+            "type": "color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+        },
+        "app-alt-sup-active-bg": {
+            "type": "color",
+            "r": 170,
+            "g": 170,
+            "b": 170,
+            "a": 1
+        },
+        "app-alt-sup-active-color": {
+            "type": "color",
+            "r": 17,
+            "g": 17,
+            "b": 17,
+            "a": 1
+        },
+        "app-alt-sup-border": { "type": "color", "r": 187, "g": 187, "b": 187, "a": 1 },
+        "app-alt-sub-bg": { "type": "color", "r": 102, "g": 102, "b": 102, "a": 1 },
+        "app-alt-sub-color": { "type": "color", "r": 221, "g": 221, "b": 221, "a": 1 },
+        "app-alt-sub-active-bg": {
+            "type": "color",
+            "r": 136,
+            "g": 136,
+            "b": 136,
+            "a": 1
+        },
+        "app-alt-sub-active-color": {
+            "type": "color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+        },
+        "app-alt-sub-border": { "type": "color", "r": 68, "g": 68, "b": 68, "a": 1 },
+        "app-astro-active-bg": { "type": "color", "r": 235, "g": 235, "b": 235, "a": 1 },
+        "app-astro-keyline": { "type": "color", "r": 187, "g": 187, "b": 187, "a": 1 },
+        "app-astro-hairline": { "type": "color", "r": 238, "g": 238, "b": 238, "a": 1 },
+        "app-astro-meta-color": { "type": "color", "r": 102, "g": 102, "b": 102, "a": 1 },
+        "app-astro-sub-bg": { "type": "color", "r": 0, "g": 0, "b": 0, "a": 0 },
+        "app-astro-sub-active-bg": { "type": "color", "r": 0, "g": 0, "b": 0, "a": 0 },
+        "app-astro-sub-border": { "type": "color", "r": 219, "g": 219, "b": 219, "a": 1 },
+        "app-astro-related-border": {
+            "type": "color",
+            "r": 252,
+            "g": 252,
+            "b": 252,
+            "a": 1
+        },
+        "app-astro-divider-bg": { "type": "color", "r": 254, "g": 254, "b": 254, "a": 1 },
+        "app-astro-in-money-bg": {
+            "type": "color",
+            "r": 51,
+            "g": 153,
+            "b": 221,
+            "a": 0.05
+        },
+        "app-astro-sup-bg": { "type": "color", "r": 235, "g": 235, "b": 235, "a": 1 },
+        "app-astro-sup-active-bg": {
+            "type": "color",
+            "r": 219,
+            "g": 219,
+            "b": 219,
+            "a": 1
+        },
+        "app-icon-color": { "type": "color", "r": 136, "g": 136, "b": 136, "a": 1 },
+        "app-icon-runin-gutter": { "type": "dimension", "value": 4, "unit": "px" },
+        "icon-delete-color": { "type": "color", "r": 221, "g": 221, "b": 221, "a": 1 },
+        "icon-warn-color": { "type": "color", "r": 255, "g": 161, "b": 0, "a": 1 },
+        "icon-realtime-color": { "type": "color", "r": 0, "g": 168, "b": 0, "a": 1 },
+        "icon-exch-open-color": { "type": "color", "r": 0, "g": 168, "b": 0, "a": 1 },
+        "icon-exch-closed-color": { "type": "color", "r": 233, "g": 62, "b": 51, "a": 1 },
+        "icon-1click-color": { "type": "color", "r": 51, "g": 153, "b": 221, "a": 1 },
+        "icon-noprice-color": { "type": "color", "r": 238, "g": 153, "b": 0, "a": 1 },
+        "icon-insight-color": { "type": "color", "r": 251, "g": 211, "b": 51, "a": 1 },
+        "table-bg-accent": { "type": "color", "r": 244, "g": 244, "b": 244, "a": 1 },
+        "table-border": { "type": "color", "r": 221, "g": 221, "b": 221, "a": 1 },
+        "btn-outline-bg": { "type": "color", "r": 229, "g": 229, "b": 229, "a": 1 },
+        "btn-outline-color": { "type": "color", "r": 136, "g": 136, "b": 136, "a": 1 },
+        "btn-outline-hover-bg": { "type": "color", "r": 51, "g": 153, "b": 221, "a": 1 },
+        "btn-outline-height": { "type": "dimension", "value": 32, "unit": "px" },
+        "btn-clear-bg": { "type": "color", "r": 0, "g": 0, "b": 0, "a": 0 },
+        "btn-clear-color": { "type": "color", "r": 136, "g": 136, "b": 136, "a": 1 },
+        "btn-clear-hover-color": { "type": "color", "r": 34, "g": 34, "b": 34, "a": 1 },
+        "btn-disabled-bg": { "type": "color", "r": 0, "g": 0, "b": 0, "a": 0 },
+        "btn-disabled-color": { "type": "color", "r": 170, "g": 170, "b": 170, "a": 1 },
+        "btn-disabled-border": { "type": "color", "r": 204, "g": 204, "b": 204, "a": 1 },
+        "btn-link-icon-hover-color": {
+            "type": "color",
+            "r": 34,
+            "g": 34,
+            "b": 34,
+            "a": 1
+        },
+        "btn-toggled-color": { "type": "color", "r": 51, "g": 153, "b": 221, "a": 1 },
+        "btn-highlight-color": { "type": "color", "r": 51, "g": 153, "b": 221, "a": 1 },
+        "btn-unchecked-bg": { "type": "color", "r": 229, "g": 229, "b": 229, "a": 1 },
+        "btn-unchecked-color": { "type": "color", "r": 17, "g": 17, "b": 17, "a": 1 },
+        "btn-checked-bg": { "type": "color", "r": 213, "g": 213, "b": 213, "a": 1 },
+        "btn-checked-color": { "type": "color", "r": 17, "g": 17, "b": 17, "a": 1 },
+        "btn-alt-unchecked-bg": { "type": "color", "r": 229, "g": 229, "b": 229, "a": 1 },
+        "btn-alt-unchecked-color": { "type": "color", "r": 17, "g": 17, "b": 17, "a": 1 },
+        "btn-alt-checked-bg": { "type": "color", "r": 213, "g": 213, "b": 213, "a": 1 },
+        "btn-alt-checked-color": { "type": "color", "r": 17, "g": 17, "b": 17, "a": 1 },
+        "tooltipbtn-color": { "type": "color", "r": 170, "g": 170, "b": 170, "a": 1 },
+        "tooltipbtn-astro-color": {
+            "type": "color",
+            "r": 136,
+            "g": 136,
+            "b": 136,
+            "a": 1
+        },
+        "tooltipbtn-hover-color": { "type": "color", "r": 17, "g": 17, "b": 17, "a": 1 },
+        "actionbtn-bg": { "type": "color", "r": 229, "g": 229, "b": 229, "a": 1 },
+        "actionbtn-color": { "type": "color", "r": 17, "g": 17, "b": 17, "a": 1 },
+        "actionbtn-hover-bg": { "type": "color", "r": 213, "g": 213, "b": 213, "a": 1 },
+        "actionbtn-hover-color": { "type": "color", "r": 17, "g": 17, "b": 17, "a": 1 },
+        "actionbtn-active-bg": { "type": "color", "r": 213, "g": 213, "b": 213, "a": 1 },
+        "actionbtn-active-color": {
+            "type": "color",
+            "r": 51,
+            "g": 153,
+            "b": 221,
+            "a": 1
+        },
+        "actionbtn-border-radius": { "type": "dimension", "value": 2, "unit": "px" },
+        "combo-input-bg": { "type": "color", "r": 187, "g": 187, "b": 187, "a": 1 },
+        "combo-input-border": { "type": "color", "r": 187, "g": 187, "b": 187, "a": 1 },
+        "combo-input-color": { "type": "color", "r": 17, "g": 17, "b": 17, "a": 1 },
+        "combo-input-label-color": {
+            "type": "color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+        },
+        "combo-input-hover-bg": { "type": "color", "r": 170, "g": 170, "b": 170, "a": 1 },
+        "combo-input-hover-border": {
+            "type": "color",
+            "r": 170,
+            "g": 170,
+            "b": 170,
+            "a": 1
+        },
+        "combo-input-hover-color": { "type": "color", "r": 17, "g": 17, "b": 17, "a": 1 },
+        "combo-input-label-hover-color": {
+            "type": "color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+        },
+        "combo-input-action-btn-bg": {
+            "type": "color",
+            "r": 153,
+            "g": 153,
+            "b": 153,
+            "a": 1
+        },
+        "procomboinput-bg": { "type": "color", "r": 235, "g": 235, "b": 235, "a": 1 },
+        "procomboinput-border": { "type": "color", "r": 235, "g": 235, "b": 235, "a": 1 },
+        "procomboinput-label-color": {
+            "type": "color",
+            "r": 136,
+            "g": 136,
+            "b": 136,
+            "a": 1
+        },
+        "procomboinput-value-color": {
+            "type": "color",
+            "r": 51,
+            "g": 51,
+            "b": 51,
+            "a": 1
+        },
+        "procomboinput-value-hover-color": {
+            "type": "color",
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+        },
+        "procomboinput-icon-hover-color": {
+            "type": "color",
+            "r": 34,
+            "g": 34,
+            "b": 34,
+            "a": 1
+        },
+        "procomboinput-input-focus-bg": {
+            "type": "color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+        },
+        "procomboinput-alt-bg": { "type": "color", "r": 221, "g": 221, "b": 221, "a": 1 },
+        "input-border-radius": { "type": "dimension", "value": 0, "unit": null },
+        "input-bg": { "type": "color", "r": 255, "g": 255, "b": 255, "a": 1 },
+        "input-color": { "type": "color", "r": 102, "g": 102, "b": 102, "a": 1 },
+        "input-border": { "type": "color", "r": 221, "g": 221, "b": 221, "a": 1 },
+        "input-border-width": { "type": "dimension", "value": 1, "unit": "px" },
+        "input-placeholder-color": {
+            "type": "color",
+            "r": 170,
+            "g": 170,
+            "b": 170,
+            "a": 1
+        },
+        "input-focus-bg": { "type": "color", "r": 255, "g": 255, "b": 255, "a": 1 },
+        "input-focus-color": { "type": "color", "r": 102, "g": 102, "b": 102, "a": 1 },
+        "input-focus-ring-color": {
+            "type": "color",
+            "r": 221,
+            "g": 221,
+            "b": 221,
+            "a": 1
+        },
+        "input-alt-bg": { "type": "color", "r": 102, "g": 102, "b": 102, "a": 1 },
+        "input-alt-color": { "type": "color", "r": 221, "g": 221, "b": 221, "a": 1 },
+        "input-alt-border": { "type": "color", "r": 68, "g": 68, "b": 68, "a": 1 },
+        "input-alt-border-width": { "type": "dimension", "value": 1, "unit": "px" },
+        "input-alt-placeholder-color": {
+            "type": "color",
+            "r": 170,
+            "g": 170,
+            "b": 170,
+            "a": 1
+        },
+        "input-alt-focus-bg": { "type": "color", "r": 136, "g": 136, "b": 136, "a": 1 },
+        "input-alt-focus-color": {
+            "type": "color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+        },
+        "input-alt-focus-ring-color": {
+            "type": "color",
+            "r": 68,
+            "g": 68,
+            "b": 68,
+            "a": 1
+        },
+        "state-danger-color": { "type": "color", "r": 255, "g": 161, "b": 0, "a": 1 },
+        "state-placeholder-color": {
+            "type": "color",
+            "r": 255,
+            "g": 208,
+            "b": 127,
+            "a": 1
+        },
+        "state-danger-bg": { "type": "color", "r": 255, "g": 245, "b": 229, "a": 1 },
+        "state-danger-border": { "type": "color", "r": 255, "g": 189, "b": 76, "a": 1 },
+        "input-validation-color": { "type": "color", "r": 255, "g": 161, "b": 0, "a": 1 },
+        "input-validation-outline": {
+            "type": "color",
+            "r": 255,
+            "g": 161,
+            "b": 0,
+            "a": 1
+        },
+        "input-validation-message-bg": {
+            "type": "color",
+            "r": 255,
+            "g": 161,
+            "b": 0,
+            "a": 1
+        },
+        "input-validation-message-color": {
+            "type": "color",
+            "r": 34,
+            "g": 34,
+            "b": 34,
+            "a": 1
+        },
+        "input-validation-icon-color": {
+            "type": "color",
+            "r": 255,
+            "g": 161,
+            "b": 0,
+            "a": 1
+        },
+        "select-bg": { "type": "color", "r": 229, "g": 229, "b": 229, "a": 1 },
+        "select-color": { "type": "color", "r": 17, "g": 17, "b": 17, "a": 1 },
+        "select-options-bg": { "type": "color", "r": 221, "g": 221, "b": 221, "a": 1 },
+        "select-hover-bg": { "type": "color", "r": 213, "g": 213, "b": 213, "a": 1 },
+        "select-hover-color": { "type": "color", "r": 17, "g": 17, "b": 17, "a": 1 },
+        "select-alt-bg": { "type": "color", "r": 187, "g": 187, "b": 187, "a": 1 },
+        "select-alt-color": { "type": "color", "r": 17, "g": 17, "b": 17, "a": 1 },
+        "select-alt-hover-bg": { "type": "color", "r": 170, "g": 170, "b": 170, "a": 1 },
+        "select-alt-hover-color": { "type": "color", "r": 17, "g": 17, "b": 17, "a": 1 },
+        "radio-checkbox-icon-color": {
+            "type": "color",
+            "r": 17,
+            "g": 17,
+            "b": 17,
+            "a": 1
+        },
+        "radio-checkbox-icon-size": { "type": "dimension", "value": 15, "unit": "px" },
+        "radio-checkbox-icon-disabled-color": {
+            "type": "color",
+            "r": 170,
+            "g": 170,
+            "b": 170,
+            "a": 1
+        },
+        "form-group-label-size": { "type": "dimension", "value": 200, "unit": "px" },
+        "form-group-field-size": { "type": "dimension", "value": 255, "unit": "px" },
+        "popup-bg": { "type": "color", "r": 0, "g": 0, "b": 0, "a": 0.5 },
+        "popup-session-bg": { "type": "color", "r": 0, "g": 0, "b": 0, "a": 0.8 },
+        "popup-spread-x": { "type": "dimension", "value": 16, "unit": "px" },
+        "popup-spread-y": { "type": "dimension", "value": 1, "unit": "px" },
+        "popup-pane-bg": { "type": "color", "r": 255, "g": 255, "b": 255, "a": 1 },
+        "popup-border": { "type": "color", "r": 153, "g": 153, "b": 153, "a": 1 },
+        "popup-astro-border": { "type": "color", "r": 204, "g": 204, "b": 204, "a": 1 },
+        "popup-content-border": { "type": "color", "r": 255, "g": 255, "b": 255, "a": 1 },
+        "popup-arrow-size": { "type": "dimension", "value": 20, "unit": "px" },
+        "popup-inset": { "type": "dimension", "value": 8, "unit": "px" },
+        "modulepicker-border": { "type": "color", "r": 204, "g": 204, "b": 204, "a": 1 },
+        "modulepicker-inner-border": {
+            "type": "color",
+            "r": 238,
+            "g": 238,
+            "b": 238,
+            "a": 1
+        },
+        "load-color": { "type": "color", "r": 136, "g": 136, "b": 136, "a": 1 },
+        "load-mask-bg": { "type": "color", "r": 255, "g": 255, "b": 255, "a": 1 },
+        "load-subtle-dot-color-1": {
+            "type": "color",
+            "r": 221,
+            "g": 221,
+            "b": 221,
+            "a": 1
+        },
+        "load-subtle-dot-color-2": {
+            "type": "color",
+            "r": 204,
+            "g": 204,
+            "b": 204,
+            "a": 1
+        },
+        "load-subtle-dot-color-3": {
+            "type": "color",
+            "r": 170,
+            "g": 170,
+            "b": 170,
+            "a": 1
+        },
+        "load-mask-bg-translucent": {
+            "type": "color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 0.8
+        },
+        "tabs-frame-bg": { "type": "color", "r": 204, "g": 204, "b": 204, "a": 1 },
+        "tabs-sub-frame-bg": { "type": "color", "r": 255, "g": 255, "b": 255, "a": 1 },
+        "tabs-frame-border": { "type": "color", "r": 183, "g": 183, "b": 183, "a": 1 },
+        "tabs-sub-frame-border": {
+            "type": "color",
+            "r": 183,
+            "g": 183,
+            "b": 183,
+            "a": 1
+        },
+        "tabs-frame-border-size": { "type": "dimension", "value": 1, "unit": "px" },
+        "tabs-pane-border": { "type": "color", "r": 183, "g": 183, "b": 183, "a": 1 },
+        "tabs-active-color": { "type": "color", "r": 17, "g": 17, "b": 17, "a": 1 },
+        "tabs-inactive-color": { "type": "color", "r": 119, "g": 119, "b": 119, "a": 1 },
+        "tabs-active-bg": { "type": "color", "r": 187, "g": 187, "b": 187, "a": 1 },
+        "tabs-astro-header-bg": { "type": "color", "r": 0, "g": 0, "b": 0, "a": 0.02 },
+        "tabs-astro-masthead-border": {
+            "type": "color",
+            "r": 254,
+            "g": 254,
+            "b": 254,
+            "a": 1
+        },
+        "tabs-astro-frame-bg": { "type": "color", "r": 221, "g": 221, "b": 221, "a": 1 },
+        "tabs-astro-border": { "type": "color", "r": 238, "g": 238, "b": 238, "a": 1 },
+        "tabs-astro-link": { "type": "color", "r": 136, "g": 136, "b": 136, "a": 1 },
+        "pro-tabs-link-border": { "type": "color", "r": 255, "g": 255, "b": 255, "a": 1 },
+        "pro-tabs-active-icon-color": {
+            "type": "color",
+            "r": 136,
+            "g": 136,
+            "b": 136,
+            "a": 1
+        },
+        "pro-tabs-astro-panel-header-bg": {
+            "type": "color",
+            "r": 238,
+            "g": 238,
+            "b": 238,
+            "a": 1
+        },
+        "legacydivider-color": { "type": "color", "r": 102, "g": 102, "b": 102, "a": 1 },
+        "legacydivider-highlight-color": {
+            "type": "color",
+            "r": 17,
+            "g": 17,
+            "b": 17,
+            "a": 1
+        },
+        "legacydivider-spacing": { "type": "dimension", "value": 16, "unit": "px" },
+        "legacydivider-border": { "type": "color", "r": 255, "g": 255, "b": 255, "a": 1 },
+        "legacydivider-alt-border": {
+            "type": "color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+        },
+        "legacydivider-astro-border": {
+            "type": "color",
+            "r": 238,
+            "g": 238,
+            "b": 238,
+            "a": 1
+        },
+        "legacydivider-bg-start": {
+            "type": "color",
+            "r": 221,
+            "g": 221,
+            "b": 221,
+            "a": 1
+        },
+        "legacydivider-bg-end": { "type": "color", "r": 238, "g": 238, "b": 238, "a": 1 },
+        "datagrid-active-bg": { "type": "color", "r": 238, "g": 238, "b": 238, "a": 1 },
+        "datagrid-header-color": {
+            "type": "color",
+            "r": 136,
+            "g": 136,
+            "b": 136,
+            "a": 1
+        },
+        "datagrid-sort-hover-color": { "type": "color", "r": 8, "g": 8, "b": 8, "a": 1 },
+        "datagrid-selectable-row-bg": {
+            "type": "color",
+            "r": 238,
+            "g": 238,
+            "b": 238,
+            "a": 1
+        },
+        "datagrid-selectable-row-color": {
+            "type": "color",
+            "r": 17,
+            "g": 17,
+            "b": 17,
+            "a": 1
+        },
+        "datagrid-guide-row-bg": {
+            "type": "color",
+            "r": 250,
+            "g": 250,
+            "b": 250,
+            "a": 1
+        },
+        "chart-background": { "type": "color", "r": 0, "g": 0, "b": 0, "a": 0 },
+        "chart-container-background": {
+            "type": "color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+        },
+        "chart-text": { "type": "color", "r": 17, "g": 17, "b": 17, "a": 1 },
+        "chart-text-background": { "type": "color", "r": 0, "g": 0, "b": 0, "a": 0 },
+        "chart-text-border": { "type": "color", "r": 136, "g": 136, "b": 136, "a": 1 },
+        "chart-color-border": { "type": "color", "r": 221, "g": 221, "b": 221, "a": 1 },
+        "chart-line-color": { "type": "color", "r": 51, "g": 153, "b": 221, "a": 1 },
+        "chart-plot-default": { "type": "color", "r": 51, "g": 153, "b": 221, "a": 1 },
+        "chart-plot-1": { "type": "color", "r": 51, "g": 153, "b": 221, "a": 1 },
+        "chart-plot-2": { "type": "color", "r": 188, "g": 143, "b": 143, "a": 1 },
+        "chart-plot-3": { "type": "color", "r": 0, "g": 0, "b": 0, "a": 1 },
+        "chart-plot-4": { "type": "color", "r": 0, "g": 255, "b": 0, "a": 1 },
+        "chart-plot-5": { "type": "color", "r": 128, "g": 0, "b": 128, "a": 1 },
+        "chart-plot-6": { "type": "color", "r": 255, "g": 0, "b": 255, "a": 1 },
+        "chart-plot-7": { "type": "color", "r": 233, "g": 62, "b": 51, "a": 1 },
+        "chart-plot-8": { "type": "color", "r": 95, "g": 158, "b": 160, "a": 1 },
+        "chart-plot-9": { "type": "color", "r": 210, "g": 105, "b": 30, "a": 1 },
+        "chart-plot-10": { "type": "color", "r": 255, "g": 192, "b": 203, "a": 1 },
+        "chart-major-axis-line": {
+            "type": "color",
+            "r": 221,
+            "g": 221,
+            "b": 221,
+            "a": 1
+        },
+        "chart-minor-axis-line": {
+            "type": "color",
+            "r": 221,
+            "g": 221,
+            "b": 221,
+            "a": 1
+        },
+        "chart-axis-background": { "type": "color", "r": 0, "g": 0, "b": 0, "a": 0 },
+        "chart-axis-border": { "type": "color", "r": 221, "g": 221, "b": 221, "a": 1 },
+        "chart-candlestick-up-border": {
+            "type": "color",
+            "r": 0,
+            "g": 168,
+            "b": 0,
+            "a": 1
+        },
+        "chart-candlestick-up-fill": {
+            "type": "color",
+            "r": 0,
+            "g": 168,
+            "b": 0,
+            "a": 1
+        },
+        "chart-candlestick-up-shadow": {
+            "type": "color",
+            "r": 0,
+            "g": 168,
+            "b": 0,
+            "a": 1
+        },
+        "chart-candlestick-down-border": {
+            "type": "color",
+            "r": 233,
+            "g": 62,
+            "b": 51,
+            "a": 1
+        },
+        "chart-candlestick-down-fill": {
+            "type": "color",
+            "r": 233,
+            "g": 62,
+            "b": 51,
+            "a": 1
+        },
+        "chart-candlestick-down-shadow": {
+            "type": "color",
+            "r": 233,
+            "g": 62,
+            "b": 51,
+            "a": 1
+        },
+        "chart-ohlc-up": { "type": "color", "r": 136, "g": 136, "b": 136, "a": 1 },
+        "chart-ohlc-down": { "type": "color", "r": 233, "g": 62, "b": 51, "a": 1 },
+        "chart-bol-upper": { "type": "color", "r": 233, "g": 62, "b": 51, "a": 1 },
+        "chart-bol-lower": { "type": "color", "r": 0, "g": 255, "b": 0, "a": 1 },
+        "chart-bol-fill": { "type": "color", "r": 221, "g": 221, "b": 221, "a": 1 },
+        "chart-cci-main-line": { "type": "color", "r": 136, "g": 136, "b": 136, "a": 1 },
+        "chart-cci-high": { "type": "color", "r": 233, "g": 62, "b": 51, "a": 1 },
+        "chart-cci-middle": { "type": "color", "r": 136, "g": 136, "b": 136, "a": 1 },
+        "chart-cci-low": { "type": "color", "r": 0, "g": 168, "b": 0, "a": 1 },
+        "chart-kch-upper": { "type": "color", "r": 233, "g": 62, "b": 51, "a": 1 },
+        "chart-kch-lower": { "type": "color", "r": 0, "g": 255, "b": 0, "a": 1 },
+        "chart-kch-middle": { "type": "color", "r": 52, "g": 152, "b": 219, "a": 1 },
+        "chart-kch-fill": { "type": "color", "r": 221, "g": 221, "b": 221, "a": 1 },
+        "chart-macd-base": { "type": "color", "r": 43, "g": 136, "b": 203, "a": 1 },
+        "chart-macd-trigger": { "type": "color", "r": 235, "g": 94, "b": 0, "a": 1 },
+        "chart-macd-histogram": { "type": "color", "r": 136, "g": 136, "b": 136, "a": 1 },
+        "chart-rsi-average": { "type": "color", "r": 136, "g": 136, "b": 136, "a": 1 },
+        "chart-rsi-overbought": { "type": "color", "r": 233, "g": 62, "b": 51, "a": 1 },
+        "chart-rsi-middle": { "type": "color", "r": 136, "g": 136, "b": 136, "a": 1 },
+        "chart-rsi-oversold": { "type": "color", "r": 0, "g": 168, "b": 0, "a": 1 },
+        "chart-splitter-color": { "type": "color", "r": 0, "g": 0, "b": 0, "a": 0 },
+        "chart-splitter-height": { "type": "dimension", "value": 18, "unit": "px" },
+        "chart-stoc-overbought": { "type": "color", "r": 233, "g": 62, "b": 51, "a": 1 },
+        "chart-stock-oversold": { "type": "color", "r": 136, "g": 136, "b": 136, "a": 1 },
+        "chart-stocfk": { "type": "color", "r": 239, "g": 130, "b": 82, "a": 1 },
+        "chart-stocfd": { "type": "color", "r": 0, "g": 255, "b": 0, "a": 1 },
+        "chart-stocsk": { "type": "color", "r": 136, "g": 136, "b": 136, "a": 1 },
+        "chart-stocsd": { "type": "color", "r": 233, "g": 62, "b": 51, "a": 1 },
+        "chart-pivot-resistance": { "type": "color", "r": 165, "g": 42, "b": 42, "a": 1 },
+        "chart-pivot": { "type": "color", "r": 255, "g": 153, "b": 0, "a": 1 },
+        "chart-pivot-support": { "type": "color", "r": 0, "g": 0, "b": 139, "a": 1 },
+        "chart-label-text": { "type": "color", "r": 255, "g": 255, "b": 255, "a": 1 },
+        "chart-label-background": {
+            "type": "color",
+            "r": 51,
+            "g": 153,
+            "b": 221,
+            "a": 1
+        },
+        "chart-label-border": { "type": "color", "r": 51, "g": 153, "b": 221, "a": 1 },
+        "chart-infobox-text-background": {
+            "type": "color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+        },
+        "chart-infobox-text-border": {
+            "type": "color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+        },
+        "chart-infobox-text": { "type": "color", "r": 17, "g": 17, "b": 17, "a": 1 },
+        "chart-plot-line-width": { "type": "dimension", "value": 2, "unit": "px" },
+        "chart-order-buy-color": { "type": "color", "r": 51, "g": 153, "b": 221, "a": 1 },
+        "chart-order-sell-color": { "type": "color", "r": 233, "g": 62, "b": 51, "a": 1 },
+        "chart-order-buy-distance-color": {
+            "type": "color",
+            "r": 51,
+            "g": 51,
+            "b": 51,
+            "a": 1
+        },
+        "chart-order-sell-distance-color": {
+            "type": "color",
+            "r": 51,
+            "g": 51,
+            "b": 51,
+            "a": 1
+        },
+        "chart-order-buy-entry-type-text-color": {
+            "type": "color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+        },
+        "chart-order-sell-entry-type-text-color": {
+            "type": "color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+        },
+        "chart-order-buy-amount-text-color": {
+            "type": "color",
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+        },
+        "chart-order-sell-amount-text-color": {
+            "type": "color",
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+        },
+        "chart-order-distance-text-background": {
+            "type": "color",
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+        },
+        "chart-order-cost-text-background": {
+            "type": "color",
+            "r": 68,
+            "g": 68,
+            "b": 68,
+            "a": 1
+        },
+        "chart-order-buy-text-color": {
+            "type": "color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+        },
+        "chart-order-sell-text-color": {
+            "type": "color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+        },
+        "chart-order-buy-not-working-color": {
+            "type": "color",
+            "r": 255,
+            "g": 153,
+            "b": 0,
+            "a": 1
+        },
+        "chart-order-sell-not-working-color": {
+            "type": "color",
+            "r": 255,
+            "g": 153,
+            "b": 0,
+            "a": 1
+        },
+        "chart-order-buy-label-background": {
+            "type": "color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+        },
+        "chart-order-sell-label-background": {
+            "type": "color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+        },
+        "chart-order-buy-label-text": {
+            "type": "color",
+            "r": 17,
+            "g": 17,
+            "b": 17,
+            "a": 1
+        },
+        "chart-order-sell-label-Text": {
+            "type": "color",
+            "r": 17,
+            "g": 17,
+            "b": 17,
+            "a": 1
+        },
+        "chart-order-group": { "type": "color", "r": 136, "g": 136, "b": 136, "a": 1 },
+        "chart-position-long-amount-text-color": {
+            "type": "color",
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+        },
+        "chart-position-short-amount-text-color": {
+            "type": "color",
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+        },
+        "chart-position-triangle-border": {
+            "type": "color",
+            "r": 238,
+            "g": 238,
+            "b": 238,
+            "a": 1
+        },
+        "chart-position-triangle-border-width": {
+            "type": "dimension",
+            "value": 1,
+            "unit": "px"
+        },
+        "chart-bid-label-text": { "type": "color", "r": 51, "g": 153, "b": 221, "a": 1 },
+        "chart-bid-label-background": { "type": "color", "r": 0, "g": 0, "b": 0, "a": 0 },
+        "chart-bid-label-border": {
+            "type": "color",
+            "r": 51,
+            "g": 153,
+            "b": 221,
+            "a": 1
+        },
+        "chart-ask-label-text": { "type": "color", "r": 233, "g": 62, "b": 51, "a": 1 },
+        "chart-ask-label-background": { "type": "color", "r": 0, "g": 0, "b": 0, "a": 0 },
+        "chart-ask-label-border": { "type": "color", "r": 233, "g": 62, "b": 51, "a": 1 },
+        "chart-ask-price-line-color": {
+            "type": "color",
+            "r": 233,
+            "g": 62,
+            "b": 51,
+            "a": 1
+        },
+        "chart-bid-price-line-color": {
+            "type": "color",
+            "r": 51,
+            "g": 153,
+            "b": 221,
+            "a": 1
+        },
+        "chart-indicative-prices-color": {
+            "type": "color",
+            "r": 17,
+            "g": 17,
+            "b": 17,
+            "a": 1
+        },
+        "chart-indicative-prices-background-color": {
+            "type": "color",
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+        },
+        "chart-annotation-overlay": {
+            "type": "color",
+            "r": 136,
+            "g": 136,
+            "b": 136,
+            "a": 1
+        },
+        "chart-annotation-overlay-message": {
+            "type": "color",
+            "r": 51,
+            "g": 153,
+            "b": 221,
+            "a": 1
+        },
+        "chart-wpr-main-line": { "type": "color", "r": 136, "g": 136, "b": 136, "a": 1 },
+        "chart-adx": { "type": "color", "r": 136, "g": 136, "b": 136, "a": 1 },
+        "chart-collapsed-panel-height": {
+            "type": "dimension",
+            "value": 16,
+            "unit": "px"
+        },
+        "chart-collapsed-panel-background": {
+            "type": "color",
+            "r": 238,
+            "g": 238,
+            "b": 238,
+            "a": 1
+        },
+        "chart-trade-signals-buy": {
+            "type": "color",
+            "r": 51,
+            "g": 153,
+            "b": 221,
+            "a": 1
+        },
+        "chart-trade-signals-sell": {
+            "type": "color",
+            "r": 238,
+            "g": 34,
+            "b": 34,
+            "a": 1
+        },
+        "chart-trade-signals-target": {
+            "type": "color",
+            "r": 170,
+            "g": 170,
+            "b": 170,
+            "a": 1
+        },
+        "chart-positionsummarybox-bg": {
+            "type": "color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 0.8
+        },
+        "chart-overview-chart-prev-close-color": {
+            "type": "color",
+            "r": 51,
+            "g": 153,
+            "b": 221,
+            "a": 1.0
+        },
+        "chart-overview-chart-volume-color": {
+            "type": "color",
+            "r": 238,
+            "g": 238,
+            "b": 238,
+            "a": 1
+        },
+        "graph-bg": { "type": "color", "r": 221, "g": 221, "b": 221, "a": 1 },
+        "calendar-impact-high": { "type": "color", "r": 246, "g": 96, "b": 0, "a": 1 },
+        "calendar-impact-medium": {
+            "type": "color",
+            "r": 255,
+            "g": 221,
+            "b": 85,
+            "a": 1
+        },
+        "calendar-impact-low": { "type": "color", "r": 153, "g": 153, "b": 153, "a": 1 },
+        "cardcarousel-bullet-color": {
+            "type": "color",
+            "r": 221,
+            "g": 221,
+            "b": 221,
+            "a": 1
+        },
+        "cardcarousel-bullet-active-color": {
+            "type": "color",
+            "r": 136,
+            "g": 136,
+            "b": 136,
+            "a": 1
+        },
+        "cardcarousel-border": { "type": "color", "r": 221, "g": 221, "b": 221, "a": 1 },
+        "tradebtn-default-bg": { "type": "color", "r": 187, "g": 187, "b": 187, "a": 1 },
+        "tradebtn-default-hover-bg": {
+            "type": "color",
+            "r": 170,
+            "g": 170,
+            "b": 170,
+            "a": 1
+        },
+        "tradebtn-default-color": { "type": "color", "r": 17, "g": 17, "b": 17, "a": 1 },
+        "tradebtn-disabled-active-bg": {
+            "type": "color",
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.05
+        },
+        "tradetile-astro-active-bg": {
+            "type": "color",
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.01
+        },
+        "tradetile-astro-border": {
+            "type": "color",
+            "r": 221,
+            "g": 221,
+            "b": 221,
+            "a": 1
+        },
+        "dealerbox-astro-bg": { "type": "color", "r": 255, "g": 255, "b": 255, "a": 1 },
+        "dealerbox-astro-active-bg": {
+            "type": "color",
+            "r": 251,
+            "g": 251,
+            "b": 251,
+            "a": 1
+        },
+        "prodealingbox-tradebtn-default-hover-bg": {
+            "type": "color",
+            "r": 170,
+            "g": 170,
+            "b": 170,
+            "a": 1
+        },
+        "prodealingbox-tradebtn-default-color": {
+            "type": "color",
+            "r": 17,
+            "g": 17,
+            "b": 17,
+            "a": 1
+        },
+        "prodealingbox-tradebtn-disabled-active-bg": {
+            "type": "color",
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.05
+        },
+        "datepicker-bg": { "type": "color", "r": 187, "g": 187, "b": 187, "a": 1 },
+        "datepicker-disabled-color": {
+            "type": "color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+        },
+        "datepicker-disabled-bg": {
+            "type": "color",
+            "r": 221,
+            "g": 221,
+            "b": 221,
+            "a": 1
+        },
+        "datepicker-hover-bg": { "type": "color", "r": 102, "g": 102, "b": 102, "a": 1 },
+        "datepicker-astro-bg": { "type": "color", "r": 0, "g": 0, "b": 0, "a": 0 },
+        "datepicker-astro-color": {
+            "type": "color",
+            "r": 136,
+            "g": 136,
+            "b": 136,
+            "a": 1
+        },
+        "datepicker-astro-border-color": {
+            "type": "color",
+            "r": 221,
+            "g": 221,
+            "b": 221,
+            "a": 1
+        },
+        "notification-input-background": {
+            "type": "color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+        },
+        "notification-hairline-color": {
+            "type": "color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+        },
+        "notification-item-bg": { "type": "color", "r": 221, "g": 221, "b": 221, "a": 1 },
+        "notification-item-meta-color": {
+            "type": "color",
+            "r": 102,
+            "g": 102,
+            "b": 102,
+            "a": 1
+        },
+        "disclaimer-color": { "type": "color", "r": 153, "g": 153, "b": 153, "a": 1 },
+        "footer-bg": { "type": "color", "r": 204, "g": 204, "b": 204, "a": 1 },
+        "ua-head-bg": { "type": "color", "r": 221, "g": 221, "b": 221, "a": 1 },
+        "ua-body-bg": { "type": "color", "r": 204, "g": 204, "b": 204, "a": 1 },
+        "ua-well-bg": { "type": "color", "r": 255, "g": 255, "b": 255, "a": 1 },
+        "ua-well-border": { "type": "color", "r": 183, "g": 183, "b": 183, "a": 1 },
+        "marketoverview-header-bg": {
+            "type": "color",
+            "r": 204,
+            "g": 204,
+            "b": 204,
+            "a": 1
+        },
+        "demodialog-hairline": { "type": "color", "r": 204, "g": 204, "b": 204, "a": 1 },
+        "masthead-icon-text-color": { "type": "color", "r": 0, "g": 0, "b": 0, "a": 1 },
+        "overlay-bg": { "type": "color", "r": 0, "g": 0, "b": 0, "a": 0.75 },
+        "depthtraderbtn-disabled-active-bg": {
+            "type": "color",
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.05
+        },
+        "search-chevron-icon-color": {
+            "type": "color",
+            "r": 170,
+            "g": 170,
+            "b": 170,
+            "a": 1
+        },
+        "search-chevron-icon-hover-color": {
+            "type": "color",
+            "r": 238,
+            "g": 238,
+            "b": 238,
+            "a": 1
+        },
+        "search-chevron-icon-hover-astro-color": {
+            "type": "color",
+            "r": 17,
+            "g": 17,
+            "b": 17,
+            "a": 1
+        },
+        "color-primary": { "type": "color", "r": 51, "g": 153, "b": 221, "a": 1 },
+        "color-primary-hover": { "type": "color", "r": 68, "g": 170, "b": 238, "a": 1 },
+        "color-buy": { "type": "color", "r": 51, "g": 153, "b": 221, "a": 1 },
+        "color-sell": { "type": "color", "r": 238, "g": 34, "b": 34, "a": 1 },
+        "color-positive": { "type": "color", "r": 0, "g": 168, "b": 0, "a": 1 },
+        "color-negative": { "type": "color", "r": 233, "g": 62, "b": 51, "a": 1 },
+        "color-error": { "type": "color", "r": 255, "g": 161, "b": 0, "a": 1 },
+        "color-success": { "type": "color", "r": 0, "g": 168, "b": 0, "a": 1 },
+        "text-color-default": { "type": "color", "r": 17, "g": 17, "b": 17, "a": 1 },
+        "text-color-secondary": { "type": "color", "r": 136, "g": 136, "b": 136, "a": 1 },
+        "text-color-tertiary": { "type": "color", "r": 170, "g": 170, "b": 170, "a": 1 },
+        "text-color-inverted": { "type": "color", "r": 238, "g": 238, "b": 238, "a": 1 },
+        "action-text-color-default": {
+            "type": "color",
+            "r": 17,
+            "g": 17,
+            "b": 17,
+            "a": 1
+        },
+        "action-text-color-primary": {
+            "type": "color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+        },
+        "action-text-color-secondary": {
+            "type": "color",
+            "r": 136,
+            "g": 136,
+            "b": 136,
+            "a": 1
+        },
+        "action-text-color-disabled": {
+            "type": "color",
+            "r": 170,
+            "g": 170,
+            "b": 170,
+            "a": 1
+        },
+        "action-background-default": {
+            "type": "color",
+            "r": 235,
+            "g": 235,
+            "b": 235,
+            "a": 1
+        },
+        "action-background-default-hover": {
+            "type": "color",
+            "r": 219,
+            "g": 219,
+            "b": 219,
+            "a": 1
+        },
+        "action-background-primary": {
+            "type": "color",
+            "r": 51,
+            "g": 153,
+            "b": 221,
+            "a": 1
+        },
+        "action-background-primary-hover": {
+            "type": "color",
+            "r": 68,
+            "g": 170,
+            "b": 238,
+            "a": 1
+        },
+        "action-background-disabled": { "type": "color", "r": 0, "g": 0, "b": 0, "a": 0 },
+        "action-border-color-highlight": {
+            "type": "color",
+            "r": 221,
+            "g": 221,
+            "b": 221,
+            "a": 1
+        },
+        "action-border-color-disabled": {
+            "type": "color",
+            "r": 238,
+            "g": 238,
+            "b": 238,
+            "a": 1
+        },
+        "action-background-buy": { "type": "color", "r": 51, "g": 153, "b": 221, "a": 1 },
+        "action-background-buy-hover": {
+            "type": "color",
+            "r": 68,
+            "g": 170,
+            "b": 238,
+            "a": 1
+        },
+        "action-background-sell": { "type": "color", "r": 238, "g": 34, "b": 34, "a": 1 },
+        "action-background-sell-hover": {
+            "type": "color",
+            "r": 255,
+            "g": 51,
+            "b": 51,
+            "a": 1
+        },
+        "outline-color-default": { "type": "color", "r": 17, "g": 17, "b": 17, "a": 1 },
+        "background-gradient-default-1": {
+            "type": "color",
+            "r": 254,
+            "g": 254,
+            "b": 254,
+            "a": 1
+        },
+        "background-gradient-default-2": {
+            "type": "color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+        },
+        "background-gradient-highlight-1": {
+            "type": "color",
+            "r": 249,
+            "g": 249,
+            "b": 249,
+            "a": 1
+        },
+        "background-gradient-highlight-2": {
+            "type": "color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+        },
+        "background-app": { "type": "color", "r": 255, "g": 255, "b": 255, "a": 1 },
+        "background-selected": { "type": "color", "r": 238, "g": 238, "b": 238, "a": 1 },
+        "background-hover": { "type": "color", "r": 238, "g": 238, "b": 238, "a": 1 },
+        "border-color-default": { "type": "color", "r": 238, "g": 238, "b": 238, "a": 1 },
+        "border-color-highlight": {
+            "type": "color",
+            "r": 221,
+            "g": 221,
+            "b": 221,
+            "a": 1
+        },
+        "border-color-dimmed": { "type": "color", "r": 252, "g": 252, "b": 252, "a": 1 }
+    }
+}

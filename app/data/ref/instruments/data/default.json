@@ -1,0 +1,1073 @@
+{
+    "Data": [
+        {
+            "AssetType": "FxSpot",
+            "CurrencyCode": "JPY",
+            "Description": "Euro/Japanese Yen",
+            "ExchangeCountry": "DK",
+            "ExchangeId": "SBFX",
+            "ExchangeName": "Inter Bank",
+            "GroupId": 27987,
+            "Identifier": 18,
+            "IsKeywordMatch": true,
+            "SummaryType": "Instrument",
+            "Symbol": "EURJPY",
+            "TradableAs": [
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxKnockInOption",
+                "FxKnockOutOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption"
+            ]
+        },
+        {
+            "AssetType": "ContractFutures",
+            "CurrencyCode": "JPY",
+            "Description": "EURJPY - Dec 2018",
+            "ExchangeCountry": "US",
+            "ExchangeId": "CME",
+            "ExchangeName": "Chicago Mercantile Exchange",
+            "GroupId": 27649,
+            "Identifier": 9140315,
+            "IsKeywordMatch": true,
+            "PrimaryListing": 9140315,
+            "SummaryType": "Instrument",
+            "Symbol": "RYZ8",
+            "TradableAs": ["ContractFutures"]
+        },
+        {
+            "AssetType": "ContractFutures",
+            "CurrencyCode": "JPY",
+            "Description": "EURJPY - Mar 2019",
+            "ExchangeCountry": "US",
+            "ExchangeId": "CME",
+            "ExchangeName": "Chicago Mercantile Exchange",
+            "GroupId": 27649,
+            "Identifier": 9865498,
+            "IsKeywordMatch": true,
+            "PrimaryListing": 9140315,
+            "SummaryType": "Instrument",
+            "Symbol": "RYH9",
+            "TradableAs": ["ContractFutures"]
+        },
+        {
+            "AssetType": "CfdOnFutures",
+            "CurrencyCode": "JPY",
+            "Description": "Euro/Japanese Yen December 2018",
+            "DisplayHint": "Forex",
+            "ExchangeId": "",
+            "GroupId": 27649,
+            "Identifier": 10640618,
+            "PrimaryListing": 10640618,
+            "SummaryType": "Instrument",
+            "Symbol": "EURJPYRYDEC18",
+            "TradableAs": ["CfdOnFutures"]
+        },
+        {
+            "AssetType": "ContractFutures",
+            "CurrencyCode": "JPY",
+            "Description": "EURJPY - continuous",
+            "DisplayHint": "Continuous",
+            "ExchangeCountry": "US",
+            "ExchangeId": "CME",
+            "ExchangeName": "Chicago Mercantile Exchange",
+            "GroupId": 27649,
+            "Identifier": 9204,
+            "PrimaryListing": 9140315,
+            "SummaryType": "Instrument",
+            "Symbol": "RYc1"
+        },
+        {
+            "AssetType": "CfdOnIndex",
+            "CurrencyCode": "USD",
+            "Description": "US 500",
+            "ExchangeId": "",
+            "GroupId": 28955,
+            "Identifier": 4913,
+            "IsKeywordMatch": true,
+            "SummaryType": "Instrument",
+            "Symbol": "US500.I",
+            "TradableAs": ["CfdOnIndex"]
+        },
+        {
+            "AssetType": "CfdOnStock",
+            "CurrencyCode": "USD",
+            "Description": "Apple Inc.",
+            "ExchangeCountry": "US",
+            "ExchangeId": "NASDAQ",
+            "ExchangeName": "NASDAQ",
+            "GroupId": 28,
+            "Identifier": 211,
+            "PrimaryListing": 211,
+            "SummaryType": "Instrument",
+            "Symbol": "AAPL:xnas",
+            "TradableAs": ["CfdOnStock"]
+        },
+        {
+            "AssetType": "Stock",
+            "CurrencyCode": "USD",
+            "Description": "Fannie Mae",
+            "ExchangeCountry": "US",
+            "ExchangeId": "OOTC",
+            "ExchangeName": "OTC Markets Group (Pink Sheets)",
+            "GroupId": 0,
+            "Identifier": 47705,
+            "PrimaryListing": 47705,
+            "SummaryType": "Instrument",
+            "Symbol": "FNMA:xnas",
+            "TradableAs": ["Stock"]
+        },
+        {
+            "AssetType": "StockOption",
+            "CanParticipateInMultiLegOrder": true,
+            "Description": "Apple Inc. ",
+            "ExchangeCountry": "US",
+            "ExchangeId": "OPRA",
+            "ExchangeName": "Options Price Reporting Authority",
+            "GroupId": 34,
+            "Identifier": 309,
+            "SummaryType": "ContractOptionRoot",
+            "Symbol": "AAPL:xcbf"
+        },
+        {
+            "AssetType": "CfdOnStock",
+            "CurrencyCode": "EUR",
+            "Description": "Apple Inc.",
+            "ExchangeCountry": "DE",
+            "ExchangeId": "FSE",
+            "ExchangeName": "Deutsche Börse (XETRA)",
+            "GroupId": 28,
+            "Identifier": 35240,
+            "PrimaryListing": 211,
+            "SummaryType": "Instrument",
+            "Symbol": "APC:xetr",
+            "TradableAs": ["CfdOnStock"]
+        },
+        {
+            "AssetType": "Stock",
+            "CurrencyCode": "CHF",
+            "Description": "Apple Inc.",
+            "ExchangeCountry": "CH",
+            "ExchangeId": "SWX",
+            "ExchangeName": "SIX Swiss Exchange",
+            "GroupId": 28,
+            "Identifier": 7516928,
+            "PrimaryListing": 211,
+            "SummaryType": "Instrument",
+            "Symbol": "AAPL:xswx",
+            "TradableAs": ["Stock"],
+            "MarketData": {
+                "DividendYieldPct": 1.31,
+                "EPS": 2.18,
+                "MarketCap": 1059160216600,
+                "MarketCapLocalCurrency": 1059160216600,
+                "OneDayReturnPct": 0,
+                "OneMonthReturnPct": 7.14,
+                "OneWeekReturnPct": 4.44,
+                "PriceEarnings": 19.880716,
+                "PriceTargetUpside": -4.219463287682921,
+                "UpsidePct": -4.219463287682921
+            }
+        },
+        {
+            "AssetType": "Stock",
+            "CurrencyCode": "USD",
+            "Description": "Apple Inc.",
+            "ExchangeCountry": "US",
+            "ExchangeId": "NASDAQ",
+            "ExchangeName": "NASDAQ",
+            "GroupId": 28,
+            "Identifier": 211,
+            "PrimaryListing": 211,
+            "SummaryType": "Instrument",
+            "Symbol": "AAPL:xnas",
+            "TradableAs": ["Stock"]
+        },
+        {
+            "AssetType": "Stock",
+            "CurrencyCode": "EUR",
+            "Description": "Apple Inc.",
+            "ExchangeCountry": "DE",
+            "ExchangeId": "FSE",
+            "ExchangeName": "Deutsche Börse (XETRA)",
+            "GroupId": 28,
+            "Identifier": 35240,
+            "PrimaryListing": 211,
+            "SummaryType": "Instrument",
+            "Symbol": "APC:xetr",
+            "TradableAs": ["Stock"]
+        },
+        {
+            "AssetType": "Stock",
+            "CurrencyCode": "USD",
+            "Description": "Apple Hospitality REIT Inc.",
+            "ExchangeCountry": "US",
+            "ExchangeId": "NYSE",
+            "ExchangeName": "New York Stock Exchange",
+            "GroupId": 12174,
+            "Identifier": 2144236,
+            "PrimaryListing": 2144236,
+            "SummaryType": "Instrument",
+            "Symbol": "APLE:xnys",
+            "TradableAs": ["Stock"]
+        },
+        {
+            "AssetType": "Stock",
+            "CurrencyCode": "USD",
+            "Description": "Golden Apple Oil & Gas Inc.- NOCT",
+            "ExchangeCountry": "US",
+            "ExchangeId": "OOTC",
+            "ExchangeName": "OTC Markets Group (Pink Sheets)",
+            "GroupId": 2459,
+            "Identifier": 20968,
+            "PrimaryListing": 20968,
+            "SummaryType": "Instrument",
+            "Symbol": "GAPJ:xnas"
+        },
+        {
+            "AssetType": "Stock",
+            "CurrencyCode": "EUR",
+            "Description": "Applegreen Plc",
+            "ExchangeCountry": "IE",
+            "ExchangeId": "ISE",
+            "ExchangeName": "Irish Stock Exchange",
+            "GroupId": 13315,
+            "Identifier": 4598110,
+            "PrimaryListing": 4598110,
+            "SummaryType": "Instrument",
+            "Symbol": "APGN:xdub",
+            "TradableAs": ["Stock"]
+        },
+        {
+            "AssetType": "MutualFund",
+            "CurrencyCode": "EUR",
+            "Description": "BGF CONTINENTAL EUROPEAN FLEXIBLE E2",
+            "ExchangeCountry": "GB",
+            "ExchangeId": "MTU",
+            "ExchangeName": "",
+            "GroupId": 0,
+            "Identifier": 8244532,
+            "IssuerCountry": "LU",
+            "SummaryType": "Instrument",
+            "Symbol": "MIGOEEE.MFU",
+            "TradableAs": ["MutualFund"]
+        },
+        {
+            "AssetType": "FxSpot",
+            "CurrencyCode": "USD",
+            "Description": "Euro/US Dollar",
+            "ExchangeCountry": "DK",
+            "ExchangeId": "SBFX",
+            "ExchangeName": "Inter Bank",
+            "GroupId": 28817,
+            "Identifier": 21,
+            "IsKeywordMatch": true,
+            "SummaryType": "Instrument",
+            "Symbol": "EURUSD",
+            "TradableAs": [
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxKnockInOption",
+                "FxKnockOutOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures"
+            ]
+        },
+        {
+            "AssetType": "ContractFutures",
+            "CurrencyCode": "USD",
+            "Description": "EURUSD - continuous",
+            "DisplayHint": "Continuous",
+            "ExchangeCountry": "US",
+            "ExchangeId": "CME",
+            "ExchangeName": "Chicago Mercantile Exchange",
+            "GroupId": 28445,
+            "Identifier": 8178,
+            "PrimaryListing": 9865225,
+            "SummaryType": "Instrument",
+            "Symbol": "ECc1"
+        },
+        {
+            "AssetType": "ContractFutures",
+            "CurrencyCode": "USD",
+            "Description": "E-micro EURUSD - continuous",
+            "DisplayHint": "Continuous",
+            "ExchangeCountry": "US",
+            "ExchangeId": "CME",
+            "ExchangeName": "Chicago Mercantile Exchange",
+            "GroupId": 28587,
+            "Identifier": 39080,
+            "PrimaryListing": 11495645,
+            "SummaryType": "Instrument",
+            "Symbol": "M6Ec1"
+        },
+        {
+            "AssetType": "ContractFutures",
+            "CurrencyCode": "USD",
+            "Description": "E-mini EURUSD - continuous",
+            "DisplayHint": "Continuous",
+            "ExchangeCountry": "US",
+            "ExchangeId": "CME",
+            "ExchangeName": "Chicago Mercantile Exchange",
+            "GroupId": 28582,
+            "Identifier": 9058,
+            "PrimaryListing": 11495466,
+            "SummaryType": "Instrument",
+            "Symbol": "E7c1"
+        },
+        {
+            "AssetType": "ContractFutures",
+            "CurrencyCode": "USD",
+            "Description": "2099",
+            "DisplayHint": "Continuous",
+            "ExchangeCountry": "US",
+            "ExchangeId": "CME",
+            "ExchangeName": "Chicago Mercantile Exchange",
+            "GroupId": 0,
+            "Identifier": 9140204,
+            "PrimaryListing": 10795354,
+            "SummaryType": "Instrument",
+            "Symbol": "ECH9"
+        },
+        {
+            "AssetType": "ContractFutures",
+            "CurrencyCode": "USD",
+            "Description": "EURUSD - Sep 2019",
+            "ExchangeCountry": "US",
+            "ExchangeId": "CME",
+            "ExchangeName": "Chicago Mercantile Exchange",
+            "GroupId": 28900,
+            "Identifier": 10795354,
+            "PrimaryListing": 10795354,
+            "SummaryType": "Instrument",
+            "Symbol": "ECU9"
+        },
+        {
+            "AssetType": "CfdOnStock",
+            "CurrencyCode": "USD",
+            "Description": "Appian Corp.",
+            "ExchangeCountry": "US",
+            "ExchangeId": "NASDAQ",
+            "ExchangeName": "NASDAQ",
+            "GroupId": 13850,
+            "Identifier": 7010436,
+            "IssuerCountry": "US",
+            "PrimaryListing": 7010436,
+            "SummaryType": "Instrument",
+            "Symbol": "APPN:xnas",
+            "TradableAs": ["CfdOnStock"]
+        },
+        {
+            "AssetType": "CfdOnStock",
+            "CurrencyCode": "EUR",
+            "Description": "Applus Services SA",
+            "ExchangeCountry": "ES",
+            "ExchangeId": "SIBE",
+            "ExchangeName": "BME Spanish Exchanges",
+            "GroupId": 10314,
+            "Identifier": 856863,
+            "IssuerCountry": "ES",
+            "PrimaryListing": 856863,
+            "SummaryType": "Instrument",
+            "Symbol": "APPS:xmce",
+            "TradableAs": ["CfdOnStock"]
+        },
+        {
+            "AssetType": "Bond",
+            "CurrencyCode": "USD",
+            "Description": "Apple 1.1% 02 Aug 2019, USD",
+            "ExchangeCountry": "DK",
+            "ExchangeId": "BONDS",
+            "ExchangeName": "Generic Bonds exchange",
+            "GroupId": 66,
+            "Identifier": 13916128,
+            "IssuerCountry": "US",
+            "PrimaryListing": 6399739,
+            "SummaryType": "Instrument",
+            "Symbol": "APPLE-1.1-02AUG19",
+            "AdditionalInfo": {
+                "MinimumTradeSize": 10000
+            },
+            "MarketData": {
+                "Country": "IT",
+                "Yield": 0.607906674,
+                "YieldToMaturity": 0.607906674,
+                "YieldToWorst": 0.607906674
+            }
+        },
+        {
+            "AssetType": "Stock",
+            "CurrencyCode": "AUD",
+            "Description": "Appen Ltd",
+            "ExchangeCountry": "AU",
+            "ExchangeId": "ASX",
+            "ExchangeName": "Australian Securities Exchange",
+            "GroupId": 12533,
+            "Identifier": 4014859,
+            "IssuerCountry": "AU",
+            "PrimaryListing": 4014859,
+            "SummaryType": "Instrument",
+            "Symbol": "APX:xasx",
+            "TradableAs": ["Stock"]
+        },
+        {
+            "AssetType": "CfdOnStock",
+            "CurrencyCode": "USD",
+            "Description": "Apple Hospitality REIT Inc.",
+            "ExchangeCountry": "US",
+            "ExchangeId": "NYSE",
+            "ExchangeName": "New York Stock Exchange",
+            "GroupId": 11866,
+            "Identifier": 2144236,
+            "IssuerCountry": "US",
+            "PrimaryListing": 2144236,
+            "SummaryType": "Instrument",
+            "Symbol": "APLE:xnys",
+            "TradableAs": ["CfdOnStock"]
+        },
+        {
+            "AssetType": "Stock",
+            "CurrencyCode": "USD",
+            "Description": "Applied Industrial Technologies Inc.",
+            "ExchangeCountry": "US",
+            "ExchangeId": "NYSE",
+            "ExchangeName": "New York Stock Exchange",
+            "GroupId": 1855,
+            "Identifier": 16249,
+            "IssuerCountry": "US",
+            "PrimaryListing": 16249,
+            "SummaryType": "Instrument",
+            "Symbol": "AIT:xnys",
+            "TradableAs": ["Stock"]
+        },
+        {
+            "AssetType": "Stock",
+            "CurrencyCode": "EUR",
+            "Description": "L&G Gold Mining UCITS ETF",
+            "ExchangeCountry": "DE",
+            "ExchangeId": "XETR_ETF",
+            "ExchangeName": "Deutsche Börse (Indices & ETFs)",
+            "GroupId": 0,
+            "Identifier": 49571,
+            "IssuerCountry": "IE",
+            "PrimaryListing": 49571,
+            "SummaryType": "Instrument",
+            "Symbol": "ETLX:xetr",
+            "TradableAs": ["Stock"]
+        },
+        {
+            "AssetType": "Stock",
+            "CurrencyCode": "DKK",
+            "Description": "Ambu A/S",
+            "ExchangeCountry": "DK",
+            "ExchangeId": "CSE",
+            "ExchangeName": "NASDAQ OMX",
+            "GroupId": 0,
+            "Identifier": 15254,
+            "IssuerCountry": "DK",
+            "PrimaryListing": 15254,
+            "SummaryType": "Instrument",
+            "Symbol": "AMBUb:xcse",
+            "TradableAs": ["Stock"]
+        },
+        {
+            "AdditionalInfo": {
+                "DaysToExpiry": 7,
+                "MinimumTradeSize": 1
+            },
+            "AssetType": "FuturesStrategy",
+            "CurrencyCode": "USD",
+            "Description": "Light Sweet Crude Oil (WTI) Spreads Nov-19 Jun-20 ",
+            "ExchangeCountry": "US",
+            "ExchangeId": "NYMEX",
+            "ExchangeName": "New York Mercantile Exchange",
+            "ExchangePriceSourceName": "CME Group",
+            "Format": {
+                "Decimals": 2,
+                "OrderDecimals": 2,
+                "PriceCurrency": "USD"
+            },
+            "GroupId": 29624,
+            "Identifier": 10367035,
+            "MarketData": {
+                "Country": "US"
+            },
+            "PrimaryListing": 10367037,
+            "SummaryType": "Instrument",
+            "Symbol": "CLX9-M0",
+            "TradableAs": ["FuturesStrategy"]
+        },
+        {
+            "AdditionalInfo": {
+                "DaysToExpiry": 7,
+                "MinimumTradeSize": 1
+            },
+            "AssetType": "FuturesStrategy",
+            "CurrencyCode": "USD",
+            "Description": "Light Sweet Crude Oil (WTI) Spreads Nov-19 Dec-20 ",
+            "ExchangeCountry": "US",
+            "ExchangeId": "NYMEX",
+            "ExchangeName": "New York Mercantile Exchange",
+            "ExchangePriceSourceName": "CME Group",
+            "Format": {
+                "Decimals": 2,
+                "OrderDecimals": 2,
+                "PriceCurrency": "USD"
+            },
+            "GroupId": 29624,
+            "Identifier": 10367036,
+            "MarketData": {
+                "Country": "US"
+            },
+            "PrimaryListing": 10367037,
+            "SummaryType": "Instrument",
+            "Symbol": "CLX9-Z0",
+            "TradableAs": ["FuturesStrategy"]
+        },
+        {
+            "AdditionalInfo": {
+                "DaysToExpiry": 7,
+                "MinimumTradeSize": 1
+            },
+            "AssetType": "FuturesStrategy",
+            "CurrencyCode": "USD",
+            "Description": "Light Sweet Crude Oil (WTI) Spreads Nov-19 Dec-19 ",
+            "ExchangeCountry": "US",
+            "ExchangeId": "NYMEX",
+            "ExchangeName": "New York Mercantile Exchange",
+            "ExchangePriceSourceName": "CME Group",
+            "Format": {
+                "Decimals": 2,
+                "OrderDecimals": 2,
+                "PriceCurrency": "USD"
+            },
+            "GroupId": 29624,
+            "Identifier": 10367037,
+            "MarketData": {
+                "Country": "US"
+            },
+            "PrimaryListing": 10367037,
+            "SummaryType": "Instrument",
+            "Symbol": "CLX9-Z9",
+            "TradableAs": ["FuturesStrategy"]
+        },
+        {
+            "AdditionalInfo": {
+                "DaysToExpiry": 7,
+                "MinimumTradeSize": 1
+            },
+            "AssetType": "FuturesStrategy",
+            "CurrencyCode": "USD",
+            "Description": "Light Sweet Crude Oil (WTI) Spreads Nov-19 Jan-20 ",
+            "ExchangeCountry": "US",
+            "ExchangeId": "NYMEX",
+            "ExchangeName": "New York Mercantile Exchange",
+            "ExchangePriceSourceName": "CME Group",
+            "Format": {
+                "Decimals": 2,
+                "OrderDecimals": 2,
+                "PriceCurrency": "USD"
+            },
+            "GroupId": 29624,
+            "Identifier": 10907492,
+            "MarketData": {
+                "Country": "US"
+            },
+            "PrimaryListing": 10367037,
+            "SummaryType": "Instrument",
+            "Symbol": "CLX9-F0",
+            "TradableAs": ["FuturesStrategy"]
+        },
+        {
+            "AdditionalInfo": {
+                "DaysToExpiry": 7,
+                "MinimumTradeSize": 1
+            },
+            "AssetType": "FuturesStrategy",
+            "CurrencyCode": "USD",
+            "Description": "Light Sweet Crude Oil (WTI) Spreads Nov-19 Feb-20 ",
+            "ExchangeCountry": "US",
+            "ExchangeId": "NYMEX",
+            "ExchangeName": "New York Mercantile Exchange",
+            "ExchangePriceSourceName": "CME Group",
+            "Format": {
+                "Decimals": 2,
+                "OrderDecimals": 2,
+                "PriceCurrency": "USD"
+            },
+            "GroupId": 29624,
+            "Identifier": 11272378,
+            "MarketData": {
+                "Country": "US"
+            },
+            "PrimaryListing": 10367037,
+            "SummaryType": "Instrument",
+            "Symbol": "CLX9-G0",
+            "TradableAs": ["FuturesStrategy"]
+        },
+        {
+            "AdditionalInfo": {
+                "DaysToExpiry": 0,
+                "MinimumTradeSize": 1
+            },
+            "AssetType": "FuturesStrategy",
+            "CurrencyCode": "USD",
+            "Description": "S&P Goldman Sachs Commodity Index Spread Nov-19 Oc",
+            "ExchangeCountry": "US",
+            "ExchangeId": "CME",
+            "ExchangeName": "Chicago Mercantile Exchange",
+            "ExchangePriceSourceName": "CME Group",
+            "Format": {
+                "Decimals": 2,
+                "OrderDecimals": 2,
+                "PriceCurrency": "USD"
+            },
+            "GroupId": 29867,
+            "Identifier": 14939440,
+            "MarketData": {
+                "Country": "US"
+            },
+            "PrimaryListing": 14939440,
+            "SummaryType": "Instrument",
+            "Symbol": "GIV9-X9",
+            "TradableAs": ["FuturesStrategy"]
+        },
+        {
+            "AdditionalInfo": {
+                "DaysToExpiry": 1,
+                "MinimumTradeSize": 1
+            },
+            "AssetType": "FuturesStrategy",
+            "CurrencyCode": "USD",
+            "Description": "CBOE Volatility Index (VIX) Spreads Oct-19 Nov-19 ",
+            "ExchangeCountry": "US",
+            "ExchangeId": "CFE",
+            "ExchangeName": "CFE - CBOE Futures Exchange",
+            "ExchangePriceSourceName": "CBOE",
+            "Format": {
+                "Decimals": 2,
+                "OrderDecimals": 2,
+                "PriceCurrency": "USD"
+            },
+            "GroupId": 29708,
+            "Identifier": 13347930,
+            "MarketData": {
+                "Country": "US"
+            },
+            "PrimaryListing": 13347930,
+            "SummaryType": "Instrument",
+            "Symbol": "VXV9-X9",
+            "TradableAs": ["FuturesStrategy"]
+        },
+        {
+            "AdditionalInfo": {
+                "DaysToExpiry": 1,
+                "MinimumTradeSize": 1
+            },
+            "AssetType": "FuturesStrategy",
+            "CurrencyCode": "USD",
+            "Description": "CBOE Volatility Index (VIX) Spreads Oct-19 Dec-19 ",
+            "ExchangeCountry": "US",
+            "ExchangeId": "CFE",
+            "ExchangeName": "CFE - CBOE Futures Exchange",
+            "ExchangePriceSourceName": "CBOE",
+            "Format": {
+                "Decimals": 2,
+                "OrderDecimals": 2,
+                "PriceCurrency": "USD"
+            },
+            "GroupId": 29708,
+            "Identifier": 13566192,
+            "MarketData": {
+                "Country": "US"
+            },
+            "PrimaryListing": 13347930,
+            "SummaryType": "Instrument",
+            "Symbol": "VXV9-Z9",
+            "TradableAs": ["FuturesStrategy"]
+        },
+        {
+            "AdditionalInfo": {
+                "DaysToExpiry": 1,
+                "MinimumTradeSize": 1
+            },
+            "AssetType": "FuturesStrategy",
+            "CurrencyCode": "USD",
+            "Description": "CBOE Volatility Index (VIX) Spreads Oct-19 Jan-20 ",
+            "ExchangeCountry": "US",
+            "ExchangeId": "CFE",
+            "ExchangeName": "CFE - CBOE Futures Exchange",
+            "ExchangePriceSourceName": "CBOE",
+            "Format": {
+                "Decimals": 2,
+                "OrderDecimals": 2,
+                "PriceCurrency": "USD"
+            },
+            "GroupId": 29708,
+            "Identifier": 13875651,
+            "MarketData": {
+                "Country": "US"
+            },
+            "PrimaryListing": 13347930,
+            "SummaryType": "Instrument",
+            "Symbol": "VXV9-F0",
+            "TradableAs": ["FuturesStrategy"]
+        },
+        {
+            "AdditionalInfo": {
+                "MinimumTradeSize": 10000
+            },
+            "AssetType": "Bond",
+            "CurrencyCode": "EUR",
+            "Description": "Republic of France 0% 09 Oct 2019, EUR",
+            "ExchangeCountry": "DE",
+            "ExchangeId": "EU_GOV",
+            "ExchangeName": "Bonds Europe Government",
+            "GroupId": 27675,
+            "Identifier": 11295033,
+            "IssuerCountry": "FR",
+            "MarketData": {
+                "Country": "FR",
+                "Yield": 0,
+                "YieldToMaturity": 0,
+                "YieldToWorst": 0
+            },
+            "PrimaryListing": 5061335,
+            "SummaryType": "Instrument",
+            "Symbol": "FRANCE-0-09OCT19",
+            "TradableAs": ["Bond"]
+        },
+        {
+            "AdditionalInfo": {
+                "MinimumTradeSize": 10000
+            },
+            "AssetType": "Bond",
+            "CurrencyCode": "EUR",
+            "Description": "Banca IMI FRN 09 Oct 2019, EUR",
+            "ExchangeCountry": "DE",
+            "ExchangeId": "BG_BONDS",
+            "ExchangeName": "BG Online Bonds",
+            "GroupId": 19780,
+            "Identifier": 11451439,
+            "IssuerCountry": "IT",
+            "MarketData": {
+                "Country": "IT",
+                "Yield": 0,
+                "YieldToMaturity": 0,
+                "YieldToWorst": 0
+            },
+            "PrimaryListing": 11451743,
+            "SummaryType": "Instrument",
+            "Symbol": "BANCAIMI-FRN-09OCT19",
+            "TradableAs": ["Bond"]
+        },
+        {
+            "AssetType": "Bond",
+            "CurrencyCode": "EUR",
+            "Description": "Vallourec 6.375% 15 Oct 2023, EUR",
+            "ExchangeCountry": "DE",
+            "ExchangeId": "EU_CP_HY",
+            "ExchangeName": "Bonds Europe Corporate - High Yield",
+            "GroupId": 0,
+            "Identifier": 10577403,
+            "IssuerCountry": "FR",
+            "PrimaryListing": 10577403,
+            "SummaryType": "Instrument",
+            "Symbol": "VALLOUREC-6.375-15OCT23"
+        },
+        {
+            "AssetType": "Stock",
+            "CurrencyCode": "USD",
+            "Description": "Facebook Inc.",
+            "ExchangeCountry": "US",
+            "ExchangeId": "NASDAQ",
+            "ExchangeName": "NASDAQ",
+            "Format": {
+                "Decimals": 2,
+                "OrderDecimals": 2,
+                "PriceCurrency": "USD"
+            },
+            "GroupId": 8692,
+            "Identifier": 174185,
+            "MarketData": {
+                "AnalystConsensus": {
+                    "Key": "StrongBuy",
+                    "Value": "StrongBuy"
+                },
+                "AnalystTargetPrice": 190.32,
+                "AverageExpectedSalesGrowthRatePct": 47.091,
+                "Country": "US",
+                "EPS": 5.39,
+                "MarketCap": 421649413690,
+                "MarketCapLocalCurrency": 421649413690,
+                "PriceEarnings": 22.522523,
+                "PriceTargetUpside": 28.01,
+                "Sector": {
+                    "Key": "Technology",
+                    "Value": "Technology"
+                }
+            },
+            "PrimaryListing": 174185,
+            "SummaryType": "Instrument",
+            "Symbol": "FB:xnas",
+            "TradableAs": ["Stock"]
+        },
+        {
+            "AssetType": "Stock",
+            "CurrencyCode": "DKK",
+            "Description": "Pandora A/S",
+            "ExchangeCountry": "DK",
+            "ExchangeId": "CSE",
+            "ExchangeName": "NASDAQ OMX Copenhagen",
+            "Format": {
+                "Decimals": 2,
+                "OrderDecimals": 2,
+                "PriceCurrency": "DKK"
+            },
+            "GroupId": 7037,
+            "Identifier": 48755,
+            "MarketData": {
+                "AverageExpectedSalesGrowthRatePct": 12.3268,
+                "Country": "DK",
+                "DividendYieldPct": 2.13,
+                "EPS": 51.8,
+                "MarketCap": 6641752303.767374,
+                "MarketCapLocalCurrency": 43500715403,
+                "PriceEarnings": 8.4246,
+                "Sector": {
+                    "Key": "Consumer Cyclical",
+                    "Value": "Consumer Cyclical"
+                }
+            },
+            "PrimaryListing": 48755,
+            "SummaryType": "Instrument",
+            "Symbol": "PNDORA:xcse",
+            "TradableAs": ["Stock"]
+        },
+        {
+            "AssetType": "ContractFutures",
+            "CurrencyCode": "HKD",
+            "Description": "Hang Seng Index - Oct 2019",
+            "ExchangeCountry": "HK",
+            "ExchangeId": "HKEX",
+            "ExchangeName": "Hong Kong Exchanges",
+            "GroupId": 24,
+            "Identifier": 14446170,
+            "PrimaryListing": 12390739,
+            "SummaryType": "Instrument",
+            "Symbol": "HSIV9",
+            "TradableAs": ["ContractFutures"]
+        },
+        {
+            "AssetType": "Stock",
+            "CurrencyCode": "GBP",
+            "Description": "Capital Gearing Trust Plc",
+            "ExchangeCountry": "GB",
+            "ExchangeId": "LSE_SETS",
+            "ExchangeName": "London Stock Exchange",
+            "GroupId": 25521,
+            "Identifier": 6215871,
+            "IssuerCountry": "GB",
+            "PrimaryListing": 6215871,
+            "SummaryType": "Instrument",
+            "Symbol": "CGT:xlon",
+            "TradableAs": ["Stock"]
+        },
+        {
+            "AssetType": "CfdIndexOption",
+            "CanParticipateInMultiLegOrder": false,
+            "Description": "DAX Index",
+            "ExchangeCountry": "DE",
+            "ExchangeId": "EUREX",
+            "ExchangeName": "Eurex",
+            "GroupId": 0,
+            "Identifier": 9946403,
+            "SummaryType": "ContractOptionRoot",
+            "Symbol": "ODAX/Z18C11700"
+        },
+        {
+            "AssetType": "SrdOnStock",
+            "CurrencyCode": "EUR",
+            "Description": "STMicroelectronics",
+            "Exchange": {
+                "CountryCode": "FR",
+                "ExchangeId": "PAR",
+                "Name": "Euronext Paris",
+                "TimeZoneId": "4"
+            },
+            "Format": {
+                "Decimals": 3,
+                "OrderDecimals": 3
+            },
+            "GroupId": 0,
+            "IncrementSize": 0,
+            "IsComplex": false,
+            "Isin": "NL0000226223",
+            "IssuerCountry": "NL",
+            "IssuerName": "STMicroelectronics",
+            "IsTradable": true,
+            "LotSizeType": "NotUsed",
+            "PriceCurrency": "EUR",
+            "Sector": {
+                "Name": "Semiconductors",
+                "SectorId": "1017"
+            },
+            "ShortTradeDisabled": false,
+            "Symbol": "STM:xpar",
+            "Uic": 1252,
+            "SummaryType": "Instrument"
+        },
+        {
+            "AssetType": "SrdOnEtf",
+            "CurrencyCode": "EUR",
+            "Description": "Lyxor UCITS ETF CAC 40",
+            "ExchangeCountry": "FR",
+            "ExchangeId": "PAR",
+            "ExchangeName": "Euronext Paris",
+            "GroupId": 2041,
+            "Identifier": 9104,
+            "IssuerCountry": "FR",
+            "PrimaryListing": 9104,
+            "SummaryType": "Instrument",
+            "Symbol": "CAC:xpar",
+            "TradableAs": ["SrdOnEtf"],
+            "Sector": {
+                "Name": "Semiconductors",
+                "SectorId": "1017"
+            },
+            "Exchange": {
+                "CountryCode": "FR",
+                "ExchangeId": "PAR",
+                "Name": "Euronext Paris",
+                "TimeZoneId": "4"
+            },
+            "Format": {
+                "Decimals": 3,
+                "OrderDecimals": 3
+            }
+        },
+        {
+            "AmountDecimals": 0,
+            "AssetType": "FuturesStrategy",
+            "ContractSize": 1,
+            "CurrencyCode": "USD",
+            "DefaultAmount": 0,
+            "DefaultSlippage": 0,
+            "DefaultSlippageType": "Ticks",
+            "Description": "Lean Hogs Spreads Jun-19 Jul-19 ",
+            "Exchange": {
+                "CountryCode": "US",
+                "ExchangeId": "CME",
+                "Name": "Chicago Mercantile Exchange",
+                "PriceSourceName": "CME Group"
+            },
+            "ExpiryDate": "2019-06-14",
+            "Format": { "Decimals": 3, "OrderDecimals": 3 },
+            "GroupId": 0,
+            "IncrementSize": 1,
+            "Isin": "",
+            "IsPitTraded": false,
+            "IsTradable": true,
+            "Legs": [
+                {
+                    "AssetType": "ContractFutures",
+                    "BuySell": "Buy",
+                    "Description": "Lean Hogs - Jun 2019",
+                    "LegNumber": 1,
+                    "Multiplier": 1,
+                    "Uic": 9450682
+                },
+                {
+                    "AssetType": "ContractFutures",
+                    "BuySell": "Sell",
+                    "Description": "Lean Hogs - Jul 2019",
+                    "LegNumber": 2,
+                    "Multiplier": 1,
+                    "Uic": 9647862
+                }
+            ],
+            "LotSizeText": "",
+            "MinimumTradeSize": 1,
+            "OrderDistances": {
+                "EntryDefaultDistance": 0.25,
+                "EntryDefaultDistanceType": "Percentage",
+                "StopLimitDefaultDistance": 5,
+                "StopLimitDefaultDistanceType": "Pips",
+                "StopLossDefaultDistance": 0.5,
+                "StopLossDefaultDistanceType": "Percentage",
+                "StopLossDefaultEnabled": false,
+                "StopLossDefaultOrderType": "Stop",
+                "TakeProfitDefaultDistance": 0.5,
+                "TakeProfitDefaultDistanceType": "Percentage",
+                "TakeProfitDefaultEnabled": false
+            },
+            "OrderSetting": {},
+            "PriceCurrency": "USX",
+            "PriceToContractFactor": 400,
+            "PrimaryListing": 9652951,
+            "RelatedInstruments": [
+                { "AssetType": "ContractFutures", "Uic": 9647862 },
+                { "AssetType": "CfdOnFutures", "Uic": 13748724 }
+            ],
+            "Sector": { "Name": "Meats", "SectorId": "252" },
+            "StandardAmounts": [1, 5, 10, 25, 50, 100, 500, 1000],
+            "StrategyType": "CalendarSpread",
+            "SupportedOrderTypes": ["Market", "Limit"],
+            "Symbol": "HEM9-N9",
+            "TickSize": 0.025,
+            "TradableAs": ["FuturesStrategy"],
+            "TradableOn": [],
+            "TradingSignals": "NotAllowed",
+            "Uic": 9652951,
+            "id": "9652951-FuturesStrategy"
+        },
+        {
+            "AssetType": "StockIndex",
+            "CurrencyCode": "USD",
+            "Description": "Dow Jones 1/100 Indu Index",
+            "DisplayHint": "Continuous",
+            "ExchangeCountry": "US",
+            "ExchangeId": "OPRA",
+            "ExchangeName": "Options Price Reporting Authority",
+            "GroupId": 0,
+            "Identifier": 52999,
+            "PrimaryListing": 11495466,
+            "SummaryType": "Instrument",
+            "Symbol": "DJX.I"
+        },
+        {
+            "AssetType": "Etf",
+            "CurrencyCode": "EUR",
+            "Description": "Lyxor UCITS ETF CAC 40",
+            "ExchangeCountry": "FR",
+            "ExchangeId": "PAR",
+            "ExchangeName": "Euronext Paris",
+            "GroupId": 2053,
+            "Identifier": 9104,
+            "IssuerCountry": "FR",
+            "PrimaryListing": 9104,
+            "SummaryType": "Instrument",
+            "Symbol": "CAC:xpar",
+            "TradableAs": ["Etf"]
+        },
+        {
+            "AssetType": "CfdOnEtf",
+            "CurrencyCode": "EUR",
+            "Description": "Lyxor UCITS ETF CAC 40",
+            "ExchangeCountry": "FR",
+            "ExchangeId": "PAR",
+            "ExchangeName": "Euronext Paris",
+            "GroupId": 2053,
+            "Identifier": 9104,
+            "IssuerCountry": "FR",
+            "PrimaryListing": 9104,
+            "SummaryType": "Instrument",
+            "Symbol": "CAC:xpar",
+            "TradableAs": ["CfdOnEtf"]
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "Legs": [
+        {
+            "AssetType": "StockOption",
+            "BuySell": "Buy",
+            "OptionData": {
+                "ExpiryDate": "2019-07-26",
+                "PutCall": "Put",
+                "StrikePrice": 180
+            },
+            "Uic": 13993712,
+            "Amount": 1
+        },
+        {
+            "AssetType": "StockOption",
+            "BuySell": "Sell",
+            "OptionData": {
+                "ExpiryDate": "2019-03-15",
+                "PutCall": "Put",
+                "StrikePrice": 185
+            },
+            "Uic": 11186176,
+            "Amount": 1
+        },
+        {
+            "AssetType": "StockOption",
+            "BuySell": "Sell",
+            "OptionData": {
+                "ExpiryDate": "2019-03-15",
+                "PutCall": "Call",
+                "StrikePrice": 190
+            },
+            "Uic": 11186141,
+            "Amount": 1
+        },
+        {
+            "AssetType": "StockOption",
+            "BuySell": "Buy",
+            "OptionData": {
+                "ExpiryDate": "2019-03-15",
+                "PutCall": "Call",
+                "StrikePrice": 195
+            },
+            "Uic": 11186146,
+            "Amount": 1
+        }
+    ],
+    "StrategyType": "IronCondor"
+}

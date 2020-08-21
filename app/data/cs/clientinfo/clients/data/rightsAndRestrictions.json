@@ -1,0 +1,117 @@
+{
+    "Data": [
+        {
+            "AccountId": "216053INET",
+            "ClientId": "2829174",
+            "Description": "Prohibition to transfer pledged account",
+            "ExternalAccountId": "APKE90000211000000000079413",
+            "InstrumentSymbolCode": "VOD:xlsn",
+            "InstrumentDescription": "Vodaphone",
+            "Quantity": 2.0,
+            "Reason": "Prohibition to transfer pledged account",
+            "RegistrationDate": "2019-02-21",
+            "StartDate": "2019-02-25"
+        },
+        {
+            "AccountId": "216053INET3",
+            "ClientId": "2829174",
+            "Description": "Amount restriction",
+            "EndDate": "2020-09-25",
+            "ExternalAccountId": "APKE9000000211000000052169",
+            "InstrumentSymbolCode": "VOD:xlsn",
+            "InstrumentDescription": "Vodaphone Corps",
+            "Quantity": 6.0,
+            "Reason": "Amount restriction",
+            "RegistrationDate": "2019-02-21",
+            "StartDate": "2019-06-27"
+        },
+        {
+            "AccountId": "216053INET2",
+            "ClientId": "2829174",
+            "Description": "Transfer restriction",
+            "EndDate": "2020-06-15",
+            "ExternalAccountId": "APKE90000000211000000025641",
+            "InstrumentSymbolCode": "VOD:xlsn",
+            "InstrumentDescription": "Vodaphone Inc",
+            "Quantity": 5.0,
+            "Reason": "Transfer restriction",
+            "RegistrationDate": "2019-02-17",
+            "StartDate": "2019-01-22"
+        },
+        {
+            "AccountId": "216053INET5",
+            "ClientId": "2829174",
+            "Description": "Account Summary View right",
+            "EndDate": "2020-06-15",
+            "ExternalAccountId": "APKE90000211000000000079598",
+            "InstrumentSymbolCode": "VOD:xlsn",
+            "InstrumentDescription": "Vodaphone",
+            "Quantity": 2.0,
+            "Reason": "Account Summary View right",
+            "RegistrationDate": "2019-02-21",
+            "StartDate": "2019-02-23"
+        },
+        {
+            "AccountId": "216053INET4",
+            "ClientId": "2829174",
+            "Description": "Profile Edit Restrictions",
+            "EndDate": "2022-02-25",
+            "ExternalAccountId": "APKE9000000211000000052147",
+            "InstrumentSymbolCode": "VOD:xlsn",
+            "InstrumentDescription": "Vodaphone Corps",
+            "Quantity": 6.0,
+            "Reason": "Profile Edit Restrictions",
+            "RegistrationDate": "2019-02-21",
+            "StartDate": "2019-02-25"
+        },
+        {
+            "AccountId": "216053INET6",
+            "ClientId": "2829174",
+            "Description": "Transfer summary view restriction",
+            "ExternalAccountId": "APKE90000000211000000025123",
+            "InstrumentSymbolCode": "VOD:xlsn",
+            "InstrumentDescription": "Vodaphone Inc",
+            "Quantity": 5.0,
+            "Reason": "Transfer summary view restriction",
+            "RegistrationDate": "2019-02-17",
+            "StartDate": "2019-02-28"
+        },
+        {
+            "AccountId": "216053INET7",
+            "ClientId": "2829174",
+            "Description": "Password reset restrictions",
+            "EndDate": "2020-02-25",
+            "ExternalAccountId": "APKE90000211000000000079951",
+            "InstrumentSymbolCode": "VOD:xlsn",
+            "InstrumentDescription": "Vodaphone",
+            "Quantity": 2.0,
+            "Reason": "Password reset restrictions",
+            "RegistrationDate": "2019-02-21",
+            "StartDate": "2019-02-25"
+        },
+        {
+            "AccountId": "216053INET8",
+            "ClientId": "2829174",
+            "Description": "Trading summary view restrictions",
+            "EndDate": "2020-02-28",
+            "ExternalAccountId": "APKE9000000211000000052469",
+            "InstrumentSymbolCode": "VOD:xlsn",
+            "InstrumentDescription": "Vodaphone Corps",
+            "Quantity": 6.0,
+            "RegistrationDate": "2019-02-21",
+            "StartDate": "2019-02-22"
+        },
+        {
+            "AccountId": "216053INET9",
+            "ClientId": "2829174",
+            "Description": "Profile edit resrictions",
+            "ExternalAccountId": "APKE90000000211000000025357",
+            "InstrumentSymbolCode": "VOD:xlsn",
+            "InstrumentDescription": "Vodaphone Inc",
+            "Quantity": 5.0,
+            "Reason": "Profile edit resrictions",
+            "RegistrationDate": "2019-02-17",
+            "StartDate": "2019-02-22"
+        }
+    ]
+}

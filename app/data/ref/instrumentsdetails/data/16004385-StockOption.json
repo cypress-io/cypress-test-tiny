@@ -1,0 +1,85 @@
+{
+    "AmountDecimals": 0,
+    "AssetType": "StockOption",
+    "ContractSize": 100,
+    "CurrencyCode": "USD",
+    "DefaultAmount": 1,
+    "Description": "Deutsche Bank AG Feb2020 9.5 C",
+    "Exchange": {
+        "CountryCode": "US",
+        "ExchangeId": "OPRA",
+        "Name": "Options Price Reporting Authority",
+        "TimeZoneId": "3"
+    },
+    "ExerciseCutOffTime": "16:30:00",
+    "ExpiryDate": "2020-02-28",
+    "Format": {
+        "Decimals": 2,
+        "OrderDecimals": 2,
+        "StrikeDecimals": 2
+    },
+    "GroupId": 0,
+    "IncrementSize": 1,
+    "IsTradable": true,
+    "LotSizeText": "0",
+    "LotSizeType": "OddLotsNotAllowed",
+    "MinimumLotSize": 0,
+    "OptionsChainSubscriptionAllowed": true,
+    "OrderDistances": {
+        "EntryDefaultDistance": 0,
+        "EntryDefaultDistanceType": "Percentage",
+        "StopLimitDefaultDistance": 5,
+        "StopLimitDefaultDistanceType": "Pips",
+        "StopLossDefaultDistance": 0.5,
+        "StopLossDefaultDistanceType": "Percentage",
+        "StopLossDefaultEnabled": false,
+        "StopLossDefaultOrderType": "Stop",
+        "TakeProfitDefaultDistance": 0.5,
+        "TakeProfitDefaultDistanceType": "Percentage",
+        "TakeProfitDefaultEnabled": false
+    },
+    "OrderSetting": {},
+    "PriceCurrency": "USD",
+    "PriceToContractFactor": 100,
+    "PutCall": "Call",
+    "RelatedInstruments": [
+        {
+            "AssetType": "CfdOnStock",
+            "Uic": 11756
+        },
+        {
+            "AssetType": "Bond",
+            "Uic": 11025194
+        },
+        {
+            "AssetType": "Stock",
+            "Uic": 11756
+        }
+    ],
+    "RelatedOptionRoots": [],
+    "RelatedOptionRootsEnhanced": [],
+    "Sector": {
+        "Name": "Banks(301010)",
+        "SectorId": "1041"
+    },
+    "SettlementStyle": "PhysicalDelivery",
+    "StandardAmounts": [1, 5, 10, 25, 50, 100, 500, 1000],
+    "StrikePrice": 9.5,
+    "SupportedOrderTypes": ["Limit"],
+    "Symbol": "DB/28G20C9.5:xcbf",
+    "TickSizeScheme": {
+        "DefaultTickSize": 0.05,
+        "Elements": [
+            {
+                "HighPrice": 2.99,
+                "TickSize": 0.01
+            }
+        ]
+    },
+    "TradableAs": ["StockOption"],
+    "TradableOn": ["117932INET", "775947INET"],
+    "TradingSignals": "NotAllowed",
+    "Uic": 16004385,
+    "UnderlyingAssetType": "Stock",
+    "UnderlyingUic": 11756
+}

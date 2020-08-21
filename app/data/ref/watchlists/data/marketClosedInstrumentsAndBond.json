@@ -1,0 +1,46 @@
+{
+    "Instruments": [
+        {
+            "AssetType": "Stock",
+            "Description": "Verizon",
+            "Symbol": "VZ:xnys",
+            "Uic": 721,
+            "WatchlistInstrumentId": "8"
+        },
+        {
+            "AssetType": "Stock",
+            "Description": "Apple Inc.",
+            "Symbol": "AAPL:xnas",
+            "Uic": 211,
+            "WatchlistInstrumentId": "6"
+        },
+        {
+            "AssetType": "SrdOnStock",
+            "Description": "STMicroelectronics",
+            "Symbol": "STM:xpar",
+            "Uic": 1252,
+            "WatchlistInstrumentId": "10"
+        },
+        {
+            "AssetType": "SrdOnEtf",
+            "Description": "Lyxor UCITS ETF CAC 40",
+            "NonTradableReason": "None",
+            "ShortTrading": "Allowed",
+            "Symbol": "CAC:xpar",
+            "TradingStatus": "Tradable",
+            "Uic": 9104,
+            "WatchlistInstrumentId": "181818175"
+        },
+        {
+            "AssetType": "Bond",
+            "Description": "Republic of Lithuania 0.95% 26 May 2027, EUR",
+            "Symbol": "LITHUANIA-0.95-26MAY27",
+            "Uic": 12572271,
+            "WatchlistInstrumentId": "9"
+        }
+    ],
+    "Name": "Market closed instruments and Bond",
+    "PrimaryAssetType": "Stock",
+    "Type": "UserDefined",
+    "WatchlistId": "10691"
+}

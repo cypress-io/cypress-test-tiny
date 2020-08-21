@@ -1,0 +1,45 @@
+{
+    "AccountCurrency": "USD",
+    "AmountCurrency": "EUR",
+    "AmountOutstanding": 5000000000,
+    "CollateralValue": 0.95,
+    "CommissionLimits": [
+        {
+            "Currency": "EUR",
+            "MinCommission": 80,
+            "OrderAction": "ExecuteOrder",
+            "RateOnAmount": 0.002
+        }
+    ],
+    "CouponDistributionFrequency": "Annual",
+    "CouponType": "CouponTypeFixed",
+    "CurrencyCutSpreadRate": 0.5,
+    "CustodyFees": {
+        "FeeCurrency": "EUR",
+        "FeeRules": [
+            {
+                "FeePct": 0.12
+            }
+        ],
+        "MinFeeAmount": 5
+    },
+    "FirstCouponDate": "2018-10-10",
+    "InstrumentCurrency": "EUR",
+    "IssueDate": "2018-04-11",
+    "IssuePrice": 100.33665,
+    "IssuerName": "Vallourec",
+    "IssueVolume": 5000000000,
+    "IsTradable": true,
+    "LastCouponDate": "2018-10-10",
+    "Maturity": "2018-10-10",
+    "MinOrderSizeCurrency": "EUR",
+    "Rating": 0,
+    "ScheduledTradingConditions": [
+        {
+            "ScheduledDate": "2018-10-31T07:19:23",
+            "TradingCondition": {
+                "CollateralValue": 0.96
+            }
+        }
+    ]
+}

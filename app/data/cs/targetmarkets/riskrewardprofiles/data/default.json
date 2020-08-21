@@ -1,0 +1,65 @@
+{
+    "Data": [
+        {
+            "Description": "Profile with low risk and corresponding expected return",
+            "Id": "1",
+            "Name": "Conservative",
+            "Type": "CATEGORICAL"
+        },
+        {
+            "Description": "Profile with medium risk and corresponding expected return",
+            "Id": "2",
+            "Name": "Balanced",
+            "Type": "CATEGORICAL"
+        },
+        {
+            "Description": "Profile with higher risk and corresponding expected return",
+            "Id": "3",
+            "Name": "Speculative",
+            "Type": "CATEGORICAL"
+        },
+        {
+            "Description": "ABC",
+            "Id": "1",
+            "Name": "1",
+            "Type": "NUMERICAL"
+        },
+        {
+            "Description": "DEF",
+            "Id": "2",
+            "Name": "2",
+            "Type": "NUMERICAL"
+        },
+        {
+            "Description": "GHI",
+            "Id": "3",
+            "Name": "3",
+            "Type": "NUMERICAL"
+        },
+        {
+            "Description": "ABC",
+            "Id": "4",
+            "Name": "4",
+            "Type": "NUMERICAL"
+        },
+        {
+            "Description": "DEF",
+            "Id": "5",
+            "Name": "5",
+            "Type": "NUMERICAL"
+        },
+        {
+            "Description": "GHI",
+            "Id": "6",
+            "Name": "6",
+            "Type": "NUMERICAL"
+        },
+        {
+            "Description": "GHI",
+            "Id": "7",
+            "Name": "7",
+            "Type": "NUMERICAL"
+        }
+    ],
+    "_Count": 10
+}

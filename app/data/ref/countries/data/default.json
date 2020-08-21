@@ -1,0 +1,24 @@
+{
+    "Data": [
+        {
+            "Name": "America",
+            "CountryCode": "AM"
+        },
+        {
+            "Name": "Australia",
+            "CountryCode": "AU"
+        },
+        {
+            "Name": "India",
+            "CountryCode": "IN"
+        },
+        {
+            "Name": "China",
+            "CountryCode": "CH"
+        },
+        {
+            "Name": "Russia",
+            "CountryCode": "RU"
+        }
+    ]
+}

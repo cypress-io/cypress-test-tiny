@@ -1,0 +1,39 @@
+{
+    "AllDay": false,
+    "CountryCode": "DK",
+    "Currency": "DKK",
+    "ExchangeId": "CSE_INV",
+    "ExchangeSessions": [
+        {
+            "EndTime": "2019-11-11T15:55:00.000000Z",
+            "StartTime": "2019-11-11T08:44:45.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2019-11-12T07:00:00.000000Z",
+            "StartTime": "2019-11-11T15:55:00.000000Z",
+            "State": "Closed"
+        },
+        {
+            "EndTime": "2019-11-12T08:44:45.000000Z",
+            "StartTime": "2019-11-12T07:00:00.000000Z",
+            "State": "PreTrading"
+        },
+        {
+            "EndTime": "2019-11-12T15:55:00.000000Z",
+            "StartTime": "2019-11-12T08:44:45.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2019-11-13T07:00:00.000000Z",
+            "StartTime": "2019-11-12T15:55:00.000000Z",
+            "State": "Closed"
+        }
+    ],
+    "Mic": "XCSE",
+    "Name": "NASDAQ OMX Copenhagen (Investment trusts)",
+    "PriceSourceName": "NASDAQ OMX",
+    "TimeZone": 4,
+    "TimeZoneAbbreviation": "CET",
+    "TimeZoneOffset": "01:00:00"
+}

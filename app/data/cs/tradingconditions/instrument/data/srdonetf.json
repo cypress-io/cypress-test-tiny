@@ -1,0 +1,49 @@
+{
+    "AccountCurrency": "USD",
+    "AmountCurrency": "EUR",
+    "AssetType": "SrdOnEtf",
+    "CollateralValue": 0,
+    "CommissionLimits": [
+        {
+            "Currency": "EUR",
+            "MinCommission": 12,
+            "OrderAction": "ExecuteOrder",
+            "RateOnAmount": 0.001
+        }
+    ],
+    "CurrencyCutSpreadRate": 0.5,
+    "CustodyFees": {
+        "FeeCurrency": "EUR",
+        "FeeRules": [
+            {
+                "FeePct": 0.12
+            }
+        ],
+        "MinFeeAmount": 5
+    },
+    "InterestPerDay": { "FixedRateAsk": 0.03, "FixedRateBid": 0.04 },
+    "HasKID": true,
+    "InitialCollateralValue": 0,
+    "InstrumentCurrency": "EUR",
+    "InternalCosts": {
+        "OngoingCostPct": 0.25
+    },
+    "IsSrdEligible": false,
+    "IsTradable": true,
+    "MaintenanceCollateralValue": 0,
+    "MaximumCollateralAmount": 0,
+    "Rating": 2,
+    "Uic": 9104,
+    "MarginTierRequirement": {
+        "Entries": [
+            {
+                "ExtraWeekMarginRate": 0.05,
+                "InitialMarginRate": 0.2,
+                "IntraWeekMarginRate": 0.05,
+                "TierLowerBound": 0
+            }
+        ],
+        "TierCurrency": "EUR"
+    },
+    "MinOrderSizeCurrency": "EUR"
+}

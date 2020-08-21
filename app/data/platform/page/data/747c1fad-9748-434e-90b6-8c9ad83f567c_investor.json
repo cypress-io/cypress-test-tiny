@@ -1,0 +1,21 @@
+{
+    "Name": "dk-stocks",
+    "Sections": [
+        {
+            "AssetTypes": ["Stock"],
+            "CountryCodes": ["DK"],
+            "IncludeNonTradable": false,
+            "IsDividerShown": false,
+            "IsFiltersShown": true,
+            "OrderBy": "Popularity ",
+            "Type": "ProductFinder",
+            "ViewType": "grid",
+            "Name": "product-finder",
+            "Title": "",
+            "Id": "747c1fad-9748-434e-90b6-8c9ad83f567c"
+        }
+    ],
+    "Title": "Danish losers today",
+    "Url": "/page/dk-stocks",
+    "Id": "747c1fad-9748-434e-90b6-8c9ad83f567c_investor"
+}

@@ -1,0 +1,283 @@
+{
+    "Data": [
+        {
+            "AccountId": "19458368",
+            "ActionUrl": "Some action",
+            "Cins": "A49530DF5",
+            "Cusip": "987654321",
+            "CutoffDate": "2019-03-01T10:31:18.000000Z",
+            "DeliveryType": {
+                "Code": "ED",
+                "Description": "Sent to Proxy Edge"
+            },
+            "Isin": "US5829104304",
+            "IssuerName": "Cisco Systems Inc.",
+            "JobNumber": "S38271",
+            "ReceivedDate": "2019-07-11T22:15:21.000000Z",
+            "Status": {
+                "Code": "VT",
+                "Description": "Voted"
+            },
+            "StatusDate": "2020-02-15T08:33:41.000000Z",
+            "Subtype": {
+                "Code": "QM",
+                "Description": "Contest meeting Management"
+            },
+            "Ticker": "Symbol?",
+            "Type": {
+                "Code": "RG",
+                "Description": "Reorg"
+            }
+        },
+        {
+            "AccountId": "19458369",
+            "ActionUrl": "Some action",
+            "Cins": "A49530DF5",
+            "Cusip": "987654321",
+            "CutoffDate": "2021-04-11T11:31:18.000000Z",
+            "DeliveryType": {
+                "Code": "ED",
+                "Description": "Sent to Proxy Edge"
+            },
+            "Isin": "US5829104304",
+            "IssuerName": "Intel corp",
+            "JobNumber": "S38271",
+            "Materials": [
+                {
+                    "MaterialType": {
+                        "Code": "10K",
+                        "Description": "10-K Report"
+                    },
+                    "Url": "replace with url"
+                },
+                {
+                    "MaterialType": {
+                        "Code": "20K",
+                        "Description": "20-K Report"
+                    },
+                    "Url": "replace with url"
+                }
+            ],
+            "ReceivedDate": "2019-07-11T22:15:21.000000Z",
+            "Status": {
+                "Code": "VT",
+                "Description": "Voted"
+            },
+            "StatusDate": "2020-02-15T08:33:41.000000Z",
+            "Subtype": {
+                "Code": "QM",
+                "Description": "Contest meeting Management"
+            },
+            "Ticker": "Symbol?",
+            "Type": {
+                "Code": "RG",
+                "Description": "Reorg"
+            }
+        },
+        {
+            "AccountId": "19458370",
+            "Cins": "A49530DF5",
+            "Cusip": "987654321",
+            "CutoffDate": "2020-12-13T10:35:18.000000Z",
+            "DeliveryType": {
+                "Code": "ED",
+                "Description": "Sent to Proxy Edge"
+            },
+            "Isin": "US5829104304",
+            "IssuerName": "American International Group inc",
+            "JobNumber": "S38271",
+            "Materials": [
+                {
+                    "MaterialType": {
+                        "Code": "10K",
+                        "Description": "10-K Report"
+                    },
+                    "Url": "replace with url"
+                },
+                {
+                    "MaterialType": {
+                        "Code": "20K",
+                        "Description": "20-K Report"
+                    },
+                    "Url": "replace with url"
+                }
+            ],
+            "ReceivedDate": "2019-07-11T22:15:21.000000Z",
+            "Status": {
+                "Code": "VW",
+                "Description": "Viewed"
+            },
+            "StatusDate": "2020-02-15T08:33:41.000000Z",
+            "Subtype": {
+                "Code": "QM",
+                "Description": "Contest meeting Management"
+            },
+            "Ticker": "Symbol?",
+            "Type": {
+                "Code": "RG",
+                "Description": "Reorg"
+            }
+        },
+        {
+            "AccountId": "19458371",
+            "ActionUrl": "An action url",
+            "Cins": "A49530DF5",
+            "Cusip": "987654321",
+            "CutoffDate": "2024-10-15T04:34:15.000000Z",
+            "DeliveryType": {
+                "Code": "ED",
+                "Description": "Sent to Proxy Edge"
+            },
+            "Isin": "US5839104104",
+            "IssuerName": "Apple Group Inc",
+            "JobNumber": "S38271",
+            "Materials": [
+                {
+                    "MaterialType": {
+                        "Code": "10K",
+                        "Description": "10-K Report"
+                    },
+                    "Url": "replace with url"
+                },
+                {
+                    "MaterialType": {
+                        "Code": "20K",
+                        "Description": "20-K Report - Apple"
+                    },
+                    "Url": "replace with url"
+                },
+                {
+                    "MaterialType": {
+                        "Code": "5kK",
+                        "Description": "20-K Report - Apple"
+                    },
+                    "Url": "replace with url"
+                }
+            ],
+            "ReceivedDate": "2020-07-11T22:15:21.000000Z",
+            "Status": {
+                "Code": "VW",
+                "Description": "Viewed"
+            },
+            "StatusDate": "2020-02-15T08:33:41.000000Z",
+            "Subtype": {
+                "Code": "QM",
+                "Description": "Contest meeting Management"
+            },
+            "Ticker": "Symbol?",
+            "Type": {
+                "Code": "RG",
+                "Description": "Reorg"
+            }
+        },
+        {
+            "AccountId": "19458372",
+            "Cins": "A49530DF5",
+            "Cusip": "987654321",
+            "CutoffDate": "2021-12-15T07:32:15.000000Z",
+            "DeliveryType": {
+                "Code": "ED",
+                "Description": "Sent to Proxy Edge"
+            },
+            "Isin": "US5839104104",
+            "IssuerName": "Amazon.com Inc.",
+            "JobNumber": "S38271",
+            "Materials": [
+                {
+                    "MaterialType": {
+                        "Code": "1K",
+                        "Description": "1-K Report - Amazon"
+                    },
+                    "Url": "replace with url"
+                },
+                {
+                    "MaterialType": {
+                        "Code": "2K",
+                        "Description": "2-K Report - Amazon"
+                    },
+                    "Url": "replace with url"
+                },
+                {
+                    "MaterialType": {
+                        "Code": "5K",
+                        "Description": "5-K Report - Amazon"
+                    },
+                    "Url": "replace with url"
+                },
+                {
+                    "MaterialType": {
+                        "Code": "10K",
+                        "Description": "10-K Report - Amazon"
+                    },
+                    "Url": "replace with url"
+                }
+            ],
+            "ReceivedDate": "2020-07-11T22:15:21.000000Z",
+            "Status": {
+                "Code": "VW",
+                "Description": "Viewed"
+            },
+            "StatusDate": "2020-02-15T08:33:41.000000Z",
+            "Subtype": {
+                "Code": "QM",
+                "Description": "Contest meeting Management"
+            },
+            "Ticker": "Symbol?",
+            "Type": {
+                "Code": "RG",
+                "Description": "Reorg"
+            }
+        },
+        {
+            "AccountId": "12458371",
+            "Cins": "A49530DF5",
+            "Cusip": "987654321",
+            "CutoffDate": "2024-10-15T04:34:15.000000Z",
+            "DeliveryType": {
+                "Code": "ED",
+                "Description": "Sent to Proxy Edge"
+            },
+            "Isin": "US5839104104",
+            "IssuerName": "Tesla Inc.",
+            "JobNumber": "S38271",
+            "Materials": [
+                {
+                    "MaterialType": {
+                        "Code": "10K",
+                        "Description": "10-K Report"
+                    },
+                    "Url": "replace with url"
+                },
+                {
+                    "MaterialType": {
+                        "Code": "20K",
+                        "Description": "20-K Report - Apple"
+                    },
+                    "Url": "replace with url"
+                },
+                {
+                    "MaterialType": {
+                        "Code": "5kK",
+                        "Description": "20-K Report - Apple"
+                    },
+                    "Url": "replace with url"
+                }
+            ],
+            "ReceivedDate": "2020-07-11T22:15:21.000000Z",
+            "Status": {
+                "Code": "VT",
+                "Description": "Voted"
+            },
+            "StatusDate": "2020-02-15T08:33:41.000000Z",
+            "Subtype": {
+                "Code": "QM",
+                "Description": "Annual general meeting"
+            },
+            "Ticker": "Symbol?",
+            "Type": {
+                "Code": "RG",
+                "Description": "Reorg"
+            }
+        }
+    ]
+}

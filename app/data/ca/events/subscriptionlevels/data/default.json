@@ -1,0 +1,158 @@
+{
+    "Data": [
+        {
+            "EventType": {
+                "Key": "1",
+                "Value": "ALL"
+            },
+            "Id": "1",
+            "Name": "Gold Service",
+            "NotificationFrequency": {
+                "Key": "1",
+                "Value": "RealTime"
+            },
+            "NotificationType": [
+                {
+                    "Key": "1",
+                    "Value": "New Event Announcement Notification"
+                },
+                {
+                    "Key": "2",
+                    "Value": "Replacement Announcement Notification"
+                },
+                {
+                    "Key": "3",
+                    "Value": "Event Cancellation Notification"
+                },
+                {
+                    "Key": "4",
+                    "Value": "Elections Reminder Notification"
+                },
+                {
+                    "Key": "5",
+                    "Value": "Change in positions notification"
+                },
+                {
+                    "Key": "6",
+                    "Value": "Event Payment Notification"
+                }
+            ]
+        },
+        {
+            "EventType": {
+                "Key": "2",
+                "Value": "VOLU/CHOS"
+            },
+            "Id": "2",
+            "Name": "Silver Service",
+            "NotificationFrequency": {
+                "Key": "2",
+                "Value": "EOD"
+            },
+            "NotificationType": [
+                {
+                    "Key": "1",
+                    "Value": "New Event Announcement Notification"
+                },
+                {
+                    "Key": "2",
+                    "Value": "Replacement Announcement Notification"
+                },
+                {
+                    "Key": "3",
+                    "Value": "Event Cancellation Notification"
+                },
+                {
+                    "Key": "6",
+                    "Value": "Event Payment Notification"
+                }
+            ]
+        },
+        {
+            "EventType": {
+                "Key": "2",
+                "Value": "VOLU/CHOS"
+            },
+            "Id": "3",
+            "Name": "Bronze Service",
+            "NotificationFrequency": {
+                "Key": "2",
+                "Value": "EOD"
+            },
+            "NotificationType": [
+                {
+                    "Key": "1",
+                    "Value": "New Event Announcement Notification"
+                },
+                {
+                    "Key": "2",
+                    "Value": "Replacement Announcement Notification"
+                },
+                {
+                    "Key": "3",
+                    "Value": "Event Cancellation Notification"
+                }
+            ]
+        },
+        {
+            "EventType": {
+                "Key": "2",
+                "Value": "VOLU/CHOS"
+            },
+            "Id": "4",
+            "Name": "Default Service",
+            "NotificationFrequency": {
+                "Key": "1",
+                "Value": "RealTime"
+            },
+            "NotificationType": [
+                {
+                    "Key": "1",
+                    "Value": "New Event Announcement Notification"
+                },
+                {
+                    "Key": "2",
+                    "Value": "Replacement Announcement Notification"
+                },
+                {
+                    "Key": "3",
+                    "Value": "Event Cancellation Notification"
+                }
+            ]
+        },
+        {
+            "EventType": {
+                "Key": "1",
+                "Value": "ALL"
+            },
+            "Id": "5",
+            "Name": "WLC Notification Level",
+            "NotificationFrequency": {
+                "Key": "2",
+                "Value": "EOD"
+            },
+            "NotificationType": [
+                {
+                    "Key": "1",
+                    "Value": "New Event Announcement Notification"
+                },
+                {
+                    "Key": "2",
+                    "Value": "Replacement Announcement Notification"
+                },
+                {
+                    "Key": "3",
+                    "Value": "Event Cancellation Notification"
+                },
+                {
+                    "Key": "4",
+                    "Value": "Elections Reminder Notification"
+                },
+                {
+                    "Key": "5",
+                    "Value": "Change in positions notification"
+                }
+            ]
+        }
+    ]
+}

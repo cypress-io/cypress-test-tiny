@@ -1,0 +1,53 @@
+{
+    "DefaultPageId": "29208528-5c32-4e70-9c50-d21628e0b3fb_sitecoreConfigIntegration",
+    "Pages": [
+        {
+            "Id": "29208528-5c32-4e70-9c50-d21628e0b3fb_sitecoreConfigIntegration",
+            "Name": "markets",
+            "Title": "Saxo Platform Config",
+            "Url": "/page/markets"
+        },
+        {
+            "Id": "29208528-5c32-4e70-9c50-d21628e0b3fr_sitecoreConfigIntegration",
+            "Name": "stocks",
+            "Title": "Saxo Platform Config",
+            "Url": "/page/stocks"
+        },
+        {
+            "Id": "mapped-sections-page-1_sitecoreConfigIntegration",
+            "Name": "mapped-sections-page-1",
+            "Title": "Saxo Platform Config"
+        }
+    ],
+    "Links": {
+        "Header": [
+            {
+                "Name": "markets",
+                "Label": "Markets",
+                "IconType": "Basket",
+                "Url": "/page/markets",
+                "Id": "61b269ef-94f6-4ab2-96aa-7e8d56593084"
+            }
+        ],
+        "Footer": [
+            {
+                "Name": "disclaimer",
+                "Label": "A disclaimer",
+                "IconType": "Briefcase",
+                "Url": "/page/disclaimer",
+                "Id": "0fde35a7-ba5c-46c4-a471-d1557227ccad"
+            }
+        ]
+    },
+    "MappedSections": {
+        "Matchers": [
+            {
+                "Rule": {
+                    "AssetType": "Stock",
+                    "Uic": [211]
+                },
+                "PageId": "mapped-sections-page-1_sitecoreConfigIntegration"
+            }
+        ]
+    }
+}

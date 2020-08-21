@@ -1,0 +1,51 @@
+{
+    "Id": "Index_se_investor",
+    "Sections": [
+        {
+            "Id": "instrumentGridsSection",
+            "Name": "instrumentGridsSection",
+            "Type": "InstrumentGrids",
+            "Title": "Gainers and losers",
+            "LayoutType": "stretch",
+            "IsDividerShown": false,
+            "InstrumentGrids": [
+                {
+                    "Id": "minilist-top-gainers-stocks",
+                    "Title": "Top Gainers",
+                    "Target": "/page/stockview",
+                    "IsSeeAllLinkShown": true,
+                    "InstrumentLimit": 5,
+                    "Query": {
+                        "AssetTypes": ["Stock"],
+                        "CountryCodes": ["SE"],
+                        "MarketCaps": [
+                            "OneToTenBillions",
+                            "TenToHundredBillions",
+                            "AboveHundredBillions"
+                        ],
+                        "Listing": ["Primary"],
+                        "OrderBy": "OneDayReturnPct desc"
+                    }
+                },
+                {
+                    "Id": "minilist-top-losers-stocks",
+                    "Title": "Top Losers",
+                    "Target": "/page/stockview",
+                    "IsSeeAllLinkShown": true,
+                    "InstrumentLimit": 5,
+                    "Query": {
+                        "AssetTypes": ["Stock"],
+                        "CountryCodes": ["SE"],
+                        "MarketCaps": [
+                            "OneToTenBillions",
+                            "TenToHundredBillions",
+                            "AboveHundredBillions"
+                        ],
+                        "Listing": ["Primary"],
+                        "OrderBy": "OneDayReturnPct"
+                    }
+                }
+            ]
+        }
+    ]
+}

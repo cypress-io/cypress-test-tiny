@@ -1,0 +1,39 @@
+[
+    {
+        "ClosedPosition": {
+            "AccountId": "ATC1",
+            "Amount": -95000,
+            "AssetType": "FxSpot",
+            "BuyOrSell": "Sell",
+            "ClientId": "2147306294",
+            "ClosedProfitLoss": 950.95,
+            "ClosedProfitLossInBaseCurrency": 901.89524425,
+            "ClosingMarketValue": 0,
+            "ClosingMarketValueInBaseCurrency": 0,
+            "ClosingMethod": "Fifo",
+            "ClosingPositionId": "138779248",
+            "ClosingPrice": 1.05464,
+            "ConversionRateInstrumentToBaseSettledClosing": false,
+            "ConversionRateInstrumentToBaseSettledOpening": true,
+            "ExecutionTimeClose": "2017-02-21T09:32:55.730000Z",
+            "ExecutionTimeOpen": "2017-02-16T14:40:25.713000Z",
+            "OpeningPositionId": "138516727",
+            "OpenPrice": 1.06465,
+            "Uic": 21
+        },
+        "ClosedPositionUniqueId": "138516727-138779248",
+        "DisplayAndFormat": {
+            "Currency": "USD",
+            "Decimals": 4,
+            "Description": "Euro/US Dollar",
+            "Format": "AllowDecimalPips",
+            "Symbol": "EURUSD"
+        },
+        "Exchange": {
+            "Description": "Inter Bank",
+            "ExchangeId": "SBFX",
+            "IsOpen": true
+        },
+        "NetPositionId": "EURUSD_FxSpot"
+    }
+]

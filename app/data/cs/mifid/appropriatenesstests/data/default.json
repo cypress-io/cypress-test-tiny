@@ -1,0 +1,1690 @@
+{
+    "AppropriatenessTestId": "a34b8e8c-6fda-e711-80e2-00155d14292b",
+    "Description": "Based on your experience and knowledge, MIFID requires that we consider whether complex products we offer are appropriate for you.",
+    "Name": "MiFID II Appropriateness Test - Version 5",
+    "PublishedDate": "2017-12-20",
+    "QuestionSections": [
+        {
+            "Name": "General Background",
+            "Questions": [
+                {
+                    "QuestionId": "c54b8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "d04b8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Secondary school"
+                        },
+                        {
+                            "QuestionOptionId": "d24b8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "College"
+                        },
+                        {
+                            "QuestionOptionId": "d54b8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Undergraduate degree"
+                        },
+                        {
+                            "QuestionOptionId": "d74b8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Postgraduate degree"
+                        },
+                        {
+                            "QuestionOptionId": "da4b8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": true,
+                            "Text": "A professional qualifications relevant to the understanding of complex products"
+                        }
+                    ],
+                    "QuestionText": "Education"
+                }
+            ],
+            "Title": "Background"
+        },
+        {
+            "Name": "General Knowledge and Experience",
+            "Questions": [
+                {
+                    "QuestionId": "df4b8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "ea4b8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Yes"
+                        },
+                        {
+                            "QuestionOptionId": "ec4b8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": true,
+                            "Text": "No"
+                        }
+                    ],
+                    "QuestionText": "Have you worked for more than three years in a position requiring knowledge of complex* financial investments?"
+                },
+                {
+                    "QuestionId": "e34b8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "ef4b8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "No knowledge and no perception of risks involved"
+                        },
+                        {
+                            "QuestionOptionId": "f24b8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Limited knowledge and some perception of the risks involved"
+                        },
+                        {
+                            "QuestionOptionId": "f44b8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": true,
+                            "Text": "Thorough knowledge and fully aware of risks"
+                        }
+                    ],
+                    "QuestionText": "What is your knowledge of financial investments and the financial markets?"
+                }
+            ],
+            "Title": "Knowledge and Experience"
+        },
+        {
+            "Name": "General Investment purpose",
+            "Questions": [
+                {
+                    "QuestionId": "f74b8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "034c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Capital preservation"
+                        },
+                        {
+                            "QuestionOptionId": "054c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Long term capital growth/income generation"
+                        },
+                        {
+                            "QuestionOptionId": "074c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Short term speculative/day trading"
+                        },
+                        {
+                            "QuestionOptionId": "094c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Hedging"
+                        },
+                        {
+                            "QuestionOptionId": "0c4c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Other"
+                        }
+                    ],
+                    "QuestionText": "What is your investment objective?"
+                },
+                {
+                    "QuestionId": "f94b8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "104c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Less than 1 month"
+                        },
+                        {
+                            "QuestionOptionId": "124c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Less than 1 year"
+                        },
+                        {
+                            "QuestionOptionId": "154c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "1-3 years"
+                        },
+                        {
+                            "QuestionOptionId": "174c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "3-5 years"
+                        },
+                        {
+                            "QuestionOptionId": "194c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "More than 5 years"
+                        }
+                    ],
+                    "QuestionText": "What is your investment horizon?"
+                },
+                {
+                    "QuestionId": "fb4b8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "1c4c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Standalone or core investment"
+                        },
+                        {
+                            "QuestionOptionId": "1e4c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Specific investment need"
+                        },
+                        {
+                            "QuestionOptionId": "214c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Component of a portfolio"
+                        },
+                        {
+                            "QuestionOptionId": "234c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Other"
+                        }
+                    ],
+                    "QuestionText": "What is your investment strategy?"
+                }
+            ],
+            "Title": "Investment purpose"
+        },
+        {
+            "Name": "General Risks",
+            "Questions": [
+                {
+                    "QuestionId": "274c8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "304c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "I would sell everything to avoid further losses"
+                        },
+                        {
+                            "QuestionOptionId": "324c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "I would keep my portfolio and wait for the market to recover"
+                        },
+                        {
+                            "QuestionOptionId": "344c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "I would take the sell-off as an opportunity to buy more at the lower prices"
+                        }
+                    ],
+                    "QuestionText": "The value of your investments has fallen 15% within a short period of time. What is your reaction?"
+                },
+                {
+                    "QuestionId": "294c8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "374c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "I cannot bear any losses"
+                        },
+                        {
+                            "QuestionOptionId": "394c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "I am willing to bear limited losses"
+                        },
+                        {
+                            "QuestionOptionId": "3b4c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "I am able and willing to bear total loss of the amount invested"
+                        },
+                        {
+                            "QuestionOptionId": "3d4c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "I am able and willing to bear losses exceeding the amount invested"
+                        }
+                    ],
+                    "QuestionText": "Which of the following best describes your risk tolerance?"
+                }
+            ],
+            "Title": "Risks"
+        },
+        {
+            "AssetTypes": ["FxSpot"],
+            "Name": "Forex",
+            "Questions": [
+                {
+                    "QuestionId": "404c8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "614c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "No knowledge"
+                        },
+                        {
+                            "QuestionOptionId": "634c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Some knowledge"
+                        },
+                        {
+                            "QuestionOptionId": "664c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Extensive knowledge"
+                        }
+                    ],
+                    "QuestionText": "How would you describe your knowledge of this product?"
+                },
+                {
+                    "QuestionId": "434c8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "6c4c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Less than 5 trades"
+                        },
+                        {
+                            "QuestionOptionId": "6e4c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Between 5 and 50 trades"
+                        },
+                        {
+                            "QuestionOptionId": "704c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "More than 50 trades"
+                        }
+                    ],
+                    "QuestionText": "What is your average number of trades per month in this product over the last 12 months?"
+                },
+                {
+                    "QuestionId": "454c8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "764c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Less than 50K EUR"
+                        },
+                        {
+                            "QuestionOptionId": "784c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Between 50K and 1M EUR"
+                        },
+                        {
+                            "QuestionOptionId": "7a4c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Between 1M and 5M EUR"
+                        },
+                        {
+                            "QuestionOptionId": "7d4c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "More than 5M EUR"
+                        }
+                    ],
+                    "QuestionText": "What is the average value of your trades per month in this product over the last 12 months?"
+                },
+                {
+                    "QuestionId": "474c8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "834c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Loss"
+                        },
+                        {
+                            "QuestionOptionId": "854c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Profit"
+                        },
+                        {
+                            "QuestionOptionId": "874c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Both"
+                        }
+                    ],
+                    "QuestionText": "Were your trades profitable?"
+                },
+                {
+                    "QuestionId": "4c4c8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "8d4c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Basis"
+                        },
+                        {
+                            "QuestionOptionId": "8f4c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Spread"
+                        },
+                        {
+                            "QuestionOptionId": "914c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Exchange Rate"
+                        }
+                    ],
+                    "QuestionText": "The difference between the bid price and the offer price is called the?"
+                },
+                {
+                    "QuestionId": "504c8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "964c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Buying Dollars and selling Euros"
+                        },
+                        {
+                            "QuestionOptionId": "984c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Buying Euros by selling Dollars"
+                        },
+                        {
+                            "QuestionOptionId": "9b4c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Buying Dollars and buying Euros"
+                        }
+                    ],
+                    "QuestionText": "If you buy EURUSD are you:"
+                },
+                {
+                    "QuestionId": "534c8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "a04c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Yes"
+                        },
+                        {
+                            "QuestionOptionId": "a24c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "No"
+                        }
+                    ],
+                    "QuestionText": "When trading this product, can the losses exceed the balance on your account?"
+                }
+            ],
+            "Title": "Forex"
+        },
+        {
+            "AssetTypes": ["FxVanillaOption"],
+            "Name": "Forex Options",
+            "Questions": [
+                {
+                    "QuestionId": "a74c8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "c34c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "No knowledge"
+                        },
+                        {
+                            "QuestionOptionId": "c54c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Some knowledge"
+                        },
+                        {
+                            "QuestionOptionId": "c74c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Extensive knowledge"
+                        }
+                    ],
+                    "QuestionText": "How would you describe your knowledge of this product?"
+                },
+                {
+                    "QuestionId": "a94c8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "d44c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Less than 5 trades"
+                        },
+                        {
+                            "QuestionOptionId": "d64c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Between 5 and 50 trades"
+                        },
+                        {
+                            "QuestionOptionId": "da4c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "More than 50 trades"
+                        }
+                    ],
+                    "QuestionText": "What is your average number of trades per month in this product over the last 12 months?"
+                },
+                {
+                    "QuestionId": "ab4c8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "e14c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Less than 50K EUR"
+                        },
+                        {
+                            "QuestionOptionId": "e34c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Between 50K and 1M EUR"
+                        },
+                        {
+                            "QuestionOptionId": "e54c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Between 1M and 5M EUR"
+                        },
+                        {
+                            "QuestionOptionId": "e84c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "More than 5M EUR"
+                        }
+                    ],
+                    "QuestionText": "What is the average value of your trades per month in this product over the last 12 months?"
+                },
+                {
+                    "QuestionId": "ad4c8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "ed4c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Loss"
+                        },
+                        {
+                            "QuestionOptionId": "ef4c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Profit"
+                        },
+                        {
+                            "QuestionOptionId": "f24c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Both"
+                        }
+                    ],
+                    "QuestionText": "Were your trades profitable?"
+                },
+                {
+                    "QuestionId": "b04c8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "f74c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "True"
+                        },
+                        {
+                            "QuestionOptionId": "f94c8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "False"
+                        }
+                    ],
+                    "QuestionText": "When you buy an option, your losses are limited?"
+                },
+                {
+                    "QuestionId": "b24c8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "014d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "True"
+                        },
+                        {
+                            "QuestionOptionId": "034d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "False"
+                        }
+                    ],
+                    "QuestionText": "When you sell an option, your losses are limited?"
+                },
+                {
+                    "QuestionId": "b44c8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "084d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Take a directional view on a currency pair moving higher or lower"
+                        },
+                        {
+                            "QuestionOptionId": "0a4d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Take a view on future volatility"
+                        },
+                        {
+                            "QuestionOptionId": "0c4d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Both"
+                        }
+                    ],
+                    "QuestionText": "FX Options can be used to?"
+                },
+                {
+                    "QuestionId": "b64c8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "124d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Yes"
+                        },
+                        {
+                            "QuestionOptionId": "144d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "No"
+                        }
+                    ],
+                    "QuestionText": "When trading this product, can the losses exceed the balance on your account?"
+                }
+            ],
+            "Title": "Forex Options"
+        },
+        {
+            "AssetTypes": ["CfdOnStock"],
+            "Name": "CFDs",
+            "Questions": [
+                {
+                    "QuestionId": "194d8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "364d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "No knowledge"
+                        },
+                        {
+                            "QuestionOptionId": "394d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Some knowledge"
+                        },
+                        {
+                            "QuestionOptionId": "3b4d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Extensive knowledge"
+                        }
+                    ],
+                    "QuestionText": "How would you describe your knowledge of this product?"
+                },
+                {
+                    "QuestionId": "1c4d8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "404d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Less than 5 trades"
+                        },
+                        {
+                            "QuestionOptionId": "424d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Between 5 and 50 trades"
+                        },
+                        {
+                            "QuestionOptionId": "444d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "More than 50 trades"
+                        }
+                    ],
+                    "QuestionText": "What is your average number of trades per month in this product over the last 12 months?"
+                },
+                {
+                    "QuestionId": "1e4d8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "4a4d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Less than 5K EUR"
+                        },
+                        {
+                            "QuestionOptionId": "4c4d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Between 5K and 10K EUR"
+                        },
+                        {
+                            "QuestionOptionId": "4e4d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Between 10K and 50K EUR"
+                        },
+                        {
+                            "QuestionOptionId": "504d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "More than 50K EUR"
+                        }
+                    ],
+                    "QuestionText": "What is the average value of your trades per month in this product over the last 12 months?"
+                },
+                {
+                    "QuestionId": "204d8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "594d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Long"
+                        },
+                        {
+                            "QuestionOptionId": "5c4d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Short"
+                        },
+                        {
+                            "QuestionOptionId": "5f4d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Both"
+                        }
+                    ],
+                    "QuestionText": "Which strategies have you traded in this product?"
+                },
+                {
+                    "QuestionId": "234d8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "644d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Loss"
+                        },
+                        {
+                            "QuestionOptionId": "664d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Profit"
+                        },
+                        {
+                            "QuestionOptionId": "6a4d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Both"
+                        }
+                    ],
+                    "QuestionText": "Were your trades profitable?"
+                },
+                {
+                    "QuestionId": "254d8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "714d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Basis"
+                        },
+                        {
+                            "QuestionOptionId": "734d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Spread"
+                        },
+                        {
+                            "QuestionOptionId": "754d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Exchange Rate"
+                        }
+                    ],
+                    "QuestionText": "The difference between the bid price and the offer price is called the?"
+                },
+                {
+                    "QuestionId": "274d8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "7a4d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "100 times"
+                        },
+                        {
+                            "QuestionOptionId": "7c4d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "10 times"
+                        },
+                        {
+                            "QuestionOptionId": "7f4d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "No leverage"
+                        }
+                    ],
+                    "QuestionText": "If the margin requirement for a CFD with a notional value of 1,000 USD is 100 USD, what is the leverage?"
+                },
+                {
+                    "QuestionId": "294d8e8c-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "844d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Yes"
+                        },
+                        {
+                            "QuestionOptionId": "864d8e8c-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "No"
+                        }
+                    ],
+                    "QuestionText": "When trading this product, can the losses exceed the balance on your account?"
+                }
+            ],
+            "Title": "CFDs (Contracts for Difference)"
+        },
+        {
+            "AssetTypes": ["ContractFutures"],
+            "Name": "Futures",
+            "Questions": [
+                {
+                    "QuestionId": "6db08692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "88b08692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "No knowledge"
+                        },
+                        {
+                            "QuestionOptionId": "8ab08692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Some knowledge"
+                        },
+                        {
+                            "QuestionOptionId": "8cb08692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Extensive knowledge"
+                        }
+                    ],
+                    "QuestionText": "How would you describe your knowledge of this product?"
+                },
+                {
+                    "QuestionId": "71b08692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "92b08692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Less than 5 trades"
+                        },
+                        {
+                            "QuestionOptionId": "94b08692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Between 5 and 50 trades"
+                        },
+                        {
+                            "QuestionOptionId": "96b08692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "More than 50 trades"
+                        }
+                    ],
+                    "QuestionText": "What is your average number of trades per month in this product over the last 12 months?"
+                },
+                {
+                    "QuestionId": "73b08692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "9bb08692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Less than 5K EUR"
+                        },
+                        {
+                            "QuestionOptionId": "9eb08692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Between 5K and 10K EUR"
+                        },
+                        {
+                            "QuestionOptionId": "a0b08692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Between 10K and 50K EUR"
+                        },
+                        {
+                            "QuestionOptionId": "a2b08692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "More than 50K EUR"
+                        }
+                    ],
+                    "QuestionText": "What is the average value of your trades per month in this product over the last 12 months?"
+                },
+                {
+                    "QuestionId": "75b08692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "adb08692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Loss"
+                        },
+                        {
+                            "QuestionOptionId": "b1b08692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Profit"
+                        },
+                        {
+                            "QuestionOptionId": "b3b08692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Both"
+                        }
+                    ],
+                    "QuestionText": "Were your trades profitable?"
+                },
+                {
+                    "QuestionId": "77b08692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "bbb08692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Long"
+                        },
+                        {
+                            "QuestionOptionId": "bdb08692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Short"
+                        },
+                        {
+                            "QuestionOptionId": "c0b08692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Both"
+                        }
+                    ],
+                    "QuestionText": "Which strategies have you traded in this product?"
+                },
+                {
+                    "QuestionId": "7ab08692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "c6b08692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "a) A firm agreement obligating a buyer to purchase an asset at a predetermined date and price"
+                        },
+                        {
+                            "QuestionOptionId": "c8b08692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "b) An optional contract giving the buyer the right to exercise or not the acquired right depending on the market fluctuations"
+                        },
+                        {
+                            "QuestionOptionId": "cbb08692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "c) A firm agreement obligating a seller to deliver an asset or its cash equivalent at the contract expiration date"
+                        },
+                        {
+                            "QuestionOptionId": "cdb08692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "a) and b)"
+                        },
+                        {
+                            "QuestionOptionId": "cfb08692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "a) and c)"
+                        }
+                    ],
+                    "QuestionText": "What is a future contract?"
+                },
+                {
+                    "QuestionId": "7cb08692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "d6b08692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Yes"
+                        },
+                        {
+                            "QuestionOptionId": "d8b08692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "No"
+                        }
+                    ],
+                    "QuestionText": "When trading this product, can the losses exceed the balance on your account?"
+                }
+            ],
+            "Title": "Futures"
+        },
+        {
+            "AssetTypes": [
+                "StockOption",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockIndexOption",
+                "StockOption",
+                "FuturesOption"
+            ],
+            "Name": "Listed Options",
+            "Questions": [
+                {
+                    "QuestionId": "dfb08692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "07b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "No knowledge"
+                        },
+                        {
+                            "QuestionOptionId": "09b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Some knowledge"
+                        },
+                        {
+                            "QuestionOptionId": "0cb18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Extensive knowledge"
+                        }
+                    ],
+                    "QuestionText": "How would you describe your knowledge of this product?"
+                },
+                {
+                    "QuestionId": "e8b08692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "11b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Less than 5 trades"
+                        },
+                        {
+                            "QuestionOptionId": "13b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Between 5 and 50 trades"
+                        },
+                        {
+                            "QuestionOptionId": "16b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "More than 50 trades"
+                        }
+                    ],
+                    "QuestionText": "What is your average number of trades per month in this product over the last 12 months?"
+                },
+                {
+                    "QuestionId": "ecb08692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "20b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Less than 5K EUR"
+                        },
+                        {
+                            "QuestionOptionId": "25b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Between 5K and 10K EUR"
+                        },
+                        {
+                            "QuestionOptionId": "27b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Between 10K and 50K EUR"
+                        },
+                        {
+                            "QuestionOptionId": "29b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "More than 50K EUR"
+                        }
+                    ],
+                    "QuestionText": "What is the average value of your trades per month in this product over the last 12 months?"
+                },
+                {
+                    "QuestionId": "eeb08692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "2eb18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Loss"
+                        },
+                        {
+                            "QuestionOptionId": "30b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Profit"
+                        },
+                        {
+                            "QuestionOptionId": "32b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Both"
+                        }
+                    ],
+                    "QuestionText": "Were your trades profitable?"
+                },
+                {
+                    "QuestionId": "f2b08692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "38b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Long"
+                        },
+                        {
+                            "QuestionOptionId": "3ab18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Short"
+                        },
+                        {
+                            "QuestionOptionId": "3cb18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Both"
+                        }
+                    ],
+                    "QuestionText": "Which strategies have you traded in this product?"
+                },
+                {
+                    "QuestionId": "f5b08692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "41b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "An agreement that gives the buyer of the option the right to buy or sell a particular asset at a later date at an agreed upon price"
+                        },
+                        {
+                            "QuestionOptionId": "44b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "An agreement which compels the buyer of the option to buy or sell a particular asset at a later date at an agreed upon price"
+                        }
+                    ],
+                    "QuestionText": "What is an option?"
+                },
+                {
+                    "QuestionId": "f8b08692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "49b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "The option is exercised, you have 100 stocks in your portfolio"
+                        },
+                        {
+                            "QuestionOptionId": "4cb18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "The option is exercised, you have 0 stocks in your portfolio"
+                        },
+                        {
+                            "QuestionOptionId": "4eb18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "The option expires and is not exercised"
+                        }
+                    ],
+                    "QuestionText": "You have bought 1 call option (100 stocks) of a company at strike price 45. At expiry of the option, the stock is trading at 43. What happens?"
+                },
+                {
+                    "QuestionId": "fab08692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "52b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Yes"
+                        },
+                        {
+                            "QuestionOptionId": "55b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "No"
+                        }
+                    ],
+                    "QuestionText": "When trading this product, can the losses exceed the balance on your account?"
+                }
+            ],
+            "Title": "Listed Options"
+        },
+        {
+            "AssetTypes": ["Stock"],
+            "Name": "Complex ETFs",
+            "Questions": [
+                {
+                    "QuestionId": "5ab18692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "73b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "No knowledge"
+                        },
+                        {
+                            "QuestionOptionId": "75b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Some knowledge"
+                        },
+                        {
+                            "QuestionOptionId": "77b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Extensive knowledge"
+                        }
+                    ],
+                    "QuestionText": "How would you describe your knowledge of this product?"
+                },
+                {
+                    "QuestionId": "5cb18692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "7db18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Less than 5 trades"
+                        },
+                        {
+                            "QuestionOptionId": "7fb18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Between 5 and 50 trades"
+                        },
+                        {
+                            "QuestionOptionId": "81b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "More than 50 trades"
+                        }
+                    ],
+                    "QuestionText": "What is your average number of trades per month in this product over the last 12 months?"
+                },
+                {
+                    "QuestionId": "5eb18692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "87b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Less than 5K EUR"
+                        },
+                        {
+                            "QuestionOptionId": "89b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Between 5K and 10K EUR"
+                        },
+                        {
+                            "QuestionOptionId": "8bb18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Between 10K and 50K EUR"
+                        },
+                        {
+                            "QuestionOptionId": "8db18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "More than 50K EUR"
+                        }
+                    ],
+                    "QuestionText": "What is the average value of your trades per month in this product over the last 12 months?"
+                },
+                {
+                    "QuestionId": "60b18692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "93b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Loss"
+                        },
+                        {
+                            "QuestionOptionId": "95b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Profit"
+                        },
+                        {
+                            "QuestionOptionId": "97b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Both"
+                        }
+                    ],
+                    "QuestionText": "Were your trades profitable?"
+                },
+                {
+                    "QuestionId": "63b18692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "9db18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "It is a collective investment scheme that investors can trade both long and short"
+                        },
+                        {
+                            "QuestionOptionId": "9fb18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "It is a complex ETF that can only be sold to professional clients"
+                        },
+                        {
+                            "QuestionOptionId": "a1b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "It offers an algorithm-based pay-out linked to the performance of constituent products, a product index or a reference portfolio"
+                        }
+                    ],
+                    "QuestionText": "What are the characteristics of a structured ETF?"
+                },
+                {
+                    "QuestionId": "65b18692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "a6b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Losses may exceed the amount originally invested"
+                        },
+                        {
+                            "QuestionOptionId": "a9b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Both profits and losses are leveraged compared to the benchmark implying the risk of increased losses"
+                        },
+                        {
+                            "QuestionOptionId": "abb18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Both"
+                        }
+                    ],
+                    "QuestionText": "What are the risks associated with a leveraged ETF?"
+                },
+                {
+                    "QuestionId": "67b18692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "b1b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "a) An AIF may invest in assets which have low liquidity"
+                        },
+                        {
+                            "QuestionOptionId": "b3b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "b) An AIF is a margin-traded product where losses may exceed the amount originally invested"
+                        },
+                        {
+                            "QuestionOptionId": "b6b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "c) Both profits and losses of the AIF may be leveraged compared to the benchmark implying the risk of increased losses"
+                        },
+                        {
+                            "QuestionOptionId": "b9b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "b) and c)"
+                        },
+                        {
+                            "QuestionOptionId": "bbb18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "a) and c)"
+                        }
+                    ],
+                    "QuestionText": "What are the risks associated with an Alternative Investment Fund (AIF)?"
+                }
+            ],
+            "Title": "Complex Exchange Traded Funds (ETFs)"
+        },
+        {
+            "AssetTypes": ["MutualFund"],
+            "Name": "Complex Mutual Funds",
+            "Questions": [
+                {
+                    "QuestionId": "c2b18692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "e2b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "No knowledge"
+                        },
+                        {
+                            "QuestionOptionId": "e5b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Some knowledge"
+                        },
+                        {
+                            "QuestionOptionId": "e7b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Extensive knowledge"
+                        }
+                    ],
+                    "QuestionText": "How would you describe your knowledge of this product?"
+                },
+                {
+                    "QuestionId": "c4b18692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "f0b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Less than 5 trades"
+                        },
+                        {
+                            "QuestionOptionId": "f2b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Between 5 and 50 trades"
+                        },
+                        {
+                            "QuestionOptionId": "f4b18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "More than 50 trades"
+                        }
+                    ],
+                    "QuestionText": "What is your average number of trades per month in this product over the last 12 months?"
+                },
+                {
+                    "QuestionId": "c6b18692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "fab18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Less than 5K EUR"
+                        },
+                        {
+                            "QuestionOptionId": "fcb18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Between 5K and 10K EUR"
+                        },
+                        {
+                            "QuestionOptionId": "ffb18692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Between 10K and 50K EUR"
+                        },
+                        {
+                            "QuestionOptionId": "01b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "More than 50K EUR"
+                        }
+                    ],
+                    "QuestionText": "What is the average value of your trades per month in this product over the last 12 months?"
+                },
+                {
+                    "QuestionId": "c9b18692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "07b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Loss"
+                        },
+                        {
+                            "QuestionOptionId": "09b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Profit"
+                        },
+                        {
+                            "QuestionOptionId": "0bb28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Both"
+                        }
+                    ],
+                    "QuestionText": "Were your trades profitable?"
+                },
+                {
+                    "QuestionId": "cbb18692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "10b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "It is a collective investment scheme that investors can trade both long and short"
+                        },
+                        {
+                            "QuestionOptionId": "12b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "It is a complex fund that can only be sold to professional clients"
+                        },
+                        {
+                            "QuestionOptionId": "14b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "It offers an algorithm-based pay-out linked to the performance of selected products, a product index or a reference portfolio"
+                        }
+                    ],
+                    "QuestionText": "What are the characteristics of a structured Mutual Fund?"
+                },
+                {
+                    "QuestionId": "cdb18692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "19b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Losses may exceed the amount originally invested."
+                        },
+                        {
+                            "QuestionOptionId": "1cb28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Both profits and losses are leveraged compared to the benchmark implying the risk of increased losses"
+                        },
+                        {
+                            "QuestionOptionId": "1eb28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Both"
+                        }
+                    ],
+                    "QuestionText": "What are the risks associated with a leveraged investment fund?"
+                },
+                {
+                    "QuestionId": "d0b18692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "23b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "a) An AIF may invest in assets which have low liquidity"
+                        },
+                        {
+                            "QuestionOptionId": "25b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "b) An AIF is a margin-traded product where losses may exceed the amount originally invested"
+                        },
+                        {
+                            "QuestionOptionId": "28b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "c) Both profits and losses of the AIF may be leveraged compared to the benchmark implying the risk of increased losses"
+                        },
+                        {
+                            "QuestionOptionId": "2ab28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "b) and c)"
+                        },
+                        {
+                            "QuestionOptionId": "2cb28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "a) and c)"
+                        }
+                    ],
+                    "QuestionText": "What are the risks associated with an Alternative Investment Fund (AIF)?"
+                }
+            ],
+            "Title": "Complex Mutual Funds"
+        },
+        {
+            "AssetTypes": ["Stock"],
+            "Name": "ETCs",
+            "Questions": [
+                {
+                    "QuestionId": "32b28692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "4fb28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "No knowledge"
+                        },
+                        {
+                            "QuestionOptionId": "51b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Some knowledge"
+                        },
+                        {
+                            "QuestionOptionId": "54b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Extensive knowledge"
+                        }
+                    ],
+                    "QuestionText": "How would you describe your knowledge of this product?"
+                },
+                {
+                    "QuestionId": "34b28692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "5cb28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Less than 5 trades"
+                        },
+                        {
+                            "QuestionOptionId": "5eb28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Between 5 and 50 trades"
+                        },
+                        {
+                            "QuestionOptionId": "61b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "More than 50 trades"
+                        }
+                    ],
+                    "QuestionText": "What is your average number of trades per month in this product over the last 12 months?"
+                },
+                {
+                    "QuestionId": "36b28692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "66b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Less than 5K EUR"
+                        },
+                        {
+                            "QuestionOptionId": "68b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Between 5K and 10K EUR"
+                        },
+                        {
+                            "QuestionOptionId": "6ab28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Between 10K and 50K EUR"
+                        },
+                        {
+                            "QuestionOptionId": "6cb28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "More than 50K EUR"
+                        }
+                    ],
+                    "QuestionText": "What is the average value of your trades per month in this product over the last 12 months?"
+                },
+                {
+                    "QuestionId": "38b28692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "72b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Loss"
+                        },
+                        {
+                            "QuestionOptionId": "74b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Profit"
+                        },
+                        {
+                            "QuestionOptionId": "76b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Both"
+                        }
+                    ],
+                    "QuestionText": "Were your trades profitable?"
+                },
+                {
+                    "QuestionId": "3ab28692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "85b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "It is a contract for physical delivery of a commodity traded on an exchange"
+                        },
+                        {
+                            "QuestionOptionId": "87b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "It is a futures contract traded on a derivatives exchange"
+                        },
+                        {
+                            "QuestionOptionId": "8ab28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "It is an asset-backed security that tracks the performance of a commodity index or single commodity"
+                        }
+                    ],
+                    "QuestionText": "What is an ETC?"
+                },
+                {
+                    "QuestionId": "3db28692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "93b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Yes"
+                        },
+                        {
+                            "QuestionOptionId": "95b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "No"
+                        }
+                    ],
+                    "QuestionText": "When trading this product, can the losses exceed the balance on your account?"
+                }
+            ],
+            "Title": "Exchange Traded Commodities (ETCs)"
+        },
+        {
+            "AssetTypes": ["Stock"],
+            "Name": "ETNs",
+            "Questions": [
+                {
+                    "QuestionId": "9ab28692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "b1b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "No knowledge"
+                        },
+                        {
+                            "QuestionOptionId": "b3b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Some knowledge"
+                        },
+                        {
+                            "QuestionOptionId": "b5b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Extensive knowledge"
+                        }
+                    ],
+                    "QuestionText": "How would you describe your knowledge of this product?"
+                },
+                {
+                    "QuestionId": "9db28692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "bcb28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Less than 5 trades"
+                        },
+                        {
+                            "QuestionOptionId": "bfb28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Between 5 and 50 trades"
+                        },
+                        {
+                            "QuestionOptionId": "c1b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "More than 50 trades"
+                        }
+                    ],
+                    "QuestionText": "What is your average number of trades per month in this product over the last 12 months?"
+                },
+                {
+                    "QuestionId": "9fb28692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "c7b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Less than 5K EUR"
+                        },
+                        {
+                            "QuestionOptionId": "c9b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Between 5K and 10K EUR"
+                        },
+                        {
+                            "QuestionOptionId": "cbb28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Between 10K and 50K EUR"
+                        },
+                        {
+                            "QuestionOptionId": "cdb28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "More than 50K EUR"
+                        }
+                    ],
+                    "QuestionText": "What is the average value of your trades per month in this product over the last 12 months?"
+                },
+                {
+                    "QuestionId": "a1b28692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "d3b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Loss"
+                        },
+                        {
+                            "QuestionOptionId": "d5b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Profit"
+                        },
+                        {
+                            "QuestionOptionId": "d7b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Both"
+                        }
+                    ],
+                    "QuestionText": "Were your trades profitable?"
+                },
+                {
+                    "QuestionId": "a3b28692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "dcb28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "It is an unsecured debt security providing investors access to the returns of various benchmarks"
+                        },
+                        {
+                            "QuestionOptionId": "dfb28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "It is a futures contract traded on a derivatives exchange"
+                        },
+                        {
+                            "QuestionOptionId": "e1b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "It is a debt security issued by a fund that only invests in futures"
+                        }
+                    ],
+                    "QuestionText": "What is an ETN?"
+                },
+                {
+                    "QuestionId": "a6b28692-6fda-e711-80e2-00155d14292b",
+                    "QuestionOptions": [
+                        {
+                            "QuestionOptionId": "e6b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "Losses may exceed the initial investment"
+                        },
+                        {
+                            "QuestionOptionId": "e8b28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "If the underwriting bank defaults you may lose your investment"
+                        },
+                        {
+                            "QuestionOptionId": "eab28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "An ETN is traded on margin"
+                        },
+                        {
+                            "QuestionOptionId": "ecb28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "All of the above"
+                        },
+                        {
+                            "QuestionOptionId": "eeb28692-6fda-e711-80e2-00155d14292b",
+                            "Selected": false,
+                            "Text": "None of the above"
+                        }
+                    ],
+                    "QuestionText": "What are the risks associated with an ETN?"
+                }
+            ],
+            "Title": "Exchange Traded Notes (ETNs)"
+        }
+    ],
+    "Title": "MiFID II Appropriateness Test - Version 5"
+}

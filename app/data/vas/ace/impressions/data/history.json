@@ -1,0 +1,99 @@
+[
+    {
+        "Attributes": {
+            "PostAuthorFullname": "Steve Jobs",
+            "SubType": "Post",
+            "Template": "Find your audience."
+        },
+        "CampaignDataType": "Text",
+        "CampaignId": 109,
+        "ImpressionId": 0,
+        "Language": "en",
+        "Link": "http://saxobank.com",
+        "Path": "Test path",
+        "Position": 1095,
+        "RecommendationOrder": 0,
+        "SentDate": "2019-02-10T16:16:40.006000Z"
+    },
+    {
+        "Attributes": {
+            "PostAuthorFullname": "Paul Rand",
+            "SubType": "Post",
+            "Template": "Try it yourself! Click below to find out more."
+        },
+        "CampaignDataType": "Text",
+        "CampaignId": 108,
+        "ImpressionId": 0,
+        "Language": "en",
+        "Link": "http://saxobank.com",
+        "Path": "Test path",
+        "Position": 1095,
+        "RecommendationOrder": 0,
+        "SentDate": "2019-02-10T12:19:40.005000Z"
+    },
+    {
+        "Attributes": {
+            "PostAuthorFullname": "Alexey Kropotin",
+            "SubType": "Post",
+            "Template": "This is a test post"
+        },
+        "CampaignDataType": "Text",
+        "CampaignId": 15,
+        "ImpressionId": 0,
+        "Language": "en",
+        "Link": "http://saxobank.com",
+        "Path": "Test path",
+        "Position": 1095,
+        "RecommendationOrder": 0,
+        "SentDate": "2019-02-08T09:10:40.442000Z"
+    },
+    {
+        "Attributes": {
+            "PostAuthorFullname": "Alexey Kropotin",
+            "SubType": "Post",
+            "Template": "This is a test post"
+        },
+        "CampaignDataType": "Text",
+        "CampaignId": 14,
+        "ImpressionId": 0,
+        "Language": "en",
+        "Link": "http://saxobank.com",
+        "Path": "Test path",
+        "Position": 1095,
+        "RecommendationOrder": 0,
+        "SentDate": "2019-01-10T10:10:45.252000Z"
+    },
+
+    {
+        "Attributes": {
+            "PostAuthorFullname": "Alexey Kropotin",
+            "SubType": "Post",
+            "Template": "This is a test post"
+        },
+        "CampaignDataType": "Text",
+        "CampaignId": 13,
+        "ImpressionId": 0,
+        "Language": "en",
+        "Link": "http://saxobank.com",
+        "Path": "Test path",
+        "Position": 1095,
+        "RecommendationOrder": 0,
+        "SentDate": "2019-01-05T08:10:20.542000Z"
+    },
+    {
+        "Attributes": {
+            "PostAuthorFullname": "Alexey Kropotin",
+            "SubType": "Post",
+            "Template": "This is a test post"
+        },
+        "CampaignDataType": "Text",
+        "CampaignId": 5,
+        "ImpressionId": 0,
+        "Language": "en",
+        "Link": "http://saxobank.com",
+        "Path": "Test path",
+        "Position": 1095,
+        "RecommendationOrder": 0,
+        "SentDate": "2019-01-02T19:17:20.442000Z"
+    }
+]

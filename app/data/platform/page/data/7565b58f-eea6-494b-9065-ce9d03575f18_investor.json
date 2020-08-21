@@ -1,0 +1,58 @@
+{
+    "PathTemplate": "productTemplate",
+    "Name": "bond",
+    "IsBackButtonHidden": true,
+    "Sections": [
+        {
+            "Type": "Header",
+            "IsDividerShown": true,
+            "IsNarrow": true,
+            "Name": "header_bond",
+            "Title": "",
+            "Id": "962ca7b4-607b-4635-87e8-550a86e9e19b"
+        },
+        {
+            "Type": "InstrumentChart",
+            "IsDividerShown": true,
+            "Name": "chartsection_bonds",
+            "Title": "Price Chart",
+            "Id": "498964e3-f34c-4643-a85b-e617be2be7f6"
+        },
+        {
+            "Type": "NewsList",
+            "IsDividerShown": true,
+            "LayoutType": "",
+            "viewType": "card",
+            "NewsLists": [
+                {
+                    "Title": "",
+                    "NewsLimit": 4,
+                    "Search": "",
+                    "ShouldShowLinkedInstrumentNews": false,
+                    "Id": "25646c77-30ae-45fd-9dda-33ae9d92b020"
+                }
+            ],
+            "Name": "newslistsection_bonds",
+            "Title": "News",
+            "Id": "7e81be0f-a76f-426b-9962-8b3fe7a19151"
+        },
+        {
+            "Type": "GeneralInfo",
+            "IsDividerShown": true,
+            "IsInset": true,
+            "Name": "generalinfosection_bonds",
+            "Title": "General Information",
+            "Id": "3f499a32-8b52-4af4-9751-12e68d64a70c"
+        },
+        {
+            "Type": "IssueDetails",
+            "IsDividerShown": true,
+            "Name": "issuedetailssection_bonds",
+            "Title": "Issue Details",
+            "Id": "f0507eb7-6037-4347-846b-67350122a064"
+        }
+    ],
+    "Title": "",
+    "Url": "/page/product/bond/:uic",
+    "Id": "7565b58f-eea6-494b-9065-ce9d03575f18_investor"
+}

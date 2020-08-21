@@ -1,0 +1,50 @@
+{
+    "Name": "My Markets",
+    "Sections": [
+        {
+            "Title": "My markets section",
+            "IsDividerShown": true,
+            "Tabs": [
+                {
+                    "Id": 0,
+                    "Key": "dataKey1",
+                    "Title": "My markets",
+                    "Uics": [5889633, 1907567, 211, 47019, 15254, 211],
+                    "IncludeNonTradable": true,
+                    "IsEditable": true,
+                    "AssetTypes": ["StockIndex", "Stock", "FxSpot"]
+                },
+                {
+                    "Id": 1,
+                    "Title": "EU",
+                    "Uics": [211],
+                    "AssetTypes": ["Stock"]
+                },
+                {
+                    "Id": 2,
+                    "Title": "US",
+                    "Uics": [211, 21],
+                    "AssetTypes": ["FxSpot", "Stock"]
+                },
+                {
+                    "Id": 3,
+                    "Title": "Currencies",
+                    "Uics": [21]
+                },
+                {
+                    "Id": 4,
+                    "Title": "Commodities",
+                    "Uics": [211, 21],
+                    "IsEditable": true,
+                    "Key": "dataKey",
+                    "AssetTypes": ["FxSpot", "Stock"]
+                }
+            ],
+            "Type": "MyMarkets",
+            "Id": "3f326876-b9dd-4f0e-8fce-1e2f8de0610c-my-markets"
+        }
+    ],
+    "Title": "MyMarkets",
+    "Url": "/page/my-markets",
+    "Id": "e519f693-cde0-4962-980c-ce20849242d7_myMarkets"
+}

@@ -1,0 +1,88 @@
+{
+    "AllDay": false,
+    "CountryCode": "GB",
+    "Currency": "GBP",
+    "ExchangeId": "MTU",
+    "ExchangeSessions": [
+        {
+            "EndTime": "2019-11-11T15:55:00.000000Z",
+            "StartTime": "2019-11-11T13:30:00.000000Z",
+            "State": "Closed"
+        },
+        {
+            "EndTime": "2019-11-11T16:00:00.000000Z",
+            "StartTime": "2019-11-11T15:55:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2019-11-12T07:25:00.000000Z",
+            "StartTime": "2019-11-11T16:00:00.000000Z",
+            "State": "Closed"
+        },
+        {
+            "EndTime": "2019-11-12T07:30:00.000000Z",
+            "StartTime": "2019-11-12T07:25:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2019-11-12T08:55:00.000000Z",
+            "StartTime": "2019-11-12T07:30:00.000000Z",
+            "State": "Closed"
+        },
+        {
+            "EndTime": "2019-11-12T09:00:00.000000Z",
+            "StartTime": "2019-11-12T08:55:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2019-11-12T09:55:00.000000Z",
+            "StartTime": "2019-11-12T09:00:00.000000Z",
+            "State": "Closed"
+        },
+        {
+            "EndTime": "2019-11-12T10:00:00.000000Z",
+            "StartTime": "2019-11-12T09:55:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2019-11-12T10:55:00.000000Z",
+            "StartTime": "2019-11-12T10:00:00.000000Z",
+            "State": "Closed"
+        },
+        {
+            "EndTime": "2019-11-12T11:00:00.000000Z",
+            "StartTime": "2019-11-12T10:55:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2019-11-12T13:25:00.000000Z",
+            "StartTime": "2019-11-12T11:00:00.000000Z",
+            "State": "Closed"
+        },
+        {
+            "EndTime": "2019-11-12T13:30:00.000000Z",
+            "StartTime": "2019-11-12T13:25:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2019-11-12T15:55:00.000000Z",
+            "StartTime": "2019-11-12T13:30:00.000000Z",
+            "State": "Closed"
+        },
+        {
+            "EndTime": "2019-11-12T16:00:00.000000Z",
+            "StartTime": "2019-11-12T15:55:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2019-11-13T07:25:00.000000Z",
+            "StartTime": "2019-11-12T16:00:00.000000Z",
+            "State": "Closed"
+        }
+    ],
+    "Mic": "XMTU",
+    "Name": "Mutual Funds",
+    "TimeZone": 4,
+    "TimeZoneAbbreviation": "CET",
+    "TimeZoneOffset": "01:00:00"
+}

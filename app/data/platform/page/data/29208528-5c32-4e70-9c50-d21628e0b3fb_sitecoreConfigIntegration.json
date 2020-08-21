@@ -1,0 +1,77 @@
+{
+    "Id": "29208528-5c32-4e70-9c50-d21628e0b3fb_sitecoreConfigIntegration",
+    "Name": "markets",
+    "Sections": [
+        {
+            "Banners": [
+                {
+                    "Image": {
+                        "Alt": "SaxoTraderGO platforms image",
+                        "Url": "/-/media/images/saxotradergo/platform.png"
+                    },
+                    "Text": "My banner text",
+                    "Align": "",
+                    "Id": "e361b289-80b5-4cdb-b6b3-b10a50f4c2f4",
+                    "IsCompact": false,
+                    "LinkConfiguration": {
+                        "TargetId": "00000000-0000-0000-0000-000000000000",
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "Target": "/page/stocks"
+                    },
+                    "Name": "bannerimage",
+                    "Title": "My banner title"
+                }
+            ],
+            "IsDividerShown": true,
+            "LayoutType": "stretch",
+            "Id": "3feed65d-3702-488f-be0c-75e5d0f72a5c",
+            "Title": "Saxo banner",
+            "Type": "Banner",
+            "Name": "bannersection"
+        },
+        {
+            "IsDividerShown": true,
+            "Text": "My text section",
+            "TextType": "Normal",
+            "Id": "3f2308e6-3c94-4a13-bf0b-c36018003832",
+            "Title": "Text",
+            "Type": "Text",
+            "Name": "textsection"
+        },
+        {
+            "AssetTypes": ["Stock"],
+            "BondRatings": ["A"],
+            "CountryCodes": ["US"],
+            "DebtTypes": ["Corporate"],
+            "IncludeNonTradable": true,
+            "IsDividerShown": false,
+            "LayoutType": "stretch",
+            "OrderBy": "OneDayReturnPct desc",
+            "Uics": ["211", "421", "212", "422"],
+            "Id": "75412d4f-a867-436b-b034-2582293a644d",
+            "Title": "Instrument List",
+            "Type": "InstrumentList",
+            "Name": "instrumentlistsection",
+            "IsSeeAllLinkShown": true,
+            "Target": "/page/stocks",
+            "Tags": []
+        },
+        {
+            "NewsLists": [
+                {
+                    "Id": "news-most-popular-etfs",
+                    "Title": "Most traded ETFs at Saxo",
+                    "Uics": [99, 247, 226, 211]
+                }
+            ],
+            "Title": "News List",
+            "viewType": "card",
+            "Name": "newslistsection",
+            "Type": "NewsList",
+            "Id": "9fbbaa22-7fe9-48cc-adb2-2af25d25cf18"
+        }
+    ],
+    "Title": "Saxo Platform Config",
+    "Url": "/page/markets"
+}

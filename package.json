@@ -3,13 +3,11 @@
   "version": "1.0.0",
   "description": "Small project for quickly testing Cypress.io test runner",
   "scripts": {
+    "test": "run-p server cypress:run",
+    "test:open": "run-p server cypress:open",
+    "server": "node app/cypressLocalServer/server.js",
     "cypress:run": "cypress run",
-    "cypress:open": "cypress open",
-    "cypress:verify": "cypress verify",
-    "cypress:version": "cypress version",
-    "list-videos": "ls -l cypress/videos",
-    "check-videos": "ok-file 'cypress/videos/*.mp4'",
-    "set-status": "set-status"
+    "cypress:open": "cypress open"
   },
   "keywords": [],
   "author": "Gleb Bahmutov <gleb@cypress.io>",
@@ -20,5 +18,14 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/cypress-io/cypress-test-tiny.git"
+  },
+  "dependencies": {
+    "@koa/router": "^9.4.0",
+    "cypress": "5.0.0",
+    "cypress-pipe": "^2.0.0",
+    "koa": "^2.13.0",
+    "koa-mount": "^4.0.0",
+    "koa-static": "^5.0.0",
+    "npm-run-all": "^4.1.5"
   }
 }

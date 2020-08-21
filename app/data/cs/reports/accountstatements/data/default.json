@@ -1,0 +1,115 @@
+{
+    "__count": 11,
+    "Data": [
+        {
+            "AccountId": "",
+            "Balance": -56601,
+            "CurrencyCode": "USD",
+            "LastBalance": 0,
+            "NetChange": -56601,
+            "PostingDate": "2019-05-15T00:00:00.000000Z",
+            "ProductDescription": "Shares AAPL:xnas 1534168571",
+            "ValueDate": "2019-05-17T00:00:00.000000Z"
+        },
+        {
+            "AccountId": "",
+            "Balance": -172756,
+            "CurrencyCode": "USD",
+            "LastBalance": -56601,
+            "NetChange": -116155,
+            "PostingDate": "2019-05-15T00:00:00.000000Z",
+            "ProductDescription": "Shares TSLA:xnas 1534168601",
+            "ValueDate": "2019-05-17T00:00:00.000000Z"
+        },
+        {
+            "AccountId": "",
+            "Balance": -149559.49,
+            "CurrencyCode": "USD",
+            "LastBalance": -172756,
+            "NetChange": 23196.51,
+            "PostingDate": "2019-05-15T00:00:00.000000Z",
+            "ProductDescription": "Shares TSLA:xnas 1534168603",
+            "ValueDate": "2019-05-17T00:00:00.000000Z"
+        },
+        {
+            "AccountId": "",
+            "Balance": -158850.49,
+            "CurrencyCode": "USD",
+            "LastBalance": -149559.49,
+            "NetChange": -9291,
+            "PostingDate": "2019-05-15T00:00:00.000000Z",
+            "ProductDescription": "Shares YTEN:xnas 1534168605",
+            "ValueDate": "2019-05-17T00:00:00.000000Z"
+        },
+        {
+            "AccountId": "",
+            "Balance": -177879.49,
+            "CurrencyCode": "USD",
+            "LastBalance": -158850.49,
+            "NetChange": -19029,
+            "PostingDate": "2019-05-17T00:00:00.000000Z",
+            "ProductDescription": "Shares AAPL:xnas 1534182720",
+            "ValueDate": "2019-05-21T00:00:00.000000Z"
+        },
+        {
+            "AccountId": "",
+            "Balance": -178596.49,
+            "CurrencyCode": "USD",
+            "LastBalance": -177879.49,
+            "NetChange": -717,
+            "PostingDate": "2019-05-17T00:00:00.000000Z",
+            "ProductDescription": "Shares SAEX:xnas 1534182722",
+            "ValueDate": "2019-05-21T00:00:00.000000Z"
+        },
+        {
+            "AccountId": "",
+            "Balance": -186223.99,
+            "CurrencyCode": "USD",
+            "LastBalance": -178596.49,
+            "NetChange": -7627.5,
+            "PostingDate": "2019-05-17T00:00:00.000000Z",
+            "ProductDescription": "Shares SAFM:xnas 1534182724",
+            "ValueDate": "2019-05-21T00:00:00.000000Z"
+        },
+        {
+            "AccountId": "",
+            "Balance": -190891.49,
+            "CurrencyCode": "USD",
+            "LastBalance": -186223.99,
+            "NetChange": -4667.5,
+            "PostingDate": "2019-05-17T00:00:00.000000Z",
+            "ProductDescription": "Shares SAFT:xnas 1534182726",
+            "ValueDate": "2019-05-21T00:00:00.000000Z"
+        },
+        {
+            "AccountId": "",
+            "Balance": -192204.99,
+            "CurrencyCode": "USD",
+            "LastBalance": -190891.49,
+            "NetChange": -1313.5,
+            "PostingDate": "2019-05-17T00:00:00.000000Z",
+            "ProductDescription": "Shares VALX:xnas 1534182728",
+            "ValueDate": "2019-05-21T00:00:00.000000Z"
+        },
+        {
+            "AccountId": "",
+            "Balance": -210459.99,
+            "CurrencyCode": "USD",
+            "LastBalance": -192204.99,
+            "NetChange": -18255,
+            "PostingDate": "2019-05-20T00:00:00.000000Z",
+            "ProductDescription": "Shares AAPL:xnas 1534193509",
+            "ValueDate": "2019-05-22T00:00:00.000000Z"
+        },
+        {
+            "AccountId": "",
+            "Balance": -210514.52,
+            "CurrencyCode": "USD",
+            "LastBalance": -210459.99,
+            "NetChange": -54.53,
+            "PostingDate": "2019-05-20T00:00:00.000000Z",
+            "ProductDescription": "Margin Lending Interest - May 2019",
+            "ValueDate": "2019-05-21T00:00:00.000000Z"
+        }
+    ]
+}

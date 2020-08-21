@@ -1,0 +1,50 @@
+{
+    "DailySeries": [
+        {
+            "Date": "2019-3-25",
+            "Points": 10
+        },
+        {
+            "Date": "2019-3-26",
+            "Points": 30
+        },
+        {
+            "Date": "2019-3-27",
+            "Points": 40
+        },
+        {
+            "Date": "2019-3-28",
+            "Points": 35
+        },
+        {
+            "Date": "2019-3-29",
+            "Points": 25
+        },
+        {
+            "Date": "2019-3-30",
+            "Points": 15
+        },
+        {
+            "Date": "2019-3-31",
+            "Points": 45,
+            "IsExpired": true
+        }
+    ],
+    "MonthlySeries": [
+        {
+            "Date": "2019-8-31",
+            "Points": 190
+        },
+        {
+            "Date": "2019-7-31",
+            "Points": 190,
+            "IsExpired": true
+        }
+    ],
+    "YearlySeries": [
+        {
+            "Date": "2019-12-31",
+            "Points": 1900
+        }
+    ]
+}

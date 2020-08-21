@@ -1,0 +1,66 @@
+{
+    "AmountDecimals": 2,
+    "AssetType": "CfdOnIndex",
+    "CurrencyCode": "AUD",
+    "DefaultAmount": 1,
+    "DefaultSlippage": 0.02,
+    "DefaultSlippageType": "Percentage",
+    "Description": "Australia 200",
+    "Exchange": {
+        "CountryCode": "",
+        "ExchangeId": "",
+        "Name": "",
+        "PriceSourceName": "",
+        "TimeZoneId": 0
+    },
+    "Format": { "Decimals": 2, "OrderDecimals": 2 },
+    "GroupId": 0,
+    "IncrementSize": 1,
+    "IsTradable": true,
+    "MarketData": {
+        "Country": "AU",
+        "OneDayReturnPct": 0,
+        "OneMonthReturnPct": 1.36,
+        "OneWeekReturnPct": 0.57
+    },
+    "OrderDistances": {
+        "EntryDefaultDistance": 2,
+        "EntryDefaultDistanceType": "Percentage",
+        "StopLimitDefaultDistance": 5,
+        "StopLimitDefaultDistanceType": "Pips",
+        "StopLossDefaultDistance": 2,
+        "StopLossDefaultDistanceType": "Percentage",
+        "StopLossDefaultEnabled": false,
+        "StopLossDefaultOrderType": "Stop",
+        "TakeProfitDefaultDistance": 2,
+        "TakeProfitDefaultDistanceType": "Percentage",
+        "TakeProfitDefaultEnabled": false
+    },
+    "OrderSetting": {},
+    "PriceToContractFactor": 1,
+    "RelatedInstruments": [
+        { "AssetType": "StockIndex", "Uic": 1909053 },
+        { "AssetType": "ContractFutures", "Uic": 13336063 },
+        { "AssetType": "FuturesStrategy", "Uic": 13971191 }
+    ],
+    "RelatedOptionRoots": [26, 10628386],
+    "RelatedOptionRootsEnhanced": [
+        { "AssetType": "StockIndexOption", "OptionRootId": 26 },
+        { "AssetType": "CfdIndexOption", "OptionRootId": 10628386 }
+    ],
+    "StandardAmounts": [1, 5, 10, 25, 50, 100, 250, 500, 1000, 2000],
+    "SupportedOrderTypes": [
+        "Market",
+        "Limit",
+        "StopIfTraded",
+        "TrailingStopIfTraded",
+        "StopLimit"
+    ],
+    "Symbol": "AUS200.I",
+    "TickSize": 0.01,
+    "TradableAs": ["CfdOnIndex"],
+    "TradableOn": [],
+    "TradingSignals": "NotAllowed",
+    "Uic": 8831,
+    "UnderlyingUic": 13336063
+}

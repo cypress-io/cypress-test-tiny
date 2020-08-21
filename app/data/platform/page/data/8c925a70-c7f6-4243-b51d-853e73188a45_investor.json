@@ -1,0 +1,51 @@
+{
+    "PathTemplate": "productTemplate",
+    "Name": "mutualfund",
+    "IsBackButtonHidden": true,
+    "Sections": [
+        {
+            "Type": "Header",
+            "IsDividerShown": true,
+            "IsNarrow": true,
+            "Name": "header_mf",
+            "Title": "",
+            "Id": "a32f83f0-55fa-40d1-a849-8eae18b8a766"
+        },
+        {
+            "Type": "InstrumentChart",
+            "IsDividerShown": true,
+            "Name": "chartsection_mf",
+            "Title": "",
+            "Id": "94f7889e-0e71-471b-98b7-a4eea92212bb"
+        },
+        {
+            "Type": "NewsList",
+            "IsDividerShown": true,
+            "LayoutType": "stack",
+            "viewType": "card",
+            "NewsLists": [
+                {
+                    "Title": "",
+                    "NewsLimit": 4,
+                    "Search": "",
+                    "ShouldShowLinkedInstrumentNews": false,
+                    "Id": "39383034-5c19-494d-bd8c-84c2df254fc6"
+                }
+            ],
+            "Name": "newslistsection_mf",
+            "Title": "news",
+            "Id": "6307c7a1-f73b-47f7-9a09-93510c19412b"
+        },
+        {
+            "Type": "AllocationChart",
+            "IsDividerShown": true,
+            "LayoutType": "stack",
+            "Name": "allocationchartsection_mf",
+            "Title": "Allocation",
+            "Id": "2fdd3c2f-45c5-46ae-8ad9-7cb75016eaac"
+        }
+    ],
+    "Title": "",
+    "Url": "/page/product/mutualfund/:uic",
+    "Id": "8c925a70-c7f6-4243-b51d-853e73188a45_investor"
+}

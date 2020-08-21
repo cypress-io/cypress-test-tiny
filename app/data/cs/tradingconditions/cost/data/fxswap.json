@@ -1,0 +1,51 @@
+{
+    "AccountCurrency": "USD",
+    "AccountID": "",
+    "Amount": 120000,
+    "AssetType": "FxSwap",
+    "Cost": {
+        "Long": {
+            "BuySell": "Buy",
+            "Currency": "USD",
+            "TotalCost": 2.4,
+            "TotalCostPct": 4.938,
+            "TradingCost": {
+                "Spread": {
+                    "DisplayDecimals": 5,
+                    "Pct": 4.938,
+                    "Rule": {
+                        "Value": 0.0000200000000000001
+                    },
+                    "Value": 2.4
+                }
+            }
+        },
+        "Short": {
+            "BuySell": "Sell",
+            "Currency": "USD",
+            "TotalCost": 2.4,
+            "TotalCostPct": 4.938,
+            "TradingCost": {
+                "Spread": {
+                    "DisplayDecimals": 5,
+                    "Pct": 4.938,
+                    "Rule": {
+                        "Value": 0.0000200000000000001
+                    },
+                    "Value": 2.4
+                }
+            }
+        }
+    },
+    "CostCalculationAssumptions": [
+        "IncludesOpenAndCloseCost",
+        "EquivalentOpenAndClosePrice",
+        "ConversionCostNotIncluded",
+        "BasisOnMidPrice",
+        "OneWeekForwardDate"
+    ],
+    "HoldingPeriodInDays": 30,
+    "Instrument": "Euro/US Dollar",
+    "Price": 0.000405,
+    "Uic": 21
+}

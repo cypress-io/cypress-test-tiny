@@ -1,0 +1,18 @@
+{
+    "Data": [
+        {
+            "AccountGroupKey": "acc-grp-key-1",
+            "AccountGroupName": "Normal Group",
+            "AccountValueProtectionLimit": 0,
+            "MarginMonitoringMode": "Margin",
+            "SupportsAccountValueProtectionLimit": true
+        },
+        {
+            "AccountGroupKey": "ml-acc-grp-key-1",
+            "AccountGroupName": "Margin Lending Group",
+            "AccountValueProtectionLimit": 0,
+            "CollateralMonitoringMode": "CollateralCreditValue",
+            "SupportsAccountValueProtectionLimit": true
+        }
+    ]
+}

@@ -1,0 +1,697 @@
+{
+    "__count": 17,
+    "Data": [
+        {
+            "AnalystAction": {
+                "Key": "upgraded",
+                "Value": "upgraded"
+            },
+            "AnalystInfo": {
+                "FirmName": "Independent Research",
+                "GoodRecommendations": 0,
+                "Id": "bb2539fdad3e54ecd9a3f34e5f4b4d546f1681e2",
+                "Name": "Tobias Gottschalt",
+                "TotalNumberOfRankedAnalysts": 5858,
+                "TotalRecommendations": 0
+            },
+            "AverageReturn": 0.0,
+            "Consensus": {
+                "Key": "Hold",
+                "Value": "Hold"
+            },
+            "GoodRecommendations": 0,
+            "Id": 9304169,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "DE",
+                "Description": "Bayer AG",
+                "ExchangeId": "FSE",
+                "Format": {
+                    "Decimals": 2
+                },
+                "Instrument": "BAYN:xetr",
+                "Uic": 39731
+            },
+            "RecommendationArticleTitle": "Independent Research GmbH Upgrades Bayer AG (BAYN:GR) (BAYRY) to Hold",
+            "RecommendationDate": "2020-01-21",
+            "RecommendationSite": "StreetInsider",
+            "RecommendationUrl": "http://www.streetinsider.com/intl+ratings/independent+research+gmbh+upgrades+bayer+ag+%28bayn%3agr%29+%28bayry%29+to+hold/16352346.html?si_client=tipranks-16352346-705f26cbce",
+            "SuccessRate": 0.0,
+            "TargetPrice": 81.0,
+            "TotalRecommendations": 0
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "Kepler Capital ",
+                "GoodRecommendations": 4,
+                "Id": "74b595722d272bb9d91d64fade89a04016f0e0c6",
+                "Name": "David Evans",
+                "NumberOfStars": 2.6,
+                "OverallAverageReturn": 10.0,
+                "OverallSuccessRate": 0.8,
+                "Rank": 2861,
+                "TotalNumberOfRankedAnalysts": 5858,
+                "TotalRecommendations": 5
+            },
+            "AverageReturn": 0.0,
+            "Consensus": {
+                "Key": "Hold",
+                "Value": "Hold"
+            },
+            "GoodRecommendations": 0,
+            "Id": 9304170,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "DE",
+                "Description": "Bayer AG",
+                "ExchangeId": "FSE",
+                "Format": {
+                    "Decimals": 2
+                },
+                "Instrument": "BAYN:xetr",
+                "Uic": 39731
+            },
+            "RecommendationArticleTitle": "",
+            "RecommendationDate": "2020-01-09",
+            "RecommendationSite": "BusinessInsider",
+            "RecommendationUrl": "https://markets.businessinsider.com/analysts-opinions/bayer-hold-687625",
+            "SuccessRate": 0.0,
+            "TargetPrice": 73.0,
+            "TotalRecommendations": 0
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "J.P. Morgan",
+                "GoodRecommendations": 9,
+                "Id": "4cb9a3d5c61c41c3a0bcb7b44968c4cfecf41f68",
+                "Name": "Richard Vosser",
+                "NumberOfStars": 2.9,
+                "OverallAverageReturn": 6.6,
+                "OverallSuccessRate": 0.6,
+                "PictureUrl": "https://cdn.tipranks.com/expert-pictures/158252_51CDEE023F_tsqr.jpg",
+                "Rank": 2420,
+                "TotalNumberOfRankedAnalysts": 5858,
+                "TotalRecommendations": 15
+            },
+            "AverageReturn": 0.0,
+            "Consensus": {
+                "Key": "Hold",
+                "Value": "Hold"
+            },
+            "GoodRecommendations": 0,
+            "Id": 9304171,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "DE",
+                "Description": "Bayer AG",
+                "ExchangeId": "FSE",
+                "Format": {
+                    "Decimals": 2
+                },
+                "Instrument": "BAYN:xetr",
+                "Uic": 39731
+            },
+            "RecommendationArticleTitle": "Bayer AG (BAYN:GR) (BAYRY) PT Raised to EUR75 at JPMorgan",
+            "RecommendationDate": "2020-01-06",
+            "RecommendationSite": "StreetInsider",
+            "RecommendationUrl": "http://www.streetinsider.com/intl+ratings/bayer+ag+%28bayn%3agr%29+%28bayry%29+pt+raised+to+eur75+at+jpmorgan/16299349.html?si_client=tipranks-16299349-099badeb50",
+            "SuccessRate": 0.0,
+            "TargetPrice": 75.0,
+            "TotalRecommendations": 0
+        },
+        {
+            "AnalystAction": {
+                "Key": "upgraded",
+                "Value": "upgraded"
+            },
+            "AnalystInfo": {
+                "FirmName": "Berenberg Bank",
+                "GoodRecommendations": 10,
+                "Id": "e486405b3539e0a87a12404a75446c26d8d53a4f",
+                "Name": "Sebastian Bray",
+                "NumberOfStars": 1.6,
+                "OverallAverageReturn": -0.1,
+                "OverallSuccessRate": 0.435,
+                "PictureUrl": "https://cdn.tipranks.com/expert-pictures/204808_493873BDBD_tsqr.jpg",
+                "Rank": 4020,
+                "TotalNumberOfRankedAnalysts": 5858,
+                "TotalRecommendations": 23
+            },
+            "AverageReturn": 0.0,
+            "Consensus": {
+                "Key": "Buy",
+                "Value": "Buy"
+            },
+            "GoodRecommendations": 0,
+            "Id": 9304172,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "DE",
+                "Description": "Bayer AG",
+                "ExchangeId": "FSE",
+                "Format": {
+                    "Decimals": 2
+                },
+                "Instrument": "BAYN:xetr",
+                "Uic": 39731
+            },
+            "RecommendationArticleTitle": "Berenberg Upgrades Bayer AG (BAYN:GR) (BAYRY) to Buy",
+            "RecommendationDate": "2019-12-17",
+            "RecommendationSite": "StreetInsider",
+            "RecommendationUrl": "http://www.streetinsider.com/intl+ratings/berenberg+upgrades+bayer+ag+%28bayn%3agr%29+%28bayry%29+to+buy/16249525.html?si_client=tipranks-16249525-04cd5cdcff",
+            "SuccessRate": 0.0,
+            "TotalRecommendations": 0
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "Citigroup",
+                "GoodRecommendations": 4,
+                "Id": "a4ced1351a7fdcc0c8cf3452d73831af7f2d6239",
+                "Name": "Peter Verdult",
+                "NumberOfStars": 2.2,
+                "OverallAverageReturn": 4.5,
+                "OverallSuccessRate": 0.8,
+                "Rank": 3287,
+                "TotalNumberOfRankedAnalysts": 5858,
+                "TotalRecommendations": 5
+            },
+            "AverageReturn": 0.0,
+            "Consensus": {
+                "Key": "Buy",
+                "Value": "Buy"
+            },
+            "GoodRecommendations": 0,
+            "Id": 9304173,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "DE",
+                "Description": "Bayer AG",
+                "ExchangeId": "FSE",
+                "Format": {
+                    "Decimals": 2
+                },
+                "Instrument": "BAYN:xetr",
+                "Uic": 39731
+            },
+            "RecommendationArticleTitle": "Citi Reiterates Buy Rating on Bayer AG (BAYN:GR) (BAYRY)",
+            "RecommendationDate": "2019-12-09",
+            "RecommendationSite": "StreetInsider",
+            "RecommendationUrl": "http://www.streetinsider.com/intl+ratings/citi+reiterates+buy+rating+on+bayer+ag+%28bayn%3agr%29+%28bayry%29/16221360.html?si_client=tipranks-16221360-dbb5cb10f6",
+            "SuccessRate": 0.0,
+            "TargetPrice": 100.0,
+            "TotalRecommendations": 0
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "UBS",
+                "GoodRecommendations": 18,
+                "Id": "0a580f0638a9225ce15783246a0d9cf987ed13cc",
+                "Name": "Michael Leuchten",
+                "NumberOfStars": 3.5,
+                "OverallAverageReturn": 8.9,
+                "OverallSuccessRate": 0.818,
+                "Rank": 1795,
+                "TotalNumberOfRankedAnalysts": 5858,
+                "TotalRecommendations": 22
+            },
+            "AverageReturn": 0.0,
+            "Consensus": {
+                "Key": "Buy",
+                "Value": "Buy"
+            },
+            "GoodRecommendations": 0,
+            "Id": 9304174,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "DE",
+                "Description": "Bayer AG",
+                "ExchangeId": "FSE",
+                "Format": {
+                    "Decimals": 2
+                },
+                "Instrument": "BAYN:xetr",
+                "Uic": 39731
+            },
+            "RecommendationArticleTitle": "UBS Reiterates Buy Rating on Bayer AG (BAYN:GR) (BAYRY)",
+            "RecommendationDate": "2019-11-19",
+            "RecommendationSite": "StreetInsider",
+            "RecommendationUrl": "http://www.streetinsider.com/intl+ratings/ubs+reiterates+buy+rating+on+bayer+ag+%28bayn%3agr%29+%28bayry%29/16151884.html?si_client=tipranks-16151884-9b753043f1",
+            "SuccessRate": 0.0,
+            "TargetPrice": 110.0,
+            "TotalRecommendations": 0
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "Morgan Stanley",
+                "GoodRecommendations": 0,
+                "Id": "43b594a187d9c4635c3320bdaa439701ff14c972",
+                "Name": "Joseph Lockey",
+                "PictureUrl": "https://cdn.tipranks.com/expert-pictures/533886_6B93F65023_tsqr.jpg",
+                "TotalNumberOfRankedAnalysts": 5858,
+                "TotalRecommendations": 0
+            },
+            "AverageReturn": 0.0,
+            "Consensus": {
+                "Key": "Buy",
+                "Value": "Buy"
+            },
+            "GoodRecommendations": 0,
+            "Id": 9304175,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "DE",
+                "Description": "Bayer AG",
+                "ExchangeId": "FSE",
+                "Format": {
+                    "Decimals": 2
+                },
+                "Instrument": "BAYN:xetr",
+                "Uic": 39731
+            },
+            "RecommendationArticleTitle": "Morgan Stanley Reiterates Overweight Rating on Bayer AG (BAYN:GR) (BAYRY)",
+            "RecommendationDate": "2019-11-12",
+            "RecommendationSite": "StreetInsider",
+            "RecommendationUrl": "http://www.streetinsider.com/intl+ratings/morgan+stanley+reiterates+overweight+rating+on+bayer+ag+%28bayn%3agr%29+%28bayry%29/16118544.html?si_client=tipranks-16118544-2fc229646a",
+            "SuccessRate": 0.0,
+            "TargetPrice": 86.0,
+            "TotalRecommendations": 0
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "Goldman Sachs",
+                "GoodRecommendations": 15,
+                "Id": "468a09b8729a5a14c8c7fbeaacfcf24bb61324d8",
+                "Name": "Keyur Parekh",
+                "NumberOfStars": 1.5,
+                "OverallAverageReturn": -0.1,
+                "OverallSuccessRate": 0.385,
+                "Rank": 4051,
+                "TotalNumberOfRankedAnalysts": 5858,
+                "TotalRecommendations": 39
+            },
+            "AverageReturn": 0.0,
+            "Consensus": {
+                "Key": "Buy",
+                "Value": "Buy"
+            },
+            "GoodRecommendations": 0,
+            "Id": 9304176,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "DE",
+                "Description": "Bayer AG",
+                "ExchangeId": "FSE",
+                "Format": {
+                    "Decimals": 2
+                },
+                "Instrument": "BAYN:xetr",
+                "Uic": 39731
+            },
+            "RecommendationDate": "2019-10-22",
+            "SuccessRate": 0.0,
+            "TargetPrice": 77.0,
+            "TotalRecommendations": 0
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "DZ BANK AG",
+                "GoodRecommendations": 3,
+                "Id": "6df7ad91ba12ab3325f85f834d46120d7821945f",
+                "Name": "Peter Spengler",
+                "NumberOfStars": 2.0,
+                "OverallAverageReturn": 1.7,
+                "OverallSuccessRate": 0.375,
+                "PictureUrl": "https://cdn.tipranks.com/expert-pictures/534955_67638CEE65_tsqr.jpg",
+                "Rank": 3503,
+                "TotalNumberOfRankedAnalysts": 5858,
+                "TotalRecommendations": 8
+            },
+            "AverageReturn": 0.0,
+            "Consensus": {
+                "Key": "Hold",
+                "Value": "Hold"
+            },
+            "GoodRecommendations": 0,
+            "Id": 9304177,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "DE",
+                "Description": "Bayer AG",
+                "ExchangeId": "FSE",
+                "Format": {
+                    "Decimals": 2
+                },
+                "Instrument": "BAYN:xetr",
+                "Uic": 39731
+            },
+            "RecommendationDate": "2019-10-21",
+            "SuccessRate": 0.0,
+            "TotalRecommendations": 0
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "Bernstein",
+                "GoodRecommendations": 4,
+                "Id": "93d522f4db180aba37f15447d37cbfb9940f71eb",
+                "Name": "Gunther Zechmann",
+                "NumberOfStars": 1.0,
+                "OverallAverageReturn": -6.3,
+                "OverallSuccessRate": 0.444,
+                "Rank": 4711,
+                "TotalNumberOfRankedAnalysts": 5858,
+                "TotalRecommendations": 9
+            },
+            "AverageReturn": 0.0,
+            "Consensus": {
+                "Key": "Buy",
+                "Value": "Buy"
+            },
+            "GoodRecommendations": 0,
+            "Id": 9304178,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "DE",
+                "Description": "Bayer AG",
+                "ExchangeId": "FSE",
+                "Format": {
+                    "Decimals": 2
+                },
+                "Instrument": "BAYN:xetr",
+                "Uic": 39731
+            },
+            "RecommendationDate": "2019-10-11",
+            "SuccessRate": 0.0,
+            "TargetPrice": 90.0,
+            "TotalRecommendations": 0
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "Warburg Research",
+                "GoodRecommendations": 2,
+                "Id": "360d8c2e1955ba98f8f88b9bea75bb27e1d3818a",
+                "Name": "Ulrich Huwald",
+                "NumberOfStars": 2.2,
+                "OverallAverageReturn": 12.2,
+                "OverallSuccessRate": 0.667,
+                "Rank": 3257,
+                "TotalNumberOfRankedAnalysts": 5858,
+                "TotalRecommendations": 3
+            },
+            "AverageReturn": 0.0,
+            "Consensus": {
+                "Key": "Hold",
+                "Value": "Hold"
+            },
+            "GoodRecommendations": 0,
+            "Id": 9304179,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "DE",
+                "Description": "Bayer AG",
+                "ExchangeId": "FSE",
+                "Format": {
+                    "Decimals": 2
+                },
+                "Instrument": "BAYN:xetr",
+                "Uic": 39731
+            },
+            "RecommendationDate": "2019-10-07",
+            "SuccessRate": 0.0,
+            "TargetPrice": 61.0,
+            "TotalRecommendations": 0
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "Norddeutsche Landesbank",
+                "GoodRecommendations": 1,
+                "Id": "1ab9a811a5999fecb91aad2086f73d30bd24dfd1",
+                "Name": "Thorsten Strauss",
+                "NumberOfStars": 1.7,
+                "OverallAverageReturn": 0.3,
+                "OverallSuccessRate": 0.143,
+                "Rank": 3873,
+                "TotalNumberOfRankedAnalysts": 5858,
+                "TotalRecommendations": 7
+            },
+            "AverageReturn": 0.0,
+            "Consensus": {
+                "Key": "Hold",
+                "Value": "Hold"
+            },
+            "GoodRecommendations": 0,
+            "Id": 9304180,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "DE",
+                "Description": "Bayer AG",
+                "ExchangeId": "FSE",
+                "Format": {
+                    "Decimals": 2
+                },
+                "Instrument": "BAYN:xetr",
+                "Uic": 39731
+            },
+            "RecommendationDate": "2019-10-04",
+            "SuccessRate": 0.0,
+            "TargetPrice": 64.0,
+            "TotalRecommendations": 0
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "Merrill Lynch",
+                "GoodRecommendations": 13,
+                "Id": "bcb9587ed45c584e3f5a6618dc5156fb54c458eb",
+                "Name": "Sachin Jain",
+                "NumberOfStars": 2.8,
+                "OverallAverageReturn": 3.8,
+                "OverallSuccessRate": 0.591,
+                "Rank": 2632,
+                "TotalNumberOfRankedAnalysts": 5858,
+                "TotalRecommendations": 22
+            },
+            "AverageReturn": 0.0,
+            "Consensus": {
+                "Key": "Buy",
+                "Value": "Buy"
+            },
+            "GoodRecommendations": 0,
+            "Id": 9304181,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "DE",
+                "Description": "Bayer AG",
+                "ExchangeId": "FSE",
+                "Format": {
+                    "Decimals": 2
+                },
+                "Instrument": "BAYN:xetr",
+                "Uic": 39731
+            },
+            "RecommendationDate": "2019-09-13",
+            "SuccessRate": 0.0,
+            "TargetPrice": 95.0,
+            "TotalRecommendations": 0
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "Deutsche Bank",
+                "GoodRecommendations": 0,
+                "Id": "8ab3ba6f096c1a3a56f1a608f873045087938ee7",
+                "Name": "Falko Friedrichs",
+                "TotalNumberOfRankedAnalysts": 5858,
+                "TotalRecommendations": 0
+            },
+            "AverageReturn": 0.0,
+            "Consensus": {
+                "Key": "Hold",
+                "Value": "Hold"
+            },
+            "GoodRecommendations": 0,
+            "Id": 9304182,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "DE",
+                "Description": "Bayer AG",
+                "ExchangeId": "FSE",
+                "Format": {
+                    "Decimals": 2
+                },
+                "Instrument": "BAYN:xetr",
+                "Uic": 39731
+            },
+            "RecommendationDate": "2019-08-09",
+            "SuccessRate": 0.0,
+            "TargetPrice": 70.0,
+            "TotalRecommendations": 0
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "Baader Bank",
+                "GoodRecommendations": 0,
+                "Id": "ace864fba92b0a4092f9320683cbf281dd6c0625",
+                "Name": "Markus Mayer",
+                "NumberOfStars": 1.3,
+                "OverallAverageReturn": -3.4,
+                "OverallSuccessRate": 0.0,
+                "PictureUrl": "https://cdn.tipranks.com/expert-pictures/147115_6892ED8C53_tsqr.jpg",
+                "Rank": 4290,
+                "TotalNumberOfRankedAnalysts": 5858,
+                "TotalRecommendations": 4
+            },
+            "AverageReturn": 0.0,
+            "Consensus": {
+                "Key": "Buy",
+                "Value": "Buy"
+            },
+            "GoodRecommendations": 0,
+            "Id": 9304184,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "DE",
+                "Description": "Bayer AG",
+                "ExchangeId": "FSE",
+                "Format": {
+                    "Decimals": 2
+                },
+                "Instrument": "BAYN:xetr",
+                "Uic": 39731
+            },
+            "RecommendationDate": "2019-08-07",
+            "SuccessRate": 0.0,
+            "TargetPrice": 123.0,
+            "TotalRecommendations": 0
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "HSBC",
+                "GoodRecommendations": 6,
+                "Id": "73224dea018e15677c3ca2fc97795a87ebe3d93c",
+                "Name": "Steve McGarry",
+                "NumberOfStars": 0.8,
+                "OverallAverageReturn": -5.8,
+                "OverallSuccessRate": 0.333,
+                "Rank": 4881,
+                "TotalNumberOfRankedAnalysts": 5858,
+                "TotalRecommendations": 18
+            },
+            "AverageReturn": 0.0,
+            "Consensus": {
+                "Key": "Hold",
+                "Value": "Hold"
+            },
+            "GoodRecommendations": 0,
+            "Id": 9304183,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "DE",
+                "Description": "Bayer AG",
+                "ExchangeId": "FSE",
+                "Format": {
+                    "Decimals": 2
+                },
+                "Instrument": "BAYN:xetr",
+                "Uic": 39731
+            },
+            "RecommendationDate": "2019-08-07",
+            "SuccessRate": 0.0,
+            "TargetPrice": 63.0,
+            "TotalRecommendations": 0
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "Credit Suisse",
+                "GoodRecommendations": 2,
+                "Id": "5b6b1e5b433f0786a470bcc13c0a7790ca86c3b1",
+                "Name": "Trung Huynh",
+                "NumberOfStars": 2.3,
+                "OverallAverageReturn": 14.2,
+                "OverallSuccessRate": 0.667,
+                "Rank": 3181,
+                "TotalNumberOfRankedAnalysts": 5858,
+                "TotalRecommendations": 3
+            },
+            "AverageReturn": 0.0,
+            "Consensus": {
+                "Key": "Buy",
+                "Value": "Buy"
+            },
+            "GoodRecommendations": 0,
+            "Id": 9304185,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "DE",
+                "Description": "Bayer AG",
+                "ExchangeId": "FSE",
+                "Format": {
+                    "Decimals": 2
+                },
+                "Instrument": "BAYN:xetr",
+                "Uic": 39731
+            },
+            "RecommendationDate": "2019-07-31",
+            "SuccessRate": 0.0,
+            "TargetPrice": 70.0,
+            "TotalRecommendations": 0
+        }
+    ]
+}

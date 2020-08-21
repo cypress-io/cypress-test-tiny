@@ -1,0 +1,50 @@
+{
+    "AccountCurrency": "USD",
+    "AmountCurrency": "USD",
+    "CarryingCost": {
+        "MarkUpRate": 1.5
+    },
+    "CommissionLimits": [
+        {
+            "Currency": "USD",
+            "MinCommission": 10,
+            "OrderAction": "ExecuteOrder",
+            "PerUnitRate": 6
+        }
+    ],
+    "ExchangeFee": {
+        "CurrencyCode": "USD",
+        "Value": 1.52
+    },
+    "ExchangeFeeRules": [
+        {
+            "Currency": "USD",
+            "OrderAction": "ExecuteOrder",
+            "Type": "Absolute",
+            "Value": 1.52
+        }
+    ],
+    "ExposureLimits": [
+        {
+            "Identifier": "HG",
+            "Level": "BaseContractNet",
+            "RuleType": "Amount",
+            "Value": 120
+        }
+    ],
+    "InstrumentCurrency": "USD",
+    "IsBaseContractOnlineTradeable": true,
+    "IsTradable": true,
+    "InstrumentMarginRequirements": [
+        {
+            "ExtraWeek": 3100,
+            "Initial": 3410,
+            "IntraWeek": 3100,
+            "MarginType": "Absolute"
+        }
+    ],
+    "MaxExposure": 120,
+    "MinOrderSizeCurrency": "USD",
+    "Rating": 0,
+    "Rules": ["ExchangeFeeConstituents"]
+}

@@ -1,0 +1,21 @@
+{
+    "Instruments": [
+        {
+            "AssetType": "CfdOnIndex",
+            "Description": "US 30 Wall Street",
+            "Symbol": "US30.I",
+            "Uic": 4911
+        },
+        {
+            "AssetType": "CfdOnIndex",
+            "Description": "US 500",
+            "Symbol": "US500.I",
+            "Uic": 4913
+        }
+    ],
+    "Name": "CFD Indices",
+    "PrimaryAssetType": "CfdOnIndex",
+    "TradeRegionId": "31",
+    "Type": "Predefined",
+    "WatchlistId": "10694"
+}

@@ -1,0 +1,175 @@
+[
+    {
+        "Attributes": {
+            "SubType": "Free",
+            "Template": "This is a test insight with a deep link to a chart."
+        },
+        "CampaignDataType": "Text",
+        "CampaignId": 0,
+        "DeepLink": {
+            "Module": "Charts",
+            "Params": {
+                "Uic": "21",
+                "AssetType": "FxSpot",
+                "Horizon": "120"
+            }
+        },
+        "ImpressionId": 0,
+        "Language": "EN",
+        "Link": "",
+        "Path": "",
+        "Position": 1095,
+        "RecommendationOrder": 0,
+        "SentDate": "2019-11-13T12:32:32.410725Z"
+    },
+    {
+        "Attributes": {
+            "SubType": "News",
+            "Template": "Axe Capital seeks to continue to thrive in an evermore difficult regulatory environment and will continue to employ its controversial strategies in the name of industry and competition"
+        },
+        "CampaignDataType": "Text",
+        "CampaignId": 2,
+        "ImpressionId": 0,
+        "Language": "en",
+        "Link": "https://saxobank.23video.com/13968029/15495749/c131cf52b3e789a3d52a1f4be0c4298a/video_hd/saxotradergo-4-video.mp4?referer=https%3A%2F%2Fwww.home.saxo%2F&uuid=c380eac3-7a80-0696-8d57-09a281d8fca9",
+        "Path": "Test path",
+        "Position": 1095,
+        "RecommendationOrder": 0,
+        "SentDate": "2019-02-12T09:17:33.117145Z"
+    },
+    {
+        "Attributes": {
+            "SubType": "News",
+            "Template": "SaxoTrader is now optimised for cats. See the video of cat getting out of the box and placing FX Spot order with few mouse clicks once hearing the SaxoTrader TV commercial. No mice were harmed in the making of this film"
+        },
+        "CampaignDataType": "Text",
+        "CampaignId": 1,
+        "ImpressionId": 0,
+        "Language": "en",
+        "Link": "https://saxobank.23video.com/13968029/15495749/c131cf52b3e789a3d52a1f4be0c4298a/video_hd/saxotradergo-4-video.mp4?referer=https%3A%2F%2Fwww.home.saxo%2F&uuid=c380eac3-7a80-0696-8d57-09a281d8fca9",
+        "Path": "Test path",
+        "Position": 1095,
+        "RecommendationOrder": 0,
+        "SentDate": "2019-02-12T09:17:33.117145Z"
+    },
+    {
+        "Attributes": {
+            "SubType": "News",
+            "Template": "Another news for the insights."
+        },
+        "CampaignDataType": "Text",
+        "CampaignId": 3,
+        "ImpressionId": 0,
+        "Language": "en",
+        "Link": "https://saxobank.23video.com/13968029/15495749/c131cf52b3e789a3d52a1f4be0c4298a/video_hd/saxotradergo-4-video.mp4?referer=https%3A%2F%2Fwww.home.saxo%2F&uuid=c380eac3-7a80-0696-8d57-09a281d8fca9",
+        "Path": "Test path",
+        "Position": 1095,
+        "RecommendationOrder": 0,
+        "SentDate": "2019-02-12T09:17:33.117145Z"
+    },
+    {
+        "Attributes": {
+            "SubType": "News",
+            "Template": "Another news for the insights."
+        },
+        "CampaignDataType": "Text",
+        "CampaignId": 4,
+        "ImpressionId": 0,
+        "Language": "en",
+        "Link": "https://saxobank.23video.com/13968029/15495749/c131cf52b3e789a3d52a1f4be0c4298a/video_hd/saxotradergo-4-video.mp4?referer=https%3A%2F%2Fwww.home.saxo%2F&uuid=c380eac3-7a80-0696-8d57-09a281d8fca9",
+        "Path": "Test path",
+        "Position": 1095,
+        "RecommendationOrder": 0,
+        "SentDate": "2019-02-12T09:17:33.117145Z"
+    },
+    {
+        "Attributes": {
+            "SubType": "News",
+            "Template": "Another news for the insights."
+        },
+        "CampaignDataType": "Text",
+        "CampaignId": 5,
+        "ImpressionId": 0,
+        "Language": "en",
+        "Link": "https://saxobank.23video.com/13968029/15495749/c131cf52b3e789a3d52a1f4be0c4298a/video_hd/saxotradergo-4-video.mp4?referer=https%3A%2F%2Fwww.home.saxo%2F&uuid=c380eac3-7a80-0696-8d57-09a281d8fca9",
+        "Path": "Test path",
+        "Position": 1095,
+        "RecommendationOrder": 0,
+        "SentDate": "2019-02-12T09:17:33.117145Z"
+    },
+    {
+        "Attributes": {
+            "SubType": "News",
+            "Template": "Another news for the insights."
+        },
+        "CampaignDataType": "Text",
+        "CampaignId": 6,
+        "ImpressionId": 0,
+        "Language": "en",
+        "Link": "https://saxobank.23video.com/13968029/15495749/c131cf52b3e789a3d52a1f4be0c4298a/video_hd/saxotradergo-4-video.mp4?referer=https%3A%2F%2Fwww.home.saxo%2F&uuid=c380eac3-7a80-0696-8d57-09a281d8fca9",
+        "Path": "Test path",
+        "Position": 1095,
+        "RecommendationOrder": 0,
+        "SentDate": "2019-02-12T09:17:33.117145Z"
+    },
+    {
+        "Attributes": {
+            "SubType": "News",
+            "Template": "Another news for the insights."
+        },
+        "CampaignDataType": "Text",
+        "CampaignId": 7,
+        "ImpressionId": 0,
+        "Language": "en",
+        "Link": "https://saxobank.23video.com/13968029/15495749/c131cf52b3e789a3d52a1f4be0c4298a/video_hd/saxotradergo-4-video.mp4?referer=https%3A%2F%2Fwww.home.saxo%2F&uuid=c380eac3-7a80-0696-8d57-09a281d8fca9",
+        "Path": "Test path",
+        "Position": 1095,
+        "RecommendationOrder": 0,
+        "SentDate": "2019-02-12T09:17:33.117145Z"
+    },
+    {
+        "Attributes": {
+            "SubType": "News",
+            "Template": "Another news for the insights."
+        },
+        "CampaignDataType": "Text",
+        "CampaignId": 8,
+        "ImpressionId": 0,
+        "Language": "en",
+        "Link": "https://saxobank.23video.com/13968029/15495749/c131cf52b3e789a3d52a1f4be0c4298a/video_hd/saxotradergo-4-video.mp4?referer=https%3A%2F%2Fwww.home.saxo%2F&uuid=c380eac3-7a80-0696-8d57-09a281d8fca9",
+        "Path": "Test path",
+        "Position": 1095,
+        "RecommendationOrder": 0,
+        "SentDate": "2019-02-12T09:17:33.117145Z"
+    },
+    {
+        "Attributes": {
+            "SubType": "News",
+            "Template": "Another news for the insights."
+        },
+        "CampaignDataType": "Text",
+        "CampaignId": 9,
+        "ImpressionId": 0,
+        "Language": "en",
+        "Link": "https://saxobank.23video.com/13968029/15495749/c131cf52b3e789a3d52a1f4be0c4298a/video_hd/saxotradergo-4-video.mp4?referer=https%3A%2F%2Fwww.home.saxo%2F&uuid=c380eac3-7a80-0696-8d57-09a281d8fca9",
+        "Path": "Test path",
+        "Position": 1095,
+        "RecommendationOrder": 0,
+        "SentDate": "2019-02-12T09:17:33.117145Z"
+    },
+    {
+        "Attributes": {
+            "SubType": "News",
+            "Template": "Another news for the insights."
+        },
+        "CampaignDataType": "Text",
+        "CampaignId": 10,
+        "ImpressionId": 0,
+        "Language": "en",
+        "Link": "https://saxobank.23video.com/13968029/15495749/c131cf52b3e789a3d52a1f4be0c4298a/video_hd/saxotradergo-4-video.mp4?referer=https%3A%2F%2Fwww.home.saxo%2F&uuid=c380eac3-7a80-0696-8d57-09a281d8fca9",
+        "Path": "Test path",
+        "Position": 1095,
+        "RecommendationOrder": 0,
+        "SentDate": "2019-02-12T09:17:33.117145Z"
+    }
+]

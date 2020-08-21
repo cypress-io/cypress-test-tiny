@@ -1,0 +1,207 @@
+{
+    "__count": 47,
+    "__next": "//openapi/mkt/v1/marketdata/analyst/?countrycodes=DK&assettype=Stock&$top=5&$skiptoken=45934",
+    "Data": [
+        {
+            "AnalystAction": {
+                "Key": "reiterated",
+                "Value": "reiterated"
+            },
+            "AnalystInfo": {
+                "FirmName": "Morgan Stanley",
+                "GoodRecommendations": 3,
+                "Id": "a9eaafc7ae65901c5ed81eaad4aca92aae4ba450",
+                "Name": "Ben Uglow",
+                "NumberOfStars": 2.2,
+                "OverallAverageReturn": 5.2,
+                "OverallSuccessRate": 0.6,
+                "Rank": 2939,
+                "TotalNumberOfRankedAnalysts": 5203,
+                "TotalRecommendations": 5
+            },
+            "AverageReturn": 0,
+            "Consensus": {
+                "Key": "Hold",
+                "Value": "Hold"
+            },
+            "GoodRecommendations": 0,
+            "Id": 45938,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "US",
+                "ExchangeId": "NASDAQ",
+                "Instrument": "AAPL:xnas",
+                "Description": "Apple Inc.",
+                "Uic": 211
+            },
+            "RecommendationArticleTitle": "Apple Inc. (AAPL:xnas) (XYZ) PT Raised to USD45 at Morgan Stanley",
+            "RecommendationDate": "2019-04-10",
+            "RecommendationSite": "StreetInsider",
+            "RecommendationUrl": "http://www.streetinsider.com/intl+ratings/vestas+wind+systems+as+%28vws%3adc%29+%28vwdry%29+pt+raised+to+dkk516+at+morgan+stanley/15356709.html?si_client=tipranks-15356709-b09e1c8f82",
+            "SuccessRate": 0,
+            "TargetPrice": 516,
+            "TotalRecommendations": 0
+        },
+        {
+            "AnalystAction": {
+                "Key": "reiterated",
+                "Value": "reiterated"
+            },
+            "AnalystInfo": {
+                "FirmName": "Barclays",
+                "GoodRecommendations": 1,
+                "Id": "ca879df2e1656a7a918042fec02583d984872b9b",
+                "Name": "Claudia Gaspari",
+                "NumberOfStars": 0.9,
+                "OverallAverageReturn": -16.3,
+                "OverallSuccessRate": 0.5,
+                "PictureUrl": "https://cdn.tipranks.com/expert-pictures/203743_737290A025_tsqr.jpg",
+                "Rank": 4218,
+                "TotalNumberOfRankedAnalysts": 5203,
+                "TotalRecommendations": 2
+            },
+            "AverageReturn": 0,
+            "Consensus": {
+                "Key": "Hold",
+                "Value": "Hold"
+            },
+            "GoodRecommendations": 0,
+            "Id": 45937,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "DK",
+                "ExchangeId": "CSE",
+                "Instrument": "TRYG:xcse",
+                "Description": "TRYG",
+                "Uic": 17512
+            },
+            "RecommendationArticleTitle": "Barclays Reiterates Equalweight Rating on Tryg A/S (TGVSF)",
+            "RecommendationDate": "2019-04-03",
+            "RecommendationSite": "StreetInsider",
+            "RecommendationUrl": "http://www.streetinsider.com/intl+ratings/barclays+reiterates+equalweight+rating+on+tryg+as+%28tgvsf%29/15332992.html?si_client=tipranks-15332992-90e14491c6",
+            "SuccessRate": 0,
+            "TargetPrice": 165,
+            "TotalRecommendations": 0
+        },
+        {
+            "AnalystAction": {
+                "Key": "reiterated",
+                "Value": "reiterated"
+            },
+            "AnalystInfo": {
+                "FirmName": "Barclays",
+                "GoodRecommendations": 1,
+                "Id": "ca879df2e1656a7a918042fec02583d984872b9b",
+                "Name": "Claudia Gaspari",
+                "NumberOfStars": 0.9,
+                "OverallAverageReturn": -16.3,
+                "OverallSuccessRate": 0.5,
+                "PictureUrl": "https://cdn.tipranks.com/expert-pictures/203743_737290A025_tsqr.jpg",
+                "Rank": 4218,
+                "TotalNumberOfRankedAnalysts": 5203,
+                "TotalRecommendations": 2
+            },
+            "AverageReturn": 0,
+            "Consensus": {
+                "Key": "Hold",
+                "Value": "Hold"
+            },
+            "GoodRecommendations": 0,
+            "Id": 45936,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "DK",
+                "ExchangeId": "CSE",
+                "Instrument": "TOP:xcse",
+                "Description": "TopDanmark",
+                "Uic": 15599
+            },
+            "RecommendationArticleTitle": "Barclays Reiterates Equalweight Rating on Topdanmark (TPDKY)",
+            "RecommendationDate": "2019-04-24",
+            "RecommendationSite": "StreetInsider",
+            "RecommendationUrl": "http://www.streetinsider.com/intl+ratings/barclays+reiterates+equalweight+rating+on+topdanmark+%28tpdky%29/15398502.html?si_client=tipranks-15398502-abecbb6c43",
+            "SuccessRate": 0,
+            "TargetPrice": 312,
+            "TotalRecommendations": 0
+        },
+        {
+            "AnalystAction": {
+                "Key": "downgraded",
+                "Value": "downgraded"
+            },
+            "AnalystInfo": {
+                "FirmName": "Citigroup",
+                "GoodRecommendations": 2,
+                "Id": "8afd098f95c486a6c83d9d72ea70d2fa2a2f17c3",
+                "Name": "Thomas Chauvet",
+                "NumberOfStars": 1.3,
+                "OverallAverageReturn": -3.1,
+                "OverallSuccessRate": 0.4,
+                "PictureUrl": "https://cdn.tipranks.com/expert-pictures/7427_BCHGDHJGJB_tsqr.jpg",
+                "Rank": 3848,
+                "TotalNumberOfRankedAnalysts": 5203,
+                "TotalRecommendations": 5
+            },
+            "AverageReturn": 0,
+            "Consensus": {
+                "Key": "Hold",
+                "Value": "Hold"
+            },
+            "GoodRecommendations": 0,
+            "Id": 45935,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "DK",
+                "ExchangeId": "CSE",
+                "Instrument": "PNDORA:xcse",
+                "Description": "PNDORA",
+                "Uic": 48755
+            },
+            "RecommendationArticleTitle": "Citi Downgrades Pandora A/S (PNDORA:DC) (PANDY) to Neutral",
+            "RecommendationDate": "2019-01-21",
+            "RecommendationSite": "StreetInsider",
+            "RecommendationUrl": "http://www.streetinsider.com/intl+ratings/citi+downgrades+pandora+as+%28pndora%3adc%29+%28pandy%29+to+neutral/15023152.html?si_client=tipranks-15023152-ac88b0648b",
+            "SuccessRate": 0,
+            "TargetPrice": 285,
+            "TotalRecommendations": 0
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "Berenberg Bank",
+                "GoodRecommendations": 23,
+                "Id": "b7170194b2b3982aa2a32d39a6bce21cc358bbc6",
+                "Name": "Zuzanna Pusz",
+                "NumberOfStars": 4.4,
+                "OverallAverageReturn": 22.6,
+                "OverallSuccessRate": 1,
+                "PictureUrl": "https://cdn.tipranks.com/expert-pictures/152329_EDECCDFIG_tsqr.jpg",
+                "Rank": 624,
+                "TotalNumberOfRankedAnalysts": 5203,
+                "TotalRecommendations": 23
+            },
+            "AverageReturn": 0,
+            "Consensus": {
+                "Key": "Hold",
+                "Value": "Hold"
+            },
+            "GoodRecommendations": 0,
+            "Id": 45934,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "DK",
+                "ExchangeId": "CSE",
+                "Instrument": "PNDORA:xcse",
+                "Description": "PNDORA",
+                "Uic": 48755
+            },
+            "RecommendationDate": "2019-02-14",
+            "SuccessRate": 0,
+            "TargetPrice": 370,
+            "TotalRecommendations": 0
+        }
+    ]
+}

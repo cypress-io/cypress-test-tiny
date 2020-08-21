@@ -1,0 +1,196 @@
+{
+    "AccountCurrency": "EUR",
+    "AccumulatedVolume": 0,
+    "AmountCurrency": "EUR",
+    "ApplicableFxCommissionRate": 0.00005,
+    "CommissionLimits": [
+        {
+            "Currency": "USD",
+            "MaxAmount": 25000000,
+            "MinCommission": 3,
+            "OrderAction": "ExecuteOrder",
+            "RateOnAmount": 0.00005
+        },
+        {
+            "Currency": "USD",
+            "MaxAmount": 100000000,
+            "MinAmount": 25000000,
+            "MinCommission": 3,
+            "OrderAction": "ExecuteOrder",
+            "RateOnAmount": 0.00004
+        },
+        {
+            "Currency": "USD",
+            "MaxAmount": 250000000,
+            "MinAmount": 100000000,
+            "MinCommission": 3,
+            "OrderAction": "ExecuteOrder",
+            "RateOnAmount": 0.00003
+        },
+        {
+            "Currency": "USD",
+            "MaxAmount": 500000000,
+            "MinAmount": 250000000,
+            "MinCommission": 3,
+            "OrderAction": "ExecuteOrder",
+            "RateOnAmount": 0.000025
+        },
+        {
+            "Currency": "USD",
+            "MaxAmount": 1000000000,
+            "MinAmount": 500000000,
+            "MinCommission": 3,
+            "OrderAction": "ExecuteOrder",
+            "RateOnAmount": 0.00002
+        },
+        {
+            "Currency": "USD",
+            "MinAmount": 1000000000,
+            "MinCommission": 3,
+            "OrderAction": "ExecuteOrder",
+            "RateOnAmount": 0.000017
+        }
+    ],
+    "CurrencyCutSpreadRate": 0.5,
+    "CurrentMonthlyVolume": 0,
+    "ExposureLimits": [
+        {
+            "Currency": "USD",
+            "Identifier": "EUR",
+            "Level": "Currency",
+            "RuleType": "Value",
+            "Value": 115000000
+        },
+        {
+            "Currency": "USD",
+            "Identifier": "PLN",
+            "Level": "Currency",
+            "RuleType": "Value",
+            "Value": 25000000
+        },
+        {
+            "Currency": "USD",
+            "Identifier": "Fx-NOP",
+            "Level": "Asset",
+            "RuleType": "Value",
+            "Value": 25000000
+        }
+    ],
+    "FinanceInterestMarkUp": 0.75,
+    "ForexPriceBands": [
+        {
+            "AutoExecuteEnabled": true,
+            "AutoQuoteEnabled": true,
+            "DisplayDecimals": 5,
+            "MaxBand": 15000000,
+            "Spread": 0.0004,
+            "SpreadType": "Variable",
+            "UpperBandLimit": 15000000
+        }
+    ],
+    "FxSpotMaxOrderAutoPlaceAmount": 15000000,
+    "FxSpotMaxStreamingAmount": 15000000,
+    "InstrumentCurrency": "PLN",
+    "IsTradable": true,
+    "MarginTierRequirement": {
+        "Entries": [
+            {
+                "ExtraWeekMarginRate": 0.05,
+                "InitialMarginRate": 0.2,
+                "IntraWeekMarginRate": 0.05,
+                "TierLowerBound": 0
+            },
+            {
+                "ExtraWeekMarginRate": 0.15,
+                "InitialMarginRate": 0.25,
+                "IntraWeekMarginRate": 0.05,
+                "TierLowerBound": 100
+            },
+            {
+                "ExtraWeekMarginRate": 0.2,
+                "InitialMarginRate": 0.38,
+                "IntraWeekMarginRate": 0.13,
+                "TierLowerBound": 500
+            }
+        ],
+        "TierCurrency": "EUR"
+    },
+    "MinOrderSize": 1000,
+    "MinOrderSizeCurrency": "EUR",
+    "Rating": 0,
+    "ScheduledTradingConditions": [
+        {
+            "ScheduledDate": "2018-10-09T00:00:00",
+            "TradingCondition": {
+                "MarginTierRequirement": {
+                    "Entries": [
+                        {
+                            "ExtraWeekMarginRate": 0.02,
+                            "InitialMarginRate": 0.02,
+                            "IntraWeekMarginRate": 0.02,
+                            "TierLowerBound": 0
+                        },
+                        {
+                            "ExtraWeekMarginRate": 0.021,
+                            "InitialMarginRate": 0.021,
+                            "IntraWeekMarginRate": 0.021,
+                            "TierLowerBound": 1000000
+                        },
+                        {
+                            "ExtraWeekMarginRate": 0.021,
+                            "InitialMarginRate": 0.021,
+                            "IntraWeekMarginRate": 0.021,
+                            "TierLowerBound": 3000000
+                        },
+                        {
+                            "ExtraWeekMarginRate": 0.021,
+                            "InitialMarginRate": 0.021,
+                            "IntraWeekMarginRate": 0.021,
+                            "TierLowerBound": 5000000
+                        },
+                        {
+                            "ExtraWeekMarginRate": 0.021,
+                            "InitialMarginRate": 0.021,
+                            "IntraWeekMarginRate": 0.021,
+                            "TierLowerBound": 10000000
+                        },
+                        {
+                            "ExtraWeekMarginRate": 0.021,
+                            "InitialMarginRate": 0.021,
+                            "IntraWeekMarginRate": 0.021,
+                            "TierLowerBound": 25000000
+                        },
+                        {
+                            "ExtraWeekMarginRate": 0.021,
+                            "InitialMarginRate": 0.021,
+                            "IntraWeekMarginRate": 0.021,
+                            "TierLowerBound": 50000000
+                        },
+                        {
+                            "ExtraWeekMarginRate": 0.021,
+                            "InitialMarginRate": 0.021,
+                            "IntraWeekMarginRate": 0.021,
+                            "TierLowerBound": 100000000
+                        },
+                        {
+                            "ExtraWeekMarginRate": 0.021,
+                            "InitialMarginRate": 0.021,
+                            "IntraWeekMarginRate": 0.021,
+                            "TierLowerBound": 150000000
+                        },
+                        {
+                            "ExtraWeekMarginRate": 0.021,
+                            "InitialMarginRate": 0.021,
+                            "IntraWeekMarginRate": 0.021,
+                            "TierLowerBound": 250000000
+                        }
+                    ],
+                    "TierCurrency": "USD"
+                }
+            }
+        }
+    ],
+    "SpreadAsLowAs": 0,
+    "SwapInterestMarkUp": 0.45,
+    "TicketFeeThreshold": 50000
+}

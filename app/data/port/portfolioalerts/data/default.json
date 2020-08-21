@@ -1,0 +1,11 @@
+[
+    {
+        "CallAction": "ClientPopUp",
+        "CallLevel": 20,
+        "ClientId": 2147339647,
+        "EmailTo": "",
+        "Message": "[subject]Collateral Alert[/subject]Your Collateral Alert at [CallLevel] was triggered.\r\nYour current collateral utilization is [RealLinePct].",
+        "MinutesOnCallLevel": 0,
+        "MonitoringType": "CollateralUtilization"
+    }
+]

@@ -1,0 +1,26 @@
+{
+    "CurrentClassification": {
+        "Classification": {
+            "Key": "4",
+            "Value": "VIP"
+        },
+        "EndDate": "2019-12-10",
+        "StartDate": "2019-09-10",
+        "Points": 28000,
+        "ValidUntil": "2019-12-10"
+    },
+    "TargetClassification": {
+        "ActionType": {
+            "Key": "Retain",
+            "Value": "RETAIN"
+        },
+        "Classification": {
+            "Key": "4",
+            "Value": "VIP"
+        },
+        "DaysLeft": 5,
+        "EndDate": "2019-10-10",
+        "Points": 472000,
+        "StartDate": "2019-09-10"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "EmailAddress": "",
+    "EmailAddressValidated": false,
+    "NotifyWithMail": false,
+    "NotifyWithPopup": true,
+    "Sound": "Asterisk"
+}

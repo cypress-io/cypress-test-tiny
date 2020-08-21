@@ -1,0 +1,424 @@
+{
+    "__count": 15,
+    "Data": [
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "Maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "Deutsche Bank",
+                "GoodRecommendations": 17,
+                "Id": "f6c365ccc4cf14557fb4755c05c4093e607120a7",
+                "Name": "Johannes Schaller",
+                "NumberOfStars": 2.8,
+                "OverallAverageReturn": 2.3,
+                "OverallSuccessRate": 0.531,
+                "PictureUrl": "https://cdn.tipranks.com/expert-pictures/24679_FDEHJBFGG_tsqr.jpg",
+                "Rank": 2906,
+                "TotalNumberOfRankedAnalysts": 6650,
+                "TotalRecommendations": 32
+            },
+            "AverageReturn": 19.8,
+            "Consensus": {
+                "Key": "Buy",
+                "Value": "Buy"
+            },
+            "GoodRecommendations": 4,
+            "Id": 16941671,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "FR",
+                "Description": "STMicroelectronics",
+                "ExchangeId": "PAR",
+                "Format": {
+                    "Decimals": 3
+                },
+                "Instrument": "STM:xpar",
+                "Uic": 1252
+            },
+            "RecommendationDate": "2020-05-26",
+            "SuccessRate": 0.667,
+            "TargetPrice": 26,
+            "TotalRecommendations": 6
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "Maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "Credit Suisse",
+                "GoodRecommendations": 54,
+                "Id": "7b928433448fa6933b2d8bef57e09262c596c7c8",
+                "Name": "Achal Sultania",
+                "NumberOfStars": 3.2,
+                "OverallAverageReturn": 2.1,
+                "OverallSuccessRate": 0.505,
+                "PictureUrl": "https://cdn.tipranks.com/expert-pictures/29145_D96BA77630_tsqr.jpg",
+                "Rank": 2459,
+                "TotalNumberOfRankedAnalysts": 6650,
+                "TotalRecommendations": 107
+            },
+            "AverageReturn": 12,
+            "Consensus": {
+                "Key": "Buy",
+                "Value": "Buy"
+            },
+            "GoodRecommendations": 7,
+            "Id": 16941670,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "FR",
+                "Description": "STMicroelectronics",
+                "ExchangeId": "PAR",
+                "Format": {
+                    "Decimals": 3
+                },
+                "Instrument": "STM:xpar",
+                "Uic": 1252
+            },
+            "RecommendationDate": "2020-05-26",
+            "SuccessRate": 0.583,
+            "TargetPrice": 25.5,
+            "TotalRecommendations": 12
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "Maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "Goldman Sachs",
+                "GoodRecommendations": 63,
+                "Id": "d5f99327e05fede29ac1e8a2b876a687494045e9",
+                "Name": "Alexander Duval",
+                "NumberOfStars": 4.6,
+                "OverallAverageReturn": 12.1,
+                "OverallSuccessRate": 0.724,
+                "Rank": 568,
+                "TotalNumberOfRankedAnalysts": 6650,
+                "TotalRecommendations": 87
+            },
+            "AverageReturn": 25.2,
+            "Consensus": {
+                "Key": "Sell",
+                "Value": "Sell"
+            },
+            "GoodRecommendations": 5,
+            "Id": 16941673,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "FR",
+                "Description": "STMicroelectronics",
+                "ExchangeId": "PAR",
+                "Format": {
+                    "Decimals": 3
+                },
+                "Instrument": "STM:xpar",
+                "Uic": 1252
+            },
+            "RecommendationDate": "2020-05-12",
+            "SuccessRate": 1,
+            "TotalRecommendations": 5
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "Maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "J.P. Morgan",
+                "GoodRecommendations": 40,
+                "Id": "ce20959ad6b6261c1c1866feca9f8dbcd8a7e035",
+                "Name": "Sandeep Deshpande",
+                "NumberOfStars": 4.5,
+                "OverallAverageReturn": 15.1,
+                "OverallSuccessRate": 0.656,
+                "Rank": 633,
+                "TotalNumberOfRankedAnalysts": 6650,
+                "TotalRecommendations": 61
+            },
+            "AverageReturn": 27,
+            "Consensus": {
+                "Key": "Hold",
+                "Value": "Hold"
+            },
+            "GoodRecommendations": 7,
+            "Id": 16941672,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "FR",
+                "Description": "STMicroelectronics",
+                "ExchangeId": "PAR",
+                "Format": {
+                    "Decimals": 3
+                },
+                "Instrument": "STM:xpar",
+                "Uic": 1252
+            },
+            "RecommendationDate": "2020-05-12",
+            "SuccessRate": 0.875,
+            "TargetPrice": 19,
+            "TotalRecommendations": 8
+        },
+        {
+            "AnalystAction": {
+                "Key": "downgraded",
+                "Value": "Downgraded"
+            },
+            "AnalystInfo": {
+                "FirmName": "Citigroup",
+                "GoodRecommendations": 17,
+                "Id": "1f085bfac6db8e3b0f84850b2106b398fea15f27",
+                "Name": "Amit Harchandani",
+                "NumberOfStars": 3.4,
+                "OverallAverageReturn": 6,
+                "OverallSuccessRate": 0.586,
+                "PictureUrl": "https://cdn.tipranks.com/expert-pictures/22180_39961AD757_tsqr.jpg",
+                "Rank": 2141,
+                "TotalNumberOfRankedAnalysts": 6650,
+                "TotalRecommendations": 29
+            },
+            "AverageReturn": 49.1,
+            "Consensus": {
+                "Key": "Hold",
+                "Value": "Hold"
+            },
+            "GoodRecommendations": 1,
+            "Id": 16941674,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "FR",
+                "Description": "STMicroelectronics",
+                "ExchangeId": "PAR",
+                "Format": {
+                    "Decimals": 3
+                },
+                "Instrument": "STM:xpar",
+                "Uic": 1252
+            },
+            "RecommendationArticleTitle": "Citi Downgrades STMicroelectronics NV (STM:FP) (STM) to Neutral",
+            "RecommendationDate": "2020-05-04",
+            "RecommendationSite": "StreetInsider",
+            "RecommendationUrl": "http://www.streetinsider.com/intl+ratings/citi+downgrades+stmicroelectronics+nv+%28stm%3afp%29+%28stm%29+to+neutral/16824720.html?si_client=tipranks-16824720-a2e5786f68",
+            "SuccessRate": 1,
+            "TargetPrice": 24,
+            "TotalRecommendations": 1
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "Maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "Barclays",
+                "GoodRecommendations": 72,
+                "Id": "8a60a5406c47996f9503c2099291ef01f3f3a725",
+                "Name": "Andrew Gardiner",
+                "NumberOfStars": 4.3,
+                "OverallAverageReturn": 8,
+                "OverallSuccessRate": 0.55,
+                "PictureUrl": "https://cdn.tipranks.com/expert-pictures/13386_FAB294F0C3_tsqr.jpg",
+                "Rank": 886,
+                "TotalNumberOfRankedAnalysts": 6650,
+                "TotalRecommendations": 131
+            },
+            "AverageReturn": 18.5,
+            "Consensus": {
+                "Key": "Buy",
+                "Value": "Buy"
+            },
+            "GoodRecommendations": 10,
+            "Id": 16941677,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "FR",
+                "Description": "STMicroelectronics",
+                "ExchangeId": "PAR",
+                "Format": {
+                    "Decimals": 3
+                },
+                "Instrument": "STM:xpar",
+                "Uic": 1252
+            },
+            "RecommendationArticleTitle": "STMicroelectronics NV (STM:FP) (STM) PT Lowered to EUR27 at Barclays",
+            "RecommendationDate": "2020-04-23",
+            "RecommendationSite": "StreetInsider",
+            "RecommendationUrl": "http://www.streetinsider.com/intl+ratings/stmicroelectronics+nv+%28stm%3afp%29+%28stm%29+pt+lowered+to+eur27+at+barclays/16775280.html?si_client=tipranks-16775280-5e121ca26d",
+            "SuccessRate": 0.588,
+            "TargetPrice": 27,
+            "TotalRecommendations": 17
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "Maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "Morgan Stanley",
+                "GoodRecommendations": 6,
+                "Id": "a1643fdaf5f473ca880cb3f3d0f7e3626abdf1e1",
+                "Name": "Dominik Olszewski",
+                "NumberOfStars": 3.8,
+                "OverallAverageReturn": 20.3,
+                "OverallSuccessRate": 0.545,
+                "Rank": 1643,
+                "TotalNumberOfRankedAnalysts": 6650,
+                "TotalRecommendations": 11
+            },
+            "AverageReturn": 16.4,
+            "Consensus": {
+                "Key": "Buy",
+                "Value": "Buy"
+            },
+            "GoodRecommendations": 2,
+            "Id": 16941676,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "FR",
+                "Description": "STMicroelectronics",
+                "ExchangeId": "PAR",
+                "Format": {
+                    "Decimals": 3
+                },
+                "Instrument": "STM:xpar",
+                "Uic": 1252
+            },
+            "RecommendationArticleTitle": "STMicroelectronics NV (STM:FP) (STM) PT Lowered to EUR25 at Morgan Stanley",
+            "RecommendationDate": "2020-04-23",
+            "RecommendationSite": "StreetInsider",
+            "RecommendationUrl": "http://www.streetinsider.com/intl+ratings/stmicroelectronics+nv+%28stm%3afp%29+%28stm%29+pt+lowered+to+eur25+at+morgan+stanley/16775304.html?si_client=tipranks-16775304-4eda03f50b",
+            "SuccessRate": 0.5,
+            "TargetPrice": 25,
+            "TotalRecommendations": 4
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "Maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "UBS",
+                "GoodRecommendations": 42,
+                "Id": "e426149de83e1ba6deca27a485648eabbdc8348f",
+                "Name": "David Mulholland",
+                "NumberOfStars": 4.4,
+                "OverallAverageReturn": 12,
+                "OverallSuccessRate": 0.656,
+                "Rank": 755,
+                "TotalNumberOfRankedAnalysts": 6650,
+                "TotalRecommendations": 64
+            },
+            "AverageReturn": 15.1,
+            "Consensus": {
+                "Key": "Buy",
+                "Value": "Buy"
+            },
+            "GoodRecommendations": 1,
+            "Id": 16941675,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "FR",
+                "Description": "STMicroelectronics",
+                "ExchangeId": "PAR",
+                "Format": {
+                    "Decimals": 3
+                },
+                "Instrument": "STM:xpar",
+                "Uic": 1252
+            },
+            "RecommendationDate": "2020-04-23",
+            "SuccessRate": 1,
+            "TargetPrice": 23,
+            "TotalRecommendations": 1
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "Maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "Societe Generale",
+                "GoodRecommendations": 10,
+                "Id": "dc6a5f6123b51a76bc47e8448e268e3c7814103b",
+                "Name": "Aleksander Peterc",
+                "NumberOfStars": 1.8,
+                "OverallAverageReturn": -0.6,
+                "OverallSuccessRate": 0.5,
+                "PictureUrl": "https://cdn.tipranks.com/expert-pictures/535575_4F5475B5BF_tsqr.jpg",
+                "Rank": 4239,
+                "TotalNumberOfRankedAnalysts": 6650,
+                "TotalRecommendations": 20
+            },
+            "AverageReturn": 45.8,
+            "Consensus": {
+                "Key": "Buy",
+                "Value": "Buy"
+            },
+            "GoodRecommendations": 4,
+            "Id": 16941678,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "FR",
+                "Description": "STMicroelectronics",
+                "ExchangeId": "PAR",
+                "Format": {
+                    "Decimals": 3
+                },
+                "Instrument": "STM:xpar",
+                "Uic": 1252
+            },
+            "RecommendationArticleTitle": "Societe Generale Reiterates Buy Rating on STMicroelectronics NV (STM:FP) (STM)",
+            "RecommendationDate": "2020-04-21",
+            "RecommendationSite": "StreetInsider",
+            "RecommendationUrl": "http://www.streetinsider.com/intl+ratings/societe+generale+reiterates+buy+rating+on+stmicroelectronics+nv+%28stm%3afp%29+%28stm%29/16764374.html?si_client=tipranks-16764374-608811bd26",
+            "SuccessRate": 1,
+            "TargetPrice": 23.3,
+            "TotalRecommendations": 4
+        },
+        {
+            "AnalystAction": {
+                "Key": "downgraded",
+                "Value": "Downgraded"
+            },
+            "AnalystInfo": {
+                "FirmName": "Bryan Garnier & Co Ltd",
+                "GoodRecommendations": 2,
+                "Id": "4e96bb5e4e8458d09050c85bb904a5e31cae5ae3",
+                "Name": "Frederic Yoboue",
+                "NumberOfStars": 1.7,
+                "OverallAverageReturn": -2.7,
+                "OverallSuccessRate": 0.5,
+                "Rank": 4355,
+                "TotalNumberOfRankedAnalysts": 6650,
+                "TotalRecommendations": 4
+            },
+            "AverageReturn": -16.1,
+            "Consensus": {
+                "Key": "Hold",
+                "Value": "Hold"
+            },
+            "GoodRecommendations": 0,
+            "Id": 16941679,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "FR",
+                "Description": "STMicroelectronics",
+                "ExchangeId": "PAR",
+                "Format": {
+                    "Decimals": 3
+                },
+                "Instrument": "STM:xpar",
+                "Uic": 1252
+            },
+            "RecommendationArticleTitle": "Bryan Garnier Downgrades STMicroelectronics NV (STM:FP) (STM) to Neutral",
+            "RecommendationDate": "2020-04-08",
+            "RecommendationSite": "StreetInsider",
+            "RecommendationUrl": "http://www.streetinsider.com/intl+ratings/bryan+garnier+downgrades+stmicroelectronics+nv+%28stm%3afp%29+%28stm%29+to+neutral/16722711.html?si_client=tipranks-16722711-946cd11646",
+            "SuccessRate": 0,
+            "TargetPrice": 25,
+            "TotalRecommendations": 1
+        }
+    ]
+}

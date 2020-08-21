@@ -1,0 +1,54 @@
+{
+    "AllDay": false,
+    "CountryCode": "HK",
+    "Currency": "HKD",
+    "ExchangeId": "HKEX",
+    "ExchangeSessions": [
+        {
+            "EndTime": "2019-11-12T01:00:00.000000Z",
+            "StartTime": "2019-11-11T08:10:00.000000Z",
+            "State": "Closed"
+        },
+        {
+            "EndTime": "2019-11-12T01:30:00.000000Z",
+            "StartTime": "2019-11-12T01:00:00.000000Z",
+            "State": "PreTrading"
+        },
+        {
+            "EndTime": "2019-11-12T04:00:00.000000Z",
+            "StartTime": "2019-11-12T01:30:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2019-11-12T04:30:00.000000Z",
+            "StartTime": "2019-11-12T04:00:00.000000Z",
+            "State": "Break"
+        },
+        {
+            "EndTime": "2019-11-12T05:00:00.000000Z",
+            "StartTime": "2019-11-12T04:30:00.000000Z",
+            "State": "Break"
+        },
+        {
+            "EndTime": "2019-11-12T08:00:00.000000Z",
+            "StartTime": "2019-11-12T05:00:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2019-11-12T08:10:00.000000Z",
+            "StartTime": "2019-11-12T08:00:00.000000Z",
+            "State": "CallAuctionTrading"
+        },
+        {
+            "EndTime": "2019-11-13T01:00:00.000000Z",
+            "StartTime": "2019-11-12T08:10:00.000000Z",
+            "State": "Closed"
+        }
+    ],
+    "Mic": "XHKG",
+    "Name": "Hong Kong Exchanges",
+    "PriceSourceName": "HKEX",
+    "TimeZone": 7,
+    "TimeZoneAbbreviation": "HKT",
+    "TimeZoneOffset": "08:00:00"
+}

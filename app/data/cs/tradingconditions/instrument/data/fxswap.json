@@ -1,0 +1,74 @@
+{
+    "AccountCurrency": "USD",
+    "AmountCurrency": "EUR",
+    "CommissionLimits": [
+        {
+            "BaseCommission": 10,
+            "Currency": "USD",
+            "MaxAmount": 50000,
+            "OrderAction": "ExecuteOrder"
+        },
+        {
+            "Currency": "USD",
+            "MinAmount": 50000,
+            "OrderAction": "ExecuteOrder"
+        }
+    ],
+    "FxForwardMaxOrderAutoPlaceAmount": 25000000,
+    "FxForwardMaxStreamingAmount": 10000000,
+    "FxSpotMaxOrderAutoPlaceAmount": 10000000,
+    "FxSpotMaxStreamingAmount": 10000000,
+    "IndicativeSpread": {
+        "CalculationTime": "2018-09-12T14:48:11.506403Z",
+        "PipSize": 0.001,
+        "Tenors": [
+            {
+                "Period": "1W",
+                "Spread": 0.1
+            },
+            {
+                "Period": "2W",
+                "Spread": 0.2
+            },
+            {
+                "Period": "3W",
+                "Spread": 0.3
+            },
+            {
+                "Period": "1M",
+                "Spread": 0.2
+            },
+            {
+                "Period": "2M",
+                "Spread": 0.4
+            },
+            {
+                "Period": "3M",
+                "Spread": 0.4
+            },
+            {
+                "Period": "6M",
+                "Spread": 0.9
+            },
+            {
+                "Period": "9M",
+                "Spread": 1.3
+            },
+            {
+                "Period": "1Y",
+                "Spread": 1.4
+            }
+        ]
+    },
+    "InstrumentCurrency": "USD",
+    "IsTradable": true,
+    "MinOrderSize": 1000,
+    "MinOrderSizeCurrency": "EUR",
+    "Rating": 0,
+    "SpreadAsLowAs": 0.00007,
+    "TicketFee": {
+        "CurrencyCode": "USD",
+        "Value": 10
+    },
+    "TicketFeeThreshold": 50000
+}

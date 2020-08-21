@@ -1,0 +1,14 @@
+[
+    {
+        "DateTime": "2019-02-13T12:10:36.691094Z",
+        "Message": "Willie Stroker: This is a <h1>heading</h1> and here are some script <script>alert('go')</script>"
+    },
+    {
+        "DateTime": "2019-02-13T12:12:36.691094Z",
+        "Message": "Willie Stroker: This http://www.google.com and this www.google.com are defined as URL patterns"
+    },
+    {
+        "DateTime": "2019-02-13T12:15:36.691094Z",
+        "Message": "Willie Stroker: www.google.com"
+    }
+]

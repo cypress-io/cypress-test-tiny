@@ -1,0 +1,203 @@
+{
+    "_entry": {
+        "data": {
+            "Data": [
+                {
+                    "DateTime": "2019-03-07T09:16:07.560000Z",
+                    "DisplayName": "",
+                    "IsDiscardable": false,
+                    "MessageBody": "\r\nOn 07 Mar 2019 at 09:16:07 (GMT)\r\nPlease be advised that you are now utilizing 83.8% of your available margin.\r\n\r\n",
+                    "MessageHeader": "Margin Usage",
+                    "MessageId": "364995_173637051",
+                    "MessageType": "MarginCall"
+                },
+                {
+                    "DateTime": "2019-03-07T09:18:07.827000Z",
+                    "DisplayName": "",
+                    "IsDiscardable": false,
+                    "MessageBody": "\r\nOn 07 Mar 2019 at 09:18:07 (GMT)\r\nYour margin requirement is 40197.27, while your available margin is 31925.37.\r\nPlease immediately reduce your positions accordingly and/or transfer sufficient funds to support your open positions.\r\nPlease note that failure to meet prevailing margin requirements may result in your positions being closed without further notice.\r\n\r\n",
+                    "MessageHeader": "Margin Call",
+                    "MessageId": "365006_173637052",
+                    "MessageType": "MarginCall"
+                },
+                {
+                    "DateTime": "2019-02-13T10:55:42.369113Z",
+                    "DisplayName": "",
+                    "IsDiscardable": false,
+                    "MessageBody": "\r\nOn 13 Feb 2019 at 10:55:42 (GMT)\r\nThe Account Value Shield that you set to CHF 497473.8 has been reached and we have now commenced closing down of all open positions on your behalf (with the exception of bonds and mutual funds).\r\n\r\n",
+                    "MessageHeader": "Account Shield Reached",
+                    "MessageId": "0_168600672",
+                    "MessageType": "MarginCall"
+                },
+                {
+                    "AccountId": "72663INET",
+                    "DateTime": "2017-06-13T12:30:04.467000Z",
+                    "DisplayName": "",
+                    "MessageBody": "You placed order to sell 100,000 GBPUSD spot @ 1.27411 limit I.O.C.  .\r\nFront office order id: 221313871\r\nAccount: 72663INET",
+                    "MessageHeader": "Order placed",
+                    "MessageId": "1276047776_83231035",
+                    "MessageType": "TradeConfirmation",
+                    "OrderId": "221313871"
+                },
+                {
+                    "DateTime": "2019-03-07T09:16:07.560000Z",
+                    "DisplayName": "",
+                    "IsDiscardable": false,
+                    "MessageBody": "{ \"cmd\": \"Features.Display.Disclaimer\", \"url\": \"key=renewalrequest\", \"block\": 0 }",
+                    "MessageHeader": "MacGyver",
+                    "MessageId": "877271403_0",
+                    "MessageType": "ClientResponse"
+                },
+                {
+                    "id": "protectPositionSyntheticMessage_5",
+                    "Instrument": {
+                        "AmountDecimals": 6,
+                        "AssetType": "FxSpot",
+                        "CurrencyCode": "JPY",
+                        "DefaultAmount": 100000,
+                        "DefaultSlippage": 0.01,
+                        "DefaultSlippageType": "Percentage",
+                        "Description": "Euro/Japanese Yen",
+                        "Exchange": {
+                            "CountryCode": "DK",
+                            "ExchangeId": "SBFX",
+                            "Name": "Inter Bank",
+                            "TimeZoneId": "3"
+                        },
+                        "Format": {
+                            "Decimals": 2,
+                            "Format": "AllowDecimalPips",
+                            "OrderDecimals": 2
+                        },
+                        "FxForwardMaxForwardDate": "2021-07-12T00:00:00.000000Z",
+                        "FxForwardMinForwardDate": "2020-07-07T00:00:00.000000Z",
+                        "FxSpotDate": "2020-07-07T00:00:00.000000Z",
+                        "GroupId": 0,
+                        "IncrementSize": 5000,
+                        "IsComplex": true,
+                        "IsTradable": true,
+                        "LotSizeType": "NotUsed",
+                        "MinimumTradeSize": 1000,
+                        "OrderDistances": {
+                            "EntryDefaultDistance": 0.5,
+                            "EntryDefaultDistanceType": "Percentage",
+                            "StopLimitDefaultDistance": 5,
+                            "StopLimitDefaultDistanceType": "Pips",
+                            "StopLossDefaultDistance": 50,
+                            "StopLossDefaultDistanceType": "Pips",
+                            "StopLossDefaultEnabled": false,
+                            "StopLossDefaultOrderType": "Stop",
+                            "TakeProfitDefaultDistance": 50,
+                            "TakeProfitDefaultDistanceType": "Pips",
+                            "TakeProfitDefaultEnabled": false
+                        },
+                        "OrderSetting": {},
+                        "Sector": {
+                            "Name": "Major",
+                            "SectorId": "2"
+                        },
+                        "StandardAmounts": [
+                            10000,
+                            50000,
+                            100000,
+                            250000,
+                            500000,
+                            1000000,
+                            2000000,
+                            5000000,
+                            10000000,
+                            20000000
+                        ],
+                        "SupportedOrderTypes": [
+                            "Market",
+                            "Limit",
+                            "StopLimit",
+                            "Stop",
+                            "TrailingStop"
+                        ],
+                        "Symbol": "EURJPY",
+                        "TickSize": 0.005,
+                        "TickSizeLimitOrder": 0.005,
+                        "TickSizeStopOrder": 0.005,
+                        "TradableAs": [
+                            "FxSpot",
+                            "FxForwards",
+                            "FxVanillaOption",
+                            "FxKnockInOption",
+                            "FxKnockOutOption",
+                            "FxOneTouchOption",
+                            "FxNoTouchOption",
+                            "FxSwap"
+                        ],
+                        "TradableOn": [
+                            "S14004USD",
+                            "S14005USD",
+                            "S14006USD",
+                            "S1402USD",
+                            "S1403USD",
+                            "S1404USD"
+                        ],
+                        "TradingSignals": "Allowed",
+                        "Uic": 18,
+                        "id": "18-FxSpot"
+                    },
+                    "AccountId": "S1403USD",
+                    "DateTime": "2020-07-03T09:53:43.004Z",
+                    "MessageId": "protectPositionSyntheticMessage_5",
+                    "UtcTime": "03-Jul-2020 09:53:43 GMT",
+                    "DisplayName": "Protect your EURJPY position",
+                    "MessageHeader": "Protect your EURJPY position",
+                    "MessageBody": "Add Take profit / Stop loss",
+                    "MessageType": "ProtectPosition",
+                    "MsgCategory": "ProtectYourPosition",
+                    "NetPositionId": "EURJPY__FxSpot",
+                    "Read": false
+                }
+            ]
+        },
+        "next": "update_1"
+    },
+    "update_1": {
+        "data": {
+            "Data": [
+                {
+                    "DateTime": "2019-03-07T09:08:46.817000Z",
+                    "DisplayName": "",
+                    "IsDiscardable": false,
+                    "MessageBody": "You bought 100 VOD:xlon shares @ 134.66\r\nAccumulated position for order is 100 shares @ 134.66 commission 8 GBP stamp duty / tax 0.67 GBP @ GBPUSD Conversion Rate 1.3235649\r\nRemaining amount: 200\r\nFront office position id: 1391897833\r\nAccount: 107838INET",
+                    "MessageHeader": "Trade confirmation",
+                    "MessageId": "364959_173635748",
+                    "MessageType": "TradeConfirmation",
+                    "PositionId": "1391897833"
+                },
+                {
+                    "DateTime": "2019-03-08T03:40:31.600000Z",
+                    "DisplayName": "",
+                    "IsDiscardable": false,
+                    "MessageBody": "You placed order to buy  500 MAJVAL:xcse shares @ market D.O.   .\r\nFront office order id: 268836713\r\nAccount: 107838INET",
+                    "MessageHeader": "Order placed",
+                    "MessageId": "485885_0",
+                    "MessageType": "TradeConfirmation",
+                    "OrderId": "268836713"
+                }
+            ]
+        },
+        "next": "update_2"
+    },
+    "update_2": {
+        "data": {
+            "Data": [
+                {
+                    "DateTime": "2019-03-07T09:08:46.817000Z",
+                    "DisplayName": "",
+                    "IsDiscardable": false,
+                    "MessageBody": "You placed order to buy 100,000 EURCAD at market price",
+                    "MessageHeader": "Trade confirmation",
+                    "MessageId": "364959_17363574866",
+                    "MessageType": "TradeConfirmation",
+                    "PositionId": "82634873265"
+                }
+            ]
+        }
+    }
+}

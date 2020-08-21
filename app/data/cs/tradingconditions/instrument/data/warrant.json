@@ -1,0 +1,17 @@
+{
+    "AccountCurrency": "EUR",
+    "AmountCurrency": "EUR",
+    "AssetType": "Warrant",
+    "CommissionLimits": [
+        {
+            "Currency": "EUR",
+            "OrderAction": "ExecuteOrder",
+            "RateOnAmount": 0.08
+        }
+    ],
+    "HasKID": true,
+    "InstrumentCurrency": "EUR",
+    "IsTradable": true,
+    "Rating": 0.0,
+    "Uic": 17607450
+}

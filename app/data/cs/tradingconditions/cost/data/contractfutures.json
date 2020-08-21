@@ -1,0 +1,100 @@
+{
+    "AccountCurrency": "GBP",
+    "AccountID": "136083INET",
+    "Amount": 1000,
+    "AssetType": "ContractFutures",
+    "Cost": {
+        "Long": {
+            "BuySell": "Buy",
+            "Currency": "USD",
+            "TotalCost": 13641,
+            "TotalCostPct": 0.065,
+            "TradingCost": {
+                "Commissions": [
+                    {
+                        "Rule": {
+                            "BaseCommission": 10,
+                            "Currency": "USD"
+                        },
+                        "Value": 20
+                    },
+                    {
+                        "Pct": 0.021,
+                        "Rule": {
+                            "Currency": "USD",
+                            "PerUnitRate": 6
+                        },
+                        "Value": 12000
+                    }
+                ],
+                "ExchangeFee": {
+                    "Pct": 0.003,
+                    "Rule": {
+                        "Currency": "USD",
+                        "Value": 1520
+                    },
+                    "Value": 1520
+                }
+            },
+            "FundCost": {
+                "EntryCost": {
+                    "Pct": 0.021,
+                    "Rule": {
+                        "Pct": 0.5
+                    },
+                    "Value": 50
+                },
+                "ExitCost": {
+                    "Pct": 0.02,
+                    "Rule": {
+                        "Pct": 0.5
+                    },
+                    "Value": 51
+                }
+            }
+        },
+        "Short": {
+            "BuySell": "Sell",
+            "Currency": "USD",
+            "TotalCost": 13540,
+            "TotalCostPct": 0.024,
+            "TradingCost": {
+                "Commissions": [
+                    {
+                        "Rule": {
+                            "BaseCommission": 10,
+                            "Currency": "USD"
+                        },
+                        "Value": 20
+                    },
+                    {
+                        "Pct": 0.021,
+                        "Rule": {
+                            "Currency": "USD",
+                            "PerUnitRate": 6
+                        },
+                        "Value": 12000
+                    }
+                ],
+                "ExchangeFee": {
+                    "Pct": 0.003,
+                    "Rule": {
+                        "Currency": "USD",
+                        "Value": 1520
+                    },
+                    "Value": 1520
+                }
+            }
+        }
+    },
+    "CostCalculationAssumptions": [
+        "IncludesOpenAndCloseCost",
+        "EquivalentOpenAndClosePrice",
+        "BasisOnLastClosePrice",
+        "ConversionCostNotIncluded"
+    ],
+    "HoldingPeriodInDays": 30,
+    "Instrument": "Light Sweet Crude Oil (WTI) - Mar 2019",
+    "Price": 56.09,
+    "Uic": 8438589
+}

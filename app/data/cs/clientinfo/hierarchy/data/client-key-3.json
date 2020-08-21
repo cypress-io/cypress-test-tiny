@@ -1,0 +1,57 @@
+{
+    "__count": 1,
+    "Data": [
+        {
+            "Accounts": [
+                {
+                    "AccountId": "test7",
+                    "AccountKey": "acc-key-7",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "test8",
+                    "AccountKey": "acc-key-8",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "test9",
+                    "AccountKey": "acc-key-9",
+                    "AccountType": "Normal"
+                }
+            ],
+            "Users": [
+                {
+                    "UserId": "9870924",
+                    "UserKey": "Y4iPeH0jpZYSlnohKxAJ|Q==",
+                    "UserName": "User 9870924"
+                }
+            ],
+            "ClientId": "9275871",
+            "ClientKey": "client-key-3",
+            "ClientTypeName": "Internet Client",
+            "ClientType": "Client",
+            "DefaultAccountId": "test7",
+            "DefaultAccountKey": "acc-key-7",
+            "LegalAssetTypes": [
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "Cash",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 9275871",
+            "OwnerId": "8479680"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "__count": 25,
+    "Data": [
+        {
+            "CurrencyCode": "AED",
+            "Decimals": 2
+        },
+        {
+            "CurrencyCode": "EUR",
+            "Decimals": 2
+        },
+        {
+            "CurrencyCode": "AUD",
+            "Decimals": 2
+        },
+        {
+            "CurrencyCode": "CAD",
+            "Decimals": 2
+        },
+        {
+            "CurrencyCode": "CHF",
+            "Decimals": 2
+        },
+        {
+            "CurrencyCode": "CNH",
+            "Decimals": 2
+        },
+        {
+            "CurrencyCode": "JPY",
+            "Decimals": 2
+        }
+    ]
+}

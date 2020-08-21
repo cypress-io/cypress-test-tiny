@@ -1,0 +1,76 @@
+{
+    "_entry": {
+        "data": {
+            "Data": {
+                "CalculationReliability": "Ok",
+                "CashBalance": 100.1,
+                "ChangesScheduled": false,
+                "ClosedPositionsCount": 0,
+                "CollateralCreditLine": {
+                    "Line": 11.11,
+                    "UtilizationPct": 50
+                },
+                "CollateralCreditValue": {
+                    "Line": 90.9,
+                    "UtilizationPct": 25
+                },
+                "InitialMargin": {
+                    "CollateralCreditValue": {
+                        "Line": 2500
+                    },
+                    "CollateralAvailable": 500000,
+                    "MarginAvailable": 12029454.5,
+                    "MarginCollateralNotAvailable": 30000,
+                    "MarginUsedByCurrentPositions": 5000,
+                    "MarginUtilizationPct": 15,
+                    "NetEquityForMargin": 12029454.5
+                },
+                "CollateralAvailable": 5000,
+                "Loan": 3500,
+                "CollateralLoan": 2500,
+                "CostToClosePositions": 0,
+                "Currency": "USD",
+                "CurrencyDecimals": 2,
+                "IsPortfolioMarginModelSimple": false,
+                "MarginOverview": {
+                    "Groups": []
+                },
+                "NetEquityForMargin": 1127391.8,
+                "NetPositionsCount": 0,
+                "NonMarginPositionsValue": 0,
+                "OpenPositionsCount": 0,
+                "OptionPremiumsMarketValue": 0,
+                "OrdersCount": 0,
+                "OtherCollateral": 0,
+                "TotalValue": 101.101,
+                "TransactionsNotBooked": -79.56,
+                "UnrealizedMarginClosedProfitLoss": 0,
+                "UnrealizedMarginOpenProfitLoss": 0,
+                "UnrealizedMarginProfitLoss": 0,
+                "UnrealizedPositionsValue": 0,
+                "MarginCollateralNotAvailable": 8000.456
+            }
+        },
+        "next": "update_1"
+    },
+    "update_1": {
+        "data": {
+            "Data": {
+                "CollateralCreditValue": {
+                    "Line": 80.8,
+                    "UtilizationPct": 55
+                },
+                "InitialMargin": {
+                    "CollateralAvailable": 700000,
+                    "MarginCollateralNotAvailable": 50000,
+                    "MarginUsedByCurrentPositions": 8000,
+                    "MarginUtilizationPct": 30,
+                    "NetEquityForMargin": 333333
+                },
+                "CollateralAvailable": 8000,
+                "CollateralLoan": 7500,
+                "MarginCollateralNotAvailable": 9000.456
+            }
+        }
+    }
+}

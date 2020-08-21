@@ -1,0 +1,514 @@
+{
+    "Id": "a6347f74-4709-41ef-b874-fedc1fa88fdf_trader",
+    "Name": "stocks",
+    "Sections": [
+        {
+            "Type": "LatestArticleGrid",
+            "ArticlesTags": ["cefd1b68-cf1b-458d-8248-41782efb57f1"],
+            "ArticleLimit": 1,
+            "ItemsToHighlight": 0,
+            "IsDividerShown": false,
+            "LayoutType": "stretch",
+            "Name": "equities - latestarticlegridsection",
+            "Title": "Latest articles",
+            "Id": "ec569fe1-cb20-4ad6-a193-81dab66b5e0a"
+        },
+        {
+            "Type": "RichTextSection",
+            "IsDividerShown": false,
+            "RichText": "<h3><strong>About Saxo</strong></h3> <br /> Saxo Group are leading fintech specialists, connecting traders, investors and partners to&nbsp;FX, CFDs, stocks, options, futures and more, from a single account.<br /> <br /> <a href=\"/page/markets\">Markets</a>",
+            "Name": "richtextsection",
+            "Title": "",
+            "Id": "341b0c72-765d-4464-a7c8-0d05a7182dd4"
+        },
+        {
+            "Banners": [
+                {
+                    "Align": "center",
+                    "Id": "00083438-823a-4800-910f-f64d0cfa81c3",
+                    "Illustration": {
+                        "Url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg=="
+                    },
+                    "IsCompact": false,
+                    "IsTextColorInverted": false,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "",
+                        "Target": "/page/danish-stocks"
+                    },
+                    "Name": "danish-stocks",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Danish stocks"
+                },
+                {
+                    "Align": "center",
+                    "Id": "fb02b438-dd9a-4d01-b836-8bb743627bb4",
+                    "Illustration": {
+                        "Url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg=="
+                    },
+                    "IsCompact": false,
+                    "IsTextColorInverted": false,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "",
+                        "Target": "/page/us-stocks"
+                    },
+                    "Name": "us-stocks",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "US stocks"
+                },
+                {
+                    "Align": "center",
+                    "Id": "a1c75b75-7ab3-4af7-b3be-7444b985e172",
+                    "Illustration": {
+                        "Url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg=="
+                    },
+                    "IsCompact": false,
+                    "IsTextColorInverted": false,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "",
+                        "Target": "/page/swedish-stocks"
+                    },
+                    "Name": "swedish-stocks",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Swedish stocks"
+                },
+                {
+                    "Align": "center",
+                    "Id": "1200f304-a4da-4e0d-be3a-ce061c07ca47",
+                    "Illustration": {
+                        "Url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg=="
+                    },
+                    "IsCompact": false,
+                    "IsTextColorInverted": false,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "",
+                        "Target": "/page/do-your-own-stock"
+                    },
+                    "Name": "do-stocks",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Create your own search"
+                }
+            ],
+            "Id": "5451b649-4cf8-4e4f-b263-67da0d9fc67f",
+            "IsDividerShown": false,
+            "LayoutType": "stretch",
+            "Name": "section-2",
+            "Tags": [],
+            "Title": "",
+            "Type": "Banner"
+        },
+        {
+            "Banners": [
+                {
+                    "Align": "bottom",
+                    "Id": "a9dddc72-57c3-49ba-afd7-620f8857485e",
+                    "Image": {
+                        "Alt": "Digitalisation",
+                        "Url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg=="
+                    },
+                    "IsCompact": false,
+                    "IsTextColorInverted": true,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "",
+                        "Target": "/page/theme3"
+                    },
+                    "Name": "theme3",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Digitalization"
+                },
+                {
+                    "Align": "bottom",
+                    "Id": "d9c85f75-8e3f-4ebe-b786-a07b945ae653",
+                    "Image": {
+                        "Alt": "Environmental",
+                        "Url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg=="
+                    },
+                    "IsCompact": false,
+                    "IsTextColorInverted": true,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "",
+                        "Target": "/page/theme6"
+                    },
+                    "Name": "theme6",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Responsible investments"
+                },
+                {
+                    "Align": "bottom",
+                    "Id": "5573f834-c89f-47ab-85b0-8f7a7794c3fe",
+                    "Image": {
+                        "Alt": "Investment",
+                        "Url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg=="
+                    },
+                    "IsCompact": false,
+                    "IsTextColorInverted": true,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "",
+                        "Target": "/page/themes"
+                    },
+                    "Name": "theme8",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "More investment themes"
+                }
+            ],
+            "Id": "fe1569e7-c0ca-40c3-94c1-e8541dc5f86b",
+            "IsDividerShown": true,
+            "LayoutType": "stretch",
+            "Name": "popular-stock-themes-1",
+            "Tags": [],
+            "Title": "Select investment themes",
+            "Type": "Banner"
+        },
+        {
+            "Id": "6c4e1c35-2cc4-41a6-9c9b-b97a4ab90952",
+            "InstrumentGrids": [
+                {
+                    "AnalystConsensuses": [],
+                    "AssetTypes": ["Stock"],
+                    "BondRatings": [],
+                    "CountryCodes": ["DK"],
+                    "Coupons": [],
+                    "CurrencyCodes": [],
+                    "DebtTypes": [],
+                    "ExchangeIds": [],
+                    "FundBroadAssetClass": [],
+                    "FundCategories": [],
+                    "FundIssuerNames": [],
+                    "FundRatings": [],
+                    "Id": "33c06920-46dc-4f4d-ab2c-4bf6dc73c49f",
+                    "IncludeNonTradable": false,
+                    "InstrumentLimit": 5,
+                    "IsDividerShown": false,
+                    "IsSeeAllLinkShown": true,
+                    "Listing": [],
+                    "MarketCaps": [],
+                    "Maturities": [],
+                    "OrderBy": "Popularity",
+                    "PriceEarnings": [],
+                    "Sectors": [],
+                    "SustainabilityRatings": [],
+                    "Target": "/page/dk-stocks",
+                    "Title": "Most traded danish stocks at Saxo",
+                    "Uics": [],
+                    "YearlyCostPercentages": [],
+                    "YieldToMaturity": []
+                },
+                {
+                    "AssetTypes": ["Stock"],
+                    "CountryCodes": [
+                        "BE",
+                        "GB",
+                        "FI",
+                        "FR",
+                        "GR",
+                        "NL",
+                        "IE",
+                        "IT",
+                        "HR",
+                        "LV",
+                        "LU",
+                        "MT",
+                        "ME",
+                        "PL",
+                        "PT",
+                        "RO",
+                        "SK",
+                        "SI",
+                        "CZ",
+                        "DE",
+                        "HU",
+                        "US",
+                        "AT",
+                        "CN"
+                    ],
+                    "Id": "bf76fd1f-f4a0-4a9a-b94c-cbb4ed604709",
+                    "IncludeNonTradable": false,
+                    "InstrumentLimit": 5,
+                    "IsDividerShown": false,
+                    "IsSeeAllLinkShown": true,
+                    "OrderBy": "Popularity",
+                    "Target": "/page/most-traded-int",
+                    "Title": "Saxo's most-traded international stocks"
+                }
+            ],
+            "IsDividerShown": true,
+            "LayoutType": "stretch",
+            "Name": "instrumentgridssection-1",
+            "Tags": [],
+            "Title": "",
+            "Type": "InstrumentGrids"
+        },
+        {
+            "Banners": [
+                {
+                    "Align": "bottom",
+                    "Id": "b42d4d6b-7016-4166-bc4b-2cb5da33e425",
+                    "Image": {
+                        "Alt": "Analysts",
+                        "Url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg=="
+                    },
+                    "IsCompact": false,
+                    "IsTextColorInverted": true,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "",
+                        "Target": "/page/dynamicstocktheme2"
+                    },
+                    "Name": "eu-large-caps",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Analysts favorites "
+                },
+                {
+                    "Align": "bottom",
+                    "Id": "eab078e4-ff4e-4037-84d2-0f9d4e6b6840",
+                    "Image": {
+                        "Alt": "Dividend",
+                        "Url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg=="
+                    },
+                    "IsCompact": false,
+                    "IsTextColorInverted": true,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "",
+                        "Target": "/page/dynamicstocktheme3"
+                    },
+                    "Name": "eu-large-caps",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Dividend stocks"
+                }
+            ],
+            "Id": "47c26fbd-fc62-4423-a19a-37a4103f33f2",
+            "IsDividerShown": true,
+            "LayoutType": "stretch",
+            "Name": "popular-stock-themes-2",
+            "Tags": [],
+            "Title": "Inspiration for your next investment",
+            "Type": "Banner"
+        },
+        {
+            "Banners": [
+                {
+                    "Align": "center",
+                    "Id": "52a47d06-e096-4564-a231-538047c1dd3a",
+                    "Illustration": {},
+                    "IllustrationType": "stocks-sector-consumer",
+                    "IsCompact": false,
+                    "IsTextColorInverted": false,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "",
+                        "Target": "/page/sector-consumer"
+                    },
+                    "Name": "consumer",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Consumer"
+                },
+                {
+                    "Align": "center",
+                    "Id": "38e55eb7-69d3-4c5d-8c8d-f7912122a879",
+                    "Illustration": {},
+                    "IllustrationType": "stocks-sector-medical",
+                    "IsCompact": false,
+                    "IsTextColorInverted": false,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "",
+                        "Target": "/page/sector-healthcare"
+                    },
+                    "Name": "health-care",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Healthcare"
+                },
+                {
+                    "Align": "center",
+                    "Id": "6b9c6aea-988c-4a5d-b419-d3fc2153aeaf",
+                    "Illustration": {},
+                    "IllustrationType": "stocks-sector-finance",
+                    "IsCompact": false,
+                    "IsTextColorInverted": false,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "",
+                        "Target": "/page/sector-finance"
+                    },
+                    "Name": "financials",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Finance"
+                },
+                {
+                    "Align": "center",
+                    "Id": "a5c95781-25b8-4a74-b49c-f2ede072eac4",
+                    "Illustration": {},
+                    "IllustrationType": "stocks-sector-technology",
+                    "IsCompact": false,
+                    "IsTextColorInverted": false,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "",
+                        "Target": "/page/sector-it"
+                    },
+                    "Name": "information-technology",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Information technology"
+                }
+            ],
+            "Id": "82f4f296-d4bd-4f21-b8c3-46869f38ebb4",
+            "IsDividerShown": true,
+            "LayoutType": "stretch",
+            "Name": "sectors-sections",
+            "Tags": [],
+            "Title": "Sectors",
+            "Type": "Banner"
+        },
+        {
+            "AnalystConsensuses": [],
+            "AssetTypes": ["Bond"],
+            "BondRatings": [
+                "A1",
+                "A2",
+                "A3",
+                "Aa",
+                "Aa1",
+                "Aa2",
+                "Aaa",
+                "B",
+                "B1",
+                "B2",
+                "B3"
+            ],
+            "CountryCodes": [
+                "BE",
+                "DK",
+                "GB",
+                "FI",
+                "FR",
+                "GR",
+                "NL",
+                "IE",
+                "IT",
+                "HR",
+                "LV",
+                "LU",
+                "MT",
+                "ME",
+                "PL",
+                "PT",
+                "RO",
+                "SK",
+                "SI",
+                "CZ",
+                "DE",
+                "HU",
+                "US",
+                "AT"
+            ],
+            "Coupons": [],
+            "CurrencyCodes": [],
+            "DebtTypes": ["Corporate"],
+            "ExchangeIds": [],
+            "FundBroadAssetClass": [],
+            "FundCategories": [],
+            "FundIssuerNames": [],
+            "FundRatings": [],
+            "Id": "9d86ab44-5241-4415-832f-570efbfcee7a",
+            "IncludeNonTradable": false,
+            "InstrumentLimit": 0,
+            "IsDividerShown": false,
+            "IsFilterShown": true,
+            "IsSeeAllLinkShown": false,
+            "IsTitleShown": false,
+            "Listing": [],
+            "MarketCaps": [],
+            "Maturities": [],
+            "Name": "product-finder",
+            "OrderBy": "Popularity",
+            "PriceEarnings": [],
+            "Sectors": [],
+            "SustainabilityRatings": [],
+            "Tags": [],
+            "Title": "",
+            "Type": "ProductFinder",
+            "Uics": [],
+            "ViewType": "grid",
+            "YearlyCostPercentages": [],
+            "YieldToMaturity": [],
+            "YieldToWorst": []
+        },
+        {
+            "AssetTypes": ["Stock"],
+            "CountryCodes": [
+                "BE",
+                "GB",
+                "FI",
+                "FR",
+                "GR",
+                "NL",
+                "IE",
+                "IT",
+                "HR",
+                "LV",
+                "LU",
+                "MT",
+                "ME",
+                "PL",
+                "PT",
+                "RO",
+                "SK",
+                "SI",
+                "CZ",
+                "DE",
+                "HU",
+                "US",
+                "AT",
+                "CN"
+            ],
+            "Id": "b6a23326-820a-4ba2-bfea-23578a117074",
+            "IncludeNonTradable": false,
+            "InstrumentLimit": 0,
+            "IsDividerShown": false,
+            "IsFilterShown": true,
+            "IsSeeAllLinkShown": false,
+            "IsTitleShown": false,
+            "Name": "product-finder",
+            "OrderBy": "Popularity",
+            "Title": "",
+            "Type": "ProductFinder",
+            "ViewType": "grid"
+        }
+    ],
+    "Tags": [],
+    "Title": "Stocks",
+    "Url": "/page/stocks"
+}

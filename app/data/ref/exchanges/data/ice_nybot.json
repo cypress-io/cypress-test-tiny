@@ -1,0 +1,24 @@
+{
+    "AllDay": true,
+    "CountryCode": "US",
+    "Currency": "USD",
+    "ExchangeId": "ICE_NYBOT",
+    "ExchangeSessions": [
+        {
+            "EndTime": "2019-11-12T13:00:00.000000Z",
+            "StartTime": "2019-11-11T13:00:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2019-11-13T13:00:00.000000Z",
+            "StartTime": "2019-11-12T13:00:00.000000Z",
+            "State": "AutomatedTrading"
+        }
+    ],
+    "Mic": "ICUS",
+    "Name": "ICE Futures U.S.  – NYBOT",
+    "PriceSourceName": "ICE",
+    "TimeZone": 5,
+    "TimeZoneAbbreviation": "CST",
+    "TimeZoneOffset": "-06:00:00"
+}

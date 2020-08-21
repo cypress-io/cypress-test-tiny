@@ -1,0 +1,42 @@
+{
+    "Name": "MutualFund",
+    "Sections": [
+        {
+            "Type": "Header",
+            "IsDividerShown": false,
+            "IsNarrow": false,
+            "Name": "header",
+            "Title": "",
+            "Id": "Header"
+        },
+        {
+            "Type": "InstrumentChart",
+            "IsDividerShown": false,
+            "Name": "chartsection_mf",
+            "Title": "",
+            "Id": "InstrumentChart"
+        },
+        {
+            "Type": "NewsList",
+            "IsDividerShown": true,
+            "LayoutType": "stack",
+            "viewType": "card",
+            "NewsLists": [
+                {
+                    "Title": "",
+                    "NewsLimit": 4,
+                    "Search": "",
+                    "ShouldShowLinkedInstrumentNews": true,
+                    "Id": "c140777f-74da-421e-a12f-ee3bd12ff7df"
+                }
+            ],
+            "Name": "newslistsection_mf",
+            "Title": "news",
+            "Id": "NewsListSection"
+        }
+    ],
+    "Tags": null,
+    "Title": "",
+    "Url": "/page/product/MutualFund/:uic",
+    "Id": "7898af16-f3c6-42a4-931a-76143ddcd4869_trader"
+}

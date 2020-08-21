@@ -1,0 +1,43 @@
+{
+    "_entry": {
+        "data": [
+            {
+                "AcquireTime": "2019-09-26T15:08:56.950251Z",
+                "Ask": 25920,
+                "Bid": 25918,
+                "Id": 7190072409406589000,
+                "InstrumentType": "ContractFutures",
+                "Price": 25918,
+                "Size": 1,
+                "TimeStamp": "2019-09-26T15:08:56.653300Z",
+                "Uic": 14446170,
+                "Venue": ""
+            },
+            {
+                "AcquireTime": "2019-09-26T15:08:58.409284Z",
+                "Ask": 25919,
+                "Bid": 25918,
+                "Id": 7190072409406589000,
+                "InstrumentType": "ContractFutures",
+                "Price": 25918,
+                "Size": 1,
+                "TimeStamp": "2019-09-26T15:08:57.721300Z",
+                "Uic": 14446170,
+                "Venue": ""
+            },
+            {
+                "AcquireTime": "2019-09-26T15:09:01.038329Z",
+                "Ask": 25918,
+                "Bid": 25917,
+                "Id": 7190072409406589000,
+                "InstrumentType": "ContractFutures",
+                "Price": 25917,
+                "Size": 1,
+                "TimeStamp": "2019-09-26T15:09:00.568800Z",
+                "Uic": 14446170,
+                "Venue": ""
+            }
+        ],
+        "next": "update_1"
+    }
+}

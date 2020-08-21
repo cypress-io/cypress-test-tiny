@@ -1,0 +1,2182 @@
+{
+    "Data": [
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 2,
+            "AssetType": "CfdOnIndex",
+            "BuySell": "Buy",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "1bcd582e-0ec2-4658-bedc-36c747e0907c",
+            "CurrentPrice": 25701.1,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceType": "Ask",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 1,
+                "Description": "US 30 Wall Street",
+                "Format": "Normal",
+                "Symbol": "US30.I"
+            },
+            "DistanceToMarket": 262.8,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "",
+                "ExchangeId": "",
+                "IsOpen": false
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 25701.1,
+            "OpenOrderType": "Limit",
+            "OrderAmountType": "Quantity",
+            "OrderId": "257984232",
+            "OrderRelation": "IfDoneMaster",
+            "OrderTime": "2018-12-03T13:35:54.066666Z",
+            "Price": 25438.3,
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 2,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "StopIfTraded",
+                    "OrderId": "257985703",
+                    "OrderPrice": 24928.5
+                }
+            ],
+            "Status": "Working",
+            "Uic": 4911
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "AlgoStrategyName": "With Volume",
+            "Amount": 200,
+            "AssetType": "CfdOnStock",
+            "BuySell": "Sell",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "bf77d27e-e0cb-426f-8e96-c520b6716f4c",
+            "CurrentPrice": 288.3,
+            "CurrentPriceDelayMinutes": 15,
+            "CurrentPriceLastTraded": "2018-12-21T15:54:59.169000Z",
+            "CurrentPriceType": "Bid",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 3,
+                "Description": "Apple Inc.",
+                "Format": "Normal",
+                "Symbol": "AAPL:xnas"
+            },
+            "Duration": {
+                "DurationType": "DayOrder"
+            },
+            "Exchange": { "CountryCode": "US", "ExchangeId": "NASDAQ", "Name": "NASDAQ" },
+            "IsForceOpen": false,
+            "IsMarketOpen": false,
+            "MarketPrice": 288.3,
+            "OpenOrderType": "Market",
+            "OrderAmountType": "Quantity",
+            "OrderId": "263013521",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2018-12-25T16:01:58.916666Z",
+            "Price": 25438.3,
+            "RelatedOpenOrders": [],
+            "Status": "Working",
+            "Uic": 211
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 2,
+            "AssetType": "CfdOnIndex",
+            "BuySell": "Sell",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "1bcd582e-0ec2-4658-bedc-36c747e0907c",
+            "CurrentPrice": 25698.1,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceType": "Bid",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 1,
+                "Description": "US 30 Wall Street",
+                "Format": "Normal",
+                "Symbol": "US30.I"
+            },
+            "DistanceToMarket": 769.6,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "",
+                "ExchangeId": "",
+                "IsOpen": false
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 25698.1,
+            "OpenOrderType": "StopIfTraded",
+            "OrderAmountType": "Quantity",
+            "OrderId": "257985703",
+            "OrderRelation": "IfDoneSlave",
+            "OrderTime": "2018-12-04T07:42:45.326666Z",
+            "Price": 24928.5,
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 2,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "Limit",
+                    "OrderId": "257984232",
+                    "OrderPrice": 25438.3
+                }
+            ],
+            "Status": "NotWorking",
+            "Uic": 4911
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 10000,
+            "AssetType": "CfdOnFutures",
+            "BuySell": "Buy",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "c8b4a67f-224f-49f4-a530-5c4a74b1d7d4",
+            "CurrentPrice": 1.10946,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceType": "Ask",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 5,
+                "Description": "Euro/US Dollar September 2019",
+                "DisplayHint": "Forex",
+                "Format": "Normal",
+                "Symbol": "EURUSDECSEP19"
+            },
+            "Duration": {
+                "DurationType": "DayOrder"
+            },
+            "Exchange": {
+                "Description": "",
+                "ExchangeId": "",
+                "IsOpen": true
+            },
+            "ExpiryDate": "2019-09-11T00:00:00.000000Z",
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 1.10946,
+            "OpenOrderType": "Market",
+            "OrderAmountType": "Quantity",
+            "OrderId": "266244103",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2019-02-13T12:06:16.000000Z",
+            "RelatedOpenOrders": [],
+            "Status": "Working",
+            "Uic": 13347933
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 100,
+            "AssetType": "CfdOnStock",
+            "BuySell": "Buy",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "a3a8068a-a182-4c61-839d-662d0531fb1a",
+            "CurrentPrice": 184.84,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceType": "Ask",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 3,
+                "Description": "Apple Inc.",
+                "Format": "Normal",
+                "Symbol": "AAPL:xnas"
+            },
+            "DistanceToMarket": 3.7,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "NASDAQ",
+                "ExchangeId": "NASDAQ",
+                "IsOpen": false
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": false,
+            "MarketPrice": 184.84,
+            "OpenOrderType": "Limit",
+            "OrderAmountType": "Quantity",
+            "OrderId": "257986308",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2018-12-04T09:05:41.730000Z",
+            "Price": 181.14,
+            "RelatedOpenOrders": [],
+            "Status": "Working",
+            "Uic": 211
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 1,
+            "AssetType": "CfdIndexOption",
+            "BuySell": "Sell",
+            "CalculationReliability": "NoMarketAccess",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "b19d03ae-9f4d-46fd-a9bb-646a9ecf3694",
+            "DisplayAndFormat": {
+                "Currency": "EUR",
+                "Decimals": 2,
+                "Description": "DAX Index Dec2018 12300 P",
+                "Format": "Normal",
+                "StrikeDecimals": 2,
+                "StrikeFormat": "Normal",
+                "Symbol": "ODAX/Z18P12300"
+            },
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "",
+                "ExchangeId": "",
+                "IsOpen": false
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": false,
+            "OpenOrderType": "Limit",
+            "OptionsData": {
+                "ExpiryDate": "2018-12-21T00:00:00.000000Z",
+                "PutCall": "Put",
+                "Strike": 12300
+            },
+            "OrderAmountType": "Quantity",
+            "OrderId": "257983825",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2018-12-03T12:30:13.103333Z",
+            "Price": 770,
+            "RelatedOpenOrders": [],
+            "Status": "Working",
+            "ToOpenClose": "ToOpen",
+            "Uic": 9946933
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 1,
+            "AssetType": "StockOption",
+            "BuySell": "Buy",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "bf77d27e-e0cb-426f-8e96-c520b6716f4c",
+            "CurrentPrice": 1.76,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceLastTraded": "2018-12-03T20:59:13.471000Z",
+            "CurrentPriceType": "Indicative",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 2,
+                "Description": "Verizon Comms  Jan2019 57.5 C",
+                "Format": "Normal",
+                "StrikeDecimals": 2,
+                "StrikeFormat": "Normal",
+                "Symbol": "VZ/18F19C57.5:xcbf"
+            },
+            "DistanceToMarket": -0.09,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "Options Price Reporting Authority",
+                "ExchangeId": "OPRA",
+                "IsOpen": false
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": false,
+            "MarketPrice": 1.76,
+            "OpenOrderType": "Limit",
+            "OptionsData": {
+                "ExpiryDate": "2019-01-18T00:00:00.000000Z",
+                "PutCall": "Call",
+                "Strike": 57.5
+            },
+            "OrderAmountType": "Quantity",
+            "OrderId": "257986573",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2018-12-04T10:53:31.986666Z",
+            "Price": 1.85,
+            "RelatedOpenOrders": [],
+            "Status": "Working",
+            "ToOpenClose": "ToOpen",
+            "Uic": 4988575
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 5,
+            "AssetType": "ContractFutures",
+            "BuySell": "Buy",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "5343a1d6-5b99-429e-8faa-3602a06906c4",
+            "CurrentPrice": 1.10975,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceType": "Ask",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 5,
+                "Description": "EURUSD - Sep 2019",
+                "Format": "Normal",
+                "Symbol": "ECU9"
+            },
+            "DistanceToMarket": 0.00295,
+            "Duration": {
+                "DurationType": "GoodTillDate",
+                "ExpirationDate": "2018-12-10T00:00:00.000000Z",
+                "ExpirationDateContainsTime": false,
+                "ExpirationDateTime": "2018-12-10T00:00:00"
+            },
+            "Exchange": {
+                "Description": "Chicago Mercantile Exchange",
+                "ExchangeId": "CME",
+                "IsOpen": true
+            },
+            "ExpiryDate": "2019-09-16T00:00:00.000000Z",
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 1.10975,
+            "OpenOrderType": "Limit",
+            "OrderAmountType": "Quantity",
+            "OrderId": "257986575",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2018-12-04T11:03:39.710000Z",
+            "Price": 1.1068,
+            "RelatedOpenOrders": [],
+            "Status": "Working",
+            "Uic": 10795354
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 1,
+            "AssetType": "FuturesOption",
+            "BuySell": "Sell",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "cc816817-2172-4373-b3db-7cb438b9a2e0",
+            "CurrentPrice": 0.0026,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceLastTraded": "2019-08-21T18:00:04.986000Z",
+            "CurrentPriceType": "Indicative",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 5,
+                "Description": "EURUSD - 9am fix Sep2019 1.165 C",
+                "Format": "Normal",
+                "StrikeDecimals": 5,
+                "StrikeFormat": "Normal",
+                "Symbol": "EUU/U19C1.165:xcme",
+                "UnderlyingInstrumentDescription": "EURUSD - 9am fix"
+            },
+            "DistanceToMarket": 0.0012,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "Chicago Mercantile Exchange",
+                "ExchangeId": "CME",
+                "IsOpen": true
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 0.0026,
+            "OpenOrderType": "Limit",
+            "OptionsData": {
+                "ExpiryDate": "2019-09-06T00:00:00.000000Z",
+                "PutCall": "Call",
+                "Strike": 1.165
+            },
+            "OrderAmountType": "Quantity",
+            "OrderId": "257986580",
+            "OrderRelation": "IfDoneSlave",
+            "OrderTime": "2019-08-22T03:54:22.543333Z",
+            "Price": 0.0038,
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 1,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "Limit",
+                    "OrderId": "257986577",
+                    "OrderPrice": 0.0028
+                }
+            ],
+            "Status": "NotWorking",
+            "ToOpenClose": "ToClose",
+            "Uic": 11107381
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 1,
+            "AssetType": "FuturesOption",
+            "BuySell": "Buy",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "cc816817-2172-4373-b3db-7cb438b9a2e0",
+            "CurrentPrice": 0.0026,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceLastTraded": "2019-08-21T18:00:04.986000Z",
+            "CurrentPriceType": "Indicative",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 5,
+                "Description": "EURUSD - 9am fix Sep2019 1.165 C",
+                "Format": "Normal",
+                "StrikeDecimals": 5,
+                "StrikeFormat": "Normal",
+                "Symbol": "EUU/U19C1.165:xcme",
+                "UnderlyingInstrumentDescription": "EURUSD - 9am fix"
+            },
+            "DistanceToMarket": -0.0002,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "Chicago Mercantile Exchange",
+                "ExchangeId": "CME",
+                "IsOpen": true
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 0.0026,
+            "OpenOrderType": "Limit",
+            "OptionsData": {
+                "ExpiryDate": "2019-09-06T00:00:00.000000Z",
+                "PutCall": "Call",
+                "Strike": 1.165
+            },
+            "OrderAmountType": "Quantity",
+            "OrderId": "257986577",
+            "OrderRelation": "IfDoneMaster",
+            "OrderTime": "2019-08-22T03:54:22.543333Z",
+            "Price": 0.0028,
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 1,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "Limit",
+                    "OrderId": "257986580",
+                    "OrderPrice": 0.0038
+                }
+            ],
+            "Status": "Working",
+            "ToOpenClose": "ToOpen",
+            "Uic": 11107381
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 10,
+            "AssetType": "StockIndexOption",
+            "BuySell": "Buy",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "e09d714d-4b1b-4b6b-b4d2-95cb7340ec74",
+            "CurrentPrice": 14.25,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceType": "Indicative",
+            "DisplayAndFormat": {
+                "Currency": "EUR",
+                "Decimals": 2,
+                "Description": "AEX Index  Sep2019 535 C",
+                "Format": "Normal",
+                "StrikeDecimals": 2,
+                "StrikeFormat": "Normal",
+                "Symbol": "AEX/U19C535:xams",
+                "UnderlyingInstrumentDescription": "AEX Index "
+            },
+            "DistanceToMarket": 0.4,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "Euronext Equity & Index Derivatives - AMS",
+                "ExchangeId": "EUR_AMS2",
+                "IsOpen": true
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 14.25,
+            "OpenOrderType": "Limit",
+            "OptionsData": {
+                "ExpiryDate": "2019-09-20T00:00:00.000000Z",
+                "PutCall": "Call",
+                "Strike": 535
+            },
+            "OrderAmountType": "Quantity",
+            "OrderId": "276067324",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2019-08-27T09:09:38.990000Z",
+            "Price": 13.85,
+            "RelatedOpenOrders": [],
+            "Status": "Working",
+            "ToOpenClose": "ToOpen",
+            "Uic": 14347087
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 1,
+            "AssetType": "CfdOnStock",
+            "BuySell": "Buy",
+            "CalculationReliability": "OkWithConditions",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "f1ff0330-90f7-4620-ad53-ffc8f8aa8a90",
+            "CorrelationTypes": ["Allocation", "AutoTrade"],
+            "CurrentPrice": 23.96,
+            "CurrentPriceDelayMinutes": 15,
+            "CurrentPriceLastTraded": "2018-12-03T20:59:58.264000Z",
+            "CurrentPriceType": "Ask",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 3,
+                "Description": "HP Inc.",
+                "Format": "Normal",
+                "Symbol": "HPQ:xnys"
+            },
+            "Duration": {
+                "DurationType": "DayOrder"
+            },
+            "Exchange": {
+                "Description": "New York Stock Exchange",
+                "ExchangeId": "NYSE",
+                "IsOpen": false
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": false,
+            "MarketPrice": 23.96,
+            "OpenOrderType": "Market",
+            "OrderAmountType": "Quantity",
+            "OrderId": "257984870",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2018-12-04T10:31:13.246666Z",
+            "RelatedOpenOrders": [],
+            "Status": "Working",
+            "Uic": 3102
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 1,
+            "AssetType": "Stock",
+            "BuySell": "Buy",
+            "CalculationReliability": "OkWithConditions",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "57f6bfe5-31ca-4a95-8eec-462a8af5de6b",
+            "CorrelationTypes": ["Allocation", "AutoTrade"],
+            "CurrentPrice": 23.96,
+            "CurrentPriceDelayMinutes": 15,
+            "CurrentPriceLastTraded": "2018-12-03T20:59:58.264000Z",
+            "CurrentPriceType": "Ask",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 2,
+                "Description": "HP Inc.",
+                "Format": "Normal",
+                "Symbol": "HPQ:xnys"
+            },
+            "Duration": {
+                "DurationType": "DayOrder"
+            },
+            "Exchange": {
+                "Description": "New York Stock Exchange",
+                "ExchangeId": "NYSE",
+                "IsOpen": false
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": false,
+            "MarketPrice": 23.96,
+            "OpenOrderType": "Market",
+            "OrderAmountType": "Quantity",
+            "OrderId": "257984869",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2018-12-04T10:31:13.230000Z",
+            "RelatedOpenOrders": [],
+            "Status": "Working",
+            "Uic": 3102
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 102,
+            "AssetType": "Stock",
+            "BuySell": "Sell",
+            "CalculationReliability": "OkWithConditions",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "aaa5fe91-90a2-49fb-af34-51bf84e0e7bd",
+            "CurrentPrice": 137.2,
+            "CurrentPriceDelayMinutes": 15,
+            "CurrentPriceLastTraded": "2018-12-05T12:30:21.451000Z",
+            "CurrentPriceType": "Bid",
+            "DisplayAndFormat": {
+                "Currency": "DKK",
+                "Decimals": 2,
+                "Description": "Ambu A/S",
+                "Format": "Normal",
+                "Symbol": "AMBUb:xcse"
+            },
+            "DistanceToMarket": 0.8,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "NASDAQ OMX Copenhagen",
+                "ExchangeId": "CSE",
+                "IsOpen": true
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 137.2,
+            "OpenOrderType": "Limit",
+            "OrderAmountType": "Quantity",
+            "OrderId": "257991213",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2018-12-05T11:58:58.420000Z",
+            "Price": 138,
+            "RelatedOpenOrders": [],
+            "RelatedPositionId": "1326025082",
+            "Status": "Working",
+            "Uic": 15254
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 100,
+            "AssetType": "Stock",
+            "BuySell": "Buy",
+            "CalculationReliability": "OkWithConditions",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "023ba3be-cff9-4154-98c6-5203391dd6f4",
+            "CurrentPrice": 2.09,
+            "CurrentPriceDelayMinutes": 10,
+            "CurrentPriceLastTraded": "2018-12-05T08:59:29.419000Z",
+            "CurrentPriceType": "LastTraded",
+            "DisplayAndFormat": {
+                "Currency": "SGD",
+                "Decimals": 3,
+                "Description": "M1 Ltd",
+                "Format": "Normal",
+                "Symbol": "B2F:xses"
+            },
+            "DistanceToMarket": 0.01,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "Singapore Exchange",
+                "ExchangeId": "SGX-ST",
+                "IsOpen": false
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": false,
+            "MarketPrice": 2.09,
+            "OpenOrderType": "StopIfTraded",
+            "OrderAmountType": "Quantity",
+            "OrderId": "257991157",
+            "OrderRelation": "IfDoneSlaveOco",
+            "OrderTime": "2018-12-05T11:31:41.433333Z",
+            "Price": 2.1,
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 100,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "Limit",
+                    "OrderId": "257991156",
+                    "OrderPrice": 2.08
+                },
+                {
+                    "Amount": 100,
+                    "Duration": {
+                        "DurationType": "DayOrder"
+                    },
+                    "OpenOrderType": "Market",
+                    "OrderId": "257991155"
+                }
+            ],
+            "Status": "NotWorking",
+            "Uic": 27156
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 100,
+            "AssetType": "Stock",
+            "BuySell": "Buy",
+            "CalculationReliability": "OkWithConditions",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "023ba3be-cff9-4154-98c6-5203391dd6f4",
+            "CurrentPrice": 2.1,
+            "CurrentPriceDelayMinutes": 10,
+            "CurrentPriceLastTraded": "2018-12-05T08:59:29.419000Z",
+            "CurrentPriceType": "Ask",
+            "DisplayAndFormat": {
+                "Currency": "SGD",
+                "Decimals": 3,
+                "Description": "M1 Ltd",
+                "Format": "Normal",
+                "Symbol": "B2F:xses"
+            },
+            "DistanceToMarket": 0.02,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "Singapore Exchange",
+                "ExchangeId": "SGX-ST",
+                "IsOpen": false
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": false,
+            "MarketPrice": 2.1,
+            "OpenOrderType": "Limit",
+            "OrderAmountType": "Quantity",
+            "OrderId": "257991156",
+            "OrderRelation": "IfDoneSlaveOco",
+            "OrderTime": "2018-12-05T11:31:41.380000Z",
+            "Price": 2.08,
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 100,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "StopIfTraded",
+                    "OrderId": "257991157",
+                    "OrderPrice": 2.1
+                },
+                {
+                    "Amount": 100,
+                    "Duration": {
+                        "DurationType": "DayOrder"
+                    },
+                    "OpenOrderType": "Market",
+                    "OrderId": "257991155"
+                }
+            ],
+            "Status": "NotWorking",
+            "Uic": 27156
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 100,
+            "AssetType": "Stock",
+            "BuySell": "Sell",
+            "CalculationReliability": "OkWithConditions",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "023ba3be-cff9-4154-98c6-5203391dd6f4",
+            "CurrentPrice": 2.09,
+            "CurrentPriceDelayMinutes": 10,
+            "CurrentPriceLastTraded": "2018-12-05T08:59:29.419000Z",
+            "CurrentPriceType": "Bid",
+            "DisplayAndFormat": {
+                "Currency": "SGD",
+                "Decimals": 3,
+                "Description": "M1 Ltd",
+                "Format": "Normal",
+                "Symbol": "B2F:xses"
+            },
+            "Duration": {
+                "DurationType": "DayOrder"
+            },
+            "Exchange": {
+                "Description": "Singapore Exchange",
+                "ExchangeId": "SGX-ST",
+                "IsOpen": false
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": false,
+            "MarketPrice": 2.09,
+            "OpenOrderType": "Market",
+            "OrderAmountType": "Quantity",
+            "OrderId": "257991155",
+            "OrderRelation": "IfDoneMaster",
+            "OrderTime": "2018-12-05T11:31:41.026666Z",
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 100,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "StopIfTraded",
+                    "OrderId": "257991157",
+                    "OrderPrice": 2.1
+                },
+                {
+                    "Amount": 100,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "Limit",
+                    "OrderId": "257991156",
+                    "OrderPrice": 2.08
+                }
+            ],
+            "Status": "Working",
+            "Uic": 27156
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 100000,
+            "AssetType": "FxSpot",
+            "BuySell": "Buy",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "8f5197b3-9823-4956-ab0f-f3a99c9b6203",
+            "CurrentPrice": 1.0735,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceType": "Ask",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 4,
+                "Description": "Euro/US Dollar",
+                "Format": "AllowDecimalPips",
+                "Symbol": "EURUSD"
+            },
+            "DistanceToMarket": 0.00612,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "Inter Bank",
+                "ExchangeId": "SBFX",
+                "IsOpen": true
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 1.0735,
+            "OpenOrderType": "Stop",
+            "OrderAmountType": "Quantity",
+            "OrderId": "262949115",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2018-12-12T09:19:23.950000Z",
+            "Price": 1.0622,
+            "RelatedOpenOrders": [],
+            "Status": "Working",
+            "Uic": 21
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 100000,
+            "AssetType": "FxSpot",
+            "BuySell": "Buy",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "2e90dac5-15e7-4207-9cd5-603be0764b83",
+            "CurrentPrice": 1.0735,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceType": "Ask",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 4,
+                "Description": "Euro/US Dollar",
+                "Format": "AllowDecimalPips",
+                "Symbol": "EURUSD"
+            },
+            "DistanceToMarket": -0.00023,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "Inter Bank",
+                "ExchangeId": "SBFX",
+                "IsOpen": true
+            },
+            "IsMarketOpen": true,
+            "IsForceOpen": false,
+            "MarketPrice": 1.0735,
+            "OpenOrderType": "Limit",
+            "OrderAmountType": "Quantity",
+            "OrderId": "262949113",
+            "OrderRelation": "IfDoneMaster",
+            "OrderTime": "2018-12-12T09:18:46.183333Z",
+            "Price": 1.07,
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 100000,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "Limit",
+                    "OrderId": "262949112",
+                    "OrderPrice": 1.08
+                }
+            ],
+            "Status": "NotWorking",
+            "Uic": 21
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 100000,
+            "AssetType": "FxSpot",
+            "BuySell": "Sell",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "2e90dac5-15e7-4207-9cd5-603be0764b83",
+            "CurrentPrice": 1.0735,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceType": "Bid",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 4,
+                "Description": "Euro/US Dollar",
+                "Format": "AllowDecimalPips",
+                "Symbol": "EURUSD"
+            },
+            "DistanceToMarket": 0.01006,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "Inter Bank",
+                "ExchangeId": "SBFX",
+                "IsOpen": true
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 1.0735,
+            "OpenOrderType": "Limit",
+            "OrderAmountType": "Quantity",
+            "OrderId": "262949112",
+            "OrderRelation": "IfDoneSlave",
+            "OrderTime": "2018-12-12T09:18:46.123333Z",
+            "Price": 1.08,
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 100000,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "Limit",
+                    "OrderId": "262949113",
+                    "OrderPrice": 1.07
+                }
+            ],
+            "Status": "NotWorking",
+            "Uic": 21
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 100,
+            "AssetType": "Stock",
+            "BuySell": "Sell",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "c88327a1-01ef-4006-973a-f630a4b8d288",
+            "CurrentPrice": 153,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceType": "LastTraded",
+            "DisplayAndFormat": {
+                "Currency": "DKK",
+                "Decimals": 2,
+                "Description": "Ambu A/S",
+                "Format": "Normal",
+                "Symbol": "AMBUb:xcse"
+            },
+            "DistanceToMarket": 1.1,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "NASDAQ OMX Copenhagen",
+                "ExchangeId": "CSE",
+                "IsOpen": true
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 153,
+            "OpenOrderType": "StopIfTraded",
+            "OrderAmountType": "Quantity",
+            "OrderId": "262951243",
+            "OrderRelation": "Oco",
+            "OrderTime": "2018-12-12T10:25:10.700000Z",
+            "Price": 151.9,
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 100,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "Limit",
+                    "OrderId": "262951242",
+                    "OrderPrice": 154
+                }
+            ],
+            "RelatedPositionId": "1359027758",
+            "Status": "Working",
+            "Uic": 15254
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 100,
+            "AssetType": "Stock",
+            "BuySell": "Sell",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "c88327a1-01ef-4006-973a-f630a4b8d288",
+            "CurrentPrice": 152.7,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceType": "Bid",
+            "DisplayAndFormat": {
+                "Currency": "DKK",
+                "Decimals": 2,
+                "Description": "Ambu A/S",
+                "Format": "Normal",
+                "Symbol": "AMBUb:xcse"
+            },
+            "DistanceToMarket": 1.3,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "NASDAQ OMX Copenhagen",
+                "ExchangeId": "CSE",
+                "IsOpen": true
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 152.7,
+            "OpenOrderType": "Limit",
+            "OrderAmountType": "Quantity",
+            "OrderId": "262951242",
+            "OrderRelation": "Oco",
+            "OrderTime": "2018-12-12T10:25:10.676666Z",
+            "Price": 154,
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 100,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "StopIfTraded",
+                    "OrderId": "262951243",
+                    "OrderPrice": 151.9
+                }
+            ],
+            "RelatedPositionId": "1359027758",
+            "Status": "Working",
+            "Uic": 15254
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 2,
+            "AssetType": "CfdOnIndex",
+            "BuySell": "Buy",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-counterparty",
+            "CorrelationKey": "1bcd582e-0ec2-4658-bedc-36c747e0907c",
+            "CurrentPrice": 25701.1,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceType": "Ask",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 1,
+                "Description": "US 30 Wall Street",
+                "Format": "Normal",
+                "Symbol": "US30.I"
+            },
+            "DistanceToMarket": 262.8,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "",
+                "ExchangeId": "",
+                "IsOpen": false
+            },
+            "IsMarketOpen": true,
+            "MarketPrice": 25701.1,
+            "OpenOrderType": "Limit",
+            "OrderAmountType": "Quantity",
+            "OrderId": "257984232",
+            "OrderRelation": "IfDoneMaster",
+            "OrderTime": "2018-12-03T13:35:54.066666Z",
+            "Price": 25438.3,
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 2,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "StopIfTraded",
+                    "OrderId": "257985703",
+                    "OrderPrice": 24928.5
+                },
+                {
+                    "Amount": 2,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "Limit",
+                    "OrderId": "257985704",
+                    "OrderPrice": 25928.5
+                }
+            ],
+            "Status": "Working",
+            "Uic": 4911
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 100,
+            "AssetType": "Stock",
+            "BuySell": "Sell",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "ab2e2638-3c77-483f-bfc2-88b97330d706",
+            "CurrentPrice": 153,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceType": "LastTraded",
+            "DisplayAndFormat": {
+                "Currency": "DKK",
+                "Decimals": 2,
+                "Description": "Ambu A/S",
+                "Format": "Normal",
+                "Symbol": "AMBUb:xcse"
+            },
+            "DistanceToMarket": -0.6,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "NASDAQ OMX Copenhagen",
+                "ExchangeId": "CSE",
+                "IsOpen": true
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 153,
+            "OpenOrderType": "StopIfTraded",
+            "OrderAmountType": "Quantity",
+            "OrderId": "262949137",
+            "OrderRelation": "IfDoneSlaveOco",
+            "OrderTime": "2018-12-12T09:55:21.373333Z",
+            "Price": 153.6,
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 100,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "Limit",
+                    "OrderId": "262949136",
+                    "OrderPrice": 155.2
+                },
+                {
+                    "Amount": 100,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "StopIfTraded",
+                    "OrderId": "262949135",
+                    "OrderPrice": 154.4
+                }
+            ],
+            "Status": "NotWorking",
+            "Uic": 15254
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 100,
+            "AssetType": "Stock",
+            "BuySell": "Sell",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "ab2e2638-3c77-483f-bfc2-88b97330d706",
+            "CurrentPrice": 152.7,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceType": "Bid",
+            "DisplayAndFormat": {
+                "Currency": "DKK",
+                "Decimals": 2,
+                "Description": "Ambu A/S",
+                "Format": "Normal",
+                "Symbol": "AMBUb:xcse"
+            },
+            "DistanceToMarket": 2.5,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "NASDAQ OMX Copenhagen",
+                "ExchangeId": "CSE",
+                "IsOpen": true
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 152.7,
+            "OpenOrderType": "Limit",
+            "OrderAmountType": "Quantity",
+            "OrderId": "262949136",
+            "OrderRelation": "IfDoneSlaveOco",
+            "OrderTime": "2018-12-12T09:55:21.320000Z",
+            "Price": 155.2,
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 100,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "StopIfTraded",
+                    "OrderId": "262949137",
+                    "OrderPrice": 153.6
+                },
+                {
+                    "Amount": 100,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "StopIfTraded",
+                    "OrderId": "262949135",
+                    "OrderPrice": 154.4
+                }
+            ],
+            "Status": "NotWorking",
+            "Uic": 15254
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 100,
+            "AssetType": "Stock",
+            "BuySell": "Buy",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "ab2e2638-3c77-483f-bfc2-88b97330d706",
+            "CurrentPrice": 153,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceType": "LastTraded",
+            "DisplayAndFormat": {
+                "Currency": "DKK",
+                "Decimals": 2,
+                "Description": "Ambu A/S",
+                "Format": "Normal",
+                "Symbol": "AMBUb:xcse"
+            },
+            "DistanceToMarket": 1.4,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "NASDAQ OMX Copenhagen",
+                "ExchangeId": "CSE",
+                "IsOpen": true
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 153,
+            "OpenOrderType": "StopIfTraded",
+            "OrderAmountType": "Quantity",
+            "OrderId": "262949135",
+            "OrderRelation": "IfDoneMaster",
+            "OrderTime": "2018-12-12T09:55:21.073333Z",
+            "Price": 154.4,
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 100,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "StopIfTraded",
+                    "OrderId": "262949137",
+                    "OrderPrice": 153.6
+                },
+                {
+                    "Amount": 100,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "Limit",
+                    "OrderId": "262949136",
+                    "OrderPrice": 155.2
+                }
+            ],
+            "Status": "Working",
+            "Uic": 15254
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 100,
+            "AssetType": "CfdOnStock",
+            "BuySell": "Sell",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "b7312482-a5f4-4199-925c-44a2f06196b2",
+            "CurrentPrice": 22.55,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceLastTraded": "2018-12-11T20:59:59.784000Z",
+            "CurrentPriceType": "Bid",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 3,
+                "Description": "HP Inc.",
+                "Format": "Normal",
+                "Symbol": "HPQ:xnys"
+            },
+            "DistanceToMarket": 0.92,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "New York Stock Exchange",
+                "ExchangeId": "NYSE",
+                "IsOpen": false
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": false,
+            "MarketPrice": 22.55,
+            "OpenOrderType": "Limit",
+            "OrderAmountType": "Quantity",
+            "OrderId": "262949130",
+            "OrderRelation": "IfDoneSlave",
+            "OrderTime": "2018-12-12T09:49:04.330000Z",
+            "Price": 23.47,
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 100,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "StopIfTraded",
+                    "OrderId": "262949129",
+                    "OrderPrice": 23.01
+                }
+            ],
+            "Status": "NotWorking",
+            "Uic": 3102
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 100,
+            "AssetType": "CfdOnStock",
+            "BuySell": "Buy",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "b7312482-a5f4-4199-925c-44a2f06196b2",
+            "CurrentPrice": 22.56,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceLastTraded": "2018-12-11T20:59:59.784000Z",
+            "CurrentPriceType": "LastTraded",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 3,
+                "Description": "HP Inc.",
+                "Format": "Normal",
+                "Symbol": "HPQ:xnys"
+            },
+            "DistanceToMarket": 0.45,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "New York Stock Exchange",
+                "ExchangeId": "NYSE",
+                "IsOpen": false
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": false,
+            "MarketPrice": 22.56,
+            "OpenOrderType": "StopIfTraded",
+            "OrderAmountType": "Quantity",
+            "OrderId": "262949129",
+            "OrderRelation": "IfDoneMaster",
+            "OrderTime": "2018-12-12T09:49:04.070000Z",
+            "Price": 23.01,
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 100,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "Limit",
+                    "OrderId": "262949130",
+                    "OrderPrice": 23.47
+                }
+            ],
+            "Status": "Working",
+            "Uic": 3102
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 1,
+            "AssetType": "CfdOnIndex",
+            "BuySell": "Sell",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "9e2a6efb-05e3-4b48-8eb1-5143ba5ebe2e",
+            "CurrentPrice": 24502.4,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceLastTraded": "2018-12-11T16:15:05.714000Z",
+            "CurrentPriceType": "Bid",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 1,
+                "Description": "US 30 Wall Street",
+                "Format": "Normal",
+                "Symbol": "US30.I"
+            },
+            "DistanceToMarket": 994,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "",
+                "ExchangeId": "",
+                "IsOpen": false
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 24502.4,
+            "OpenOrderType": "Limit",
+            "OrderAmountType": "Quantity",
+            "OrderId": "262949126",
+            "OrderRelation": "IfDoneSlaveOco",
+            "OrderTime": "2018-12-12T09:48:07.143333Z",
+            "Price": 25496.4,
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 1,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "StopIfTraded",
+                    "OrderId": "262949125",
+                    "OrderPrice": 24496.6
+                },
+                {
+                    "Amount": 1,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "StopIfTraded",
+                    "OrderId": "262949124",
+                    "OrderPrice": 24996.5
+                }
+            ],
+            "Status": "NotWorking",
+            "Uic": 4911
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 1,
+            "AssetType": "CfdOnIndex",
+            "BuySell": "Sell",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "9e2a6efb-05e3-4b48-8eb1-5143ba5ebe2e",
+            "CurrentPrice": 24502.4,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceLastTraded": "2018-12-11T16:15:05.714000Z",
+            "CurrentPriceType": "Bid",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 1,
+                "Description": "US 30 Wall Street",
+                "Format": "Normal",
+                "Symbol": "US30.I"
+            },
+            "DistanceToMarket": 5.8,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "",
+                "ExchangeId": "",
+                "IsOpen": false
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 24502.4,
+            "OpenOrderType": "StopIfTraded",
+            "OrderAmountType": "Quantity",
+            "OrderId": "262949125",
+            "OrderRelation": "IfDoneSlaveOco",
+            "OrderTime": "2018-12-12T09:48:03.136666Z",
+            "Price": 24496.6,
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 1,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "Limit",
+                    "OrderId": "262949126",
+                    "OrderPrice": 25496.4
+                },
+                {
+                    "Amount": 1,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "StopIfTraded",
+                    "OrderId": "262949124",
+                    "OrderPrice": 24996.5
+                }
+            ],
+            "Status": "NotWorking",
+            "Uic": 4911
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 1,
+            "AssetType": "CfdOnIndex",
+            "BuySell": "Buy",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "9e2a6efb-05e3-4b48-8eb1-5143ba5ebe2e",
+            "CurrentPrice": 24506.4,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceLastTraded": "2018-12-11T16:15:05.714000Z",
+            "CurrentPriceType": "Ask",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 1,
+                "Description": "US 30 Wall Street",
+                "Format": "Normal",
+                "Symbol": "US30.I"
+            },
+            "DistanceToMarket": 490.1,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "",
+                "ExchangeId": "",
+                "IsOpen": false
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 24506.4,
+            "OpenOrderType": "StopIfTraded",
+            "OrderAmountType": "Quantity",
+            "OrderId": "262949124",
+            "OrderRelation": "IfDoneMaster",
+            "OrderTime": "2018-12-12T09:47:30.356666Z",
+            "Price": 24996.5,
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 1,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "Limit",
+                    "OrderId": "262949126",
+                    "OrderPrice": 25496.4
+                },
+                {
+                    "Amount": 1,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "StopIfTraded",
+                    "OrderId": "262949125",
+                    "OrderPrice": 24496.6
+                }
+            ],
+            "Status": "Working",
+            "Uic": 4911
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 1,
+            "AssetType": "CfdOnIndex",
+            "BuySell": "Buy",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "9e2a6efb-05e3-4b48-8eb1-5143ba5ebe2e",
+            "CurrentPrice": 24506.4,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceLastTraded": "2018-12-11T16:15:05.714000Z",
+            "CurrentPriceType": "Ask",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 1,
+                "Description": "US 30 Wall Street",
+                "Format": "Normal",
+                "Symbol": "US30.I"
+            },
+            "DistanceToMarket": 490.1,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "",
+                "ExchangeId": "",
+                "IsOpen": false
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 24506.4,
+            "OpenOrderType": "StopIfTraded",
+            "OrderAmountType": "Quantity",
+            "OrderId": "262949120",
+            "OrderRelation": "IfDoneMaster",
+            "OrderTime": "2018-12-12T09:47:30.356666Z",
+            "Price": 24996.5,
+            "RelatedOpenOrders": [],
+            "Status": "Working",
+            "Uic": 4911
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 100,
+            "AssetType": "Stock",
+            "BuySell": "Buy",
+            "CalculationReliability": "OkWithConditions",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "de45a78f-6dbc-48d0-a06c-277e3d541993",
+            "CurrentPrice": 2.37,
+            "CurrentPriceDelayMinutes": 15,
+            "CurrentPriceLastTraded": "2019-02-07T20:59:49.014000Z",
+            "CurrentPriceType": "None",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 4,
+                "Description": "Fannie Mae",
+                "Format": "Normal",
+                "Symbol": "FNMA:xnas"
+            },
+            "DistanceToMarket": 0.08,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "OTC Markets Group (Pink Sheets)",
+                "ExchangeId": "OOTC",
+                "IsOpen": false
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": false,
+            "MarketPrice": 2.37,
+            "OpenOrderType": "Limit",
+            "OrderAmountType": "Quantity",
+            "OrderId": "266226185",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2019-02-08T06:22:30.760000Z",
+            "Price": 2.29,
+            "RelatedOpenOrders": [],
+            "Status": "Working",
+            "Uic": 47705
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 100.0,
+            "AssetType": "Stock",
+            "BuySell": "Buy",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "3c957b38-6ca0-4b9b-8ff2-0b93567d34be",
+            "CurrentPrice": 3.51,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceLastTraded": "2019-01-14T06:56:58.507000Z",
+            "CurrentPriceType": "Ask",
+            "DisplayAndFormat": {
+                "Currency": "CNH",
+                "Decimals": 2,
+                "Description": "Bank of China Ltd",
+                "Format": "Normal",
+                "Symbol": "601988:xssc"
+            },
+            "DistanceToMarket": 0.01,
+            "Duration": {
+                "DurationType": "DayOrder"
+            },
+            "Exchange": {
+                "Description": "Shanghai-Hong Kong Stock Connect",
+                "ExchangeId": "SHANGHAI_SC",
+                "IsOpen": false
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": false,
+            "MarketPrice": 3.51,
+            "OpenOrderType": "Limit",
+            "OrderAmountType": "Quantity",
+            "OrderId": "266024338",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2019-01-14T10:24:24.300000Z",
+            "Price": 3.5,
+            "RelatedOpenOrders": [],
+            "Status": "Working",
+            "Uic": 9664129
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 1,
+            "AssetType": "Stock",
+            "BuySell": "Buy",
+            "CalculationReliability": "OkWithConditions",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "57f6bfe5-31ca-4a95-8eec-462a8af5de6b",
+            "CorrelationTypes": ["Allocation", "AutoTrade"],
+            "CurrentPrice": 23.96,
+            "CurrentPriceDelayMinutes": 15,
+            "CurrentPriceLastTraded": "2018-12-03T20:59:58.264000Z",
+            "CurrentPriceType": "Ask",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 2,
+                "Description": "HP Inc.",
+                "Format": "Normal",
+                "Symbol": "HPQ:xnys"
+            },
+            "Duration": {
+                "DurationType": "DayOrder"
+            },
+            "Exchange": {
+                "Description": "New York Stock Exchange",
+                "ExchangeId": "NYSE",
+                "IsOpen": false
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": false,
+            "MarketPrice": 23.96,
+            "OpenOrderType": "Market",
+            "OrderAmountType": "Quantity",
+            "OrderId": "257984869",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2018-12-04T10:31:13.230000Z",
+            "RelatedOpenOrders": [],
+            "Status": "Working",
+            "Uic": 3102
+        },
+        {
+            "AssetType": "MutualFund",
+            "Duration": {
+                "DurationType": "-"
+            },
+            "DistanceToMarket": null,
+            "Price": null,
+            "Amount": null,
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "BuySell": "Buy",
+            "CalculationReliability": "Ok",
+            "CashAmount": 10000,
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "7c8ced83-65e4-4c54-bdef-6381b02c11c5",
+            "CurrentPrice": 28.96,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceType": "Ask",
+            "DisplayAndFormat": {
+                "Currency": "EUR",
+                "Decimals": 2,
+                "Description": "FIDELITY EURO BOND E",
+                "Format": "Normal",
+                "Symbol": "FIDEBFE.MFU"
+            },
+            "Exchange": {
+                "Description": "Mutual Funds",
+                "ExchangeId": "MTU",
+                "IsOpen": true
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 28.96,
+            "OpenOrderType": "Market",
+            "OrderAmountType": "CashAmount",
+            "OrderId": "266192764",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2019-02-05T08:54:25.322677Z",
+            "RelatedOpenOrders": [],
+            "Status": "Working",
+            "Uic": 8249012
+        },
+        {
+            "AssetType": "MutualFund",
+            "Duration": {
+                "DurationType": "-"
+            },
+            "DistanceToMarket": null,
+            "Amount": null,
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "BuySell": "Buy",
+            "CalculationReliability": "Ok",
+            "CashAmount": 269420,
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "7c8ced8c-65e4-4c54-bdef-6381b02c11c5",
+            "CurrentPrice": 28.94,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceType": "Ask",
+            "DisplayAndFormat": {
+                "Currency": "EUR",
+                "Decimals": 2,
+                "Description": "FIDELITY EURO BOND E",
+                "Format": "Normal",
+                "Symbol": "FIDEBFE.MFU"
+            },
+            "Exchange": {
+                "Description": "Mutual Funds",
+                "ExchangeId": "MTU",
+                "IsOpen": true
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 28.96,
+            "OpenOrderType": "Traspaso",
+            "OrderAmountType": "CashAmount",
+            "OrderId": "266192762",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2019-02-05T08:54:25.322677Z",
+            "Price": 100.04,
+            "RelatedOpenOrders": [],
+            "Status": "Working",
+            "Uic": 8249012
+        },
+        {
+            "isEditOrderAllowed": false,
+            "isCancelOrderAllowed": false,
+            "isChangeToMarketOrderAllowed": false,
+            "isRelatedStopOrderAllowed": false,
+            "isRelatedLimitOrderAllowed": false,
+            "Amount": 100,
+            "AmountAbs": 100,
+            "AccountDisplayName": "test1",
+            "RegistrationTime": "2019-01-23T11:55:24.744Z",
+            "AssetType": "MutualFund",
+            "Duration": {
+                "DurationType": "-"
+            },
+            "DistanceToMarket": null,
+            "Price": null,
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "BuySell": "Buy",
+            "CalculationReliability": "NoMarketAccess",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "4d4c334e-f5e5-4aeb-961e-fabada0a0841",
+            "DisplayAndFormat": {
+                "Currency": "EUR",
+                "Decimals": 2,
+                "Description": "FIDELITY EURO BOND E",
+                "Format": "Normal",
+                "Symbol": "FIDEBFE.MFU"
+            },
+            "Exchange": {
+                "Description": "Mutual Funds",
+                "ExchangeId": "MTU",
+                "IsOpen": false
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": false,
+            "OpenOrderType": "TraspasoIn",
+            "OrderAmountType": "Quantity",
+            "OrderId": "56449119",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2019-01-23T11:55:24.744123Z",
+            "RelatedOpenOrders": [],
+            "Status": "Working",
+            "Uic": 8249012
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 1,
+            "AssetType": "FuturesStrategy",
+            "BuySell": "Buy",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "dc2730e3-afc2-4fd2-9261-daa880e3b013",
+            "CorrelationTypes": [],
+            "CurrentPrice": -1.2,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceLastTraded": "2019-05-20T18:04:56.035000Z",
+            "CurrentPriceType": "Ask",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 3,
+                "Description": "Lean Hogs Spreads Jun-19 Jul-19 ",
+                "Format": "Normal",
+                "Symbol": "HEM9-N9"
+            },
+            "DistanceToMarket": 0.025,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "Chicago Mercantile Exchange",
+                "ExchangeId": "CME",
+                "IsOpen": true
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": false,
+            "MarketPrice": -1.2,
+            "OpenOrderType": "Limit",
+            "OrderAmountType": "Quantity",
+            "OrderId": "276006708",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2019-05-21T09:03:54.703333Z",
+            "Price": -1.225,
+            "RelatedOpenOrders": [],
+            "Status": "Working",
+            "Uic": 9652951
+        },
+        {
+            "OrderId": "275995294",
+            "AccountId": "test2",
+            "AccountKey": "acc-key-1",
+            "Amount": 10000,
+            "AssetType": "Bond",
+            "BuySell": "Buy",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "87db222c-4813-4d02-98f6-7eeff47efc31",
+            "CurrentPrice": 100.04,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceLastTraded": "2019-05-10T13:35:26.290000Z",
+            "CurrentPriceType": "Ask",
+            "DisplayAndFormat": {
+                "Currency": "DKK",
+                "Decimals": 2,
+                "Description": "Kingdom of Denmark 0% 03 Jun 2019, DKK",
+                "Format": "Normal",
+                "Symbol": "SKBV 19/II"
+            },
+            "DistanceToMarket": 0,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "NASDAQ OMX Copenhagen Bonds",
+                "ExchangeId": "CSE_BONDS",
+                "IsOpen": false
+            },
+            "ExpiryDate": "2019-06-03T00:00:00.000000Z",
+            "IsForceOpen": false,
+            "IsMarketOpen": false,
+            "MarketPrice": 100.04,
+            "OpenOrderType": "Limit",
+            "OrderAmountType": "Quantity",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2019-05-16T15:07:31.970000Z",
+            "Price": 100.04,
+            "RelatedOpenOrders": [],
+            "Status": "Working",
+            "Uic": 12572271
+        },
+        {
+            "AccountId": "test3",
+            "AccountKey": "acc-key-3",
+            "Amount": 1,
+            "AssetType": "StockOption",
+            "BuySell": "Buy",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "bf77d27e-e0cb-426f-8e96-c520b6716f4c",
+            "CurrentPrice": 1.76,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceLastTraded": "2018-12-03T20:59:13.471000Z",
+            "CurrentPriceType": "Indicative",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 2,
+                "Description": "Appl Inc.",
+                "Format": "Normal",
+                "StrikeDecimals": 2,
+                "StrikeFormat": "Normal",
+                "Symbol": "AAPL:xnas"
+            },
+            "DistanceToMarket": -0.09,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "Options Price Reporting Authority",
+                "ExchangeId": "OPRA",
+                "IsOpen": false
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": false,
+            "MarketPrice": 1.76,
+            "OpenOrderType": "Limit",
+            "OptionsData": {
+                "ExpiryDate": "2019-07-26T00:00:00.000000Z",
+                "PutCall": "Call",
+                "Strike": 195
+            },
+            "OrderAmountType": "Quantity",
+            "OrderId": "268924572",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2018-12-04T10:53:31.986666Z",
+            "Price": 1.85,
+            "RelatedOpenOrders": [],
+            "Status": "Working",
+            "ToOpenClose": "ToOpen",
+            "Uic": 9580657
+        },
+        {
+            "AccountId": "test3",
+            "AccountKey": "acc-key-3",
+            "Amount": 1,
+            "AssetType": "StockOption",
+            "BuySell": "Sell",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "bf77d27e-e0cb-426f-8e96-c520b6716f4c",
+            "CurrentPrice": 1.76,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceLastTraded": "2018-12-03T20:59:13.471000Z",
+            "CurrentPriceType": "Indicative",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 2,
+                "Description": "Appl Inc.",
+                "Format": "Normal",
+                "StrikeDecimals": 2,
+                "StrikeFormat": "Normal",
+                "Symbol": "AAPL:xnas"
+            },
+            "DistanceToMarket": -0.09,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "Options Price Reporting Authority",
+                "ExchangeId": "OPRA",
+                "IsOpen": false
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": false,
+            "MarketPrice": 1.76,
+            "OpenOrderType": "Limit",
+            "OptionsData": {
+                "ExpiryDate": "2019-07-26T00:00:00.000000Z",
+                "PutCall": "Call",
+                "Strike": 200
+            },
+            "OrderAmountType": "Quantity",
+            "OrderId": "268924571",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2018-12-04T10:53:31.986666Z",
+            "Price": 1.85,
+            "RelatedOpenOrders": [],
+            "Status": "Working",
+            "ToOpenClose": "ToOpen",
+            "Uic": 13993712
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 10,
+            "Ask": 15.3,
+            "AssetType": "SrdOnStock",
+            "Bid": 15.26,
+            "BuySell": "Buy",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "8c7351ec-3c9b-4483-b7a9-a54fb532dfb8",
+            "CurrentPrice": 15.295,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceType": "Ask",
+            "DistanceToMarket": -1.155,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "DisplayAndFormat": {
+                "Currency": "EUR",
+                "Decimals": 2,
+                "Description": "STMicroelectronics",
+                "Format": "Percentage",
+                "Symbol": "STM:xpar"
+            },
+            "Exchange": {
+                "Description": "Euronext Paris",
+                "ExchangeId": "PAR",
+                "IsOpen": true
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 15.295,
+            "MarketValue": 0,
+            "OpenOrderType": "Limit",
+            "OrderAmountType": "Quantity",
+            "OrderId": "310619827",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2020-03-20T11:03:16.201321Z",
+            "Price": 16.45,
+            "RelatedOpenOrders": [],
+            "Status": "Working",
+            "Uic": 1252
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 6,
+            "Ask": 14.61,
+            "AssetType": "SrdOnStock",
+            "Bid": 14.6,
+            "BuySell": "Buy",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "1e52a549-2850-443a-a19d-9f0e351de3ef",
+            "CurrentPrice": 14.61,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceType": "Ask",
+            "DistanceToMarket": -0.186,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 2
+            },
+            "Exchange": {
+                "Description": "Euronext Paris",
+                "ExchangeId": "PAR",
+                "IsOpen": true
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 14.61,
+            "MarketValue": 0,
+            "NonTradableReason": "None",
+            "OpenOrderType": "Limit",
+            "OrderAmountType": "Quantity",
+            "OrderId": "325169685",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2020-06-03T09:08:30.177055Z",
+            "Price": 14.796,
+            "RelatedOpenOrders": [],
+            "Status": "NotWorking",
+            "TradingStatus": "Tradable",
+            "Uic": 1622
+        }
+    ]
+}

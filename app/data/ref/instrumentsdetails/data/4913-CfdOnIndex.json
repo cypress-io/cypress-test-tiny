@@ -1,0 +1,55 @@
+{
+    "AmountDecimals": 1,
+    "AssetType": "CfdOnIndex",
+    "CurrencyCode": "USD",
+    "DefaultAmount": 0.0,
+    "DefaultSlippage": 0.02,
+    "DefaultSlippageType": "Percentage",
+    "Description": "US 500",
+    "Exchange": {
+        "CountryCode": "",
+        "ExchangeId": "",
+        "Name": ""
+    },
+    "ExerciseCutOffTime": "00:00:00",
+    "Format": {
+        "Decimals": 2,
+        "OrderDecimals": 2
+    },
+    "GroupId": 0,
+    "IncrementSize": 1.0,
+    "IsTradable": true,
+    "OrderDistances": {
+        "EntryDefaultDistance": 2.0,
+        "EntryDefaultDistanceType": "Percentage",
+        "StopLimitDefaultDistance": 5.0,
+        "StopLimitDefaultDistanceType": "Pips",
+        "StopLossDefaultDistance": 2.0,
+        "StopLossDefaultDistanceType": "Percentage",
+        "StopLossDefaultEnabled": false,
+        "StopLossDefaultOrderType": "GuaranteedStop",
+        "TakeProfitDefaultDistance": 2.0,
+        "TakeProfitDefaultDistanceType": "Percentage",
+        "TakeProfitDefaultEnabled": false
+    },
+    "PriceToContractFactor": 1.0,
+    "RelatedInstruments": [
+        {
+            "AssetType": "StockIndex",
+            "Uic": 1375
+        }
+    ],
+    "StandardAmounts": [1.0, 10.0, 100.0, 500.0, 1000.0, 10000.0, 50000.0, 100000.0],
+    "SupportedOrderTypes": [
+        "Market",
+        "Limit",
+        "StopIfTraded",
+        "TrailingStopIfTraded",
+        "StopLimit"
+    ],
+    "Symbol": "US500.I",
+    "TickSize": 0.01,
+    "TradableAs": ["CfdOnIndex"],
+    "TradableOn": [],
+    "Uic": 4913
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "AccountId": "test1",
+        "ActivityId": "21300",
+        "ActivityTime": "2019-02-10T15:16:00.000Z",
+        "Amount": 100000,
+        "AssetType": "FxSpot",
+        "BuySell": "Buy",
+        "ClientId": "8844363",
+        "CorrelationKey": "a805a6b4-a736-4f11-a93c-82c55c938015",
+        "DisplayAndFormat": {
+            "Currency": "USD",
+            "Decimals": 4,
+            "Description": "Euro/US Dollar",
+            "Format": "AllowDecimalPips",
+            "OrderDecimals": 4
+        },
+        "Duration": { "DurationType": "GoodTillCancel" },
+        "HandledBy": "32155049",
+        "OrderId": "325172611",
+        "OrderRelation": "Oco",
+        "OrderState": "Working",
+        "OrderType": "Limit",
+        "Price": 1.123,
+        "RelatedOrderIds": ["325172612"],
+        "Status": "Changed",
+        "SubStatus": "Confirmed",
+        "Uic": 21,
+        "UserId": "32155049",
+        "ValueDate": "2019-02-10"
+    }
+]

@@ -1,0 +1,49 @@
+{
+    "AmountDecimals": 0,
+    "AssetType": "SrdOnStock",
+    "CurrencyCode": "EUR",
+    "DefaultAmount": 0,
+    "DefaultSlippage": 0,
+    "DefaultSlippageType": "Ticks",
+    "Description": "Societe Generale",
+    "Exchange": {
+        "CountryCode": "FR",
+        "ExchangeId": "PAR",
+        "Name": "Euronext Paris",
+        "TimeZoneId": "4"
+    },
+    "Format": {
+        "Decimals": 3,
+        "OrderDecimals": 3
+    },
+    "GroupId": 0,
+    "IncrementSize": 1,
+    "IsComplex": false,
+    "Isin": "FR0000130809",
+    "IssuerCountry": "FR",
+    "IssuerName": "SocieteGenerale",
+    "IsTradable": true,
+    "LotSizeType": "NotUsed",
+    "MinimumOrderValue": 50,
+    "MinimumTradeSize": 1,
+    "OrderSetting": {},
+    "PriceCurrency": "EUR",
+    "Sector": {
+        "Name": "Banks(301010)",
+        "SectorId": "1041"
+    },
+    "ShortTradeDisabled": false,
+    "SupportedOrderTypes": [
+        "Market",
+        "Limit",
+        "StopIfTraded",
+        "TrailingStopIfTraded",
+        "StopLimit"
+    ],
+    "TradableAs": ["SrdOnStock"],
+    "Symbol": "GLE:xpar",
+    "TickSize": 0.001,
+    "TradableOn": [],
+    "TradingSignals": "NotAllowed",
+    "Uic": 1622
+}

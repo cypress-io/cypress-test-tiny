@@ -1,0 +1,19 @@
+{
+    "__count": 9876543210,
+    "__next": "/openapi/ps/v1/search...",
+    "Transactions": [
+        {
+            "TradeDate": "2020-08-29",
+            "ClientID": 5405486,
+            "ClientName": "ClientName",
+            "OwnerID": 8405488,
+            "AccountID": "100016DKK",
+            "Instrument": "Instrument",
+            "TransactionType": "TransactionType",
+            "EventType": "EventType",
+            "Amount": 123,
+            "OpenPrice": 456,
+            "CashBalanceEffect": "CashBalanceEffect"
+        }
+    ]
+}

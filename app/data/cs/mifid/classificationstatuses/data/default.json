@@ -1,0 +1,138 @@
+{
+    "__count": 13,
+    "Data": [
+        {
+            "AssetAppropriatenessTestStatus": "NotPassed",
+            "AssetName": "FX Spot",
+            "AssetNameUnTranslated": "FX Spot",
+            "AssetTypes": ["FxSpot", "FxForwards"],
+            "ClassificationSubType": "Elective",
+            "ClassificationType": "Retail",
+            "Complexity": "Simple",
+            "ProductAreaId": 1
+        },
+        {
+            "AssetAppropriatenessTestStatus": "NotPassed",
+            "AssetName": "FX Options",
+            "AssetNameUnTranslated": "FX Options",
+            "AssetTypes": ["FxVanillaOption"],
+            "ClassificationSubType": "Elective",
+            "ClassificationType": "Retail",
+            "Complexity": "Complex",
+            "ProductAreaId": 3
+        },
+        {
+            "AssetAppropriatenessTestStatus": "Passed",
+            "AssetName": "Stocks",
+            "AssetNameUnTranslated": "Stocks",
+            "AssetTypes": ["Stock"],
+            "ClassificationSubType": "Elective",
+            "ClassificationType": "Retail",
+            "Complexity": "Simple",
+            "ProductAreaId": 7
+        },
+        {
+            "AssetAppropriatenessTestStatus": "Passed",
+            "AssetName": "Bonds",
+            "AssetNameUnTranslated": "Bonds",
+            "AssetTypes": ["Bond"],
+            "ClassificationSubType": "Elective",
+            "ClassificationType": "Retail",
+            "Complexity": "Simple",
+            "ProductArea": "Bonds",
+            "ProductAreaId": 8
+        },
+        {
+            "AssetAppropriatenessTestStatus": "NotTaken",
+            "AssetName": "Futures",
+            "AssetNameUnTranslated": "Futures",
+            "AssetTypes": ["ContractFutures", "FuturesStrategy"],
+            "ClassificationSubType": "Elective",
+            "ClassificationType": "Retail",
+            "Complexity": "Complex",
+            "ProductArea": "Futures",
+            "ProductAreaId": 4
+        },
+        {
+            "AssetAppropriatenessTestStatus": "NotTaken",
+            "AssetName": "Listed Options",
+            "AssetNameUnTranslated": "Listed Options",
+            "AssetTypes": ["FuturesOption", "StockOption", "StockIndexOption"],
+            "ClassificationSubType": "Elective",
+            "ClassificationType": "Retail",
+            "Complexity": "Complex",
+            "ProductArea": "ContractOptions",
+            "ProductAreaId": 5
+        },
+        {
+            "AssetAppropriatenessTestStatus": "NotPassed",
+            "AssetName": "CFDs (Contract for Difference)",
+            "AssetNameUnTranslated": "CFDs (Contract for Difference)",
+            "AssetTypes": ["CfdOnStock", "CfdOnIndex", "CfdOnFutures", "CfdIndexOption"],
+            "ClassificationSubType": "Elective",
+            "ClassificationType": "Retail",
+            "Complexity": "Complex",
+            "ProductAreaId": 6
+        },
+        {
+            "AssetAppropriatenessTestStatus": "Passed",
+            "AssetName": "Mutual Funds",
+            "AssetNameUnTranslated": "Mutual Funds",
+            "AssetTypes": ["MutualFund"],
+            "ClassificationSubType": "Elective",
+            "ClassificationType": "Retail",
+            "Complexity": "Simple",
+            "ProductAreaId": 9
+        },
+        {
+            "AssetAppropriatenessTestStatus": "Passed",
+            "AssetName": "ETFs (Exchange Traded Funds)",
+            "AssetNameUnTranslated": "ETFs (Exchange Traded Funds)",
+            "AssetTypes": ["Fund"],
+            "ClassificationSubType": "Elective",
+            "ClassificationType": "Retail",
+            "Complexity": "Simple",
+            "ProductAreaId": 11
+        },
+        {
+            "AssetAppropriatenessTestStatus": "NotTaken",
+            "AssetName": "Complex ETFs (Exchange Traded Funds)",
+            "AssetNameUnTranslated": "Complex ETFs (Exchange Traded Funds)",
+            "AssetTypes": ["Etf"],
+            "ClassificationSubType": "Elective",
+            "ClassificationType": "Retail",
+            "Complexity": "Complex",
+            "ProductAreaId": 12
+        },
+        {
+            "AssetAppropriatenessTestStatus": "NotTaken",
+            "AssetName": "Complex Mutual Funds",
+            "AssetNameUnTranslated": "Complex Mutual Funds",
+            "AssetTypes": ["MutualFund"],
+            "ClassificationSubType": "Elective",
+            "ClassificationType": "Retail",
+            "Complexity": "Complex",
+            "ProductAreaId": 13
+        },
+        {
+            "AssetAppropriatenessTestStatus": "NotTaken",
+            "AssetName": "ETCs (Exchange Traded Commodities)",
+            "AssetNameUnTranslated": "ETCs (Exchange Traded Commodities)",
+            "AssetTypes": ["Etc"],
+            "ClassificationSubType": "Elective",
+            "ClassificationType": "Retail",
+            "Complexity": "Complex",
+            "ProductAreaId": 14
+        },
+        {
+            "AssetAppropriatenessTestStatus": "NotTaken",
+            "AssetName": "ETNs (Exchange Traded Notes)",
+            "AssetNameUnTranslated": "ETNs (Exchange Traded Notes)",
+            "AssetTypes": ["Etn"],
+            "ClassificationSubType": "Elective",
+            "ClassificationType": "Retail",
+            "Complexity": "Complex",
+            "ProductAreaId": 15
+        }
+    ]
+}

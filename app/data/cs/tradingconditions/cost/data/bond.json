@@ -1,0 +1,76 @@
+{
+    "AccountCurrency": "GBP",
+    "AccountID": "",
+    "Amount": 1000,
+    "AssetType": "Bond",
+    "Cost": {
+        "Long": {
+            "BuySell": "Buy",
+            "ConversionCost": {
+                "Pct": 1,
+                "Rule": {
+                    "Pct": 0.5
+                },
+                "Value": 15.56
+            },
+            "Currency": "EUR",
+            "HoldingCost": {
+                "CustodyFee": {
+                    "Pct": 0.321,
+                    "Rule": {
+                        "Currency": "EUR",
+                        "MinFee": 5
+                    },
+                    "Value": 5
+                }
+            },
+            "FundCost": {
+                "EntryCost": {
+                    "Pct": 0.11,
+                    "Rule": {
+                        "Pct": 0.4
+                    },
+                    "Value": 39.462
+                },
+                "ExitCost": {
+                    "Pct": 0.1,
+                    "Rule": {
+                        "Pct": 0.3
+                    },
+                    "Value": 39.2
+                }
+            },
+            "TotalCost": 419.222,
+            "TotalCostPct": 22.097,
+            "TradingCost": {
+                "Commissions": [
+                    {
+                        "Pct": 10.283,
+                        "Rule": {
+                            "BaseCommission": 80,
+                            "Currency": "EUR"
+                        },
+                        "Value": 160
+                    },
+                    {
+                        "Pct": 10.283,
+                        "Rule": {
+                            "Currency": "EUR",
+                            "MinCommission": 80
+                        },
+                        "Value": 160
+                    }
+                ]
+            }
+        }
+    },
+    "CostCalculationAssumptions": [
+        "IncludesOpenAndCloseCost",
+        "EquivalentOpenAndClosePrice",
+        "BasisOnLastClosePrice"
+    ],
+    "HoldingPeriodInDays": 30,
+    "Instrument": "Vallourec 6.375% 15 Oct 2023, EUR",
+    "Price": 155.601,
+    "Uic": 5006046
+}

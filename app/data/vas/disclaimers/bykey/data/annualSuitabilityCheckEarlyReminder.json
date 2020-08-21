@@ -1,0 +1,26 @@
+[
+    {
+        "AcceptLabel": "Review Your Answers",
+        "Body": "<!--SaxoSelect_Suitability_Reminder-->\n<p>&nbsp;</p>\n<h2 class=\".h2\">Managed portfolios suitability REMINDER</h2>\n<p>We are required to annually assess your suitability for investment into managed portfolios.</p>\n<p>Almost 12 months have passed since you last reviewed your information. Please take a few moments to ensure your details are up to date.</p>\n<p>If you do not confirm your information before the end of the 12-month period, restrictions will be activated on your managed portfolio.</p>",
+        "CanAccept": true,
+        "CanAcceptWithUserInput": false,
+        "CanReject": false,
+        "Counted": 0,
+        "DisclaimerId": 149,
+        "DisclaimerKey": "AnnualSuitabilityCheckEarlyReminder",
+        "DisclaimerType": "Simple",
+        "DismissLabel": "",
+        "DisplayHintTypes": [],
+        "IsBlocking": false,
+        "LanguageCode": "en",
+        "LegalAssetTypes": [],
+        "RejectLabel": "",
+        "Revision": 6,
+        "SequenceNo": 0,
+        "ShowAlways": false,
+        "ShowCount": 0,
+        "Title": "Notification of Annual Suitability Review",
+        "UserInputText": "",
+        "Version": 1
+    }
+]

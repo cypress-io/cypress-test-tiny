@@ -1,0 +1,155 @@
+{
+    "__count": 3,
+    "Data": [
+        {
+            "ClassificationType": "Retail",
+            "Name": "Retail",
+            "Products": [
+                {
+                    "AssetTypes": [
+                        "FxSpot",
+                        "FxForwards",
+                        "FxVanillaOption",
+                        "FxKnockInOption",
+                        "FxKnockOutOption",
+                        "FxBinaryOption",
+                        "FxOneTouchOption",
+                        "FxNoTouchOption",
+                        "ContractFutures",
+                        "FuturesStrategy",
+                        "Stock",
+                        "StockOption",
+                        "Bond",
+                        "FuturesOption",
+                        "StockIndexOption",
+                        "ManagedFund",
+                        "Cash",
+                        "CfdOnStock",
+                        "CfdOnIndex",
+                        "CfdOnFutures",
+                        "StockIndex",
+                        "MutualFund",
+                        "CfdIndexOption"
+                    ],
+                    "Name": "All",
+                    "ProductAreaId": 0,
+                    "Qualified": true
+                }
+            ],
+            "Qualified": true
+        },
+        {
+            "ClassificationType": "Professional",
+            "Name": "Professional",
+            "Products": [
+                {
+                    "AssetTypes": [
+                        "FxSpot",
+                        "FxForwards",
+                        "FxVanillaOption",
+                        "FxKnockInOption",
+                        "FxKnockOutOption",
+                        "FxBinaryOption",
+                        "FxOneTouchOption",
+                        "FxNoTouchOption",
+                        "ContractFutures",
+                        "FuturesStrategy",
+                        "Stock",
+                        "StockOption",
+                        "Bond",
+                        "FuturesOption",
+                        "StockIndexOption",
+                        "ManagedFund",
+                        "Cash",
+                        "CfdOnStock",
+                        "CfdOnIndex",
+                        "CfdOnFutures",
+                        "StockIndex",
+                        "MutualFund",
+                        "CfdIndexOption"
+                    ],
+                    "Name": "All",
+                    "ProductAreaId": 0,
+                    "Qualified": false,
+                    "Questionnaire": {
+                        "Acknowledge": "I declare that I find that I am in possession of the expertise, experience and knowledge that makes me capable of making my own investment decisions and that I understand the risks involved in transactions with this product.",
+                        "Questions": [
+                            {
+                                "AnswerType": "Bool",
+                                "Confirmed": false,
+                                "QuestionId": "1",
+                                "Text": "I have carried out transactions in the product on an average frequency of at least 10 per quarter during the previous four quarters."
+                            },
+                            {
+                                "AnswerType": "Bool",
+                                "Confirmed": false,
+                                "QuestionId": "2",
+                                "Text": "The size of my portfolio, defined as including cash deposits and financial instruments, exceeds EUR 500,000."
+                            },
+                            {
+                                "AnswerType": "Bool",
+                                "Confirmed": false,
+                                "QuestionId": "4",
+                                "Text": "I work or have worked in the financial sector for at least one year in a professional position that requires knowledge of the product."
+                            },
+                            {
+                                "AnswerType": "Text",
+                                "QuestionId": "8",
+                                "Text": "What is the name of your most relevant employer?"
+                            },
+                            {
+                                "AnswerType": "Text",
+                                "QuestionId": "16",
+                                "Text": "What is/was your job title/role?"
+                            },
+                            {
+                                "AnswerType": "Text",
+                                "QuestionId": "32",
+                                "Text": "How has this role given you knowledge of the relevant products?"
+                            }
+                        ],
+                        "Statement": "To further confirm that I am a professional client, I confirm that I fulfil at least 2 out of 3 of the following criteria:"
+                    }
+                }
+            ],
+            "Qualified": false
+        },
+        {
+            "ClassificationType": "EligibleCounterPart",
+            "Name": "Eligible Counterpart",
+            "Products": [
+                {
+                    "AssetTypes": [
+                        "FxSpot",
+                        "FxForwards",
+                        "FxVanillaOption",
+                        "FxKnockInOption",
+                        "FxKnockOutOption",
+                        "FxBinaryOption",
+                        "FxOneTouchOption",
+                        "FxNoTouchOption",
+                        "ContractFutures",
+                        "FuturesStrategy",
+                        "Stock",
+                        "StockOption",
+                        "Bond",
+                        "FuturesOption",
+                        "StockIndexOption",
+                        "ManagedFund",
+                        "Cash",
+                        "CfdOnStock",
+                        "CfdOnIndex",
+                        "CfdOnFutures",
+                        "StockIndex",
+                        "MutualFund",
+                        "CfdIndexOption"
+                    ],
+                    "Name": "All",
+                    "ProductAreaId": 0,
+                    "Qualified": false
+                }
+            ],
+            "Qualified": false
+        }
+    ]
+}

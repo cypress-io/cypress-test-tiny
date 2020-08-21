@@ -1,0 +1,356 @@
+{
+    "Items": [
+        {
+            "Description": "MyAccount",
+            "Items": [
+                {
+                    "Description": "Performance",
+                    "ModuleId": "3520",
+                    "Name": "Performance",
+                    "Url": "react://perfOverview"
+                },
+                {
+                    "Description": "Portfolio",
+                    "ModuleId": "3519",
+                    "Name": "Portfolio",
+                    "Url": "react://portfolio"
+                },
+                {
+                    "Description": "Rights and Restrictions",
+                    "ModuleId": "0",
+                    "Name": "Rights and Restrictions",
+                    "Url": "react://rights-and-restrictions"
+                },
+                {
+                    "Description": "Quick Deposit",
+                    "ModuleId": "0",
+                    "Name": "Quick Deposit",
+                    "Url": "http://some-external-url"
+                },
+                {
+                    "Description": "Historic reports",
+                    "Items": [
+                        {
+                            "Description": "Standard Reports",
+                            "Items": [
+                                {
+                                    "Description": "Portfolio Report V2",
+                                    "ModuleId": "3791",
+                                    "Name": "Portfolio Report",
+                                    "Url": "reportExport://portfolio?oapi=true&excel=false"
+                                },
+                                {
+                                    "Description": "Trades",
+                                    "ModuleId": "3790",
+                                    "Name": "Trades",
+                                    "Url": "react://trades"
+                                },
+                                {
+                                    "Description": "Account statement",
+                                    "ModuleId": "3814",
+                                    "Name": "Account statement",
+                                    "FullName": "Account statement description from menu",
+                                    "Url": "react://accountStatement"
+                                },
+                                {
+                                    "Description": "Aggregated Amounts",
+                                    "ModuleId": "3865",
+                                    "Name": "Aggregated Amounts",
+                                    "FullName": "Aggregated Amounts description from menu",
+                                    "Url": "reportExport://ConsolidatedFeeSchedule?oapi=true&excel=true&pdf=false"
+                                },
+                                {
+                                    "Description": "&Financial Statement",
+                                    "ModuleId": "3416",
+                                    "Name": "Financial Statement",
+                                    "Url": "#/reports/financialStatement"
+                                },
+                                {
+                                    "Description": "Share Dividends",
+                                    "ModuleId": "3866",
+                                    "Name": "Share Dividends",
+                                    "Url": "reportExport://ShareDividends?oapi=true&excel=true"
+                                },
+                                {
+                                    "Description": "Bond Coupon Payments",
+                                    "ModuleId": "3769",
+                                    "Name": "Bond Coupon Payments",
+                                    "Url": "reportExport://BondCouponPayments?oapi=true&excel=true"
+                                },
+                                {
+                                    "Description": "CFD Cash Adjustments",
+                                    "ModuleId": "3770",
+                                    "Name": "CFD Cash Adjustments",
+                                    "Url": "reportExport://CfdCashAdjustment?oapi=true"
+                                },
+                                {
+                                    "Description": "Interest Details V2",
+                                    "ModuleId": "3868",
+                                    "Name": "Account Interest Details",
+                                    "Url": "reportExport://InterestDetails?oapi=true&excel=true"
+                                },
+                                {
+                                    "Description": "CFD Finance Details",
+                                    "ModuleId": "3771",
+                                    "Name": "CFD Finance Details",
+                                    "Url": "reportExport://CfdFinanceDetails?accounts=false&oapi=true&excel=true"
+                                },
+                                {
+                                    "Description": "Carrying Cost Details",
+                                    "ModuleId": "3864",
+                                    "Name": "Carrying Cost Details",
+                                    "Url": "reportExport://CarryingCostDetails?oapi=true&excel=false&pdf=true&accounts=false"
+                                },
+                                {
+                                    "Description": "Holding Fee Details",
+                                    "ModuleId": "3869",
+                                    "Name": "Holding Fee Details",
+                                    "Url": "reportExport://holdingFeeDetails?oapi=true&excel=false"
+                                },
+                                {
+                                    "Description": "Closeout Report",
+                                    "ModuleId": "3277",
+                                    "Name": "Closeout Report",
+                                    "Url": "HistoricReports/CloseoutOverview/"
+                                },
+                                {
+                                    "Description": "Forex Rollovers V2",
+                                    "ModuleId": "3863",
+                                    "Name": "Forex Rollovers",
+                                    "Url": "reportExport://ForexRollOver?oapi=true&excel=true&pdf=true"
+                                },
+                                {
+                                    "Description": "Forex Options Reports",
+                                    "ModuleId": "2633",
+                                    "Name": "Forex Options Reports",
+                                    "Url": "ForexOptionReports.aspx"
+                                },
+                                {
+                                    "Description": "Subscription Billing History",
+                                    "ModuleId": "1673",
+                                    "Name": "Subscription Billing History",
+                                    "Url": "subscriptions/BillingDetails2.aspx"
+                                },
+                                {
+                                    "Description": "Trade &Corrections",
+                                    "ModuleId": "261",
+                                    "Name": "Trade Corrections",
+                                    "Url": "summary/AccountSummaryFrameSet.aspx?SelectedPage=TradeCorrectionList"
+                                },
+                                {
+                                    "Description": "Margin lending Interest details",
+                                    "ModuleId": "3908",
+                                    "Name": "Margin lending Interest details",
+                                    "Url": "reportExport://Marginlendinginterestdetails?oapi=true&excel=true&pdf=true"
+                                },
+                                {
+                                    "Description": "Transaction Balance Report",
+                                    "ModuleId": "3906",
+                                    "Name": "Transaction Balance Report",
+                                    "Url": "reportExport://TransactionBalance?oapi=true&excel=false"
+                                },
+                                {
+                                    "Description": "Audit Request V2",
+                                    "ModuleId": "3870",
+                                    "Name": "Audit Request",
+                                    "Url": "reportExport://AuditRequest?oapi=true&excel=false&period=false"
+                                },
+                                {
+                                    "Description": "Invoice Report",
+                                    "ModuleId": "3031",
+                                    "Name": "Invoice Report",
+                                    "Url": "summary/AccountSummaryFrameSet.aspx?SelectedPage=invoicereportbeta"
+                                }
+                            ],
+                            "ModuleId": "0",
+                            "Name": "Standard Reports"
+                        },
+                        {
+                            "Description": "Trades",
+                            "ModuleId": "3522",
+                            "Name": "Trades",
+                            "Url": "react://trades"
+                        },
+                        {
+                            "Description": "Account Statement",
+                            "ModuleId": "3523",
+                            "Name": "Account Statement",
+                            "Url": "react://accountStatement"
+                        }
+                    ],
+                    "ModuleId": "0",
+                    "Name": "Historic reports"
+                },
+                {
+                    "Description": "Analysis",
+                    "Items": [
+                        {
+                            "Description": "InstrumentProfit/Loss",
+                            "ModuleId": "3524",
+                            "Name": "Instrument Profit/Loss",
+                            "Url": "react://profitLossReport"
+                        },
+                        {
+                            "Description": "Cash Movements",
+                            "ModuleId": "3525",
+                            "Name": "Cash Movements",
+                            "Url": "react://bookingsReport"
+                        },
+                        {
+                            "Description": "Closed Positions",
+                            "ModuleId": "3526",
+                            "Name": "Closed Positions",
+                            "Url": "react://closedPositionsReport"
+                        }
+                    ],
+                    "ModuleId": "0",
+                    "Name": "Analysis"
+                },
+                {
+                    "Description": "Deposit & Transfer",
+                    "Items": [
+                        {
+                            "Description": "Credit / Debit Card",
+                            "ModuleId": "3414",
+                            "Name": "Credit / Debit Card",
+                            "Url": "#/transactions/deposit"
+                        },
+                        {
+                            "Description": "Wire Transfer",
+                            "ModuleId": "3417",
+                            "Name": "Wire transfer",
+                            "Url": "#/transactions/wire"
+                        },
+                        {
+                            "Description": "Withdraw Cash",
+                            "ModuleId": "3415",
+                            "Name": "Withdraw cash",
+                            "Url": "#/transactions/withdraw"
+                        },
+                        {
+                            "Description": "Securities Transfer",
+                            "ModuleId": "3420",
+                            "Name": "Securities Transfer",
+                            "Url": "#/transactions/security/transfer"
+                        },
+                        {
+                            "Description": "Inter Account Transfer",
+                            "ModuleId": "3416",
+                            "Name": "Inter account transfer",
+                            "Url": "#/transactions/interaccount"
+                        }
+                    ],
+                    "ModuleId": "0",
+                    "Name": "Deposit and Transfer"
+                },
+                {
+                    "Description": "Other",
+                    "Items": [
+                        {
+                            "Description": "Application Access",
+                            "ModuleId": "3508",
+                            "Name": "Application Access",
+                            "Url": "#/user/security/applications"
+                        },
+                        {
+                            "Description": "Trading Conditions",
+                            "FullName": "Trading conditions description from menu",
+                            "ModuleId": "3419",
+                            "Name": "Trading conditions",
+                            "Url": "#/trading/conditions"
+                        },
+                        {
+                            "Description": "Subscriptions",
+                            "ModuleId": "3413",
+                            "Name": "Subscriptions",
+                            "Url": "#/subscriptions"
+                        },
+                        {
+                            "Description": "Activity Log",
+                            "ModuleId": "3418",
+                            "Name": "Activity log",
+                            "Url": "#/audit/activity"
+                        },
+                        {
+                            "Description": "New Trading Conditions",
+                            "ModuleId": "3561",
+                            "Name": "Trading Conditions",
+                            "Url": "react://new-trading-conditions"
+                        },
+                        {
+                            "Description": "Classification Status",
+                            "ModuleId": "3568",
+                            "Name": "Classification Status",
+                            "Url": "react://classification-status"
+                        },
+                        {
+                            "Description": "Upcoming Margin and Collateral Changes",
+                            "ModuleId": "1245",
+                            "Name": "Upcoming Margin and Collateral Changes",
+                            "Url": "summary/AccountSummaryFrameSet.aspx?SelectedPage=instrumentreratings"
+                        },
+                        {
+                            "Description": "Corporate action Voluntary Events",
+                            "ModuleId": "2210",
+                            "Name": "Corporate action Voluntary Events",
+                            "Url": "CorporateActions/Elections"
+                        },
+                        {
+                            "Description": "Corporate action Mandatory Events",
+                            "ModuleId": "3899",
+                            "Name": "Corporate action Mandatory Events",
+                            "Url": "CorporateActions/MandatoryEvents"
+                        },
+                        {
+                            "Description": "Shareholder Voting",
+                            "ModuleId": "3920",
+                            "Name": "Shareholder Voting",
+                            "Url": "react://shareholder-voting"
+                        },
+                        {
+                            "Description": "Appropriateness Test",
+                            "ModuleId": "3424",
+                            "Name": "Appropriateness Test",
+                            "Url": "#/client/mifid/classification/status"
+                        },
+                        {
+                            "Description": "Mifid Status",
+                            "ModuleId": "3424",
+                            "Name": "Mifid status",
+                            "Url": "react://mifid-dialog"
+                        },
+                        {
+                            "Description": "Settings are so great",
+                            "FullName": "Push notifications long text",
+                            "ModuleId": "3425",
+                            "Name": "Push notifications",
+                            "Url": "#/user/settings"
+                        },
+                        {
+                            "Description": "OpenAPI Data Access",
+                            "ModuleId": "3582",
+                            "Name": "OpenAPI Data Access",
+                            "Url": "react://open-api-data-access"
+                        },
+                        {
+                            "Description": "Contact Support",
+                            "ModuleId": "3914",
+                            "Name": "Contact support",
+                            "Url": "#/support"
+                        },
+                        {
+                            "Description": "Client Renewal",
+                            "ModuleId": "3583",
+                            "Name": "Client Renewal",
+                            "Url": "react://client-renewal"
+                        }
+                    ],
+                    "ModuleId": "0",
+                    "Name": "Other"
+                }
+            ],
+            "ModuleId": "0",
+            "Name": "My Account"
+        }
+    ]
+}

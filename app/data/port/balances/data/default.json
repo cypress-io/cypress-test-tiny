@@ -1,0 +1,142 @@
+{
+    "_entry": {
+        "data": {
+            "Data": {
+                "CalculationReliability": "Ok",
+                "CashBalance": 111111111.11,
+                "CashAvailableForTrading": 111111111.11,
+                "ChangesScheduled": true,
+                "ClosedPositionsCount": 0,
+                "CollateralAvailable": 0,
+                "CollateralCreditValue": {
+                    "Line": 222222222.22,
+                    "UtilizationPct": 0
+                },
+                "CollateralCreditLine": {
+                    "Line": 3000
+                },
+                "CostToClosePositions": 666666.66,
+                "Currency": "USD",
+                "CurrencyDecimals": 2,
+                "InitialMargin": {
+                    "CollateralAvailable": 0,
+                    "MarginAvailable": 33333333.55,
+                    "MarginCollateralNotAvailable": 0,
+                    "MarginUsedByCurrentPositions": 2500,
+                    "MarginUtilizationPct": 20,
+                    "NetEquityForMargin": 33333331.12
+                },
+                "IsPortfolioMarginModelSimple": false,
+                "MarginAvailableForTrading": 11111111.5,
+                "MarginCollateralNotAvailable": 7777777.77,
+                "MarginExposureCoveragePct": 12.23,
+                "MarginNetExposure": 888,
+                "MarginOverview": {
+                    "Groups": [
+                        {
+                            "Contributors": [
+                                {
+                                    "AssetTypes": ["ContractFutures"],
+                                    "InstrumentDescription": "EC",
+                                    "InstrumentSpecifier": "EC",
+                                    "Margin": 8400,
+                                    "Uic": 4094949
+                                }
+                            ],
+                            "GroupType": "FuturesAndOptions",
+                            "TotalMargin": 8400
+                        },
+                        {
+                            "Contributors": [
+                                {
+                                    "AssetTypes": ["FxSpot"],
+                                    "InstrumentDescription": "Euro/US Dollar",
+                                    "InstrumentSpecifier": "EURUSD",
+                                    "Margin": 1745,
+                                    "Uic": 21
+                                },
+                                {
+                                    "AssetTypes": ["FxSpot"],
+                                    "InstrumentDescription": "US Dollar/Euro",
+                                    "InstrumentSpecifier": "USDEUR",
+                                    "Margin": 3000,
+                                    "Uic": 3941
+                                }
+                            ],
+                            "GroupType": "FX",
+                            "TotalMargin": 4745
+                        },
+                        {
+                            "Contributors": [
+                                {
+                                    "AssetTypes": ["SrdOnStock"],
+                                    "InstrumentDescription": "STMicroelectronics",
+                                    "InstrumentSpecifier": "STM:xpar",
+                                    "Margin": 774,
+                                    "Uic": 1252
+                                }
+                            ],
+                            "GroupType": "SRD",
+                            "TotalMargin": 774
+                        }
+                    ]
+                },
+                "MarginUsedByCurrentPositions": 3500,
+                "MarginUtilizationPct": 50,
+                "NetEquityForMargin": 44444.44,
+                "NetPositionsCount": 4,
+                "NonMarginPositionsValue": 0,
+                "OpenPositionsCount": 6,
+                "OptionPremiumsMarketValue": 41.11,
+                "WarrantsMarketValue": 611.56,
+                "TurbosMarketValue": 19.18,
+                "OrdersCount": 100,
+                "OtherCollateral": 100,
+                "TotalValue": 555555555555.55,
+                "TransactionsNotBooked": -66.66,
+                "UnrealizedMarginClosedProfitLoss": 222.22,
+                "UnrealizedMarginOpenProfitLoss": 999.99,
+                "UnrealizedMarginProfitLoss": 888.88,
+                "UnrealizedPositionsValue": 777.77,
+                "TransactionsNotBookedDetail": {
+                    "Accrual": 21434.54,
+                    "AdditionalTransactionCost": 777.74
+                }
+            }
+        },
+        "next": "update_1"
+    },
+    "update_1": {
+        "data": {
+            "Data": {
+                "CashBalance": 111111112,
+                "CollateralCreditValue": {
+                    "Line": 80.8,
+                    "UtilizationPct": 55
+                },
+                "InitialMargin": {
+                    "MarginAvailable": 33333334.66
+                },
+                "TotalValue": 555555555555.66,
+                "MarginUtilizationPct": 30,
+                "MarginOverview": {
+                    "Groups": [
+                        {
+                            "Contributors": [
+                                {
+                                    "AssetTypes": ["ContractFutures"],
+                                    "InstrumentDescription": "EC",
+                                    "InstrumentSpecifier": "EC",
+                                    "Margin": 9400,
+                                    "Uic": 4094949
+                                }
+                            ],
+                            "GroupType": "FuturesAndOptions",
+                            "TotalMargin": 8400
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,123 @@
+{
+    "OK": {
+        "EstimatedCashRequired": 0.0,
+        "PreCheckAllocationMarginDetail": [
+            {
+                "AccountId": "32870/FEUR",
+                "CashAvailable": 660498.8894951998285,
+                "ClientId": "2147045812",
+                "Cost": 16.33,
+                "InitialMarginUtilization": 66974882.01,
+                "MaintenanceMarginUtilizationPercentage": 1616508797.0,
+                "PreCheckResult": "OK"
+            },
+            {
+                "AccountId": "32870/FCHF",
+                "CashAvailable": 660498.8894951998285,
+                "ClientId": "2147045812",
+                "Cost": 16.33,
+                "InitialMarginUtilization": 66974882.01,
+                "MaintenanceMarginUtilizationPercentage": 1616508797.0,
+                "PreCheckResult": "OK"
+            }
+        ],
+        "PreCheckResult": "OK"
+    },
+    "ERROR": {
+        "EstimatedCashRequired": 0.0,
+        "PreCheckAllocationMarginDetail": [
+            {
+                "AccountId": "32870/FEUR",
+                "CashAvailable": 660498.8894951998285,
+                "ClientId": "2147045812",
+                "Cost": 16.33,
+                "ErrorInfo": {
+                    "Message": "This is an error message",
+                    "ErrorCode": "This is an error code"
+                },
+                "InitialMarginUtilization": 66974882.01,
+                "MaintenanceMarginUtilizationPercentage": 1616508797.0,
+                "PreCheckResult": "Error"
+            },
+            {
+                "AccountId": "32870/FCHF",
+                "CashAvailable": 660498.8894951998285,
+                "ClientId": "2147045812",
+                "Cost": 16.33,
+                "ErrorInfo": {
+                    "Message": "This is an error message",
+                    "ErrorCode": "This is an error code"
+                },
+                "InitialMarginUtilization": 66974882.01,
+                "MaintenanceMarginUtilizationPercentage": 1616508797.0,
+                "PreCheckResult": "Error"
+            }
+        ]
+    },
+    "ERROR_OK": {
+        "EstimatedCashRequired": 0.0,
+        "PreCheckAllocationMarginDetail": [
+            {
+                "AccountId": "32870/FEUR",
+                "CashAvailable": 660498.8894951998285,
+                "ClientId": "2147045812",
+                "Cost": 16.33,
+                "ErrorInfo": {
+                    "Message": "This is an error message",
+                    "ErrorCode": "This is an error code"
+                },
+                "InitialMarginUtilization": 66974882.01,
+                "MaintenanceMarginUtilizationPercentage": 1616508797.0,
+                "PreCheckResult": "OK"
+            },
+            {
+                "AccountId": "32870/FCHF",
+                "CashAvailable": 660498.8894951998285,
+                "ClientId": "2147045812",
+                "Cost": 16.33,
+                "ErrorInfo": {
+                    "Message": "This is an error message",
+                    "ErrorCode": "This is an error code"
+                },
+                "InitialMarginUtilization": 66974882.01,
+                "MaintenanceMarginUtilizationPercentage": 1616508797.0,
+                "PreCheckResult": "OK"
+            }
+        ]
+    },
+    "OK_AND_ERROR": {
+        "EstimatedCashRequired": 0.0,
+        "PreCheckAllocationMarginDetail": [
+            {
+                "AccountId": "32870/FEUR",
+                "CashAvailable": 660498.8894951998285,
+                "ClientId": "2147045812",
+                "Cost": 16.33,
+                "InitialMarginUtilization": 66974882.01,
+                "MaintenanceMarginUtilizationPercentage": 1616508797.0,
+                "PreCheckResult": "OK"
+            },
+            {
+                "AccountId": "32870/FCHF",
+                "CashAvailable": 660498.8894951998285,
+                "ClientId": "2147045812",
+                "Cost": 16.33,
+                "ErrorInfo": {
+                    "Message": "This is an error message",
+                    "ErrorCode": "This is an error code"
+                },
+                "InitialMarginUtilization": 66974882.01,
+                "MaintenanceMarginUtilizationPercentage": 1616508797.0,
+                "PreCheckResult": "Error"
+            }
+        ]
+    },
+    "ERROR_GLOBAL": {
+        "ErrorInfo": {
+            "Message": "This is an error message",
+            "ErrorCode": "This is an error code"
+        },
+        "EstimatedCashRequired": 0.0,
+        "PreCheckResult": "Error"
+    }
+}

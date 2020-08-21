@@ -1,0 +1,84 @@
+{
+    "Data": [
+        {
+            "NetPositionBase": {
+                "AccountId": "test1",
+                "Amount": 10,
+                "AmountLong": 10,
+                "AmountShort": 0,
+                "AssetType": "Warrant",
+                "CanBeClosed": true,
+                "ClientId": "2147309355",
+                "ExpiryDate": "2020-06-18T00:00:00.000000Z",
+                "HasForceOpenPositions": false,
+                "Isin": "DE000KA5HTE1",
+                "IsMarketOpen": true,
+                "IssuerName": "Citigroup",
+                "NonTradableReason": "None",
+                "NumberOfRelatedOrders": 0,
+                "OpeningDirection": "Buy",
+                "OpenOrdersCount": 0,
+                "OptionsData": {
+                    "CanBeExercised": false,
+                    "ExerciseStyle": "None",
+                    "ExpiryCut": "None",
+                    "ExpiryDate": "2020-06-18T00:00:00.000000Z",
+                    "Moneyness": -11.11,
+                    "PutCall": "Put",
+                    "Ratio": 10,
+                    "SettlementStyle": "CashDelivery",
+                    "Strike": 280
+                },
+                "SinglePositionId": "158213661",
+                "SinglePositionStatus": "Open",
+                "TradingStatus": "Tradable",
+                "Uic": 11001
+            },
+            "NetPositionDetails": {
+                "CloseCost": {
+                    "Commission": 43.2
+                },
+                "CloseCostInBaseCurrency": {
+                    "Commission": 46.84
+                },
+                "MarketValue": 29.6,
+                "MarketValueInBaseCurrency": 32.09,
+                "MarketValueOpen": -23.4,
+                "MarketValueOpenInBaseCurrency": -25.37,
+                "NonTradableReason": "None",
+                "OpenCost": {
+                    "Commission": 43.2
+                },
+                "OpenCostInBaseCurrency": {
+                    "Commission": 46.84
+                },
+                "TradingStatus": "Tradable"
+            },
+            "NetPositionId": "DE000KA5HTE1:xpar__SP",
+            "NetPositionView": {
+                "Ask": 2.99,
+                "AverageOpenPrice": 2.34,
+                "Bid": 2.91,
+                "CalculationReliability": "OkWithConditions",
+                "ConversionRateCurrent": 1.084195,
+                "CurrentPrice": 2.96,
+                "CurrentPriceDelayMinutes": 0,
+                "CurrentPriceType": "Indicative",
+                "Exposure": 0,
+                "ExposureCurrency": "EUR",
+                "ExposureInBaseCurrency": 0,
+                "MarketValue": 29.6,
+                "MarketValueInBaseCurrency": 32.09,
+                "PositionCount": 1,
+                "PositionsAverageBuyPrice": 2.34,
+                "PositionsAverageSellPrice": 0,
+                "PositionsNotClosedCount": 1,
+                "ProfitLossOnTrade": 6.2,
+                "ProfitLossOnTradeInBaseCurrency": 6.72,
+                "Status": "Open",
+                "TradeCostsTotal": -86.4,
+                "TradeCostsTotalInBaseCurrency": -93.67
+            }
+        }
+    ]
+}

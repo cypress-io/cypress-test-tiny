@@ -1,0 +1,59 @@
+{
+    "Data": {
+        "NetPositionChanges": [
+            {
+                "NetPositionId": "EURUSD_FxSpot",
+                "Uic": 21,
+                "AssetType": "FxSpot",
+                "Symbol": "EURUSD",
+                "Amount": 100,
+                "ScheduledChangeDate": "2018-08-30T00:00:00.000000Z"
+            },
+            {
+                "NetPositionId": "EURGBP_FxSpot",
+                "Uic": 22,
+                "AssetType": "FxSpot",
+                "Symbol": "EURGBP",
+                "Amount": 100,
+                "ScheduledChangeDate": "2018-08-30T00:00:00.000000Z"
+            },
+            {
+                "NetPositionId": "AAPL_CfdOnStock",
+                "Uic": 211,
+                "AssetType": "CfdOnStock",
+                "Symbol": "AAPL:xnas",
+                "Amount": 200,
+                "ScheduledChangeDate": "2018-08-30T00:00:00.000000Z"
+            },
+            {
+                "NetPositionId": "VOD:xlon__Share",
+                "Uic": 899,
+                "AssetType": "Stock",
+                "Symbol": "VOD:xlon",
+                "Amount": 200,
+                "ScheduledChangeDate": "2018-08-30T00:00:00.000000Z"
+            },
+            {
+                "NetPositionId": "STM:xpar__SrdOnStock",
+                "Uic": 1252,
+                "AssetType": "SrdOnStock",
+                "Symbol": "STM:xpar",
+                "Amount": 200,
+                "ScheduledChangeDate": "2019-08-30T00:00:00.000000Z"
+            }
+        ],
+        "SimulationDate": "2018-08-30T00:00:00.000000Z",
+        "CurrentBalance": {
+            "MarginCollateralNotAvailable": 50000,
+            "MarginUsedByCurrentPositions": 100000,
+            "MarginAvailableForTrading": 1000000,
+            "MarginUtilizationPct": 20
+        },
+        "SimulatedBalance": {
+            "MarginCollateralNotAvailable": 60000,
+            "MarginUsedByCurrentPositions": 200000,
+            "MarginAvailableForTrading": 2000000,
+            "MarginUtilizationPct": 30
+        }
+    }
+}

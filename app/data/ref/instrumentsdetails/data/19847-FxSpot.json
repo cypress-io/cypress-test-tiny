@@ -1,0 +1,12 @@
+{
+    "AssetType": "FxSpot",
+    "CurrencyCode": "JPY",
+    "Description": "Silver/Japanese Yen",
+    "DisplayHint": "PreciousMetal",
+    "ExchangeId": "",
+    "GroupId": 0,
+    "Symbol": "XAGJPY",
+    "TradableAs": ["FxSpot"],
+    "Uic": 19847,
+    "id": "19847-FxSpot"
+}

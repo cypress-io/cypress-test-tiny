@@ -1,0 +1,59 @@
+{
+    "amount": "1,000,000",
+    "price": "12,345.6789",
+    "timeFormat": "h:mm:ss tt",
+    "dateFormat": "dd-MMM-yyyy",
+    "languageStrings": {
+        "dayName": {
+            "full": [
+                "Sunday",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+            ],
+            "short": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+            "shortest": ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"]
+        },
+        "monthName": {
+            "full": [
+                "January",
+                "February",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November",
+                "December",
+                ""
+            ],
+            "short": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep",
+                "Oct",
+                "Nov",
+                "Dec",
+                ""
+            ]
+        },
+        "meridian": { "am": "AM", "pm": "PM" }
+    },
+    "amountLabel": "Amounts:",
+    "priceLabel": "Prices:",
+    "dateLabel": "Dates:",
+    "timeLabel": "Times:",
+    "dstLabel": "* times are adjusted for daylight saving time."
+}

@@ -1,0 +1,227 @@
+{
+    "shared": {
+        "sound-notifications": {
+            "events": {
+                "Broadcasts": {
+                    "isEnabled": true
+                },
+                "Chat": {
+                    "isEnabled": true
+                },
+                "MarginCalls": {
+                    "isEnabled": true
+                },
+                "OrderRejected": {
+                    "isEnabled": true
+                },
+                "PositionsAndOrders": {
+                    "isEnabled": true
+                },
+                "PriceAlerts": {
+                    "isEnabled": true
+                }
+            },
+            "areSoundNotificationsEnabled": false
+        },
+        "activeWorkspace": "trading",
+        "language": "en",
+        "culture": "da-DK",
+        "iana-time-zone": "Etc/UTC",
+        "one-click-enabled": false,
+        "onboard-complete": true,
+        "trade-signals-enabled": true,
+        "last-loaded-instrument": {
+            "uic": 21,
+            "assetType": "FxSpot"
+        },
+        "chart": {
+            "go-chart-0": {
+                "plotsState": {
+                    "0": 29,
+                    "1": [
+                        {
+                            "13": [
+                                {
+                                    "20": "candlestick",
+                                    "21": "pricePlot",
+                                    "22": "EURUSD (1)",
+                                    "25": 0,
+                                    "86": 4,
+                                    "297": true,
+                                    "299": false,
+                                    "300": false
+                                }
+                            ],
+                            "35": {
+                                "130": {
+                                    "131": 0,
+                                    "132": 0
+                                }
+                            },
+                            "77": 74,
+                            "id": 0
+                        }
+                    ]
+                }
+            }
+        },
+        "key1": "value1",
+        "asset-type-preferences": [
+            "FxSpot",
+            "FxForwards",
+            "FxVanillaOption",
+            "ContractFutures",
+            "FuturesOption",
+            "Stock",
+            "StockIndex",
+            "StockOption",
+            "CfdOnStock",
+            "CfdOnIndex",
+            "Bond",
+            "MutualFund",
+            "CfdOnFutures",
+            "FxKnockInOption",
+            "FxKnockOutOption",
+            "FxBinaryOption",
+            "FxOneTouchOption",
+            "FxNoTouchOption",
+            "StockIndexOption",
+            "FuturesStrategy",
+            "Etf",
+            "Etc",
+            "Etn",
+            "Rights",
+            "Fund",
+            "CfdOnEtf",
+            "CfdOnEtc",
+            "CfdOnEtn",
+            "CfdOnRights",
+            "CfdOnWarrant",
+            "CfdOnFund",
+            "CfdOnFund",
+            "Warrant",
+            "WarrantDoubleKnockOut",
+            "MiniFuture",
+            "SrdOnStock",
+            "SrdOnEtf"
+        ],
+        "linkedInstrument": {
+            "last-changed-linking-channel": 0,
+            "0": {
+                "uic": 21,
+                "assetType": "FxSpot"
+            },
+            "1": {
+                "uic": 21,
+                "assetType": "FxSpot"
+            }
+        },
+        "client-search-recent-keys": ["client-key-3", "client-key-2", "client-key-4"],
+        "user-public-info": {
+            "Login": null,
+            "UserID": null,
+            "Last Login Attempt": null,
+            "Last Login status": null
+        },
+        "theme": "black",
+        "favorite-instruments": [
+            "5925-Stock",
+            "2098-Stock",
+            "6041-Stock",
+            "6043-Stock",
+            "5901-Stock",
+            "3955-Stock",
+            "162-Stock"
+        ],
+        "show-advanced-order-types": false,
+        "chart-annotations-migration-completed-level": 1,
+        "screener-draft-list": {
+            "component": "2708700",
+            "screener": "2708700"
+        },
+        "global-account-id": "Id12"
+    },
+    "Watchlists": [
+        {
+            "CommonType": 1,
+            "DisplayMode": 3,
+            "DoubleColumns": null,
+            "Instruments": ["21-1"],
+            "Name": "My Watchlist",
+            "SingleColumns": [
+                "s_instrument",
+                "s_bid",
+                "s_spread",
+                "s_ask",
+                "s_delay",
+                "s_marketstatus",
+                "s_percentchange",
+                "s_netchange",
+                "s_high",
+                "s_low",
+                "s_latestupdate"
+            ],
+            "WatchlistType": 3,
+            "id": "per635834575004976589"
+        },
+        {
+            "CommonType": 129,
+            "DisplayMode": 2,
+            "DoubleColumns": [
+                "d_instrument",
+                "d_bid",
+                "d_spread",
+                "d_ask",
+                "d_netchange",
+                "d_marketstatus",
+                "d_delay"
+            ],
+            "Instruments": [
+                "42-1",
+                "21-1",
+                "30307-128",
+                "30446-128",
+                "30445-128",
+                "30483-128"
+            ],
+            "Name": "CFDs Hong Kong_1",
+            "SingleColumns": [
+                "s_instrument",
+                "s_bid",
+                "s_bidsize",
+                "s_ask",
+                "s_asksize",
+                "s_delay",
+                "s_percentchange",
+                "s_netchange",
+                "s_previousclose",
+                "s_open",
+                "s_latestupdate"
+            ],
+            "WatchlistType": 3,
+            "id": "per11"
+        },
+        {
+            "CommonType": 4096,
+            "DisplayMode": 1,
+            "DoubleColumns": null,
+            "Instruments": null,
+            "Name": "Forex European",
+            "SingleColumns": [
+                "s_instrument",
+                "s_bid",
+                "s_spread",
+                "s_ask",
+                "s_delay",
+                "s_marketstatus",
+                "s_percentchange",
+                "s_netchange",
+                "s_high",
+                "s_low",
+                "s_latestupdate"
+            ],
+            "WatchlistType": 2,
+            "id": "1036"
+        }
+    ]
+}

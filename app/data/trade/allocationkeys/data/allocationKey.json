@@ -1,0 +1,23 @@
+{
+    "AllocationKeyId": "3218281",
+    "AllocationKeyName": "witcher_key",
+    "AllocationUnitType": "Unit",
+    "MarginHandling": "Reduce",
+    "ErrorAccount": "error_account_id",
+    "OwnerAccountKey": "ciujrJ15hbaWiRJOT8ujGA==",
+    "ParticipatingAccountsInfo": [
+        {
+            "AcceptRemainderAmount": false,
+            "AccountKey": "WKJn2ZHPqZ0Tb1M-MqFbZw==",
+            "Priority": 2,
+            "UnitValue": 100.0
+        },
+        {
+            "AcceptRemainderAmount": true,
+            "AccountKey": "kycSKJqPNpnr3Of9VicyAA==",
+            "Priority": 1,
+            "UnitValue": 10.0
+        }
+    ],
+    "Status": "Active"
+}

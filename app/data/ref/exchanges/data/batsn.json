@@ -1,0 +1,49 @@
+{
+    "AllDay": false,
+    "CountryCode": "DK",
+    "Currency": "DKK",
+    "ExchangeId": "BATSN",
+    "ExchangeSessions": [
+        {
+            "EndTime": "2019-11-11T15:55:00.000000Z",
+            "StartTime": "2019-11-11T08:00:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2019-11-11T16:00:00.000000Z",
+            "StartTime": "2019-11-11T15:55:00.000000Z",
+            "State": "CallAuctionTrading"
+        },
+        {
+            "EndTime": "2019-11-12T07:50:00.000000Z",
+            "StartTime": "2019-11-11T16:00:00.000000Z",
+            "State": "Closed"
+        },
+        {
+            "EndTime": "2019-11-12T08:00:00.000000Z",
+            "StartTime": "2019-11-12T07:50:00.000000Z",
+            "State": "PreTrading"
+        },
+        {
+            "EndTime": "2019-11-12T15:55:00.000000Z",
+            "StartTime": "2019-11-12T08:00:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2019-11-12T16:00:00.000000Z",
+            "StartTime": "2019-11-12T15:55:00.000000Z",
+            "State": "CallAuctionTrading"
+        },
+        {
+            "EndTime": "2019-11-13T07:50:00.000000Z",
+            "StartTime": "2019-11-12T16:00:00.000000Z",
+            "State": "Closed"
+        }
+    ],
+    "Mic": "BATE",
+    "Name": "Bats Europe SE FI DK NO",
+    "PriceSourceName": "Bats Europe",
+    "TimeZone": 1,
+    "TimeZoneAbbreviation": "GMT",
+    "TimeZoneOffset": "00:00:00"
+}

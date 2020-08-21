@@ -1,0 +1,105 @@
+{
+    "PathTemplate": "productTemplate",
+    "Name": "cfdonstock",
+    "IsBackButtonHidden": true,
+    "Sections": [
+        {
+            "Type": "Header",
+            "IsDividerShown": true,
+            "IsNarrow": true,
+            "Name": "header_cfd",
+            "Title": "",
+            "Id": "36b68c7f-3370-4402-9f59-bb4ee0f55221"
+        },
+        {
+            "Type": "TabSection",
+            "IsDividerShown": false,
+            "Name": "tabsection_cfd",
+            "Id": "dcd7d569-0414-48eb-a8ad-04f28b7004ab",
+            "Tabs": [
+                {
+                    "Label": "Overview",
+                    "Name": "overview",
+                    "Sections": [
+                        {
+                            "Type": "InstrumentChart",
+                            "IsDividerShown": true,
+                            "Name": "chartsection_cfd",
+                            "Title": "Price Chart",
+                            "Id": "f623a36d-419e-4623-b429-74197e684e8c"
+                        },
+                        {
+                            "Type": "NewsList",
+                            "IsDividerShown": true,
+                            "LayoutType": "stretch",
+                            "viewType": "card",
+                            "NewsLists": [],
+                            "Name": "newslistsection_cfd",
+                            "Title": "NewsList",
+                            "Id": "b9c544a3-a1cf-40af-a731-752165e8bf97"
+                        },
+                        {
+                            "Type": "GeneralInfo",
+                            "IsDividerShown": true,
+                            "IsInset": true,
+                            "Name": "generalinfosection_cfd",
+                            "Title": "General Info",
+                            "Id": "3a5daadd-4b4d-4572-9d83-cfc4cb278e46"
+                        }
+                    ],
+                    "Id": "8849531d-0fec-4d4d-ba15-f1bb80964752"
+                },
+                {
+                    "Label": "Analysis",
+                    "Name": "analysis",
+                    "Sections": [
+                        {
+                            "Type": "AnalystRatingBar",
+                            "IsDividerShown": true,
+                            "LayoutType": "stretch",
+                            "Name": "analystratingsection_cfd",
+                            "Title": "",
+                            "Id": "d4daeeb9-b013-4469-ad60-e6450c7b2e8c"
+                        },
+                        {
+                            "Type": "AnalystGrids",
+                            "IsDividerShown": true,
+                            "LayoutType": "wrap",
+                            "AnalystGrids": [
+                                {
+                                    "Title": "",
+                                    "AnalystsLimit": 8,
+                                    "AssetType": "Stock",
+                                    "HasOnlySelectedInstrumentAnalysts": false,
+                                    "Id": "4767b944-c05b-49fc-90e4-20799905d277"
+                                }
+                            ],
+                            "Name": "analystgridsection_cfd",
+                            "Title": "",
+                            "Id": "9fff2128-3231-43cc-9349-37b7e34b0ace"
+                        }
+                    ],
+                    "Id": "1bcc7781-30eb-44bd-9bf6-23df6251bb36"
+                },
+                {
+                    "Label": "Fundamentals",
+                    "Name": "fundamentals",
+                    "Sections": [
+                        {
+                            "IsDividerShown": true,
+                            "IsSectioned": true,
+                            "Type": "FinancialsGrid",
+                            "Name": "financialsgridsection",
+                            "Title": "Financials",
+                            "Id": "9d835503-3a70-4f74-817c-d9fe87a41b34"
+                        }
+                    ],
+                    "Id": "effa02c8-001b-400e-9322-95a69132b200"
+                }
+            ]
+        }
+    ],
+    "Title": "",
+    "Url": "/page/product/cfdonstock/:uic",
+    "Id": "ad0c3b40-8146-48a5-a51d-b74efd836180_investor"
+}

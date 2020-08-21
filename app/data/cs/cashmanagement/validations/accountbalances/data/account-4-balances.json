@@ -1,0 +1,7 @@
+{
+    "AmountsNotBooked": -50,
+    "CashBalance": 200,
+    "MaxAllowedInteraccountTransfer": 0,
+    "MaxAllowedWithdrawalAmount": 150,
+    "NetFreeBalance": 150
+}

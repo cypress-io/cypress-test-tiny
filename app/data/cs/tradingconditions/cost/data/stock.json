@@ -1,0 +1,101 @@
+{
+    "AccountCurrency": "GBP",
+    "AccountID": "",
+    "Amount": 1000,
+    "AssetType": "Stock",
+    "Cost": {
+        "Long": {
+            "BuySell": "Buy",
+            "Currency": "USD",
+            "HoldingCost": {
+                "CustodyFee": {
+                    "Pct": 0.307,
+                    "Rule": {
+                        "Currency": "USD",
+                        "MinFee": 5
+                    },
+                    "Value": 4.348
+                },
+                "Tax": [
+                    {
+                        "Pct": 0.5,
+                        "Rule": {
+                            "CalculationType": "ValueFraction",
+                            "Description": "US Stamp Duty",
+                            "Value": 0.5
+                        },
+                        "Value": 7.075
+                    },
+                    {
+                        "Pct": 0.071,
+                        "Rule": {
+                            "CalculationType": "FixedAmount",
+                            "Description": "US PTM Levy",
+                            "Value": 1
+                        },
+                        "Value": 1
+                    }
+                ]
+            },
+            "TotalCost": 44.423,
+            "TotalCostPct": 3.139,
+            "TradingCost": {
+                "Commissions": [
+                    {
+                        "Pct": 1.131,
+                        "Rule": {
+                            "BaseCommission": 8,
+                            "Currency": "USD"
+                        },
+                        "Value": 16
+                    },
+                    {
+                        "Pct": 1.131,
+                        "Rule": {
+                            "Currency": "USD",
+                            "MinCommission": 8
+                        },
+                        "Value": 16
+                    }
+                ],
+                "Tax": [
+                    {
+                        "Pct": 0.5,
+                        "Rule": {
+                            "CalculationType": "ValueFraction",
+                            "Description": "US Stamp Duty",
+                            "Value": 0.5
+                        },
+                        "Value": 7.075
+                    },
+                    {
+                        "Pct": 0.071,
+                        "Rule": {
+                            "CalculationType": "FixedAmount",
+                            "Description": "US PTM Levy",
+                            "Value": 1
+                        },
+                        "Value": 1
+                    }
+                ],
+                "CustodyFee": {
+                    "Pct": 0.307,
+                    "Rule": {
+                        "Currency": "USD",
+                        "MinFee": 5
+                    },
+                    "Value": 4.348
+                }
+            }
+        }
+    },
+    "CostCalculationAssumptions": [
+        "IncludesOpenAndCloseCost",
+        "EquivalentOpenAndClosePrice",
+        "BasisOnLastClosePrice"
+    ],
+    "HoldingPeriodInDays": 30,
+    "Instrument": "Ambu A/S",
+    "Price": 141.5,
+    "Uic": 15254
+}

@@ -1,0 +1,129 @@
+{
+    "AccountCurrency": "EUR",
+    "AmountCurrency": "EUR",
+    "CommissionLimits": [
+        {
+            "Currency": "EUR",
+            "MinSpread": 12,
+            "OrderAction": "ExecuteOrder",
+            "RateOnAmount": 0.0002
+        }
+    ],
+    "ExposureLimits": [
+        {
+            "Identifier": "ITALY40.I",
+            "Level": "Instrument",
+            "RuleType": "Amount",
+            "Value": 760
+        }
+    ],
+    "Financing": {
+        "AskMarkUp": 0.025,
+        "BidMarkDown": 0.03
+    },
+    "InstrumentCurrency": "EUR",
+    "IsShortTraded": true,
+    "IsTradable": true,
+    "MarginRequirement": {
+        "ExtraWeek": 0.05,
+        "Initial": 0.05,
+        "IntraWeek": 0.05,
+        "MarginType": "Percentage"
+    },
+    "InstrumentMarginRequirements": [
+        {
+            "ExtraWeek": 0.05,
+            "Initial": 0.05,
+            "IntraWeek": 0.05,
+            "MarginType": "Percentage"
+        }
+    ],
+    "MarginSchedule": {
+        "CutoffTimeInMinutes": 0,
+        "IntradayMarginPct": 0.05,
+        "TimeZoneAbbreviation": "CEST",
+        "TimeZoneOffset": "02:00:00"
+    },
+    "MaxAutoExecute": 100,
+    "MinOrderSizeCurrency": "EUR",
+    "Rating": 7,
+    "Taxes": [
+        {
+            "CalculationTriggerType": "Normal",
+            "CalculationType": "FixedAmount",
+            "Description": "Italian Financial Transaction Tax",
+            "MinTradeValue": 0,
+            "MaxTradeValue": 2499.995,
+            "Value": 0.25
+        },
+        {
+            "CalculationTriggerType": "Normal",
+            "CalculationType": "FixedAmount",
+            "Description": "Italian Financial Transaction Tax",
+            "MinTradeValue": 2499.995,
+            "Value": 0.5
+        },
+        {
+            "CalculationTriggerType": "Normal",
+            "CalculationType": "FixedAmount",
+            "Description": "Italian Financial Transaction Tax",
+            "MaxTradeValue": 4999.995,
+            "Value": 0.5
+        },
+        {
+            "CalculationTriggerType": "Normal",
+            "CalculationType": "FixedAmount",
+            "Description": "Italian Financial Transaction Tax",
+            "MinTradeValue": 4999.995,
+            "MaxTradeValue": 9999.995,
+            "Value": 1
+        },
+        {
+            "CalculationTriggerType": "Normal",
+            "CalculationType": "FixedAmount",
+            "Description": "Italian Financial Transaction Tax",
+            "MinTradeValue": 9999.995,
+            "MaxTradeValue": 49999.995,
+            "Value": 5
+        },
+        {
+            "CalculationTriggerType": "Normal",
+            "CalculationType": "FixedAmount",
+            "Description": "Italian Financial Transaction Tax",
+            "MinTradeValue": 49999.995,
+            "MaxTradeValue": 99999.995,
+            "Value": 10
+        },
+        {
+            "CalculationTriggerType": "Normal",
+            "CalculationType": "FixedAmount",
+            "Description": "Italian Financial Transaction Tax",
+            "MinTradeValue": 99999.995,
+            "MaxTradeValue": 499999.995,
+            "Value": 50
+        },
+        {
+            "CalculationTriggerType": "Normal",
+            "CalculationType": "FixedAmount",
+            "Description": "Italian Financial Transaction Tax",
+            "MinTradeValue": 499999.995,
+            "MaxTradeValue": 999999.995,
+            "Value": 100
+        },
+        {
+            "CalculationTriggerType": "Normal",
+            "CalculationType": "FixedAmount",
+            "Description": "Italian Financial Transaction Tax",
+            "MinTradeValue": 999999.995,
+            "Value": 200
+        },
+        {
+            "CalculationTriggerType": "Normal",
+            "CalculationType": "FixedAmount",
+            "CostCategory": "AdditionalTransactionCost",
+            "CostDescription": "Passed on Charge, 3 X IFTT",
+            "Description": "Pass on charge Saxo",
+            "Value": 10.0
+        }
+    ]
+}

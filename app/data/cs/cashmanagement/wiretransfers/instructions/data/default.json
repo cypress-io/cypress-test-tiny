@@ -1,0 +1,30 @@
+{
+    "ClientDetails": {
+        "AccountId": "212340INET",
+        "AccountNumber": "0100765800",
+        "AttainKey": "212340INET",
+        "Bic": "SAXODKKKXXX",
+        "ClientId": 7979042,
+        "ClientNameAndAddress": "1\r\nDenmark",
+        "Iban": "DK3911490100765800",
+        "RegistrationNumber": "1149"
+    },
+    "BrokerInfo": {
+        "Account": "Broker12345",
+        "Field59": "Broker Address",
+        "Iban": "BrokerIban"
+    },
+    "IntermediaryBank": {
+        "Address": "HOLMENS KANAL 2-12\r\n1092 COPENHAGEN DENMARK",
+        "Bic": "DABADKKKXXX",
+        "Name": "DANSKE BANK A/S"
+    },
+    "IsBrokerFunding": false,
+    "ReceivingBank": {
+        "Address": "PHILIP HEYMANS ALLE 15\r\n2900 HELLERUP DENMARK",
+        "Bic": "SAXODKKKXXX",
+        "Name": "SAXO BANK A/S"
+    },
+    "SubsidiaryId": "1",
+    "SubsidiaryName": "Saxo Bank"
+}

@@ -1,0 +1,196 @@
+{
+    "AssetType": "Stock",
+    "CountryCode": "IE",
+    "CurrencyCode": "EUR",
+    "Description": "L&G Gold Mining UCITS ETF",
+    "DisplayHint": "Etf",
+    "ExchangeId": "XETR_ETF",
+    "GeneralInfo": {
+        "FundInfo": {
+            "AssetClassification": {
+                "Key": "Open Ended Investment Company",
+                "Value": "Open Ended Investment Company"
+            },
+            "Benchmark": "FSE Daxglobal Gold Min TR USD",
+            "BroadAssetClass": {
+                "Key": "Equity",
+                "Value": "Equity"
+            },
+            "Description": "The Fund is designed to track the performance of the DAXglobal® Gold Miners (TR) USD. AUCO is an Exchange Traded Fund (\"ETF\") which is tradable by investors on stock exchanges intraday and can be created and redeemed directly with the Issuer by Authorised Participants. AUCO is authorised and regulated as a UCITS and is eligible for investment by other UCITS. AUCO gains exposure to the performance of the DAXglobal® Gold Miners (TR) USD through Total Return Swaps entered into with multiple counterparties participating on the UCITS ETF platform. Any exposure to the counterparties is collateralised on a daily basis. Details of the collateral held is available at: www. etfsecurities. com",
+            "DistributionFeePercOfNAVActualPct": 0,
+            "DistributionFeePercOfNAVEstimatedPct": 0,
+            "Domicile": "Ireland",
+            "Exchange": "XETR_ETF",
+            "FundCategory": {
+                "Key": "Precious Metals Sector Equity",
+                "Value": "Precious Metals Sector Equity"
+            },
+            "FundSizeMio": 172.095693,
+            "FundType": {
+                "Key": "Open Ended Investment Company",
+                "Value": "Open Ended Investment Company"
+            },
+            "InceptionDate": "2008-09-11",
+            "IssuerName": "LGIM ETF Managers Limited",
+            "MaxExitChargesPct": 0,
+            "MaxInitialChargesPct": 0,
+            "MgtFeeActualPct": 0.65,
+            "MgtFeeEstimatedPct": 0.65,
+            "OngoingCostActualPct": 1.2,
+            "OngoingCostEstimatedPct": 1.2,
+            "Rating": 3,
+            "RatingEffectiveEndDate": "2018-10-31",
+            "ShareClassCurrency": "US Dollar",
+            "ShareClassInception": "2008-09-11",
+            "SustainabilityRating": {
+                "Key": "3",
+                "Value": "Average"
+            },
+            "TransactionFeeEstimatedPct": 0.01,
+            "TypicalExitCostPct": 0
+        }
+    },
+    "Instrument": "ETLX:xetr",
+    "MinimumTradeSize": 50,
+    "Performance": {
+        "FundBased": [
+            {
+                "Date": "2018-10-31",
+                "Pct": -19.84235,
+                "ReportingPeriod": {
+                    "DisplayValue": "YTD - Year to Date",
+                    "Key": "M0"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": 3.95137,
+                "ReportingPeriod": {
+                    "DisplayValue": "1 Month",
+                    "Key": "M1"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": 3.23094,
+                "ReportingPeriod": {
+                    "DisplayValue": "2 Months",
+                    "Key": "M2"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": -9.29665,
+                "ReportingPeriod": {
+                    "DisplayValue": "3 Months",
+                    "Key": "M3"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": -14.56507,
+                "ReportingPeriod": {
+                    "DisplayValue": "6 Months",
+                    "Key": "M6"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": -21.60665,
+                "ReportingPeriod": {
+                    "DisplayValue": "9 Months",
+                    "Key": "M9"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": -16.01593,
+                "ReportingPeriod": {
+                    "DisplayValue": "1 Year",
+                    "Key": "M12"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": -11.315,
+                "ReportingPeriod": {
+                    "DisplayValue": "2 Years",
+                    "Key": "M24"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": 8.01844,
+                "ReportingPeriod": {
+                    "DisplayValue": "3 Years",
+                    "Key": "M36"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": 4.79204,
+                "ReportingPeriod": {
+                    "DisplayValue": "4 Years",
+                    "Key": "M48"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": -2.23782,
+                "ReportingPeriod": {
+                    "DisplayValue": "5 Years",
+                    "Key": "M60"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": -12.63691,
+                "ReportingPeriod": {
+                    "DisplayValue": "6 Years",
+                    "Key": "M72"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": -13.1195,
+                "ReportingPeriod": {
+                    "DisplayValue": "7 Years",
+                    "Key": "M84"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": -11.73432,
+                "ReportingPeriod": {
+                    "DisplayValue": "8 Years",
+                    "Key": "M96"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": -7.49436,
+                "ReportingPeriod": {
+                    "DisplayValue": "9 Years",
+                    "Key": "M108"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": -0.09055,
+                "ReportingPeriod": {
+                    "DisplayValue": "10 Years",
+                    "Key": "M120"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": -2.68552,
+                "ReportingPeriod": {
+                    "DisplayValue": "Since Inception",
+                    "Key": "M255"
+                }
+            }
+        ]
+    },
+    "Uic": 49571
+}

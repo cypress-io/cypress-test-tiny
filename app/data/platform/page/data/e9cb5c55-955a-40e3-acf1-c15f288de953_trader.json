@@ -1,0 +1,39 @@
+{
+    "Id": "e9cb5c55-955a-40e3-acf1-c15f288de953_trader",
+    "Name": "education",
+    "Sections": [
+        {
+            "IsDividerShown": true,
+            "LayoutType": "wrap",
+            "Type": "Banner",
+            "Name": "main section - bannersection",
+            "Title": "",
+            "Id": "145a9426-fb9a-4681-8a90-dca114d8eafc",
+            "Banners": [
+                {
+                    "Image": {
+                        "Alt": "High yield",
+                        "Url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg=="
+                    },
+                    "Text": "",
+                    "Name": "how to guides - bannerimage",
+                    "Align": "bottom",
+                    "IsCompact": false,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "Target": "/page/education_howto-guides",
+                        "TargetId": "ca5563d0-572a-4ff4-8a16-3a12d5a31dc0",
+                        "LinkText": "education_howto-guides"
+                    },
+                    "Title": "How to guides",
+                    "ImageType": "gradient",
+                    "Id": "5d75298f-742a-4d2f-bb35-8e15dd97ec24"
+                }
+            ]
+        }
+    ],
+    "Tags": [],
+    "Title": "Education",
+    "Url": "/page/education"
+}

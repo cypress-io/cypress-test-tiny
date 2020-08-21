@@ -1,0 +1,110 @@
+{
+    "AccountCurrency": "EUR",
+    "AccountID": "test1",
+    "Amount": 1000,
+    "AssetType": "SrdOnStock",
+    "Cost": {
+        "Long": {
+            "BuySell": "Buy",
+            "Currency": "EUR",
+            "HoldingCost": {
+                "InterestFee": {
+                    "Pct": 0.001,
+                    "Rule": {
+                        "Markup": 1.1
+                    },
+                    "Value": 0.2626
+                },
+                "RolloverFee": {
+                    "Pct": 7,
+                    "Rule": {
+                        "Currency": "EUR",
+                        "Pct": 0.035
+                    },
+                    "Value": 1670.9
+                },
+                "Tax": [
+                    {
+                        "Pct": 0.5,
+                        "Rule": {
+                            "CalculationType": "ValueFraction",
+                            "Description": "French Financial Transcation Tax",
+                            "Value": 0.5
+                        },
+                        "Value": 7.075
+                    }
+                ]
+            },
+            "TotalCost": 5,
+            "TotalCostPct": 0.021,
+            "TradingCost": {
+                "Commissions": [
+                    {
+                        "Pct": 0.021,
+                        "Rule": {
+                            "BaseCommission": 2.5,
+                            "Currency": "EUR"
+                        },
+                        "Value": 5
+                    }
+                ]
+            }
+        },
+        "Short": {
+            "BuySell": "Sell",
+            "Currency": "EUR",
+            "HoldingCost": {
+                "InterestFee": {
+                    "Pct": 0.001,
+                    "Rule": {
+                        "Markup": 1.1
+                    },
+                    "Value": 0.2626
+                },
+                "RolloverFee": {
+                    "Pct": 7,
+                    "Rule": {
+                        "Currency": "EUR",
+                        "Pct": 0.035
+                    },
+                    "Value": 1670.9
+                },
+                "Tax": [
+                    {
+                        "Pct": 0.5,
+                        "Rule": {
+                            "CalculationType": "ValueFraction",
+                            "Description": "French Financial Transcation Tax",
+                            "Value": 0.5
+                        },
+                        "Value": 7.075
+                    }
+                ]
+            },
+            "TotalCost": 5,
+            "TotalCostPct": 0.021,
+            "TradingCost": {
+                "Commissions": [
+                    {
+                        "Pct": 0.021,
+                        "Rule": {
+                            "BaseCommission": 2.5,
+                            "Currency": "EUR"
+                        },
+                        "Value": 5
+                    }
+                ]
+            }
+        }
+    },
+    "CostCalculationAssumptions": [
+        "IncludesOpenAndCloseCost",
+        "EquivalentOpenAndClosePrice",
+        "BasisOnLastClosePrice",
+        "ConversionCostNotIncluded"
+    ],
+    "HoldingPeriodInDays": 30,
+    "Instrument": "STMicroelectronics",
+    "Price": 23.87,
+    "Uic": 1252
+}

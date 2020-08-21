@@ -1,0 +1,32 @@
+{
+    "__count": 2,
+    "Data": [
+        {
+            "AccountCurrency": "EUR",
+            "AccountId": "test1",
+            "EndBalance": 50.0,
+            "EndEquity": 40.0,
+            "PartnerAccountKey": "PAK - 36500/84684",
+            "StartBalance": 20.0,
+            "StartEquity": 10.0
+        },
+        {
+            "AccountCurrency": "USD",
+            "AccountId": "test2",
+            "EndBalance": 90.0,
+            "EndEquity": 80.0,
+            "PartnerAccountKey": "PAK - 36500/84684 USD",
+            "StartBalance": 70.0,
+            "StartEquity": 60.0
+        },
+        {
+            "AccountCurrency": "USD",
+            "AccountId": "test3",
+            "EndBalance": 70.0,
+            "EndEquity": 60.0,
+            "PartnerAccountKey": "PAK - 36500/84684 USD",
+            "StartBalance": 50.0,
+            "StartEquity": 40.0
+        }
+    ]
+}

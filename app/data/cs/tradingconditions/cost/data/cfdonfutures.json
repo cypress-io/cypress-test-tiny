@@ -1,0 +1,34 @@
+{
+    "AccountCurrency": "EUR",
+    "AccountID": "126526INET",
+    "Amount": 1000,
+    "AssetType": "CfdOnFutures",
+    "Cost": {
+        "Long": {
+            "BuySell": "Buy",
+            "Currency": "USD",
+            "TotalCost": 0.2,
+            "TotalCostPct": 0.018,
+            "TradingCost": {
+                "Spread": {
+                    "DisplayDecimals": 4,
+                    "Pct": 0.018,
+                    "Rule": {
+                        "Value": 0.0002
+                    },
+                    "Value": 0.2
+                }
+            }
+        }
+    },
+    "CostCalculationAssumptions": [
+        "IncludesOpenAndCloseCost",
+        "EquivalentOpenAndClosePrice",
+        "BasisOnLastClosePrice",
+        "ConversionCostNotIncluded"
+    ],
+    "HoldingPeriodInDays": 30,
+    "Instrument": "Euro/US Dollar September 2019",
+    "Price": 1.13735,
+    "Uic": 13347933
+}

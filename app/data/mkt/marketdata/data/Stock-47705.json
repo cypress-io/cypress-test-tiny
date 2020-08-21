@@ -1,0 +1,182 @@
+{
+    "AssetType": "Stock",
+    "CountryCode": "US",
+    "CurrencyCode": "USD",
+    "Description": "Fannie Mae",
+    "ExchangeId": "OOTC",
+    "Financials": [
+        {
+            "BalanceSheets": [
+                { "Key": "TotalAssets", "Value": 3418318000000.0 },
+                { "Key": "TotalDebt", "Value": 3391920000000.0 }
+            ],
+            "Incomes": [
+                { "Key": "Sales", "Value": 24003000000.0 },
+                { "Key": "NetIncome", "Value": 15959000000.0 }
+            ],
+            "KeyNumbers": [
+                { "Key": "EarningsPerShare", "Value": 0.57 },
+                { "Key": "DividendPerShare", "Value": 0.0 }
+            ],
+            "ReportingPeriod": "2018-12-31"
+        },
+        {
+            "BalanceSheets": [
+                { "Key": "TotalAssets", "Value": 3345529000000.0 },
+                { "Key": "TotalDebt", "Value": 3330054000000.0 }
+            ],
+            "Incomes": [
+                { "Key": "Sales", "Value": 23271000000.0 },
+                { "Key": "NetIncome", "Value": 2463000000.0 }
+            ],
+            "KeyNumbers": [
+                { "Key": "EarningsPerShare", "Value": -1.12 },
+                { "Key": "DividendPerShare", "Value": 0.0 }
+            ],
+            "ReportingPeriod": "2017-12-31"
+        },
+        {
+            "BalanceSheets": [
+                { "Key": "TotalAssets", "Value": 3287968000000.0 },
+                { "Key": "TotalDebt", "Value": 3262316000000.0 }
+            ],
+            "Incomes": [
+                { "Key": "Sales", "Value": 22436000000.0 },
+                { "Key": "NetIncome", "Value": 12313000000.0 }
+            ],
+            "KeyNumbers": [
+                { "Key": "EarningsPerShare", "Value": 0.01 },
+                { "Key": "DividendPerShare", "Value": 0.0 }
+            ],
+            "ReportingPeriod": "2016-12-31"
+        },
+        {
+            "BalanceSheets": [
+                { "Key": "TotalAssets", "Value": 3221917000000.0 },
+                { "Key": "TotalDebt", "Value": 3197671000000.0 }
+            ],
+            "Incomes": [
+                { "Key": "Sales", "Value": 22326000000.0 },
+                { "Key": "NetIncome", "Value": 10954000000.0 }
+            ],
+            "KeyNumbers": [
+                { "Key": "EarningsPerShare", "Value": -0.05 },
+                { "Key": "DividendPerShare", "Value": 0.0 }
+            ],
+            "ReportingPeriod": "2015-12-31"
+        },
+        {
+            "BalanceSheets": [
+                { "Key": "TotalAssets", "Value": 3248176000000.0 },
+                { "Key": "TotalDebt", "Value": 3222155000000.0 }
+            ],
+            "Incomes": [
+                { "Key": "Sales", "Value": 21958000000.0 },
+                { "Key": "NetIncome", "Value": 14208000000.0 }
+            ],
+            "KeyNumbers": [
+                { "Key": "EarningsPerShare", "Value": -0.19 },
+                { "Key": "DividendPerShare", "Value": 0.0 }
+            ],
+            "ReportingPeriod": "2014-12-31"
+        },
+        {
+            "BalanceSheets": [
+                { "Key": "TotalAssets", "Value": 3270108000000.0 },
+                { "Key": "TotalDebt", "Value": 3234523000000.0 }
+            ],
+            "Incomes": [
+                { "Key": "Sales", "Value": 30420000000.0 },
+                { "Key": "NetIncome", "Value": 83963000000.0 }
+            ],
+            "KeyNumbers": [
+                { "Key": "EarningsPerShare", "Value": -0.25 },
+                { "Key": "DividendPerShare", "Value": 0.0 }
+            ],
+            "ReportingPeriod": "2013-12-31"
+        },
+        {
+            "BalanceSheets": [
+                { "Key": "TotalAssets", "Value": 3222422000000.0 },
+                { "Key": "TotalDebt", "Value": 3189517000000.0 }
+            ],
+            "Incomes": [
+                { "Key": "Sales", "Value": 19785000000.0 },
+                { "Key": "NetIncome", "Value": 17224000000.0 }
+            ],
+            "KeyNumbers": [
+                { "Key": "EarningsPerShare", "Value": 0.24 },
+                { "Key": "DividendPerShare", "Value": 0.0 }
+            ],
+            "ReportingPeriod": "2012-12-31"
+        },
+        {
+            "BalanceSheets": [
+                { "Key": "TotalAssets", "Value": 3211484000000.0 },
+                { "Key": "TotalDebt", "Value": 3189872000000.0 }
+            ],
+            "Incomes": [
+                { "Key": "Sales", "Value": 14329000000.0 },
+                { "Key": "NetIncome", "Value": -16855000000.0 }
+            ],
+            "KeyNumbers": [
+                { "Key": "EarningsPerShare", "Value": -4.61 },
+                { "Key": "DividendPerShare", "Value": 0.0 }
+            ],
+            "ReportingPeriod": "2011-12-31"
+        },
+        {
+            "BalanceSheets": [
+                { "Key": "TotalAssets", "Value": 3221972000000.0 },
+                { "Key": "TotalDebt", "Value": 3197000000000.0 }
+            ],
+            "Incomes": [
+                { "Key": "Sales", "Value": 16532000000.0 },
+                { "Key": "NetIncome", "Value": -14014000000.0 }
+            ],
+            "KeyNumbers": [
+                { "Key": "EarningsPerShare", "Value": -3.81 },
+                { "Key": "DividendPerShare", "Value": 0.0 }
+            ],
+            "ReportingPeriod": "2010-12-31"
+        },
+        {
+            "BalanceSheets": [
+                { "Key": "TotalAssets", "Value": 869141000000.0 },
+                { "Key": "TotalDebt", "Value": 774554000000.0 }
+            ],
+            "Incomes": [
+                { "Key": "Sales", "Value": 4545000000.0 },
+                { "Key": "NetIncome", "Value": -71969000000.0 }
+            ],
+            "KeyNumbers": [
+                { "Key": "EarningsPerShare", "Value": -13.11 },
+                { "Key": "DividendPerShare", "Value": 0.0 }
+            ],
+            "ReportingPeriod": "2009-12-31"
+        }
+    ],
+    "Format": { "Decimals": 4 },
+    "GeneralInfo": {
+        "StockInfo": {
+            "Beta": 1.83873,
+            "Description": "Fannie Mae is the nonbank financial services company. Its objective is to tear down barriers, lower costs, and increase the opportunities for homeownership and affordable rental housing for all Americans. The company operates in the secondary mortgage market by purchasing mortgage loans and mortgage-related securities, from mortgage market institutions, such as commercial banks, savings and loan associations, mortgage banking companies, securities dealers and other investors. It has two business segments namely Single-Family and Multifamily. Most of the revenue is derived from the Single-Family segment.",
+            "MarketCap": 3613233209.0,
+            "NoOfEmployees": 7000.0,
+            "PriceEarnings": 156.25,
+            "SalesGrowthRatePct": 3.1455,
+            "Sector": { "Key": "Financial Services", "Value": "Financial Services" },
+            "SubSector": { "Key": "Mortgage Finance", "Value": "Mortgage Finance" }
+        }
+    },
+    "Instrument": "FNMA:xnas",
+    "MinimumTradeSize": 1.0,
+    "RevenueExposure": {
+        "Countries": [{ "Key": "United States", "Pct": 100.0 }],
+        "Segments": [
+            { "Key": "Multifamily", "Pct": 13.8774319876682 },
+            { "Key": "Single-Family", "Pct": 86.1225680123318 }
+        ]
+    },
+    "Uic": 47705
+}

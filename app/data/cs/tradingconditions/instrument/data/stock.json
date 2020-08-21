@@ -1,0 +1,40 @@
+{
+    "AccountCurrency": "GBP",
+    "AmountCurrency": "GBP",
+    "CommissionLimits": [
+        {
+            "Currency": "GBP",
+            "MinCommission": 8,
+            "OrderAction": "ExecuteOrder",
+            "RateOnAmount": 0.001
+        }
+    ],
+    "CustodyFees": {
+        "FeeRules": [
+            {
+                "FeePct": 0.0
+            }
+        ]
+    },
+    "HasKID": false,
+    "InstrumentCurrency": "GBP",
+    "IsTradable": true,
+    "MinOrderSizeCurrency": "GBP",
+    "Rating": 5,
+    "Taxes": [
+        {
+            "BuySell": "Buy",
+            "CalculationTriggerType": "Normal",
+            "CalculationType": "ValueFraction",
+            "Description": "UK Stamp Duty",
+            "Value": 0.5
+        },
+        {
+            "CalculationTriggerType": "Normal",
+            "CalculationType": "FixedAmount",
+            "Description": "UK PTM Levy",
+            "MinTradeValue": 10000,
+            "Value": 1
+        }
+    ]
+}

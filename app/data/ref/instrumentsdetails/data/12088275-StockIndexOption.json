@@ -1,0 +1,61 @@
+{
+    "AmountDecimals": 0,
+    "AssetType": "StockIndexOption",
+    "ContractSize": 100,
+    "CurrencyCode": "USD",
+    "DefaultAmount": 1,
+    "Description": "Dow Jones Industrial Average Ind May2019 255 C",
+    "Exchange": {
+        "CountryCode": "US",
+        "ExchangeId": "OPRA",
+        "Name": "Options Price Reporting Authority",
+        "PriceSourceName": "OPRA"
+    },
+    "ExerciseCutOffTime": "23:59:00",
+    "ExpiryDate": "2019-04-23",
+    "Format": { "Decimals": 2, "OrderDecimals": 2, "StrikeDecimals": 2 },
+    "GroupId": 0,
+    "IncrementSize": 1,
+    "IsTradable": true,
+    "LotSizeText": "0",
+    "LotSizeType": "OddLotsNotAllowed",
+    "OptionsChainSubscriptionAllowed": true,
+    "OrderDistances": {
+        "EntryDefaultDistance": 0,
+        "EntryDefaultDistanceType": "Percentage",
+        "StopLimitDefaultDistance": 5,
+        "StopLimitDefaultDistanceType": "Pips",
+        "StopLossDefaultDistance": 0.5,
+        "StopLossDefaultDistanceType": "Percentage",
+        "StopLossDefaultEnabled": false,
+        "StopLossDefaultOrderType": "Stop",
+        "TakeProfitDefaultDistance": 0.5,
+        "TakeProfitDefaultDistanceType": "Percentage",
+        "TakeProfitDefaultEnabled": false
+    },
+    "OrderSetting": {},
+    "PriceCurrency": "USD",
+    "PriceToContractFactor": 100,
+    "PutCall": "Call",
+    "RelatedInstruments": [],
+    "RelatedOptionRoots": [122],
+    "RelatedOptionRootsEnhanced": [
+        { "AssetType": "StockIndexOption", "OptionRootId": 122 }
+    ],
+    "SettlementStyle": "CashDelivery",
+    "StandardAmounts": [1, 5, 10, 25, 50, 100, 500, 1000],
+    "StrikePrice": 255,
+    "SupportedOrderTypes": ["Limit"],
+    "Symbol": "DJX/17K19C255:xcbf",
+    "TickSizeScheme": {
+        "DefaultTickSize": 0.05,
+        "Elements": [{ "HighPrice": 3, "TickSize": 0.01 }]
+    },
+    "TradableAs": ["StockIndexOption"],
+    "TradableOn": ["test0", "test1"],
+    "TradingSignals": "NotAllowed",
+    "Uic": 12088275,
+    "UnderlyingAssetType": "StockIndex",
+    "UnderlyingUic": 52999,
+    "id": "12088275-StockIndexOption"
+}

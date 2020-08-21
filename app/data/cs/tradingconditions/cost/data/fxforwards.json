@@ -1,0 +1,70 @@
+{
+    "AccountCurrency": "EUR",
+    "AccountID": "",
+    "Amount": 100000,
+    "AssetType": "FxForwards",
+    "Cost": {
+        "Long": {
+            "BuySell": "Buy",
+            "Currency": "CAD",
+            "TotalCost": 60.19,
+            "TotalCostPct": 0.066,
+            "TradingCost": {
+                "Commissions": [
+                    {
+                        "Pct": 0.01,
+                        "Rule": {
+                            "Currency": "USD",
+                            "RateOnAmount": 0.00005
+                        },
+                        "Value": 9.19
+                    }
+                ],
+                "Spread": {
+                    "DisplayDecimals": 5,
+                    "Pct": 0.056,
+                    "Rule": {
+                        "Value": 0.00051000000000001
+                    },
+                    "Value": 51
+                }
+            }
+        },
+        "Short": {
+            "BuySell": "Sell",
+            "Currency": "CAD",
+            "TotalCost": 60.19,
+            "TotalCostPct": 0.066,
+            "TradingCost": {
+                "Commissions": [
+                    {
+                        "Pct": 0.01,
+                        "Rule": {
+                            "Currency": "USD",
+                            "RateOnAmount": 0.00005
+                        },
+                        "Value": 9.19
+                    }
+                ],
+                "Spread": {
+                    "DisplayDecimals": 5,
+                    "Pct": 0.056,
+                    "Rule": {
+                        "Value": 0.00051000000000001
+                    },
+                    "Value": 51
+                }
+            }
+        }
+    },
+    "CostCalculationAssumptions": [
+        "IncludesOpenAndCloseCost",
+        "EquivalentOpenAndClosePrice",
+        "ConversionCostNotIncluded",
+        "BasisOnMidPrice"
+    ],
+    "HoldingPeriodInDays": 30,
+    "Instrument": "Australian Dollar/Canadian Dollar",
+    "Price": 0.918795,
+    "Uic": 21
+}

@@ -1,0 +1,54 @@
+{
+    "Data": [
+        {
+            "Date": "2018-08-22",
+            "Unit": "Days",
+            "Value": 0
+        },
+        {
+            "Date": "2018-08-29",
+            "Unit": "Weeks",
+            "Value": 1
+        },
+        {
+            "Date": "2018-09-05",
+            "Unit": "Weeks",
+            "Value": 2
+        },
+        {
+            "Date": "2018-09-12",
+            "Unit": "Weeks",
+            "Value": 3
+        },
+        {
+            "Date": "2018-09-24",
+            "Unit": "Months",
+            "Value": 1
+        },
+        {
+            "Date": "2018-10-22",
+            "Unit": "Months",
+            "Value": 2
+        },
+        {
+            "Date": "2018-11-22",
+            "Unit": "Months",
+            "Value": 3
+        },
+        {
+            "Date": "2019-02-22",
+            "Unit": "Months",
+            "Value": 6
+        },
+        {
+            "Date": "2019-05-22",
+            "Unit": "Months",
+            "Value": 9
+        },
+        {
+            "Date": "2019-08-22",
+            "Unit": "Years",
+            "Value": 1
+        }
+    ]
+}

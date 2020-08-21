@@ -1,0 +1,633 @@
+{
+    "AmountDecimals": 0,
+    "AssetType": "StockIndexOption",
+    "CanParticipateInMultiLegOrder": false,
+    "ContractSize": 100,
+    "CurrencyCode": "EUR",
+    "DefaultAmount": 1,
+    "DefaultExpiry": "2019-09-20T00:00:00Z",
+    "DefaultOption": {
+        "PutCall": "Call",
+        "StrikePrice": 535,
+        "Uic": 14347087,
+        "UnderlyingUic": 1957254
+    },
+    "Description": "AEX Index ",
+    "Exchange": {
+        "CountryCode": "NL",
+        "ExchangeId": "EUR_AMS2",
+        "Name": "Euronext Equity & Index Derivatives - AMS"
+    },
+    "ExerciseStyle": "European",
+    "Format": {
+        "Decimals": 2,
+        "OrderDecimals": 2,
+        "StrikeDecimals": 2
+    },
+    "GroupId": 0,
+    "IncrementSize": 1,
+    "IsTradable": true,
+    "LotSize": 1,
+    "LotSizeType": "OddLotsNotAllowed",
+    "OptionRootId": 1,
+    "OptionSpace": [
+        {
+            "DisplayDaysToExpiry": 6,
+            "DisplayExpiry": "2019-09-01",
+            "Expiry": "2019-09-20",
+            "LastTradeDate": "2019-09-20T14:00:00.000000Z",
+            "SpecificOptions": [
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 440,
+                    "Uic": 10815135,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 480,
+                    "Uic": 10815137,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 320,
+                    "Uic": 10815139,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 560,
+                    "Uic": 10815141,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 540,
+                    "Uic": 10815143,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 640,
+                    "Uic": 10815145,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 520,
+                    "Uic": 10815147,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 400,
+                    "Uic": 10815149,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 600,
+                    "Uic": 10815151,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 720,
+                    "Uic": 10815153,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 680,
+                    "Uic": 10815155,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 480,
+                    "Uic": 10815165,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 320,
+                    "Uic": 10815169,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 560,
+                    "Uic": 10815171,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 680,
+                    "Uic": 10815173,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 440,
+                    "Uic": 10815181,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 640,
+                    "Uic": 10815183,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 520,
+                    "Uic": 10815189,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 400,
+                    "Uic": 10815191,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 720,
+                    "Uic": 10815199,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 600,
+                    "Uic": 10815203,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 540,
+                    "Uic": 10815210,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 540,
+                    "Uic": 11948648,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 580,
+                    "Uic": 10852292,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 580,
+                    "Uic": 10852294,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 500,
+                    "Uic": 11013210,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 500,
+                    "Uic": 11013220,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 360,
+                    "Uic": 11112412,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 360,
+                    "Uic": 11112414,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 800,
+                    "Uic": 11221476,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 800,
+                    "Uic": 11221478,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 510,
+                    "Uic": 11493737,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 490,
+                    "Uic": 11493739,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 510,
+                    "Uic": 11493745,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 490,
+                    "Uic": 11493747,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 460,
+                    "Uic": 11591156,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 460,
+                    "Uic": 11591166,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 380,
+                    "Uic": 11698798,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 470,
+                    "Uic": 11698800,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 300,
+                    "Uic": 11698804,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 450,
+                    "Uic": 11698812,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 340,
+                    "Uic": 11698814,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 450,
+                    "Uic": 11698838,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 420,
+                    "Uic": 11698842,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 470,
+                    "Uic": 11698844,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 380,
+                    "Uic": 11698846,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 340,
+                    "Uic": 11698778,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 300,
+                    "Uic": 11698792,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 420,
+                    "Uic": 11698796,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 530,
+                    "Uic": 12148870,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 530,
+                    "Uic": 12148872,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 550,
+                    "Uic": 13378519,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 550,
+                    "Uic": 13378521,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 570,
+                    "Uic": 13729483,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 590,
+                    "Uic": 13729485,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 620,
+                    "Uic": 13729487,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 660,
+                    "Uic": 13729489,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 590,
+                    "Uic": 13729491,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 620,
+                    "Uic": 13729493,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 660,
+                    "Uic": 13729497,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 570,
+                    "Uic": 13729499,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 555,
+                    "Uic": 14161755,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 565,
+                    "Uic": 14161773,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 555,
+                    "Uic": 14161791,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 565,
+                    "Uic": 14161793,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 575,
+                    "Uic": 14232421,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 575,
+                    "Uic": 14232423,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 610,
+                    "Uic": 14265929,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 610,
+                    "Uic": 14265935,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Call",
+                    "StrikePrice": 535,
+                    "Uic": 14347087,
+                    "UnderlyingUic": 1957254
+                },
+                {
+                    "PutCall": "Put",
+                    "StrikePrice": 535,
+                    "Uic": 14347089,
+                    "UnderlyingUic": 1957254
+                }
+            ],
+            "TickSizeScheme": {
+                "DefaultTickSize": 0.05,
+                "Elements": [
+                    {
+                        "HighPrice": 1.5,
+                        "TickSize": 0.01
+                    }
+                ]
+            }
+        },
+        {
+            "DisplayDaysToExpiry": 97,
+            "DisplayExpiry": "2019-12-01",
+            "Expiry": "2019-12-20",
+            "LastTradeDate": "2019-12-20T15:00:00.000000Z",
+            "TickSizeScheme": {
+                "DefaultTickSize": 0.05,
+                "Elements": [
+                    {
+                        "HighPrice": 1.5,
+                        "TickSize": 0.01
+                    }
+                ]
+            }
+        },
+        {
+            "DisplayDaysToExpiry": 188,
+            "DisplayExpiry": "2020-03-01",
+            "Expiry": "2020-03-20",
+            "LastTradeDate": "2020-03-20T15:00:00.000000Z",
+            "TickSizeScheme": {
+                "DefaultTickSize": 0.05,
+                "Elements": [
+                    {
+                        "HighPrice": 1.5,
+                        "TickSize": 0.01
+                    }
+                ]
+            }
+        },
+        {
+            "DisplayDaysToExpiry": 280,
+            "DisplayExpiry": "2020-06-01",
+            "Expiry": "2020-06-19",
+            "LastTradeDate": "2020-06-19T14:00:00.000000Z",
+            "TickSizeScheme": {
+                "DefaultTickSize": 0.05,
+                "Elements": [
+                    {
+                        "HighPrice": 1.5,
+                        "TickSize": 0.01
+                    }
+                ]
+            }
+        },
+        {
+            "DisplayDaysToExpiry": 463,
+            "DisplayExpiry": "2020-12-01",
+            "Expiry": "2020-12-18",
+            "LastTradeDate": "2020-12-18T15:00:00.000000Z",
+            "TickSizeScheme": {
+                "DefaultTickSize": 0.05,
+                "Elements": [
+                    {
+                        "HighPrice": 1.5,
+                        "TickSize": 0.01
+                    }
+                ]
+            }
+        },
+        {
+            "DisplayDaysToExpiry": 645,
+            "DisplayExpiry": "2021-06-01",
+            "Expiry": "2021-06-18",
+            "LastTradeDate": "2021-06-18T15:00:00.000000Z",
+            "TickSizeScheme": {
+                "DefaultTickSize": 0.05,
+                "Elements": [
+                    {
+                        "HighPrice": 1.5,
+                        "TickSize": 0.01
+                    }
+                ]
+            }
+        },
+        {
+            "DisplayDaysToExpiry": 828,
+            "DisplayExpiry": "2021-12-01",
+            "Expiry": "2021-12-17",
+            "LastTradeDate": "2021-12-17T15:00:00.000000Z",
+            "TickSizeScheme": {
+                "DefaultTickSize": 0.05,
+                "Elements": [
+                    {
+                        "HighPrice": 1.5,
+                        "TickSize": 0.01
+                    }
+                ]
+            }
+        },
+        {
+            "DisplayDaysToExpiry": 1193,
+            "DisplayExpiry": "2022-12-01",
+            "Expiry": "2022-12-16",
+            "LastTradeDate": "2022-12-16T15:00:00.000000Z",
+            "TickSizeScheme": {
+                "DefaultTickSize": 0.05,
+                "Elements": [
+                    {
+                        "HighPrice": 1.5,
+                        "TickSize": 0.01
+                    }
+                ]
+            }
+        },
+        {
+            "DisplayDaysToExpiry": 1558,
+            "DisplayExpiry": "2023-12-01",
+            "Expiry": "2023-12-15",
+            "LastTradeDate": "2023-12-15T15:00:00.000000Z",
+            "TickSizeScheme": {
+                "DefaultTickSize": 0.05,
+                "Elements": [
+                    {
+                        "HighPrice": 1.5,
+                        "TickSize": 0.01
+                    }
+                ]
+            }
+        }
+    ],
+    "OrderDistances": {
+        "EntryDefaultDistance": 0,
+        "EntryDefaultDistanceType": "Percentage",
+        "StopLimitDefaultDistance": 5,
+        "StopLimitDefaultDistanceType": "Pips",
+        "StopLossDefaultDistance": 0.5,
+        "StopLossDefaultDistanceType": "Percentage",
+        "StopLossDefaultEnabled": false,
+        "StopLossDefaultOrderType": "Stop",
+        "TakeProfitDefaultDistance": 0.5,
+        "TakeProfitDefaultDistanceType": "Percentage",
+        "TakeProfitDefaultEnabled": false
+    },
+    "PriceToContractFactor": 100,
+    "RelatedInstruments": [
+        {
+            "AssetType": "StockIndex",
+            "Uic": 1957254
+        }
+    ],
+    "RelatedOptionRoots": [],
+    "RelatedOptionRootsEnhanced": [],
+    "SettlementStyle": "CashDelivery",
+    "StandardAmounts": [1, 5, 10, 25, 50, 100, 500, 1000],
+    "SupportedOrderTypes": ["Limit"],
+    "Symbol": "AEX:xams",
+    "TickSize": 0.01,
+    "TradableOn": [],
+    "UnderlyingAssetType": "StockIndex",
+    "defaultOption": {
+        "PutCall": "Call",
+        "StrikePrice": 535,
+        "Uic": 14347087,
+        "UnderlyingUic": 1957254
+    }
+}

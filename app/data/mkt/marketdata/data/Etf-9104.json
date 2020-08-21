@@ -1,0 +1,138 @@
+{
+    "AssetType": "Stock",
+    "CountryCode": "FR",
+    "CurrencyCode": "EUR",
+    "Description": "Lyxor UCITS ETF CAC 40",
+    "DisplayHint": "Etf",
+    "ExchangeId": "PAR",
+    "Format": {
+        "Decimals": 2
+    },
+    "Instrument": "CAC:xpar",
+    "MinimumTradeSize": 1,
+    "Performance": {
+        "FundBased": [
+            {
+                "Date": "2020-06-13",
+                "Pct": 6.55557,
+                "ReportingPeriod": {
+                    "DisplayValue": "MTD - Month to Date",
+                    "Key": "D0"
+                }
+            },
+            {
+                "Date": "2020-06-13",
+                "Pct": -1.09265,
+                "ReportingPeriod": {
+                    "DisplayValue": "1 Day",
+                    "Key": "D1"
+                }
+            },
+            {
+                "Date": "2020-06-13",
+                "Pct": -10.14664,
+                "ReportingPeriod": {
+                    "DisplayValue": "YTD - Year to Date",
+                    "Key": "M0"
+                }
+            },
+            {
+                "Date": "2020-06-13",
+                "Pct": 13.50741,
+                "ReportingPeriod": {
+                    "DisplayValue": "1 Month",
+                    "Key": "M1"
+                }
+            },
+            {
+                "Date": "2020-06-13",
+                "Pct": -4.66971,
+                "ReportingPeriod": {
+                    "DisplayValue": "1 Year",
+                    "Key": "M12"
+                }
+            },
+            {
+                "Date": "2020-06-13",
+                "Pct": 112.36409,
+                "ReportingPeriod": {
+                    "DisplayValue": "10 Years",
+                    "Key": "M120"
+                }
+            },
+            {
+                "Date": "2020-06-13",
+                "Pct": 119.50578,
+                "ReportingPeriod": {
+                    "DisplayValue": "Since Inception",
+                    "Key": "M255"
+                }
+            },
+            {
+                "Date": "2020-06-13",
+                "Pct": 11.8249,
+                "ReportingPeriod": {
+                    "DisplayValue": "3 Months",
+                    "Key": "M3"
+                }
+            },
+            {
+                "Date": "2020-06-13",
+                "Pct": 4.54296,
+                "ReportingPeriod": {
+                    "DisplayValue": "3 Years",
+                    "Key": "M36"
+                }
+            },
+            {
+                "Date": "2020-06-13",
+                "Pct": -7.58587,
+                "ReportingPeriod": {
+                    "DisplayValue": "6 Months",
+                    "Key": "M6"
+                }
+            },
+            {
+                "Date": "2020-06-13",
+                "Pct": 44.5989,
+                "ReportingPeriod": {
+                    "DisplayValue": "5 Years",
+                    "Key": "M60"
+                }
+            },
+            {
+                "Date": "2020-06-13",
+                "Pct": 0.54929,
+                "ReportingPeriod": {
+                    "DisplayValue": "1 Week",
+                    "Key": "W1"
+                }
+            },
+            {
+                "Date": "2020-06-13",
+                "Pct": -1.30821,
+                "ReportingPeriod": {
+                    "DisplayValue": "2 Years",
+                    "Key": "M24"
+                }
+            },
+            {
+                "Date": "2020-06-13",
+                "Pct": 47.46813,
+                "ReportingPeriod": {
+                    "DisplayValue": "4 Years",
+                    "Key": "M48"
+                }
+            },
+            {
+                "Date": "2020-06-13",
+                "Pct": 67.7997,
+                "ReportingPeriod": {
+                    "DisplayValue": "7 Years",
+                    "Key": "M84"
+                }
+            }
+        ]
+    },
+    "Uic": 9104
+}

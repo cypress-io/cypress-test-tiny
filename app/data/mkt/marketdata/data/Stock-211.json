@@ -1,0 +1,621 @@
+{
+    "AnalystRating": {
+        "Buy": 19,
+        "Consensus": { "Key": "Buy", "Value": "Buy" },
+        "HighTargetPrice": 350.0,
+        "Hold": 11,
+        "LowTargetPrice": 150.0,
+        "Sell": 2,
+        "TargetPrice": 267.57,
+        "UpsidePct": -7.67
+    },
+    "AssetType": "Stock",
+    "CountryCode": "US",
+    "CurrencyCode": "USD",
+    "Description": "Apple Inc.",
+    "ExchangeId": "NASDAQ",
+    "Financials": [
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 338516000000
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 108047000000
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 260174000000
+                },
+                {
+                    "Key": "EBITDA",
+                    "Value": 81860000000
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 55256000000
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 11.89
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 3
+                },
+                {
+                    "Key": "GrossMargin",
+                    "Value": 0.378178
+                },
+                {
+                    "Key": "ROE",
+                    "Value": 0.559172
+                },
+                {
+                    "Key": "DebtTotalCapitalRatio",
+                    "Value": 0.503618
+                }
+            ],
+            "ReportingPeriod": "2019-09-30"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 365725000000
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 114483000000
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 265595000000
+                },
+                {
+                    "Key": "EBITDA",
+                    "Value": 87046000000
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 59531000000
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 11.91
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 2.72
+                },
+                {
+                    "Key": "GrossMargin",
+                    "Value": 0.383437
+                },
+                {
+                    "Key": "ROE",
+                    "Value": 0.493636
+                },
+                {
+                    "Key": "DebtTotalCapitalRatio",
+                    "Value": 0.466617
+                }
+            ],
+            "ReportingPeriod": "2018-09-30"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 375319000000
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 115680000000
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 229234000000
+                },
+                {
+                    "Key": "EBITDA",
+                    "Value": 76569000000
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 48351000000
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 9.21
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 2.4
+                },
+                {
+                    "Key": "GrossMargin",
+                    "Value": 0.384699
+                },
+                {
+                    "Key": "ROE",
+                    "Value": 0.368675
+                },
+                {
+                    "Key": "DebtTotalCapitalRatio",
+                    "Value": 0.420347
+                }
+            ],
+            "ReportingPeriod": "2017-09-30"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 321686000000
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 87032000000
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 215639000000
+                },
+                {
+                    "Key": "EBITDA",
+                    "Value": 73333000000
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 45687000000
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 8.31
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 2.18
+                },
+                {
+                    "Key": "GrossMargin",
+                    "Value": 0.39076
+                },
+                {
+                    "Key": "ROE",
+                    "Value": 0.369033
+                },
+                {
+                    "Key": "DebtTotalCapitalRatio",
+                    "Value": 0.370328
+                }
+            ],
+            "ReportingPeriod": "2016-09-30"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 290479000000
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 64462000000
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 233715000000
+                },
+                {
+                    "Key": "EBITDA",
+                    "Value": 84505000000
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 53394000000
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 9.22
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 1.98
+                },
+                {
+                    "Key": "GrossMargin",
+                    "Value": 0.400599
+                },
+                {
+                    "Key": "ROE",
+                    "Value": 0.462482
+                },
+                {
+                    "Key": "DebtTotalCapitalRatio",
+                    "Value": 0.30936
+                }
+            ],
+            "ReportingPeriod": "2015-09-30"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 231839000000
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 35295000000
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 182795000000
+                },
+                {
+                    "Key": "EBITDA",
+                    "Value": 61813000000
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 39510000000
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 6.45
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 1.811429
+                },
+                {
+                    "Key": "GrossMargin",
+                    "Value": 0.38588
+                },
+                {
+                    "Key": "ROE",
+                    "Value": 0.336118
+                },
+                {
+                    "Key": "DebtTotalCapitalRatio",
+                    "Value": 0.206263
+                }
+            ],
+            "ReportingPeriod": "2014-09-30"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 207000000000
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 16960000000
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 170910000000
+                },
+                {
+                    "Key": "EBITDA",
+                    "Value": 57048000000
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 37037000000
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 5.678571
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 1.628571
+                },
+                {
+                    "Key": "GrossMargin",
+                    "Value": 0.376245
+                },
+                {
+                    "Key": "ROE",
+                    "Value": 0.306396
+                },
+                {
+                    "Key": "DebtTotalCapitalRatio",
+                    "Value": 0.120704
+                }
+            ],
+            "ReportingPeriod": "2013-09-30"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 176064000000
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 156508000000
+                },
+                {
+                    "Key": "EBITDA",
+                    "Value": 58518000000
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 41733000000
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 6.307143
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 0.378571
+                },
+                {
+                    "Key": "GrossMargin",
+                    "Value": 0.438712
+                },
+                {
+                    "Key": "ROE",
+                    "Value": 0.428415
+                }
+            ],
+            "ReportingPeriod": "2012-09-30"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 116371000000
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 108249000000
+                },
+                {
+                    "Key": "EBITDA",
+                    "Value": 35604000000
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 25922000000
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 3.954286
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 0
+                },
+                {
+                    "Key": "GrossMargin",
+                    "Value": 0.404789
+                },
+                {
+                    "Key": "ROE",
+                    "Value": 0.416732
+                }
+            ],
+            "ReportingPeriod": "2011-09-30"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 75183000000
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 65225000000
+                },
+                {
+                    "Key": "EBITDA",
+                    "Value": 19412000000
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 14013000000
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 2.164286
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 0
+                },
+                {
+                    "Key": "GrossMargin",
+                    "Value": 0.393775
+                },
+                {
+                    "Key": "ROE",
+                    "Value": 0.352835
+                }
+            ],
+            "ReportingPeriod": "2010-09-30"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 47501000000
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 42905000000
+                },
+                {
+                    "Key": "EBITDA",
+                    "Value": 12474000000
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 8235000000
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 1.297143
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 0
+                },
+                {
+                    "Key": "GrossMargin",
+                    "Value": 0.401398
+                },
+                {
+                    "Key": "ROE",
+                    "Value": 0.312702
+                }
+            ],
+            "ReportingPeriod": "2009-09-30"
+        }
+    ],
+    "Format": {
+        "Decimals": 2
+    },
+    "GeneralInfo": {
+        "StockInfo": {
+            "Beta": 1.079639,
+            "Description": "Apple designs a wide variety of consumer electronic devices, including smartphones (iPhone), tablets (iPad), PCs (Mac), smartwatches (Apple Watch), and TV boxes (Apple TV), among others. The iPhone makes up the majority of Apple’s total revenue. In addition, Apple offers its customers a variety of services such as Apple Music, iCloud, Apple Care and Apple Pay, among others. Apple's products run internally developed software and semiconductors, and the firm is well known for its integration of hardware, software and services. Apple's products are distributed online as well as through company-owned stores and third-party retailers. The company generates about 40% of its revenue from the Americas, with the remainder earned internationally.",
+            "DividentYieldPct": 1.38,
+            "MarketCap": 1006737728600,
+            "NoOfEmployees": 123000,
+            "PriceEarnings": 18.903592,
+            "SalesGrowthRatePct": 15.862,
+            "Sector": {
+                "Key": "Technology",
+                "Value": "Technology"
+            },
+            "SubSector": {
+                "Key": "Consumer Electronics",
+                "Value": "Consumer Electronics"
+            }
+        }
+    },
+    "GeneralInformation": {
+        "StockInformation": {
+            "AboutCompany": "Apple designs a wide variety of consumer electronic devices, including smartphones (iPhone), tablets (iPad), PCs (Mac), smartwatches (Apple Watch), and TV boxes (Apple TV), among others. The iPhone makes up the majority of Apple’s total revenue. In addition, Apple offers its customers a variety of services such as Apple Music, iCloud, Apple Care and Apple Pay, among others. Apple's products run internally developed software and semiconductors, and the firm is well known for its integration of hardware, software and services. Apple's products are distributed online as well as through company-owned stores and third-party retailers. The company generates about 40% of its revenue from the Americas, with the remainder earned internationally.",
+            "Sector": {
+                "Key": "Technology",
+                "Value": "Technology"
+            },
+            "SubSector": {
+                "Key": "Consumer Electronics",
+                "Value": "Consumer Electronics"
+            },
+
+            "MarketCap": 592974332.35582471,
+            "OneYearReturnPct": -108.73370321842918,
+            "ThreeYearsReturnPct": -49437.5432677687,
+            "YtdReturnPct": 3.5219700802524132
+        }
+    },
+    "AnalystConsensus": {
+        "Consensus": {
+            "Key": "StrongSell",
+            "Value": "Strong sell"
+        },
+        "TargetPrice": 257.6,
+        "Rating": 4.0,
+        "ImpliedReturn": 1.25,
+        "Buy": 0,
+        "Overweight": 0,
+        "Hold": 0,
+        "Underweight": 0,
+        "Sell": 0
+    },
+    "KeyStats": [
+        {
+            "Key": "PriceEarnings",
+            "Value": 29.850746
+        },
+        {
+            "Key": "DividendYield",
+            "Value": 0.86
+        },
+        {
+            "Key": "EPS",
+            "Value": 11.89
+        },
+        {
+            "Key": "Volatility30Days",
+            "Value": 5
+        },
+        {
+            "Key": "Beta",
+            "Value": 1.081448
+        },
+        {
+            "Key": "EnterpriseValue",
+            "Value": 13.7472
+        },
+        {
+            "Key": "TotalDebt",
+            "Value": 108047
+        },
+        {
+            "Key": "PriceBookValue",
+            "Value": 10.7447
+        },
+        {
+            "Key": "DividendPayoutRatio",
+            "Value": 0.7447
+        }
+    ],
+    "Instrument": "AAPL:xnas",
+    "MinimumTradeSize": 1,
+    "Uic": 211
+}

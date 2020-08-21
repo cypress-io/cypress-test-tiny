@@ -1,0 +1,127 @@
+[
+    {
+        "ClosedPosition": {
+            "AccountId": "test1",
+            "Amount": 100000.0,
+            "AssetType": "FxSpot",
+            "BuyOrSell": "Buy",
+            "ClientId": "3634928",
+            "ClosedProfitLoss": -449.0,
+            "ClosedProfitLossInBaseCurrency": -404.340215,
+            "ClosingMarketValue": 0.0,
+            "ClosingMarketValueInBaseCurrency": 0.0,
+            "ClosingMethod": "Fifo",
+            "ClosingPositionId": "1459608808",
+            "ClosingPrice": 1.11415,
+            "ConversionRateInstrumentToBaseSettledClosing": false,
+            "ConversionRateInstrumentToBaseSettledOpening": false,
+            "CostOpening": -5.59,
+            "CostOpeningInBaseCurrency": -5.03,
+            "ExecutionTimeClose": "2019-08-15T13:29:39.944536Z",
+            "ExecutionTimeOpen": "2019-08-09T08:26:39.850592Z",
+            "OpeningPositionId": "1459602633",
+            "OpenPrice": 1.11864,
+            "Uic": 21
+        },
+        "ClosedPositionUniqueId": "1459602633-1459608808",
+        "DisplayAndFormat": {
+            "Currency": "USD",
+            "Decimals": 4,
+            "Description": "Euro/US Dollar",
+            "Format": "AllowDecimalPips",
+            "Symbol": "EURUSD"
+        },
+        "Exchange": {
+            "Description": "Inter Bank",
+            "ExchangeId": "SBFX",
+            "IsOpen": true
+        },
+        "NetPositionId": "EURUSD__FxSpot"
+    },
+    {
+        "ClosedPosition": {
+            "AccountId": "test2",
+            "Amount": 100000.0,
+            "AssetType": "FxSpot",
+            "BuyOrSell": "Buy",
+            "ClientId": "3634928",
+            "ClosedProfitLoss": 276.0,
+            "ClosedProfitLossInBaseCurrency": 248.54766,
+            "ClosingMarketValue": 0.0,
+            "ClosingMarketValueInBaseCurrency": 0.0,
+            "ClosingMethod": "Fifo",
+            "ClosingPositionId": "1459586471",
+            "ClosingPrice": 1.11739,
+            "ConversionRateInstrumentToBaseSettledClosing": false,
+            "ConversionRateInstrumentToBaseSettledOpening": false,
+            "CostClosing": -5.59,
+            "CostClosingInBaseCurrency": -5.03,
+            "CostOpening": -5.57,
+            "CostOpeningInBaseCurrency": -5.02,
+            "ExecutionTimeClose": "2019-08-05T13:16:12.043453Z",
+            "ExecutionTimeOpen": "2019-07-30T13:24:45.832891Z",
+            "OpeningPositionId": "1459552573",
+            "OpenPrice": 1.11463,
+            "Uic": 21
+        },
+        "ClosedPositionUniqueId": "1459552573-1459586471",
+        "DisplayAndFormat": {
+            "Currency": "USD",
+            "Decimals": 4,
+            "Description": "Euro/US Dollar",
+            "Format": "AllowDecimalPips",
+            "Symbol": "EURUSD"
+        },
+        "Exchange": {
+            "Description": "Inter Bank",
+            "ExchangeId": "SBFX",
+            "IsOpen": true
+        },
+        "NetPositionId": "EURUSD__FxSpot"
+    },
+    {
+        "ClosedPosition": {
+            "AccountId": "test1",
+            "Amount": 10,
+            "AssetType": "SrdOnStock",
+            "BuyOrSell": "Buy",
+            "ClientId": "1807143",
+            "ClosedProfitLoss": -0.1,
+            "ClosedProfitLossInBaseCurrency": -0.109318875,
+            "ClosingMarketValue": 0,
+            "ClosingMarketValueInBaseCurrency": 0,
+            "ClosingMethod": "Fifo",
+            "ClosingPositionId": "1621058527",
+            "ClosingPrice": 14.76,
+            "ConversionRateInstrumentToBaseSettledClosing": true,
+            "ConversionRateInstrumentToBaseSettledOpening": true,
+            "CostClosing": -0.74,
+            "CostClosingInBaseCurrency": -0.81,
+            "CostOpening": -0.738,
+            "CostOpeningInBaseCurrency": -0.81,
+            "ExecutionTimeClose": "2020-04-30T09:36:42.249419Z",
+            "ExecutionTimeOpen": "2020-04-30T09:36:21.894222Z",
+            "OpeningPositionId": "1621058523",
+            "OpenPrice": 14.77,
+            "SrdSettlementDate": "2020-05-29T00:00:00",
+            "Uic": 1622
+        },
+        "ClosedPositionUniqueId": "1621058523-1621058527",
+        "DisplayAndFormat": {
+            "Currency": "EUR",
+            "Decimals": 2,
+            "Description": "Societe Generale",
+            "Format": "Percentage",
+            "Symbol": "GLE:xpar"
+        },
+        "Exchange": {
+            "Description": "Euronext Paris",
+            "ExchangeId": "PAR",
+            "CountryCode": "FR",
+            "IsOpen": true,
+            "Name": "Euronext Paris",
+            "TimeZoneId": "4"
+        },
+        "NetPositionId": "GLE:xpar__SrdOnStock"
+    }
+]

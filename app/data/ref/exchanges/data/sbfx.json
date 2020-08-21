@@ -1,0 +1,38 @@
+{
+    "AllDay": true,
+    "CountryCode": "DK",
+    "Currency": "DKK",
+    "ExchangeId": "SBFX",
+    "ExchangeSessions": [
+        {
+            "EndTime": "2019-11-11T21:59:00.000000Z",
+            "StartTime": "2019-11-10T18:04:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2019-11-11T22:04:00.000000Z",
+            "StartTime": "2019-11-11T21:59:00.000000Z",
+            "State": "Closed"
+        },
+        {
+            "EndTime": "2019-11-12T21:59:00.000000Z",
+            "StartTime": "2019-11-11T22:04:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2019-11-12T22:04:00.000000Z",
+            "StartTime": "2019-11-12T21:59:00.000000Z",
+            "State": "Closed"
+        },
+        {
+            "EndTime": "2019-11-13T21:59:00.000000Z",
+            "StartTime": "2019-11-12T22:04:00.000000Z",
+            "State": "AutomatedTrading"
+        }
+    ],
+    "Mic": "",
+    "Name": "Inter Bank",
+    "TimeZone": 3,
+    "TimeZoneAbbreviation": "EST",
+    "TimeZoneOffset": "-05:00:00"
+}

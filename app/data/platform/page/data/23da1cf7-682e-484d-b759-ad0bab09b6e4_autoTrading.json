@@ -1,0 +1,111 @@
+{
+    "Id": "23da1cf7-682e-484d-b759-ad0bab09b6e4_autoTrading",
+    "Name": "managed-portfolios-introduction",
+    "Sections": [
+        {
+            "Banners": [],
+            "Id": "4bcf7e2e-10ee-4ead-9981-477f725a0486",
+            "IsDividerShown": false,
+            "LayoutType": "stretch",
+            "Name": "getting-started-1",
+            "Tags": [],
+            "Title": "Getting started is easy",
+            "Type": "Banner"
+        },
+        {
+            "Id": "11985f34-5858-416c-ba03-c247397878d2",
+            "IsDividerShown": false,
+            "Name": "image-getting-started-9",
+            "RichText": "\n  <img style=\"margin: 0 auto 2rem auto\" alt=\"\" height=\"205\" width=\"757\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg==\"/>\n",
+            "Tags": [],
+            "Title": "",
+            "Type": "RichTextSection"
+        },
+        {
+            "Buttons": [
+                {
+                    "Align": "center",
+                    "Id": "bc99f59d-63da-448a-a80f-f5f3c7c6579f",
+                    "IsClear": false,
+                    "IsNoCase": false,
+                    "IsOutline": false,
+                    "IsPrimary": true,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "Take a atest",
+                        "Target": "/investment-suitability-test"
+                    },
+                    "Name": "take_the_test_1",
+                    "Size": "",
+                    "Tags": [],
+                    "Text": "* .You will be able to retake the test after you have confirmed your answers",
+                    "Title": "Take the test"
+                }
+            ],
+            "Id": "8e48365d-ddb0-42ae-85ca-85c42f46c5d1",
+            "LayoutJustify": "",
+            "LayoutType": "",
+            "Name": "take-the-test-2",
+            "Tags": [],
+            "Title": "",
+            "Type": "Button"
+        },
+        {
+            "Banners": [],
+            "Id": "db2895d7-2df9-4644-8549-eace007f3e6e",
+            "IsDividerShown": true,
+            "LayoutType": "stretch",
+            "Name": "introduction-1",
+            "Tags": [],
+            "Title": "Get introduction to managed portfolio",
+            "Type": "Banner"
+        },
+        {
+            "Id": "c8857bb6-8a39-4a43-802f-958669232322",
+            "IsDividerShown": false,
+            "Name": "introduction-image-6",
+            "RichText": "\n  <img style=\"margin: 0 auto 2rem auto\" alt=\"\" height=\"201\" width=\"855\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg==\"/>\n",
+            "Tags": [],
+            "Title": "",
+            "Type": "RichTextSection"
+        },
+        {
+            "Buttons": [
+                {
+                    "Align": "center",
+                    "Id": "56d1a621-0e7a-403e-95f2-25df1f691227",
+                    "IsClear": false,
+                    "IsNoCase": false,
+                    "IsOutline": false,
+                    "IsPrimary": false,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false
+                    },
+                    "Name": "learn_more_1",
+                    "Size": "",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Learn more"
+                }
+            ],
+            "Id": "3487f833-7079-4e1e-acd0-8d6cafb06c99",
+            "LayoutJustify": "",
+            "LayoutType": "",
+            "Name": "learn-more-1",
+            "Tags": [],
+            "Title": "",
+            "Type": "Button"
+        }
+    ],
+    "Tags": [
+        "RiskLevelHigh",
+        "RiskLevelLow",
+        "RiskLevelMedium",
+        "RiskLevelUnknown",
+        "RiskLevelVeryHigh"
+    ],
+    "Title": "",
+    "Url": "/page/managed-portfolios-introduction"
+}

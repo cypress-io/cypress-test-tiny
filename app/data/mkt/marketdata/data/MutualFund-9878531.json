@@ -1,0 +1,205 @@
+{
+    "AssetType": "MutualFund",
+    "CountryCode": "GB",
+    "CurrencyCode": "USD",
+    "Description": "GS EM MKTS DEBT POR BS (USD) ACC",
+    "ExchangeId": "MTU",
+    "GeneralInfo": {
+        "FundInfo": {
+            "AssetClassification": {
+                "Key": "SICAV",
+                "Value": "SICAV"
+            },
+            "Benchmark": "JPM EMBI Global Diversified TR USD",
+            "BroadAssetClass": {
+                "Key": "Fixed Income",
+                "Value": "Fixed Income"
+            },
+            "Description": "For investors seeking a high level of total return consisting of income and capital appreciation by focusing on fixed income securities of emerging market issuers.",
+            "DistributionFeePercOfNAVActualPct": 0,
+            "DistributionFeePercOfNAVEstimatedPct": 0,
+            "Domicile": "Luxembourg",
+            "Exchange": "MTU",
+            "FundBaseCurrency": "USD",
+            "FundCategory": {
+                "Key": "Emerging Markets Fixed Income",
+                "Value": "Emerging Markets Fixed Income"
+            },
+            "FundSizeMio": 285.288567,
+            "FundType": {
+                "Key": "SICAV",
+                "Value": "SICAV"
+            },
+            "InceptionDate": "2005-11-14",
+            "IssuerName": "Goldman Sachs Asset Management Global Services Limited",
+            "MaxExitChargesPct": 0,
+            "MaxInitialChargesPct": 0,
+            "MgtFeeActualPct": 0,
+            "MgtFeeEstimatedPct": 1.25,
+            "OngoingCostActualPct": 1.4,
+            "OngoingCostEstimatedPct": 1.4,
+            "Rating": 3,
+            "RatingEffectiveEndDate": "2018-10-31",
+            "ShareClassCurrency": "US Dollar",
+            "ShareClassInception": "2000-05-03",
+            "SustainabilityRating": {
+                "Key": "5",
+                "Value": "High"
+            },
+            "TransactionFeeEstimatedPct": 0.0284,
+            "TypicalExitCostPct": 0
+        }
+    },
+    "Instrument": "GSGEMBA.MFU",
+    "MinimumTradeSize": 5000,
+    "MinimumTradeSizeCurrency": "USD",
+    "Performance": {
+        "FundBased": [
+            {
+                "Date": "2018-10-31",
+                "Pct": -7.78175,
+                "ReportingPeriod": {
+                    "DisplayValue": "YTD - Year to Date",
+                    "Key": "M0"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": -2.55198,
+                "ReportingPeriod": {
+                    "DisplayValue": "1 Month",
+                    "Key": "M1"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": -0.62651,
+                "ReportingPeriod": {
+                    "DisplayValue": "2 Months",
+                    "Key": "M2"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": -4.27112,
+                "ReportingPeriod": {
+                    "DisplayValue": "3 Months",
+                    "Key": "M3"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": -5.58608,
+                "ReportingPeriod": {
+                    "DisplayValue": "6 Months",
+                    "Key": "M6"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": -8.19234,
+                "ReportingPeriod": {
+                    "DisplayValue": "9 Months",
+                    "Key": "M9"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": -7.57508,
+                "ReportingPeriod": {
+                    "DisplayValue": "1 Year",
+                    "Key": "M12"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": -1.56296,
+                "ReportingPeriod": {
+                    "DisplayValue": "2 Years",
+                    "Key": "M24"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": 2.78299,
+                "ReportingPeriod": {
+                    "DisplayValue": "3 Years",
+                    "Key": "M36"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": 1.94612,
+                "ReportingPeriod": {
+                    "DisplayValue": "4 Years",
+                    "Key": "M48"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": 2.95026,
+                "ReportingPeriod": {
+                    "DisplayValue": "5 Years",
+                    "Key": "M60"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": 2.03716,
+                "ReportingPeriod": {
+                    "DisplayValue": "6 Years",
+                    "Key": "M72"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": 3.94277,
+                "ReportingPeriod": {
+                    "DisplayValue": "7 Years",
+                    "Key": "M84"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": 3.7836,
+                "ReportingPeriod": {
+                    "DisplayValue": "8 Years",
+                    "Key": "M96"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": 5.50508,
+                "ReportingPeriod": {
+                    "DisplayValue": "9 Years",
+                    "Key": "M108"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": 9.43502,
+                "ReportingPeriod": {
+                    "DisplayValue": "10 Years",
+                    "Key": "M120"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": 7.01591,
+                "ReportingPeriod": {
+                    "DisplayValue": "15 Years",
+                    "Key": "M180"
+                }
+            },
+            {
+                "Date": "2018-10-31",
+                "Pct": 8.60935,
+                "ReportingPeriod": {
+                    "DisplayValue": "Since Inception",
+                    "Key": "M255"
+                }
+            }
+        ]
+    },
+    "Uic": 9878531
+}

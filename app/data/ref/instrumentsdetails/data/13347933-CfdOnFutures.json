@@ -1,0 +1,96 @@
+{
+    "AmountDecimals": 0,
+    "AssetType": "CfdOnFutures",
+    "CurrencyCode": "USD",
+    "DefaultAmount": 0,
+    "DefaultSlippage": 0.02,
+    "DefaultSlippageType": "Percentage",
+    "Description": "Euro/US Dollar September 2019",
+    "DisplayHint": "Forex",
+    "Exchange": {
+        "CountryCode": "",
+        "ExchangeId": "",
+        "Name": ""
+    },
+    "ExpiryDate": "2019-09-11",
+    "ExpiryDateTime": "2019-09-11T15:00:00.000000Z",
+    "Format": {
+        "Decimals": 5,
+        "OrderDecimals": 5
+    },
+    "GroupId": 0,
+    "IncrementSize": 1,
+    "IsTradable": true,
+    "LotSize": 1,
+    "LotSizeType": "OddLotsNotAllowed",
+    "MarketData": {
+        "Country": "US",
+        "FiveYearsReturnPct": 0,
+        "OneDayReturnPct": -0.06,
+        "OneMonthReturnPct": 0,
+        "OneWeekReturnPct": 0,
+        "OneYearReturnPct": 0,
+        "SixMonthsReturnPct": 0,
+        "ThreeMonthsReturnPct": 0,
+        "ThreeYearsReturnPct": 0,
+        "TwoMonthsReturnPct": 0,
+        "TwoYearsReturnPct": 0
+    },
+    "MinimumLotSize": 5000,
+    "MinimumOrderValue": 0,
+    "OrderDistances": {
+        "EntryDefaultDistance": 0.25,
+        "EntryDefaultDistanceType": "Percentage",
+        "StopLimitDefaultDistance": 5,
+        "StopLimitDefaultDistanceType": "Pips",
+        "StopLossDefaultDistance": 0.5,
+        "StopLossDefaultDistanceType": "Percentage",
+        "StopLossDefaultEnabled": false,
+        "StopLossDefaultOrderType": "Stop",
+        "TakeProfitDefaultDistance": 0.5,
+        "TakeProfitDefaultDistanceType": "Percentage",
+        "TakeProfitDefaultEnabled": false
+    },
+    "OrderSetting": {},
+    "PriceCurrency": "USD",
+    "PriceToContractFactor": 1,
+    "PrimaryListing": 13347933,
+    "RelatedInstruments": [
+        {
+            "AssetType": "ContractFutures",
+            "Uic": 10795354
+        },
+        {
+            "AssetType": "FuturesStrategy",
+            "Uic": 11495497
+        }
+    ],
+    "RelatedOptionRoots": [1279],
+    "RelatedOptionRootsEnhanced": [
+        {
+            "AssetType": "FuturesOption",
+            "OptionRootId": 1279
+        }
+    ],
+    "Sector": {
+        "Name": "Financials - Currencies",
+        "SectorId": "247"
+    },
+    "StandardAmounts": [5000, 10000, 50000, 100000],
+    "SupportedOrderTypes": [
+        "Market",
+        "Limit",
+        "StopIfTraded",
+        "TrailingStopIfTraded",
+        "StopLimit"
+    ],
+    "Symbol": "EURUSDECSEP19",
+    "TickSize": 0.00001,
+    "TradableAs": ["CfdOnFutures"],
+    "TradableOn": [],
+    "TradingSignals": "NotAllowed",
+    "TradingUnitsPlural": "Amount",
+    "TradingUnitsSingular": "Amount",
+    "Uic": 13347933,
+    "UnderlyingUic": 10795354
+}

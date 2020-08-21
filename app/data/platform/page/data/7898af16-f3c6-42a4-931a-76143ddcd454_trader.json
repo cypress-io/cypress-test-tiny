@@ -1,0 +1,74 @@
+{
+    "Name": "FxSpot",
+    "Sections": [
+        {
+            "Type": "Header",
+            "IsDividerShown": false,
+            "IsNarrow": false,
+            "Name": "header",
+            "Title": "",
+            "Id": "57fd5a5e-e77a-4782-b4a6-536e526d2f33"
+        },
+        {
+            "Type": "InstrumentChart",
+            "IsDividerShown": true,
+            "Title": "PriceChart",
+            "Name": "ChartSection",
+            "Id": "InstrumentChart",
+            "TabId": "Overview"
+        },
+        {
+            "Type": "TradeSignalsGrids",
+            "IsDividerShown": false,
+            "LayoutType": "stretch",
+            "TradeSignalsGrids": [
+                {
+                    "SignalLimit": 6,
+                    "Intervals": [15, 1440, 30, 240, 60],
+                    "Probability": 0,
+                    "ChartPatternEmerging": true,
+                    "ChartPatternBreakout": true,
+                    "AssetTypes": ["FxSpot"],
+                    "KeyLevelPatternApproaching": true,
+                    "KeyLevelPatternBreakout": true,
+                    "FibonacciPatternEmerging": true,
+                    "FibonacciPatternCompleted": true,
+                    "Name": "fx - tradesignalgrid",
+                    "Title": "",
+                    "Tags": null,
+                    "Id": "693d7805-920c-4749-9083-b17e1d5c1375",
+                    "Uics": null
+                }
+            ],
+            "Name": "trade signals - tradesignalgridsection",
+            "Title": "Trade signals",
+            "Tags": null,
+            "Id": "f430a838-a42c-4889-8f3e-c0fd94af5e16",
+            "TabId": "Overview"
+        },
+        {
+            "Type": "NewsList",
+            "IsDividerShown": false,
+            "LayoutType": "stretch",
+            "viewType": "grid",
+            "NewsLists": [
+                {
+                    "Title": "",
+                    "NewsLimit": 10,
+                    "Id": "eb01c89c-9107-4ed6-9aaa-2da77f4d6bab1",
+                    "Uics": [21, 31, 31]
+                }
+            ],
+            "Name": "latest news - newslistsection",
+            "Title": "Latest news",
+            "Tags": null,
+            "Id": "a228164d-5213-47fb-a526-4297556275e72"
+        }
+    ],
+    "Tags": null,
+    "Title": "",
+    "Url": "/page/product/FxSpot",
+    "Id": "7898af16-f3c6-42a4-931a-76143ddcd454_trader",
+    "IsBackButtonHidden": true,
+    "IsFullBleed": true
+}

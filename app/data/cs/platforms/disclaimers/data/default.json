@@ -1,0 +1,40 @@
+{
+    "__count": 7,
+    "Data": [
+        {
+            "LanguageCode": "en",
+            "LocalizedText": "<p>Profit &amp; Loss Amount reported from your perspective<br>Please check the information carefully. You are obliged to ensure that the information contained in this document is correct. The client is hereby informed and accepts the information as contained in this document.</p><ul class=\"t-list\">\r\n<li><b>Commissions and Trading Costs:</b> The costs or fees incurred for trading. Commissions are calculated as a percentage of the traded amount or a fixed amount per security, subject to a minimum fee for small trades. For details of the applicable commission rates please contact your account Manager.</li>\r\n<li><b>Realized Profit and Loss:</b> The total account bookings resulting from closing trades, plus any option premiums paid or received (minus any commissions and fees).</li>\r\n<li><b>Trading Activity in Cash Products:</b> All booked amounts on your account resulting from Trades in Bonds, Stocks and Managed Funds (minus any commissions and fees).</li>\r\n<li><b>Interest Paid and Received:</b> All account bookings resulting from interest credits/debits or where specifically stated CFD Financing Costs.</li>\r\n<li><b>Dividends:</b> Total account bookings resulting from a Stock Dividend and distributions on CFDs. Please refer to your Trades Executed for further specification of Stock Dividends vs. distributions on CFDs. Please note that Stock Dividend bookings are gross i.e. before deduction of any withholding tax.</li>\r\n<li><b>Account Value:</b> The value of the account (Cash Balance + all unrealized Profit and Loss + all Transactions not booked) at close of business 1700h EST, (New York Time).</li>\r\n</ul>",
+            "ModuleId": "3422"
+        },
+        {
+            "LanguageCode": "en",
+            "LocalizedText": "<b>Settlement/Trade Confirmation</b><br />\r\nThe information provided above serves as Settlement/Trade confirmation for each individual transaction performed.\r\nPlease check the information carefully and report any difference upon receipt.\r\n<br />\r\n<br />\r\nAll transactions are executed as immediate trades with Saxo Bank as\r\n counterpart.\r\n<br />\r\n<br />\r\n<b>Commissions</b><br />\r\nCommissions are calculated as a percentage of the traded amount or a fixed amount per security,\r\nsubject to a minimum fee for small trades. Details of the applicable commission rates are found\r\nin the Commissions, Charges and Margin Schedule on www.saxobank.com.\r\n<br />\r\n<br />\r\n<b>Information about Saxo Bank A/S</b><br />\r\nSaxo Bank A/S, Philip Heymans Allé 15, 2900 Hellerup, Denmark.<br />\r\nCompany no.: 15 73 12 49<br />\r\nAuthorised and Regulated by the Danish Financial Supervisory Authority (Finanstilsynet)\r\n",
+            "ModuleId": "3428"
+        },
+        {
+            "LanguageCode": "en",
+            "LocalizedText": "Saxo Bank A/S and/or its group companies (“Saxo Bank”) shall not be responsible for any loss arising from any investment based on any trade idea, forecast or other information contained herein.\r\nThe contents of this publication should not be considered as a personal investment advice or be construed as an express or implied promise, guarantee or implication by Saxo Bank that clients will profit from the strategies herein or that losses in connection therewith can or will be limited.\r\nTrades in accordance with the trade ideas in an analysis, especially, but not limited to, leveraged investments such as foreign exchange trading and investment in derivatives, can be very speculative and may result in losses as well as profits, in particular if the conditions mentioned in the analysis do not occur as anticipated.\r\nPrior to making any investment or entering into any transaction, you should carefully consider your financial situation and consult your financial advisor(s) in order to understand the risks involved and ensure the suitability for you of any investment or transaction. You are solely responsible for the management of all TradeMaker entry and related orders and Saxo Bank takes no responsibility for any loss related to TradeMaker.\r\nThe securities described herein may not be eligible for sale in all jurisdictions or to certain categories of investors. All expressions of opinion are subject to change without notice.\r\nOpinions expressed herein may be personal to the author and not reflect the opinions of Saxo Bank.\r\nPlease read our full Analysis Disclosure & Disclaimer at www.saxobank.com/analysis/disclaimer. This legal notice and disclaimer are governed by Danish law.",
+            "ModuleId": "3440"
+        },
+        {
+            "LanguageCode": "en",
+            "LocalizedText": "<b>Settlement/Trade Confirmation</b><br />\r\nThe information provided above serves as Settlement/Trade confirmation for each individual transaction performed.\r\nPlease check the information carefully and report any difference upon receipt.\r\n<br />\r\n<br />\r\nAll transactions are executed as immediate trades with Saxo Bank as\r\n counterpart.\r\n<br />\r\n<br />\r\n<b>Commissions</b><br />\r\nCommissions are calculated as a percentage of the traded amount or a fixed amount per security,\r\nsubject to a minimum fee for small trades. Details of the applicable commission rates are found\r\nin the Commissions, Charges and Margin Schedule on www.saxobank.com.\r\n<br />\r\n<br />\r\n<b>Information about Saxo Bank A/S</b><br />\r\nSaxo Bank A/S, Philip Heymans Allé 15, 2900 Hellerup, Denmark.<br />\r\nCompany no.: 15 73 12 49<br />\r\nAuthorised and Regulated by the Danish Financial Supervisory Authority (Finanstilsynet)\r\n",
+            "ModuleId": "3461"
+        },
+        {
+            "LanguageCode": "en",
+            "LocalizedText": "Bla bla this is PDF portfolio report",
+            "ModuleId": "3507"
+        },
+        {
+            "LanguageCode": "en",
+            "LocalizedText": "<b>Settlement/Trade Confirmation</b><br />\r\nThe information provided above serves as Settlement/Trade confirmation for each individual transaction performed.\r\nPlease check the information carefully and report any difference upon receipt.\r\n<br />\r\n<br />\r\nAll transactions are executed as immediate trades with Saxo Bank as\r\n counterpart.\r\n<br />\r\n<br />\r\n<b>Commissions</b><br />\r\nCommissions are calculated as a percentage of the traded amount or a fixed amount per security,\r\nsubject to a minimum fee for small trades. Details of the applicable commission rates are found\r\nin the Commissions, Charges and Margin Schedule on www.saxobank.com.\r\n<br />\r\n<br />\r\n<b>Information about Saxo Bank A/S</b><br />\r\nSaxo Bank A/S, Philip Heymans Allé 15, 2900 Hellerup, Denmark.<br />\r\nCompany no.: 15 73 12 49<br />\r\nAuthorised and Regulated by the Danish Financial Supervisory Authority (Finanstilsynet)\r\n",
+            "ModuleId": "3522"
+        },
+        {
+            "LanguageCode": "en",
+            "LocalizedText": "Bla bla 123 english",
+            "ModuleId": "3523"
+        }
+    ]
+}

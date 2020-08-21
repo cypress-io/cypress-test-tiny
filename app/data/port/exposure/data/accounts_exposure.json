@@ -1,0 +1,28 @@
+{
+    "Accounts": [
+        {
+            "AccountKey": "WKJn2ZHPqZ0Tb1M-MqFbZw==",
+            "AccountId": "32870/FEUR",
+            "ClientId": "3145282",
+            "ClientName": "Client 3145282 (External test client with long name)",
+            "CashAvailable": 350120,
+            "Currency": "USD",
+            "AccountValue": 400520,
+            "InitialMargin": 0,
+            "NetPositionAmount": 0,
+            "NetPositionExposure": 0
+        },
+        {
+            "AccountKey": "kycSKJqPNpnr3Of9VicyAA==",
+            "AccountId": "32870/FCHF",
+            "ClientId": "3145282",
+            "ClientName": "Client 3145282 (External test client with long name)",
+            "CashAvailable": 10100,
+            "Currency": "USD",
+            "AccountValue": 18040,
+            "InitialMargin": 0,
+            "NetPositionAmount": 10,
+            "NetPositionExposure": 1650
+        }
+    ]
+}

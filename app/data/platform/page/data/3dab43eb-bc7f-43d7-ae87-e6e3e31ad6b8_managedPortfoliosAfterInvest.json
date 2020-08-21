@@ -1,0 +1,17 @@
+{
+    "Id": "3dab43eb-bc7f-43d7-ae87-e6e3e31ad6b8_managedPortfoliosAfterInvest",
+    "Name": "managed_portfolios_after_invest",
+    "Sections": [
+        {
+            "Type": "RichTextSection",
+            "IsDividerShown": false,
+            "RichText": "<br />↵<p style=\"text-align: center;font-size: 20px;line-height: 37px;font-weight:bold; text-decoration: underline ;\">Your Portfolio is being setup</p>↵<p style=\"text-align: center;margin-bottom:0;font-weight: normal;margin:auto;max-width:768px;font-size:14px;line-height: 24px;\" />↵Sit back, your money is now being put to work. <br />↵You will be able to see your ETF portfolio investments from the first trading day of the following week. For other portfolios, you will be able to see your positions no later than 24 hours (except weekends and bank holidays) after you subscribed to the portfolio.<br />↵<br />↵<p style=\"text-align: center;\" /><p />↵<br />↵<p style=\"text-align: center;margin-bottom:0;font-weight: normal;margin:auto;max-width:768px;font-size:14px;line-height: 24px; text-decoration: underline;\">↵Regular Contributions</p>↵<br />↵<p style=\"text-align: center;margin-bottom:0;font-weight: normal;margin:auto;max-width:768px;font-size:14px;line-height: 24px;\" />↵Did you know you can submit regular contributions to your ETF portfolio? <br />↵Send money from your external bank account and it will automatically be invested in your portfolio. Simply login to your external bank account and create a regular payment schedule to the account that is created specifically for your portfolio. <br />↵You can access your portfolio account details by clicking the &ldquo;Invest More&rdquo; button.<br />↵<p />↵<br />↵<p style=\"text-align: center;\" />&nbsp;↵<br />↵<p style=\"text-align: center;margin-bottom:0;font-weight: normal;margin:auto;max-width:768px;font-size:14px;line-height: 24px; text-decoration: underline;\">↵Review your portfolio:&nbsp;</p>↵<br />↵<p style=\"text-align: center;margin-bottom:0;font-weight: normal;margin:auto;max-width:768px;font-size:14px;line-height: 24px;\">↵Check in now and then (at least once every 3 months) to see how your investments are doing.<br />↵In SaxoTraderGo click the &rdquo;Account&rdquo; section and filter to see your SaxoSelect account.<br />↵In SaxoInvestor click the &rdquo;Portfolio&rdquo; section, and filter to see your SaxoSelect account.</p>",
+            "Name": "review your portfolios - richtextsection",
+            "Title": "",
+            "Id": "9c83fe6f-a8eb-445e-8f7a-907e4ed15b14"
+        }
+    ],
+    "Tags": ["RiskLevelHigh", "RiskLevelLow", "RiskLevelMedium", "RiskLevelVeryHigh"],
+    "Title": "",
+    "Url": "/page/managed_portfolios_after_invest"
+}

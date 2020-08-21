@@ -1,0 +1,131 @@
+{
+    "Data": [
+        {
+            "DisplayAndFormat": {
+                "Currency": "EUR",
+                "Decimals": 2,
+                "Description": "Air France - KLM CB turbo short 12.79",
+                "Format": "Normal",
+                "Symbol": "DE000CU36JV0:xpar"
+            },
+            "Exchange": {
+                "Description": "Euronext Paris",
+                "ExchangeId": "PAR",
+                "IsOpen": true
+            },
+            "NetPositionBase": {
+                "AccountId": "test1",
+                "Amount": 10,
+                "AmountLong": 10,
+                "AmountShort": 0,
+                "AssetType": "MiniFuture",
+                "CanBeClosed": true,
+                "ClientId": "2147309355",
+                "HasForceOpenPositions": false,
+                "Isin": "DE000CU36JV0",
+                "IsMarketOpen": true,
+                "IssuerName": "Commerzbank",
+                "NonTradableReason": "NotOnlineClientTradable",
+                "NumberOfRelatedOrders": 0,
+                "OpeningDirection": "Buy",
+                "OpenOrdersCount": 0,
+                "OptionsData": {
+                    "BarrierUpper": 12.79,
+                    "CanBeExercised": false,
+                    "ExerciseStyle": "None",
+                    "ExpiryCut": "None",
+                    "ExpiryDate": "0001-01-01T00:00:00.000000Z",
+                    "Gearing": 2.17,
+                    "PutCall": "Put",
+                    "Ratio": 1,
+                    "SettlementStyle": "CashDelivery",
+                    "TradePerspective": "Put"
+                },
+                "PositionsAccount": "test1",
+                "SinglePositionId": "158924330",
+                "SinglePositionStatus": "Open",
+                "TradingStatus": "NonTradable",
+                "Uic": 11019
+            },
+            "NetPositionId": "DE000CU36JV0:xpar__SP",
+            "NetPositionView": {
+                "Ask": 3.4,
+                "AverageOpenPrice": 3.4,
+                "Bid": 3.39,
+                "CalculationReliability": "Ok",
+                "ConversionRateCurrent": 1,
+                "CurrentPrice": 4.48,
+                "CurrentPriceDelayMinutes": 0,
+                "CurrentPriceType": "Indicative",
+                "Exposure": 0,
+                "ExposureCurrency": "EUR",
+                "ExposureInBaseCurrency": 0,
+                "InstrumentPriceDayPercentChange": 0,
+                "MarketValue": 44.8,
+                "MarketValueInBaseCurrency": 44.8,
+                "PositionCount": 1,
+                "PositionsAverageBuyPrice": 3.4,
+                "PositionsAverageSellPrice": 0,
+                "PositionsNotClosedCount": 1,
+                "ProfitLossOnTrade": 10.8,
+                "ProfitLossOnTradeInBaseCurrency": 10.8,
+                "Status": "Open",
+                "TradeCostsTotal": -86.4,
+                "TradeCostsTotalInBaseCurrency": -86.4
+            },
+            "SinglePosition": {
+                "PositionBase": {
+                    "AccountId": "test1",
+                    "AccountKey": "wbOWNSc2Sn7NdsjbtprrAQ==",
+                    "Amount": 10,
+                    "AssetType": "MiniFuture",
+                    "CanBeClosed": false,
+                    "ClientId": "2147309355",
+                    "CloseConversionRateSettled": false,
+                    "CorrelationKey": "f3168e83-2c02-48e6-b988-7970181f1f71",
+                    "ExecutionTimeOpen": "2020-05-13T09:10:09.949493Z",
+                    "IsForceOpen": false,
+                    "Isin": "DE000CU36JV0",
+                    "IsMarketOpen": true,
+                    "IssuerName": "Commerzbank",
+                    "OpenPrice": 3.4,
+                    "OptionsData": {
+                        "BarrierUpper": 12.79,
+                        "CanBeExercised": false,
+                        "ExerciseStyle": "None",
+                        "ExpiryCut": "None",
+                        "ExpiryDate": "0001-01-01T00:00:00.000000Z",
+                        "Gearing": 2.17,
+                        "PutCall": "Put",
+                        "Ratio": 1,
+                        "SettlementStyle": "PhysicalDelivery",
+                        "TradePerspective": "Put"
+                    },
+                    "RelatedOpenOrders": [],
+                    "Status": "Open",
+                    "Uic": 11019,
+                    "ValueDate": "2020-05-15T00:00:00.000000Z"
+                },
+                "PositionId": "158924330",
+                "PositionView": {
+                    "Ask": 3.4,
+                    "Bid": 3.39,
+                    "CalculationReliability": "Ok",
+                    "CurrentPrice": 4.48,
+                    "CurrentPriceDelayMinutes": 0,
+                    "CurrentPriceType": "Indicative",
+                    "Exposure": 0,
+                    "ExposureCurrency": "EUR",
+                    "ExposureInBaseCurrency": 0,
+                    "InstrumentPriceDayPercentChange": 0,
+                    "MarketValue": 44.8,
+                    "ProfitLossOnTrade": 10.8,
+                    "ProfitLossOnTradeInBaseCurrency": 10.8,
+                    "TradeCostsTotal": -86.4,
+                    "TradeCostsTotalInBaseCurrency": -86.4
+                }
+            },
+            "LastUpdated": "2020-05-13T09:11:19.949Z"
+        }
+    ]
+}

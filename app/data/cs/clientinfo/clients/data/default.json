@@ -1,0 +1,100 @@
+{
+    "BrokerAddress": {
+        "DisplayableAddress": [
+            "Tamala Berdin",
+            "Address #8520",
+            "AddressExt #8520",
+            "Zip #8520 City #8520",
+            "State #8520",
+            "Denmark"
+        ]
+    },
+    "BrokerId": "1",
+    "CanInitiateChat": false,
+    "ClientAddress": {
+        "Address": "Address #831586",
+        "AddressExt": "AddressExt #831586",
+        "City": "City #831586",
+        "CityNew": "City_New #831586",
+        "ClientName": "Virgil Belwood",
+        "CoName": "CoName #831586",
+        "Country": "Greece",
+        "CountryIsoCode": "GR",
+        "CountryIsoName": "Greece",
+        "DisplayableAddress": [
+            "Virgil Belwood",
+            "Address #831586",
+            "AddressExt #831586",
+            "Zip #831586 City #831586",
+            "State #831586",
+            "Denmark"
+        ],
+        "LocalArea": "LocalArea #831586",
+        "Number": "Number #831586",
+        "PoBox": "PoBox #831586",
+        "PostalCode": "Zip #831586",
+        "PostalDistrict": "PostalDistrict #831586",
+        "State": "State #831586",
+        "StreetName": "StreetName #831586"
+    },
+    "ClientDetails": {
+        "ClientSegment": "Classic",
+        "DefaultAccountId": "151373INET",
+        "Iban": "DK9211490100027355",
+        "IsEnabledForThirdPartyPayments": false,
+        "IsHINEnabled": false,
+        "IsProductReclassificationLocked": false,
+        "LegalEntityId": "1",
+        "OfficeInformation": {
+            "ClosingOffice": {
+                "Id": 8,
+                "Name": "Prague",
+                "RegionId": 3,
+                "RegionName": "CEE"
+            }
+        },
+        "PrimaryEmail": "331****",
+        "PrimaryPhone": "em************@*****.com",
+        "ServiceLanguage": {
+            "Code": "es",
+            "Name": "Espanol"
+        }
+    },
+    "ClientId": "3315945",
+    "ClientName": "XMATW",
+    "ClientTypeName": "Internet Client",
+    "HasCounterparts": false,
+    "IsClientActive": true,
+    "OwnerAddress": {
+        "Address": "Address #8520",
+        "AddressExt": "AddressExt #8520",
+        "City": "City #8520",
+        "CityNew": "City_New #8520",
+        "CoName": "CoName #8520",
+        "CounterpartType": "Client",
+        "Country": "Denmark",
+        "CountryIsoCode": "DK",
+        "CountryIsoName": "Denmark",
+        "DisplayableAddress": [
+            "Tamala Berdin",
+            "Address #8520",
+            "AddressExt #8520",
+            "Zip #8520 City #8520",
+            "State #8520",
+            "Denmark"
+        ],
+        "Email": "info@saxobank.com",
+        "Fax": "+45 39 77 42 00",
+        "LocalArea": "LocalArea #8520",
+        "Number": "Number #8520",
+        "OwnerName": "Tamala Berdin",
+        "Phone": "+45 39 77 40 00",
+        "PoBox": "PoBox #8520",
+        "PostalCode": "Zip #8520",
+        "PostalDistrict": "PostalDistrict #8520",
+        "State": "State #8520",
+        "StreetName": "StreetName #8520"
+    },
+    "OwnerId": "3315945",
+    "VatRate": 25
+}

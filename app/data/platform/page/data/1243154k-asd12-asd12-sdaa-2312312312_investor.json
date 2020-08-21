@@ -1,0 +1,240 @@
+{
+    "Name": "null sitecore section",
+    "Sections": [
+        {
+            "Id": "banner-section",
+            "Type": "Banner",
+            "Banners": [
+                {
+                    "Id": "banner"
+                }
+            ]
+        },
+        {
+            "Id": "button-section",
+            "Type": "Button",
+            "Buttons": [
+                {
+                    "Id": "button"
+                }
+            ]
+        },
+        {
+            "Id": "instrument-list-section",
+            "Type": "InstrumentList"
+        },
+        {
+            "Id": "product-finder-section",
+            "Type": "ProductFinder"
+        },
+        {
+            "Id": "instrument-grid-section",
+            "Type": "InstrumentGrids",
+            "InstrumentGrids": [
+                {
+                    "Id": "instrument-grid"
+                }
+            ]
+        },
+        {
+            "Id": "screener-wrapper-section",
+            "Type": "ScreenerWrapper",
+            "Screeners": [
+                {
+                    "Id": "screener"
+                }
+            ]
+        },
+        {
+            "Id": "screener-section",
+            "Type": "Screener"
+        },
+        {
+            "Id": "tradesignal-grid-section",
+            "Type": "TradeSignalsGrids",
+            "TradeSignalsGrids": [
+                {
+                    "Id": "tradesignal-grid",
+                    "Title": "tradesignal"
+                }
+            ]
+        },
+        {
+            "Id": "analyst-grids-section",
+            "Type": "AnalystGrids",
+            "AnalystGrids": [
+                {
+                    "Id": "analyst-grid"
+                }
+            ]
+        },
+        {
+            "Id": "news-lists-section",
+            "Type": "NewsList",
+            "NewsLists": [
+                {
+                    "Id": "news-list"
+                }
+            ]
+        },
+        {
+            "Id": "rich-text-section",
+            "Type": "RichTextSection"
+        },
+        {
+            "Id": "media-text-section",
+            "Type": "MediaTextSection"
+        },
+        {
+            "Id": "navigation-cards-section",
+            "Type": "NavigationCards",
+            "NavigationCards": [
+                {
+                    "Id": "navigation-card"
+                }
+            ]
+        },
+        {
+            "Id": "articles-grid-section",
+            "Type": "LatestArticleGrid"
+        },
+        {
+            "Id": "article-section",
+            "Type": "ArticleSection"
+        },
+        {
+            "Id": "featured-text-article-section",
+            "Type": "FeaturedTextArticle"
+        },
+        {
+            "Id": "featured-trade-view-article-section",
+            "Type": "FeaturedTradeViewArticle"
+        },
+        {
+            "Id": "featured-video-article-section",
+            "Type": "FeaturedVideoArticle"
+        },
+        {
+            "Id": "text-section",
+            "Type": "Text",
+            "Text": "text"
+        },
+        {
+            "Id": "managed-portfolio-section",
+            "Type": "ManagedPortfolios"
+        },
+        {
+            "Id": "performance-bar-section",
+            "Type": "PerformanceBar"
+        },
+        {
+            "Id": "strategy-performance-section",
+            "Type": "StrategyPerformance"
+        },
+        {
+            "Id": "performance-graph-section",
+            "Type": "PerformanceGraph"
+        },
+        {
+            "Id": "portfolio-logo-section",
+            "Type": "PortfolioLogo"
+        },
+        {
+            "Id": "my-markets-section",
+            "Type": "my-markets-section"
+        },
+        {
+            "Id": "cards-section",
+            "Type": "Cards"
+        },
+        {
+            "Id": "cost-overview-section",
+            "Type": "CostOverview"
+        },
+        {
+            "Id": "product-selector-section",
+            "Type": "ProductSelector"
+        },
+        {
+            "Id": "composition-graph-section",
+            "Type": "CompositionAndGraph"
+        },
+        {
+            "Id": "indices-graph-section",
+            "Type": "IndicesGraph"
+        },
+        {
+            "Id": "youtube-section",
+            "Type": "Youtube"
+        },
+        {
+            "Id": "tabs-section",
+            "Type": "TabSection",
+            "Tabs": [
+                {
+                    "Id": "tab-1",
+                    "Sections": []
+                }
+            ]
+        },
+        {
+            "Id": "issue-details-section",
+            "Type": "IssueDetails"
+        },
+        {
+            "Id": "general-info-section",
+            "Type": "GeneralInfo"
+        },
+        {
+            "Id": "header-section",
+            "Type": "Header"
+        },
+        {
+            "Id": "allocation-chart-section",
+            "Type": "AllocationChart"
+        },
+        {
+            "Id": "market-depth-section",
+            "Type": "MarketDepth"
+        },
+        {
+            "Id": "instrument-chart-section",
+            "Type": "InstrumentChart"
+        },
+        {
+            "Id": "financial-grid-section",
+            "Type": "FinancialsGrid"
+        },
+        {
+            "Id": "analyst-ratings-bar-section",
+            "Type": "AnalystRatingBar"
+        },
+        {
+            "Id": "account-selector-section",
+            "Type": "AccountSelector"
+        },
+        {
+            "Id": "current-holdings-section",
+            "Type": "CurrentHoldings"
+        },
+        {
+            "Id": "orders-section",
+            "Type": "Orders"
+        },
+        {
+            "Id": "historic-earnings-section",
+            "Type": "HistoricEarnings"
+        },
+        {
+            "Id": "returns-section",
+            "Type": "Returns"
+        },
+        {
+            "Id": "about-company-section",
+            "Type": "AboutCompany"
+        }
+    ],
+    "Title": "Null Sections Test",
+    "Url": "/page/null-sitecore-sections",
+    "Id": "1243154k-asd12-asd12-sdaa-2312312312_investor"
+}

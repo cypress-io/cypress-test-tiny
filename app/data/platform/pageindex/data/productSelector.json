@@ -1,0 +1,44 @@
+{
+    "DefaultPageId": "productSelector-markets",
+    "Pages": [
+        {
+            "Id": "productSelector-markets",
+            "Name": "markets",
+            "Title": "",
+            "Url": "/page/markets"
+        },
+        {
+            "Id": "productSelectorSubpage-stocks",
+            "Name": "stocks",
+            "Title": "Stocks",
+            "Url": "/page/stocks"
+        },
+        {
+            "Id": "productSelectorSubpage-forex",
+            "Name": "forex",
+            "Title": "Forex",
+            "Url": "/page/forex"
+        }
+    ],
+    "Links": {
+        "Header": [
+            {
+                "Name": "markets",
+                "Label": "Markets",
+                "IconType": "Basket",
+                "Url": "/page/markets",
+                "Id": "61b269ef-94f6-4ab2-96aa-7e8d56593084"
+            }
+        ],
+        "Footer": [
+            {
+                "Name": "disclaimer",
+                "Label": "A disclaimer",
+                "IconType": "Briefcase",
+                "Url": "/page/disclaimer",
+                "Id": "0fde35a7-ba5c-46c4-a471-d1557227ccad"
+            }
+        ]
+    },
+    "MappedSections": {}
+}

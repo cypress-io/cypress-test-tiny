@@ -1,0 +1,31 @@
+{
+    "Data": [
+        {
+            "Address": "APA91bH6MJ5zp4rAiqslfRRJOnegfPsODJaUBH4jkdAbPcA8WF-NYszyXJbbHpi8jGMHYxLCpxWA_JfH_fhYZvtT9npd0BHDtQgQAtCu5Qk-QLsLatB2QpPaRTPbIUBR88EKOwD9fGuh",
+            "AppId": "com.saxobank.fxwidget",
+            "CreateTime": "2015-11-03T11:51:43.37Z",
+            "DeliveryMethod": "GcmPush",
+            "Name": "samsung GT-I9295",
+            "NotificationTypes": ["TradeConfirmation", "MarginCall"],
+            "TargetId": "13244"
+        },
+        {
+            "Address": "APA91bHZCr-_MDtqBLoFOmiiRtVxs7GNsJXWGdUkZZB3fiL-9Ufa-glhYR_rcfIxpfyO_iHUIJn6A4FifdlFctNoVFKzU9tl-C6nWS0Fyk6j8p1hKoSRiDM0BP_-B9-tEq5pCv5a1T30",
+            "AppId": "com.saxobank.fxwidget",
+            "CreateTime": "2015-11-06T08:14:58.157Z",
+            "DeliveryMethod": "GcmPush",
+            "Name": "samsung GT-I9295",
+            "NotificationTypes": ["TradeConfirmation", "MarginCall"],
+            "TargetId": "13275"
+        },
+        {
+            "Address": "374fec477227fc95a0b282af1bb83e5c55380e13bf5376257922d4450b6ddd63",
+            "AppId": "com.saxobank.saxotrader.test",
+            "CreateTime": "2016-03-23T08:02:27.693Z",
+            "DeliveryMethod": "ApplePush",
+            "Name": "iPhone",
+            "NotificationTypes": ["TradeConfirmation", "MarginCall"],
+            "TargetId": "18708"
+        }
+    ]
+}

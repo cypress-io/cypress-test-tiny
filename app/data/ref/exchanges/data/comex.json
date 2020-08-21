@@ -1,0 +1,24 @@
+{
+    "AllDay": true,
+    "CountryCode": "US",
+    "Currency": "USD",
+    "ExchangeId": "COMEX",
+    "ExchangeSessions": [
+        {
+            "EndTime": "2019-11-12T04:59:59.000000Z",
+            "StartTime": "2019-11-11T05:00:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2019-11-13T04:59:59.000000Z",
+            "StartTime": "2019-11-12T05:00:00.000000Z",
+            "State": "AutomatedTrading"
+        }
+    ],
+    "Mic": "XCME",
+    "Name": "Commodity Exchange (COMEX)",
+    "PriceSourceName": "CME Group",
+    "TimeZone": 3,
+    "TimeZoneAbbreviation": "EST",
+    "TimeZoneOffset": "-05:00:00"
+}

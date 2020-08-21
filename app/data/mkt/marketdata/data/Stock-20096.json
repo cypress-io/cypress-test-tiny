@@ -1,0 +1,471 @@
+{
+    "AssetAllocations": [
+        {
+            "Key": "Stock",
+            "Pct": 94.34768
+        },
+        {
+            "Key": "Cash",
+            "Pct": 5.65232
+        },
+        {
+            "Key": "Convertible",
+            "Pct": 0.0
+        },
+        {
+            "Key": "Other",
+            "Pct": 0.0
+        },
+        {
+            "Key": "Preferred",
+            "Pct": 0.0
+        },
+        {
+            "Key": "Bond",
+            "Pct": 0.0
+        }
+    ],
+    "AssetType": "Stock",
+    "CountryCode": "DK",
+    "CountryWeightAllocations": [
+        {
+            "Country": {
+                "Key": "United States of America ",
+                "Value": "United States of America "
+            },
+            "CountryCode": "USA",
+            "Pct": 55.77785
+        },
+        {
+            "Country": {
+                "Key": "United Kingdom",
+                "Value": "United Kingdom"
+            },
+            "CountryCode": "GBR",
+            "Pct": 8.68107
+        },
+        {
+            "Country": {
+                "Key": "Switzerland",
+                "Value": "Switzerland"
+            },
+            "CountryCode": "CHE",
+            "Pct": 5.3938
+        },
+        {
+            "Country": {
+                "Key": "Japan",
+                "Value": "Japan"
+            },
+            "CountryCode": "JPN",
+            "Pct": 4.24629
+        },
+        {
+            "Country": {
+                "Key": "Canada",
+                "Value": "Canada"
+            },
+            "CountryCode": "CAN",
+            "Pct": 3.29715
+        },
+        {
+            "Country": {
+                "Key": "Hong Kong",
+                "Value": "Hong Kong"
+            },
+            "CountryCode": "HKG",
+            "Pct": 2.9353
+        },
+        {
+            "Country": {
+                "Key": "Germany",
+                "Value": "Germany"
+            },
+            "CountryCode": "DEU",
+            "Pct": 2.74564
+        },
+        {
+            "Country": {
+                "Key": "France",
+                "Value": "France"
+            },
+            "CountryCode": "FRA",
+            "Pct": 2.41771
+        },
+        {
+            "Country": {
+                "Key": "Denmark",
+                "Value": "Denmark"
+            },
+            "CountryCode": "DNK",
+            "Pct": 2.3308
+        },
+        {
+            "Country": {
+                "Key": "Singapore",
+                "Value": "Singapore"
+            },
+            "CountryCode": "SGP",
+            "Pct": 1.94076
+        },
+        {
+            "Country": {
+                "Key": "Sweden",
+                "Value": "Sweden"
+            },
+            "CountryCode": "SWE",
+            "Pct": 1.85307
+        },
+        {
+            "Country": {
+                "Key": "Netherlands",
+                "Value": "Netherlands"
+            },
+            "CountryCode": "NLD",
+            "Pct": 1.60201
+        },
+        {
+            "Country": {
+                "Key": "India",
+                "Value": "India"
+            },
+            "CountryCode": "IND",
+            "Pct": 1.12623
+        }
+    ],
+    "RevenueExposure": {
+        "Countries": [
+            {
+                "Key": "Greater China",
+                "Pct": 19.5568440670946
+            },
+            {
+                "Key": "Rest of Asia Pacific",
+                "Pct": 6.55396374178731
+            },
+            {
+                "Key": "Taiwan",
+                "Pct": 0.860991782977842
+            },
+            {
+                "Key": "United States",
+                "Pct": 36.9212522826107
+            },
+            {
+                "CountryCode": "ARE",
+                "Key": "United Arab Emirates",
+                "Pct": 0.370454087614601
+            },
+            {
+                "CountryCode": "ARG",
+                "Key": "Argentina",
+                "Pct": 0.48025577401683
+            },
+            {
+                "CountryCode": "AUS",
+                "Key": "Australia",
+                "Pct": 1.3899345785877
+            },
+            {
+                "CountryCode": "AUT",
+                "Key": "Austria",
+                "Pct": 0.403396806415783
+            },
+            {
+                "CountryCode": "BEL",
+                "Key": "Belgium",
+                "Pct": 0.477071828535929
+            },
+            {
+                "CountryCode": "BRA",
+                "Key": "Brazil",
+                "Pct": 1.54827982943956
+            },
+            {
+                "CountryCode": "ZAF",
+                "Key": "South Africa",
+                "Pct": 0.338348809277283
+            }
+        ],
+        "Segments": [
+            {
+                "Key": "Mac",
+                "Pct": 9.59506014796965
+            },
+            {
+                "Key": "Other Products",
+                "Pct": 6.557728872908
+            },
+            {
+                "Key": "Services",
+                "Pct": 14.0025226378509
+            },
+            {
+                "Key": "iPad",
+                "Pct": 7.08032907245995
+            },
+            {
+                "Key": "iPhone",
+                "Pct": 62.7643592688115
+            }
+        ]
+    },
+    "Segments": [
+        {
+            "Key": "Mac",
+            "Pct": 9.59506014796965
+        },
+        {
+            "Key": "Other Products",
+            "Pct": 6.557728872908
+        },
+        {
+            "Key": "Services",
+            "Pct": 14.0025226378509
+        },
+        {
+            "Key": "iPad",
+            "Pct": 7.08032907245995
+        },
+        {
+            "Key": "iPhone",
+            "Pct": 62.7643592688115
+        }
+    ],
+    "CurrencyCode": "DKK",
+    "Description": "Danske Inv Global StockPicking KL DKK D",
+    "DisplayHint": "Etf",
+    "ExchangeId": "CSE_INV",
+    "GeneralInfo": {
+        "FundInfo": {
+            "AssetClassification": {
+                "Key": "Open Ended Investment Company",
+                "Value": "Open Ended Investment Company"
+            },
+            "Benchmark": "MSCI ACWI NR USD",
+            "BroadAssetClass": {
+                "Key": "Equity",
+                "Value": "Equity"
+            },
+            "Description": "Afdelingen investerer globalt i aktier uden hensyntagen til spredning på lande, sektorer eller valutae. Afdeling StockPicking investerer selektivt og i færre selskaber.",
+            "Distribution": "true",
+            "DistributionFeePercOfNAVActualPct": 0.0,
+            "DistributionFeePercOfNAVEstimatedPct": 0.0,
+            "DistributionFrequency": {
+                "Key": "Annually",
+                "Value": "Annually"
+            },
+            "Domicile": "Denmark",
+            "Exchange": "CSE_INV",
+            "FundBaseCurrency": "DKK",
+            "FundCategory": {
+                "Key": "Global Equity Large Cap",
+                "Value": "Global Equity Large Cap"
+            },
+            "FundSizeMio": 813.3657557,
+            "FundType": {
+                "Key": "Open Ended Investment Company",
+                "Value": "Open Ended Investment Company"
+            },
+            "InceptionDate": "2000-05-23",
+            "IssuerName": "Danske Invest",
+            "MaxExitChargesPct": 0.15,
+            "MaxInitialChargesPct": 0.15,
+            "MgtFeeActualPct": 1.42,
+            "MgtFeeEstimatedPct": 1.42,
+            "OngoingCostActualPct": 1.59,
+            "OngoingCostEstimatedPct": 1.59,
+            "Rating": 4.0,
+            "RatingEffectiveEndDate": "2018-11-30",
+            "ShareClassCurrency": "Danish Krone",
+            "ShareClassInception": "2000-05-23",
+            "TransactionFeeEstimatedPct": 0.048,
+            "TypicalExitCostPct": 0.0
+        }
+    },
+    "Instrument": "DKISP:xcse",
+    "MinimumTradeSize": 200.0,
+    "Performance": {
+        "FundBased": [
+            {
+                "Date": "2018-12-20",
+                "Pct": -6.80057,
+                "ReportingPeriod": {
+                    "DisplayValue": "MTD - Month to Date",
+                    "Key": "D0"
+                }
+            },
+            {
+                "Date": "2018-12-20",
+                "Pct": -1.3901,
+                "ReportingPeriod": {
+                    "DisplayValue": "1 Day",
+                    "Key": "D1"
+                }
+            },
+            {
+                "Date": "2018-12-20",
+                "Pct": -1.10445,
+                "ReportingPeriod": {
+                    "DisplayValue": "YTD - Year to Date",
+                    "Key": "M0"
+                }
+            },
+            {
+                "Date": "2018-12-20",
+                "Pct": -5.39414,
+                "ReportingPeriod": {
+                    "DisplayValue": "1 Month",
+                    "Key": "M1"
+                }
+            },
+            {
+                "Date": "2018-12-20",
+                "Pct": -1.76509,
+                "ReportingPeriod": {
+                    "DisplayValue": "1 Year",
+                    "Key": "M12"
+                }
+            },
+            {
+                "Date": "2018-12-20",
+                "Pct": 195.58438,
+                "ReportingPeriod": {
+                    "DisplayValue": "10 Years",
+                    "Key": "M120"
+                }
+            },
+            {
+                "Date": "2018-12-20",
+                "Pct": -7.27124,
+                "ReportingPeriod": {
+                    "DisplayValue": "3 Months",
+                    "Key": "M3"
+                }
+            },
+            {
+                "Date": "2018-12-20",
+                "Pct": 14.63216,
+                "ReportingPeriod": {
+                    "DisplayValue": "3 Years",
+                    "Key": "M36"
+                }
+            },
+            {
+                "Date": "2018-12-20",
+                "Pct": -5.45043,
+                "ReportingPeriod": {
+                    "DisplayValue": "6 Months",
+                    "Key": "M6"
+                }
+            },
+            {
+                "Date": "2018-12-20",
+                "Pct": 51.06196,
+                "ReportingPeriod": {
+                    "DisplayValue": "5 Years",
+                    "Key": "M60"
+                }
+            },
+            {
+                "Date": "2018-12-20",
+                "Pct": -3.42774,
+                "ReportingPeriod": {
+                    "DisplayValue": "1 Week",
+                    "Key": "W1"
+                }
+            },
+            {
+                "Date": "2018-12-20",
+                "Pct": 2.69887,
+                "ReportingPeriod": {
+                    "DisplayValue": "2 Years",
+                    "Key": "M24"
+                }
+            },
+            {
+                "Date": "2018-12-20",
+                "Pct": 28.49769,
+                "ReportingPeriod": {
+                    "DisplayValue": "4 Years",
+                    "Key": "M48"
+                }
+            },
+            {
+                "Date": "2018-12-20",
+                "Pct": 96.55289,
+                "ReportingPeriod": {
+                    "DisplayValue": "7 Years",
+                    "Key": "M84"
+                }
+            }
+        ]
+    },
+    "SectorAllocations": [
+        {
+            "Key": {
+                "Key": "Financial Services",
+                "Value": "Financial Services"
+            },
+            "Pct": 20.12669
+        },
+        {
+            "Key": {
+                "Key": "Technology",
+                "Value": "Technology"
+            },
+            "Pct": 19.22898
+        },
+        {
+            "Key": {
+                "Key": "Consumer Defensive",
+                "Value": "Consumer Defensive"
+            },
+            "Pct": 15.07979
+        },
+        {
+            "Key": {
+                "Key": "Healthcare",
+                "Value": "Healthcare"
+            },
+            "Pct": 11.59836
+        },
+        {
+            "Key": {
+                "Key": "Industrials",
+                "Value": "Industrials"
+            },
+            "Pct": 10.62598
+        },
+        {
+            "Key": {
+                "Key": "Consumer Cyclical",
+                "Value": "Consumer Cyclical"
+            },
+            "Pct": 6.62836
+        },
+        {
+            "Key": {
+                "Key": "Basic Materials",
+                "Value": "Basic Materials"
+            },
+            "Pct": 5.45969
+        },
+        {
+            "Key": {
+                "Key": "Energy",
+                "Value": "Energy"
+            },
+            "Pct": 4.47359
+        },
+        {
+            "Key": {
+                "Key": "Communication Services",
+                "Value": "Communication Services"
+            },
+            "Pct": 1.12623
+        }
+    ],
+
+    "Uic": 20096
+}

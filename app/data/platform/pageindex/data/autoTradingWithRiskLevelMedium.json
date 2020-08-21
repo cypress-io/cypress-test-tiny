@@ -1,0 +1,1996 @@
+{
+    "DefaultPageId": "f5765448-7338-4f7e-bc65-0eb1b6096e8c_autoTradingWithRiskLevelMedium",
+    "Languages": ["en"],
+    "Links": {
+        "Footer": [
+            {
+                "IconType": "",
+                "Id": "fdc630ab-e31f-4005-aa9f-abc1b82d6123",
+                "Label": "General terms",
+                "Name": "disclaimer",
+                "Url": "https://www.home.saxo/legal/general-business-terms/saxo-general-business-terms"
+            },
+            {
+                "IconType": "",
+                "Id": "36903191-240e-4b59-aa12-177c9e445ee8",
+                "Label": "Market data disclaimer",
+                "Name": "marketdatadisclaimer",
+                "Url": "/page/marketdata"
+            },
+            {
+                "IconType": "",
+                "Id": "1f9eb402-3718-4c37-98b6-c2fe463b5f84",
+                "Label": "Contact support",
+                "Name": "contactsupport",
+                "Url": "/contact-support"
+            },
+            {
+                "IconType": "",
+                "Id": "329aad48-f1d0-49d4-80a2-b09ebfd88662",
+                "Label": "SaxoInvestor help",
+                "Name": "saxoinvestorhelp",
+                "Url": "https://investor.help.saxo/hc/da"
+            },
+            {
+                "IconType": "",
+                "Id": "2b0f57d1-8cbd-4398-b164-a7bc5be9aeda",
+                "Label": "Try our more advanced platform",
+                "Name": "tryourmoreadvancedplatform",
+                "Url": "https://www.home.saxo/investor/platforms/saxotradergo"
+            }
+        ],
+        "Header": [
+            {
+                "IconType": "Briefcase",
+                "Id": "19a6eab4-9cb1-464b-b222-ff85b2966c1d",
+                "Label": "Portfolio",
+                "Name": "portfolio",
+                "Url": "/investments/current-holdings"
+            },
+            {
+                "IconType": "Basket",
+                "Id": "1be4d946-ddf4-4d21-873b-596e175f145f",
+                "Label": "Markets",
+                "Name": "markets",
+                "Url": "/page/markets"
+            }
+        ],
+        "Secondary": []
+    },
+    "MappedSections": {
+        "Matchers": [
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [30528, 3400711, 12799673]
+                },
+                "SectionGroupId": "Index_cn"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [1909050]
+                },
+                "SectionGroupId": "Index_us"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [1907570]
+                },
+                "SectionGroupId": "Index_de"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [13720]
+                },
+                "SectionGroupId": "Index_au"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [12799674]
+                },
+                "SectionGroupId": "Index_hk"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [12799676]
+                },
+                "SectionGroupId": "Index_sg"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [12799676]
+                },
+                "SectionGroupId": "Index_sg"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [12799675]
+                },
+                "SectionGroupId": "Index_jp"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [12799672]
+                },
+                "SectionGroupId": "Index_th"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [12799671]
+                },
+                "SectionGroupId": "Index_tw"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [12799670]
+                },
+                "SectionGroupId": "Index_my"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [12799182]
+                },
+                "SectionGroupId": "Index_kr"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [12799181]
+                },
+                "SectionGroupId": "Index_id"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [26586]
+                },
+                "SectionGroupId": "Index_se"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [5889633]
+                },
+                "SectionGroupId": "Index_dk"
+            }
+        ],
+        "SectionGroups": {
+            "Index_dk": {
+                "SectionOrder": ["instrumentGridsSection", "instrumentGridsSection2"],
+                "Sections": {
+                    "instrumentGridsSection": {
+                        "Type": "InstrumentGrids",
+                        "Title": "Gainers and losers",
+                        "Params": {
+                            "LayoutType": "stretch",
+                            "IsDividerShown": false,
+                            "InstrumentGrids": [
+                                {
+                                    "Id": "minilist-top-gainers-stocks",
+                                    "Title": "Top Gainers",
+                                    "Target": "/page/stockview",
+                                    "IsSeeAllLinkShown": true,
+                                    "InstrumentLimit": 5,
+                                    "Query": {
+                                        "AssetTypes": ["Stock"],
+                                        "CountryCodes": ["DK"],
+                                        "MarketCaps": [
+                                            "OneToTenBillions",
+                                            "TenToHundredBillions",
+                                            "AboveHundredBillions"
+                                        ],
+                                        "Listing": ["Primary"],
+                                        "OrderBy": "OneDayReturnPct desc"
+                                    }
+                                },
+                                {
+                                    "Id": "minilist-top-losers-stocks",
+                                    "Title": "Top Losers",
+                                    "Target": "/page/stockview",
+                                    "IsSeeAllLinkShown": true,
+                                    "InstrumentLimit": 5,
+                                    "Query": {
+                                        "AssetTypes": ["Stock"],
+                                        "CountryCodes": ["DK"],
+                                        "MarketCaps": [
+                                            "OneToTenBillions",
+                                            "TenToHundredBillions",
+                                            "AboveHundredBillions"
+                                        ],
+                                        "Listing": ["Primary"],
+                                        "OrderBy": "OneDayReturnPct"
+                                    }
+                                }
+                            ]
+                        },
+                        "instrumentGridsSection2": {
+                            "Type": "InstrumentGrids",
+                            "Params": {
+                                "Title": "Funds investing into danish stocks",
+                                "LayoutType": "stretch",
+                                "IsDividerShown": false,
+                                "InstrumentGrids": [
+                                    {
+                                        "Id": "minilist-top-gainers-stocks",
+                                        "Title": "Top Gainers",
+                                        "Target": "/page/dk-stocks",
+                                        "IsSeeAllLinkShown": false,
+                                        "InstrumentLimit": 13,
+                                        "Query": {
+                                            "AssetTypes": ["Etf"],
+                                            "CountryCodes": ["DK"],
+                                            "Uics": [
+                                                1585006,
+                                                6345969,
+                                                235281,
+                                                805026,
+                                                28966,
+                                                1215309,
+                                                20087,
+                                                469810,
+                                                1201589,
+                                                7764250,
+                                                54149,
+                                                20172,
+                                                39625
+                                            ],
+                                            "OrderBy": "FundRating desc"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "Index_se": {
+                "SectionOrder": ["instrumentGridsSection"],
+                "Sections": {
+                    "instrumentGridsSection": {
+                        "Type": "InstrumentGrids",
+                        "Title": "Gainers and losers",
+                        "Params": {
+                            "LayoutType": "stretch",
+                            "IsDividerShown": false,
+                            "InstrumentGrids": [
+                                {
+                                    "Id": "minilist-top-gainers-stocks",
+                                    "Title": "Top Gainers",
+                                    "Target": "/page/stockview",
+                                    "IsSeeAllLinkShown": true,
+                                    "InstrumentLimit": 5,
+                                    "Query": {
+                                        "AssetTypes": ["Stock"],
+                                        "CountryCodes": ["SE"],
+                                        "MarketCaps": [
+                                            "OneToTenBillions",
+                                            "TenToHundredBillions",
+                                            "AboveHundredBillions"
+                                        ],
+                                        "Listing": ["Primary"],
+                                        "OrderBy": "OneDayReturnPct desc"
+                                    }
+                                },
+                                {
+                                    "Id": "minilist-top-losers-stocks",
+                                    "Title": "Top Losers",
+                                    "Target": "/page/stockview",
+                                    "IsSeeAllLinkShown": true,
+                                    "InstrumentLimit": 5,
+                                    "Query": {
+                                        "AssetTypes": ["Stock"],
+                                        "CountryCodes": ["SE"],
+                                        "MarketCaps": [
+                                            "OneToTenBillions",
+                                            "TenToHundredBillions",
+                                            "AboveHundredBillions"
+                                        ],
+                                        "Listing": ["Primary"],
+                                        "OrderBy": "OneDayReturnPct"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "Index_sg": {
+                "SectionOrder": ["instrumentGridsSection", "funds"],
+                "Sections": {
+                    "instrumentGridsSection": {
+                        "Type": "InstrumentGrids",
+                        "Title": "Gainers and losers",
+                        "Params": {
+                            "LayoutType": "stretch",
+                            "IsDividerShown": false,
+                            "InstrumentGrids": [
+                                {
+                                    "Id": "minilist-top-gainers-stocks",
+                                    "Title": "Top Gainers",
+                                    "Target": "/page/stockview",
+                                    "IsSeeAllLinkShown": true,
+                                    "InstrumentLimit": 5,
+                                    "Query": {
+                                        "AssetTypes": ["Stock"],
+                                        "CountryCodes": ["SG"],
+                                        "MarketCaps": [
+                                            "OneToTenBillions",
+                                            "TenToHundredBillions",
+                                            "AboveHundredBillions"
+                                        ],
+                                        "Listing": ["Primary"],
+                                        "OrderBy": "OneDayReturnPct desc"
+                                    }
+                                },
+                                {
+                                    "Id": "minilist-top-losers-stocks",
+                                    "Title": "Top Losers",
+                                    "Target": "/page/stockview",
+                                    "IsSeeAllLinkShown": true,
+                                    "InstrumentLimit": 5,
+                                    "Query": {
+                                        "AssetTypes": ["Stock"],
+                                        "CountryCodes": ["SG"],
+                                        "MarketCaps": [
+                                            "OneToTenBillions",
+                                            "TenToHundredBillions",
+                                            "AboveHundredBillions"
+                                        ],
+                                        "Listing": ["Primary"],
+                                        "OrderBy": "OneDayReturnPct"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "funds": {
+                        "Type": "InstrumentList",
+                        "Params": {
+                            "Title": "Related funds",
+                            "IsDividerShown": false,
+                            "Target": "/page/fundview",
+                            "Query": {
+                                "AssetTypes": ["MutualFund"],
+                                "Uics": [
+                                    11505403,
+                                    12068934,
+                                    11505385,
+                                    11505384,
+                                    11505386,
+                                    11505387,
+                                    11505392,
+                                    11505395,
+                                    11505399,
+                                    11505401,
+                                    11505408,
+                                    11505409,
+                                    11505410,
+                                    11505411,
+                                    11505412,
+                                    11505413,
+                                    11505414,
+                                    11505415,
+                                    11505416,
+                                    11505417,
+                                    11505418,
+                                    11505419,
+                                    11990145,
+                                    11990165,
+                                    8244530,
+                                    10221612,
+                                    10473172,
+                                    10473197,
+                                    10473220,
+                                    11009422,
+                                    11777868,
+                                    11009426
+                                ],
+                                "OrderBy": "Popularity "
+                            }
+                        }
+                    }
+                }
+            },
+            "Index_vn": {
+                "SectionOrder": ["instrumentGridsSection", "funds"],
+                "Sections": {
+                    "instrumentGridsSection": {
+                        "Type": "InstrumentGrids",
+                        "Title": "Gainers and losers",
+                        "Params": {
+                            "LayoutType": "stretch",
+                            "IsDividerShown": false,
+                            "InstrumentGrids": [
+                                {
+                                    "Id": "minilist-top-gainers-stocks",
+                                    "Title": "Top Gainers",
+                                    "Target": "/page/stockview",
+                                    "IsSeeAllLinkShown": true,
+                                    "InstrumentLimit": 5,
+                                    "Query": {
+                                        "AssetTypes": ["Stock"],
+                                        "CountryCodes": ["VN"],
+                                        "MarketCaps": [
+                                            "OneToTenBillions",
+                                            "TenToHundredBillions",
+                                            "AboveHundredBillions"
+                                        ],
+                                        "Listing": ["Primary"],
+                                        "OrderBy": "OneDayReturnPct desc"
+                                    }
+                                },
+                                {
+                                    "Id": "minilist-top-losers-stocks",
+                                    "Title": "Top Losers",
+                                    "Target": "/page/stockview",
+                                    "IsSeeAllLinkShown": true,
+                                    "InstrumentLimit": 5,
+                                    "Query": {
+                                        "AssetTypes": ["Stock"],
+                                        "CountryCodes": ["VN"],
+                                        "MarketCaps": [
+                                            "OneToTenBillions",
+                                            "TenToHundredBillions",
+                                            "AboveHundredBillions"
+                                        ],
+                                        "Listing": ["Primary"],
+                                        "OrderBy": "OneDayReturnPct"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "funds": {
+                        "Type": "InstrumentList",
+                        "Params": {
+                            "Title": "Related funds",
+                            "IsDividerShown": false,
+                            "Target": "/page/fundview",
+                            "Query": {
+                                "AssetTypes": ["MutualFund"],
+                                "Uics": [
+                                    11505418,
+                                    11505419,
+                                    11505385,
+                                    11505384,
+                                    11505386,
+                                    11505387,
+                                    11505392,
+                                    11505395,
+                                    11505399,
+                                    11505401,
+                                    11505408,
+                                    11505409,
+                                    11505410,
+                                    11505411,
+                                    11505412,
+                                    11505413,
+                                    11505414,
+                                    11505415,
+                                    11505416,
+                                    11505417,
+                                    11505418,
+                                    11505419,
+                                    11990145,
+                                    11990165,
+                                    8244530,
+                                    10221612,
+                                    10473172,
+                                    10473197,
+                                    10473220,
+                                    11009422,
+                                    11777868,
+                                    11009426
+                                ],
+                                "OrderBy": "Popularity "
+                            }
+                        }
+                    }
+                }
+            },
+            "Index_id": {
+                "SectionOrder": ["instrumentGridsSection", "funds"],
+                "Sections": {
+                    "instrumentGridsSection": {
+                        "Type": "InstrumentGrids",
+                        "Title": "Gainers and losers",
+                        "Params": {
+                            "LayoutType": "stretch",
+                            "IsDividerShown": false,
+                            "InstrumentGrids": [
+                                {
+                                    "Id": "minilist-top-gainers-stocks",
+                                    "Title": "Top Gainers",
+                                    "Target": "/page/stockview",
+                                    "IsSeeAllLinkShown": true,
+                                    "InstrumentLimit": 5,
+                                    "Query": {
+                                        "AssetTypes": ["Stock"],
+                                        "CountryCodes": ["ID"],
+                                        "MarketCaps": [
+                                            "OneToTenBillions",
+                                            "TenToHundredBillions",
+                                            "AboveHundredBillions"
+                                        ],
+                                        "Listing": ["Primary"],
+                                        "OrderBy": "OneDayReturnPct desc"
+                                    }
+                                },
+                                {
+                                    "Id": "minilist-top-losers-stocks",
+                                    "Title": "Top Losers",
+                                    "Target": "/page/stockview",
+                                    "IsSeeAllLinkShown": true,
+                                    "InstrumentLimit": 5,
+                                    "Query": {
+                                        "AssetTypes": ["Stock"],
+                                        "CountryCodes": ["ID"],
+                                        "MarketCaps": [
+                                            "OneToTenBillions",
+                                            "TenToHundredBillions",
+                                            "AboveHundredBillions"
+                                        ],
+                                        "Listing": ["Primary"],
+                                        "OrderBy": "OneDayReturnPct"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "funds": {
+                        "Type": "InstrumentList",
+                        "Params": {
+                            "Title": "Related funds",
+                            "IsDividerShown": false,
+                            "Target": "/page/fundview",
+                            "Query": {
+                                "AssetTypes": ["MutualFund"],
+                                "Uics": [
+                                    11505413,
+                                    11505385,
+                                    11505384,
+                                    11505386,
+                                    11505387,
+                                    11505392,
+                                    11505395,
+                                    11505399,
+                                    11505401,
+                                    11505408,
+                                    11505409,
+                                    11505410,
+                                    11505411,
+                                    11505412,
+                                    11505413,
+                                    11505414,
+                                    11505415,
+                                    11505416,
+                                    11505417,
+                                    11505418,
+                                    11505419,
+                                    11990145,
+                                    11990165,
+                                    8244530,
+                                    10221612,
+                                    10473172,
+                                    10473197,
+                                    10473220,
+                                    11009422,
+                                    11777868,
+                                    11009426
+                                ],
+                                "OrderBy": "Popularity "
+                            }
+                        }
+                    }
+                }
+            },
+            "Index_kr": {
+                "SectionOrder": ["instrumentGridsSection", "funds"],
+                "Sections": {
+                    "instrumentGridsSection": {
+                        "Type": "InstrumentGrids",
+                        "Title": "Gainers and losers",
+                        "Params": {
+                            "LayoutType": "stretch",
+                            "IsDividerShown": false,
+                            "InstrumentGrids": [
+                                {
+                                    "Id": "minilist-top-gainers-stocks",
+                                    "Title": "Top Gainers",
+                                    "Target": "/page/stockview",
+                                    "IsSeeAllLinkShown": true,
+                                    "InstrumentLimit": 5,
+                                    "Query": {
+                                        "AssetTypes": ["Stock"],
+                                        "CountryCodes": ["KR"],
+                                        "MarketCaps": [
+                                            "OneToTenBillions",
+                                            "TenToHundredBillions",
+                                            "AboveHundredBillions"
+                                        ],
+                                        "Listing": ["Primary"],
+                                        "OrderBy": "OneDayReturnPct desc"
+                                    }
+                                },
+                                {
+                                    "Id": "minilist-top-losers-stocks",
+                                    "Title": "Top Losers",
+                                    "Target": "/page/stockview",
+                                    "IsSeeAllLinkShown": true,
+                                    "InstrumentLimit": 5,
+                                    "Query": {
+                                        "AssetTypes": ["Stock"],
+                                        "CountryCodes": ["KR"],
+                                        "MarketCaps": [
+                                            "OneToTenBillions",
+                                            "TenToHundredBillions",
+                                            "AboveHundredBillions"
+                                        ],
+                                        "Listing": ["Primary"],
+                                        "OrderBy": "OneDayReturnPct"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "funds": {
+                        "Type": "InstrumentList",
+                        "Params": {
+                            "Title": "Related funds",
+                            "IsDividerShown": false,
+                            "Target": "/page/fundview",
+                            "Query": {
+                                "AssetTypes": ["MutualFund"],
+                                "Uics": [
+                                    11505399,
+                                    11990211,
+                                    11505385,
+                                    11505384,
+                                    11505386,
+                                    11505387,
+                                    11505392,
+                                    11505395,
+                                    11505399,
+                                    11505401,
+                                    11505408,
+                                    11505409,
+                                    11505410,
+                                    11505411,
+                                    11505412,
+                                    11505413,
+                                    11505414,
+                                    11505415,
+                                    11505416,
+                                    11505417,
+                                    11505418,
+                                    11505419,
+                                    11990145,
+                                    11990165,
+                                    8244530,
+                                    10221612,
+                                    10473172,
+                                    10473197,
+                                    10473220,
+                                    11009422,
+                                    11777868,
+                                    11009426
+                                ],
+                                "OrderBy": "Popularity "
+                            }
+                        }
+                    }
+                }
+            },
+            "Index_MY": {
+                "SectionOrder": ["instrumentGridsSection", "funds"],
+                "Sections": {
+                    "instrumentGridsSection": {
+                        "Type": "InstrumentGrids",
+                        "Title": "Gainers and losers",
+                        "Params": {
+                            "LayoutType": "stretch",
+                            "IsDividerShown": false,
+                            "InstrumentGrids": [
+                                {
+                                    "Id": "minilist-top-gainers-stocks",
+                                    "Title": "Top Gainers",
+                                    "Target": "/page/stockview",
+                                    "IsSeeAllLinkShown": true,
+                                    "InstrumentLimit": 5,
+                                    "Query": {
+                                        "AssetTypes": ["Stock"],
+                                        "CountryCodes": ["MY"],
+                                        "MarketCaps": [
+                                            "OneToTenBillions",
+                                            "TenToHundredBillions",
+                                            "AboveHundredBillions"
+                                        ],
+                                        "Listing": ["Primary"],
+                                        "OrderBy": "OneDayReturnPct desc"
+                                    }
+                                },
+                                {
+                                    "Id": "minilist-top-losers-stocks",
+                                    "Title": "Top Losers",
+                                    "Target": "/page/stockview",
+                                    "IsSeeAllLinkShown": true,
+                                    "InstrumentLimit": 5,
+                                    "Query": {
+                                        "AssetTypes": ["Stock"],
+                                        "CountryCodes": ["MY"],
+                                        "MarketCaps": [
+                                            "OneToTenBillions",
+                                            "TenToHundredBillions",
+                                            "AboveHundredBillions"
+                                        ],
+                                        "Listing": ["Primary"],
+                                        "OrderBy": "OneDayReturnPct"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "funds": {
+                        "Type": "InstrumentList",
+                        "Params": {
+                            "Title": "Related funds",
+                            "IsDividerShown": false,
+                            "Target": "/page/fundview",
+                            "Query": {
+                                "AssetTypes": ["MutualFund"],
+                                "Uics": [
+                                    11505401,
+                                    11505411,
+                                    11505413,
+                                    11505385,
+                                    11505384,
+                                    11505386,
+                                    11505387,
+                                    11505392,
+                                    11505395,
+                                    11505399,
+                                    11505401,
+                                    11505408,
+                                    11505409,
+                                    11505410,
+                                    11505411,
+                                    11505412,
+                                    11505413,
+                                    11505414,
+                                    11505415,
+                                    11505416,
+                                    11505417,
+                                    11505418,
+                                    11505419,
+                                    11990145,
+                                    11990165,
+                                    8244530,
+                                    10221612,
+                                    10473172,
+                                    10473197,
+                                    10473220,
+                                    11009422,
+                                    11777868,
+                                    11009426
+                                ],
+                                "OrderBy": "Popularity "
+                            }
+                        }
+                    }
+                }
+            },
+            "Index_TW": {
+                "SectionOrder": ["instrumentGridsSection", "funds"],
+                "Sections": {
+                    "instrumentGridsSection": {
+                        "Type": "InstrumentGrids",
+                        "Title": "Gainers and losers",
+                        "Params": {
+                            "LayoutType": "stretch",
+                            "IsDividerShown": false,
+                            "InstrumentGrids": [
+                                {
+                                    "Id": "minilist-top-gainers-stocks",
+                                    "Title": "Top Gainers",
+                                    "Target": "/page/stockview",
+                                    "IsSeeAllLinkShown": true,
+                                    "InstrumentLimit": 5,
+                                    "Query": {
+                                        "AssetTypes": ["Stock"],
+                                        "CountryCodes": ["TW"],
+                                        "MarketCaps": [
+                                            "OneToTenBillions",
+                                            "TenToHundredBillions",
+                                            "AboveHundredBillions"
+                                        ],
+                                        "Listing": ["Primary"],
+                                        "OrderBy": "OneDayReturnPct desc"
+                                    }
+                                },
+                                {
+                                    "Id": "minilist-top-losers-stocks",
+                                    "Title": "Top Losers",
+                                    "Target": "/page/stockview",
+                                    "IsSeeAllLinkShown": true,
+                                    "InstrumentLimit": 5,
+                                    "Query": {
+                                        "AssetTypes": ["Stock"],
+                                        "CountryCodes": ["TW"],
+                                        "MarketCaps": [
+                                            "OneToTenBillions",
+                                            "TenToHundredBillions",
+                                            "AboveHundredBillions"
+                                        ],
+                                        "Listing": ["Primary"],
+                                        "OrderBy": "OneDayReturnPct"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "funds": {
+                        "Type": "InstrumentList",
+                        "Params": {
+                            "Title": "Related funds",
+                            "IsDividerShown": false,
+                            "Target": "/page/fundview",
+                            "Query": {
+                                "AssetTypes": ["MutualFund"],
+                                "Uics": [
+                                    11505414,
+                                    11505415,
+                                    11505385,
+                                    11505384,
+                                    11505386,
+                                    11505387,
+                                    11505392,
+                                    11505395,
+                                    11505399,
+                                    11505401,
+                                    11505408,
+                                    11505409,
+                                    11505410,
+                                    11505411,
+                                    11505412,
+                                    11505413,
+                                    11505414,
+                                    11505415,
+                                    11505416,
+                                    11505417,
+                                    11505418,
+                                    11505419,
+                                    11990145,
+                                    11990165,
+                                    8244530,
+                                    10221612,
+                                    10473172,
+                                    10473197,
+                                    10473220,
+                                    11009422,
+                                    11777868,
+                                    11009426
+                                ],
+                                "OrderBy": "Popularity "
+                            }
+                        }
+                    }
+                }
+            },
+            "Index_TH": {
+                "SectionOrder": ["instrumentGridsSection", "funds"],
+                "Sections": {
+                    "instrumentGridsSection": {
+                        "Type": "InstrumentGrids",
+                        "Title": "Gainers and losers",
+                        "Params": {
+                            "LayoutType": "stretch",
+                            "IsDividerShown": false,
+                            "InstrumentGrids": [
+                                {
+                                    "Id": "minilist-top-gainers-stocks",
+                                    "Title": "Top Gainers",
+                                    "Target": "/page/stockview",
+                                    "IsSeeAllLinkShown": true,
+                                    "InstrumentLimit": 5,
+                                    "Query": {
+                                        "AssetTypes": ["Stock"],
+                                        "CountryCodes": ["TH"],
+                                        "MarketCaps": [
+                                            "OneToTenBillions",
+                                            "TenToHundredBillions",
+                                            "AboveHundredBillions"
+                                        ],
+                                        "Listing": ["Primary"],
+                                        "OrderBy": "OneDayReturnPct desc"
+                                    }
+                                },
+                                {
+                                    "Id": "minilist-top-losers-stocks",
+                                    "Title": "Top Losers",
+                                    "Target": "/page/stockview",
+                                    "IsSeeAllLinkShown": true,
+                                    "InstrumentLimit": 5,
+                                    "Query": {
+                                        "AssetTypes": ["Stock"],
+                                        "CountryCodes": ["TH"],
+                                        "MarketCaps": [
+                                            "OneToTenBillions",
+                                            "TenToHundredBillions",
+                                            "AboveHundredBillions"
+                                        ],
+                                        "Listing": ["Primary"],
+                                        "OrderBy": "OneDayReturnPct"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "funds": {
+                        "Type": "InstrumentList",
+                        "Params": {
+                            "Title": "Related funds",
+                            "IsDividerShown": false,
+                            "Target": "/page/fundview",
+                            "Query": {
+                                "AssetTypes": ["MutualFund"],
+                                "Uics": [
+                                    11505414,
+                                    11505415,
+                                    11505385,
+                                    11505384,
+                                    11505386,
+                                    11505387,
+                                    11505392,
+                                    11505395,
+                                    11505399,
+                                    11505401,
+                                    11505408,
+                                    11505409,
+                                    11505410,
+                                    11505411,
+                                    11505412,
+                                    11505413,
+                                    11505414,
+                                    11505415,
+                                    11505416,
+                                    11505417,
+                                    11505418,
+                                    11505419,
+                                    11990145,
+                                    11990165,
+                                    8244530,
+                                    10221612,
+                                    10473172,
+                                    10473197,
+                                    10473220,
+                                    11009422,
+                                    11777868,
+                                    11009426
+                                ],
+                                "OrderBy": "Popularity "
+                            }
+                        }
+                    }
+                }
+            },
+            "Index_JP": {
+                "SectionOrder": ["instrumentGridsSection", "funds"],
+                "Sections": {
+                    "instrumentGridsSection": {
+                        "Type": "InstrumentGrids",
+                        "Title": "Gainers and losers",
+                        "Params": {
+                            "LayoutType": "stretch",
+                            "IsDividerShown": false,
+                            "InstrumentGrids": [
+                                {
+                                    "Id": "minilist-top-gainers-stocks",
+                                    "Title": "Top Gainers",
+                                    "Target": "/page/stockview",
+                                    "IsSeeAllLinkShown": true,
+                                    "InstrumentLimit": 5,
+                                    "Query": {
+                                        "AssetTypes": ["Stock"],
+                                        "CountryCodes": ["JP"],
+                                        "MarketCaps": [
+                                            "OneToTenBillions",
+                                            "TenToHundredBillions",
+                                            "AboveHundredBillions"
+                                        ],
+                                        "Listing": ["Primary"],
+                                        "OrderBy": "OneDayReturnPct desc"
+                                    }
+                                },
+                                {
+                                    "Id": "minilist-top-losers-stocks",
+                                    "Title": "Top Losers",
+                                    "Target": "/page/stockview",
+                                    "IsSeeAllLinkShown": true,
+                                    "InstrumentLimit": 5,
+                                    "Query": {
+                                        "AssetTypes": ["Stock"],
+                                        "CountryCodes": ["JP"],
+                                        "MarketCaps": [
+                                            "OneToTenBillions",
+                                            "TenToHundredBillions",
+                                            "AboveHundredBillions"
+                                        ],
+                                        "Listing": ["Primary"],
+                                        "OrderBy": "OneDayReturnPct"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "funds": {
+                        "Type": "InstrumentList",
+                        "Params": {
+                            "Title": "Related funds",
+                            "IsDividerShown": false,
+                            "Target": "/page/fundview",
+                            "Query": {
+                                "AssetTypes": ["MutualFund"],
+                                "Uics": [
+                                    11505392,
+                                    11505395,
+                                    11990165,
+                                    11990199,
+                                    8249127,
+                                    10473189,
+                                    11777896,
+                                    11777898,
+                                    11777899
+                                ],
+                                "OrderBy": "Popularity "
+                            }
+                        }
+                    }
+                }
+            },
+            "Index_us": {
+                "SectionOrder": ["instrumentGridsSection", "funds"],
+                "Sections": {
+                    "instrumentGridsSection": {
+                        "Type": "InstrumentGrids",
+                        "Title": "Gainers and losers",
+                        "Params": {
+                            "LayoutType": "stretch",
+                            "IsDividerShown": false,
+                            "InstrumentGrids": [
+                                {
+                                    "Id": "minilist-top-gainers-stocks",
+                                    "Title": "Top Gainers",
+                                    "Target": "/page/stockview",
+                                    "IsSeeAllLinkShown": true,
+                                    "InstrumentLimit": 5,
+                                    "Query": {
+                                        "AssetTypes": ["Stock"],
+                                        "CountryCodes": ["US"],
+                                        "MarketCaps": [
+                                            "TenToHundredBillions",
+                                            "AboveHundredBillions"
+                                        ],
+                                        "Listing": ["Primary"],
+                                        "OrderBy": "OneDayReturnPct desc"
+                                    }
+                                },
+                                {
+                                    "Id": "minilist-top-losers-stocks",
+                                    "Title": "Top Losers",
+                                    "Target": "/page/stockview",
+                                    "IsSeeAllLinkShown": true,
+                                    "InstrumentLimit": 5,
+                                    "Query": {
+                                        "AssetTypes": ["Stock"],
+                                        "CountryCodes": ["US"],
+                                        "MarketCaps": [
+                                            "TenToHundredBillions",
+                                            "AboveHundredBillions"
+                                        ],
+                                        "Listing": ["Primary"],
+                                        "OrderBy": "OneDayReturnPct"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "funds": {
+                        "Type": "InstrumentList",
+                        "Params": {
+                            "Title": "Related funds",
+                            "IsDividerShown": false,
+                            "Target": "/page/fundview",
+                            "Query": {
+                                "AssetTypes": ["MutualFund"],
+                                "fundcategories": [
+                                    "US Equity Large Cap Blend",
+                                    "US Equity Large Cap Growth",
+                                    "US Equity Large Cap Value"
+                                ],
+                                "OrderBy": "FundRating desc"
+                            }
+                        }
+                    }
+                }
+            },
+            "Index_de": {
+                "SectionOrder": ["instrumentGridsSection", "funds"],
+                "Sections": {
+                    "instrumentGridsSection": {
+                        "Type": "InstrumentGrids",
+                        "Title": "Gainers and losers",
+                        "Params": {
+                            "LayoutType": "stretch",
+                            "IsDividerShown": false,
+                            "InstrumentGrids": [
+                                {
+                                    "Id": "minilist-top-gainers-stocks",
+                                    "Title": "Top Gainers",
+                                    "Target": "/page/stockview",
+                                    "IsSeeAllLinkShown": true,
+                                    "InstrumentLimit": 5,
+                                    "Query": {
+                                        "AssetTypes": ["Stock"],
+                                        "CountryCodes": ["DE"],
+                                        "MarketCaps": [
+                                            "OneToTenBillions",
+                                            "TenToHundredBillions",
+                                            "AboveHundredBillions"
+                                        ],
+                                        "Listing": ["Primary"],
+                                        "OrderBy": "OneDayReturnPct desc"
+                                    }
+                                },
+                                {
+                                    "Id": "minilist-top-losers-stocks",
+                                    "Title": "Top Losers",
+                                    "Target": "/page/stockview",
+                                    "IsSeeAllLinkShown": true,
+                                    "InstrumentLimit": 5,
+                                    "Query": {
+                                        "AssetTypes": ["Stock"],
+                                        "CountryCodes": ["DE"],
+                                        "MarketCaps": [
+                                            "OneToTenBillions",
+                                            "TenToHundredBillions",
+                                            "AboveHundredBillions"
+                                        ],
+                                        "Listing": ["Primary"],
+                                        "OrderBy": "OneDayReturnPct"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "Index_hk": {
+                "SectionOrder": ["instrumentGridsSection", "funds"],
+                "Sections": {
+                    "instrumentGridsSection": {
+                        "Type": "InstrumentGrids",
+                        "Title": "Gainers and losers",
+                        "Params": {
+                            "LayoutType": "stretch",
+                            "IsDividerShown": false,
+                            "InstrumentGrids": [
+                                {
+                                    "Id": "minilist-top-gainers-stocks",
+                                    "Title": "Top Gainers",
+                                    "Target": "/page/stockview",
+                                    "IsSeeAllLinkShown": true,
+                                    "InstrumentLimit": 5,
+                                    "Query": {
+                                        "AssetTypes": ["Stock"],
+                                        "CountryCodes": ["HK"],
+                                        "MarketCaps": [
+                                            "OneToTenBillions",
+                                            "TenToHundredBillions",
+                                            "AboveHundredBillions"
+                                        ],
+                                        "Listing": ["Primary"],
+                                        "OrderBy": "OneDayReturnPct desc"
+                                    }
+                                },
+                                {
+                                    "Id": "minilist-top-losers-stocks",
+                                    "Title": "Top Losers",
+                                    "Target": "/page/stockview",
+                                    "IsSeeAllLinkShown": true,
+                                    "InstrumentLimit": 5,
+                                    "Query": {
+                                        "AssetTypes": ["Stock"],
+                                        "CountryCodes": ["HK"],
+                                        "MarketCaps": [
+                                            "OneToTenBillions",
+                                            "TenToHundredBillions",
+                                            "AboveHundredBillions"
+                                        ],
+                                        "Listing": ["Primary"],
+                                        "OrderBy": "OneDayReturnPct"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "Index_au": {
+                "SectionOrder": ["instrumentGridsSection", "funds"],
+                "Sections": {
+                    "instrumentGridsSection": {
+                        "Type": "InstrumentGrids",
+                        "Title": "Gainers and losers",
+                        "Params": {
+                            "LayoutType": "stretch",
+                            "IsDividerShown": false,
+                            "InstrumentGrids": [
+                                {
+                                    "Id": "minilist-top-gainers-stocks",
+                                    "Title": "Top Gainers",
+                                    "Target": "/page/stockview",
+                                    "IsSeeAllLinkShown": true,
+                                    "InstrumentLimit": 5,
+                                    "Query": {
+                                        "AssetTypes": ["Stock"],
+                                        "CountryCodes": ["AU"],
+                                        "MarketCaps": [
+                                            "OneToTenBillions",
+                                            "TenToHundredBillions",
+                                            "AboveHundredBillions"
+                                        ],
+                                        "Listing": ["Primary"],
+                                        "OrderBy": "OneDayReturnPct desc"
+                                    }
+                                },
+                                {
+                                    "Id": "minilist-top-losers-stocks",
+                                    "Title": "Top Losers",
+                                    "Target": "/page/stockview",
+                                    "IsSeeAllLinkShown": true,
+                                    "InstrumentLimit": 5,
+                                    "Query": {
+                                        "AssetTypes": ["Stock"],
+                                        "CountryCodes": ["AU"],
+                                        "MarketCaps": [
+                                            "OneToTenBillions",
+                                            "TenToHundredBillions",
+                                            "AboveHundredBillions"
+                                        ],
+                                        "Listing": ["Primary"],
+                                        "OrderBy": "OneDayReturnPct"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "Index_cn": {
+                "SectionOrder": ["instrumentGridsSection", "funds"],
+                "Sections": {
+                    "instrumentGridsSection": {
+                        "Type": "InstrumentGrids",
+                        "Title": "Gainers and losers",
+                        "Params": {
+                            "LayoutType": "stretch",
+                            "IsDividerShown": false,
+                            "InstrumentGrids": [
+                                {
+                                    "Id": "minilist-top-gainers-stocks",
+                                    "Title": "Top Gainers",
+                                    "Target": "/page/stockview",
+                                    "IsSeeAllLinkShown": true,
+                                    "InstrumentLimit": 5,
+                                    "Query": {
+                                        "AssetTypes": ["Stock"],
+                                        "CountryCodes": ["CN"],
+                                        "MarketCaps": [
+                                            "OneToTenBillions",
+                                            "TenToHundredBillions",
+                                            "AboveHundredBillions"
+                                        ],
+                                        "Listing": ["Primary"],
+                                        "OrderBy": "OneDayReturnPct desc"
+                                    }
+                                },
+                                {
+                                    "Id": "minilist-top-losers-stocks",
+                                    "Title": "Top Losers",
+                                    "Target": "/page/stockview",
+                                    "IsSeeAllLinkShown": true,
+                                    "InstrumentLimit": 5,
+                                    "Query": {
+                                        "AssetTypes": ["Stock"],
+                                        "CountryCodes": ["CN"],
+                                        "MarketCaps": [
+                                            "OneToTenBillions",
+                                            "TenToHundredBillions",
+                                            "AboveHundredBillions"
+                                        ],
+                                        "Listing": ["Primary"],
+                                        "OrderBy": "OneDayReturnPct"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "funds": {
+                        "Type": "InstrumentList",
+                        "Params": {
+                            "Title": "Related funds",
+                            "IsDividerShown": false,
+                            "Target": "/page/fundview",
+                            "Query": {
+                                "AssetTypes": ["MutualFund"],
+                                "fundcategories": ["Greater China Equity"],
+                                "OrderBy": "Popularity "
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "Pages": [
+        {
+            "Id": "440f88ea-87cf-43c6-8afc-10e1718ae4cf_autoTradingWithRiskLevelMedium",
+            "Name": "fundview",
+            "Tags": [],
+            "Title": "",
+            "Url": "/page/fundview"
+        },
+        {
+            "Id": "f5765448-7338-4f7e-bc65-0eb1b6096e8c_autoTradingWithRiskLevelMedium",
+            "Name": "markets",
+            "Tags": [],
+            "Title": "Markets",
+            "Url": "/page/markets"
+        },
+        {
+            "Id": "1dfd7eec-9afb-4051-b145-2139a9ea9232_autoTradingWithRiskLevelMedium",
+            "Name": "stockview",
+            "Tags": [],
+            "Title": "Stocks",
+            "Url": "/page/stockview"
+        },
+        {
+            "Id": "7e6d3f80-5931-4aee-9e93-92e14e1a1a93_autoTradingWithRiskLevelMedium",
+            "Name": "managed-portfolios",
+            "Tags": [
+                "RiskLevelHigh",
+                "RiskLevelLow",
+                "RiskLevelMedium",
+                "RiskLevelVeryHigh"
+            ],
+            "Title": "Let our experts manage your money",
+            "Url": "/page/managed-portfolios"
+        },
+        {
+            "Id": "23da1cf7-682e-484d-b759-ad0bab09b6e4_autoTradingWithRiskLevelMedium",
+            "Name": "managed-portfolios-introduction",
+            "Tags": [
+                "RiskLevelHigh",
+                "RiskLevelLow",
+                "RiskLevelMedium",
+                "RiskLevelUnknown",
+                "RiskLevelVeryHigh"
+            ],
+            "Title": "",
+            "Url": "/page/managed-portfolios-introduction"
+        },
+        {
+            "Id": "a6347f74-4709-41ef-b874-fedc1fa88fdf_autoTradingWithRiskLevelMedium",
+            "Name": "stocks",
+            "Tags": [],
+            "Title": "Stocks",
+            "Url": "/page/stocks"
+        },
+        {
+            "Id": "e9a24073-f497-4f85-8fdb-cf2f5725380b_autoTradingWithRiskLevelMedium",
+            "Name": "bonds",
+            "Tags": [],
+            "Title": "Bonds",
+            "Url": "/page/bonds"
+        },
+        {
+            "Id": "7af175e1-e8b4-488d-b586-d5bff30675f1_autoTradingWithRiskLevelMedium",
+            "Name": "etfs",
+            "Tags": [],
+            "Title": "ETFs",
+            "Url": "/page/etfs"
+        },
+        {
+            "Id": "6acfe33e-baf3-4c35-9f3c-086454e00712_autoTradingWithRiskLevelMedium",
+            "Name": "mutualfunds",
+            "Tags": [],
+            "Title": "Funds",
+            "Url": "/page/mutualfunds"
+        },
+        {
+            "Id": "4d3864ef-0677-4948-9f8f-efa681c7d075_autoTradingWithRiskLevelMedium",
+            "Name": "more-fundhouses",
+            "Tags": [],
+            "Title": "Danish funds",
+            "Url": "/page/more-fundhouses"
+        },
+        {
+            "Id": "e998528b-bfd1-42b7-82f7-9b70a8dc4a21_autoTradingWithRiskLevelMedium",
+            "Name": "themes",
+            "Tags": [],
+            "Title": "Themes",
+            "Url": "/page/themes"
+        },
+        {
+            "Id": "36229f6d-7b88-4015-bf1c-2b8e781d212b_autoTradingWithRiskLevelMedium",
+            "Name": "fundthemes",
+            "Tags": [],
+            "Title": "Fund Inspiration",
+            "Url": "/page/fundthemes"
+        },
+        {
+            "Id": "cfc243de-65a2-40ea-b040-19f58278853b_autoTradingWithRiskLevelMedium",
+            "Name": "fundtheme1",
+            "Tags": [],
+            "Title": "Funds for share saving account",
+            "Url": "/page/fundtheme1"
+        },
+        {
+            "Id": "02578a59-3180-42a8-8c1e-0dd3f06197e1_autoTradingWithRiskLevelMedium",
+            "Name": "fundtheme2",
+            "Tags": [],
+            "Title": "Responsible investments",
+            "Url": "/page/fundtheme2"
+        },
+        {
+            "Id": "d5b9ccf4-87c2-4b4d-a11e-097440a7c604_autoTradingWithRiskLevelMedium",
+            "Name": "fundtheme3",
+            "Tags": [],
+            "Title": "Danish stocks",
+            "Url": "/page/fundtheme3"
+        },
+        {
+            "Id": "05512692-4e27-45fb-b061-277ee454d040_autoTradingWithRiskLevelMedium",
+            "Name": "fundtheme4",
+            "Tags": [],
+            "Title": "Balanced funds",
+            "Url": "/page/fundtheme4"
+        },
+        {
+            "Id": "06572cfe-a657-4257-a402-6c218269efae_autoTradingWithRiskLevelMedium",
+            "Name": "fundtheme5",
+            "Tags": [],
+            "Title": "Global stock funds",
+            "Url": "/page/fundtheme5"
+        },
+        {
+            "Id": "ce7b3036-b7f9-4b7c-b7bc-dda364b029d0_autoTradingWithRiskLevelMedium",
+            "Name": "fundtheme6",
+            "Tags": [],
+            "Title": "Emerging markets",
+            "Url": "/page/fundtheme6"
+        },
+        {
+            "Id": "2334128d-451d-41f1-949c-16ad4489fd73_autoTradingWithRiskLevelMedium",
+            "Name": "theme1",
+            "Tags": [],
+            "Title": "Chinese technology",
+            "Url": "/page/theme1"
+        },
+        {
+            "Id": "78e33716-d608-4613-9855-12d2145678c9_autoTradingWithRiskLevelMedium",
+            "Name": "theme2",
+            "Tags": [],
+            "Title": "Cybersecurity",
+            "Url": "/page/theme2"
+        },
+        {
+            "Id": "35eb36e5-9301-4ed4-9f6d-a874939cda69_autoTradingWithRiskLevelMedium",
+            "Name": "theme3",
+            "Tags": [],
+            "Title": "Digitalization",
+            "Url": "/page/theme3"
+        },
+        {
+            "Id": "a9347915-4616-4520-aaf7-dc33ac7bc073_autoTradingWithRiskLevelMedium",
+            "Name": "theme4",
+            "Tags": [],
+            "Title": "Electric cars and battery technology",
+            "Url": "/page/theme4"
+        },
+        {
+            "Id": "1852726f-1c73-4662-bbc7-a5673853c7d0_autoTradingWithRiskLevelMedium",
+            "Name": "theme5",
+            "Tags": [],
+            "Title": "Emerging markets' consumer growth",
+            "Url": "/page/theme5"
+        },
+        {
+            "Id": "eaa4c0c7-bdc0-4547-98e0-a2da361bf960_autoTradingWithRiskLevelMedium",
+            "Name": "theme6",
+            "Tags": [],
+            "Title": "Responsible investments (ESG)",
+            "Url": "/page/theme6"
+        },
+        {
+            "Id": "8f5a5d41-1fb0-4f34-b2da-681664c96719_autoTradingWithRiskLevelMedium",
+            "Name": "theme7",
+            "Tags": [],
+            "Title": "Renewable energy",
+            "Url": "/page/theme7"
+        },
+        {
+            "Id": "7ca25c04-a01d-435e-92b4-3368b49cbff9_autoTradingWithRiskLevelMedium",
+            "Name": "theme8",
+            "Tags": [],
+            "Title": "Robotics and automation",
+            "Url": "/page/theme8"
+        },
+        {
+            "Id": "268dfca8-f5d6-4e69-adda-2d77100e7a2f_autoTradingWithRiskLevelMedium",
+            "Name": "theme9",
+            "Tags": [],
+            "Title": "Emerging markets' infrastructure",
+            "Url": "/page/theme9"
+        },
+        {
+            "Id": "54494b8e-dc56-47b8-8cc0-e7f83725951e_autoTradingWithRiskLevelMedium",
+            "Name": "theme10",
+            "Tags": [],
+            "Title": "Medical technology",
+            "Url": "/page/theme10"
+        },
+        {
+            "Id": "afeaf94e-ac4f-40d2-9655-91e7e10f04ee_autoTradingWithRiskLevelMedium",
+            "Name": "theme11",
+            "Tags": [],
+            "Title": "Nordic consumer brands",
+            "Url": "/page/theme11"
+        },
+        {
+            "Id": "a69822b1-9aca-4aeb-8d9f-db807c4472d1_autoTradingWithRiskLevelMedium",
+            "Name": "theme12",
+            "Tags": [],
+            "Title": "Nordic quality",
+            "Url": "/page/theme12"
+        },
+        {
+            "Id": "8359b61e-aa33-40e7-96db-7cf41ab65b7e_autoTradingWithRiskLevelMedium",
+            "Name": "dynamicstocktheme1",
+            "Tags": [],
+            "Title": "Growth Stocks",
+            "Url": "/page/dynamicstocktheme1"
+        },
+        {
+            "Id": "7cc1bd7d-8307-43e9-8c04-90b8c03d05f8_autoTradingWithRiskLevelMedium",
+            "Name": "dynamicstocktheme2",
+            "Tags": [],
+            "Title": "Analysts' favourites",
+            "Url": "/page/dynamicstocktheme2"
+        },
+        {
+            "Id": "d02af08f-a35c-4b58-b249-5cac6cf52273_autoTradingWithRiskLevelMedium",
+            "Name": "dynamicstocktheme3",
+            "Tags": [],
+            "Title": "Dividend stocks",
+            "Url": "/page/dynamicstocktheme3"
+        },
+        {
+            "Id": "22c556e9-d7fb-44aa-970d-55f49c3c7714_autoTradingWithRiskLevelMedium",
+            "Name": "dynamicetftheme2",
+            "Tags": [],
+            "Title": "Best return, latest year",
+            "Url": "/page/dynamicetftheme2"
+        },
+        {
+            "Id": "638c90d4-3c57-4ba4-969e-da9b90892659_autoTradingWithRiskLevelMedium",
+            "Name": "dynamicetftheme3",
+            "Tags": [],
+            "Title": "Lowest ongoing cost",
+            "Url": "/page/dynamicetftheme3"
+        },
+        {
+            "Id": "1206c42d-ae69-4770-895a-c207dcf799ba_autoTradingWithRiskLevelMedium",
+            "Name": "dynamicmftheme1",
+            "Tags": [],
+            "Title": "Highest return latest year",
+            "Url": "/page/dynamicmftheme1"
+        },
+        {
+            "Id": "d831e9b9-856f-47d7-9828-84e8374e2cb2_autoTradingWithRiskLevelMedium",
+            "Name": "dynamicmftheme2",
+            "Tags": [],
+            "Title": "Balanced investment funds",
+            "Url": "/page/dynamicmftheme2"
+        },
+        {
+            "Id": "d2546aeb-af1b-429f-a161-ce80108daf50_autoTradingWithRiskLevelMedium",
+            "Name": "dynamicbondtheme1",
+            "Tags": [],
+            "Title": "Global companies",
+            "Url": "/page/dynamicbondtheme1"
+        },
+        {
+            "Id": "1efe19a5-f4fe-4d50-9b71-2be34f4ecb97_autoTradingWithRiskLevelMedium",
+            "Name": "dynamicbondtheme2",
+            "Tags": [],
+            "Title": "Bonds with lower minimum ordersize",
+            "Url": "/page/dynamicbondtheme2"
+        },
+        {
+            "Id": "172f3cf7-4f8e-4507-a02f-0b05f57fe2cc_autoTradingWithRiskLevelMedium",
+            "Name": "marketdata",
+            "Tags": [],
+            "Title": "Market data disclaimer",
+            "Url": "/page/marketdata"
+        },
+        {
+            "Id": "25dcfc3a-7dcf-409a-abd4-5749565ba3f3_autoTradingWithRiskLevelMedium",
+            "Name": "more-markets",
+            "Tags": [],
+            "Title": "Global markets",
+            "Url": "/page/more-markets"
+        },
+        {
+            "Id": "5003b4f8-9aa3-4f74-9cba-a4e043bede01_autoTradingWithRiskLevelMedium",
+            "Name": "danish-stocks",
+            "Tags": [],
+            "Title": "Danish stocks",
+            "Url": "/page/danish-stocks"
+        },
+        {
+            "Id": "f19675c3-4a61-4a79-9da2-d63e093460df_autoTradingWithRiskLevelMedium",
+            "Name": "do-your-own",
+            "Tags": [],
+            "Title": "Create your own search",
+            "Url": "/page/do-your-own"
+        },
+        {
+            "Id": "6922b2e5-d6b6-496c-bb49-a5cf0bd653b9_autoTradingWithRiskLevelMedium",
+            "Name": "do-your-own-stock",
+            "Tags": [],
+            "Title": "Create your own stock search",
+            "Url": "/page/do-your-own-stock"
+        },
+        {
+            "Id": "04f00c0c-b8cf-490c-9cae-8241529176fb_autoTradingWithRiskLevelMedium",
+            "Name": "do-your-own-fund",
+            "Tags": [],
+            "Title": "Create your own fund search",
+            "Url": "/page/do-your-own-fund"
+        },
+        {
+            "Id": "8fb5cff8-0770-438f-84ab-2415bc38f5d8_autoTradingWithRiskLevelMedium",
+            "Name": "do-your-own-dk-fund",
+            "Tags": [],
+            "Title": "Create your own danish fund search",
+            "Url": "/page/do-your-own-dk-fund"
+        },
+        {
+            "Id": "d740b61e-f477-4ef9-9f85-4a8825a45a6b_autoTradingWithRiskLevelMedium",
+            "Name": "5-star-dk-funds",
+            "Tags": [],
+            "Title": "Danish funds with 5 stars from Morningstar™",
+            "Url": "/page/5-star-dk-funds"
+        },
+        {
+            "Id": "c57bc6ce-6fb8-4698-908f-73e5c74a7643_autoTradingWithRiskLevelMedium",
+            "Name": "5-star-funds",
+            "Tags": [],
+            "Title": "Funds",
+            "Url": "/page/5-star-funds"
+        },
+        {
+            "Id": "e66f6698-2e4f-4432-aa3d-7cd40cf21602_autoTradingWithRiskLevelMedium",
+            "Name": "majinvest",
+            "Tags": [],
+            "Title": "Maj Invest",
+            "Url": "/page/majinvest"
+        },
+        {
+            "Id": "efe771a0-c3c5-48da-825d-77c127df7cb8_autoTradingWithRiskLevelMedium",
+            "Name": "sparinvest",
+            "Tags": [],
+            "Title": "SparInvest",
+            "Url": "/page/sparinvest"
+        },
+        {
+            "Id": "102faeea-4d59-4fdd-9964-c6d68ba66bf2_autoTradingWithRiskLevelMedium",
+            "Name": "bankinvest",
+            "Tags": [],
+            "Title": "BankInvest",
+            "Url": "/page/bankinvest"
+        },
+        {
+            "Id": "412d1744-e44b-4e9d-b625-2a7677c95966_autoTradingWithRiskLevelMedium",
+            "Name": "cworldwide",
+            "Tags": [],
+            "Title": "C WorldWide",
+            "Url": "/page/cworldwide"
+        },
+        {
+            "Id": "32fd93c9-db6a-42c0-88fc-bb34a8438608_autoTradingWithRiskLevelMedium",
+            "Name": "almbrand",
+            "Tags": [],
+            "Title": "Alm. Brand Invest",
+            "Url": "/page/almbrand"
+        },
+        {
+            "Id": "4fc3091a-2916-4834-bdac-79ec9a3011c8_autoTradingWithRiskLevelMedium",
+            "Name": "bildanmark",
+            "Tags": [],
+            "Title": "BIL Danmark",
+            "Url": "/page/bildanmark"
+        },
+        {
+            "Id": "2c6bd157-b64b-48e1-b0ca-80e26100ab14_autoTradingWithRiskLevelMedium",
+            "Name": "danskeinvest",
+            "Tags": [],
+            "Title": "Danske Invest",
+            "Url": "/page/danskeinvest"
+        },
+        {
+            "Id": "ba948b12-ed3b-4f3b-b445-fc3043283685_autoTradingWithRiskLevelMedium",
+            "Name": "fundamentalinvest",
+            "Tags": [],
+            "Title": "Fundamental Invest",
+            "Url": "/page/fundamentalinvest"
+        },
+        {
+            "Id": "9e3b939a-8756-4fee-b77b-f7b422ea2d0e_autoTradingWithRiskLevelMedium",
+            "Name": "halberg-gundersen",
+            "Tags": [],
+            "Title": "Halberg-Gundersen Invest",
+            "Url": "/page/halberg-gundersen"
+        },
+        {
+            "Id": "bef957f8-ae4f-41b6-9915-94aae4ef55f6_autoTradingWithRiskLevelMedium",
+            "Name": "handelsinvest",
+            "Tags": [],
+            "Title": "Handelsinvest",
+            "Url": "/page/handelsinvest"
+        },
+        {
+            "Id": "d44a4f54-65f4-49b2-a896-4ff487f9b20e_autoTradingWithRiskLevelMedium",
+            "Name": "gudme",
+            "Tags": [],
+            "Title": "Gudme Raaschou Invest",
+            "Url": "/page/gudme"
+        },
+        {
+            "Id": "08a665df-f212-49f5-ab0a-1bc7816bdbae_autoTradingWithRiskLevelMedium",
+            "Name": "nordeainvest",
+            "Tags": [],
+            "Title": "Nordea Invest",
+            "Url": "/page/nordeainvest"
+        },
+        {
+            "Id": "af7d4a21-e3e3-47a1-b94e-0977e17c5eb0_autoTradingWithRiskLevelMedium",
+            "Name": "pfainvest",
+            "Tags": [],
+            "Title": "PFA Invest",
+            "Url": "/page/pfainvest"
+        },
+        {
+            "Id": "b9dc91dd-b80e-449e-ad0f-fa53b7b5631d_autoTradingWithRiskLevelMedium",
+            "Name": "nykredit",
+            "Tags": [],
+            "Title": "Nykredit Invest",
+            "Url": "/page/nykredit"
+        },
+        {
+            "Id": "17c0f514-296e-4201-91fe-3c2b87d564bd_autoTradingWithRiskLevelMedium",
+            "Name": "sebinvest",
+            "Tags": [],
+            "Title": "SEBinvest",
+            "Url": "/page/sebinvest"
+        },
+        {
+            "Id": "033ea71a-2919-4c22-b1ba-d69dae68c953_autoTradingWithRiskLevelMedium",
+            "Name": "skagen",
+            "Tags": [],
+            "Title": "Skagen Invest",
+            "Url": "/page/skagen"
+        },
+        {
+            "Id": "45c18c21-676c-4f4d-817e-cd92067dcfc9_autoTradingWithRiskLevelMedium",
+            "Name": "storebrand",
+            "Tags": [],
+            "Title": "Storebrand",
+            "Url": "/page/storebrand"
+        },
+        {
+            "Id": "f1a7671e-4d16-41a4-bc4f-b428d7587b2f_autoTradingWithRiskLevelMedium",
+            "Name": "sydinvest",
+            "Tags": [],
+            "Title": "Sydinvest",
+            "Url": "/page/sydinvest"
+        },
+        {
+            "Id": "5aea79b8-cc6a-46c8-b693-fb7db174521e_autoTradingWithRiskLevelMedium",
+            "Name": "laanspar",
+            "Tags": [],
+            "Title": "Lån & Spar Invest",
+            "Url": "/page/laanspar"
+        },
+        {
+            "Id": "e0021daa-68ee-4803-ba31-6e51535e1198_autoTradingWithRiskLevelMedium",
+            "Name": "jyske-invest",
+            "Tags": [],
+            "Title": "Jyske Invest",
+            "Url": "/page/jyske-invest"
+        },
+        {
+            "Id": "40488ec2-756b-43ce-8982-54adee4809b5_autoTradingWithRiskLevelMedium",
+            "Name": "do-your-own-etf",
+            "Tags": [],
+            "Title": "Create your own ETF search",
+            "Url": "/page/do-your-own-etf"
+        },
+        {
+            "Id": "41f0d473-c7b3-4bbe-be95-c7840be1d696_autoTradingWithRiskLevelMedium",
+            "Name": "global-eqt-etfs",
+            "Tags": [],
+            "Title": "Equity ETFs",
+            "Url": "/page/global-eqt-etfs"
+        },
+        {
+            "Id": "33adee43-842d-49f4-82ca-e5f13d7f8013_autoTradingWithRiskLevelMedium",
+            "Name": "global-bond-etfs",
+            "Tags": [],
+            "Title": "Bond ETFs",
+            "Url": "/page/global-bond-etfs"
+        },
+        {
+            "Id": "383d6dbe-8b14-43d1-bf5d-dc52d5555776_autoTradingWithRiskLevelMedium",
+            "Name": "em-etfs",
+            "Tags": [],
+            "Title": "Emerging markets ETFs",
+            "Url": "/page/em-etfs"
+        },
+        {
+            "Id": "29714c4e-1410-4f17-96bd-2ae132b88a2a_autoTradingWithRiskLevelMedium",
+            "Name": "global-eqt-funds",
+            "Tags": [],
+            "Title": "Equity funds",
+            "Url": "/page/global-eqt-funds"
+        },
+        {
+            "Id": "eb8b6346-ca01-4836-9464-3ab1b98346c5_autoTradingWithRiskLevelMedium",
+            "Name": "global-bond-funds",
+            "Tags": [],
+            "Title": "Bond funds",
+            "Url": "/page/global-bond-funds"
+        },
+        {
+            "Id": "c4ea1742-49c1-415b-a7d4-32fc5c20cc9f_autoTradingWithRiskLevelMedium",
+            "Name": "em-funds",
+            "Tags": [],
+            "Title": "Emerging markets funds",
+            "Url": "/page/em-funds"
+        },
+        {
+            "Id": "d9ba3a42-f000-41b3-b6c8-6a49afee76e0_autoTradingWithRiskLevelMedium",
+            "Name": "do-your-own-bonds",
+            "Tags": [],
+            "Title": "Create your own bond search",
+            "Url": "/page/do-your-own-bonds"
+        },
+        {
+            "Id": "769e3953-abb4-4aa2-bc61-cf5fd9071199_autoTradingWithRiskLevelMedium",
+            "Name": "corp-bonds",
+            "Tags": [],
+            "Title": "Corporate bonds",
+            "Url": "/page/corp-bonds"
+        },
+        {
+            "Id": "7b0326f3-1f3e-488f-8c0b-9d71b51f8ca9_autoTradingWithRiskLevelMedium",
+            "Name": "dk-bonds",
+            "Tags": [],
+            "Title": "Danish bonds",
+            "Url": "/page/dk-bonds"
+        },
+        {
+            "Id": "c2fa0751-b521-4f95-90ab-3765d0aa4100_autoTradingWithRiskLevelMedium",
+            "Name": "gov-bonds",
+            "Tags": [],
+            "Title": "Government bonds",
+            "Url": "/page/gov-bonds"
+        },
+        {
+            "Id": "776f583a-e36d-46ed-a247-c3d4f67db009_autoTradingWithRiskLevelMedium",
+            "Name": "popular-bonds",
+            "Tags": [],
+            "Title": "Popular bonds at Saxo",
+            "Url": "/page/popular-bonds"
+        },
+        {
+            "Id": "8920f9fe-d18f-4181-b58f-637a0f88c738_autoTradingWithRiskLevelMedium",
+            "Name": "most-traded-int",
+            "Tags": [],
+            "Title": "Saxo's most-traded international stocks",
+            "Url": "/page/most-traded-int"
+        },
+        {
+            "Id": "5a54c1de-b2e3-4a70-9714-944afa6d0505_autoTradingWithRiskLevelMedium",
+            "Name": "most-popular-etfs",
+            "Tags": [],
+            "Title": "Most-traded ETFs at Saxo",
+            "Url": "/page/most-popular-etfs"
+        },
+        {
+            "Id": "4dd0c7f5-6f0c-40ac-8f58-02c4babc1280_autoTradingWithRiskLevelMedium",
+            "Name": "us-stocks",
+            "Tags": [],
+            "Title": "US stocks",
+            "Url": "/page/us-stocks"
+        },
+        {
+            "Id": "9781a989-d87a-4468-ad0a-087e03f9993c_autoTradingWithRiskLevelMedium",
+            "Name": "swedish-stocks",
+            "Tags": [],
+            "Title": "Swedish stocks",
+            "Url": "/page/swedish-stocks"
+        },
+        {
+            "Id": "6ff04e59-97db-4819-8234-ee56b0f2e8ce_autoTradingWithRiskLevelMedium",
+            "Name": "de-stocks",
+            "Tags": [],
+            "Title": "German stocks",
+            "Url": "/page/de-stocks"
+        },
+        {
+            "Id": "761d269e-2697-414e-b64b-9ac25faad496_autoTradingWithRiskLevelMedium",
+            "Name": "sector-consumer",
+            "Tags": [],
+            "Title": "Consumer stocks",
+            "Url": "/page/sector-consumer"
+        },
+        {
+            "Id": "9b206fcc-60ee-41d6-809e-44d0a9d48f6d_autoTradingWithRiskLevelMedium",
+            "Name": "sector-healthcare",
+            "Tags": [],
+            "Title": "Healthcare",
+            "Url": "/page/sector-healthcare"
+        },
+        {
+            "Id": "fe5d52e4-29c6-473f-81cf-d181f82ae98c_autoTradingWithRiskLevelMedium",
+            "Name": "sector-it",
+            "Tags": [],
+            "Title": "Technology stocks",
+            "Url": "/page/sector-it"
+        },
+        {
+            "Id": "4246423b-0bc1-4f75-a758-a63b2f72b008_autoTradingWithRiskLevelMedium",
+            "Name": "sector-finance",
+            "Tags": [],
+            "Title": "Finance stocks",
+            "Url": "/page/sector-finance"
+        },
+        {
+            "Id": "51fccaa4-df6e-4276-b48d-967f5d916157_autoTradingWithRiskLevelMedium",
+            "Name": "get-started",
+            "Tags": [],
+            "Title": "Help portal",
+            "Url": "/page/get-started"
+        },
+        {
+            "Id": "747c1fad-9748-434e-90b6-8c9ad83f567c_autoTradingWithRiskLevelMedium",
+            "Name": "dk-stocks",
+            "Tags": [],
+            "Title": "Danish stocks",
+            "Url": "/page/dk-stocks"
+        }
+    ]
+}

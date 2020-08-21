@@ -1,0 +1,79 @@
+{
+    "AssetType": "CfdOnStock",
+    "CountryCode": "US",
+    "CurrencyCode": "USD",
+    "Description": "Apple Inc.",
+    "ExchangeId": "NASDAQ",
+    "Format": {
+        "Decimals": 3
+    },
+    "GeneralInfo": {
+        "StockInfo": {
+            "Beta": 1.079639,
+            "Description": "Apple designs a wide variety of consumer electronic devices, including smartphones (iPhone), tablets (iPad), PCs (Mac), smartwatches (Apple Watch), and TV boxes (Apple TV), among others. The iPhone makes up the majority of Apple’s total revenue. In addition, Apple offers its customers a variety of services such as Apple Music, iCloud, Apple Care and Apple Pay, among others. Apple's products run internally developed software and semiconductors, and the firm is well known for its integration of hardware, software and services. Apple's products are distributed online as well as through company-owned stores and third-party retailers. The company generates about 40% of its revenue from the Americas, with the remainder earned internationally.",
+            "DividentYieldPct": 1.38,
+            "MarketCap": 1006737728600,
+            "NoOfEmployees": 123000,
+            "PriceEarnings": 18.903592,
+            "SalesGrowthRatePct": 15.862,
+            "Sector": {
+                "Key": "Technology",
+                "Value": "Technology"
+            },
+            "SubSector": {
+                "Key": "Consumer Electronics",
+                "Value": "Consumer Electronics"
+            }
+        }
+    },
+    "AnalystConsensus": {
+        "TargetPrice": 230.1,
+        "Rating": 5.0,
+        "ImpliedReturn": 3.23,
+        "Overweight": 1,
+        "Hold": 50,
+        "Underweight": 50,
+        "Sell": 1
+    },
+    "KeyStats": [
+        {
+            "Key": "PriceEarnings",
+            "Value": 29.850746
+        },
+        {
+            "Key": "DividendYield",
+            "Value": 0.86
+        },
+        {
+            "Key": "EPS",
+            "Value": 11.89
+        },
+        {
+            "Key": "Volatility30Days",
+            "Value": 5
+        },
+        {
+            "Key": "Beta",
+            "Value": 1.081448
+        },
+        {
+            "Key": "EnterpriseValue",
+            "Value": 13.7472
+        },
+        {
+            "Key": "TotalDebt",
+            "Value": 108047
+        },
+        {
+            "Key": "PriceBookValue",
+            "Value": 10.7447
+        },
+        {
+            "Key": "DividendPayoutRatio",
+            "Value": 0.7447
+        }
+    ],
+    "Instrument": "AAPL:xnas",
+    "MinimumTradeSize": 1,
+    "Uic": 211
+}

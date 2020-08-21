@@ -1,0 +1,24 @@
+{
+    "CardDefinitions": [
+        {
+            "BrandId": "35",
+            "CardDefinitionId": "49",
+            "LockedCurrency": "EUR",
+            "Name": "Ålandsbanken",
+            "ProviderId": "3"
+        },
+        {
+            "BrandId": "32",
+            "CardDefinitionId": "48",
+            "LockedCurrency": "EUR",
+            "Name": "Danske Bank",
+            "ProviderId": "3"
+        }
+    ],
+    "Countries": [],
+    "Currencies": ["AUD", "CAD"],
+    "MaximumAllowedStoredCards": 0,
+    "PaymentId": "1",
+    "RestrictedCardDefinitions": [],
+    "SubsidiaryAddress": "Some adress"
+}

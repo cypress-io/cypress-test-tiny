@@ -1,0 +1,275 @@
+{
+    "DefaultPageId": "440f88ea-87cf-43c6-8afc-10e1718ae4cf_trader",
+    "Languages": ["en"],
+    "Links": {
+        "Footer": [
+            {
+                "IconType": "",
+                "Id": "fdc630ab-e31f-4005-aa9f-abc1b82d6123",
+                "Label": "General terms",
+                "Name": "disclaimer",
+                "Url": "https://www.home.saxo/legal/general-business-terms/saxo-general-business-terms"
+            },
+            {
+                "IconType": "",
+                "Id": "36903191-240e-4b59-aa12-177c9e445ee8",
+                "Label": "Market data disclaimer",
+                "Name": "marketdatadisclaimer",
+                "Url": "/page/marketdata"
+            },
+            {
+                "IconType": "",
+                "Id": "1f9eb402-3718-4c37-98b6-c2fe463b5f84",
+                "Label": "Contact support",
+                "Name": "contactsupport",
+                "Url": "/contact-support"
+            },
+            {
+                "IconType": "",
+                "Id": "329aad48-f1d0-49d4-80a2-b09ebfd88662",
+                "Label": "SaxoInvestor help",
+                "Name": "saxoinvestorhelp",
+                "Url": "https://investor.help.saxo/hc/da"
+            },
+            {
+                "IconType": "",
+                "Id": "2b0f57d1-8cbd-4398-b164-a7bc5be9aeda",
+                "Label": "Try our more advanced platform",
+                "Name": "tryourmoreadvancedplatform",
+                "Url": "https://www.home.saxo/investor/platforms/saxotradergo"
+            }
+        ],
+        "Header": [
+            {
+                "IconType": "Briefcase",
+                "Id": "19a6eab4-9cb1-464b-b222-ff85b2966c1d",
+                "Label": "Portfolio",
+                "Name": "portfolio",
+                "Url": "/investments/current-holdings"
+            },
+            {
+                "IconType": "Basket",
+                "Id": "1be4d946-ddf4-4d21-873b-596e175f145f",
+                "Label": "Markets",
+                "Name": "markets",
+                "Url": "/page/markets"
+            }
+        ],
+        "Secondary": [],
+        "ResearchTabs": [
+            {
+                "Id": "cd833570-ba63-4719-8a18-c3bcd599f2fb",
+                "Name": "markets",
+                "IconType": "Basket",
+                "Label": "Overview",
+                "Url": "/page/markets",
+                "PageId": "0a3d8eec-9b88-457d-819c-eccf90e2d3a7"
+            },
+            {
+                "Id": "36903191-240e-4b59-aa12-177c9e445ee8",
+                "Name": "stocks",
+                "IconType": "",
+                "Label": "Stocks",
+                "Url": "/page/stocks",
+                "PageId": "cb24f1d9-7635-4a45-9a82-c2395a3b8b1c"
+            },
+            {
+                "Id": "e9cb5c55-955a-40e3-acf1-c15f288de953",
+                "Name": "education",
+                "IconType": "",
+                "Label": "Education",
+                "Url": "/page/education",
+                "PageId": "de0a4a8c-b678-471a-a732-fcf95edb1dce"
+            },
+            {
+                "IconType": "",
+                "Id": "6572671f-2998-4a66-9d80-c8b47314b386",
+                "Label": "Overview 2",
+                "Name": "overview",
+                "PageId": "0b2dc2fa-3347-4885-8625-64b0c73b75fe",
+                "Url": "/page/overview"
+            },
+            {
+                "IconType": "",
+                "Id": "d99db75a-58d8-468c-aa51-92fcae7130e6",
+                "Label": "Forex",
+                "Name": "forex",
+                "PageId": "614bbb21-e822-4753-bf47-02e4b4fa92e5",
+                "Url": "/page/forex"
+            },
+            {
+                "IconType": "",
+                "Id": "3713b19e-a0dd-4829-8113-15ced73a2936",
+                "Label": "Commodities",
+                "Name": "commodities",
+                "PageId": "b68b68b0-4363-4c86-a0f4-4debbf01e0e9",
+                "Url": "/page/commodities"
+            },
+            {
+                "IconType": "",
+                "Id": "c7e2e00b-2434-422b-bbb4-b945cec7e9de",
+                "Label": "Bonds",
+                "Name": "bonds",
+                "PageId": "aae7bb7a-886a-4031-aa25-7de642ef03e4",
+                "Url": "/page/bonds"
+            },
+            {
+                "IconType": "",
+                "Id": "11c78a35-ea29-45d0-a0c2-5910905a0c15",
+                "Label": "ETFs",
+                "Name": "etfs",
+                "PageId": "9b896772-6aa8-4bbd-8935-864f831f0096",
+                "Url": "/page/etfs"
+            },
+            {
+                "IconType": "",
+                "Id": "79a1234c-2440-4b5f-a8de-583401d3e2e3",
+                "Label": "Funds",
+                "Name": "funds",
+                "PageId": "b2a7fb3a-3259-43b7-8ec9-4aa1b2dad47e",
+                "Url": "/page/funds"
+            },
+            {
+                "IconType": "",
+                "Id": "13ce4bd0-4425-4397-ac40-95fa4ecab6c7",
+                "Label": "Test",
+                "Name": "test",
+                "PageId": "62a1f0ee-615f-47c6-992a-626c53d088e2",
+                "Url": "/page/test"
+            },
+            {
+                "IconType": "",
+                "Id": "b22198e9-803a-46d0-832f-f3834e608dc2",
+                "Label": "Test1",
+                "Name": "test1",
+                "PageId": "9b128107-864d-456f-b5c8-dd849fdb0f1c",
+                "Url": "/page/test1"
+            }
+        ]
+    },
+    "MappedSections": {
+        "Matchers": [
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [30528, 3400711, 12799673]
+                },
+                "PageId": "Index_cn_trader"
+            },
+            {
+                "Rule": {
+                    "AssetType": "Bond",
+                    "Uic": [12572271]
+                },
+                "PageId": "Index_banner_trader"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [1909050]
+                },
+                "PageId": "Index_us_trader"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [1907570]
+                },
+                "PageId": "Index_de_trader"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [13720]
+                },
+                "PageId": "Index_au_trader"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [12799674]
+                },
+                "PageId": "Index_hk_trader"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [12799676]
+                },
+                "PageId": "Index_sg_trader"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [12799676]
+                },
+                "PageId": "Index_sg_trader"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [12799675]
+                },
+                "PageId": "Index_jp_trader"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [12799672]
+                },
+                "PageId": "Index_th_trader"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [12799671]
+                },
+                "PageId": "Index_tw_trader"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [12799670]
+                },
+                "PageId": "Index_my_trader"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [12799182]
+                },
+                "PageId": "Index_kr_trader"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [12799181]
+                },
+                "PageId": "Index_id_trader"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [26586]
+                },
+                "PageId": "Index_se_trader"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [5889633]
+                },
+                "PageId": "Index_dk_trader"
+            }
+        ]
+    },
+    "Pages": [
+        {
+            "Id": "440f88ea-87cf-43c6-8afc-10e1718ae4cf_trader",
+            "Name": "preview",
+            "Tags": [],
+            "Title": "",
+            "Url": "/page/preview"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "AssetType": "Bond",
+    "CountryCode": "DK",
+    "CurrencyCode": "DKK",
+    "Description": "Kingdom of Spain 0% 17 Apr 2020, EUR",
+    "ExchangeId": "EU_CP_IG",
+    "GeneralInfo": {
+        "BondInfo": {
+            "BondType": {
+                "Key": "Note",
+                "Value": "Note"
+            },
+            "Callable": true,
+            "CreditRatings": [
+                {
+                    "Agency": "MOODYS",
+                    "Rating": "Baa2"
+                },
+                {
+                    "Agency": "S&P",
+                    "Rating": "BBB"
+                }
+            ],
+            "DebtType": {
+                "Key": "Corporate",
+                "Value": "Corporate"
+            },
+            "IndustrySector": {
+                "Key": "Industrials",
+                "Value": "Industrials"
+            },
+            "IssueDate": "2018-03-16",
+            "Issuer": "A.P. Moller - Maersk AS",
+            "MaturityDate": "2026-03-16"
+        }
+    },
+    "Instrument": "MAERSK-1.75-16MAR26",
+    "IssueDetails": {
+        "Coupon": 0,
+        "CouponFrequency": {
+            "Key": "Annual",
+            "Value": "Annual"
+        },
+        "IssueAmount": 750,
+        "MinimumOrder": 100000,
+        "ModifiedDuration": 6.4950984226046,
+        "MultipleAmount": 1000,
+        "NextCouponDate": "2019-03-16",
+        "OutstandingAmount": 750,
+        "PaymentRank": "S",
+        "YieldToMaturity": 2.5741846681284
+    },
+    "MinimumTradeSize": 100000,
+    "Uic": 14446419
+}

@@ -1,0 +1,37 @@
+{
+    "AssetType": "Bond",
+    "CountryCode": "FR",
+    "CurrencyCode": "EUR",
+    "Description": "Vallourec 6.375% 15 Oct 2023, EUR- NOCT",
+    "ExchangeId": "BONDS",
+    "Format": { "Decimals": 3 },
+    "GeneralInfo": {
+        "BondInfo": {
+            "BondType": { "Key": "Note", "Value": "Note" },
+            "Callable": true,
+            "DebtType": { "Key": "Corporate", "Value": "Corporate" },
+            "IndustrySector": { "Key": "Energy", "Value": "Energy" },
+            "IssueDate": "2018-04-19",
+            "Issuer": "Vallourec",
+            "MaturityDate": "2023-10-15"
+        }
+    },
+    "Instrument": "VALLOUREC-6.375-15OCT23",
+    "IssueDetails": {
+        "BondType": "NonInflationLinked",
+        "Coupon": 6.375,
+        "CouponFrequency": { "Key": "Semi-Annual", "Value": "Semi-Annual" },
+        "IssueAmount": 400.0,
+        "MinimumOrder": 100000.0,
+        "ModifiedDuration": 3.56320244305507,
+        "MultipleAmount": 1000.0,
+        "NextCouponDate": "2020-04-15",
+        "OutstandingAmount": 400.0,
+        "PaymentRank": "S",
+        "YieldToCall": 11.709905106,
+        "YieldToMaturity": 11.709905106,
+        "YieldToWorst": 11.709905106
+    },
+    "MinimumTradeSize": 100000.0,
+    "Uic": 10577403
+}

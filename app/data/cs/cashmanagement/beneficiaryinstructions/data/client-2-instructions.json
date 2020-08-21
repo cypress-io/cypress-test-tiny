@@ -1,0 +1,28 @@
+{
+    "__count": 1,
+    "Data": [
+        {
+            "BeneficiaryDetails": {
+                "BankAddress": "AVENIDA DIAGONAL 621-629\r\n08028 BARCELONA SPAIN",
+                "BankName": "CAIXABANK, S.A.",
+                "Bic": "CAIXESBBXXX",
+                "ClearingCode": "",
+                "CountryCode": "ES",
+                "Iban": "ES7921000813610123456789"
+            },
+            "ClientId": "4140478",
+            "Currency": "EUR",
+            "Id": "195982",
+            "IntermediaryBank": {
+                "AccountNumber": "",
+                "Bic": "",
+                "ClearingCode": ""
+            },
+            "Name": "SSI,EUR",
+            "RegulatedBroker": {
+                "AccountNumber": "",
+                "Name": ""
+            }
+        }
+    ]
+}

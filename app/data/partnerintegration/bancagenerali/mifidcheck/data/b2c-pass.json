@@ -1,0 +1,39 @@
+{
+    "Checks": [
+        {
+            "Id": "ConflictOfInterest",
+            "Results": [
+                {
+                    "Status": "Pass",
+                    "Text": "Sample Text"
+                }
+            ],
+            "Type": "Disclaimer"
+        },
+        {
+            "Id": "TargetMarket",
+            "Results": [
+                {
+                    "Status": "Pass",
+                    "Text": "Sample Text"
+                }
+            ],
+            "Type": "Disclaimer"
+        },
+        {
+            "Id": "Suitability",
+            "Results": [
+                {
+                    "Status": "Pass",
+                    "Text": "Sample Text"
+                }
+            ],
+            "Type": "HardStop"
+        }
+    ],
+    "ClientId": "101166",
+    "ComplianceText": "B2C Compliance Text",
+    "FlowType": "B2C",
+    "Status": "Success",
+    "SourceId": "1234"
+}

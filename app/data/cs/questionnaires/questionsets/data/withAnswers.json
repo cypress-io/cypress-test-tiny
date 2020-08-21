@@ -1,0 +1,772 @@
+{
+    "Description": "According to European financial regulation (MiFID) Saxo Bank is required to assess its clients’ suitability for the products offered. SaxoSelect products are high risk products which are only suitable for clients with a high risk profile.",
+    "Name": "Saxo Select Suitability Test - Version 8",
+    "PublishedDate": "2016-07-08",
+    "QuestionnaireTestId": "aae81649-a32f-e611-97e6-d485645e7728",
+    "Title": "Saxo Select Suitability Test - Version 8",
+    "QuestionSections": [
+        {
+            "Questions": [
+                {
+                    "QuestionOptions": [
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "b4e81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Secondary school"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "b5e81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "College"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "b3e81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Undergraduate degree"
+                        },
+                        {
+                            "Selected": true,
+                            "QuestionOptionId": "b6e81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Postgraduate Degree or other financial industry recognised qualification"
+                        }
+                    ],
+                    "DataType": "Options",
+                    "QuestionId": "b1e81649-a32f-e611-97e6-d485645e7728",
+                    "QuestionText": "What is your educational background?"
+                },
+                {
+                    "QuestionOptions": [
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "bbe81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Employed/Self Employed"
+                        },
+                        {
+                            "Selected": true,
+                            "QuestionOptionId": "bae81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Employed within the financial sector, for at least one year in a position where I have gained knowledge of the transactions or services envisaged"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "bce81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Unemployed"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "b9e81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Retired"
+                        }
+                    ],
+                    "DataType": "Options",
+                    "QuestionId": "b7e81649-a32f-e611-97e6-d485645e7728",
+                    "QuestionText": "What is your occupation?"
+                },
+                {
+                    "QuestionOptions": [
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "bfe81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "No knowledge and no perception of risks involved"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "c0e81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Limited knowledge and some perception of the risks involved"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "c2e81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Good basic knowledge and aware of the associated risks"
+                        },
+                        {
+                            "Selected": true,
+                            "QuestionOptionId": "c1e81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Thorough knowledge and fully aware of risks"
+                        }
+                    ],
+                    "DataType": "Options",
+                    "QuestionId": "bde81649-a32f-e611-97e6-d485645e7728",
+                    "QuestionText": "What is your knowledge of financial investments and financial markets in general?"
+                }
+            ],
+            "Description": "If you are a corporate client (legal entity) provided information on the knowledge and experience should be that of the person primarily authorised to take investment decisions at your company/organization",
+            "Name": "Knowledge and Experience",
+            "RenderType": "Default",
+            "Title": "Knowledge and Experience"
+        },
+        {
+            "Questions": [
+                {
+                    "QuestionOptions": [
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "c7e81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "No or limited knowledge"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "c5e81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Some knowledge"
+                        },
+                        {
+                            "Selected": true,
+                            "QuestionOptionId": "c6e81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Extensive knowledge"
+                        }
+                    ],
+                    "DataType": "Options",
+                    "QuestionId": "c3e81649-a32f-e611-97e6-d485645e7728",
+                    "QuestionText": "FX Spot"
+                },
+                {
+                    "QuestionOptions": [
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "cae81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "No or limited knowledge"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "cbe81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Some knowledge"
+                        },
+                        {
+                            "Selected": true,
+                            "QuestionOptionId": "cce81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Extensive knowledge"
+                        }
+                    ],
+                    "DataType": "Options",
+                    "QuestionId": "c8e81649-a32f-e611-97e6-d485645e7728",
+                    "QuestionText": "FX Forwards"
+                },
+                {
+                    "QuestionOptions": [
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "d1e81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "No or limited knowledge"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "cfe81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Some knowledge"
+                        },
+                        {
+                            "Selected": true,
+                            "QuestionOptionId": "d0e81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Extensive knowledge"
+                        }
+                    ],
+                    "DataType": "Options",
+                    "QuestionId": "cde81649-a32f-e611-97e6-d485645e7728",
+                    "QuestionText": "FX Options"
+                },
+                {
+                    "QuestionOptions": [
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "d6e81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "No or limited knowledge"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "d5e81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Some knowledge"
+                        },
+                        {
+                            "Selected": true,
+                            "QuestionOptionId": "d4e81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Extensive knowledge"
+                        }
+                    ],
+                    "DataType": "Options",
+                    "QuestionId": "d2e81649-a32f-e611-97e6-d485645e7728",
+                    "QuestionText": "Contracts For Difference (CFDs), including CFDs on commodities, bonds, currencies, stock indices and single stocks"
+                },
+                {
+                    "QuestionOptions": [
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "dbe81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "No or limited knowledge"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "d9e81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Some knowledge"
+                        },
+                        {
+                            "Selected": true,
+                            "QuestionOptionId": "dae81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Extensive knowledge"
+                        }
+                    ],
+                    "DataType": "Options",
+                    "QuestionId": "d7e81649-a32f-e611-97e6-d485645e7728",
+                    "QuestionText": "Stocks"
+                },
+                {
+                    "QuestionOptions": [
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "dfe81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "No or limited knowledge"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "dee81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Some knowledge"
+                        },
+                        {
+                            "Selected": true,
+                            "QuestionOptionId": "e0e81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Extensive knowledge"
+                        }
+                    ],
+                    "DataType": "Options",
+                    "QuestionId": "dce81649-a32f-e611-97e6-d485645e7728",
+                    "QuestionText": "Exchange Traded Funds (ETF)"
+                },
+                {
+                    "QuestionOptions": [
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "e5e81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "No or limited knowledge"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "e4e81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Some knowledge"
+                        },
+                        {
+                            "Selected": true,
+                            "QuestionOptionId": "e3e81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Extensive knowledge"
+                        }
+                    ],
+                    "DataType": "Options",
+                    "QuestionId": "e1e81649-a32f-e611-97e6-d485645e7728",
+                    "QuestionText": "Futures"
+                },
+                {
+                    "QuestionOptions": [
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "eae81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "No or limited knowledge"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "e8e81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Some knowledge"
+                        },
+                        {
+                            "Selected": true,
+                            "QuestionOptionId": "e9e81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Extensive knowledge"
+                        }
+                    ],
+                    "DataType": "Options",
+                    "QuestionId": "e6e81649-a32f-e611-97e6-d485645e7728",
+                    "QuestionText": "Contract Options"
+                },
+                {
+                    "QuestionOptions": [
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "eee81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "No or limited knowledge"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "efe81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Some knowledge"
+                        },
+                        {
+                            "Selected": true,
+                            "QuestionOptionId": "ede81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Extensive knowledge"
+                        }
+                    ],
+                    "DataType": "Options",
+                    "QuestionId": "ebe81649-a32f-e611-97e6-d485645e7728",
+                    "QuestionText": "Bonds"
+                },
+                {
+                    "QuestionOptions": [
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "f2e81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "No or limited knowledge"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "f3e81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Some knowledge"
+                        },
+                        {
+                            "Selected": true,
+                            "QuestionOptionId": "f4e81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Extensive knowledge"
+                        }
+                    ],
+                    "DataType": "Options",
+                    "QuestionId": "f0e81649-a32f-e611-97e6-d485645e7728",
+                    "QuestionText": "Mutual Funds"
+                }
+            ],
+            "Description": "If you are a corporate client (legal entity) provided information on the knowledge and experience should be that of the person primarily authorised to take investment decisions at your company/organization",
+            "Name": "Knowledge and Experience - Products",
+            "RenderType": "RenderAllQuestionsInSectionAsTable",
+            "Title": "What is your knowledge of the following products and the different degrees of risk involved in trading in these products?"
+        },
+        {
+            "Questions": [
+                {
+                    "QuestionOptions": [
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "f9e81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "No Trades"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "f7e81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Less than or equal to 10 trades"
+                        },
+                        {
+                            "Selected": true,
+                            "QuestionOptionId": "f8e81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "More than 10 trades"
+                        }
+                    ],
+                    "DataType": "Options",
+                    "QuestionId": "f5e81649-a32f-e611-97e6-d485645e7728",
+                    "QuestionText": "FX Spot"
+                },
+                {
+                    "QuestionOptions": [
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "fce81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "No Trades"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "fde81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Less than or equal to 10 trades"
+                        },
+                        {
+                            "Selected": true,
+                            "QuestionOptionId": "fee81649-a32f-e611-97e6-d485645e7728",
+                            "Text": "More than 10 trades"
+                        }
+                    ],
+                    "DataType": "Options",
+                    "QuestionId": "fae81649-a32f-e611-97e6-d485645e7728",
+                    "QuestionText": "FX Forwards"
+                },
+                {
+                    "QuestionOptions": [
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "02e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "No Trades"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "03e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Less than or equal to 10 trades"
+                        },
+                        {
+                            "Selected": true,
+                            "QuestionOptionId": "01e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "More than 10 trades"
+                        }
+                    ],
+                    "DataType": "Options",
+                    "QuestionId": "ffe81649-a32f-e611-97e6-d485645e7728",
+                    "QuestionText": "FX Options"
+                },
+                {
+                    "QuestionOptions": [
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "08e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "No Trades"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "06e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Less than or equal to 10 trades"
+                        },
+                        {
+                            "Selected": true,
+                            "QuestionOptionId": "07e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "More than 10 trades"
+                        }
+                    ],
+                    "DataType": "Options",
+                    "QuestionId": "04e91649-a32f-e611-97e6-d485645e7728",
+                    "QuestionText": "Contracts For Difference (CFDs), including CFDs on commodities, bonds, currencies, stock indices and single stocks"
+                },
+                {
+                    "QuestionOptions": [
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "0be91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "No Trades"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "0de91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Less than or equal to 10 trades"
+                        },
+                        {
+                            "Selected": true,
+                            "QuestionOptionId": "0ce91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "More than 10 trades"
+                        }
+                    ],
+                    "DataType": "Options",
+                    "QuestionId": "09e91649-a32f-e611-97e6-d485645e7728",
+                    "QuestionText": "Stocks"
+                },
+                {
+                    "QuestionOptions": [
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "10e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "No Trades"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "11e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Less than or equal to 10 trades"
+                        },
+                        {
+                            "Selected": true,
+                            "QuestionOptionId": "12e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "More than 10 trades"
+                        }
+                    ],
+                    "DataType": "Options",
+                    "QuestionId": "0ee91649-a32f-e611-97e6-d485645e7728",
+                    "QuestionText": "Exchange Traded Funds (ETF)"
+                },
+                {
+                    "QuestionOptions": [
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "17e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "No Trades"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "16e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Less than or equal to 10 trades"
+                        },
+                        {
+                            "Selected": true,
+                            "QuestionOptionId": "15e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "More than 10 trades"
+                        }
+                    ],
+                    "DataType": "Options",
+                    "QuestionId": "13e91649-a32f-e611-97e6-d485645e7728",
+                    "QuestionText": "Futures"
+                },
+                {
+                    "QuestionOptions": [
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "1ce91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "No Trades"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "1ae91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Less than or equal to 10 trades"
+                        },
+                        {
+                            "Selected": true,
+                            "QuestionOptionId": "1be91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "More than 10 trades"
+                        }
+                    ],
+                    "DataType": "Options",
+                    "QuestionId": "18e91649-a32f-e611-97e6-d485645e7728",
+                    "QuestionText": "Contract Options"
+                },
+                {
+                    "QuestionOptions": [
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "21e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "No Trades"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "20e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Less than or equal to 10 trades"
+                        },
+                        {
+                            "Selected": true,
+                            "QuestionOptionId": "1fe91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "More than 10 trades"
+                        }
+                    ],
+                    "DataType": "Options",
+                    "QuestionId": "1de91649-a32f-e611-97e6-d485645e7728",
+                    "QuestionText": "Bonds"
+                },
+                {
+                    "QuestionOptions": [
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "25e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "No Trades"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "26e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Less than or equal to 10 trades"
+                        },
+                        {
+                            "Selected": true,
+                            "QuestionOptionId": "24e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "More than 10 trades"
+                        }
+                    ],
+                    "DataType": "Options",
+                    "QuestionId": "22e91649-a32f-e611-97e6-d485645e7728",
+                    "QuestionText": "Mutual Funds"
+                }
+            ],
+            "Description": "If you are a corporate client (legal entity) provided information on the knowledge and experience should be that of the person primarily authorised to take investment decisions at your company/organization",
+            "Name": "Knowledge and Experience - Trades",
+            "RenderType": "RenderAllQuestionsInSectionAsTable",
+            "Title": "How many trades have you undertaken in each of the following products in the past 12 months?"
+        },
+        {
+            "Questions": [
+                {
+                    "Answer": 100000,
+                    "DataType": "NumberRange",
+                    "NumberRangeOptions": {
+                        "Maximum": 1500000000,
+                        "Minimum": -10000000
+                    },
+                    "QuestionId": "27e91649-a32f-e611-97e6-d485645e7728",
+                    "QuestionOptions": [],
+                    "QuestionText": "What is your annual disposable income (your annual income after deduction of all taxes and living expenses)?"
+                },
+                {
+                    "Answer": 2000000,
+                    "DataType": "NumberRange",
+                    "NumberRangeOptions": {
+                        "Maximum": 15000000000,
+                        "Minimum": 0
+                    },
+                    "QuestionId": "29e91649-a32f-e611-97e6-d485645e7728",
+                    "QuestionOptions": [],
+                    "QuestionText": "What is the value of your household assets? (such as cash, investments, pension funds etc. but excluding real estate assets)"
+                },
+                {
+                    "Answer": 1000000,
+                    "DataType": "NumberRange",
+                    "NumberRangeOptions": {
+                        "Maximum": 15000000000,
+                        "Minimum": 0
+                    },
+                    "QuestionId": "2be91649-a32f-e611-97e6-d485645e7728",
+                    "QuestionOptions": [],
+                    "QuestionText": "What is the total estimated value of your real estate assets?"
+                },
+                {
+                    "Answer": 0,
+                    "DataType": "NumberRange",
+                    "NumberRangeOptions": {
+                        "Maximum": 15000000000,
+                        "Minimum": 0
+                    },
+                    "QuestionId": "2de91649-a32f-e611-97e6-d485645e7728",
+                    "QuestionOptions": [],
+                    "QuestionText": "What is the value of your overall debt (loans, credit card balances, mortgages on real estate properties)?"
+                }
+            ],
+            "Description": "Please answer the following questions in the currency of your main account. If you are a corporate client (legal entity) provided information on financial situation should be that of the company e.g. operating profit, shareholder equity, total assets etc.",
+            "Name": "Financial Situation",
+            "RenderType": "Default",
+            "Title": "Financial Situation"
+        },
+        {
+            "Questions": [
+                {
+                    "QuestionOptions": [
+                        {
+                            "Selected": true,
+                            "QuestionOptionId": "32e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Aim for aggressive growth thereby understanding and accepting a high degree of risk of capital loss and considerable fluctuations in the value of my investments."
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "31e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Aim for moderate growth thereby understanding and accepting some level of risk of capital loss and some fluctuations in the value of my investments."
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "33e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Aim for slow growth and willing to accept a lower degree of risk of capital loss and fluctuations in the value of my investments"
+                        }
+                    ],
+                    "DataType": "Options",
+                    "QuestionId": "2fe91649-a32f-e611-97e6-d485645e7728",
+                    "QuestionText": "What is your investment objective with respect to the capital allocated to SaxoSelect? (If you wish to invest in more than one portfolio please answer this question for the most aggressive type of investment you want to consider)"
+                },
+                {
+                    "QuestionOptions": [
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "37e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "I decide to sell everything to avoid further losses"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "38e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "I prefer to keep my portfolio and wait for the market to recover"
+                        },
+                        {
+                            "Selected": true,
+                            "QuestionOptionId": "36e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "I take the sell-off as an opportunity so I buy more at the lower prices"
+                        }
+                    ],
+                    "DataType": "Options",
+                    "QuestionId": "34e91649-a32f-e611-97e6-d485645e7728",
+                    "QuestionText": "The value of your investments has fallen 15% within a short period of time – What is your reaction?"
+                },
+                {
+                    "QuestionOptions": [
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "3ce91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "In Less than 1 year"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "3de91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "1-4 years"
+                        },
+                        {
+                            "Selected": true,
+                            "QuestionOptionId": "3be91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "5-10 years"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "3ee91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "In more than 10 years"
+                        }
+                    ],
+                    "DataType": "Options",
+                    "QuestionId": "39e91649-a32f-e611-97e6-d485645e7728",
+                    "QuestionText": "When do you expect that you will need the allocated capital for other purposes and therefore liquidate your SaxoSelect investments? (If you are considering more than one portfolio please answer this question for the investment with the longest time horizon)"
+                },
+                {
+                    "QuestionOptions": [
+                        {
+                            "Selected": true,
+                            "QuestionOptionId": "41e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Savings or other unrestricted capital"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "42e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Pension money"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "43e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Company assets"
+                        }
+                    ],
+                    "DataType": "Options",
+                    "QuestionId": "3fe91649-a32f-e611-97e6-d485645e7728",
+                    "QuestionText": "What is the status of the funds you are investing in Saxo Select?"
+                }
+            ],
+            "Name": "Investment purpose",
+            "RenderType": "Default",
+            "Title": "Investment purpose"
+        },
+        {
+            "Questions": [
+                {
+                    "QuestionOptions": [
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "46e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "18-30"
+                        },
+                        {
+                            "Selected": true,
+                            "QuestionOptionId": "47e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "31-45"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "4ae91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "46-55"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "4be91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "56-67"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "49e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "68+"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "48e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Corporate investor"
+                        }
+                    ],
+                    "DataType": "Options",
+                    "QuestionId": "44e91649-a32f-e611-97e6-d485645e7728",
+                    "QuestionText": "How old are you?"
+                },
+                {
+                    "QuestionOptions": [
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "4fe91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Married"
+                        },
+                        {
+                            "Selected": true,
+                            "QuestionOptionId": "4ee91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Single"
+                        },
+                        {
+                            "Selected": false,
+                            "QuestionOptionId": "50e91649-a32f-e611-97e6-d485645e7728",
+                            "Text": "Corporate investor"
+                        }
+                    ],
+                    "DataType": "Options",
+                    "QuestionId": "4ce91649-a32f-e611-97e6-d485645e7728",
+                    "QuestionText": "Civil status"
+                }
+            ],
+            "Name": "Additional Questions",
+            "RenderType": "Default",
+            "Title": "Additional Questions"
+        }
+    ]
+}

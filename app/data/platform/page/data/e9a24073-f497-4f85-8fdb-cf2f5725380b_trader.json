@@ -1,0 +1,209 @@
+{
+    "Id": "e9a24073-f497-4f85-8fdb-cf2f5725380b_trader",
+    "Name": "bonds",
+    "Sections": [
+        {
+            "Id": "cd941793-fed6-4f3f-b966-08350f6f2cac",
+            "IsDividerShown": false,
+            "Name": "themedescriptiontext",
+            "Tags": [],
+            "Text": "Bonds are typically a longer-term investment, which offers you a more secure and stable return. \n\n To get at better overview we have divided the bonds into government bonds, corporate bonds and Danish bonds.  . \n\n  If you want to set up your own search criteria, please select 'Create your own search'.",
+            "TextType": "Expandable",
+            "Title": "",
+            "Type": "Text"
+        },
+        {
+            "Banners": [
+                {
+                    "Align": "center",
+                    "Id": "6e39b828-c793-4ea1-9314-bc9ee3eb00ea",
+                    "Illustration": {
+                        "Url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MyIgaGVpZ2h0PSI0MiIgdmlld0JveD0iMCAwIDQzIDQyIj4NCiAgICA8ZyBmaWxsPSJub25lIj4NCiAgICAgICAgPHBhdGggZmlsbD0iIzU1NzhBQSIgZD0iTTI4LjYwMSAxNy4xMTRhMSAxIDAgMSAwIDEuOTg3LS4yMjhsLTEuOTg3LjIyOHptLTcuMzk3LTE1LjQyYzQuMzE0IDQuNjc1IDYuNzY0IDkuOTIgNy4zOTcgMTUuNDJsMS45ODctLjIyOGMtLjY4Ny01Ljk2Mi0zLjM0LTExLjU5My03LjkxNC0xNi41NDhsLTEuNDcgMS4zNTd6Ii8+DQogICAgICAgIDxwYXRoIHN0cm9rZT0icmVkIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiIgZD0iTTMuNjY0IDMwLjU1NkgxOCIvPg0KICAgICAgICA8cGF0aCBzdHJva2U9IiM1NTc4QUEiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiIgZD0iTTQuMyA5LjY4aDMzLjI4NyIvPg0KICAgICAgICA8cGF0aCBzdHJva2U9IiM1NTc4QUEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIyIiBkPSJNMTkuNzY0IDEuMDI4QzkuMzI2IDEyLjMzNiA5LjU0NCAyNy4wODMgMTkuOTgxIDQxbC0uNzg4LS4wNkM4LjkyMyA0MC4wNCAxIDMxLjA4NiAxIDIwLjU3IDEgOS43NyA5LjQ5OCAxLjQ0NyAyMC4xNzEgMS4wMTdjLjI4OS0uMDEyLjU5My0uMDE3Ljg4NC0uMDE3IDEwLjQ5MyAwIDE5LjA1OCA3Ljk0MyAxOS45MzEgMTguMjA2bS0zOS45ODMuOTEzaDE5Ljk3OCIvPg0KICAgICAgICA8ZyBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIyIj4NCiAgICAgICAgICAgIDxwYXRoIGQ9Ik0zNy44NTUgMjkuNDQyYzAgMy40NjQtMi44NzkgNi4yNy02LjQyOCA2LjI3UzI1IDMyLjkwNiAyNSAyOS40NDJjMC0zLjQ2NCAyLjg3OC02LjI3IDYuNDI3LTYuMjcgMy41NSAwIDYuNDI4IDIuODA2IDYuNDI4IDYuMjd2MHoiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPg0KICAgICAgICAgICAgPHBhdGggc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBkPSJNMzUuOTc5IDMzLjg4NGw1LjkxMiA1Ljc2NyIvPg0KICAgICAgICA8L2c+DQogICAgPC9nPg0KPC9zdmc+DQo="
+                    },
+                    "IsCompact": false,
+                    "IsTextColorInverted": false,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "",
+                        "Target": "/page/gov-bonds"
+                    },
+                    "Name": "eu-gov-bonds",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Government bonds"
+                },
+                {
+                    "Align": "center",
+                    "Id": "42186706-31ff-46ca-ac5a-a9eea938522d",
+                    "Illustration": {
+                        "Url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MiIgaGVpZ2h0PSI0MiIgdmlld0JveD0iMCAwIDQyIDQyIj4NCiAgICA8ZyBmaWxsPSJub25lIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjIiPg0KICAgICAgICA8ZyBzdHJva2U9IiM1NTc4QUEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+DQogICAgICAgICAgICA8cGF0aCBkPSJNMjMgNDFIMVY0LjQ3OGgyOS41NjVWMTgiLz4NCiAgICAgICAgICAgIDxwYXRoIGQ9Ik0xOC4zOTEgNDFoLTUuMjE3di02Ljk1Nmg1LjIxN1Y0MXoiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPg0KICAgICAgICAgICAgPHBhdGggZD0iTTE3IDI1LjM0OGgtMy44MjZ2NS4yMTdIMTciLz4NCiAgICAgICAgICAgIDxwYXRoIGQ9Ik05LjY5NiAzMC41NjVINC40Nzh2LTUuMjE3aDUuMjE4djUuMjE3em04LjY5NS04LjY5NWgtNS4yMTd2LTUuMjE4aDUuMjE3djUuMjE4eiIgY2xpcC1ydWxlPSJldmVub2RkIi8+DQogICAgICAgICAgICA8cGF0aCBkPSJNMjEuODcgMjAuNjM3di0zLjk4NWg1LjIxN1YxOC41Ii8+DQogICAgICAgICAgICA8cGF0aCBkPSJNOS42OTYgMjEuODdINC40Nzh2LTUuMjE4aDUuMjE4djUuMjE4em04LjY5NS04LjY5NmgtNS4yMTdWNy45NTdoNS4yMTd2NS4yMTd6bTguNjk2IDBIMjEuODdWNy45NTdoNS4yMTd2NS4yMTd6bS0xNy4zOTEgMEg0LjQ3OFY3Ljk1N2g1LjIxOHY1LjIxN3pNMjcuMDg3IDFINC40NzhMMSA0LjQ3OGgyOS41NjVMMjcuMDg3IDF6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz4NCiAgICAgICAgPC9nPg0KICAgICAgICA8ZyBzdHJva2U9ImN1cnJlbnRDb2xvciI+DQogICAgICAgICAgICA8cGF0aCBkPSJNMzUuOTE0IDMwLjA0NGMwIDMuNjE0LTMuMDAzIDYuNTQzLTYuNzA3IDYuNTQzLTMuNzAzIDAtNi43MDctMi45MjktNi43MDctNi41NDMgMC0zLjYxNSAzLjAwNC02LjU0NCA2LjcwNy02LjU0NCAzLjcwNCAwIDYuNzA3IDIuOTI5IDYuNzA3IDYuNTQ0djB6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz4NCiAgICAgICAgICAgIDxwYXRoIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgZD0iTTMzLjk1NiAzNC42NzlsNi4xNyA2LjAyIi8+DQogICAgICAgIDwvZz4NCiAgICA8L2c+DQo8L3N2Zz4NCg=="
+                    },
+                    "IsCompact": false,
+                    "IsTextColorInverted": false,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "",
+                        "Target": "/page/corp-bonds"
+                    },
+                    "Name": "corp-bonds",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Corporate bonds"
+                },
+                {
+                    "Align": "center",
+                    "Id": "04a440bd-e6bf-43e0-a0a3-24b4008318d6",
+                    "Illustration": {
+                        "Url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1OSIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDU5IDQwIj4NCiAgICA8ZyBmaWxsPSJub25lIj4NCiAgICAgICAgPG1hc2sgaWQ9InN0b2Nrcy1kZW5tYXJrLWEiIHdpZHRoPSI1OSIgaGVpZ2h0PSIzOCIgeD0iMCIgeT0iMCIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSI+DQogICAgICAgICAgICA8cGF0aCBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00IDBhNCA0IDAgMCAwLTQgNHYzMGE0IDQgMCAwIDAgNCA0aDM2LjA2MkExMS45NyAxMS45NyAwIDAgMSAzNiAyOWMwLTYuNjMgNS4zNzQtMTIgMTItMTIgNC45MTkgMCA5LjE0NyAyLjk2IDExIDcuMTk2VjRhNCA0IDAgMCAwLTQtNEg0eiIgY2xpcC1ydWxlPSJldmVub2RkIi8+DQogICAgICAgIDwvbWFzaz4NCiAgICAgICAgPGcgbWFzaz0idXJsKCNzdG9ja3MtZGVubWFyay1hKSI+DQogICAgICAgICAgICA8cGF0aCBmaWxsPSIjREUyOTEwIiBkPSJNNjAgMEgtMXYzOGg2MVYweiIvPg0KICAgICAgICAgICAgPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTI1LjY4OCAwaC03LjYyNXYzOGg3LjYyNVYweiIvPg0KICAgICAgICAgICAgPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTYwIDE1LjJILTF2Ny42aDYxdi03LjZ6Ii8+DQogICAgICAgIDwvZz4NCiAgICAgICAgPGcgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiI+DQogICAgICAgICAgICA8cGF0aCBkPSJNNTQgMjlhNiA2IDAgMSAxLTEyIDAgNiA2IDAgMCAxIDEyIDB2MHoiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPg0KICAgICAgICAgICAgPHBhdGggc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBkPSJNNTMgMzRsNSA1Ii8+DQogICAgICAgIDwvZz4NCiAgICA8L2c+DQo8L3N2Zz4NCg=="
+                    },
+                    "IsCompact": false,
+                    "IsTextColorInverted": false,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "",
+                        "Target": "/page/dk-bonds"
+                    },
+                    "Name": "us-treasury-bonds",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Danish bonds"
+                },
+                {
+                    "Align": "center",
+                    "Id": "fdf6de4a-4028-473e-ae7a-c69d863a188c",
+                    "Illustration": {
+                        "Url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1OSIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDU5IDQyIj4NCiAgICA8ZyBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciI+DQogICAgICAgIDxtYXNrIGlkPSJhIiB3aWR0aD0iNTkiIGhlaWdodD0iMzgiIHg9IjAiIHk9IjAiIG1hc2tVbml0cz0idXNlclNwYWNlT25Vc2UiPg0KICAgICAgICAgICAgPHBhdGggZmlsbD0iI2ZmZiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNCAwYTQgNCAwIDAgMC00IDR2MzBhNCA0IDAgMCAwIDQgNGgzNi4wNjJBMTEuOTcgMTEuOTcgMCAwIDEgMzYgMjljMC02LjYzIDUuMzc0LTEyIDEyLTEyIDQuOTE5IDAgOS4xNDcgMi45NiAxMSA3LjE5NlY0YTQgNCAwIDAgMC00LTRINHoiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPg0KICAgICAgICA8L21hc2s+DQogICAgICAgIDxnIG1hc2s9InVybCgjYSkiPg0KICAgICAgICAgICAgPHBhdGggc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgZD0iTTQgMWg1MWEzIDMgMCAwIDEgMyAzdjMwYTMgMyAwIDAgMS0zIDNINGEzIDMgMCAwIDEtMy0zVjRhMyAzIDAgMCAxIDMtM3oiLz4NCiAgICAgICAgPC9nPg0KICAgICAgICA8ZyBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjIiPg0KICAgICAgICAgICAgPHBhdGggZD0iTTU0IDI5YTYgNiAwIDEgMS0xMiAwIDYgNiAwIDAgMSAxMiAwdjB6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz4NCiAgICAgICAgICAgIDxwYXRoIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgZD0iTTUzIDM0bDUgNSIvPg0KICAgICAgICA8L2c+DQogICAgPC9nPg0KPC9zdmc+DQo="
+                    },
+                    "IsCompact": false,
+                    "IsTextColorInverted": false,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "",
+                        "Target": "/page/do-your-own-bonds"
+                    },
+                    "Name": "doyourself-bonds",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "All bonds"
+                }
+            ],
+            "Id": "640ce7b7-0993-4564-88bb-2e1d3123c393",
+            "IsDividerShown": false,
+            "LayoutType": "stretch",
+            "Name": "section-1",
+            "Tags": [],
+            "Title": "",
+            "Type": "Banner"
+        },
+        {
+            "AnalystConsensuses": [],
+            "AssetTypes": ["Bond"],
+            "BondRatings": [
+                "A1",
+                "A2",
+                "A3",
+                "Aa",
+                "Aa1",
+                "Aa2",
+                "Aaa",
+                "B",
+                "B1",
+                "B2",
+                "B3"
+            ],
+            "CountryCodes": [
+                "BE",
+                "DK",
+                "GB",
+                "FI",
+                "FR",
+                "GR",
+                "NL",
+                "IE",
+                "IT",
+                "HR",
+                "LV",
+                "LU",
+                "MT",
+                "ME",
+                "PL",
+                "PT",
+                "RO",
+                "SK",
+                "SI",
+                "CZ",
+                "DE",
+                "HU",
+                "US",
+                "AT"
+            ],
+            "Coupons": [],
+            "CurrencyCodes": [],
+            "DebtTypes": ["Corporate"],
+            "ExchangeIds": [],
+            "FundBroadAssetClass": [],
+            "FundCategories": [],
+            "FundIssuerNames": [],
+            "FundRatings": [],
+            "Id": "4e0af75d-d8bc-4b1e-93f2-728153ae5f71",
+            "IncludeNonTradable": false,
+            "InstrumentLimit": 4,
+            "IsDividerShown": false,
+            "IsSeeAllLinkShown": true,
+            "LayoutType": "stretch",
+            "Listing": [],
+            "MarketCaps": [],
+            "Maturities": [],
+            "Name": "screenings-top-four-pop_dk_bonds",
+            "OrderBy": "Popularity",
+            "PriceEarnings": [],
+            "Sectors": [],
+            "SustainabilityRatings": [],
+            "Tags": [],
+            "Target": "/page/popular-bonds",
+            "Title": "Popular bonds",
+            "Type": "InstrumentList",
+            "Uics": [],
+            "YearlyCostPercentages": [],
+            "YieldToMaturity": []
+        },
+        {
+            "Banners": [
+                {
+                    "Align": "center",
+                    "Id": "b480bc25-23b3-40c9-835d-282e87fbb304",
+                    "Image": {
+                        "Alt": "High yield",
+                        "Url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg=="
+                    },
+                    "IsCompact": false,
+                    "IsTextColorInverted": true,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "",
+                        "Target": "/page/dynamicbondtheme2"
+                    },
+                    "Name": "eu-high-yield",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Corporate bonds with reduced minimum ordersize"
+                }
+            ],
+            "Id": "1798f407-7d99-4c08-89d6-81f418fafe71",
+            "IsDividerShown": true,
+            "LayoutType": "stretch",
+            "Name": "corporatebonds",
+            "Tags": [],
+            "Title": "",
+            "Type": "Banner"
+        }
+    ],
+    "Tags": [],
+    "Title": "Bonds",
+    "Url": "/page/bonds"
+}

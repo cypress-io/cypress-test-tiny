@@ -1,0 +1,22 @@
+[
+    {
+        "AssetType": "FxSpot",
+        "Uic": 211,
+        "Settings": "{\"lastTradedAmount\":{\"tradeboard\": \"100000\"}}"
+    },
+    {
+        "AssetType": "FxSpot",
+        "Uic": 421,
+        "Settings": "{\"lastTradedAmount\":{\"ticket\": \"50000\"}}"
+    },
+    {
+        "AssetType": "FxForwards",
+        "Uic": 212,
+        "Settings": "{\"lastPriceTolerance\":{\"isEnabled\":true,\"priceToleranceType\":2,\"priceTolerance\":1,\"type\":2,\"value\":3}}"
+    },
+    {
+        "AssetType": "Bond",
+        "Uic": 422,
+        "Settings": "{\"lastTradedAmount\":{\"ticket\": \"100000\"}}"
+    }
+]

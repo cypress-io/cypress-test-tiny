@@ -1,0 +1,148 @@
+{
+    "Id": "7e6d3f80-5931-4aee-9e93-92e14e1a1a93_autoTradingWithRiskLevel",
+    "Name": "managed-portfolios",
+    "Sections": [
+        {
+            "Banners": [
+                {
+                    "Align": "",
+                    "Id": "7aac8208-25ef-4b45-a534-e3088db3cea5",
+                    "Image": {
+                        "Alt": "",
+                        "Url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg=="
+                    },
+                    "IsCompact": false,
+                    "IsTextColorInverted": true,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false
+                    },
+                    "Name": "theme1",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": ""
+                }
+            ],
+            "Id": "44ea3bb3-7f0b-4f8a-a7b1-bd3f170136a3",
+            "IsDividerShown": true,
+            "LayoutType": "stretch",
+            "Name": "theme-section-2",
+            "Tags": [],
+            "Title": "",
+            "Type": "Banner"
+        },
+        {
+            "Id": "64e7b621-a0c7-4a7b-9b53-5f97e8cc67d4",
+            "IsDividerShown": false,
+            "Name": "text-example",
+            "Tags": [],
+            "Text": "If you prefer to place your investments in professional hands, you can let our experts manage your money for you - simply select one of the portfolios that suits your risk profile and your investment preferences.  \n\n  Unlike mutual funds, we buy individual securities directly on your account. That allows you to track your investments and follow the results by logging in. \n\n   We offer both stock portfolios and balanced ETF portfolios (exchange traded funds). \n\n  We offer both stock portfolios and balanced ETF (exchange-traded fund) portfolios, and our stock portfolios are made in collaboration with leading partners such as the independent analytical company, Morningstar™. \n\n Our balanced ETF portfolios allow you to have a mixed portfolio with a wide spread and a low-cost structure. If you choose one of our ETF portfolios, there are no costs to buy and sell.",
+            "TextType": "Expandable",
+            "Title": "",
+            "Type": "Text"
+        },
+        {
+            "Id": "903c2f4e-a417-4693-bbee-6cd31c46a44a",
+            "IsDividerShown": true,
+            "LayoutType": "stretch",
+            "Name": "managed-portfolios-best-other",
+            "PortfolioCategories": [],
+            "PortfolioIds": ["23"],
+            "PortfolioRiskLevels": [],
+            "Tags": ["RiskLevelLow", "RiskLevelMedium", "RiskLevelHigh"],
+            "Title": "Best match for users with defensive strategy",
+            "TitleAlign": "start",
+            "Type": "ManagedPortfolios"
+        },
+        {
+            "Banners": [],
+            "Id": "d76f85c1-50e9-4ab8-81c2-dcf5447b2db8",
+            "IsDividerShown": true,
+            "LayoutType": "stretch",
+            "Name": "introduction-1",
+            "Tags": [],
+            "Title": "Watch and introduction to the portfolio",
+            "Type": "Banner"
+        },
+        {
+            "Id": "eda8fddf-f852-4523-bde5-9877d7dedada",
+            "IsDividerShown": false,
+            "Name": "introduction-image-6",
+            "RichText": "\n<img style=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='50' height='50' fill='white' stroke='black'/%3E%3C/svg%3E\" />\n",
+            "Tags": [],
+            "Title": "",
+            "Type": "RichTextSection"
+        },
+        {
+            "Id": "e5af8023-9ed4-476c-9980-f870a9e5853a",
+            "IsDividerShown": true,
+            "LayoutType": "wrap",
+            "Name": "managed-portfolios-list-high",
+            "PortfolioCategories": [],
+            "PortfolioIds": [],
+            "PortfolioRiskLevels": [
+                "RiskLevelHigh",
+                "RiskLevelLow",
+                "RiskLevelMedium",
+                "RiskLevelVeryHigh"
+            ],
+            "Tags": ["RiskLevelHigh"],
+            "Title": "Other popular portfolios",
+            "TitleAlign": "center",
+            "Type": "ManagedPortfolios"
+        },
+        {
+            "Buttons": [
+                {
+                    "Align": "",
+                    "Id": "a46c3a3a-1d63-438b-84df-7484e4a5011f",
+                    "IsClear": false,
+                    "IsNoCase": true,
+                    "IsOutline": false,
+                    "IsPrimary": false,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "managed-portfolios-introduction",
+                        "Target": "/page/managed-portfolios-introduction",
+                        "TargetId": "23da1cf7-682e-484d-b759-ad0bab09b6e4"
+                    },
+                    "Name": "revisit_1",
+                    "Size": "",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Revisit the introduction page"
+                },
+                {
+                    "Align": "",
+                    "Id": "8abb342a-e6fb-4bc9-9565-6909fed42553",
+                    "IsClear": false,
+                    "IsNoCase": true,
+                    "IsOutline": true,
+                    "IsPrimary": false,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "Retake test",
+                        "Target": "/investment-suitability-test"
+                    },
+                    "Name": "retake_1",
+                    "Size": "",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Retake the test"
+                }
+            ],
+            "Id": "edba8ede-020f-4719-b754-82cdc7c68bef",
+            "LayoutJustify": "",
+            "LayoutType": "stretch",
+            "Name": "buttons-2",
+            "Tags": [],
+            "Title": "",
+            "Type": "Button"
+        }
+    ],
+    "Tags": ["RiskLevelHigh", "RiskLevelLow", "RiskLevelMedium", "RiskLevelVeryHigh"],
+    "Title": "Let our experts manage your money",
+    "Url": "/page/managed-portfolios"
+}

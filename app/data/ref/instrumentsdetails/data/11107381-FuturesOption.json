@@ -1,0 +1,65 @@
+{
+    "AmountDecimals": 0,
+    "AssetType": "FuturesOption",
+    "ContractSize": 1,
+    "CurrencyCode": "USD",
+    "DefaultAmount": 1,
+    "Description": "EURUSD - 9am fix Sep2019 1.165 C",
+    "Exchange": {
+        "CountryCode": "US",
+        "ExchangeId": "CME",
+        "Name": "Chicago Mercantile Exchange",
+        "PriceSourceName": "CME Group"
+    },
+    "ExerciseCutOffTime": "17:00:00",
+    "ExpiryDate": "2019-09-06",
+    "Format": { "Decimals": 5, "OrderDecimals": 5, "StrikeDecimals": 5 },
+    "GroupId": 0,
+    "IncrementSize": 1,
+    "IsTradable": true,
+    "LotSizeText": "0",
+    "LotSizeType": "OddLotsNotAllowed",
+    "OptionsChainSubscriptionAllowed": true,
+    "OrderDistances": {
+        "EntryDefaultDistance": 0,
+        "EntryDefaultDistanceType": "Percentage",
+        "StopLimitDefaultDistance": 5,
+        "StopLimitDefaultDistanceType": "Pips",
+        "StopLossDefaultDistance": 0.5,
+        "StopLossDefaultDistanceType": "Percentage",
+        "StopLossDefaultEnabled": false,
+        "StopLossDefaultOrderType": "Stop",
+        "TakeProfitDefaultDistance": 0.5,
+        "TakeProfitDefaultDistanceType": "Percentage",
+        "TakeProfitDefaultEnabled": false
+    },
+    "OrderSetting": {},
+    "PriceCurrency": "USD",
+    "PriceToContractFactor": 125000,
+    "PutCall": "Call",
+    "RelatedInstruments": [
+        { "AssetType": "FuturesStrategy", "Uic": 11495497 },
+        { "AssetType": "CfdOnFutures", "Uic": 13347933 },
+        { "AssetType": "ContractFutures", "Uic": 10795354 }
+    ],
+    "RelatedOptionRoots": [1279],
+    "RelatedOptionRootsEnhanced": [
+        { "AssetType": "FuturesOption", "OptionRootId": 1279 }
+    ],
+    "Sector": { "Name": "Financials - Currencies", "SectorId": "247" },
+    "SettlementStyle": "PhysicalDelivery",
+    "StandardAmounts": [1, 5, 10, 25, 50, 100, 500, 1000],
+    "StrikePrice": 1.165,
+    "SupportedOrderTypes": ["Limit"],
+    "Symbol": "EUU/U19C1.165:xcme",
+    "TickSizeScheme": {
+        "DefaultTickSize": 0.0001,
+        "Elements": [{ "HighPrice": 0.00045, "TickSize": 0.00005 }]
+    },
+    "TradableAs": ["FuturesOption"],
+    "TradableOn": [],
+    "TradingSignals": "NotAllowed",
+    "Uic": 11107381,
+    "UnderlyingAssetType": "ContractFutures",
+    "UnderlyingUic": 10795354
+}

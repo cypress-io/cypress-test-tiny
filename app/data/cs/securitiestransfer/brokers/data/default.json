@@ -1,0 +1,16 @@
+[
+    {
+        "Contact": "Broker Contact 1",
+        "CountryId": 11,
+        "Email": "BrokerEmail1@email.com",
+        "Name": "ABC Investment Bank",
+        "PhoneNumber": "+45 12345678"
+    },
+    {
+        "Contact": "Broker Contact 2",
+        "CountryId": 11,
+        "Email": "BrokerEmail2@email.com",
+        "Name": "Alps Investment Bank 2",
+        "PhoneNumber": "+45 1234567890"
+    }
+]

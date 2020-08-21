@@ -1,0 +1,127 @@
+{
+    "DisclaimerText": "<div class=\"rte--output\"><p class=\"text--meta\" style=\"line-height:150%;\"><strong>Disclaimer<br />\n<br />\n</strong> None of the information contained herein...</p>\n<p class=\"text--meta\" style=\"line-height:20px;\">Please read our disclaimers:<br />\n<a href=\"https://www.home.saxo/legal/niird/notification\">Notification on Non-Independent Investment Research</a> </p></div>",
+    "DisclaimerItemId": "8768bad3-7d68-4198-8893-50bb5ebf6b7b",
+    "Sections": [
+        {
+            "IsDividerShown": false,
+            "LayoutType": "stretch",
+            "Type": "Banner",
+            "Name": "top image - bannersection",
+            "Title": "",
+            "Id": "818c4a92-d93c-405d-a387-b0222beed99f",
+            "Banners": [
+                {
+                    "Image": {
+                        "Id": "f60b07a4-8289-4ac7-a5a8-3c5a9d418bc0",
+                        "Alt": "Global",
+                        "Title": "global960",
+                        "Url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg=="
+                    },
+                    "Text": "",
+                    "Name": "top image - bannerimage",
+                    "Align": "",
+                    "IsCompact": false,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "Target": null,
+                        "TargetId": null,
+                        "LinkText": null
+                    },
+                    "Title": "",
+                    "ImageType": "gradient",
+                    "Id": "13824dde-f428-4849-af29-a814f70c264a"
+                }
+            ]
+        },
+        {
+            "Type": "Text",
+            "IsDividerShown": false,
+            "Text": "Funds in this section typically invests in equities cross the globe. The individual portfolio risk towards a given country is usually lower and the strategies are typically well diversified across countries and regions.",
+            "TextType": "Expandable",
+            "Name": "theme description - textsection",
+            "Title": "",
+            "Id": "98155f73-faa9-4f8a-945a-343775676b03"
+        },
+        {
+            "AnalystConsensuses": null,
+            "AssetTypes": ["MutualFund"],
+            "BondRatings": null,
+            "Coupons": null,
+            "CountryCodes": null,
+            "CurrencyCodes": null,
+            "DebtTypes": null,
+            "ExchangeIds": null,
+            "FundBroadAssetClass": null,
+            "FundCategories": null,
+            "FundIssuerNames": null,
+            "FundRatings": null,
+            "IncludeNonTradable": false,
+            "IsDividerShown": false,
+            "IsFiltersShown": false,
+            "Listing": null,
+            "MarketCaps": null,
+            "Maturities": null,
+            "OrderBy": "ThreeYearsReturnPct desc",
+            "PriceEarnings": null,
+            "Sectors": null,
+            "SustainabilityRatings": null,
+            "Type": "ProductFinder",
+            "ViewType": "grid",
+            "YieldToMaturity": null,
+            "DaysToExpiries": null,
+            "MinimumTradeSizes": null,
+            "DividendYieldPcts": null,
+            "Name": "fund selection - productfindersection",
+            "Title": "",
+            "Id": "e48c56d1-85b6-4498-9905-876ff95ce621",
+            "Uics": [
+                11505389,
+                11990143,
+                9372319,
+                11990151,
+                11990158,
+                11990167,
+                11990208,
+                10221619,
+                10221621,
+                10473174,
+                10473190,
+                10473207,
+                11009437,
+                11009438,
+                11009439,
+                11009459
+            ]
+        }
+    ],
+    "Id": "b39fbbc7-fb76-4052-961a-88baf8520d76",
+    "Name": "Global Stock Funds",
+    "Title": "Global Stock Funds",
+    "PrimaryTag": {
+        "Id": "4912996b-f52b-45ba-9d08-8e75e574e91d",
+        "Name": "Investment Theme",
+        "Link": {
+            "IsExternal": false,
+            "IsNewWindow": false,
+            "Target": null,
+            "TargetId": null,
+            "LinkText": null
+        }
+    },
+    "SecondaryTags": [
+        {
+            "Id": "585fe427-00aa-4e75-b167-14438ef7f07e",
+            "Name": "Funds",
+            "Link": {
+                "IsExternal": false,
+                "IsNewWindow": false,
+                "Target": null,
+                "TargetId": null,
+                "LinkText": null
+            }
+        }
+    ],
+    "HideThemeDate": false,
+    "ThemeDate": "0001-01-01T00:00:00"
+}

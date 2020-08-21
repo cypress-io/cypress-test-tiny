@@ -1,0 +1,32 @@
+{
+    "AssetType": "Bond",
+    "CountryCode": "DK",
+    "CurrencyCode": "DKK",
+    "Description": "Kingdom of Denmark 0% 03 Jun 2019, DKK",
+    "ExchangeId": "CSE_BONDS",
+    "Format": { "Decimals": 2 },
+    "GeneralInfo": {
+        "BondInfo": {
+            "BondType": { "Key": "Bond", "Value": "Bond" },
+            "Callable": false,
+            "DebtType": { "Key": "Government", "Value": "Government" },
+            "IssueDate": "2017-05-19",
+            "Issuer": "Denmark",
+            "MaturityDate": "2020-11-15"
+        }
+    },
+    "IssueDetails": {
+        "Coupon": 0.25,
+        "CouponFrequency": { "Key": "Annual", "Value": "Annual" },
+        "IssueAmount": 5010.0,
+        "MinimumOrder": 10000.0,
+        "ModifiedDuration": 2.01305214665416,
+        "NextCouponDate": "2020-11-15",
+        "OutstandingAmount": 55385.0,
+        "YieldToCall": -0.790408773,
+        "YieldToMaturity": -0.790408773,
+        "YieldToWorst": -0.790408773
+    },
+    "Instrument": "SKBV 19/II",
+    "Uic": 12572271
+}

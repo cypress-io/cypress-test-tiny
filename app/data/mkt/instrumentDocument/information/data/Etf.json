@@ -1,0 +1,17 @@
+{
+    "AssetType": "Etf",
+    "DocumentDetails": [
+        {
+            "DocumentDateTime": "2019-09-04T18:00:09.000000Z",
+            "DocumentId": "f0a75e96-3059-4dc3-81dc-4dc5adfdae48",
+            "LanguageCode": "en"
+        },
+        {
+            "DocumentDateTime": "2020-02-27T13:21:05.000000Z",
+            "DocumentId": "1e0025bf-c038-4152-b653-50ffa8757617",
+            "LanguageCode": "no"
+        }
+    ],
+    "DocumentType": "KIIDs, PRIIP_KIDs",
+    "Uic": 9104
+}

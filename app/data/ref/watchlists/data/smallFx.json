@@ -1,0 +1,32 @@
+{
+    "Instruments": [
+        {
+            "AssetType": "FxSpot",
+            "Description": "Euro/US Dollar",
+            "Symbol": "EURUSD",
+            "Uic": 21,
+            "WatchlistInstrumentId": "4",
+            "Amount": 19919
+        },
+        {
+            "AssetType": "FxSpot",
+            "Description": "Australian Dollar/US Dollar",
+            "Symbol": "AUDUSD",
+            "Uic": 4,
+            "WatchlistInstrumentId": "2",
+            "Amount": 31723
+        },
+        {
+            "AssetType": "FxSpot",
+            "Description": "Euro/Japanese Yen",
+            "Symbol": "EURJPY",
+            "Uic": 18,
+            "WatchlistInstrumentId": "12",
+            "Amount": 82757
+        }
+    ],
+    "Name": "Small Fx Watchlist",
+    "PrimaryAssetType": "FxSpot",
+    "Type": "UserDefined",
+    "WatchlistId": "11146"
+}

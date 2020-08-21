@@ -1,0 +1,188 @@
+{
+    "Id": "36229f6d-7b88-4015-bf1c-2b8e781d212b_trader",
+    "Name": "fundthemes",
+    "Sections": [
+        {
+            "Id": "47490f39-df02-476a-b7a3-fc1a92acc51b",
+            "IsDividerShown": false,
+            "Name": "themedescriptiontext",
+            "Tags": [],
+            "Text": "Find out all about the differences between the many different mutual funds out there. All mutual funds have their own niche and investment scope, but not all of them will be right for your portfolio.               ",
+            "TextType": "Expandable",
+            "Title": "Inspiration for your next fund",
+            "Type": "Text"
+        },
+        {
+            "Banners": [
+                {
+                    "Align": "bottom",
+                    "Id": "033c30bc-8107-4b24-8ac0-0ed13c35a0bd",
+                    "Image": {
+                        "Alt": "Allocation",
+                        "Url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg=="
+                    },
+                    "IsCompact": false,
+                    "IsTextColorInverted": true,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "fundtheme1",
+                        "Target": "/page/fundtheme1",
+                        "TargetId": "cfc243de-65a2-40ea-b040-19f58278853b"
+                    },
+                    "Name": "theme7",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Funds for aktiesparekonto"
+                },
+                {
+                    "Align": "bottom",
+                    "Id": "a01c4ced-b932-49b1-b5d0-869e532dd1a8",
+                    "Image": {
+                        "Alt": "Waterdrop",
+                        "Url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg=="
+                    },
+                    "IsCompact": false,
+                    "IsTextColorInverted": true,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "fundtheme2",
+                        "Target": "/page/fundtheme2",
+                        "TargetId": "02578a59-3180-42a8-8c1e-0dd3f06197e1"
+                    },
+                    "Name": "theme8",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Responsible investments"
+                }
+            ],
+            "Id": "b9538e0f-5556-46e2-b9ad-08da09879e1d",
+            "IsDividerShown": false,
+            "LayoutType": "stretch",
+            "Name": "theme-section-1",
+            "Tags": [],
+            "Title": "",
+            "Type": "Banner"
+        },
+        {
+            "Banners": [
+                {
+                    "Align": "bottom",
+                    "Id": "b9619158-e8e5-4542-9003-a367108cf26a",
+                    "Image": {
+                        "Alt": "Copenhagen garder",
+                        "Url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg=="
+                    },
+                    "IsCompact": false,
+                    "IsTextColorInverted": true,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "fundtheme3",
+                        "Target": "/page/fundtheme3",
+                        "TargetId": "d5b9ccf4-87c2-4b4d-a11e-097440a7c604"
+                    },
+                    "Name": "theme7",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Danish stocks"
+                },
+                {
+                    "Align": "bottom",
+                    "Id": "a982c741-e2ff-46de-a503-ed8c2e7ac530",
+                    "Image": {
+                        "Alt": "Balance",
+                        "Url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg=="
+                    },
+                    "IsCompact": false,
+                    "IsTextColorInverted": true,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "fundtheme4",
+                        "Target": "/page/fundtheme4",
+                        "TargetId": "05512692-4e27-45fb-b061-277ee454d040"
+                    },
+                    "Name": "theme8",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Balanced funds"
+                }
+            ],
+            "Id": "adbca36d-72cc-4d83-b424-f00093627910",
+            "IsDividerShown": false,
+            "LayoutType": "stretch",
+            "Name": "theme-section-2",
+            "Tags": [],
+            "Title": "",
+            "Type": "Banner"
+        },
+        {
+            "Banners": [
+                {
+                    "Align": "bottom",
+                    "Id": "2ed08d90-8f95-4485-96fb-1edfa187d276",
+                    "Image": {
+                        "Alt": "Global",
+                        "Url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg=="
+                    },
+                    "IsCompact": false,
+                    "IsTextColorInverted": true,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "fundtheme5",
+                        "Target": "/page/fundtheme5",
+                        "TargetId": "06572cfe-a657-4257-a402-6c218269efae"
+                    },
+                    "Name": "theme3",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Global stock funds"
+                },
+                {
+                    "Align": "bottom",
+                    "Id": "9974b9af-a153-48d8-be0d-86b59761d032",
+                    "Image": {
+                        "Alt": "Truck on the road",
+                        "Url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg=="
+                    },
+                    "IsCompact": false,
+                    "IsTextColorInverted": true,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "fundtheme6",
+                        "Target": "/page/fundtheme6",
+                        "TargetId": "ce7b3036-b7f9-4b7c-b7bc-dda364b029d0"
+                    },
+                    "Name": "theme5",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Emerging markets"
+                }
+            ],
+            "Id": "44fc440c-93c8-4931-bc0e-06b38d269832",
+            "IsDividerShown": false,
+            "LayoutType": "stretch",
+            "Name": "theme-section-3",
+            "Tags": [],
+            "Title": "",
+            "Type": "Banner"
+        },
+        {
+            "Id": "bf4b3402-cdf4-4ef7-9f05-7d35eb8e504b",
+            "IsDividerShown": false,
+            "Name": "note-example",
+            "Tags": [],
+            "Text": "None of the information contained herein constitutes an investment advice or an offer (or solicitation of such offer) to buy or sell any currency, product or financial instrument, to make any investment, or to participate in any particular trading strategy. This material is produced for marketing and/or informational purposes only and Saxo Bank A/S and its owners, subsidiaries and affiliates whether acting directly or through branch offices (“Saxo Bank”) make no representation or warranty, and assume no liability, for the accuracy, correctness or completeness of the information provided herein. In providing this material Saxo Bank has not taken into account any particular recipient’s investment objectives, special investment goals, financial situation, and specific needs and demands and nothing herein is intended as a recommendation for any recipient to invest or divest in a particular manner and Saxo Bank assumes no liability for any recipient sustaining a loss from trading in accordance with a perceived recommendation. Any expression of opinion may be personal to the author and may not reflect the opinion of Saxo Bank and all expressions of opinion are subject to change without notice (neither prior nor subsequent).                        This disclaimer is subject to Saxo Bank's Full Disclaimer available at \n\n www.home.saxo/legal/disclaimer/saxo-disclaimer.                         ",
+            "TextType": "Note",
+            "Title": "Disclaimer",
+            "Type": "Text"
+        }
+    ],
+    "Tags": [],
+    "Title": "Fund Inspiration",
+    "Url": "/page/fundthemes"
+}

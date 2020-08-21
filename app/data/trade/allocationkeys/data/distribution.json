@@ -1,0 +1,7 @@
+{
+    "Remainder": 0.0,
+    "SubClientsInfo": [
+        { "AccountId": "32870/FEUR", "Amount": 99.0, "MultiLegAmount": 0.0 },
+        { "AccountId": "32870/FCHF", "Amount": 1098.0, "MultiLegAmount": 0.0 }
+    ]
+}

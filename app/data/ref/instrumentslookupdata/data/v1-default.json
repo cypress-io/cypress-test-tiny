@@ -1,0 +1,5070 @@
+{
+    "Data": [
+        {
+            "ApplicableAssetType": [],
+            "OptionType": "AssetTypes",
+            "Values": [
+                {
+                    "Key": "FxSpot",
+                    "Value": "Forex"
+                },
+                {
+                    "Key": "FxForwards",
+                    "Value": "FxForwards"
+                },
+                {
+                    "Key": "FxVanillaOption",
+                    "Value": "FxVanillaOption"
+                },
+                {
+                    "Key": "FxOneTouchOption",
+                    "Value": "FxOneTouchOption"
+                },
+                {
+                    "Key": "FxNoTouchOption",
+                    "Value": "FxNoTouchOption"
+                },
+                {
+                    "Key": "ContractFutures",
+                    "Value": "Contract Futures"
+                },
+                {
+                    "Key": "FuturesStrategy",
+                    "Value": "Futures Strategy"
+                },
+                {
+                    "Key": "Stock",
+                    "Value": "Stocks"
+                },
+                {
+                    "Key": "StockOption",
+                    "Value": "Stock Options"
+                },
+                {
+                    "Key": "Bond",
+                    "Value": "Bonds"
+                },
+                {
+                    "Key": "FuturesOption",
+                    "Value": "FuturesOption"
+                },
+                {
+                    "Key": "StockIndexOption",
+                    "Value": "Stock Index Options"
+                },
+                {
+                    "Key": "CfdOnStock",
+                    "Value": "CFD Stocks"
+                },
+                {
+                    "Key": "CfdOnIndex",
+                    "Value": "CFD Index"
+                },
+                {
+                    "Key": "CfdOnFutures",
+                    "Value": "CFD Futures"
+                },
+                {
+                    "Key": "StockIndex",
+                    "Value": "Stock Index"
+                },
+                {
+                    "Key": "MutualFund",
+                    "Value": "Mutual Funds"
+                },
+                {
+                    "Key": "CfdIndexOption",
+                    "Value": "CfdIndexOption"
+                },
+                {
+                    "Key": "CfdOnEtf",
+                    "Value": "CFD ETFs"
+                },
+                {
+                    "Key": "CfdOnEtc",
+                    "Value": "CfdOnEtc"
+                },
+                {
+                    "Key": "CfdOnEtn",
+                    "Value": "CfdOnEtn"
+                },
+                {
+                    "Key": "CfdOnFund",
+                    "Value": "CfdOnFund"
+                },
+                {
+                    "Key": "CfdOnRights",
+                    "Value": "CfdOnRights"
+                },
+                {
+                    "Key": "CfdOnWarrant",
+                    "Value": "CfdOnWarrant"
+                },
+                {
+                    "Key": "Etf",
+                    "Value": "ETFs"
+                },
+                {
+                    "Key": "Etc",
+                    "Value": "Etc"
+                },
+                {
+                    "Key": "Etn",
+                    "Value": "Etn"
+                },
+                {
+                    "Key": "Fund",
+                    "Value": "Fund"
+                },
+                {
+                    "Key": "FxSwap",
+                    "Value": "FxSwap"
+                },
+                {
+                    "Key": "Rights",
+                    "Value": "Rights"
+                },
+                {
+                    "Key": "Warrant",
+                    "Value": "Warrant"
+                },
+                {
+                    "Key": "SrdOnStock",
+                    "Value": "SrdOnStock"
+                },
+                {
+                    "Key": "SrdOnEtf",
+                    "Value": "SrdOnEtf"
+                }
+            ]
+        },
+        {
+            "ApplicableAssetType": [
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "StockOption",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "ManagedFund",
+                "Cash",
+                "CfdOnStock",
+                "CfdOnIndex",
+                "CfdOnFutures",
+                "StockIndex",
+                "MutualFund",
+                "CfdIndexOption",
+                "CfdOnEtf",
+                "CfdOnEtc",
+                "CfdOnEtn",
+                "CfdOnFund",
+                "CfdOnRights",
+                "CfdStockOption",
+                "CfdOnWarrant",
+                "Etf",
+                "Etc",
+                "Etn",
+                "Fund",
+                "Rights",
+                "Warrant",
+                "CfdFutureOption",
+                "SrdOnStock",
+                "SrdOnEtf"
+            ],
+            "OptionType": "CountryCodes",
+            "Values": [
+                {
+                    "Key": "AL",
+                    "Value": "Albania"
+                },
+                {
+                    "Key": "AO",
+                    "Value": "Angola"
+                },
+                {
+                    "Key": "AR",
+                    "Value": "Argentina"
+                },
+                {
+                    "Key": "AM",
+                    "Value": "Armenia"
+                },
+                {
+                    "Key": "AU",
+                    "Value": "Australia"
+                },
+                {
+                    "Key": "AT",
+                    "Value": "Austria"
+                },
+                {
+                    "Key": "AZ",
+                    "Value": "Azerbaijan"
+                },
+                {
+                    "Key": "BS",
+                    "Value": "Bahamas"
+                },
+                {
+                    "Key": "BH",
+                    "Value": "Bahrain"
+                },
+                {
+                    "Key": "BB",
+                    "Value": "Barbados"
+                },
+                {
+                    "Key": "BY",
+                    "Value": "Belarus"
+                },
+                {
+                    "Key": "BE",
+                    "Value": "Belgium"
+                },
+                {
+                    "Key": "BZ",
+                    "Value": "Belize"
+                },
+                {
+                    "Key": "BJ",
+                    "Value": "Benin"
+                },
+                {
+                    "Key": "BM",
+                    "Value": "Bermuda"
+                },
+                {
+                    "Key": "BR",
+                    "Value": "Brazil"
+                },
+                {
+                    "Key": "BG",
+                    "Value": "Bulgaria"
+                },
+                {
+                    "Key": "CM",
+                    "Value": "Cameroon"
+                },
+                {
+                    "Key": "CA",
+                    "Value": "Canada"
+                },
+                {
+                    "Key": "KY",
+                    "Value": "Cayman Islands"
+                },
+                {
+                    "Key": "CL",
+                    "Value": "Chile"
+                },
+                {
+                    "Key": "CN",
+                    "Value": "China"
+                },
+                {
+                    "Key": "CO",
+                    "Value": "Colombia"
+                },
+                {
+                    "Key": "CG",
+                    "Value": "Congo"
+                },
+                {
+                    "Key": "CR",
+                    "Value": "Costa Rica"
+                },
+                {
+                    "Key": "HR",
+                    "Value": "Croatia"
+                },
+                {
+                    "Key": "CW",
+                    "Value": "Curacao"
+                },
+                {
+                    "Key": "CY",
+                    "Value": "Cyprus"
+                },
+                {
+                    "Key": "CZ",
+                    "Value": "Czech Republic"
+                },
+                {
+                    "Key": "DK",
+                    "Value": "Denmark"
+                },
+                {
+                    "Key": "DO",
+                    "Value": "Dominican Republic"
+                },
+                {
+                    "Key": "EC",
+                    "Value": "Ecuador"
+                },
+                {
+                    "Key": "EG",
+                    "Value": "Egypt"
+                },
+                {
+                    "Key": "SV",
+                    "Value": "El Salvador"
+                },
+                {
+                    "Key": "EE",
+                    "Value": "Estonia"
+                },
+                {
+                    "Key": "ET",
+                    "Value": "Ethiopia"
+                },
+                {
+                    "Key": "EU",
+                    "Value": "European Union"
+                },
+                {
+                    "Key": "FJ",
+                    "Value": "Fiji Islands"
+                },
+                {
+                    "Key": "FI",
+                    "Value": "Finland"
+                },
+                {
+                    "Key": "FR",
+                    "Value": "France"
+                },
+                {
+                    "Key": "GA",
+                    "Value": "Gabon"
+                },
+                {
+                    "Key": "GE",
+                    "Value": "Georgia"
+                },
+                {
+                    "Key": "DE",
+                    "Value": "Germany"
+                },
+                {
+                    "Key": "GH",
+                    "Value": "Ghana"
+                },
+                {
+                    "Key": "GR",
+                    "Value": "Greece"
+                },
+                {
+                    "Key": "GG",
+                    "Value": "Guernsey"
+                },
+                {
+                    "Key": "HN",
+                    "Value": "Honduras"
+                },
+                {
+                    "Key": "HK",
+                    "Value": "Hong Kong"
+                },
+                {
+                    "Key": "HU",
+                    "Value": "Hungary"
+                },
+                {
+                    "Key": "IS",
+                    "Value": "Iceland"
+                },
+                {
+                    "Key": "IN",
+                    "Value": "India"
+                },
+                {
+                    "Key": "ID",
+                    "Value": "Indonesia"
+                },
+                {
+                    "Key": "IQ",
+                    "Value": "Iraq"
+                },
+                {
+                    "Key": "IE",
+                    "Value": "Ireland"
+                },
+                {
+                    "Key": "IM",
+                    "Value": "Isle of Man"
+                },
+                {
+                    "Key": "IL",
+                    "Value": "Israel"
+                },
+                {
+                    "Key": "IT",
+                    "Value": "Italy"
+                },
+                {
+                    "Key": "CI",
+                    "Value": "Ivory Coast (Côte d'Ivoire)"
+                },
+                {
+                    "Key": "JM",
+                    "Value": "Jamaica"
+                },
+                {
+                    "Key": "JP",
+                    "Value": "Japan"
+                },
+                {
+                    "Key": "JE",
+                    "Value": "Jersey"
+                },
+                {
+                    "Key": "JO",
+                    "Value": "Jordan"
+                },
+                {
+                    "Key": "KZ",
+                    "Value": "Kazakhstan"
+                },
+                {
+                    "Key": "KE",
+                    "Value": "Kenya"
+                },
+                {
+                    "Key": "KR",
+                    "Value": "Korea, Republic of"
+                },
+                {
+                    "Key": "KW",
+                    "Value": "Kuwait"
+                },
+                {
+                    "Key": "LV",
+                    "Value": "Latvia"
+                },
+                {
+                    "Key": "LB",
+                    "Value": "Lebanon"
+                },
+                {
+                    "Key": "LT",
+                    "Value": "Lithuania"
+                },
+                {
+                    "Key": "LU",
+                    "Value": "Luxembourg"
+                },
+                {
+                    "Key": "MO",
+                    "Value": "Macau"
+                },
+                {
+                    "Key": "MK",
+                    "Value": "Macedonia, Former Yugoslav Republic"
+                },
+                {
+                    "Key": "MY",
+                    "Value": "Malaysia"
+                },
+                {
+                    "Key": "MT",
+                    "Value": "Malta"
+                },
+                {
+                    "Key": "MH",
+                    "Value": "Marshall Islands"
+                },
+                {
+                    "Key": "MU",
+                    "Value": "Mauritius"
+                },
+                {
+                    "Key": "MX",
+                    "Value": "Mexico"
+                },
+                {
+                    "Key": "MC",
+                    "Value": "Monaco"
+                },
+                {
+                    "Key": "MN",
+                    "Value": "Mongolia"
+                },
+                {
+                    "Key": "ME",
+                    "Value": "Montenegro"
+                },
+                {
+                    "Key": "MA",
+                    "Value": "Morocco"
+                },
+                {
+                    "Key": "MZ",
+                    "Value": "Mozambique"
+                },
+                {
+                    "Key": "NA",
+                    "Value": "Namibia"
+                },
+                {
+                    "Key": "NL",
+                    "Value": "Netherlands"
+                },
+                {
+                    "Key": "NZ",
+                    "Value": "New Zealand"
+                },
+                {
+                    "Key": "NG",
+                    "Value": "Nigeria"
+                },
+                {
+                    "Key": "NO",
+                    "Value": "Norway"
+                },
+                {
+                    "Key": "OM",
+                    "Value": "Oman"
+                },
+                {
+                    "Key": "PK",
+                    "Value": "Pakistan"
+                },
+                {
+                    "Key": "PA",
+                    "Value": "Panama"
+                },
+                {
+                    "Key": "PE",
+                    "Value": "Peru"
+                },
+                {
+                    "Key": "PH",
+                    "Value": "Philippines"
+                },
+                {
+                    "Key": "PL",
+                    "Value": "Poland"
+                },
+                {
+                    "Key": "PT",
+                    "Value": "Portugal"
+                },
+                {
+                    "Key": "QA",
+                    "Value": "Qatar"
+                },
+                {
+                    "Key": "RO",
+                    "Value": "Romania"
+                },
+                {
+                    "Key": "RU",
+                    "Value": "Russian Federation"
+                },
+                {
+                    "Key": "RW",
+                    "Value": "Rwanda"
+                },
+                {
+                    "Key": "SA",
+                    "Value": "Saudi Arabia"
+                },
+                {
+                    "Key": "SN",
+                    "Value": "Senegal"
+                },
+                {
+                    "Key": "RS",
+                    "Value": "Serbia"
+                },
+                {
+                    "Key": "SC",
+                    "Value": "Seychelles"
+                },
+                {
+                    "Key": "SG",
+                    "Value": "Singapore"
+                },
+                {
+                    "Key": "SK",
+                    "Value": "Slovakia (Slovak Republic)"
+                },
+                {
+                    "Key": "SI",
+                    "Value": "Slovenia"
+                },
+                {
+                    "Key": "ZA",
+                    "Value": "South Africa"
+                },
+                {
+                    "Key": "ES",
+                    "Value": "Spain"
+                },
+                {
+                    "Key": "LK",
+                    "Value": "Sri Lanka"
+                },
+                {
+                    "Key": "SR",
+                    "Value": "Suriname"
+                },
+                {
+                    "Key": "SE",
+                    "Value": "Sweden"
+                },
+                {
+                    "Key": "CH",
+                    "Value": "Switzerland"
+                },
+                {
+                    "Key": "TW",
+                    "Value": "Taiwan, Province of China"
+                },
+                {
+                    "Key": "TJ",
+                    "Value": "Tajikistan"
+                },
+                {
+                    "Key": "TH",
+                    "Value": "Thailand"
+                },
+                {
+                    "Key": "TT",
+                    "Value": "Trinidad and Tobago"
+                },
+                {
+                    "Key": "TN",
+                    "Value": "Tunisia"
+                },
+                {
+                    "Key": "TR",
+                    "Value": "Turkey"
+                },
+                {
+                    "Key": "UA",
+                    "Value": "Ukraine"
+                },
+                {
+                    "Key": "AE",
+                    "Value": "United Arab Emirates"
+                },
+                {
+                    "Key": "GB",
+                    "Value": "United Kingdom"
+                },
+                {
+                    "Key": "US",
+                    "Value": "United States of America"
+                },
+                {
+                    "Key": "UY",
+                    "Value": "Uruguay"
+                },
+                {
+                    "Key": "VE",
+                    "Value": "Venezuela"
+                },
+                {
+                    "Key": "VN",
+                    "Value": "Viet Nam"
+                },
+                {
+                    "Key": "VG",
+                    "Value": "Virgin Islands (British)"
+                },
+                {
+                    "Key": "ZM",
+                    "Value": "Zambia"
+                }
+            ]
+        },
+        {
+            "ApplicableAssetType": [
+                "Stock",
+                "Bond",
+                "CfdOnStock",
+                "ContractFutures",
+                "FuturesStrategy",
+                "CfdOnFutures"
+            ],
+            "OptionType": "Sectors",
+            "Values": [
+                {
+                    "Key": "Aerospace",
+                    "Value": "Aerospace"
+                },
+                {
+                    "Key": "Agriculture",
+                    "Value": "Agriculture"
+                },
+                {
+                    "Key": "Airlines",
+                    "Value": "Airlines"
+                },
+                {
+                    "Key": "Alternative Electricity",
+                    "Value": "Alternative Electricity"
+                },
+                {
+                    "Key": "Alternative Fuels",
+                    "Value": "Alternative Fuels"
+                },
+                {
+                    "Key": "Aluminum",
+                    "Value": "Aluminum"
+                },
+                {
+                    "Key": "Apparel Retailers",
+                    "Value": "Apparel Retailers"
+                },
+                {
+                    "Key": "Asset Managers",
+                    "Value": "Asset Managers"
+                },
+                {
+                    "Key": "Auto Parts",
+                    "Value": "Auto Parts"
+                },
+                {
+                    "Key": "Automobiles",
+                    "Value": "Automobiles"
+                },
+                {
+                    "Key": "Banks",
+                    "Value": "Banks"
+                },
+                {
+                    "Key": "Base Metals",
+                    "Value": "Base Metals"
+                },
+                {
+                    "Key": "Basic Materials",
+                    "Value": "Basic Materials"
+                },
+                {
+                    "Key": "Biotechnology",
+                    "Value": "Biotechnology"
+                },
+                {
+                    "Key": "Brewers",
+                    "Value": "Brewers"
+                },
+                {
+                    "Key": "Broadcasting & Entertainment",
+                    "Value": "Broadcasting & Entertainment"
+                },
+                {
+                    "Key": "Broadline Retailers",
+                    "Value": "Broadline Retailers"
+                },
+                {
+                    "Key": "Building Materials & Fixtures",
+                    "Value": "Building Materials & Fixtures"
+                },
+                {
+                    "Key": "Business Support Services",
+                    "Value": "Business Support Services"
+                },
+                {
+                    "Key": "Business Training & Employment Agencies",
+                    "Value": "Business Training & Employment Agencies"
+                },
+                {
+                    "Key": "Clothing & Accessories",
+                    "Value": "Clothing & Accessories"
+                },
+                {
+                    "Key": "Coal",
+                    "Value": "Coal"
+                },
+                {
+                    "Key": "Commercial Vehicles & Trucks",
+                    "Value": "Commercial Vehicles & Trucks"
+                },
+                {
+                    "Key": "Commodity Chemicals",
+                    "Value": "Commodity Chemicals"
+                },
+                {
+                    "Key": "Commodity Index",
+                    "Value": "Commodity Index"
+                },
+                {
+                    "Key": "Communication Services",
+                    "Value": "Communication Services"
+                },
+                {
+                    "Key": "Computer Hardware",
+                    "Value": "Computer Hardware"
+                },
+                {
+                    "Key": "Computer Services",
+                    "Value": "Computer Services"
+                },
+                {
+                    "Key": "Consumer Cyclical",
+                    "Value": "Consumer Cyclical"
+                },
+                {
+                    "Key": "Consumer Defensive",
+                    "Value": "Consumer Defensive"
+                },
+                {
+                    "Key": "Consumer Electronics",
+                    "Value": "Consumer Electronics"
+                },
+                {
+                    "Key": "Consumer Finance",
+                    "Value": "Consumer Finance"
+                },
+                {
+                    "Key": "Containers & Packaging",
+                    "Value": "Containers & Packaging"
+                },
+                {
+                    "Key": "Conventional Electricity",
+                    "Value": "Conventional Electricity"
+                },
+                {
+                    "Key": "Defense",
+                    "Value": "Defense"
+                },
+                {
+                    "Key": "Delivery Services",
+                    "Value": "Delivery Services"
+                },
+                {
+                    "Key": "Diamonds & Gemstones",
+                    "Value": "Diamonds & Gemstones"
+                },
+                {
+                    "Key": "Distillers & Vintners",
+                    "Value": "Distillers & Vintners"
+                },
+                {
+                    "Key": "Diversified Industrials",
+                    "Value": "Diversified Industrials"
+                },
+                {
+                    "Key": "Diversified REITs",
+                    "Value": "Diversified REITs"
+                },
+                {
+                    "Key": "Drug Retailers",
+                    "Value": "Drug Retailers"
+                },
+                {
+                    "Key": "Durable Household Products",
+                    "Value": "Durable Household Products"
+                },
+                {
+                    "Key": "Electrical Components & Equipment",
+                    "Value": "Electrical Components & Equipment"
+                },
+                {
+                    "Key": "Electronic Equipment",
+                    "Value": "Electronic Equipment"
+                },
+                {
+                    "Key": "Electronic Office Equipment",
+                    "Value": "Electronic Office Equipment"
+                },
+                {
+                    "Key": "Energies",
+                    "Value": "Energies"
+                },
+                {
+                    "Key": "Energy",
+                    "Value": "Energy"
+                },
+                {
+                    "Key": "Equity Investment Instruments",
+                    "Value": "Equity Investment Instruments"
+                },
+                {
+                    "Key": "Exotic",
+                    "Value": "Exotic"
+                },
+                {
+                    "Key": "Exploration & Production",
+                    "Value": "Exploration & Production"
+                },
+                {
+                    "Key": "Farming, Fishing & Plantations",
+                    "Value": "Farming, Fishing & Plantations"
+                },
+                {
+                    "Key": "Financial Administration",
+                    "Value": "Financial Administration"
+                },
+                {
+                    "Key": "Financial Services",
+                    "Value": "Financial Services"
+                },
+                {
+                    "Key": "Financials - Bonds",
+                    "Value": "Financials - Bonds"
+                },
+                {
+                    "Key": "Financials - Currencies",
+                    "Value": "Financials - Currencies"
+                },
+                {
+                    "Key": "Financials - Short-term Interest Rates",
+                    "Value": "Financials - Short-term Interest Rates"
+                },
+                {
+                    "Key": "Fixed Line Telecommunications",
+                    "Value": "Fixed Line Telecommunications"
+                },
+                {
+                    "Key": "Food Products",
+                    "Value": "Food Products"
+                },
+                {
+                    "Key": "Food Retailers & Wholesalers",
+                    "Value": "Food Retailers & Wholesalers"
+                },
+                {
+                    "Key": "Footwear",
+                    "Value": "Footwear"
+                },
+                {
+                    "Key": "Forestry",
+                    "Value": "Forestry"
+                },
+                {
+                    "Key": "Full Line Insurance",
+                    "Value": "Full Line Insurance"
+                },
+                {
+                    "Key": "Furnishings",
+                    "Value": "Furnishings"
+                },
+                {
+                    "Key": "Gambling",
+                    "Value": "Gambling"
+                },
+                {
+                    "Key": "Gas Distribution",
+                    "Value": "Gas Distribution"
+                },
+                {
+                    "Key": "General Mining",
+                    "Value": "General Mining"
+                },
+                {
+                    "Key": "Gold Mining",
+                    "Value": "Gold Mining"
+                },
+                {
+                    "Key": "Health Care Providers",
+                    "Value": "Health Care Providers"
+                },
+                {
+                    "Key": "Healthcare",
+                    "Value": "Healthcare"
+                },
+                {
+                    "Key": "Heavy Construction",
+                    "Value": "Heavy Construction"
+                },
+                {
+                    "Key": "Home Construction",
+                    "Value": "Home Construction"
+                },
+                {
+                    "Key": "Home Improvement Retailers",
+                    "Value": "Home Improvement Retailers"
+                },
+                {
+                    "Key": "Hotel & Lodging REITs",
+                    "Value": "Hotel & Lodging REITs"
+                },
+                {
+                    "Key": "Hotels",
+                    "Value": "Hotels"
+                },
+                {
+                    "Key": "Industrial & Office REITs",
+                    "Value": "Industrial & Office REITs"
+                },
+                {
+                    "Key": "Industrial Machinery",
+                    "Value": "Industrial Machinery"
+                },
+                {
+                    "Key": "Industrial Suppliers",
+                    "Value": "Industrial Suppliers"
+                },
+                {
+                    "Key": "Industrials",
+                    "Value": "Industrials"
+                },
+                {
+                    "Key": "Insurance Brokers",
+                    "Value": "Insurance Brokers"
+                },
+                {
+                    "Key": "Integrated Oil & Gas",
+                    "Value": "Integrated Oil & Gas"
+                },
+                {
+                    "Key": "Internet",
+                    "Value": "Internet"
+                },
+                {
+                    "Key": "Investment Services",
+                    "Value": "Investment Services"
+                },
+                {
+                    "Key": "Iron & Steel",
+                    "Value": "Iron & Steel"
+                },
+                {
+                    "Key": "Life Insurance",
+                    "Value": "Life Insurance"
+                },
+                {
+                    "Key": "Major",
+                    "Value": "Major"
+                },
+                {
+                    "Key": "Marine Transportation",
+                    "Value": "Marine Transportation"
+                },
+                {
+                    "Key": "Meats",
+                    "Value": "Meats"
+                },
+                {
+                    "Key": "Media Agencies",
+                    "Value": "Media Agencies"
+                },
+                {
+                    "Key": "Medical Equipment",
+                    "Value": "Medical Equipment"
+                },
+                {
+                    "Key": "Medical Supplies",
+                    "Value": "Medical Supplies"
+                },
+                {
+                    "Key": "Minor",
+                    "Value": "Minor"
+                },
+                {
+                    "Key": "Mobile Telecommunications",
+                    "Value": "Mobile Telecommunications"
+                },
+                {
+                    "Key": "Mortgage Finance",
+                    "Value": "Mortgage Finance"
+                },
+                {
+                    "Key": "Mortgage REITs",
+                    "Value": "Mortgage REITs"
+                },
+                {
+                    "Key": "Multi-utilities",
+                    "Value": "Multi-utilities"
+                },
+                {
+                    "Key": "Nondurable Household Products",
+                    "Value": "Nondurable Household Products"
+                },
+                {
+                    "Key": "Nonequity Investment Instruments",
+                    "Value": "Nonequity Investment Instruments"
+                },
+                {
+                    "Key": "Nonferrous Metals",
+                    "Value": "Nonferrous Metals"
+                },
+                {
+                    "Key": "Oil Equipment & Services",
+                    "Value": "Oil Equipment & Services"
+                },
+                {
+                    "Key": "Paper",
+                    "Value": "Paper"
+                },
+                {
+                    "Key": "Personal Products",
+                    "Value": "Personal Products"
+                },
+                {
+                    "Key": "Pharmaceuticals",
+                    "Value": "Pharmaceuticals"
+                },
+                {
+                    "Key": "Pipelines",
+                    "Value": "Pipelines"
+                },
+                {
+                    "Key": "Platinum & Precious Metals",
+                    "Value": "Platinum & Precious Metals"
+                },
+                {
+                    "Key": "Precious Metals",
+                    "Value": "Precious Metals"
+                },
+                {
+                    "Key": "Property & Casualty Insurance",
+                    "Value": "Property & Casualty Insurance"
+                },
+                {
+                    "Key": "Publishing",
+                    "Value": "Publishing"
+                },
+                {
+                    "Key": "Railroads",
+                    "Value": "Railroads"
+                },
+                {
+                    "Key": "Real Estate",
+                    "Value": "Real Estate"
+                },
+                {
+                    "Key": "Real Estate Holding & Development",
+                    "Value": "Real Estate Holding & Development"
+                },
+                {
+                    "Key": "Real Estate Services",
+                    "Value": "Real Estate Services"
+                },
+                {
+                    "Key": "Recreational Products",
+                    "Value": "Recreational Products"
+                },
+                {
+                    "Key": "Recreational Services",
+                    "Value": "Recreational Services"
+                },
+                {
+                    "Key": "Reinsurance",
+                    "Value": "Reinsurance"
+                },
+                {
+                    "Key": "Renewable Energy Equipment",
+                    "Value": "Renewable Energy Equipment"
+                },
+                {
+                    "Key": "Residential REITs",
+                    "Value": "Residential REITs"
+                },
+                {
+                    "Key": "Restaurants & Bars",
+                    "Value": "Restaurants & Bars"
+                },
+                {
+                    "Key": "Retail REITs",
+                    "Value": "Retail REITs"
+                },
+                {
+                    "Key": "Semiconductors",
+                    "Value": "Semiconductors"
+                },
+                {
+                    "Key": "Soft Drinks",
+                    "Value": "Soft Drinks"
+                },
+                {
+                    "Key": "Softs",
+                    "Value": "Softs"
+                },
+                {
+                    "Key": "Software",
+                    "Value": "Software"
+                },
+                {
+                    "Key": "Specialized Consumer Services",
+                    "Value": "Specialized Consumer Services"
+                },
+                {
+                    "Key": "Specialty Chemicals",
+                    "Value": "Specialty Chemicals"
+                },
+                {
+                    "Key": "Specialty Finance",
+                    "Value": "Specialty Finance"
+                },
+                {
+                    "Key": "Specialty REITs",
+                    "Value": "Specialty REITs"
+                },
+                {
+                    "Key": "Specialty Retailers",
+                    "Value": "Specialty Retailers"
+                },
+                {
+                    "Key": "Stock Indices",
+                    "Value": "Stock Indices"
+                },
+                {
+                    "Key": "Technology",
+                    "Value": "Technology"
+                },
+                {
+                    "Key": "Telecommunications Equipment",
+                    "Value": "Telecommunications Equipment"
+                },
+                {
+                    "Key": "Tires",
+                    "Value": "Tires"
+                },
+                {
+                    "Key": "Tobacco",
+                    "Value": "Tobacco"
+                },
+                {
+                    "Key": "Toys",
+                    "Value": "Toys"
+                },
+                {
+                    "Key": "Transportation Services",
+                    "Value": "Transportation Services"
+                },
+                {
+                    "Key": "Travel & Tourism",
+                    "Value": "Travel & Tourism"
+                },
+                {
+                    "Key": "Trucking",
+                    "Value": "Trucking"
+                },
+                {
+                    "Key": "Utilities",
+                    "Value": "Utilities"
+                },
+                {
+                    "Key": "Waste & Disposal Services",
+                    "Value": "Waste & Disposal Services"
+                },
+                {
+                    "Key": "Water",
+                    "Value": "Water"
+                }
+            ]
+        },
+        {
+            "ApplicableAssetType": ["Bond"],
+            "OptionType": "DebtTypes",
+            "Values": [
+                {
+                    "Key": "Corporate",
+                    "Value": "Corporate"
+                },
+                {
+                    "Key": "Government",
+                    "Value": "Government"
+                }
+            ]
+        },
+        {
+            "ApplicableAssetType": ["Stock", "CfdOnStock"],
+            "OptionType": "AnalystConsensuses",
+            "Values": [
+                {
+                    "Key": "StrongBuy",
+                    "Value": "Strong Buy"
+                },
+                {
+                    "Key": "Buy",
+                    "Value": "Buy"
+                },
+                {
+                    "Key": "Neutral",
+                    "Value": "Neutral"
+                },
+                {
+                    "Key": "Sell",
+                    "Value": "Sell"
+                },
+                {
+                    "Key": "StrongSell",
+                    "Value": "Strong Sell"
+                }
+            ]
+        },
+        {
+            "ApplicableAssetType": ["MutualFund", "Etf", "Fund"],
+            "OptionType": "FundRatings",
+            "Values": [
+                {
+                    "Key": "Low",
+                    "Value": "Low"
+                },
+                {
+                    "Key": "Below Avg",
+                    "Value": "Below Avg"
+                },
+                {
+                    "Key": "Avg",
+                    "Value": "Avg"
+                },
+                {
+                    "Key": "Above Avg",
+                    "Value": "Above Avg"
+                },
+                {
+                    "Key": "High",
+                    "Value": "High"
+                }
+            ]
+        },
+        {
+            "ApplicableAssetType": ["MutualFund", "Etf", "Fund"],
+            "OptionType": "SustainabilityRatings",
+            "Values": [
+                {
+                    "Key": "1",
+                    "Value": "Low"
+                },
+                {
+                    "Key": "2",
+                    "Value": "Below Avg"
+                },
+                {
+                    "Key": "3",
+                    "Value": "Avg"
+                },
+                {
+                    "Key": "4",
+                    "Value": "Above Avg"
+                },
+                {
+                    "Key": "5",
+                    "Value": "High"
+                }
+            ]
+        },
+        {
+            "ApplicableAssetType": ["MutualFund", "Etf", "Fund"],
+            "OptionType": "FundCategories",
+            "Values": [
+                {
+                    "Key": "Africa Equity",
+                    "Value": "Africa Equity"
+                },
+                {
+                    "Key": "Aggressive Allocation",
+                    "Value": "Aggressive Allocation"
+                },
+                {
+                    "Key": "Allocation Miscellaneous",
+                    "Value": "Allocation Miscellaneous"
+                },
+                {
+                    "Key": "Alternative Miscellaneous",
+                    "Value": "Alternative Miscellaneous"
+                },
+                {
+                    "Key": "Asia Equity",
+                    "Value": "Asia Equity"
+                },
+                {
+                    "Key": "Asia ex-Japan Equity",
+                    "Value": "Asia ex-Japan Equity"
+                },
+                {
+                    "Key": "Asia Fixed Income",
+                    "Value": "Asia Fixed Income"
+                },
+                {
+                    "Key": "Australia & New Zealand Equity",
+                    "Value": "Australia & New Zealand Equity"
+                },
+                {
+                    "Key": "Australia Equity",
+                    "Value": "Australia Equity"
+                },
+                {
+                    "Key": "Australia Fixed Income",
+                    "Value": "Australia Fixed Income"
+                },
+                {
+                    "Key": "Brazil Equity",
+                    "Value": "Brazil Equity"
+                },
+                {
+                    "Key": "Canada Fixed Income",
+                    "Value": "Canada Fixed Income"
+                },
+                {
+                    "Key": "Canadian Equity Large Cap",
+                    "Value": "Canadian Equity Large Cap"
+                },
+                {
+                    "Key": "Cautious Allocation",
+                    "Value": "Cautious Allocation"
+                },
+                {
+                    "Key": "Commodities Agriculture",
+                    "Value": "Commodities Agriculture"
+                },
+                {
+                    "Key": "Commodities Broad Basket",
+                    "Value": "Commodities Broad Basket"
+                },
+                {
+                    "Key": "Commodities Energy",
+                    "Value": "Commodities Energy"
+                },
+                {
+                    "Key": "Commodities Precious Metals",
+                    "Value": "Commodities Precious Metals"
+                },
+                {
+                    "Key": "Communications Sector Equity",
+                    "Value": "Communications Sector Equity"
+                },
+                {
+                    "Key": "Consumer Goods & Services Sector Equity",
+                    "Value": "Consumer Goods & Services Sector Equity"
+                },
+                {
+                    "Key": "Convertibles",
+                    "Value": "Convertible bonds"
+                },
+                {
+                    "Key": "Currency",
+                    "Value": "Currency"
+                },
+                {
+                    "Key": "Emerging Markets Fixed Income",
+                    "Value": "Emerging Markets Fixed Income"
+                },
+                {
+                    "Key": "Energy Sector Equity",
+                    "Value": "Energy Sector Equity"
+                },
+                {
+                    "Key": "Equity Miscellaneous",
+                    "Value": "Equity Miscellaneous"
+                },
+                {
+                    "Key": "Euro Money Market",
+                    "Value": "Euro Money Market"
+                },
+                {
+                    "Key": "Europe Equity Large Cap",
+                    "Value": "Europe Equity Large Cap"
+                },
+                {
+                    "Key": "Europe Equity Mid/Small Cap",
+                    "Value": "Europe Equity Mid/Small Cap"
+                },
+                {
+                    "Key": "Europe Fixed Income",
+                    "Value": "Europe Fixed Income"
+                },
+                {
+                    "Key": "Financials Sector Equity",
+                    "Value": "Financials Sector Equity"
+                },
+                {
+                    "Key": "Fixed Income Miscellaneous",
+                    "Value": "Fixed Income Miscellaneous"
+                },
+                {
+                    "Key": "Flexible Allocation",
+                    "Value": "Flexible Allocation"
+                },
+                {
+                    "Key": "Global Emerging Markets Equity",
+                    "Value": "Global Emerging Markets Equity"
+                },
+                {
+                    "Key": "Global Equity",
+                    "Value": "Global Equity"
+                },
+                {
+                    "Key": "Global Equity Large Cap",
+                    "Value": "Global Equity Large Cap"
+                },
+                {
+                    "Key": "Global Equity Mid/Small Cap",
+                    "Value": "Global Equity Mid/Small Cap"
+                },
+                {
+                    "Key": "Global Fixed Income",
+                    "Value": "Global Fixed Income"
+                },
+                {
+                    "Key": "Greater China Equity",
+                    "Value": "Greater China Equity"
+                },
+                {
+                    "Key": "Healthcare Sector Equity",
+                    "Value": "Healthcare Sector Equity"
+                },
+                {
+                    "Key": "High Yield Fixed Income",
+                    "Value": "High Yield Fixed Income"
+                },
+                {
+                    "Key": "India Equity",
+                    "Value": "India Equity"
+                },
+                {
+                    "Key": "Industrials Sector Equity",
+                    "Value": "Industrials Sector Equity"
+                },
+                {
+                    "Key": "Inflation Linked",
+                    "Value": "Inflation Linked"
+                },
+                {
+                    "Key": "Islamic Equity",
+                    "Value": "Islamic Equity"
+                },
+                {
+                    "Key": "Japan Equity",
+                    "Value": "Japan Equity"
+                },
+                {
+                    "Key": "Korea Equity",
+                    "Value": "Korea Equity"
+                },
+                {
+                    "Key": "Latin America Equity",
+                    "Value": "Latin America Equity"
+                },
+                {
+                    "Key": "Long/Short Equity",
+                    "Value": "Long/Short Equity"
+                },
+                {
+                    "Key": "Market Neutral",
+                    "Value": "Market Neutral"
+                },
+                {
+                    "Key": "Mexico Equity",
+                    "Value": "Mexico Equity"
+                },
+                {
+                    "Key": "Miscellaneous",
+                    "Value": "Miscellaneous"
+                },
+                {
+                    "Key": "Moderate Allocation",
+                    "Value": "Moderate Allocation"
+                },
+                {
+                    "Key": "Money Market Miscellaneous",
+                    "Value": "Money Market Miscellaneous"
+                },
+                {
+                    "Key": "Multialternative",
+                    "Value": "Multialternative"
+                },
+                {
+                    "Key": "Natural Resources Sector Equity",
+                    "Value": "Natural Resources Sector Equity"
+                },
+                {
+                    "Key": "Other Asia Equity",
+                    "Value": "Other Asia Equity"
+                },
+                {
+                    "Key": "Other Europe Equity",
+                    "Value": "Other Europe Equity"
+                },
+                {
+                    "Key": "Other Europe Fixed Income",
+                    "Value": "Other Europe Fixed Income"
+                },
+                {
+                    "Key": "Other Sector Equity",
+                    "Value": "Other Sector Equity"
+                },
+                {
+                    "Key": "Precious Metals Sector Equity",
+                    "Value": "Precious Metals Sector Equity"
+                },
+                {
+                    "Key": "Property-Direct",
+                    "Value": "Property-Direct"
+                },
+                {
+                    "Key": "Real Estate Sector Equity",
+                    "Value": "Real Estate Sector Equity"
+                },
+                {
+                    "Key": "Sterling Fixed Income",
+                    "Value": "Sterling Fixed Income"
+                },
+                {
+                    "Key": "Taiwan Equity",
+                    "Value": "Taiwan Equity"
+                },
+                {
+                    "Key": "Technology Sector Equity",
+                    "Value": "Technology Sector Equity"
+                },
+                {
+                    "Key": "Thailand Equity",
+                    "Value": "Thailand Equity"
+                },
+                {
+                    "Key": "Trading Tools",
+                    "Value": "Trading Tools"
+                },
+                {
+                    "Key": "UK Equity Large Cap",
+                    "Value": "UK Equity Large Cap"
+                },
+                {
+                    "Key": "UK Equity Mid/Small Cap",
+                    "Value": "UK Equity Mid/Small Cap"
+                },
+                {
+                    "Key": "US Equity Large Cap Blend",
+                    "Value": "US Equity Large Cap Blend"
+                },
+                {
+                    "Key": "US Equity Large Cap Growth",
+                    "Value": "US Equity Large Cap Growth"
+                },
+                {
+                    "Key": "US Equity Large Cap Value",
+                    "Value": "US Equity Large Cap Value"
+                },
+                {
+                    "Key": "US Equity Mid Cap",
+                    "Value": "US Equity Mid Cap"
+                },
+                {
+                    "Key": "US Equity Small Cap",
+                    "Value": "US Equity Small Cap"
+                },
+                {
+                    "Key": "US Fixed Income",
+                    "Value": "US Fixed Income"
+                },
+                {
+                    "Key": "US Municipal Fixed Income",
+                    "Value": "US Municipal Fixed Income"
+                },
+                {
+                    "Key": "Utilities Sector Equity",
+                    "Value": "Utilities Sector Equity"
+                }
+            ]
+        },
+        {
+            "ApplicableAssetType": ["MutualFund", "Etf", "Fund"],
+            "OptionType": "FundBroadAssetClass",
+            "Values": [
+                {
+                    "Key": "Allocation",
+                    "Value": "Diversified"
+                },
+                {
+                    "Key": "Alternative",
+                    "Value": "Alternative investments"
+                },
+                {
+                    "Key": "Commodities",
+                    "Value": "Commodities"
+                },
+                {
+                    "Key": "Convertibles",
+                    "Value": "Convertible bonds"
+                },
+                {
+                    "Key": "Equity",
+                    "Value": "Equity"
+                },
+                {
+                    "Key": "Fixed Income",
+                    "Value": "Fixed Income"
+                },
+                {
+                    "Key": "Money Market",
+                    "Value": "Money Market"
+                },
+                {
+                    "Key": "Property",
+                    "Value": "Property"
+                },
+                {
+                    "Key": "Tax Preferred",
+                    "Value": "Tax Preferred"
+                },
+                {
+                    "Key": "Miscellaneous",
+                    "Value": "Miscellaneous"
+                }
+            ]
+        },
+        {
+            "ApplicableAssetType": ["Stock", "CfdOnStock"],
+            "OptionType": "MarketCaps",
+            "Values": [
+                {
+                    "Key": "BelowOneBillion",
+                    "Value": "Below 1 Billion USD"
+                },
+                {
+                    "Key": "OneToTenBillions",
+                    "Value": "1 to 10 Billions USD"
+                },
+                {
+                    "Key": "TenToHundredBillions",
+                    "Value": "10 to 100 Billions USD"
+                },
+                {
+                    "Key": "AboveHundredBillions",
+                    "Value": "Above 100 Billions USD"
+                }
+            ]
+        },
+        {
+            "ApplicableAssetType": ["Bond"],
+            "OptionType": "YieldToMaturity",
+            "Values": [
+                {
+                    "Key": "Negative",
+                    "Value": "Negative"
+                },
+                {
+                    "Key": "ZeroToOne",
+                    "Value": "0% to 1%"
+                },
+                {
+                    "Key": "OneToTwoPointFive",
+                    "Value": "1% to 2.5%"
+                },
+                {
+                    "Key": "TwoPointFiveToFive",
+                    "Value": "2.5% to 5%"
+                },
+                {
+                    "Key": "AboveFive",
+                    "Value": "Above 5%"
+                }
+            ]
+        },
+        {
+            "ApplicableAssetType": ["Bond"],
+            "OptionType": "Maturities",
+            "Values": [
+                {
+                    "Key": "BelowOneYear",
+                    "Value": "Below 1 year"
+                },
+                {
+                    "Key": "OneToFiveYears",
+                    "Value": "1 to 5 Years"
+                },
+                {
+                    "Key": "FiveToTenYears",
+                    "Value": "5 to 10 Years"
+                },
+                {
+                    "Key": "AboveTenYears",
+                    "Value": "Above 10 Years"
+                }
+            ]
+        },
+        {
+            "ApplicableAssetType": ["Bond"],
+            "OptionType": "Coupons",
+            "Values": [
+                {
+                    "Key": "BelowOne",
+                    "Value": "Below 1"
+                },
+                {
+                    "Key": "OneToTwoPointFive",
+                    "Value": "1 to 2.5"
+                },
+                {
+                    "Key": "TwoPointFiveToFive",
+                    "Value": "2.5 to 5"
+                },
+                {
+                    "Key": "AboveFive",
+                    "Value": "Above 5"
+                }
+            ]
+        },
+        {
+            "ApplicableAssetType": ["Fund"],
+            "OptionType": "YearlyCostPercentages",
+            "Values": [
+                {
+                    "Key": "BelowZeroPointFive",
+                    "Value": "Below 0.5%"
+                },
+                {
+                    "Key": "ZeroPointFiveToOne",
+                    "Value": "0.5% to 1%"
+                },
+                {
+                    "Key": "OneToTwo",
+                    "Value": "1% to 2%"
+                },
+                {
+                    "Key": "AboveTwo",
+                    "Value": "Above 2%"
+                }
+            ]
+        },
+        {
+            "ApplicableAssetType": [],
+            "OptionType": "PossibleSortingTypes",
+            "Values": [
+                {
+                    "Key": "MarketCap",
+                    "Value": "Market capitalization (USD)"
+                },
+                {
+                    "Key": "DividendYieldPct",
+                    "Value": "Dividend Yield"
+                },
+                {
+                    "Key": "PriceEarnings",
+                    "Value": "Price / Earnings"
+                },
+                {
+                    "Key": "AverageExpectedSalesGrowthRatePct",
+                    "Value": "Sales growth 1 year"
+                },
+                {
+                    "Key": "YieldToMaturity",
+                    "Value": "Yield to maturities"
+                },
+                {
+                    "Key": "BondRating",
+                    "Value": "Moodys rating"
+                },
+                {
+                    "Key": "Maturity",
+                    "Value": "Maturity"
+                },
+                {
+                    "Key": "Coupon",
+                    "Value": "Coupon"
+                },
+                {
+                    "Key": "YearlyCostPercentage",
+                    "Value": "Ongoing Cost Figure %"
+                },
+                {
+                    "Key": "FundRating",
+                    "Value": "Morningstar rating"
+                },
+                {
+                    "Key": "PriceTargetUpside",
+                    "Value": "Upside to analyst targetprice"
+                },
+                {
+                    "Key": "OneDayReturnPct",
+                    "Value": "% 1D"
+                },
+                {
+                    "Key": "OneYearReturnPct",
+                    "Value": "% 1Y"
+                },
+                {
+                    "Key": "ThreeYearsReturnPct",
+                    "Value": "% 3Y"
+                },
+                {
+                    "Key": "OneWeekReturnPct",
+                    "Value": "% 1W"
+                },
+                {
+                    "Key": "OneMonthReturnPct",
+                    "Value": "% 1M"
+                },
+                {
+                    "Key": "TwoMonthsReturnPct",
+                    "Value": "% 2M"
+                },
+                {
+                    "Key": "ThreeMonthsReturnPct",
+                    "Value": "% 3M"
+                },
+                {
+                    "Key": "SixMonthsReturnPct",
+                    "Value": "% 6M"
+                },
+                {
+                    "Key": "TwoYearsReturnPct",
+                    "Value": "% 2Y"
+                },
+                {
+                    "Key": "FiveYearsReturnPct",
+                    "Value": "% 5Y"
+                },
+                {
+                    "Key": "AlphabeticallyByDescription",
+                    "Value": "Alphabetically"
+                },
+                {
+                    "Key": "OneDayPopularity",
+                    "Value": "Yesterday's popularity"
+                },
+                {
+                    "Key": "OneWeekPopularity",
+                    "Value": "Last week's popularity"
+                },
+                {
+                    "Key": "OneMonthPopularity",
+                    "Value": "Last month's popularity"
+                },
+                {
+                    "Key": "ThreeMonthsPopularity",
+                    "Value": "Last three month's popularity"
+                },
+                {
+                    "Key": "MinimumTradeSize",
+                    "Value": "Minimum Trade size"
+                },
+                {
+                    "Key": "DaysToExpiry",
+                    "Value": "Days to expiry"
+                }
+            ]
+        },
+        {
+            "ApplicableAssetType": [],
+            "OptionType": "PossibleFilterTypes",
+            "Values": [
+                {
+                    "Key": "AssetTypes",
+                    "Value": "Products"
+                },
+                {
+                    "Key": "CountryCodes",
+                    "Value": "Countries/Regions"
+                },
+                {
+                    "Key": "Sectors",
+                    "Value": "Sectors"
+                },
+                {
+                    "Key": "DebtTypes",
+                    "Value": "Issuer types"
+                },
+                {
+                    "Key": "BondRatings",
+                    "Value": "Moodys Ratings"
+                },
+                {
+                    "Key": "FxCategories",
+                    "Value": "Fx Categories"
+                },
+                {
+                    "Key": "ExchangeIds",
+                    "Value": "Exchanges"
+                },
+                {
+                    "Key": "MarketCaps",
+                    "Value": "Market capitalizations (USD)"
+                },
+                {
+                    "Key": "YieldToMaturity",
+                    "Value": "Yield to maturities"
+                },
+                {
+                    "Key": "Maturities",
+                    "Value": "Maturities"
+                },
+                {
+                    "Key": "Coupons",
+                    "Value": "Coupons"
+                },
+                {
+                    "Key": "IncludeNonTradable",
+                    "Value": "Include NonTradable"
+                },
+                {
+                    "Key": "AnalystConsensuses",
+                    "Value": "Analyst Consensuses"
+                },
+                {
+                    "Key": "Listing",
+                    "Value": "Listing"
+                },
+                {
+                    "Key": "PriceEarnings",
+                    "Value": "Price Earnings"
+                },
+                {
+                    "Key": "CurrencyCodes",
+                    "Value": "Currencies"
+                },
+                {
+                    "Key": "FundBroadAssetClass",
+                    "Value": "Asset classes"
+                },
+                {
+                    "Key": "FundRatings",
+                    "Value": "Morningstar ratings"
+                },
+                {
+                    "Key": "FundCategories",
+                    "Value": "Categories"
+                },
+                {
+                    "Key": "FundIssuerNames",
+                    "Value": "Issuer names"
+                },
+                {
+                    "Key": "MinimumTradeSizes",
+                    "Value": "Minimum Trade sizes"
+                },
+                {
+                    "Key": "DividendYieldPcts",
+                    "Value": "Dividend yield percentage"
+                },
+                {
+                    "Key": "DaysToExpiries",
+                    "Value": "Days to expiry"
+                }
+            ]
+        },
+        {
+            "ApplicableAssetType": [
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "StockOption",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "ManagedFund",
+                "Cash",
+                "CfdOnStock",
+                "CfdOnIndex",
+                "CfdOnFutures",
+                "StockIndex",
+                "MutualFund",
+                "CfdIndexOption",
+                "CfdOnEtf",
+                "CfdOnEtc",
+                "CfdOnEtn",
+                "CfdOnFund",
+                "CfdOnRights",
+                "CfdStockOption",
+                "CfdOnWarrant",
+                "Etf",
+                "Etc",
+                "Etn",
+                "Fund",
+                "Rights",
+                "Warrant",
+                "CfdFutureOption",
+                "SrdOnStock",
+                "SrdOnEtf"
+            ],
+            "OptionType": "ExchangeIds",
+            "Values": [
+                {
+                    "Key": "MIL_AIM",
+                    "Value": "AIM Borsa Italiana/Milan Stock Exchange"
+                },
+                {
+                    "Key": "AT",
+                    "Value": "Athens Exchange"
+                },
+                {
+                    "Key": "ASX",
+                    "Value": "Australian Securities Exchange"
+                },
+                {
+                    "Key": "BATS_BZX",
+                    "Value": "Bats BZX"
+                },
+                {
+                    "Key": "BATS_IND",
+                    "Value": "Bats Indices"
+                },
+                {
+                    "Key": "BG_BONDS",
+                    "Value": "BG Online Bonds"
+                },
+                {
+                    "Key": "SIBE",
+                    "Value": "BME Spanish Exchanges"
+                },
+                {
+                    "Key": "APAC_DUAL",
+                    "Value": "Bonds APAC Dual Currency"
+                },
+                {
+                    "Key": "APAC_HARD",
+                    "Value": "Bonds APAC Hard Currency"
+                },
+                {
+                    "Key": "APAC_LOCAL",
+                    "Value": "Bonds APAC Local Currency"
+                },
+                {
+                    "Key": "CMEA_HARD",
+                    "Value": "Bonds CEEMEA Hard Currency"
+                },
+                {
+                    "Key": "CMEA_LOCAL",
+                    "Value": "Bonds CEEMEA Local Currency"
+                },
+                {
+                    "Key": "EU_DUAL",
+                    "Value": "Bonds Dual Europe Corporate - High Yield"
+                },
+                {
+                    "Key": "EU_CP_HY",
+                    "Value": "Bonds Europe Corporate - High Yield"
+                },
+                {
+                    "Key": "EU_CP_IG",
+                    "Value": "Bonds Europe Corporate - Investment Grade"
+                },
+                {
+                    "Key": "EU_GOV",
+                    "Value": "Bonds Europe Government"
+                },
+                {
+                    "Key": "BONDS_FRN",
+                    "Value": "Bonds Floating Rate Notes"
+                },
+                {
+                    "Key": "FRN_OFF",
+                    "Value": "Bonds Floating Rate Notes Offline"
+                },
+                {
+                    "Key": "LATAM_HARD",
+                    "Value": "Bonds LATAM Hard Currency"
+                },
+                {
+                    "Key": "LATAM_USD",
+                    "Value": "Bonds LATAM USD Currency"
+                },
+                {
+                    "Key": "US_CP_HY",
+                    "Value": "Bonds US Corporate - High Yield"
+                },
+                {
+                    "Key": "US_CP_IG",
+                    "Value": "Bonds US Corporate - Investment Grade"
+                },
+                {
+                    "Key": "US_FRN",
+                    "Value": "Bonds US Floating Rate Notes"
+                },
+                {
+                    "Key": "US_GOV",
+                    "Value": "Bonds US Government"
+                },
+                {
+                    "Key": "IDEM",
+                    "Value": "Borsa Italiana SpA/Italian Exchange"
+                },
+                {
+                    "Key": "MIL",
+                    "Value": "Borsa Italiana/Milan Stock Exchange"
+                },
+                {
+                    "Key": "MON",
+                    "Value": "Bourse de Montreal Inc."
+                },
+                {
+                    "Key": "BUD",
+                    "Value": "Budapest Stock Exchange"
+                },
+                {
+                    "Key": "CBOE",
+                    "Value": "CBOE Futures Exchange"
+                },
+                {
+                    "Key": "CFE",
+                    "Value": "CFE - CBOE Futures Exchange"
+                },
+                {
+                    "Key": "CBOT",
+                    "Value": "Chicago Board of Trade"
+                },
+                {
+                    "Key": "CME",
+                    "Value": "Chicago Mercantile Exchange"
+                },
+                {
+                    "Key": "CHINABONDS",
+                    "Value": "China Bond Connect"
+                },
+                {
+                    "Key": "CHINEXT",
+                    "Value": "Chinext of Shenzhen Stock Exchange"
+                },
+                {
+                    "Key": "CMEBITCOIN",
+                    "Value": "CME Bitcoin Index"
+                },
+                {
+                    "Key": "COMEX",
+                    "Value": "Commodity Exchange (COMEX)"
+                },
+                {
+                    "Key": "XETR_ETF",
+                    "Value": "Deutsche Börse (Indices & ETFs)"
+                },
+                {
+                    "Key": "XETR_STARS",
+                    "Value": "Deutsche Börse (XETRA Stars)"
+                },
+                {
+                    "Key": "FSE",
+                    "Value": "Deutsche Börse (XETRA)"
+                },
+                {
+                    "Key": "DIMSUM",
+                    "Value": "DimSum BONDS"
+                },
+                {
+                    "Key": "DJIA",
+                    "Value": "Dow Jones Indices"
+                },
+                {
+                    "Key": "EUREX",
+                    "Value": "Eurex"
+                },
+                {
+                    "Key": "AMS",
+                    "Value": "Euronext Amsterdam"
+                },
+                {
+                    "Key": "BRU",
+                    "Value": "Euronext Brussels"
+                },
+                {
+                    "Key": "EUR_PAR1",
+                    "Value": "Euronext Commodities Derivatives - PAR"
+                },
+                {
+                    "Key": "ISE",
+                    "Value": "Euronext Dublin"
+                },
+                {
+                    "Key": "EUR_AMS2",
+                    "Value": "Euronext Equity & Index Derivatives - AMS"
+                },
+                {
+                    "Key": "EUR_PAR2",
+                    "Value": "Euronext Equity & Index Derivatives - PAR"
+                },
+                {
+                    "Key": "LISB",
+                    "Value": "Euronext Lisbon"
+                },
+                {
+                    "Key": "PAR",
+                    "Value": "Euronext Paris"
+                },
+                {
+                    "Key": "EEX",
+                    "Value": "European Energy Exchange - Agriculture"
+                },
+                {
+                    "Key": "EEX_ENERGY",
+                    "Value": "European Energy Exchange - Energy"
+                },
+                {
+                    "Key": "BONDS",
+                    "Value": "Generic Bonds exchange"
+                },
+                {
+                    "Key": "HKEX",
+                    "Value": "Hong Kong Exchanges"
+                },
+                {
+                    "Key": "ICE_LIF",
+                    "Value": "ICE Futures Europe – Financials"
+                },
+                {
+                    "Key": "ICE",
+                    "Value": "ICE Futures Europe - ICE"
+                },
+                {
+                    "Key": "ICE_SOFT",
+                    "Value": "ICE Futures Europe - Soft Commodities"
+                },
+                {
+                    "Key": "ICE_NYBOT",
+                    "Value": "ICE Futures U.S.  – NYBOT"
+                },
+                {
+                    "Key": "IEX",
+                    "Value": "IEX"
+                },
+                {
+                    "Key": "JSE",
+                    "Value": "Johannesburg Stock Exchange"
+                },
+                {
+                    "Key": "JSE_BONDS",
+                    "Value": "JSE Debt Market"
+                },
+                {
+                    "Key": "LSE_SETS",
+                    "Value": "London Stock Exchange"
+                },
+                {
+                    "Key": "LSE_SSEC",
+                    "Value": "London Stock Exchange – Shanghai Connect"
+                },
+                {
+                    "Key": "LSE_ETF",
+                    "Value": "London Stock Exchange (ETFs)"
+                },
+                {
+                    "Key": "LSE",
+                    "Value": "London Stock Exchange (Indices)"
+                },
+                {
+                    "Key": "LSE_INTL",
+                    "Value": "London Stock Exchange (IOB)"
+                },
+                {
+                    "Key": "LSE_SEAQ",
+                    "Value": "London Stock Exchange (SEAQ)"
+                },
+                {
+                    "Key": "MS_IND",
+                    "Value": "Morningstar indices"
+                },
+                {
+                    "Key": "MTU",
+                    "Value": "Mutual Funds"
+                },
+                {
+                    "Key": "NASDAQ",
+                    "Value": "NASDAQ"
+                },
+                {
+                    "Key": "NSC",
+                    "Value": "NASDAQ (Small cap)"
+                },
+                {
+                    "Key": "NASDAQ_COM",
+                    "Value": "Nasdaq Commodities"
+                },
+                {
+                    "Key": "CSE",
+                    "Value": "NASDAQ OMX Copenhagen"
+                },
+                {
+                    "Key": "CSE_FN-DK",
+                    "Value": "NASDAQ OMX Copenhagen (First North)"
+                },
+                {
+                    "Key": "CSE_INV",
+                    "Value": "NASDAQ OMX Copenhagen (Investment trusts)"
+                },
+                {
+                    "Key": "CSE_BONDS",
+                    "Value": "NASDAQ OMX Copenhagen Bonds"
+                },
+                {
+                    "Key": "HSE",
+                    "Value": "NASDAQ OMX Helsinki"
+                },
+                {
+                    "Key": "HSE_FN",
+                    "Value": "NASDAQ OMX Helsinki (First North)"
+                },
+                {
+                    "Key": "SSE",
+                    "Value": "NASDAQ OMX Stockholm"
+                },
+                {
+                    "Key": "SSE_FN-SE",
+                    "Value": "NASDAQ OMX Stockholm (First North)"
+                },
+                {
+                    "Key": "NYMEX",
+                    "Value": "New York Mercantile Exchange"
+                },
+                {
+                    "Key": "NYSE",
+                    "Value": "New York Stock Exchange"
+                },
+                {
+                    "Key": "NYSE_ARCA",
+                    "Value": "New York Stock Exchange (ARCA)"
+                },
+                {
+                    "Key": "AMEX",
+                    "Value": "NYSE MKT (American Stock Exchange)"
+                },
+                {
+                    "Key": "OSA",
+                    "Value": "Osaka Exchange Inc."
+                },
+                {
+                    "Key": "OSE",
+                    "Value": "Oslo Børs/Oslo Stock Exchange"
+                },
+                {
+                    "Key": "OTCBB",
+                    "Value": "OTC Bulletin Board"
+                },
+                {
+                    "Key": "OOTC",
+                    "Value": "OTC Markets Group (Pink Sheets)"
+                },
+                {
+                    "Key": "PRA",
+                    "Value": "Prague Stock Exchange"
+                },
+                {
+                    "Key": "DELTAENERGY",
+                    "Value": "PZEM Energy B.V."
+                },
+                {
+                    "Key": "RUSSELL",
+                    "Value": "Russel Indices"
+                },
+                {
+                    "Key": "SP500",
+                    "Value": "S&P Indices"
+                },
+                {
+                    "Key": "SHANGHAI_SC",
+                    "Value": "Shanghai-Hong Kong Stock Connect"
+                },
+                {
+                    "Key": "SHENZHEN_SC",
+                    "Value": "Shenzhen-Hong Kong Stock Connect"
+                },
+                {
+                    "Key": "SGX-ST",
+                    "Value": "Singapore Exchange"
+                },
+                {
+                    "Key": "SGX-COM",
+                    "Value": "Singapore Exchange Derivatives (Commodities)"
+                },
+                {
+                    "Key": "SGX-DT",
+                    "Value": "Singapore Exchange Derivatives Trading Ltd."
+                },
+                {
+                    "Key": "SWX",
+                    "Value": "SIX Swiss Exchange"
+                },
+                {
+                    "Key": "VX",
+                    "Value": "SIX Swiss Exchange (Blue-Chip)"
+                },
+                {
+                    "Key": "SWX_ETF",
+                    "Value": "SIX Swiss Exchange (ETFs)"
+                },
+                {
+                    "Key": "SWX_BND_ETF",
+                    "Value": "SIX Swiss Exchange ETFs on Bonds of the Swiss Conf"
+                },
+                {
+                    "Key": "MEFF",
+                    "Value": "Spanish Official Exchange"
+                },
+                {
+                    "Key": "STOXX",
+                    "Value": "STOXX Indices"
+                },
+                {
+                    "Key": "SFE",
+                    "Value": "Sydney Futures Exchange Corp. Ltd."
+                },
+                {
+                    "Key": "TYO",
+                    "Value": "Tokyo Stock Exchange"
+                },
+                {
+                    "Key": "TSE",
+                    "Value": "Toronto Stock Exchange"
+                },
+                {
+                    "Key": "TSX",
+                    "Value": "TSX Venture Exchange"
+                },
+                {
+                    "Key": "WSE",
+                    "Value": "Warsaw Stock Exchange"
+                },
+                {
+                    "Key": "VIE",
+                    "Value": "Wiener Börse/Vienna Stock Exchange"
+                }
+            ]
+        },
+        {
+            "ApplicableAssetType": ["Bond"],
+            "OptionType": "BondRatings",
+            "Values": [
+                {
+                    "Key": "C",
+                    "Value": "C"
+                },
+                {
+                    "Key": "Ca",
+                    "Value": "Ca"
+                },
+                {
+                    "Key": "Caa3",
+                    "Value": "Caa3"
+                },
+                {
+                    "Key": "Caa2",
+                    "Value": "Caa2"
+                },
+                {
+                    "Key": "Caa1",
+                    "Value": "Caa1"
+                },
+                {
+                    "Key": "B3",
+                    "Value": "B3"
+                },
+                {
+                    "Key": "B2",
+                    "Value": "B2"
+                },
+                {
+                    "Key": "B1",
+                    "Value": "B1"
+                },
+                {
+                    "Key": "Ba3",
+                    "Value": "Ba3"
+                },
+                {
+                    "Key": "Ba2",
+                    "Value": "Ba2"
+                },
+                {
+                    "Key": "Ba1",
+                    "Value": "Ba1"
+                },
+                {
+                    "Key": "Baa3",
+                    "Value": "Baa3"
+                },
+                {
+                    "Key": "Baa2",
+                    "Value": "Baa2"
+                },
+                {
+                    "Key": "Baa1",
+                    "Value": "Baa1"
+                },
+                {
+                    "Key": "A3",
+                    "Value": "A3"
+                },
+                {
+                    "Key": "A2",
+                    "Value": "A2"
+                },
+                {
+                    "Key": "A1",
+                    "Value": "A1"
+                },
+                {
+                    "Key": "Aa3",
+                    "Value": "Aa3"
+                },
+                {
+                    "Key": "Aa2",
+                    "Value": "Aa2"
+                },
+                {
+                    "Key": "Aa1",
+                    "Value": "Aa1"
+                },
+                {
+                    "Key": "Aaa",
+                    "Value": "Aaa"
+                }
+            ]
+        },
+        {
+            "ApplicableAssetType": ["MutualFund", "Etf", "Fund"],
+            "OptionType": "FundIssuerNames",
+            "Values": [
+                {
+                    "Key": "3i Asset Management Ltd",
+                    "Value": "3i Asset Management Ltd"
+                },
+                {
+                    "Key": "Aberdeen",
+                    "Value": "Aberdeen"
+                },
+                {
+                    "Key": "Aberdeen Asset Managers Limited",
+                    "Value": "Aberdeen Asset Managers Limited"
+                },
+                {
+                    "Key": "Aberdeen Standard Investments",
+                    "Value": "Aberdeen Standard Investments"
+                },
+                {
+                    "Key": "Aberdeen Standard Investments Inc.",
+                    "Value": "Aberdeen Standard Investments Inc."
+                },
+                {
+                    "Key": "Aberdeen Standard Investments Luxembourg S.A.",
+                    "Value": "Aberdeen Standard Investments Luxembourg S.A."
+                },
+                {
+                    "Key": "Aberforth Partners LLP",
+                    "Value": "Aberforth Partners LLP"
+                },
+                {
+                    "Key": "ABSA Capital ETF",
+                    "Value": "ABSA Capital ETF"
+                },
+                {
+                    "Key": "Adams Diversified Equity Fund Inc",
+                    "Value": "Adams Diversified Equity Fund Inc"
+                },
+                {
+                    "Key": "Adams Natural Resources Fund Inc",
+                    "Value": "Adams Natural Resources Fund Inc"
+                },
+                {
+                    "Key": "AdvisorShares",
+                    "Value": "AdvisorShares"
+                },
+                {
+                    "Key": "AFFM SA",
+                    "Value": "AFFM SA"
+                },
+                {
+                    "Key": "Africa ETF Issuer (Limited) RF",
+                    "Value": "Africa ETF Issuer (Limited) RF"
+                },
+                {
+                    "Key": "AGFiQ",
+                    "Value": "AGFiQ"
+                },
+                {
+                    "Key": "Alcentra Limited",
+                    "Value": "Alcentra Limited"
+                },
+                {
+                    "Key": "AllianceBernstein (Luxembourg) S.à r.l.",
+                    "Value": "AllianceBernstein (Luxembourg) S.à r.l."
+                },
+                {
+                    "Key": "AllianceBernstein L.P.",
+                    "Value": "AllianceBernstein L.P."
+                },
+                {
+                    "Key": "Allianz Global Investors",
+                    "Value": "Allianz Global Investors"
+                },
+                {
+                    "Key": "Allianz Global Investors (UK) Ltd",
+                    "Value": "Allianz Global Investors (UK) Ltd"
+                },
+                {
+                    "Key": "Allianz Global Investors GmbH",
+                    "Value": "Allianz Global Investors GmbH"
+                },
+                {
+                    "Key": "Allianz Global Investors Ireland Ltd",
+                    "Value": "Allianz Global Investors Ireland Ltd"
+                },
+                {
+                    "Key": "Allianz Group",
+                    "Value": "Allianz Group"
+                },
+                {
+                    "Key": "Alm. Brand Invest",
+                    "Value": "Alm. Brand Invest"
+                },
+                {
+                    "Key": "Alpha Architect",
+                    "Value": "Alpha Architect"
+                },
+                {
+                    "Key": "AlphaClone",
+                    "Value": "AlphaClone"
+                },
+                {
+                    "Key": "ALPS",
+                    "Value": "ALPS"
+                },
+                {
+                    "Key": "ALPS Advisors Inc",
+                    "Value": "ALPS Advisors Inc"
+                },
+                {
+                    "Key": "ALPS ETF",
+                    "Value": "ALPS ETF"
+                },
+                {
+                    "Key": "Amalie Invest",
+                    "Value": "Amalie Invest"
+                },
+                {
+                    "Key": "Amber Fund Management Limited",
+                    "Value": "Amber Fund Management Limited"
+                },
+                {
+                    "Key": "Amiral Gestion",
+                    "Value": "Amiral Gestion"
+                },
+                {
+                    "Key": "Amplifyetfs",
+                    "Value": "Amplifyetfs"
+                },
+                {
+                    "Key": "Amun AG",
+                    "Value": "Amun AG"
+                },
+                {
+                    "Key": "Amundi Asset Management",
+                    "Value": "Amundi Asset Management"
+                },
+                {
+                    "Key": "Amundi Hong Kong Ltd",
+                    "Value": "Amundi Hong Kong Ltd"
+                },
+                {
+                    "Key": "Amundi Luxembourg S.A.",
+                    "Value": "Amundi Luxembourg S.A."
+                },
+                {
+                    "Key": "Apax Guernsey Managers Ltd",
+                    "Value": "Apax Guernsey Managers Ltd"
+                },
+                {
+                    "Key": "Apollo Alternative Assets",
+                    "Value": "Apollo Alternative Assets"
+                },
+                {
+                    "Key": "Aquila Capital Investmentgesellschaft mbH",
+                    "Value": "Aquila Capital Investmentgesellschaft mbH"
+                },
+                {
+                    "Key": "Ares Capital Corp",
+                    "Value": "Ares Capital Corp"
+                },
+                {
+                    "Key": "ARK ETF Trust",
+                    "Value": "ARK ETF Trust"
+                },
+                {
+                    "Key": "ArrowShares",
+                    "Value": "ArrowShares"
+                },
+                {
+                    "Key": "Artemis Fund Managers Limited",
+                    "Value": "Artemis Fund Managers Limited"
+                },
+                {
+                    "Key": "ASA",
+                    "Value": "ASA"
+                },
+                {
+                    "Key": "Ashburton Management Company",
+                    "Value": "Ashburton Management Company"
+                },
+                {
+                    "Key": "Asset Management One Co., Ltd.",
+                    "Value": "Asset Management One Co., Ltd."
+                },
+                {
+                    "Key": "Asset Value Investors",
+                    "Value": "Asset Value Investors"
+                },
+                {
+                    "Key": "Aurora Funds Management Limited",
+                    "Value": "Aurora Funds Management Limited"
+                },
+                {
+                    "Key": "Auspice Capital Advisors",
+                    "Value": "Auspice Capital Advisors"
+                },
+                {
+                    "Key": "AXA Funds Management S.A.",
+                    "Value": "AXA Funds Management S.A."
+                },
+                {
+                    "Key": "AXA Investment Managers Inc",
+                    "Value": "AXA Investment Managers Inc"
+                },
+                {
+                    "Key": "BACIT Investments LP",
+                    "Value": "BACIT Investments LP"
+                },
+                {
+                    "Key": "Baillie Gifford & Co Limited.",
+                    "Value": "Baillie Gifford & Co Limited."
+                },
+                {
+                    "Key": "BankInvest",
+                    "Value": "BankInvest"
+                },
+                {
+                    "Key": "BankInvest Select, Kapitalforeningen",
+                    "Value": "BankInvest Select, Kapitalforeningen"
+                },
+                {
+                    "Key": "BankInvest, Værdipapirfonden",
+                    "Value": "BankInvest, Værdipapirfonden"
+                },
+                {
+                    "Key": "Barclays",
+                    "Value": "Barclays"
+                },
+                {
+                    "Key": "Baring Asset Management Inc.",
+                    "Value": "Baring Asset Management Inc."
+                },
+                {
+                    "Key": "BBGI Management HoldCo",
+                    "Value": "BBGI Management HoldCo"
+                },
+                {
+                    "Key": "BBVA Asset Management SGIIC",
+                    "Value": "BBVA Asset Management SGIIC"
+                },
+                {
+                    "Key": "Bellevue Asset Management AG",
+                    "Value": "Bellevue Asset Management AG"
+                },
+                {
+                    "Key": "Berninvest AG",
+                    "Value": "Berninvest AG"
+                },
+                {
+                    "Key": "BetaShares Capital Ltd",
+                    "Value": "BetaShares Capital Ltd"
+                },
+                {
+                    "Key": "Bexil Corp",
+                    "Value": "Bexil Corp"
+                },
+                {
+                    "Key": "BIL Danmark",
+                    "Value": "BIL Danmark"
+                },
+                {
+                    "Key": "BlackRock",
+                    "Value": "BlackRock"
+                },
+                {
+                    "Key": "BlackRock (Luxembourg) SA",
+                    "Value": "BlackRock (Luxembourg) SA"
+                },
+                {
+                    "Key": "BlackRock Advisors (UK) Limited - ETF",
+                    "Value": "BlackRock Advisors (UK) Limited - ETF"
+                },
+                {
+                    "Key": "BlackRock Asset Management Deutschland AG",
+                    "Value": "BlackRock Asset Management Deutschland AG"
+                },
+                {
+                    "Key": "BlackRock Asset Management Ireland - ETF",
+                    "Value": "BlackRock Asset Management Ireland - ETF"
+                },
+                {
+                    "Key": "BlackRock Asset Management North Asia Ltd",
+                    "Value": "BlackRock Asset Management North Asia Ltd"
+                },
+                {
+                    "Key": "BlackRock Asset Management Schweiz AG",
+                    "Value": "BlackRock Asset Management Schweiz AG"
+                },
+                {
+                    "Key": "BlackRock Fund Managers Limited",
+                    "Value": "BlackRock Fund Managers Limited"
+                },
+                {
+                    "Key": "BlackRock Investment Management (UK) Ltd.",
+                    "Value": "BlackRock Investment Management (UK) Ltd."
+                },
+                {
+                    "Key": "BlackRock Japan Co Ltd",
+                    "Value": "BlackRock Japan Co Ltd"
+                },
+                {
+                    "Key": "Blackstone Group Inc",
+                    "Value": "Blackstone Group Inc"
+                },
+                {
+                    "Key": "BLS Invest, Kapitalforeningen",
+                    "Value": "BLS Invest, Kapitalforeningen"
+                },
+                {
+                    "Key": "Bluefield Partners LLP",
+                    "Value": "Bluefield Partners LLP"
+                },
+                {
+                    "Key": "BMO Asset Management (Holdings) plc",
+                    "Value": "BMO Asset Management (Holdings) plc"
+                },
+                {
+                    "Key": "BMO Asset Management Inc",
+                    "Value": "BMO Asset Management Inc"
+                },
+                {
+                    "Key": "BMO Asset Management Limited",
+                    "Value": "BMO Asset Management Limited"
+                },
+                {
+                    "Key": "BMO Capital Markets Corp.",
+                    "Value": "BMO Capital Markets Corp."
+                },
+                {
+                    "Key": "BMO Global Asset Management (Asia) Limited",
+                    "Value": "BMO Global Asset Management (Asia) Limited"
+                },
+                {
+                    "Key": "BMO Global Asset Management (GAM)",
+                    "Value": "BMO Global Asset Management (GAM)"
+                },
+                {
+                    "Key": "BMO Investment Business Ltd",
+                    "Value": "BMO Investment Business Ltd"
+                },
+                {
+                    "Key": "BNP Paribas Asset Management France",
+                    "Value": "BNP Paribas Asset Management France"
+                },
+                {
+                    "Key": "BNP Paribas Asset Management Luxembourg",
+                    "Value": "BNP Paribas Asset Management Luxembourg"
+                },
+                {
+                    "Key": "BNY Mellon",
+                    "Value": "BNY Mellon"
+                },
+                {
+                    "Key": "BNY Mellon Fund Management (Lux) S.A.",
+                    "Value": "BNY Mellon Fund Management (Lux) S.A."
+                },
+                {
+                    "Key": "BOCI-Prudential Asset Management",
+                    "Value": "BOCI-Prudential Asset Management"
+                },
+                {
+                    "Key": "Boost Issuer PLC",
+                    "Value": "Boost Issuer PLC"
+                },
+                {
+                    "Key": "Boulder Capital, LLC",
+                    "Value": "Boulder Capital, LLC"
+                },
+                {
+                    "Key": "Boussard & Gavaudan Investment Management, LLP",
+                    "Value": "Boussard & Gavaudan Investment Management, LLP"
+                },
+                {
+                    "Key": "Brevan Howard Capital Management LP",
+                    "Value": "Brevan Howard Capital Management LP"
+                },
+                {
+                    "Key": "Brookfield Public Securities Group LLC",
+                    "Value": "Brookfield Public Securities Group LLC"
+                },
+                {
+                    "Key": "Bulldog Investors, LLC",
+                    "Value": "Bulldog Investors, LLC"
+                },
+                {
+                    "Key": "C WorldWide Asset Management Fondsmæglerselskab A/S",
+                    "Value": "C WorldWide Asset Management Fondsmæglerselskab A/S"
+                },
+                {
+                    "Key": "Calamos Asset Management Inc",
+                    "Value": "Calamos Asset Management Inc"
+                },
+                {
+                    "Key": "Caledonia Investments Plc",
+                    "Value": "Caledonia Investments Plc"
+                },
+                {
+                    "Key": "CAMBRIA ETF TRUST",
+                    "Value": "CAMBRIA ETF TRUST"
+                },
+                {
+                    "Key": "Candriam Luxembourg S.C.A.",
+                    "Value": "Candriam Luxembourg S.C.A."
+                },
+                {
+                    "Key": "Canoe Financial LP",
+                    "Value": "Canoe Financial LP"
+                },
+                {
+                    "Key": "Capital International Management Company Sàrl",
+                    "Value": "Capital International Management Company Sàrl"
+                },
+                {
+                    "Key": "Carmignac Gestion",
+                    "Value": "Carmignac Gestion"
+                },
+                {
+                    "Key": "Carmignac Gestion Luxembourg S.A.",
+                    "Value": "Carmignac Gestion Luxembourg S.A."
+                },
+                {
+                    "Key": "CBRE Clarion Securities, LLC",
+                    "Value": "CBRE Clarion Securities, LLC"
+                },
+                {
+                    "Key": "Central Securities",
+                    "Value": "Central Securities"
+                },
+                {
+                    "Key": "CG Asset Management Ltd",
+                    "Value": "CG Asset Management Ltd"
+                },
+                {
+                    "Key": "China Asset Management (HK) Limited",
+                    "Value": "China Asset Management (HK) Limited"
+                },
+                {
+                    "Key": "China Intl Capital Corp HK Asse Mgt Ltd.",
+                    "Value": "China Intl Capital Corp HK Asse Mgt Ltd."
+                },
+                {
+                    "Key": "CIG Fund Management Company Limited",
+                    "Value": "CIG Fund Management Company Limited"
+                },
+                {
+                    "Key": "CIMB-Principal Asset Mgmt (S) PTE LTD",
+                    "Value": "CIMB-Principal Asset Mgmt (S) PTE LTD"
+                },
+                {
+                    "Key": "Clough Capital Partners L.P.",
+                    "Value": "Clough Capital Partners L.P."
+                },
+                {
+                    "Key": "Cohen & Steers",
+                    "Value": "Cohen & Steers"
+                },
+                {
+                    "Key": "Columbia",
+                    "Value": "Columbia"
+                },
+                {
+                    "Key": "Commerz Funds Solutions SA",
+                    "Value": "Commerz Funds Solutions SA"
+                },
+                {
+                    "Key": "Commerzbank AG",
+                    "Value": "Commerzbank AG"
+                },
+                {
+                    "Key": "Contrarius Investment Management Ltd",
+                    "Value": "Contrarius Investment Management Ltd"
+                },
+                {
+                    "Key": "Coop Opsparing",
+                    "Value": "Coop Opsparing"
+                },
+                {
+                    "Key": "CoreShares Index Tracker Managers",
+                    "Value": "CoreShares Index Tracker Managers"
+                },
+                {
+                    "Key": "Cornerstone Advisors",
+                    "Value": "Cornerstone Advisors"
+                },
+                {
+                    "Key": "Cornerstone Advisors, Inc.",
+                    "Value": "Cornerstone Advisors, Inc."
+                },
+                {
+                    "Key": "Coronation Global Fund Managers (Ireland) Limited",
+                    "Value": "Coronation Global Fund Managers (Ireland) Limited"
+                },
+                {
+                    "Key": "Coupland Cardiff Asset Management LLP",
+                    "Value": "Coupland Cardiff Asset Management LLP"
+                },
+                {
+                    "Key": "CQS (UK) LLP",
+                    "Value": "CQS (UK) LLP"
+                },
+                {
+                    "Key": "Credit Suisse AG",
+                    "Value": "Credit Suisse AG"
+                },
+                {
+                    "Key": "Credit Suisse Funds AG",
+                    "Value": "Credit Suisse Funds AG"
+                },
+                {
+                    "Key": "CSOP Asset Management Limited",
+                    "Value": "CSOP Asset Management Limited"
+                },
+                {
+                    "Key": "Cushing Asset Management LP",
+                    "Value": "Cushing Asset Management LP"
+                },
+                {
+                    "Key": "CVC Credit Partners",
+                    "Value": "CVC Credit Partners"
+                },
+                {
+                    "Key": "Daiwa Asset Management Co Ltd",
+                    "Value": "Daiwa Asset Management Co Ltd"
+                },
+                {
+                    "Key": "Danske Invest",
+                    "Value": "Danske Invest"
+                },
+                {
+                    "Key": "Danske Invest Select",
+                    "Value": "Danske Invest Select"
+                },
+                {
+                    "Key": "Davis Dinsmore",
+                    "Value": "Davis Dinsmore"
+                },
+                {
+                    "Key": "Defiance ETFs",
+                    "Value": "Defiance ETFs"
+                },
+                {
+                    "Key": "Degroof Petercam Asset Management S.A.",
+                    "Value": "Degroof Petercam Asset Management S.A."
+                },
+                {
+                    "Key": "Degroof Petercam Asset Services S.A.",
+                    "Value": "Degroof Petercam Asset Services S.A."
+                },
+                {
+                    "Key": "Deka Investment GmbH",
+                    "Value": "Deka Investment GmbH"
+                },
+                {
+                    "Key": "Delaware Funds by Macquarie",
+                    "Value": "Delaware Funds by Macquarie"
+                },
+                {
+                    "Key": "Deutsche Asset Management",
+                    "Value": "Deutsche Asset Management"
+                },
+                {
+                    "Key": "Deutsche Bank AG",
+                    "Value": "Deutsche Bank AG"
+                },
+                {
+                    "Key": "Deutsche Börse Commodities GmbH",
+                    "Value": "Deutsche Börse Commodities GmbH"
+                },
+                {
+                    "Key": "Deutsche Investment Management Inc",
+                    "Value": "Deutsche Investment Management Inc"
+                },
+                {
+                    "Key": "Direxion Funds",
+                    "Value": "Direxion Funds"
+                },
+                {
+                    "Key": "DMS Investment Management Services (Europe) Ltd",
+                    "Value": "DMS Investment Management Services (Europe) Ltd"
+                },
+                {
+                    "Key": "DNB Asset Management AS",
+                    "Value": "DNB Asset Management AS"
+                },
+                {
+                    "Key": "DoubleLine",
+                    "Value": "DoubleLine"
+                },
+                {
+                    "Key": "Dreyfus",
+                    "Value": "Dreyfus"
+                },
+                {
+                    "Key": "Duff & Phelps",
+                    "Value": "Duff & Phelps"
+                },
+                {
+                    "Key": "Dunedin Fund Managers",
+                    "Value": "Dunedin Fund Managers"
+                },
+                {
+                    "Key": "DWS",
+                    "Value": "DWS"
+                },
+                {
+                    "Key": "DWS Investment S.A.",
+                    "Value": "DWS Investment S.A."
+                },
+                {
+                    "Key": "DWS Investment S.A. (ETF)",
+                    "Value": "DWS Investment S.A. (ETF)"
+                },
+                {
+                    "Key": "E Fund Management (HK) Co., Ltd",
+                    "Value": "E Fund Management (HK) Co., Ltd"
+                },
+                {
+                    "Key": "Eagle Point Credit Management",
+                    "Value": "Eagle Point Credit Management"
+                },
+                {
+                    "Key": "Eaton Vance",
+                    "Value": "Eaton Vance"
+                },
+                {
+                    "Key": "Ecofin Limited",
+                    "Value": "Ecofin Limited"
+                },
+                {
+                    "Key": "Edinburgh Partners Limited",
+                    "Value": "Edinburgh Partners Limited"
+                },
+                {
+                    "Key": "Edmond de Rothschild Asset Management (France)",
+                    "Value": "Edmond de Rothschild Asset Management (France)"
+                },
+                {
+                    "Key": "Edmond de Rothschild Asset Management (Lux)",
+                    "Value": "Edmond de Rothschild Asset Management (Lux)"
+                },
+                {
+                    "Key": "Electra Partners",
+                    "Value": "Electra Partners"
+                },
+                {
+                    "Key": "ELEMENTS",
+                    "Value": "ELEMENTS"
+                },
+                {
+                    "Key": "EMQQ",
+                    "Value": "EMQQ"
+                },
+                {
+                    "Key": "Enhanced Investment Products Limited",
+                    "Value": "Enhanced Investment Products Limited"
+                },
+                {
+                    "Key": "Enterprise Investment Management Ltd",
+                    "Value": "Enterprise Investment Management Ltd"
+                },
+                {
+                    "Key": "Epicure Managers Qatar Limited",
+                    "Value": "Epicure Managers Qatar Limited"
+                },
+                {
+                    "Key": "Equity Trustees Limited (BNP)",
+                    "Value": "Equity Trustees Limited (BNP)"
+                },
+                {
+                    "Key": "ETF Securities",
+                    "Value": "ETF Securities"
+                },
+                {
+                    "Key": "ETFMG",
+                    "Value": "ETFMG"
+                },
+                {
+                    "Key": "ETFS Commodity Securities Ltd",
+                    "Value": "ETFS Commodity Securities Ltd"
+                },
+                {
+                    "Key": "ETFS Equity Securities Ltd.",
+                    "Value": "ETFS Equity Securities Ltd."
+                },
+                {
+                    "Key": "ETFS Foreign Exchange Limited",
+                    "Value": "ETFS Foreign Exchange Limited"
+                },
+                {
+                    "Key": "ETFS Hedged Commodity Securities Ltd",
+                    "Value": "ETFS Hedged Commodity Securities Ltd"
+                },
+                {
+                    "Key": "ETFS Management (AUS) Ltd",
+                    "Value": "ETFS Management (AUS) Ltd"
+                },
+                {
+                    "Key": "ETFS Metal Securities Australia Ltd",
+                    "Value": "ETFS Metal Securities Australia Ltd"
+                },
+                {
+                    "Key": "EVENT SHARES",
+                    "Value": "EVENT SHARES"
+                },
+                {
+                    "Key": "Evli Fund Management Company Oy",
+                    "Value": "Evli Fund Management Company Oy"
+                },
+                {
+                    "Key": "Evolve Funds Group Inc.",
+                    "Value": "Evolve Funds Group Inc."
+                },
+                {
+                    "Key": "Exchange Traded Concepts",
+                    "Value": "Exchange Traded Concepts"
+                },
+                {
+                    "Key": "Falcon Invest, Investeringsforeningen",
+                    "Value": "Falcon Invest, Investeringsforeningen"
+                },
+                {
+                    "Key": "Fidelity (FIL Inv Mgmt (Lux) S.A.)",
+                    "Value": "Fidelity (FIL Inv Mgmt (Lux) S.A.)"
+                },
+                {
+                    "Key": "Fidelity Investment Services Ltd",
+                    "Value": "Fidelity Investment Services Ltd"
+                },
+                {
+                    "Key": "Fidelity Investments",
+                    "Value": "Fidelity Investments"
+                },
+                {
+                    "Key": "FidFund Management SA",
+                    "Value": "FidFund Management SA"
+                },
+                {
+                    "Key": "FIL Fund Management (Ireland) Limited",
+                    "Value": "FIL Fund Management (Ireland) Limited"
+                },
+                {
+                    "Key": "FIL Investment Management (HK) Ltd",
+                    "Value": "FIL Investment Management (HK) Ltd"
+                },
+                {
+                    "Key": "FIL Investments International",
+                    "Value": "FIL Investments International"
+                },
+                {
+                    "Key": "FinEx Capital Management LLP",
+                    "Value": "FinEx Capital Management LLP"
+                },
+                {
+                    "Key": "First State Investments (UK) Ltd",
+                    "Value": "First State Investments (UK) Ltd"
+                },
+                {
+                    "Key": "First Trust",
+                    "Value": "First Trust"
+                },
+                {
+                    "Key": "First Trust Advisors L.P.",
+                    "Value": "First Trust Advisors L.P."
+                },
+                {
+                    "Key": "Flaherty & Crumrine",
+                    "Value": "Flaherty & Crumrine"
+                },
+                {
+                    "Key": "Flexshares Trust",
+                    "Value": "Flexshares Trust"
+                },
+                {
+                    "Key": "Fondsfinans Kapitalforvaltning ASA",
+                    "Value": "Fondsfinans Kapitalforvaltning ASA"
+                },
+                {
+                    "Key": "Forager Funds Management Pty Ltd",
+                    "Value": "Forager Funds Management Pty Ltd"
+                },
+                {
+                    "Key": "Foresight Group CI Limited",
+                    "Value": "Foresight Group CI Limited"
+                },
+                {
+                    "Key": "Formuepleje Epikur, Kapitalforeningen",
+                    "Value": "Formuepleje Epikur, Kapitalforeningen"
+                },
+                {
+                    "Key": "Formuepleje Fokus, Kapitalforeningen",
+                    "Value": "Formuepleje Fokus, Kapitalforeningen"
+                },
+                {
+                    "Key": "Formuepleje Merkur, Kapitalforeningen",
+                    "Value": "Formuepleje Merkur, Kapitalforeningen"
+                },
+                {
+                    "Key": "Formuepleje Pareto, Kapitalforeningen",
+                    "Value": "Formuepleje Pareto, Kapitalforeningen"
+                },
+                {
+                    "Key": "Formuepleje Penta, Kapitalforeningen",
+                    "Value": "Formuepleje Penta, Kapitalforeningen"
+                },
+                {
+                    "Key": "Formuepleje Safe, Kapitalforeningen",
+                    "Value": "Formuepleje Safe, Kapitalforeningen"
+                },
+                {
+                    "Key": "Formuepleje, Investeringsforeningen",
+                    "Value": "Formuepleje, Investeringsforeningen"
+                },
+                {
+                    "Key": "Franklin Advisers, Inc.",
+                    "Value": "Franklin Advisers, Inc."
+                },
+                {
+                    "Key": "Franklin Templeton",
+                    "Value": "Franklin Templeton"
+                },
+                {
+                    "Key": "Franklin Templeton International Services S.à r.l.",
+                    "Value": "Franklin Templeton International Services S.à r.l."
+                },
+                {
+                    "Key": "Franklin Templeton Investments",
+                    "Value": "Franklin Templeton Investments"
+                },
+                {
+                    "Key": "Franklin Templeton Investments Aus Ltd",
+                    "Value": "Franklin Templeton Investments Aus Ltd"
+                },
+                {
+                    "Key": "Frostrow Capital LLP",
+                    "Value": "Frostrow Capital LLP"
+                },
+                {
+                    "Key": "Fundamental Invest",
+                    "Value": "Fundamental Invest"
+                },
+                {
+                    "Key": "Funding Circle Ltd",
+                    "Value": "Funding Circle Ltd"
+                },
+                {
+                    "Key": "Fundlogic SAS",
+                    "Value": "Fundlogic SAS"
+                },
+                {
+                    "Key": "FundRock Management Company S.A.",
+                    "Value": "FundRock Management Company S.A."
+                },
+                {
+                    "Key": "Fundsmith LLP",
+                    "Value": "Fundsmith LLP"
+                },
+                {
+                    "Key": "Future Generation Investment Co Ltd",
+                    "Value": "Future Generation Investment Co Ltd"
+                },
+                {
+                    "Key": "Gabelli",
+                    "Value": "Gabelli"
+                },
+                {
+                    "Key": "Gabelli Funds Inc",
+                    "Value": "Gabelli Funds Inc"
+                },
+                {
+                    "Key": "GAM (Luxembourg) SA",
+                    "Value": "GAM (Luxembourg) SA"
+                },
+                {
+                    "Key": "GAM Fund Management Limited",
+                    "Value": "GAM Fund Management Limited"
+                },
+                {
+                    "Key": "GAM Investment Management (Switzerland) AG",
+                    "Value": "GAM Investment Management (Switzerland) AG"
+                },
+                {
+                    "Key": "Genesis Asset Managers, LLP",
+                    "Value": "Genesis Asset Managers, LLP"
+                },
+                {
+                    "Key": "GEP SA",
+                    "Value": "GEP SA"
+                },
+                {
+                    "Key": "Global X Funds",
+                    "Value": "Global X Funds"
+                },
+                {
+                    "Key": "Globalworth Asset Managers Srl",
+                    "Value": "Globalworth Asset Managers Srl"
+                },
+                {
+                    "Key": "Gold Bullion Securities Ltd",
+                    "Value": "Gold Bullion Securities Ltd"
+                },
+                {
+                    "Key": "Goldman Sachs",
+                    "Value": "Goldman Sachs"
+                },
+                {
+                    "Key": "Goldman Sachs Asset Management Fund Services Ltd",
+                    "Value": "Goldman Sachs Asset Management Fund Services Ltd"
+                },
+                {
+                    "Key": "Goldman Sachs Asset Management Global Services Limited",
+                    "Value": "Goldman Sachs Asset Management Global Services Limited"
+                },
+                {
+                    "Key": "Graniteshares",
+                    "Value": "Graniteshares"
+                },
+                {
+                    "Key": "Gravis Capital Management Limited",
+                    "Value": "Gravis Capital Management Limited"
+                },
+                {
+                    "Key": "Gresham House Asset Management Ltd",
+                    "Value": "Gresham House Asset Management Ltd"
+                },
+                {
+                    "Key": "Grosvenor Capital Management LP",
+                    "Value": "Grosvenor Capital Management LP"
+                },
+                {
+                    "Key": "Groupama Asset Management",
+                    "Value": "Groupama Asset Management"
+                },
+                {
+                    "Key": "Gudme Raaschou Invest",
+                    "Value": "Gudme Raaschou Invest"
+                },
+                {
+                    "Key": "Guggenheim",
+                    "Value": "Guggenheim"
+                },
+                {
+                    "Key": "Guggenheim Investments Asset Management",
+                    "Value": "Guggenheim Investments Asset Management"
+                },
+                {
+                    "Key": "GVQ Investment Management Limited",
+                    "Value": "GVQ Investment Management Limited"
+                },
+                {
+                    "Key": "H2O AM LLP",
+                    "Value": "H2O AM LLP"
+                },
+                {
+                    "Key": "Halberg-Gundersen Invest",
+                    "Value": "Halberg-Gundersen Invest"
+                },
+                {
+                    "Key": "Hambrecht & Quist",
+                    "Value": "Hambrecht & Quist"
+                },
+                {
+                    "Key": "Handelsinvest",
+                    "Value": "Handelsinvest"
+                },
+                {
+                    "Key": "HANetf Management Limited",
+                    "Value": "HANetf Management Limited"
+                },
+                {
+                    "Key": "Hang Seng Investment Management Ltd",
+                    "Value": "Hang Seng Investment Management Ltd"
+                },
+                {
+                    "Key": "Hansa Capital Partners LLP",
+                    "Value": "Hansa Capital Partners LLP"
+                },
+                {
+                    "Key": "Harbourvest Partners LLC",
+                    "Value": "Harbourvest Partners LLC"
+                },
+                {
+                    "Key": "Hartford Funds",
+                    "Value": "Hartford Funds"
+                },
+                {
+                    "Key": "Harvest Global Investments Limited",
+                    "Value": "Harvest Global Investments Limited"
+                },
+                {
+                    "Key": "Harwood Capital LLP",
+                    "Value": "Harwood Capital LLP"
+                },
+                {
+                    "Key": "Henderson Investment Funds Ltd",
+                    "Value": "Henderson Investment Funds Ltd"
+                },
+                {
+                    "Key": "Herald Investment Management Limited",
+                    "Value": "Herald Investment Management Limited"
+                },
+                {
+                    "Key": "Hermes Fund Managers Ireland Ltd",
+                    "Value": "Hermes Fund Managers Ireland Ltd"
+                },
+                {
+                    "Key": "Herzfeld",
+                    "Value": "Herzfeld"
+                },
+                {
+                    "Key": "Hg Pooled Management Limited",
+                    "Value": "Hg Pooled Management Limited"
+                },
+                {
+                    "Key": "Highbridge Capital Management (UK) Ltd",
+                    "Value": "Highbridge Capital Management (UK) Ltd"
+                },
+                {
+                    "Key": "Highland Funds",
+                    "Value": "Highland Funds"
+                },
+                {
+                    "Key": "Horizons ETFs",
+                    "Value": "Horizons ETFs"
+                },
+                {
+                    "Key": "Horizons ETFs Management (Canada) Inc",
+                    "Value": "Horizons ETFs Management (Canada) Inc"
+                },
+                {
+                    "Key": "HP Invest",
+                    "Value": "HP Invest"
+                },
+                {
+                    "Key": "HSBC Global Asset Management (HK) Ltd",
+                    "Value": "HSBC Global Asset Management (HK) Ltd"
+                },
+                {
+                    "Key": "HSBC Investment Funds (HK) Limited",
+                    "Value": "HSBC Investment Funds (HK) Limited"
+                },
+                {
+                    "Key": "HSBC Investment Funds (Luxembourg) S.A.",
+                    "Value": "HSBC Investment Funds (Luxembourg) S.A."
+                },
+                {
+                    "Key": "ICM Ltd.",
+                    "Value": "ICM Ltd."
+                },
+                {
+                    "Key": "Imantia Capital SGIIC",
+                    "Value": "Imantia Capital SGIIC"
+                },
+                {
+                    "Key": "Immofonds AG für Fondsverwaltung",
+                    "Value": "Immofonds AG für Fondsverwaltung"
+                },
+                {
+                    "Key": "Impax Asset Management Group PLC",
+                    "Value": "Impax Asset Management Group PLC"
+                },
+                {
+                    "Key": "Impulsora Del Fondo Mexico, SC",
+                    "Value": "Impulsora Del Fondo Mexico, SC"
+                },
+                {
+                    "Key": "Independent Invest",
+                    "Value": "Independent Invest"
+                },
+                {
+                    "Key": "Independent Investment Group",
+                    "Value": "Independent Investment Group"
+                },
+                {
+                    "Key": "IndexIQ",
+                    "Value": "IndexIQ"
+                },
+                {
+                    "Key": "InfraRed Capital Partners Ltd",
+                    "Value": "InfraRed Capital Partners Ltd"
+                },
+                {
+                    "Key": "Innovator ETFs",
+                    "Value": "Innovator ETFs"
+                },
+                {
+                    "Key": "InsingerGilissen Asset Management N.V.",
+                    "Value": "InsingerGilissen Asset Management N.V."
+                },
+                {
+                    "Key": "Intermediate Capital Group PLC",
+                    "Value": "Intermediate Capital Group PLC"
+                },
+                {
+                    "Key": "Invesco",
+                    "Value": "Invesco"
+                },
+                {
+                    "Key": "Invesco Advisers, Inc",
+                    "Value": "Invesco Advisers, Inc"
+                },
+                {
+                    "Key": "Invesco Canada Ltd.",
+                    "Value": "Invesco Canada Ltd."
+                },
+                {
+                    "Key": "Invesco Fund Managers Limited",
+                    "Value": "Invesco Fund Managers Limited"
+                },
+                {
+                    "Key": "Invesco Global Asset Management DAC",
+                    "Value": "Invesco Global Asset Management DAC"
+                },
+                {
+                    "Key": "Invesco Investment Management Limited",
+                    "Value": "Invesco Investment Management Limited"
+                },
+                {
+                    "Key": "Invesco Management S.A.",
+                    "Value": "Invesco Management S.A."
+                },
+                {
+                    "Key": "Investec Asset Management Luxembourg S.A.",
+                    "Value": "Investec Asset Management Luxembourg S.A."
+                },
+                {
+                    "Key": "Investec Fund Managers Ltd",
+                    "Value": "Investec Fund Managers Ltd"
+                },
+                {
+                    "Key": "Investeringsforeningen IR Invest",
+                    "Value": "Investeringsforeningen IR Invest"
+                },
+                {
+                    "Key": "Investeringsforeningen PortfolioManager",
+                    "Value": "Investeringsforeningen PortfolioManager"
+                },
+                {
+                    "Key": "Investin",
+                    "Value": "Investin"
+                },
+                {
+                    "Key": "Investin, Kapitalforeningen",
+                    "Value": "Investin, Kapitalforeningen"
+                },
+                {
+                    "Key": "Investissements Fonciers S.A",
+                    "Value": "Investissements Fonciers S.A"
+                },
+                {
+                    "Key": "iShares",
+                    "Value": "iShares"
+                },
+                {
+                    "Key": "Ivy Funds",
+                    "Value": "Ivy Funds"
+                },
+                {
+                    "Key": "J Rothschild Capital Management Limited",
+                    "Value": "J Rothschild Capital Management Limited"
+                },
+                {
+                    "Key": "Janus Henderson",
+                    "Value": "Janus Henderson"
+                },
+                {
+                    "Key": "Janus Henderson Investors",
+                    "Value": "Janus Henderson Investors"
+                },
+                {
+                    "Key": "Janus Henderson Investors Ltd",
+                    "Value": "Janus Henderson Investors Ltd"
+                },
+                {
+                    "Key": "John Hancock",
+                    "Value": "John Hancock"
+                },
+                {
+                    "Key": "John Laing Capital Management",
+                    "Value": "John Laing Capital Management"
+                },
+                {
+                    "Key": "JP Morgan Asset Management (UK) Ltd",
+                    "Value": "JP Morgan Asset Management (UK) Ltd"
+                },
+                {
+                    "Key": "JPMorgan",
+                    "Value": "JPMorgan"
+                },
+                {
+                    "Key": "JPMorgan Asset Management (Europe) S.à r.l.",
+                    "Value": "JPMorgan Asset Management (Europe) S.à r.l."
+                },
+                {
+                    "Key": "Jupiter Asset Management Limited",
+                    "Value": "Jupiter Asset Management Limited"
+                },
+                {
+                    "Key": "Jupiter Unit Trust Managers Ltd",
+                    "Value": "Jupiter Unit Trust Managers Ltd"
+                },
+                {
+                    "Key": "Jyske Invest",
+                    "Value": "Jyske Invest"
+                },
+                {
+                    "Key": "Kapitalforeningen Accunia Invest",
+                    "Value": "Kapitalforeningen Accunia Invest"
+                },
+                {
+                    "Key": "Kayne Anderson",
+                    "Value": "Kayne Anderson"
+                },
+                {
+                    "Key": "KKR & Co. L.P.",
+                    "Value": "KKR & Co. L.P."
+                },
+                {
+                    "Key": "Kleinwort Benson Investors Dublin Ltd",
+                    "Value": "Kleinwort Benson Investors Dublin Ltd"
+                },
+                {
+                    "Key": "Knowledge Leaders Capital",
+                    "Value": "Knowledge Leaders Capital"
+                },
+                {
+                    "Key": "KraneShares",
+                    "Value": "KraneShares"
+                },
+                {
+                    "Key": "Lån & Spar Invest",
+                    "Value": "Lån & Spar Invest"
+                },
+                {
+                    "Key": "Lån & Spar Invest, Kapitalforeningen",
+                    "Value": "Lån & Spar Invest, Kapitalforeningen"
+                },
+                {
+                    "Key": "Lantern Structured Asset Management Limited",
+                    "Value": "Lantern Structured Asset Management Limited"
+                },
+                {
+                    "Key": "Lazard Asset Management LLC",
+                    "Value": "Lazard Asset Management LLC"
+                },
+                {
+                    "Key": "Lazard Freres Asset Management",
+                    "Value": "Lazard Freres Asset Management"
+                },
+                {
+                    "Key": "Legg Mason",
+                    "Value": "Legg Mason"
+                },
+                {
+                    "Key": "Legg Mason Investments (Ireland) Limited",
+                    "Value": "Legg Mason Investments (Ireland) Limited"
+                },
+                {
+                    "Key": "Legg Mason Partners Fund Advisor, LLC",
+                    "Value": "Legg Mason Partners Fund Advisor, LLC"
+                },
+                {
+                    "Key": "Lemanik Asset Management S.A.",
+                    "Value": "Lemanik Asset Management S.A."
+                },
+                {
+                    "Key": "LGIM ETF Managers Limited",
+                    "Value": "LGIM ETF Managers Limited"
+                },
+                {
+                    "Key": "Lindsell Train Ltd",
+                    "Value": "Lindsell Train Ltd"
+                },
+                {
+                    "Key": "Lion Global Investors Ltd",
+                    "Value": "Lion Global Investors Ltd"
+                },
+                {
+                    "Key": "Lippo Investments Management Limited",
+                    "Value": "Lippo Investments Management Limited"
+                },
+                {
+                    "Key": "Loncar Investments",
+                    "Value": "Loncar Investments"
+                },
+                {
+                    "Key": "Longbow Capital LLP",
+                    "Value": "Longbow Capital LLP"
+                },
+                {
+                    "Key": "Lyxor International Asset Management",
+                    "Value": "Lyxor International Asset Management"
+                },
+                {
+                    "Key": "Lyxor International Asset Management S.A.S.",
+                    "Value": "Lyxor International Asset Management S.A.S."
+                },
+                {
+                    "Key": "M&G Group",
+                    "Value": "M&G Group"
+                },
+                {
+                    "Key": "M&G Luxembourg S.A.",
+                    "Value": "M&G Luxembourg S.A."
+                },
+                {
+                    "Key": "M&G Securities Ltd",
+                    "Value": "M&G Securities Ltd"
+                },
+                {
+                    "Key": "M&L Capital Management",
+                    "Value": "M&L Capital Management"
+                },
+                {
+                    "Key": "Madison Asset Management, LLC",
+                    "Value": "Madison Asset Management, LLC"
+                },
+                {
+                    "Key": "Magellan Asset Management Limited",
+                    "Value": "Magellan Asset Management Limited"
+                },
+                {
+                    "Key": "Mainfirst Affiliated Fund Managers S.A.",
+                    "Value": "Mainfirst Affiliated Fund Managers S.A."
+                },
+                {
+                    "Key": "Maj Invest",
+                    "Value": "Maj Invest"
+                },
+                {
+                    "Key": "Majedie Investments PLC",
+                    "Value": "Majedie Investments PLC"
+                },
+                {
+                    "Key": "Man Group Plc",
+                    "Value": "Man Group Plc"
+                },
+                {
+                    "Key": "Mandatum Life Fund Management S.A.",
+                    "Value": "Mandatum Life Fund Management S.A."
+                },
+                {
+                    "Key": "Martin Currie Investment Management Ltd",
+                    "Value": "Martin Currie Investment Management Ltd"
+                },
+                {
+                    "Key": "MassMutual",
+                    "Value": "MassMutual"
+                },
+                {
+                    "Key": "MDO Management Company S.A.",
+                    "Value": "MDO Management Company S.A."
+                },
+                {
+                    "Key": "Merk Funds",
+                    "Value": "Merk Funds"
+                },
+                {
+                    "Key": "Metrics Credit Partners Pty Limited",
+                    "Value": "Metrics Credit Partners Pty Limited"
+                },
+                {
+                    "Key": "MFS",
+                    "Value": "MFS"
+                },
+                {
+                    "Key": "MFS Meridian Funds",
+                    "Value": "MFS Meridian Funds"
+                },
+                {
+                    "Key": "Middlefield Fund Management Limited",
+                    "Value": "Middlefield Fund Management Limited"
+                },
+                {
+                    "Key": "Milleis Investissements Funds",
+                    "Value": "Milleis Investissements Funds"
+                },
+                {
+                    "Key": "Mirabaud Asset Management (Europe) S.A.",
+                    "Value": "Mirabaud Asset Management (Europe) S.A."
+                },
+                {
+                    "Key": "Mirae Asset Global Investments (HK) Ltd",
+                    "Value": "Mirae Asset Global Investments (HK) Ltd"
+                },
+                {
+                    "Key": "Miton Asset Management Limited",
+                    "Value": "Miton Asset Management Limited"
+                },
+                {
+                    "Key": "Mitsubishi UFJ Kokusai Asst Mgmt Co.,Ltd",
+                    "Value": "Mitsubishi UFJ Kokusai Asst Mgmt Co.,Ltd"
+                },
+                {
+                    "Key": "MMA",
+                    "Value": "MMA"
+                },
+                {
+                    "Key": "Mobius Capital Partners LLP",
+                    "Value": "Mobius Capital Partners LLP"
+                },
+                {
+                    "Key": "Montanaro Asset Management Limited",
+                    "Value": "Montanaro Asset Management Limited"
+                },
+                {
+                    "Key": "Morgan Stanley",
+                    "Value": "Morgan Stanley"
+                },
+                {
+                    "Key": "Motley Fool",
+                    "Value": "Motley Fool"
+                },
+                {
+                    "Key": "MS Invest",
+                    "Value": "MS Invest"
+                },
+                {
+                    "Key": "MSIM Fund Management (Ireland) Limited",
+                    "Value": "MSIM Fund Management (Ireland) Limited"
+                },
+                {
+                    "Key": "Multi Manager Invest",
+                    "Value": "Multi Manager Invest"
+                },
+                {
+                    "Key": "Muzinich & Co. (Ireland) Limited",
+                    "Value": "Muzinich & Co. (Ireland) Limited"
+                },
+                {
+                    "Key": "Nationwide",
+                    "Value": "Nationwide"
+                },
+                {
+                    "Key": "NB Alternatives Advisers LLC",
+                    "Value": "NB Alternatives Advisers LLC"
+                },
+                {
+                    "Key": "Nedgroup Investments (IOM) Ltd",
+                    "Value": "Nedgroup Investments (IOM) Ltd"
+                },
+                {
+                    "Key": "Neuberger Berman",
+                    "Value": "Neuberger Berman"
+                },
+                {
+                    "Key": "Neuberger Berman Australia Pty Ltd",
+                    "Value": "Neuberger Berman Australia Pty Ltd"
+                },
+                {
+                    "Key": "Neuberger Berman Europe Ltd",
+                    "Value": "Neuberger Berman Europe Ltd"
+                },
+                {
+                    "Key": "NexPoint Advisors, L.P.",
+                    "Value": "NexPoint Advisors, L.P."
+                },
+                {
+                    "Key": "NextEnergy Capital IM Limited",
+                    "Value": "NextEnergy Capital IM Limited"
+                },
+                {
+                    "Key": "Nielsen Global Value",
+                    "Value": "Nielsen Global Value"
+                },
+                {
+                    "Key": "Nikko Asset Management Asia Limited",
+                    "Value": "Nikko Asset Management Asia Limited"
+                },
+                {
+                    "Key": "Nikko Asset Management Co Ltd",
+                    "Value": "Nikko Asset Management Co Ltd"
+                },
+                {
+                    "Key": "NN Investment Partners BV",
+                    "Value": "NN Investment Partners BV"
+                },
+                {
+                    "Key": "Nomura Alternative Invt Mgnt (Eur) Ltd",
+                    "Value": "Nomura Alternative Invt Mgnt (Eur) Ltd"
+                },
+                {
+                    "Key": "Nomura Asset Management Co Ltd",
+                    "Value": "Nomura Asset Management Co Ltd"
+                },
+                {
+                    "Key": "Nomura Asset Management U.K. Limited",
+                    "Value": "Nomura Asset Management U.K. Limited"
+                },
+                {
+                    "Key": "Nordea Invest",
+                    "Value": "Nordea Invest"
+                },
+                {
+                    "Key": "Nordea Investment Funds SA",
+                    "Value": "Nordea Investment Funds SA"
+                },
+                {
+                    "Key": "Nuveen",
+                    "Value": "Nuveen"
+                },
+                {
+                    "Key": "Nuveen Asset Management, LLC",
+                    "Value": "Nuveen Asset Management, LLC"
+                },
+                {
+                    "Key": "Nykredit Invest",
+                    "Value": "Nykredit Invest"
+                },
+                {
+                    "Key": "Nykredit Invest, Kapitalforeningen",
+                    "Value": "Nykredit Invest, Kapitalforeningen"
+                },
+                {
+                    "Key": "Nykredit Invest, Placeringsforeningen (Kapitalforening)",
+                    "Value": "Nykredit Invest, Placeringsforeningen (Kapitalforening)"
+                },
+                {
+                    "Key": "OBP Capital, LLC",
+                    "Value": "OBP Capital, LLC"
+                },
+                {
+                    "Key": "Ocean Dial Asset Management Limited",
+                    "Value": "Ocean Dial Asset Management Limited"
+                },
+                {
+                    "Key": "Octopus Healthcare Adviser ltd",
+                    "Value": "Octopus Healthcare Adviser ltd"
+                },
+                {
+                    "Key": "OLIM Limited",
+                    "Value": "OLIM Limited"
+                },
+                {
+                    "Key": "Olympus Funds Management Limited",
+                    "Value": "Olympus Funds Management Limited"
+                },
+                {
+                    "Key": "OppenheimerFunds",
+                    "Value": "OppenheimerFunds"
+                },
+                {
+                    "Key": "Orox Asset Management AG",
+                    "Value": "Orox Asset Management AG"
+                },
+                {
+                    "Key": "O'Shares Investments",
+                    "Value": "O'Shares Investments"
+                },
+                {
+                    "Key": "OSSIAM",
+                    "Value": "OSSIAM"
+                },
+                {
+                    "Key": "Oxford Lane Capital",
+                    "Value": "Oxford Lane Capital"
+                },
+                {
+                    "Key": "Pacer",
+                    "Value": "Pacer"
+                },
+                {
+                    "Key": "Pantheon Ventures (UK) LLP",
+                    "Value": "Pantheon Ventures (UK) LLP"
+                },
+                {
+                    "Key": "Payden & Rygel",
+                    "Value": "Payden & Rygel"
+                },
+                {
+                    "Key": "Pensimo Fondsleitung AG",
+                    "Value": "Pensimo Fondsleitung AG"
+                },
+                {
+                    "Key": "Peritus",
+                    "Value": "Peritus"
+                },
+                {
+                    "Key": "Pershing Square Capital Management, L.p.",
+                    "Value": "Pershing Square Capital Management, L.p."
+                },
+                {
+                    "Key": "PFA Invest",
+                    "Value": "PFA Invest"
+                },
+                {
+                    "Key": "PGIM Investments",
+                    "Value": "PGIM Investments"
+                },
+                {
+                    "Key": "Pharmakon Advisors L.P.",
+                    "Value": "Pharmakon Advisors L.P."
+                },
+                {
+                    "Key": "Phillip Capital Management (S) Ltd",
+                    "Value": "Phillip Capital Management (S) Ltd"
+                },
+                {
+                    "Key": "Pichardo Asset Management SA De CV",
+                    "Value": "Pichardo Asset Management SA De CV"
+                },
+                {
+                    "Key": "Pictet Asset Management (Europe) SA",
+                    "Value": "Pictet Asset Management (Europe) SA"
+                },
+                {
+                    "Key": "Picton Capital Limited",
+                    "Value": "Picton Capital Limited"
+                },
+                {
+                    "Key": "PIMCO",
+                    "Value": "PIMCO"
+                },
+                {
+                    "Key": "PIMCO Global Advisors (Ireland) Limited",
+                    "Value": "PIMCO Global Advisors (Ireland) Limited"
+                },
+                {
+                    "Key": "PineBridge Investments Ireland Ltd",
+                    "Value": "PineBridge Investments Ireland Ltd"
+                },
+                {
+                    "Key": "Ping An of China Asset Management (HK)Co",
+                    "Value": "Ping An of China Asset Management (HK)Co"
+                },
+                {
+                    "Key": "Pinnacle Fund Services Limited",
+                    "Value": "Pinnacle Fund Services Limited"
+                },
+                {
+                    "Key": "Pinnacle Investment Management Ltd",
+                    "Value": "Pinnacle Investment Management Ltd"
+                },
+                {
+                    "Key": "Pioneer Advisors, LLC",
+                    "Value": "Pioneer Advisors, LLC"
+                },
+                {
+                    "Key": "Polar Capital LLP",
+                    "Value": "Polar Capital LLP"
+                },
+                {
+                    "Key": "Premia Partners Company Limited",
+                    "Value": "Premia Partners Company Limited"
+                },
+                {
+                    "Key": "Principal Asset Management Berhad",
+                    "Value": "Principal Asset Management Berhad"
+                },
+                {
+                    "Key": "Principal Funds",
+                    "Value": "Principal Funds"
+                },
+                {
+                    "Key": "ProShares",
+                    "Value": "ProShares"
+                },
+                {
+                    "Key": "PSC Eaglewood Europe LLP",
+                    "Value": "PSC Eaglewood Europe LLP"
+                },
+                {
+                    "Key": "Purpose Investments Inc.",
+                    "Value": "Purpose Investments Inc."
+                },
+                {
+                    "Key": "Putnam",
+                    "Value": "Putnam"
+                },
+                {
+                    "Key": "QUANTX",
+                    "Value": "QUANTX"
+                },
+                {
+                    "Key": "RCM Asia Pacific Limited",
+                    "Value": "RCM Asia Pacific Limited"
+                },
+                {
+                    "Key": "Reality Shares ETF Trust",
+                    "Value": "Reality Shares ETF Trust"
+                },
+                {
+                    "Key": "Reaves Asset Management",
+                    "Value": "Reaves Asset Management"
+                },
+                {
+                    "Key": "Renaissance Capital",
+                    "Value": "Renaissance Capital"
+                },
+                {
+                    "Key": "Rentamarkets Investment Managers SGIIC",
+                    "Value": "Rentamarkets Investment Managers SGIIC"
+                },
+                {
+                    "Key": "Resscapital AB",
+                    "Value": "Resscapital AB"
+                },
+                {
+                    "Key": "Riverstone International Limited",
+                    "Value": "Riverstone International Limited"
+                },
+                {
+                    "Key": "Robeco Institutional Asset Mgmt BV",
+                    "Value": "Robeco Institutional Asset Mgmt BV"
+                },
+                {
+                    "Key": "Robeco Luxembourg SA",
+                    "Value": "Robeco Luxembourg SA"
+                },
+                {
+                    "Key": "RobecoSAM AG",
+                    "Value": "RobecoSAM AG"
+                },
+                {
+                    "Key": "Robo Global",
+                    "Value": "Robo Global"
+                },
+                {
+                    "Key": "Royce & Associates, LP",
+                    "Value": "Royce & Associates, LP"
+                },
+                {
+                    "Key": "Ruffer AIFM Limited",
+                    "Value": "Ruffer AIFM Limited"
+                },
+                {
+                    "Key": "Russell Investment Management Limited",
+                    "Value": "Russell Investment Management Limited"
+                },
+                {
+                    "Key": "Russell Investments Ireland Limited",
+                    "Value": "Russell Investments Ireland Limited"
+                },
+                {
+                    "Key": "SABA ETF",
+                    "Value": "SABA ETF"
+                },
+                {
+                    "Key": "Samsung asset management (HK) Co., Ltd.",
+                    "Value": "Samsung asset management (HK) Co., Ltd."
+                },
+                {
+                    "Key": "Sanditon Asset Management Limited",
+                    "Value": "Sanditon Asset Management Limited"
+                },
+                {
+                    "Key": "Sanlam Asset Management (Ireland) Limited",
+                    "Value": "Sanlam Asset Management (Ireland) Limited"
+                },
+                {
+                    "Key": "Sanlam Asset Mgmt (Ireland) Ltd",
+                    "Value": "Sanlam Asset Mgmt (Ireland) Ltd"
+                },
+                {
+                    "Key": "Satrix Managers (Pty) Limited",
+                    "Value": "Satrix Managers (Pty) Limited"
+                },
+                {
+                    "Key": "Schroder Investment Management (Europe) S.A.",
+                    "Value": "Schroder Investment Management (Europe) S.A."
+                },
+                {
+                    "Key": "Schroder Investment Management (Switzerland) AG",
+                    "Value": "Schroder Investment Management (Switzerland) AG"
+                },
+                {
+                    "Key": "Schroder Investment Management North America Inc.",
+                    "Value": "Schroder Investment Management North America Inc."
+                },
+                {
+                    "Key": "Schroder Unit Trusts Limited",
+                    "Value": "Schroder Unit Trusts Limited"
+                },
+                {
+                    "Key": "Schwab ETFs",
+                    "Value": "Schwab ETFs"
+                },
+                {
+                    "Key": "Scottish Investment Trust (The) PLC",
+                    "Value": "Scottish Investment Trust (The) PLC"
+                },
+                {
+                    "Key": "SDG Invest, Kapitalforeningen",
+                    "Value": "SDG Invest, Kapitalforeningen"
+                },
+                {
+                    "Key": "SEBinvest",
+                    "Value": "SEBinvest"
+                },
+                {
+                    "Key": "Seligson & Co Rahastoyhtiö Oyj",
+                    "Value": "Seligson & Co Rahastoyhtiö Oyj"
+                },
+                {
+                    "Key": "Sensible Asset Management Limited",
+                    "Value": "Sensible Asset Management Limited"
+                },
+                {
+                    "Key": "Sequoia Investment Management Company",
+                    "Value": "Sequoia Investment Management Company"
+                },
+                {
+                    "Key": "SG Issuer",
+                    "Value": "SG Issuer"
+                },
+                {
+                    "Key": "Simplex Asset Management Co Ltd",
+                    "Value": "Simplex Asset Management Co Ltd"
+                },
+                {
+                    "Key": "Sims Capital Management LLC",
+                    "Value": "Sims Capital Management LLC"
+                },
+                {
+                    "Key": "SKAGEN AS",
+                    "Value": "SKAGEN AS"
+                },
+                {
+                    "Key": "SmallCap Danmark",
+                    "Value": "SmallCap Danmark"
+                },
+                {
+                    "Key": "Sniper Capital Management Limited",
+                    "Value": "Sniper Capital Management Limited"
+                },
+                {
+                    "Key": "Solvalor Fund Management",
+                    "Value": "Solvalor Fund Management"
+                },
+                {
+                    "Key": "Sparindex, Værdipapirfonden",
+                    "Value": "Sparindex, Værdipapirfonden"
+                },
+                {
+                    "Key": "Sparinvest",
+                    "Value": "Sparinvest"
+                },
+                {
+                    "Key": "Sparinvest S.A.",
+                    "Value": "Sparinvest S.A."
+                },
+                {
+                    "Key": "SPDR State Street Global Advisors",
+                    "Value": "SPDR State Street Global Advisors"
+                },
+                {
+                    "Key": "Sprott",
+                    "Value": "Sprott"
+                },
+                {
+                    "Key": "Sprott Asset Management LP",
+                    "Value": "Sprott Asset Management LP"
+                },
+                {
+                    "Key": "SQN Capital Management, LLC",
+                    "Value": "SQN Capital Management, LLC"
+                },
+                {
+                    "Key": "STANLIB Collective Investments",
+                    "Value": "STANLIB Collective Investments"
+                },
+                {
+                    "Key": "Starwood European Finance Partners Ltd",
+                    "Value": "Starwood European Finance Partners Ltd"
+                },
+                {
+                    "Key": "State Street Global Adv Singapore Ltd",
+                    "Value": "State Street Global Adv Singapore Ltd"
+                },
+                {
+                    "Key": "State Street Global Advisors",
+                    "Value": "State Street Global Advisors"
+                },
+                {
+                    "Key": "State Street Global Advisors (Aus) Ltd",
+                    "Value": "State Street Global Advisors (Aus) Ltd"
+                },
+                {
+                    "Key": "State Street Global Advisors Asia Ltd",
+                    "Value": "State Street Global Advisors Asia Ltd"
+                },
+                {
+                    "Key": "State Street Global Advisors Ltd",
+                    "Value": "State Street Global Advisors Ltd"
+                },
+                {
+                    "Key": "Stenham Property Finance Limited",
+                    "Value": "Stenham Property Finance Limited"
+                },
+                {
+                    "Key": "Stewart Investors",
+                    "Value": "Stewart Investors"
+                },
+                {
+                    "Key": "StockRate Invest",
+                    "Value": "StockRate Invest"
+                },
+                {
+                    "Key": "Stone Harbor Investment Partners LP",
+                    "Value": "Stone Harbor Investment Partners LP"
+                },
+                {
+                    "Key": "Stonehenge",
+                    "Value": "Stonehenge"
+                },
+                {
+                    "Key": "Storebrand Asset Management AS",
+                    "Value": "Storebrand Asset Management AS"
+                },
+                {
+                    "Key": "Strategi Invest",
+                    "Value": "Strategi Invest"
+                },
+                {
+                    "Key": "SV Life Sciences Managers LLP",
+                    "Value": "SV Life Sciences Managers LLP"
+                },
+                {
+                    "Key": "Swisscanto Fondsleitung AG",
+                    "Value": "Swisscanto Fondsleitung AG"
+                },
+                {
+                    "Key": "Switzer Asset Management Limited",
+                    "Value": "Switzer Asset Management Limited"
+                },
+                {
+                    "Key": "Sydinvest",
+                    "Value": "Sydinvest"
+                },
+                {
+                    "Key": "Sygnia Itrix",
+                    "Value": "Sygnia Itrix"
+                },
+                {
+                    "Key": "T. Rowe Price",
+                    "Value": "T. Rowe Price"
+                },
+                {
+                    "Key": "T. Rowe Price (Luxembourg) Management S.à r.l.",
+                    "Value": "T. Rowe Price (Luxembourg) Management S.à r.l."
+                },
+                {
+                    "Key": "Tabula Investment Management Limited",
+                    "Value": "Tabula Investment Management Limited"
+                },
+                {
+                    "Key": "Tekla Capital Management LLC",
+                    "Value": "Tekla Capital Management LLC"
+                },
+                {
+                    "Key": "Teucrium",
+                    "Value": "Teucrium"
+                },
+                {
+                    "Key": "The Vanguard Group",
+                    "Value": "The Vanguard Group"
+                },
+                {
+                    "Key": "Think ETF Asset Management BV",
+                    "Value": "Think ETF Asset Management BV"
+                },
+                {
+                    "Key": "Third Point LLC",
+                    "Value": "Third Point LLC"
+                },
+                {
+                    "Key": "Threadneedle Investment Services Ltd",
+                    "Value": "Threadneedle Investment Services Ltd"
+                },
+                {
+                    "Key": "Threadneedle Management Luxembourg S.A.",
+                    "Value": "Threadneedle Management Luxembourg S.A."
+                },
+                {
+                    "Key": "Tortoise Capital Advisors",
+                    "Value": "Tortoise Capital Advisors"
+                },
+                {
+                    "Key": "TrimTabs",
+                    "Value": "TrimTabs"
+                },
+                {
+                    "Key": "Troy Asset Management Limited",
+                    "Value": "Troy Asset Management Limited"
+                },
+                {
+                    "Key": "Trustus Capital Management BV",
+                    "Value": "Trustus Capital Management BV"
+                },
+                {
+                    "Key": "TwentyFour Asset Management LLP",
+                    "Value": "TwentyFour Asset Management LLP"
+                },
+                {
+                    "Key": "TWM FUNDS",
+                    "Value": "TWM FUNDS"
+                },
+                {
+                    "Key": "U.S. Global Investors",
+                    "Value": "U.S. Global Investors"
+                },
+                {
+                    "Key": "UBP Asset Management (Europe) S.A.",
+                    "Value": "UBP Asset Management (Europe) S.A."
+                },
+                {
+                    "Key": "UBS",
+                    "Value": "UBS"
+                },
+                {
+                    "Key": "UBS AG London Branch",
+                    "Value": "UBS AG London Branch"
+                },
+                {
+                    "Key": "UBS Fund Management (Luxembourg) S.A.",
+                    "Value": "UBS Fund Management (Luxembourg) S.A."
+                },
+                {
+                    "Key": "UBS Fund Management (Switzerland) AG",
+                    "Value": "UBS Fund Management (Switzerland) AG"
+                },
+                {
+                    "Key": "UBS Group AG",
+                    "Value": "UBS Group AG"
+                },
+                {
+                    "Key": "Unigestion",
+                    "Value": "Unigestion"
+                },
+                {
+                    "Key": "UOB Asset Management Ltd",
+                    "Value": "UOB Asset Management Ltd"
+                },
+                {
+                    "Key": "USCF Investments",
+                    "Value": "USCF Investments"
+                },
+                {
+                    "Key": "Værdipapirfonden Sydinvest",
+                    "Value": "Værdipapirfonden Sydinvest"
+                },
+                {
+                    "Key": "Validea",
+                    "Value": "Validea"
+                },
+                {
+                    "Key": "ValueInvest Danmark",
+                    "Value": "ValueInvest Danmark"
+                },
+                {
+                    "Key": "VAM Global Management Company S.A.",
+                    "Value": "VAM Global Management Company S.A."
+                },
+                {
+                    "Key": "VanEck",
+                    "Value": "VanEck"
+                },
+                {
+                    "Key": "VanEck Investments Limited",
+                    "Value": "VanEck Investments Limited"
+                },
+                {
+                    "Key": "VanEck Investments Ltd.",
+                    "Value": "VanEck Investments Ltd."
+                },
+                {
+                    "Key": "Vanguard",
+                    "Value": "Vanguard"
+                },
+                {
+                    "Key": "Vanguard Group (Ireland) Limited",
+                    "Value": "Vanguard Group (Ireland) Limited"
+                },
+                {
+                    "Key": "Vanguard Investments Australia Ltd",
+                    "Value": "Vanguard Investments Australia Ltd"
+                },
+                {
+                    "Key": "Vanguard Investments Canada Inc",
+                    "Value": "Vanguard Investments Canada Inc"
+                },
+                {
+                    "Key": "Veritas Asset Management LLP",
+                    "Value": "Veritas Asset Management LLP"
+                },
+                {
+                    "Key": "Victory Park Capital Advisors LLC",
+                    "Value": "Victory Park Capital Advisors LLC"
+                },
+                {
+                    "Key": "VictoryShares",
+                    "Value": "VictoryShares"
+                },
+                {
+                    "Key": "VinaCapital Investment Management Ltd",
+                    "Value": "VinaCapital Investment Management Ltd"
+                },
+                {
+                    "Key": "Virtus",
+                    "Value": "Virtus"
+                },
+                {
+                    "Key": "Virtus Alternative Investment Advisers Inc",
+                    "Value": "Virtus Alternative Investment Advisers Inc"
+                },
+                {
+                    "Key": "Virtus Investment Partners Inc",
+                    "Value": "Virtus Investment Partners Inc"
+                },
+                {
+                    "Key": "VolMAXX",
+                    "Value": "VolMAXX"
+                },
+                {
+                    "Key": "Vontobel Asset Management S.A.",
+                    "Value": "Vontobel Asset Management S.A."
+                },
+                {
+                    "Key": "Vontobel Fonds Services AG",
+                    "Value": "Vontobel Fonds Services AG"
+                },
+                {
+                    "Key": "Voya Investments, LLC",
+                    "Value": "Voya Investments, LLC"
+                },
+                {
+                    "Key": "WBI Investments",
+                    "Value": "WBI Investments"
+                },
+                {
+                    "Key": "Wealth Invest",
+                    "Value": "Wealth Invest"
+                },
+                {
+                    "Key": "Wells Fargo",
+                    "Value": "Wells Fargo"
+                },
+                {
+                    "Key": "Willis Towers Watson PLC",
+                    "Value": "Willis Towers Watson PLC"
+                },
+                {
+                    "Key": "WisdomTree",
+                    "Value": "WisdomTree"
+                },
+                {
+                    "Key": "WisdomTree Commodity Securities Limited",
+                    "Value": "WisdomTree Commodity Securities Limited"
+                },
+                {
+                    "Key": "WisdomTree Foreign Exchange Limited",
+                    "Value": "WisdomTree Foreign Exchange Limited"
+                },
+                {
+                    "Key": "WisdomTree Hedged Commodity Securities Limited",
+                    "Value": "WisdomTree Hedged Commodity Securities Limited"
+                },
+                {
+                    "Key": "WisdomTree Hedged Metal Securities Limited",
+                    "Value": "WisdomTree Hedged Metal Securities Limited"
+                },
+                {
+                    "Key": "WisdomTree Management Limited",
+                    "Value": "WisdomTree Management Limited"
+                },
+                {
+                    "Key": "WisdomTree Metal Securities Limited",
+                    "Value": "WisdomTree Metal Securities Limited"
+                },
+                {
+                    "Key": "WisdomTree Multi Asset Issuer PLC",
+                    "Value": "WisdomTree Multi Asset Issuer PLC"
+                },
+                {
+                    "Key": "WisdomTree Oil Securities Limited",
+                    "Value": "WisdomTree Oil Securities Limited"
+                },
+                {
+                    "Key": "Witan Investment Services Limited",
+                    "Value": "Witan Investment Services Limited"
+                },
+                {
+                    "Key": "Woodford Investment Management Ltd",
+                    "Value": "Woodford Investment Management Ltd"
+                },
+                {
+                    "Key": "World Wide Invest, Kapitalforeningen",
+                    "Value": "World Wide Invest, Kapitalforeningen"
+                },
+                {
+                    "Key": "Worsley Associates LLP",
+                    "Value": "Worsley Associates LLP"
+                },
+                {
+                    "Key": "Xact Kapitalförvaltning AB",
+                    "Value": "Xact Kapitalförvaltning AB"
+                },
+                {
+                    "Key": "XAI Octagon FR & Alt Income Term Trust",
+                    "Value": "XAI Octagon FR & Alt Income Term Trust"
+                },
+                {
+                    "Key": "XBT Provider AB",
+                    "Value": "XBT Provider AB"
+                },
+                {
+                    "Key": "Xtrackers",
+                    "Value": "Xtrackers"
+                },
+                {
+                    "Key": "YieldShares",
+                    "Value": "YieldShares"
+                },
+                {
+                    "Key": "Zweig",
+                    "Value": "Zweig"
+                }
+            ]
+        },
+        {
+            "ApplicableAssetType": ["Stock"],
+            "OptionType": "Listing",
+            "Values": [
+                {
+                    "Key": "Primary",
+                    "Value": "Primary listing"
+                },
+                {
+                    "Key": "All",
+                    "Value": "All listings"
+                }
+            ]
+        },
+        {
+            "ApplicableAssetType": [],
+            "OptionType": "CurrencyCodes",
+            "Values": [
+                {
+                    "Key": "AED",
+                    "Value": "AED"
+                },
+                {
+                    "Key": "AUD",
+                    "Value": "AUD"
+                },
+                {
+                    "Key": "CAD",
+                    "Value": "CAD"
+                },
+                {
+                    "Key": "CHF",
+                    "Value": "CHF"
+                },
+                {
+                    "Key": "CNH",
+                    "Value": "CNH"
+                },
+                {
+                    "Key": "CNY",
+                    "Value": "CNY"
+                },
+                {
+                    "Key": "CZK",
+                    "Value": "CZK"
+                },
+                {
+                    "Key": "DKK",
+                    "Value": "DKK"
+                },
+                {
+                    "Key": "EUR",
+                    "Value": "EUR"
+                },
+                {
+                    "Key": "GBP",
+                    "Value": "GBP"
+                },
+                {
+                    "Key": "HKD",
+                    "Value": "HKD"
+                },
+                {
+                    "Key": "HUF",
+                    "Value": "HUF"
+                },
+                {
+                    "Key": "ILS",
+                    "Value": "ILS"
+                },
+                {
+                    "Key": "INR",
+                    "Value": "INR"
+                },
+                {
+                    "Key": "JPY",
+                    "Value": "JPY"
+                },
+                {
+                    "Key": "KRW",
+                    "Value": "KRW"
+                },
+                {
+                    "Key": "MXN",
+                    "Value": "MXN"
+                },
+                {
+                    "Key": "MYR",
+                    "Value": "MYR"
+                },
+                {
+                    "Key": "NOK",
+                    "Value": "NOK"
+                },
+                {
+                    "Key": "NZD",
+                    "Value": "NZD"
+                },
+                {
+                    "Key": "PLN",
+                    "Value": "PLN"
+                },
+                {
+                    "Key": "RON",
+                    "Value": "RON"
+                },
+                {
+                    "Key": "RUB",
+                    "Value": "RUB"
+                },
+                {
+                    "Key": "SAR",
+                    "Value": "SAR"
+                },
+                {
+                    "Key": "SEK",
+                    "Value": "SEK"
+                },
+                {
+                    "Key": "SGD",
+                    "Value": "SGD"
+                },
+                {
+                    "Key": "THB",
+                    "Value": "THB"
+                },
+                {
+                    "Key": "TRY",
+                    "Value": "TRY"
+                },
+                {
+                    "Key": "TWD",
+                    "Value": "TWD"
+                },
+                {
+                    "Key": "USD",
+                    "Value": "USD"
+                },
+                {
+                    "Key": "XAG",
+                    "Value": "XAG"
+                },
+                {
+                    "Key": "ZAR",
+                    "Value": "ZAR"
+                }
+            ]
+        },
+        {
+            "ApplicableAssetType": ["Stock", "CfdOnStock"],
+            "OptionType": "PriceEarnings",
+            "Values": [
+                {
+                    "Key": "BelowTen",
+                    "Value": "Below 10"
+                },
+                {
+                    "Key": "TenToFifteen",
+                    "Value": "10 to 15"
+                },
+                {
+                    "Key": "FifteenToTwenty",
+                    "Value": "15 to 20"
+                },
+                {
+                    "Key": "AboveTwenty",
+                    "Value": "Above 20"
+                }
+            ]
+        },
+        {
+            "ApplicableAssetType": ["Bond"],
+            "OptionType": "MinimumTradeSizes",
+            "Values": [
+                {
+                    "Key": "BelowOneThousand",
+                    "Value": "Below one thousand"
+                },
+                {
+                    "Key": "OneToTenThousand",
+                    "Value": "One to ten thousand"
+                },
+                {
+                    "Key": "TenToHundredThousand",
+                    "Value": "Ten to hundred thousand"
+                },
+                {
+                    "Key": "HundredThousandToOneMillion",
+                    "Value": "Hundred thousand to one million"
+                },
+                {
+                    "Key": "AboveOneMillion",
+                    "Value": "Above one million"
+                }
+            ]
+        },
+        {
+            "ApplicableAssetType": ["Stock", "CfdOnStock"],
+            "OptionType": "DividendYieldPcts",
+            "Values": [
+                {
+                    "Key": "BelowOne",
+                    "Value": "Below 1"
+                },
+                {
+                    "Key": "OneToTwoPointFive",
+                    "Value": "1 to 2.5"
+                },
+                {
+                    "Key": "TwoPointFiveToFive",
+                    "Value": "2.5 to 5"
+                },
+                {
+                    "Key": "AboveFive",
+                    "Value": "Above 5"
+                }
+            ]
+        },
+        {
+            "ApplicableAssetType": ["ContractFutures", "FuturesStrategy"],
+            "OptionType": "DaysToExpiries",
+            "Values": [
+                {
+                    "Key": "BelowSevenDays",
+                    "Value": "Below 7 days"
+                },
+                {
+                    "Key": "SevenToThirtyDays",
+                    "Value": "7 to 30 days"
+                },
+                {
+                    "Key": "OneToThreeMonths",
+                    "Value": "1 to 3 months"
+                },
+                {
+                    "Key": "ThreeToSixMonths",
+                    "Value": "3 to 6 months"
+                },
+                {
+                    "Key": "AboveSixMonths",
+                    "Value": "Above 6 months"
+                }
+            ]
+        },
+        {
+            "ApplicableAssetType": [],
+            "OptionType": "Keywords",
+            "Values": []
+        }
+    ]
+}

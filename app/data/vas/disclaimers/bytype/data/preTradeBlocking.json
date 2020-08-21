@@ -1,0 +1,27 @@
+[
+    {
+        "AcceptLabel": "Close",
+        "Body": "<p>Preview Text ....</p>",
+        "CanAccept": true,
+        "CanAcceptWithUserInput": false,
+        "CanReject": false,
+        "Counted": 0,
+        "DisclaimerId": 241,
+        "DisclaimerKey": "blockingDisclaimer",
+        "DisclaimerType": "PreTrade",
+        "DismissLabel": "",
+        "DisplayHintTypes": [],
+        "ExposureIncreaseOnly": false,
+        "IsBlocking": true,
+        "LanguageCode": "en",
+        "LegalAssetTypes": [],
+        "RejectLabel": "",
+        "Revision": 1,
+        "SequenceNo": 0,
+        "ShowAlways": true,
+        "ShowCount": 0,
+        "Title": "Blocking Disclaimer",
+        "UserInputText": "",
+        "Version": 1
+    }
+]

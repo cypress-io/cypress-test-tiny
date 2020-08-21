@@ -1,0 +1,60 @@
+{
+    "AccountCurrency": "USD",
+    "AmountCurrency": "USD",
+    "CommissionLimits": [
+        {
+            "BaseCommission": 20,
+            "Currency": "USD",
+            "MinAmount": 5000,
+            "MinPrice": 100,
+            "SpreadRate": 0.003
+        },
+        {
+            "BaseCommission": 15,
+            "Currency": "USD",
+            "MaxAmount": 5000,
+            "MaxPrice": 100,
+            "SpreadRate": 0.003
+        },
+        {
+            "BaseCommission": 30,
+            "Currency": "USD",
+            "MaxAmount": 10000,
+            "MinPrice": 100,
+            "SpreadRate": 0.005
+        }
+    ],
+    "ExposureLimits": [
+        {
+            "Currency": "EUR",
+            "Identifier": "AAPL:xnas",
+            "Level": "Instrument",
+            "RuleType": "Value",
+            "Value": 1000000
+        }
+    ],
+    "Financing": {
+        "AskMarkUp": 0.035,
+        "BidMarkDown": 0.03
+    },
+    "InstrumentCurrency": "USD",
+    "IsShortTraded": true,
+    "IsTradable": true,
+    "InstrumentMarginRequirements": [
+        {
+            "ExtraWeek": 0.1,
+            "Initial": 0.1,
+            "IntraWeek": 0.1,
+            "MarginType": "Percentage"
+        }
+    ],
+    "MarginSchedule": {
+        "CutoffTimeInMinutes": 0,
+        "IntradayMarginPct": 0.1,
+        "TimeZoneAbbreviation": "EDT",
+        "TimeZoneOffset": "-04:00:00"
+    },
+    "MaxExposure": 0,
+    "MinOrderSizeCurrency": "USD",
+    "Rating": 1
+}

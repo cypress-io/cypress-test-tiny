@@ -1,0 +1,50 @@
+{
+    "Id": "mapped-sections-page-1_sitecoreConfigIntegration",
+    "Name": "mapped-sections-page-1",
+    "Sections": [
+        {
+            "Banners": [
+                {
+                    "Image": {
+                        "Alt": "SaxoTraderGO platforms image",
+                        "Url": "/-/media/images/saxotradergo/platform.png"
+                    },
+                    "Text": "My banner text",
+                    "Align": "",
+                    "Id": "e361b289-80b5-4cdb-b6b3-b10a50f4c2f4",
+                    "IsCompact": false,
+                    "LinkConfiguration": {
+                        "TargetId": "00000000-0000-0000-0000-000000000000",
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "Target": null
+                    },
+                    "Name": "bannerimage",
+                    "Title": "My banner title"
+                }
+            ],
+            "IsDividerShown": false,
+            "LayoutType": "stretch",
+            "Id": "3feed65d-3702-488f-be0c-75e5d0f72a5c",
+            "Title": "Saxo banner",
+            "Type": "Banner",
+            "Name": "bannersection"
+        },
+        {
+            "AssetTypes": [],
+            "BondRatings": [],
+            "CountryCodes": [],
+            "DebtTypes": [],
+            "IsDividerShown": false,
+            "LayoutType": "stretch",
+            "Target": null,
+            "Uics": [],
+            "Id": "75412d4f-a867-436b-b034-2582293a644e",
+            "Title": "Instrument List",
+            "Type": "InstrumentList",
+            "Name": "instrumentlistsection2",
+            "Tags": []
+        }
+    ],
+    "Title": "Saxo Platform Config"
+}

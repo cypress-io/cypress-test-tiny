@@ -1,0 +1,141 @@
+{
+    "AmountDecimals": 0,
+    "AssetType": "SrdOnEtf",
+    "CurrencyCode": "EUR",
+    "DefaultAmount": 0,
+    "DefaultSlippage": 0,
+    "DefaultSlippageType": "Ticks",
+    "Description": "Lyxor UCITS ETF CAC 40",
+    "Exchange": {
+        "CountryCode": "FR",
+        "ExchangeId": "PAR",
+        "Name": "Euronext Paris",
+        "TimeZoneId": "4"
+    },
+    "Format": {
+        "Decimals": 2,
+        "OrderDecimals": 2
+    },
+    "GroupId": 0,
+    "IncrementSize": 1,
+    "IsComplex": false,
+    "Isin": "FR0007052782",
+    "IssuerCountry": "FR",
+    "IssuerName": "L C40 (DR) ETF",
+    "IsTradable": true,
+    "LotSizeType": "NotUsed",
+    "MinimumOrderValue": 50,
+    "MinimumTradeSize": 1,
+    "OrderDistances": {
+        "EntryDefaultDistance": 0.25,
+        "EntryDefaultDistanceType": "Percentage",
+        "StopLimitDefaultDistance": 5,
+        "StopLimitDefaultDistanceType": "Pips",
+        "StopLossDefaultDistance": 0.5,
+        "StopLossDefaultDistanceType": "Percentage",
+        "StopLossDefaultEnabled": false,
+        "StopLossDefaultOrderType": "Stop",
+        "TakeProfitDefaultDistance": 0.5,
+        "TakeProfitDefaultDistanceType": "Percentage",
+        "TakeProfitDefaultEnabled": false
+    },
+    "OrderSetting": {},
+    "PriceCurrency": "EUR",
+    "PriceToContractFactor": 1,
+    "RelatedInstruments": [
+        {
+            "AssetType": "Etf",
+            "Uic": 9104
+        },
+        {
+            "AssetType": "CfdOnEtf",
+            "Uic": 9104
+        }
+    ],
+    "SaxoFeePercent": 0,
+    "Sector": {
+        "Name": "Open End and Miscellaneous Investment Vehicles(302050)",
+        "SectorId": "1051"
+    },
+    "StandardAmounts": [1, 10, 100, 500, 1000, 10000, 50000, 100000],
+    "SupportedOrderTypes": [
+        "Market",
+        "Limit",
+        "StopIfTraded",
+        "TrailingStopIfTraded",
+        "StopLimit",
+        "Stop",
+        "TrailingStop"
+    ],
+    "Symbol": "CAC:xpar",
+    "TickSizeScheme": {
+        "DefaultTickSize": 10,
+        "Elements": [
+            {
+                "HighPrice": 0.9999,
+                "TickSize": 0.0001
+            },
+            {
+                "HighPrice": 1.9998,
+                "TickSize": 0.0002
+            },
+            {
+                "HighPrice": 4.9995,
+                "TickSize": 0.0005
+            },
+            {
+                "HighPrice": 9.999,
+                "TickSize": 0.001
+            },
+            {
+                "HighPrice": 19.998,
+                "TickSize": 0.002
+            },
+            {
+                "HighPrice": 49.995,
+                "TickSize": 0.005
+            },
+            {
+                "HighPrice": 99.99,
+                "TickSize": 0.01
+            },
+            {
+                "HighPrice": 199.98,
+                "TickSize": 0.02
+            },
+            {
+                "HighPrice": 499.95,
+                "TickSize": 0.05
+            },
+            {
+                "HighPrice": 999.9,
+                "TickSize": 0.1
+            },
+            {
+                "HighPrice": 1999.8,
+                "TickSize": 0.2
+            },
+            {
+                "HighPrice": 4999.5,
+                "TickSize": 0.5
+            },
+            {
+                "HighPrice": 9999,
+                "TickSize": 1
+            },
+            {
+                "HighPrice": 19998,
+                "TickSize": 2
+            },
+            {
+                "HighPrice": 49995,
+                "TickSize": 5
+            }
+        ]
+    },
+    "TradableAs": ["SrdOnEtf"],
+    "TradableOn": [],
+    "TradingSignals": "NotAllowed",
+    "Uic": 9104,
+    "YearlyExpensePercent": 0
+}

@@ -1,0 +1,340 @@
+{
+    "AssetType": "Stock",
+    "CountryCode": "US",
+    "CurrencyCode": "USD",
+    "Description": "Apple Inc.",
+    "ExchangeId": "NASDAQ",
+    "Format": {
+        "Decimals": 2
+    },
+    "RevenueExposure": {
+        "Countries": [
+            {
+                "Key": "Greater China",
+                "Pct": 19.5568440670946
+            },
+            {
+                "Key": "Rest of Asia Pacific",
+                "Pct": 6.55396374178731
+            },
+            {
+                "Key": "Taiwan",
+                "Pct": 0.860991782977842
+            },
+            {
+                "Key": "United States",
+                "Pct": 36.9212522826107
+            },
+            {
+                "CountryCode": "ARE",
+                "Key": "United Arab Emirates",
+                "Pct": 0.370454087614601
+            },
+            {
+                "CountryCode": "ARG",
+                "Key": "Argentina",
+                "Pct": 0.48025577401683
+            },
+            {
+                "CountryCode": "AUS",
+                "Key": "Australia",
+                "Pct": 1.3899345785877
+            },
+            {
+                "CountryCode": "AUT",
+                "Key": "Austria",
+                "Pct": 0.403396806415783
+            },
+            {
+                "CountryCode": "BEL",
+                "Key": "Belgium",
+                "Pct": 0.477071828535929
+            },
+            {
+                "CountryCode": "BRA",
+                "Key": "Brazil",
+                "Pct": 1.54827982943956
+            },
+            {
+                "CountryCode": "ZAF",
+                "Key": "South Africa",
+                "Pct": 0.338348809277283
+            }
+        ],
+        "Segments": [
+            {
+                "Key": "Mac",
+                "Pct": 9.59506014796965
+            },
+            {
+                "Key": "Other Products",
+                "Pct": 6.557728872908
+            },
+            {
+                "Key": "Services",
+                "Pct": 14.0025226378509
+            },
+            {
+                "Key": "iPad",
+                "Pct": 7.08032907245995
+            },
+            {
+                "Key": "iPhone",
+                "Pct": 62.7643592688115
+            }
+        ]
+    },
+    "Financials": [
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 52511000000.0
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 15702000000.0
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 32918000000.0
+                },
+                {
+                    "Key": "EBITDA",
+                    "Value": 6266000000.0
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 1719000000.0
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 2.08557
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 1.328528
+                }
+            ],
+            "ReportingPeriod": "2008-12-31"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 51336000000.0
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 9224000000.0
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 39760000000.0
+                },
+                {
+                    "Key": "EBITDA",
+                    "Value": 7115000000.0
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 2446000000.0
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 2.96
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 1.623757
+                }
+            ],
+            "ReportingPeriod": "2012-12-31"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 51317000000.0
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 8720000000.0
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 40157000000.0
+                },
+                {
+                    "Key": "EBITDA",
+                    "Value": 8002000000.0
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 3189000000.0
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 3.86
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 1.869781
+                }
+            ],
+            "ReportingPeriod": "2013-12-31"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 70234000000.0
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 21216000000.0
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 42239000000.0
+                },
+                {
+                    "Key": "EBITDA",
+                    "Value": 8401000000.0
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 3426000000.0
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 4.14
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 2.0666
+                }
+            ],
+            "ReportingPeriod": "2014-12-31"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 73917000000.0
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 19169000000.0
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 46324000000.0
+                },
+                {
+                    "Key": "EBITDA",
+                    "Value": 9617000000.0
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 4110000000.0
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 4.97
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 2.214214
+                }
+            ],
+            "ReportingPeriod": "2015-12-31"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 75087000000.0
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 14178000000.0
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 35015000000.0
+                },
+                {
+                    "Key": "EBITDA",
+                    "Value": 8111000000.0
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 7336000000.0
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 8.41
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 2.657057
+                }
+            ],
+            "ReportingPeriod": "2017-12-31"
+        }
+    ],
+
+    "AnalystRating": {
+        "Consensus": "Buy",
+        "TargetPrice": 12.23,
+        "LowTargetPrice": 12.0,
+        "HighTargetPrice": 12.36
+    },
+    "GeneralInfo": {
+        "StockInfo": {
+            "Beta": 1.079639,
+            "Description": "Apple designs a wide variety of consumer electronic devices, including smartphones (iPhone), tablets (iPad), PCs (Mac), smartwatches (Apple Watch), and TV boxes (Apple TV), among others. The iPhone makes up the majority of Apple’s total revenue. In addition, Apple offers its customers a variety of services such as Apple Music, iCloud, Apple Care and Apple Pay, among others. Apple's products run internally developed software and semiconductors, and the firm is well known for its integration of hardware, software and services. Apple's products are distributed online as well as through company-owned stores and third-party retailers. The company generates about 40% of its revenue from the Americas, with the remainder earned internationally.",
+            "DividentYieldPct": 1.38,
+            "MarketCap": 1006737728600,
+            "NoOfEmployees": 123000,
+            "PriceEarnings": 18.903592,
+            "SalesGrowthRatePct": 15.862,
+            "Sector": {
+                "Key": "Technology",
+                "Value": "Technology"
+            },
+            "SubSector": {
+                "Key": "Consumer Electronics",
+                "Value": "Consumer Electronics"
+            }
+        }
+    },
+    "Instrument": "AAPL:xnas",
+    "MinimumTradeSize": 1,
+    "Uic": 39731
+}

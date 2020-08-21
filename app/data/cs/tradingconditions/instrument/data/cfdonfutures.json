@@ -1,0 +1,42 @@
+{
+    "AccountCurrency": "EUR",
+    "AmountCurrency": "USD",
+    "CarryingCost": {
+        "MarkUpRate": 1.5
+    },
+    "CommissionLimits": [
+        {
+            "Currency": "USD",
+            "MinSpread": 0.0002,
+            "OrderAction": "ExecuteOrder"
+        }
+    ],
+    "CurrencyCutSpreadRate": 0.5,
+    "ExposureLimits": [
+        {
+            "Identifier": "EURUSDEC",
+            "Level": "BaseContractNet",
+            "RuleType": "Amount",
+            "Value": 3000000
+        }
+    ],
+    "InstrumentCurrency": "USD",
+    "IsTradable": true,
+    "InstrumentMarginRequirements": [
+        {
+            "ExtraWeek": 0.04,
+            "Initial": 0.04,
+            "IntraWeek": 0.04,
+            "MarginType": "Percentage"
+        }
+    ],
+    "MarginSchedule": {
+        "CutoffTimeInMinutes": 0,
+        "IntradayMarginPct": 0.04,
+        "TimeZoneAbbreviation": "CDT",
+        "TimeZoneOffset": "-05:00:00"
+    },
+    "MinOrderSizeCurrency": "USD",
+    "PriceUnitDisplayName": "USD",
+    "Rating": 4
+}

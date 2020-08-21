@@ -1,0 +1,78 @@
+{
+    "AmountDecimals": 0,
+    "AssetType": "ContractFutures",
+    "ContractSize": 125000,
+    "CurrencyCode": "USD",
+    "DefaultAmount": 0,
+    "DefaultSlippage": 0,
+    "DefaultSlippageType": "Ticks",
+    "Description": "EURUSD - Dec 2019",
+    "Exchange": {
+        "CountryCode": "US",
+        "ExchangeId": "CME",
+        "Name": "Chicago Mercantile Exchange",
+        "PriceSourceName": "CME Group"
+    },
+    "ExpiryDate": "2019-12-16",
+    "Format": { "Decimals": 5, "OrderDecimals": 5 },
+    "GroupId": 0,
+    "IncrementSize": 1,
+    "IsPitTraded": false,
+    "IsTradable": true,
+    "LotSizeText": "125,000",
+    "MarketData": {
+        "Country": "US",
+        "FiveYearsReturnPct": 0,
+        "OneDayReturnPct": 0,
+        "OneMonthReturnPct": -1.89,
+        "OneWeekReturnPct": -1.17,
+        "OneYearReturnPct": 0,
+        "SixMonthsReturnPct": 0,
+        "ThreeMonthsReturnPct": 0,
+        "ThreeYearsReturnPct": 0,
+        "TwoMonthsReturnPct": -1.92,
+        "TwoYearsReturnPct": 0
+    },
+    "MinimumTradeSize": 1,
+    "NoticeDate": "2019-12-16",
+    "OrderDistances": {
+        "EntryDefaultDistance": 0.25,
+        "EntryDefaultDistanceType": "Percentage",
+        "StopLimitDefaultDistance": 5,
+        "StopLimitDefaultDistanceType": "Pips",
+        "StopLossDefaultDistance": 0.5,
+        "StopLossDefaultDistanceType": "Percentage",
+        "StopLossDefaultEnabled": false,
+        "StopLossDefaultOrderType": "Stop",
+        "TakeProfitDefaultDistance": 0.5,
+        "TakeProfitDefaultDistanceType": "Percentage",
+        "TakeProfitDefaultEnabled": false
+    },
+    "OrderSetting": {},
+    "PriceCurrency": "USD",
+    "PriceToContractFactor": 125000,
+    "PrimaryListing": 10795354,
+    "RelatedInstruments": [
+        { "AssetType": "FuturesStrategy", "Uic": 13336009 },
+        { "AssetType": "CfdOnFutures", "Uic": 14090446 }
+    ],
+    "RelatedOptionRoots": [1279],
+    "RelatedOptionRootsEnhanced": [
+        { "AssetType": "FuturesOption", "OptionRootId": 1279 }
+    ],
+    "Sector": { "Name": "Financials - Currencies", "SectorId": "247" },
+    "StandardAmounts": [1, 5, 10, 25, 50, 100, 500, 1000],
+    "SupportedOrderTypes": [
+        "Market",
+        "Limit",
+        "StopIfTraded",
+        "TrailingStopIfTraded",
+        "StopLimit"
+    ],
+    "Symbol": "ECZ9",
+    "TickSize": 0.00005,
+    "TradableAs": ["ContractFutures"],
+    "TradableOn": [],
+    "TradingSignals": "NotAllowed",
+    "Uic": 11495475
+}

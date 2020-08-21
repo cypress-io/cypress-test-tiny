@@ -1,0 +1,39 @@
+{
+    "AllDay": false,
+    "CountryCode": "AU",
+    "Currency": "AUD",
+    "ExchangeId": "SFE",
+    "ExchangeSessions": [
+        {
+            "EndTime": "2019-11-12T09:00:00.000000Z",
+            "StartTime": "2019-11-11T19:00:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2019-11-12T19:00:00.000000Z",
+            "StartTime": "2019-11-12T09:00:00.000000Z",
+            "State": "Closed"
+        },
+        {
+            "EndTime": "2019-11-13T09:00:00.000000Z",
+            "StartTime": "2019-11-12T19:00:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2019-11-13T19:00:00.000000Z",
+            "StartTime": "2019-11-13T09:00:00.000000Z",
+            "State": "Closed"
+        },
+        {
+            "EndTime": "2019-11-14T09:00:00.000000Z",
+            "StartTime": "2019-11-13T19:00:00.000000Z",
+            "State": "AutomatedTrading"
+        }
+    ],
+    "Mic": "XSFE",
+    "Name": "Sydney Futures Exchange Corp. Ltd.",
+    "PriceSourceName": "ASX",
+    "TimeZone": 8,
+    "TimeZoneAbbreviation": "AEDT",
+    "TimeZoneOffset": "11:00:00"
+}

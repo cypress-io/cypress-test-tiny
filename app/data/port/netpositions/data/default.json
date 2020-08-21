@@ -1,0 +1,2268 @@
+{
+    "Data": [
+        {
+            "DisplayAndFormat": {
+                "Currency": "EUR",
+                "Decimals": 3,
+                "Description": "Vallourec 6.375% 15 Oct 2023, EUR",
+                "Format": "Normal",
+                "Symbol": "VALLOUREC-6.375-15OCT23"
+            },
+            "Exchange": {
+                "Description": "Bonds Europe Corporate - High Yield",
+                "ExchangeId": "EU_CP_HY",
+                "IsOpen": true
+            },
+            "NetPositionBase": {
+                "AccountId": "test1",
+                "Amount": 10000,
+                "AssetType": "Bond",
+                "CanBeClosed": true,
+                "ClientId": "3294827",
+                "ExpiryDate": "2023-10-15T00:00:00.000000Z",
+                "FixedIncomeData": {
+                    "ClosedAccruedInterest": 74.38,
+                    "ClosedAccruedInterestInBaseCurrency": 84.03,
+                    "OpenAccruedInterest": -67.29,
+                    "OpenAccruedInterestInBaseCurrency": -76.8
+                },
+                "IsMarketOpen": true,
+                "NumberOfRelatedOrders": 0,
+                "PositionsAccount": "test1",
+                "SinglePositionId": "1325904068",
+                "SinglePositionStatus": "Open",
+                "Uic": 10577403,
+                "ValueDate": "2018-11-23T00:00:00.000000Z"
+            },
+            "NetPositionId": "VALLOUREC-6.375-15OCT23__BO",
+            "NetPositionView": {
+                "AverageOpenPrice": 75.126,
+                "CalculationReliability": "Ok",
+                "CurrentPrice": 74.206,
+                "CurrentPriceDelayMinutes": 0,
+                "CurrentPriceLastTraded": "2018-11-08T15:20:10.913000Z",
+                "CurrentPriceType": "Indicative",
+                "Exposure": 7494.92,
+                "ExposureCurrency": "EUR",
+                "ExposureInBaseCurrency": 8510.75,
+                "MarketValue": 768000,
+                "MarketValueInBaseCurrency": 118176.31,
+                "MarketValueOpen": -100,
+                "MarketValueOpenInBaseCurrency": -15.38,
+                "InstrumentPriceDayPercentChange": -28.17,
+                "PositionCount": 1,
+                "PositionsNotClosedCount": 1,
+                "ProfitLossCurrencyConversion": -86.28,
+                "ProfitLossOnTrade": -92.05,
+                "ProfitLossOnTradeInBaseCurrency": -105.06,
+                "Status": "Open",
+                "TradeCostsTotal": -160,
+                "TradeCostsTotalInBaseCurrency": -181.7
+            },
+            "Positions": [
+                {
+                    "PositionBase": {
+                        "AccountId": "test1",
+                        "Amount": 10000,
+                        "AssetType": "Bond",
+                        "CanBeClosed": true,
+                        "ClientId": "3294827",
+                        "CloseConversionRateSettled": false,
+                        "CorrelationKey": "046d1023-a540-431b-b657-70815dbac59d",
+                        "ExecutionTimeOpen": "2018-11-23T12:33:10.056464Z",
+                        "ExpiryDate": "2023-10-15T00:00:00.000000Z",
+                        "FixedIncomeData": {
+                            "ClosedAccruedInterest": 74.38,
+                            "ClosedAccruedInterestInBaseCurrency": 84.03,
+                            "Duration": -1,
+                            "EffectiveYield": 13.8055673315,
+                            "OpenAccruedInterest": -67.29,
+                            "OpenAccruedInterestInBaseCurrency": -76.8
+                        },
+                        "IsMarketOpen": true,
+                        "OpenPrice": 75.126,
+                        "RelatedOpenOrders": [],
+                        "Status": "Open",
+                        "Uic": 10577403,
+                        "ValueDate": "2018-11-23T00:00:00.000000Z"
+                    },
+                    "PositionId": "1325904068",
+                    "PositionView": {
+                        "CalculationReliability": "Ok",
+                        "ConversionRateCurrent": 1.129857325,
+                        "ConversionRateOpen": 1.14136845,
+                        "CurrentPrice": 74.206,
+                        "CurrentPriceDelayMinutes": 0,
+                        "CurrentPriceLastTraded": "2018-11-08T15:20:10.913000Z",
+                        "CurrentPriceType": "Indicative",
+                        "Exposure": 7494.925,
+                        "ExposureCurrency": "EUR",
+                        "ExposureInBaseCurrency": 8510.749659875,
+                        "InstrumentPriceDayPercentChange": -28.17,
+                        "ProfitLossCurrencyConversion": -86.28,
+                        "ProfitLossOnTrade": -92.05,
+                        "ProfitLossOnTradeInBaseCurrency": -105.06,
+                        "TradeCostsTotal": -160,
+                        "TradeCostsTotalInBaseCurrency": -181.7
+                    }
+                }
+            ]
+        },
+        {
+            "DisplayAndFormat": {
+                "Currency": "SGD",
+                "Decimals": 3,
+                "Description": "NGSC Ltd",
+                "Format": "Normal",
+                "Symbol": "B07:xses"
+            },
+            "Exchange": {
+                "Description": "Singapore Exchange",
+                "ExchangeId": "SGX-ST",
+                "IsOpen": false
+            },
+            "NetPositionBase": {
+                "AccountId": "test2",
+                "Amount": 51,
+                "AssetType": "Stock",
+                "CanBeClosed": true,
+                "ClientId": "3294827",
+                "IsMarketOpen": false,
+                "NumberOfRelatedOrders": 0,
+                "PositionsAccount": "test2",
+                "SinglePositionId": "1325903976",
+                "SinglePositionStatus": "Open",
+                "Uic": 28289
+            },
+            "NetPositionId": "B07:xses__Share",
+            "NetPositionDetails": {
+                "StockBlockingDetails": [
+                    {
+                        "BlockingId": 11,
+                        "BlockingReason": "CAEL",
+                        "BlockingType": "AssetsBlock",
+                        "BlockingQuantity": 57,
+                        "EventReferenceId": "CAER0001"
+                    }
+                ]
+            },
+            "NetPositionView": {
+                "AverageOpenPrice": 0.002,
+                "CalculationReliability": "OkWithConditions",
+                "CurrentPrice": 0.001,
+                "CurrentPriceDelayMinutes": 10,
+                "CurrentPriceLastTraded": "2018-11-21T07:50:52.746000Z",
+                "CurrentPriceType": "LastTraded",
+                "Exposure": 0.05,
+                "ExposureCurrency": "SGD",
+                "MarketValue": 768000,
+                "MarketValueInBaseCurrency": 118176.31,
+                "MarketValueOpen": -100,
+                "MarketValueOpenInBaseCurrency": -15.38,
+                "ExposureInBaseCurrency": 0.04,
+                "InstrumentPriceDayPercentChange": 0,
+                "PositionCount": 1,
+                "PositionsNotClosedCount": 1,
+                "ProfitLossCurrencyConversion": 0,
+                "ProfitLossOnTrade": -0.05,
+                "ProfitLossOnTradeInBaseCurrency": -0.04,
+                "Status": "Open",
+                "TradeCostsTotal": -50,
+                "TradeCostsTotalInBaseCurrency": -36.57
+            },
+            "Positions": [
+                {
+                    "PositionBase": {
+                        "AccountId": "test2",
+                        "Amount": 51,
+                        "AssetType": "Stock",
+                        "CanBeClosed": true,
+                        "ClientId": "3294827",
+                        "CloseConversionRateSettled": false,
+                        "CorrelationKey": "a37f6cbb-632b-42c6-8da0-f62edeec9d0e",
+                        "ExecutionTimeOpen": "2018-11-21T08:29:47.411443Z",
+                        "IsMarketOpen": false,
+                        "OpenPrice": 0.002,
+                        "RelatedOpenOrders": [],
+                        "Status": "Open",
+                        "Uic": 28289,
+                        "ValueDate": "2018-11-26T00:00:00.000000Z"
+                    },
+                    "PositionId": "1325903976",
+                    "PositionView": {
+                        "CalculationReliability": "OkWithConditions",
+                        "ConversionRateCurrent": 0.731225512875,
+                        "ConversionRateOpen": 0.73148925,
+                        "CurrentPrice": 0.001,
+                        "CurrentPriceDelayMinutes": 10,
+                        "CurrentPriceLastTraded": "2018-11-21T07:50:52.746000Z",
+                        "CurrentPriceType": "LastTraded",
+                        "Exposure": 0.051,
+                        "ExposureCurrency": "SGD",
+                        "ExposureInBaseCurrency": 0.037106966325,
+                        "InstrumentPriceDayPercentChange": 0,
+                        "ProfitLossCurrencyConversion": 0,
+                        "ProfitLossOnTrade": -0.05,
+                        "ProfitLossOnTradeInBaseCurrency": -0.04,
+                        "TradeCostsTotal": -50,
+                        "TradeCostsTotalInBaseCurrency": -36.57
+                    }
+                }
+            ]
+        },
+        {
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 2,
+                "Description": "Verizon Comms",
+                "Format": "Normal",
+                "Symbol": "VZ:xnys"
+            },
+            "Exchange": {
+                "Description": "New York Stock Exchange",
+                "ExchangeId": "NYSE",
+                "IsOpen": false
+            },
+            "NetPositionBase": {
+                "AccountId": "test1",
+                "Amount": 32,
+                "AssetType": "Stock",
+                "CanBeClosed": true,
+                "ClientId": "3294827",
+                "IsMarketOpen": false,
+                "NumberOfRelatedOrders": 0,
+                "PositionsAccount": "test1",
+                "SinglePositionId": "1325903982",
+                "SinglePositionStatus": "Open",
+                "Uic": 721
+            },
+            "NetPositionId": "VZ:xnys__Share",
+            "NetPositionView": {
+                "AverageOpenPrice": 59.47,
+                "CalculationReliability": "OkWithConditions",
+                "CurrentPrice": 59.16,
+                "CurrentPriceDelayMinutes": 15,
+                "CurrentPriceLastTraded": "2018-11-21T20:59:59.963000Z",
+                "CurrentPriceType": "LastTraded",
+                "Exposure": 1893.12,
+                "ExposureCurrency": "USD",
+                "MarketValue": 768000,
+                "MarketValueInBaseCurrency": 118176.31,
+                "MarketValueOpen": -100,
+                "MarketValueOpenInBaseCurrency": -15.38,
+                "ExposureInBaseCurrency": 1893.12,
+                "InstrumentPriceDayPercentChange": -0.5,
+                "PositionCount": 1,
+                "PositionsNotClosedCount": 1,
+                "ProfitLossOnTrade": -9.92,
+                "ProfitLossOnTradeInBaseCurrency": -9.92,
+                "Status": "Open",
+                "TradeCostsTotal": -30.03,
+                "TradeCostsTotalInBaseCurrency": -30.03
+            },
+            "Positions": [
+                {
+                    "PositionBase": {
+                        "AccountId": "test1",
+                        "Amount": 32,
+                        "AssetType": "Stock",
+                        "CanBeClosed": true,
+                        "ClientId": "3294827",
+                        "CloseConversionRateSettled": false,
+                        "CorrelationKey": "f954c1b7-548b-447c-bdf0-5e831e34e647",
+                        "ExecutionTimeOpen": "2018-11-21T08:39:49.698284Z",
+                        "IsMarketOpen": false,
+                        "OpenPrice": 59.47,
+                        "RelatedOpenOrders": [],
+                        "Status": "Open",
+                        "Uic": 721,
+                        "ValueDate": "2018-11-26T00:00:00.000000Z"
+                    },
+                    "PositionId": "1325903982",
+                    "PositionView": {
+                        "CalculationReliability": "OkWithConditions",
+                        "CurrentPrice": 59.16,
+                        "CurrentPriceDelayMinutes": 15,
+                        "CurrentPriceLastTraded": "2018-11-21T20:59:59.963000Z",
+                        "CurrentPriceType": "LastTraded",
+                        "Exposure": 1893.12,
+                        "ExposureCurrency": "USD",
+                        "ExposureInBaseCurrency": 1893.12,
+                        "InstrumentPriceDayPercentChange": -0.5,
+                        "ProfitLossOnTrade": -9.92,
+                        "ProfitLossOnTradeInBaseCurrency": -9.92,
+                        "TradeCostsTotal": -30.03,
+                        "TradeCostsTotalInBaseCurrency": -30.03
+                    }
+                }
+            ]
+        },
+        {
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 5,
+                "Description": "Euro/US Dollar September 2019",
+                "DisplayHint": "Forex",
+                "Format": "Normal",
+                "Symbol": "EURUSDECSEP19"
+            },
+            "Exchange": {
+                "Description": "",
+                "ExchangeId": "",
+                "IsOpen": true
+            },
+            "NetPositionBase": {
+                "AccountId": "test2",
+                "Amount": 10000,
+                "AssetType": "CfdOnFutures",
+                "CanBeClosed": true,
+                "ClientId": "3193455",
+                "ExpiryDate": "2019-09-11T00:00:00.000000Z",
+                "IsMarketOpen": true,
+                "NumberOfRelatedOrders": 0,
+                "PositionsAccount": "test2",
+                "SinglePositionId": "1459631908",
+                "SinglePositionStatus": "Open",
+                "Uic": 13347933
+            },
+            "NetPositionId": "EURUSDECSEP19__CfdOnFuture",
+            "NetPositionView": {
+                "AverageOpenPrice": 1.10946,
+                "CalculationReliability": "Ok",
+                "CurrentPrice": 1.10903,
+                "CurrentPriceDelayMinutes": 0,
+                "CurrentPriceType": "Bid",
+                "Exposure": 11090.3,
+                "MarketValue": 768000,
+                "MarketValueInBaseCurrency": 118176.31,
+                "MarketValueOpen": -100,
+                "MarketValueOpenInBaseCurrency": -15.38,
+                "ExposureCurrency": "USD",
+                "ExposureInBaseCurrency": 43647.32,
+                "InstrumentPriceDayPercentChange": -0.08,
+                "PositionCount": 1,
+                "PositionsNotClosedCount": 1,
+                "ProfitLossOnTrade": -4.3,
+                "ProfitLossOnTradeInBaseCurrency": -17.01,
+                "Status": "Open",
+                "TradeCostsTotal": 0,
+                "TradeCostsTotalInBaseCurrency": 0
+            },
+            "SinglePosition": {
+                "PositionBase": {
+                    "AccountId": "test2",
+                    "Amount": 10000,
+                    "AssetType": "CfdOnFutures",
+                    "CanBeClosed": true,
+                    "ClientId": "3193455",
+                    "CloseConversionRateSettled": false,
+                    "CorrelationKey": "c75e7d7c-ae2b-4af0-af35-51a8e9255a2d",
+                    "ExecutionTimeOpen": "2019-08-23T02:26:05.212698Z",
+                    "ExpiryDate": "2019-09-11T00:00:00.000000Z",
+                    "IsMarketOpen": true,
+                    "OpenPrice": 1.10946,
+                    "RelatedOpenOrders": [],
+                    "Status": "Open",
+                    "Uic": 13347933,
+                    "ValueDate": "2019-08-23T00:00:00.000000Z"
+                },
+                "PositionId": "1459631908",
+                "PositionView": {
+                    "CalculationReliability": "Ok",
+                    "ConversionRateCurrent": 3.95530815,
+                    "ConversionRateOpen": 3.95530815,
+                    "CurrentPrice": 1.10903,
+                    "CurrentPriceDelayMinutes": 0,
+                    "CurrentPriceType": "Bid",
+                    "Exposure": 11090.3,
+                    "ExposureCurrency": "USD",
+                    "ExposureInBaseCurrency": 43647.317389,
+                    "InstrumentPriceDayPercentChange": -0.08,
+                    "ProfitLossOnTrade": -4.3,
+                    "ProfitLossOnTradeInBaseCurrency": -17.01,
+                    "TradeCostsTotal": 0,
+                    "TradeCostsTotalInBaseCurrency": 0
+                }
+            }
+        },
+        {
+            "DisplayAndFormat": {
+                "Currency": "CNH",
+                "Decimals": 2,
+                "Description": "Bank of China Ltd",
+                "Format": "Normal",
+                "Symbol": "601988:xssc"
+            },
+            "Exchange": {
+                "Description": "Shanghai-Hong Kong Stock Connect",
+                "ExchangeId": "SHANGHAI_SC",
+                "IsOpen": false
+            },
+            "NetPositionBase": {
+                "AccountId": "test1",
+                "Amount": 100,
+                "AssetType": "Stock",
+                "CanBeClosed": true,
+                "ClientId": "3193455",
+                "IsMarketOpen": false,
+                "NumberOfRelatedOrders": 0,
+                "PositionsAccount": "test1",
+                "SinglePositionId": "1359071292",
+                "SinglePositionStatus": "Open",
+                "Uic": 9664129
+            },
+            "NetPositionId": "601988:xssc__Share",
+            "NetPositionView": {
+                "AverageOpenPrice": 3.58,
+                "CalculationReliability": "Ok",
+                "CurrentPrice": 3.58,
+                "CurrentPriceDelayMinutes": 0,
+                "CurrentPriceType": "LastTraded",
+                "Exposure": 358,
+                "ExposureCurrency": "CNH",
+                "ExposureInBaseCurrency": 855545.49,
+                "InstrumentPriceDayPercentChange": -0.28,
+                "MarketValue": 768000,
+                "MarketValueInBaseCurrency": 118176.31,
+                "MarketValueOpen": -100,
+                "MarketValueOpenInBaseCurrency": -15.38,
+                "PositionCount": 1,
+                "PositionsNotClosedCount": 1,
+                "ProfitLossCurrencyConversion": -0.72,
+                "ProfitLossOnTrade": 0,
+                "ProfitLossOnTradeInBaseCurrency": 0,
+                "Status": "Open",
+                "TradeCostsTotal": -80.44,
+                "TradeCostsTotalInBaseCurrency": -10.25
+            },
+            "Positions": [
+                {
+                    "PositionBase": {
+                        "AccountId": "test1",
+                        "Amount": 100,
+                        "AssetType": "Stock",
+                        "CanBeClosed": true,
+                        "ClientId": "3193455",
+                        "CloseConversionRateSettled": false,
+                        "CorrelationKey": "1f0f5bb2-c623-4351-8a4e-ac228e602c6e",
+                        "ExecutionTimeOpen": "2018-12-18T03:51:36.442128Z",
+                        "IsMarketOpen": false,
+                        "OpenPrice": 3.58,
+                        "RelatedOpenOrders": [],
+                        "SourceOrderId": "262988783",
+                        "Status": "Open",
+                        "Uic": 9664129,
+                        "ValueDate": "2018-12-18T00:00:00.000000Z"
+                    },
+                    "PositionId": "1359071292",
+                    "PositionView": {
+                        "CalculationReliability": "Ok",
+                        "ConversionRateCurrent": 0.1264246602,
+                        "ConversionRateOpen": 0.12844189,
+                        "CurrentPrice": 3.58,
+                        "CurrentPriceDelayMinutes": 0,
+                        "CurrentPriceType": "LastTraded",
+                        "Exposure": 358,
+                        "ExposureCurrency": "CNH",
+                        "ExposureInBaseCurrency": 45.48746568,
+                        "InstrumentPriceDayPercentChange": -0.28,
+                        "ProfitLossCurrencyConversion": -0.72,
+                        "ProfitLossOnTrade": 0,
+                        "ProfitLossOnTradeInBaseCurrency": 0,
+                        "TradeCostsTotal": -80.44,
+                        "TradeCostsTotalInBaseCurrency": -10.25
+                    }
+                }
+            ]
+        },
+        {
+            "DisplayAndFormat": {
+                "Currency": "EUR",
+                "Decimals": 2,
+                "Description": "BGF CONTINENTAL EUROPEAN FLEXIBLE E2",
+                "Format": "Normal",
+                "Symbol": "MIGOEEE.MFU"
+            },
+            "Exchange": {
+                "Description": "Mutual Funds",
+                "ExchangeId": "MTU",
+                "IsOpen": true
+            },
+            "NetPositionBase": {
+                "AccountId": "test2",
+                "Amount": 244.5,
+                "AssetType": "MutualFund",
+                "CanBeClosed": true,
+                "ClientId": "2147044823",
+                "IsMarketOpen": true,
+                "NumberOfRelatedOrders": 0,
+                "PositionsAccount": "test2",
+                "SinglePositionId": "1359193847",
+                "SinglePositionStatus": "Open",
+                "Uic": 8244532
+            },
+            "NetPositionId": "MIGOEEE.MFU__MF",
+            "NetPositionView": {
+                "AverageOpenPrice": 20.45,
+                "CalculationReliability": "Ok",
+                "CurrentPrice": 20.68,
+                "CurrentPriceDelayMinutes": 0,
+                "CurrentPriceType": "Mid",
+                "Exposure": 5056.26,
+                "ExposureCurrency": "EUR",
+                "ExposureInBaseCurrency": 5056.26,
+                "MarketValue": 768000,
+                "MarketValueInBaseCurrency": 118176.31,
+                "MarketValueOpen": -100,
+                "MarketValueOpenInBaseCurrency": -15.38,
+                "InstrumentPriceDayPercentChange": 0,
+                "PositionCount": 1,
+                "PositionsNotClosedCount": 1,
+                "ProfitLossOnTrade": 56.24,
+                "ProfitLossOnTradeInBaseCurrency": 56.24,
+                "Status": "Open",
+                "TradeCostsTotal": 0,
+                "TradeCostsTotalInBaseCurrency": 0
+            },
+            "Positions": [
+                {
+                    "PositionBase": {
+                        "AccountId": "test2",
+                        "Amount": 244.5,
+                        "AssetType": "MutualFund",
+                        "CanBeClosed": false,
+                        "ClientId": "2147044823",
+                        "CloseConversionRateSettled": false,
+                        "CorrelationKey": "48dbbc5b-0b6f-4abe-96e5-32e21421ec50",
+                        "ExecutionTimeOpen": "2019-01-09T08:55:06.818544Z",
+                        "IsMarketOpen": true,
+                        "OpenPrice": 20.45,
+                        "RelatedOpenOrders": [],
+                        "SourceOrderId": "263051369",
+                        "Status": "Open",
+                        "Uic": 8244532,
+                        "ValueDate": "2019-01-12T00:00:00.000000Z"
+                    },
+                    "PositionId": "1359193847",
+                    "PositionView": {
+                        "CalculationReliability": "Ok",
+                        "CurrentPrice": 20.68,
+                        "CurrentPriceDelayMinutes": 0,
+                        "CurrentPriceType": "Mid",
+                        "Exposure": 5056.26,
+                        "ExposureCurrency": "EUR",
+                        "ExposureInBaseCurrency": 5056.26,
+                        "InstrumentPriceDayPercentChange": 0,
+                        "ProfitLossOnTrade": 56.24,
+                        "ProfitLossOnTradeInBaseCurrency": 56.24,
+                        "TradeCostsTotal": 0,
+                        "TradeCostsTotalInBaseCurrency": 0
+                    }
+                }
+            ]
+        },
+        {
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 2,
+                "Description": "Apple Inc.",
+                "Format": "Normal",
+                "Symbol": "AAPL:xnas"
+            },
+            "Exchange": {
+                "Description": "NASDAQ",
+                "ExchangeId": "NASDAQ",
+                "IsOpen": false
+            },
+            "NetPositionBase": {
+                "AccountId": "test1",
+                "Amount": 0,
+                "AmountLong": 500,
+                "AmountShort": 500,
+                "AssetType": "Stock",
+                "CanBeClosed": false,
+                "ClientId": "2147044823",
+                "IsMarketOpen": false,
+                "NumberOfRelatedOrders": 0,
+                "OpeningDirection": "Buy",
+                "PositionsAccount": "test1",
+                "Uic": 211
+            },
+            "NetPositionId": "AAPL:xnas__Share",
+            "NetPositionView": {
+                "AverageOpenPrice": 0,
+                "CalculationReliability": "Ok",
+                "CurrentPrice": 188.98,
+                "CurrentPriceDelayMinutes": 0,
+                "CurrentPriceLastTraded": "2019-05-17T19:59:59.907000Z",
+                "CurrentPriceType": "LastTraded",
+                "InstrumentPriceDayPercentChange": 0,
+                "PositionCount": 2,
+                "PositionsNotClosedCount": 0,
+                "PositionsAverageBuyPrice": 150,
+                "MarketValue": 768000,
+                "MarketValueInBaseCurrency": 118176.31,
+                "MarketValueOpen": -100,
+                "MarketValueOpenInBaseCurrency": -15.38,
+                "PositionsAverageSellPrice": 190.56,
+                "ProfitLossOnTrade": -20280,
+                "ProfitLossOnTradeInBaseCurrency": -20280,
+                "RealizedCostsTotal": 31.56,
+                "RealizedCostsTotalInBaseCurrency": 31.56,
+                "RealizedProfitLoss": -20280,
+                "RealizedProfitLossInBaseCurrency": -20280,
+                "Status": "Closed",
+                "TradeCostsTotal": -31.56,
+                "TradeCostsTotalInBaseCurrency": -31.56
+            },
+            "Positions": [
+                {
+                    "PositionBase": {
+                        "AccountId": "test1",
+                        "Amount": -500,
+                        "AssetType": "Stock",
+                        "CanBeClosed": false,
+                        "ClientId": "2147044823",
+                        "CloseConversionRateSettled": true,
+                        "CorrelationKey": "79635b9d-5ae8-4450-967b-531d26d0043e",
+                        "CorrelationTypes": [],
+                        "ExecutionTimeClose": "2019-05-16T10:59:59.526257Z",
+                        "ExecutionTimeOpen": "2019-05-16T10:59:20.013015Z",
+                        "IsMarketOpen": false,
+                        "OpenPrice": 150,
+                        "RelatedOpenOrders": [],
+                        "RelatedPositionId": "1427543945",
+                        "SourceOrderId": "275995557",
+                        "Status": "Closed",
+                        "Uic": 211,
+                        "ValueDate": "2019-05-20T00:00:00.000000Z"
+                    },
+                    "PositionId": "1427543947",
+                    "PositionView": {
+                        "CalculationReliability": "Ok",
+                        "CurrentPrice": 190.56,
+                        "CurrentPriceDelayMinutes": 0,
+                        "CurrentPriceLastTraded": "2019-05-17T19:59:59.907000Z",
+                        "CurrentPriceType": "LastTraded",
+                        "InstrumentPriceDayPercentChange": 0,
+                        "ProfitLossOnTrade": -20280,
+                        "ProfitLossOnTradeInBaseCurrency": -20280,
+                        "TradeCostsTotal": -31.56,
+                        "TradeCostsTotalInBaseCurrency": -31.56
+                    }
+                }
+            ]
+        },
+        {
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 4,
+                "Description": "Australian Dollar/US Dollar",
+                "Format": "AllowDecimalPips",
+                "Symbol": "AUDUSD"
+            },
+            "Exchange": {
+                "Description": "Inter Bank",
+                "ExchangeId": "SBFX",
+                "IsOpen": true
+            },
+            "NetPositionBase": {
+                "AccountId": "test1",
+                "Amount": 90000,
+                "AssetType": "FxSpot",
+                "CanBeClosed": true,
+                "ClientId": "3294827",
+                "IsMarketOpen": true,
+                "NumberOfRelatedOrders": 2,
+                "PositionsAccount": "test1",
+                "Uic": 4,
+                "ValueDate": "2019-09-19T00:00:00.000000Z"
+            },
+            "NetPositionId": "AUDUSD__FxSpot",
+            "NetPositionView": {
+                "AverageOpenPrice": 0.68419,
+                "CalculationReliability": "Ok",
+                "CurrentPrice": 0.68423,
+                "CurrentPriceDelayMinutes": 0,
+                "CurrentPriceType": "Bid",
+                "Exposure": 90000,
+                "ExposureCurrency": "AUD",
+                "MarketValue": 768000,
+                "MarketValueInBaseCurrency": 118176.31,
+                "MarketValueOpen": -100,
+                "MarketValueOpenInBaseCurrency": -15.38,
+                "ExposureInBaseCurrency": 61582.05,
+                "InstrumentPriceDayPercentChange": -0.34,
+                "PositionCount": 2,
+                "PositionsNotClosedCount": 2,
+                "ProfitLossOnTrade": 4.3,
+                "ProfitLossOnTradeInBaseCurrency": 4.3,
+                "Status": "Open",
+                "TradeCostsTotal": -9.5,
+                "TradeCostsTotalInBaseCurrency": -9.5
+            },
+            "Positions": [
+                {
+                    "PositionBase": {
+                        "AccountId": "test1",
+                        "Amount": 45000,
+                        "AssetType": "FxSpot",
+                        "CanBeClosed": true,
+                        "ClientId": "3294827",
+                        "IsMarketOpen": true,
+                        "OpenPrice": 0.68419,
+                        "Uic": 4,
+                        "ValueDate": "2019-09-19T00:00:00.000000Z",
+                        "RelatedOpenOrders": [
+                            {
+                                "Amount": 100000,
+                                "Duration": {
+                                    "DurationType": "GoodTillCancel"
+                                },
+                                "OpenOrderType": "Limit",
+                                "OrderId": "268888521",
+                                "OrderPrice": 0.7158
+                            },
+                            {
+                                "Amount": 100000,
+                                "Duration": {
+                                    "DurationType": "GoodTillCancel"
+                                },
+                                "OpenOrderType": "Stop",
+                                "OrderId": "268888522",
+                                "OrderPrice": 0.70585
+                            }
+                        ],
+                        "Status": "Open"
+                    },
+                    "PositionId": "1325904068",
+                    "PositionView": {
+                        "AverageOpenPrice": 0.68419,
+                        "CalculationReliability": "Ok",
+                        "CurrentPrice": 0.68423,
+                        "CurrentPriceDelayMinutes": 0,
+                        "CurrentPriceType": "Bid",
+                        "Exposure": 45000,
+                        "ExposureCurrency": "AUD",
+                        "ExposureInBaseCurrency": 61582.05,
+                        "InstrumentPriceDayPercentChange": -0.34,
+                        "ProfitLossOnTrade": 4.3,
+                        "ProfitLossOnTradeInBaseCurrency": 4.3,
+                        "TradeCostsTotal": -9.5,
+                        "TradeCostsTotalInBaseCurrency": -9.5
+                    }
+                },
+                {
+                    "PositionBase": {
+                        "AccountId": "test1",
+                        "Amount": 45000,
+                        "AssetType": "FxSpot",
+                        "CanBeClosed": true,
+                        "ClientId": "3294827",
+                        "IsMarketOpen": true,
+                        "OpenPrice": 0.68419,
+                        "Uic": 4,
+                        "ValueDate": "2019-09-19T00:00:00.000000Z",
+                        "RelatedOpenOrders": [],
+                        "Status": "Open"
+                    },
+                    "PositionId": "1325904069",
+                    "PositionView": {
+                        "AverageOpenPrice": 0.68419,
+                        "CalculationReliability": "Ok",
+                        "CurrentPrice": 0.68423,
+                        "CurrentPriceDelayMinutes": 0,
+                        "CurrentPriceType": "Bid",
+                        "Exposure": 45000,
+                        "ExposureCurrency": "AUD",
+                        "ExposureInBaseCurrency": 61582.05,
+                        "InstrumentPriceDayPercentChange": -0.34,
+                        "ProfitLossOnTrade": 4.3,
+                        "ProfitLossOnTradeInBaseCurrency": 4.3,
+                        "TradeCostsTotal": -9.5,
+                        "TradeCostsTotalInBaseCurrency": -9.5
+                    }
+                }
+            ]
+        },
+        {
+            "DisplayAndFormat": {
+                "BarrierDecimals": 4,
+                "BarrierFormat": "Normal",
+                "Currency": "EUR",
+                "Decimals": 2,
+                "Description": "Euro/US Dollar",
+                "Format": "Percentage",
+                "Symbol": "EURUSD"
+            },
+            "Exchange": {
+                "Description": "Inter Bank",
+                "ExchangeId": "SBFX",
+                "IsOpen": true
+            },
+            "NetPositionBase": {
+                "Amount": 0,
+                "AmountLong": 1000,
+                "AmountShort": 1000,
+                "AssetType": "FxOneTouchOption",
+                "CanBeClosed": false,
+                "ClientId": "1869103",
+                "IsMarketOpen": true,
+                "NumberOfRelatedOrders": 0,
+                "OpeningDirection": "Sell",
+                "OptionsData": {
+                    "BarrierEventOccurred": false,
+                    "CanBeExercised": false,
+                    "ExpiryCut": "NY",
+                    "ExpiryDate": "2020-02-06T00:00:00.000000Z",
+                    "LowerBarrier": 1.095,
+                    "PremiumDate": "2020-01-08T00:00:00.000000Z",
+                    "PutCall": "None",
+                    "SettlementStyle": "PhysicalDelivery",
+                    "Strike": 0
+                },
+                "PositionsAccount": "test1",
+                "SinglePositionId": "1391878464",
+                "SinglePositionStatus": "Closed",
+                "Uic": 21
+            },
+            "NetPositionId": "EURUSD__43667NY__OT__1.095-0",
+            "NetPositionView": {
+                "Ask": 0.118,
+                "AverageOpenPrice": 0,
+                "Bid": 0.0554,
+                "CalculationReliability": "Ok",
+                "ConversionRateCurrent": 1.117885,
+                "CurrentPrice": 0.0554,
+                "CurrentPriceDelayMinutes": 0,
+                "CurrentPriceType": "Bid",
+                "ExposureInBaseCurrency": 0,
+                "MarketValue": 768000,
+                "MarketValueInBaseCurrency": 118176.31,
+                "MarketValueOpen": -100,
+                "MarketValueOpenInBaseCurrency": -15.38,
+                "InstrumentPriceDayPercentChange": 0.17,
+                "OpenInterest": 0,
+                "PositionCount": 2,
+                "PositionsAverageBuyPrice": 0.1295,
+                "PositionsAverageSellPrice": 0.0664,
+                "PositionsNotClosedCount": 0,
+                "ProfitLossOnTrade": -63.1,
+                "ProfitLossOnTradeInBaseCurrency": -70.54,
+                "RealizedCostsTotal": 0,
+                "RealizedCostsTotalInBaseCurrency": 0,
+                "RealizedProfitLoss": -63.1,
+                "RealizedProfitLossInBaseCurrency": -70.54,
+                "Status": "Closed",
+                "TradeCostsTotal": 0,
+                "TradeCostsTotalInBaseCurrency": 0
+            },
+            "Positions": [
+                {
+                    "DisplayAndFormat": {
+                        "BarrierDecimals": 4,
+                        "BarrierFormat": "Normal",
+                        "Currency": "EUR",
+                        "Decimals": 2,
+                        "Description": "Euro/US Dollar",
+                        "Format": "Percentage",
+                        "Symbol": "EURUSD"
+                    },
+                    "Exchange": {
+                        "Description": "Inter Bank",
+                        "ExchangeId": "SBFX",
+                        "IsOpen": true
+                    },
+                    "NetPositionId": "EURUSD__43667NY__OT__1.095-0",
+                    "PositionBase": {
+                        "AccountId": "test1",
+                        "AccountKey": "4G2tEXDyc2pBiU8pWf3dSw==",
+                        "Amount": -1000.0,
+                        "AssetType": "FxOneTouchOption",
+                        "CanBeClosed": false,
+                        "ClientId": "1869103",
+                        "CloseConversionRateSettled": true,
+                        "CorrelationKey": "6a890872-86d0-4a44-b973-1886d126c962",
+                        "ExecutionTimeClose": "2020-01-06T08:28:54.364251Z",
+                        "ExecutionTimeOpen": "2020-01-06T08:28:37.262927Z",
+                        "IsForceOpen": false,
+                        "IsMarketOpen": true,
+                        "OpenPrice": 0.0664,
+                        "OptionsData": {
+                            "BarrierEventOccurred": false,
+                            "CanBeExercised": false,
+                            "ExpiryCut": "NY",
+                            "ExpiryDate": "2020-02-06T00:00:00.000000Z",
+                            "LowerBarrier": 1.095,
+                            "PremiumDate": "2020-01-08T00:00:00.000000Z",
+                            "PutCall": "None",
+                            "SettlementStyle": "PhysicalDelivery",
+                            "Strike": 0.0
+                        },
+                        "RelatedOpenOrders": [],
+                        "SpotDate": "2020-02-10",
+                        "Status": "Closed",
+                        "Uic": 21,
+                        "ValueDate": "2020-01-08T00:00:00.000000Z"
+                    },
+                    "PositionDetails": {
+                        "CorrelationKey": "6a890872-86d0-4a44-b973-1886d126c962",
+                        "Greeks": {
+                            "Delta": 11251.07816,
+                            "DeltaCurrency": "EUR",
+                            "Gamma": -20141.50856,
+                            "GammaCurrency": "EUR",
+                            "InstrumentDelta": -11.25108,
+                            "InstrumentGamma": 20.14151,
+                            "InstrumentTheta": -0.00485,
+                            "InstrumentVega": 0.07994,
+                            "MidVol": 0.0435,
+                            "Theta": 4.84521,
+                            "ThetaCurrency": "USD",
+                            "Vega": -79.93548,
+                            "VegaCurrency": "USD"
+                        },
+                        "LockedByBackOffice": false,
+                        "MarketValue": -129.5,
+                        "MarketValueOpen": 66.4,
+                        "OpenInterest": 0.0
+                    },
+                    "PositionId": "1391878464",
+                    "PositionView": {
+                        "Ask": 0.1215,
+                        "Bid": 0.0589,
+                        "CalculationReliability": "Ok",
+                        "ConversionRateClose": 1.117535,
+                        "ConversionRateOpen": 1.117535,
+                        "CurrentPrice": 0.1295,
+                        "CurrentPriceDelayMinutes": 0,
+                        "CurrentPriceType": "Ask",
+                        "InstrumentPriceDayPercentChange": 0.14,
+                        "MarketValue": -129.5,
+                        "OpenInterest": 0.0,
+                        "ProfitLossOnTrade": -63.1,
+                        "ProfitLossOnTradeInBaseCurrency": -70.52,
+                        "TradeCostsTotal": 0.0,
+                        "TradeCostsTotalInBaseCurrency": 0.0
+                    }
+                }
+            ]
+        },
+        {
+            "DisplayAndFormat": {
+                "Currency": "EUR",
+                "Decimals": 3,
+                "Description": "Vallourec 6.375% 15 Oct 2023, EUR",
+                "Format": "Normal",
+                "Symbol": "VALLOUREC-6.375-15OCT23"
+            },
+            "Exchange": {
+                "Description": "Bonds Europe Corporate - High Yield",
+                "ExchangeId": "EU_CP_HY",
+                "IsOpen": true
+            },
+            "NetPositionBase": {
+                "AccountId": "test1",
+                "Amount": 10000,
+                "AssetType": "Bond",
+                "CanBeClosed": true,
+                "ClientId": "3294827",
+                "ExpiryDate": "2023-10-15T00:00:00.000000Z",
+                "FixedIncomeData": {
+                    "ClosedAccruedInterest": 74.38,
+                    "ClosedAccruedInterestInBaseCurrency": 84.03,
+                    "OpenAccruedInterest": -67.29,
+                    "OpenAccruedInterestInBaseCurrency": -76.8
+                },
+                "IsMarketOpen": true,
+                "NumberOfRelatedOrders": 0,
+                "PositionsAccount": "test1",
+                "SinglePositionId": "1325904090",
+                "SinglePositionStatus": "Open",
+                "Uic": 10577403,
+                "ValueDate": "2018-11-23T00:00:00.000000Z"
+            },
+            "NetPositionId": "VALLOUREC-6.375-15OCT23__BO",
+            "NetPositionView": {
+                "AverageOpenPrice": 75.126,
+                "CalculationReliability": "Ok",
+                "CurrentPrice": 74.206,
+                "CurrentPriceDelayMinutes": 0,
+                "CurrentPriceLastTraded": "2018-11-08T15:20:10.913000Z",
+                "CurrentPriceType": "Indicative",
+                "MarketValue": 768000,
+                "MarketValueInBaseCurrency": 118176.31,
+                "MarketValueOpen": -100,
+                "MarketValueOpenInBaseCurrency": -15.38,
+                "Exposure": 7494.92,
+                "ExposureCurrency": "EUR",
+                "ExposureInBaseCurrency": 8510.75,
+                "InstrumentPriceDayPercentChange": -28.17,
+                "PositionCount": 1,
+                "PositionsNotClosedCount": 1,
+                "ProfitLossCurrencyConversion": -86.28,
+                "ProfitLossOnTrade": -92.05,
+                "ProfitLossOnTradeInBaseCurrency": -105.06,
+                "Status": "Open",
+                "TradeCostsTotal": -160,
+                "TradeCostsTotalInBaseCurrency": -181.7
+            },
+            "Positions": [
+                {
+                    "PositionBase": {
+                        "AccountId": "135797INET",
+                        "Amount": 10000,
+                        "AssetType": "Bond",
+                        "CanBeClosed": true,
+                        "ClientId": "3294827",
+                        "CloseConversionRateSettled": false,
+                        "CorrelationKey": "046d1023-a540-431b-b657-70815dbac59d",
+                        "ExecutionTimeOpen": "2018-11-23T12:33:10.056464Z",
+                        "ExpiryDate": "2023-10-15T00:00:00.000000Z",
+                        "FixedIncomeData": {
+                            "ClosedAccruedInterest": 74.38,
+                            "ClosedAccruedInterestInBaseCurrency": 84.03,
+                            "Duration": -1,
+                            "EffectiveYield": 13.8055673315,
+                            "OpenAccruedInterest": -67.29,
+                            "OpenAccruedInterestInBaseCurrency": -76.8
+                        },
+                        "IsMarketOpen": true,
+                        "OpenPrice": 75.126,
+                        "RelatedOpenOrders": [],
+                        "Status": "Open",
+                        "Uic": 10577403,
+                        "ValueDate": "2018-11-23T00:00:00.000000Z"
+                    },
+                    "PositionId": "1325904090",
+                    "PositionView": {
+                        "CalculationReliability": "Ok",
+                        "ConversionRateCurrent": 1.129857325,
+                        "ConversionRateOpen": 1.14136845,
+                        "CurrentPrice": 74.206,
+                        "CurrentPriceDelayMinutes": 0,
+                        "CurrentPriceLastTraded": "2018-11-08T15:20:10.913000Z",
+                        "CurrentPriceType": "Indicative",
+                        "Exposure": 7494.925,
+                        "ExposureCurrency": "EUR",
+                        "ExposureInBaseCurrency": 8510.749659875,
+                        "InstrumentPriceDayPercentChange": -28.17,
+                        "ProfitLossCurrencyConversion": -86.28,
+                        "ProfitLossOnTrade": -92.05,
+                        "ProfitLossOnTradeInBaseCurrency": -105.06,
+                        "TradeCostsTotal": -160,
+                        "TradeCostsTotalInBaseCurrency": -181.7
+                    }
+                }
+            ]
+        },
+        {
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 2,
+                "Description": "Apple Inc.  Jul2019 200 C",
+                "Format": "Normal",
+                "StrikeDecimals": 2,
+                "StrikeFormat": "Normal",
+                "Symbol": "AAPL/18J19C200:xcbf",
+                "UnderlyingInstrumentDescription": "Apple Inc. "
+            },
+            "Exchange": {
+                "Description": "Options Price Reporting Authority",
+                "ExchangeId": "OPRA",
+                "IsOpen": true
+            },
+            "NetPositionBase": {
+                "AccountId": "test1",
+                "Amount": 1,
+                "AssetType": "StockOption",
+                "CanBeClosed": true,
+                "ClientId": "3542337",
+                "IsMarketOpen": true,
+                "NumberOfRelatedOrders": 0,
+                "OptionsData": {
+                    "CanBeExercised": true,
+                    "ExerciseStyle": "American",
+                    "ExpiryCut": "None",
+                    "ExpiryDate": "2019-07-26T00:00:00.000000Z",
+                    "PutCall": "Call",
+                    "SettlementStyle": "PhysicalDelivery",
+                    "Strike": 200
+                },
+                "PositionsAccount": "test1",
+                "SinglePositionId": "1412700227",
+                "SinglePositionStatus": "Open",
+                "Uic": 13993712
+            },
+            "NetPositionId": "AAPL--18J19C200:xcbf__CO__L",
+            "NetPositionView": {
+                "AverageOpenPrice": -2.13,
+                "CalculationReliability": "Ok",
+                "CurrentPrice": 1.21,
+                "CurrentPriceDelayMinutes": 0,
+                "CurrentPriceType": "Indicative",
+                "Exposure": 0,
+                "MarketValue": 768000,
+                "MarketValueInBaseCurrency": 118176.31,
+                "MarketValueOpen": -100,
+                "MarketValueOpenInBaseCurrency": -15.38,
+                "ExposureCurrency": "USD",
+                "ExposureInBaseCurrency": 0,
+                "InstrumentPriceDayPercentChange": -4.88,
+                "PositionCount": 1,
+                "PositionsNotClosedCount": 1,
+                "ProfitLossOnTrade": 334,
+                "ProfitLossOnTradeInBaseCurrency": 334,
+                "Status": "Open",
+                "TradeCostsTotal": -3.04,
+                "TradeCostsTotalInBaseCurrency": -3.04
+            },
+            "Positions": [
+                {
+                    "PositionBase": {
+                        "AccountId": "test1",
+                        "Amount": 1,
+                        "AssetType": "StockOption",
+                        "CanBeClosed": true,
+                        "ClientId": "3542337",
+                        "CloseConversionRateSettled": false,
+                        "CorrelationKey": "a11fc0e9-dd49-47b7-8397-1cd7a19e46d7",
+                        "ExecutionTimeOpen": "2019-04-16T13:23:13.292160Z",
+                        "IsMarketOpen": true,
+                        "OpenPrice": -2.13,
+                        "OptionsData": {
+                            "CanBeExercised": true,
+                            "ExerciseStyle": "American",
+                            "ExpiryCut": "None",
+                            "ExpiryDate": "2019-07-26T00:00:00.000000Z",
+                            "PutCall": "Call",
+                            "SettlementStyle": "PhysicalDelivery",
+                            "Strike": 200
+                        },
+                        "RelatedOpenOrders": [],
+                        "SourceOrderId": "273217073",
+                        "Status": "Open",
+                        "ToOpenClose": "ToOpen",
+                        "Uic": 13993712,
+                        "ValueDate": "2019-04-16T00:00:00.000000Z"
+                    },
+                    "PositionId": "1412700227",
+                    "PositionView": {
+                        "CalculationReliability": "Ok",
+                        "CurrentPrice": 1.21,
+                        "CurrentPriceDelayMinutes": 0,
+                        "CurrentPriceType": "Indicative",
+                        "Exposure": 0,
+                        "ExposureCurrency": "USD",
+                        "ExposureInBaseCurrency": 0,
+                        "InstrumentPriceDayPercentChange": -4.88,
+                        "ProfitLossOnTrade": 334,
+                        "ProfitLossOnTradeInBaseCurrency": 334,
+                        "TradeCostsTotal": -3.04,
+                        "TradeCostsTotalInBaseCurrency": -3.04
+                    }
+                }
+            ]
+        },
+        {
+            "__serverDataComment": "base case: two positions, on stock option",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 2,
+                "Description": "Deutsche Bank AG Feb2020 9.5 C",
+                "Format": "Normal",
+                "StrikeDecimals": 2,
+                "StrikeFormat": "Normal",
+                "Symbol": "DB/28G20C9.5:xcbf",
+                "UnderlyingInstrumentDescription": "Deutsche Bank AG"
+            },
+            "Exchange": {
+                "Description": "Options Price Reporting Authority",
+                "ExchangeId": "OPRA",
+                "IsOpen": true
+            },
+            "Greeks": {
+                "Delta": 0,
+                "DeltaCurrency": "USD",
+                "Gamma": 0,
+                "GammaCurrency": "USD",
+                "InstrumentDelta": 0,
+                "InstrumentGamma": 0,
+                "InstrumentTheta": 0,
+                "InstrumentVega": 0,
+                "MidVol": 0,
+                "Theta": 0,
+                "ThetaCurrency": "USD",
+                "Vega": 0,
+                "VegaCurrency": "USD"
+            },
+            "NetPositionBase": {
+                "AccountId": "test1",
+                "Amount": 1,
+                "AmountLong": 1,
+                "AmountShort": 0,
+                "HasForceOpenPositions": false,
+                "AssetType": "StockOption",
+                "CanBeClosed": true,
+                "ClientId": "3542337",
+                "IsMarketOpen": true,
+                "NumberOfRelatedOrders": 0,
+                "OpeningDirection": "Buy",
+                "OptionsData": {
+                    "CanBeExercised": true,
+                    "ExerciseStyle": "American",
+                    "ExpiryCut": "None",
+                    "ExpiryDate": "2019-07-26T00:00:00.000000Z",
+                    "PutCall": "Call",
+                    "SettlementStyle": "PhysicalDelivery",
+                    "Strike": 9.5
+                },
+                "PositionsAccount": "test1",
+                "Uic": 16004385
+            },
+            "NetPositionId": "DB--28G20C9.5:xcbf__CO__L",
+            "NetPositionView": {
+                "AverageOpenPrice": 1,
+                "CalculationReliability": "UnknownPrice",
+                "ConversionRateCurrent": 0,
+                "CurrentPrice": 0,
+                "CurrentPriceDelayMinutes": 0,
+                "CurrentPriceType": "Bid",
+                "Exposure": 0,
+                "ExposureCurrency": "USD",
+                "MarketValue": 768000,
+                "MarketValueInBaseCurrency": 118176.31,
+                "MarketValueOpen": -100,
+                "MarketValueOpenInBaseCurrency": -15.38,
+                "ExposureInBaseCurrency": 0,
+                "InstrumentPriceDayPercentChange": -4.88,
+                "PositionCount": 2,
+                "PositionsNotClosedCount": 2,
+                "ProfitLossOnTrade": 334,
+                "ProfitLossOnTradeInBaseCurrency": 334,
+                "Status": "Open",
+                "TradeCostsTotal": -3.04,
+                "TradeCostsTotalInBaseCurrency": -3.04
+            },
+            "Positions": [
+                {
+                    "PositionBase": {
+                        "AccountId": "test1",
+                        "Amount": 1,
+                        "AssetType": "StockOption",
+                        "CanBeClosed": true,
+                        "ClientId": "3542337",
+                        "CloseConversionRateSettled": false,
+                        "CorrelationKey": "847efd47-b0f3-49a2-9128-6b2021476295",
+                        "ExecutionTimeOpen": "2019-04-16T13:23:13.292160Z",
+                        "IsMarketOpen": true,
+                        "OpenPrice": 1,
+                        "OptionsData": {
+                            "CanBeExercised": true,
+                            "ExerciseStyle": "American",
+                            "ExpiryCut": "None",
+                            "ExpiryDate": "2019-07-26T00:00:00.000000Z",
+                            "PutCall": "Call",
+                            "SettlementStyle": "PhysicalDelivery",
+                            "Strike": 9.5
+                        },
+                        "RelatedOpenOrders": [],
+                        "SourceOrderId": "304241677",
+                        "Status": "Open",
+                        "ToOpenClose": "ToOpen",
+                        "Uic": 16004385,
+                        "ValueDate": "2019-04-16T00:00:00.000000Z"
+                    },
+                    "PositionId": "1555625977",
+                    "PositionView": {
+                        "CalculationReliability": "UnknownPrice",
+                        "CurrentPrice": 0,
+                        "CurrentPriceDelayMinutes": 0,
+                        "CurrentPriceType": "None",
+                        "Exposure": 0,
+                        "ExposureCurrency": "USD",
+                        "ExposureInBaseCurrency": 0,
+                        "InstrumentPriceDayPercentChange": -4.88,
+                        "ProfitLossOnTrade": 334,
+                        "ProfitLossOnTradeInBaseCurrency": 334,
+                        "TradeCostsTotal": -3.04,
+                        "TradeCostsTotalInBaseCurrency": -3.04
+                    }
+                },
+                {
+                    "PositionBase": {
+                        "AccountId": "test1",
+                        "Amount": 1,
+                        "AssetType": "StockOption",
+                        "CanBeClosed": true,
+                        "ClientId": "3542337",
+                        "CloseConversionRateSettled": false,
+                        "CorrelationKey": "847efd47-b0f3-49a2-9128-6b2021476295",
+                        "ExecutionTimeOpen": "2019-04-16T13:23:13.292160Z",
+                        "IsMarketOpen": true,
+                        "OpenPrice": 1,
+                        "OptionsData": {
+                            "CanBeExercised": true,
+                            "ExerciseStyle": "American",
+                            "ExpiryCut": "None",
+                            "ExpiryDate": "2019-07-26T00:00:00.000000Z",
+                            "PutCall": "Call",
+                            "SettlementStyle": "PhysicalDelivery",
+                            "Strike": 9.5
+                        },
+                        "RelatedOpenOrders": [],
+                        "SourceOrderId": "304241677",
+                        "Status": "Open",
+                        "ToOpenClose": "ToOpen",
+                        "Uic": 16004385,
+                        "ValueDate": "2019-04-16T00:00:00.000000Z"
+                    },
+                    "PositionId": "1555625978",
+                    "PositionView": {
+                        "CalculationReliability": "UnknownPrice",
+                        "CurrentPrice": 0,
+                        "CurrentPriceDelayMinutes": 0,
+                        "CurrentPriceType": "None",
+                        "Exposure": 0,
+                        "ExposureCurrency": "USD",
+                        "ExposureInBaseCurrency": 0,
+                        "InstrumentPriceDayPercentChange": -4.88,
+                        "ProfitLossOnTrade": 334,
+                        "ProfitLossOnTradeInBaseCurrency": 334,
+                        "TradeCostsTotal": -3.04,
+                        "TradeCostsTotalInBaseCurrency": -3.04
+                    }
+                }
+            ]
+        },
+        {
+            "DisplayAndFormat": {
+                "BarrierDecimals": 4,
+                "BarrierFormat": "Normal",
+                "Currency": "EUR",
+                "Decimals": 2,
+                "Description": "Euro/US Dollar",
+                "Format": "Percentage",
+                "Symbol": "EURUSD"
+            },
+            "Exchange": {
+                "Description": "Inter Bank",
+                "ExchangeId": "SBFX",
+                "IsOpen": true
+            },
+            "NetPositionBase": {
+                "AccountId": "test1",
+                "Amount": -100000.0,
+                "AssetType": "FxVanillaOption",
+                "CanBeClosed": true,
+                "ClientId": "726834",
+                "IsMarketOpen": true,
+                "NumberOfRelatedOrders": 0,
+                "OptionsData": {
+                    "CanBeExercised": true,
+                    "ExpiryCut": "NY",
+                    "ExpiryDate": "2019-11-25T00:00:00.000000Z",
+                    "PremiumDate": "2019-10-28T00:00:00.000000Z",
+                    "PutCall": "Call",
+                    "SettlementStyle": "PhysicalDelivery",
+                    "Strike": 1.1135
+                },
+                "PositionsAccount": "test1",
+                "SinglePositionId": "1496942845",
+                "SinglePositionStatus": "Open",
+                "Uic": 21
+            },
+            "NetPositionDetails": {
+                "Greeks": {
+                    "Delta": -55621.71515,
+                    "DeltaCurrency": "EUR",
+                    "Gamma": -25131.14387,
+                    "GammaCurrency": "EUR",
+                    "InstrumentDelta": 0.55622,
+                    "InstrumentGamma": 22.57092,
+                    "InstrumentTheta": -0.00015,
+                    "InstrumentVega": 0.13049,
+                    "MidVol": 0.0531904,
+                    "Theta": 14.8242,
+                    "ThetaCurrency": "USD",
+                    "Vega": -130.48639,
+                    "VegaCurrency": "USD"
+                },
+                "MarketValue": -835.0,
+                "MarketValueInBaseCurrency": -835.0,
+                "MarketValueOpen": 788.0,
+                "MarketValueOpenInBaseCurrency": 788.0
+            },
+            "NetPositionId": "EURUSD__43794NY__1.1135__C",
+            "NetPositionView": {
+                "AverageOpenPrice": 0.00788,
+                "CalculationReliability": "Ok",
+                "CurrentPrice": 0.00835,
+                "CurrentPriceDelayMinutes": 0,
+                "CurrentPriceType": "Ask",
+                "Exposure": -55621.72,
+                "ExposureCurrency": "EUR",
+                "ExposureInBaseCurrency": -61930.89,
+                "InstrumentPriceDayPercentChange": 0.04,
+                "MarketValue": 768000,
+                "MarketValueInBaseCurrency": 118176.31,
+                "MarketValueOpen": -100,
+                "MarketValueOpenInBaseCurrency": -15.38,
+                "PositionCount": 1,
+                "PositionsAverageBuyPrice": 0.0,
+                "PositionsAverageSellPrice": 0.00788,
+                "PositionsNotClosedCount": 1,
+                "ProfitLossOnTrade": -47.0,
+                "ProfitLossOnTradeInBaseCurrency": -47.0,
+                "Status": "Open",
+                "TradeCostsTotal": 0.0,
+                "TradeCostsTotalInBaseCurrency": 0.0
+            },
+            "Positions": [
+                {
+                    "NetPositionId": "EURUSD__43794NY__1.1135__C",
+                    "PositionBase": {
+                        "AccountId": "test1",
+                        "Amount": -100000.0,
+                        "AssetType": "FxVanillaOption",
+                        "CanBeClosed": true,
+                        "ClientId": "726834",
+                        "CloseConversionRateSettled": false,
+                        "CorrelationKey": "bc88338c-7665-4609-b653-8a61f781cd41",
+                        "ExecutionTimeOpen": "2019-10-24T06:23:55.644862Z",
+                        "IsMarketOpen": true,
+                        "OpenPrice": 0.00788,
+                        "OptionsData": {
+                            "CanBeExercised": false,
+                            "ExpiryCut": "NY",
+                            "ExpiryDate": "2019-11-25T00:00:00.000000Z",
+                            "PremiumDate": "2019-10-28T00:00:00.000000Z",
+                            "PutCall": "Call",
+                            "SettlementStyle": "PhysicalDelivery",
+                            "Strike": 1.1135
+                        },
+                        "RelatedOpenOrders": [],
+                        "SpotDate": "2019-11-27",
+                        "Status": "Open",
+                        "Uic": 21,
+                        "ValueDate": "2019-10-28T00:00:00.000000Z"
+                    },
+                    "PositionDetails": {
+                        "CorrelationKey": "bc88338c-7665-4609-b653-8a61f781cd41",
+                        "Greeks": {
+                            "Delta": -55722.38885,
+                            "DeltaCurrency": "EUR",
+                            "Gamma": -25123.60397,
+                            "GammaCurrency": "EUR",
+                            "InstrumentDelta": 0.55722,
+                            "InstrumentGamma": 22.56344,
+                            "InstrumentTheta": -0.00015,
+                            "InstrumentVega": 0.13045,
+                            "MidVol": 0.0531918,
+                            "Theta": 14.83637,
+                            "ThetaCurrency": "USD",
+                            "Vega": -130.4549,
+                            "VegaCurrency": "USD"
+                        },
+                        "LockedByBackOffice": false,
+                        "MarketValue": -837.0,
+                        "MarketValueOpen": 788.0
+                    },
+                    "PositionId": "1496942845",
+                    "PositionView": {
+                        "CalculationReliability": "Ok",
+                        "CurrentPrice": 0.00837,
+                        "CurrentPriceDelayMinutes": 0,
+                        "CurrentPriceType": "Ask",
+                        "Exposure": -55696.8883410422,
+                        "ExposureCurrency": "EUR",
+                        "ExposureInBaseCurrency": -62015.978807775142801,
+                        "InstrumentPriceDayPercentChange": 0.04,
+                        "ProfitLossOnTrade": -49.0,
+                        "ProfitLossOnTradeInBaseCurrency": -49.0,
+                        "TradeCostsTotal": 0.0,
+                        "TradeCostsTotalInBaseCurrency": 0.0
+                    }
+                }
+            ]
+        },
+        {
+            "DisplayAndFormat": {
+                "Currency": "EUR",
+                "Decimals": 2,
+                "Description": "Bayer AG",
+                "Format": "Normal",
+                "Symbol": "BAYN:xetr"
+            },
+            "Exchange": {
+                "Description": "Deutsche Börse (XETRA)",
+                "ExchangeId": "FSE",
+                "IsOpen": true
+            },
+            "NetPositionBase": {
+                "Amount": 100,
+                "AmountLong": 100,
+                "AmountShort": 0,
+                "AssetType": "Stock",
+                "CanBeClosed": true,
+                "ClientId": "2147338801",
+                "IsMarketOpen": true,
+                "NumberOfRelatedOrders": 0,
+                "OpeningDirection": "Buy",
+                "PositionsAccount": "xmiha_2",
+                "SinglePositionId": "158035741",
+                "SinglePositionStatus": "Open",
+                "Uic": 39731
+            },
+            "NetPositionId": "BAYN:xetr__Share",
+            "NetPositionView": {
+                "Ask": 77.21,
+                "AverageOpenPrice": 1,
+                "Bid": 77.19,
+                "CalculationReliability": "OkWithConditions",
+                "ConversionRateCurrent": 1.099775,
+                "CurrentPrice": 77.2,
+                "CurrentPriceDelayMinutes": 15,
+                "CurrentPriceLastTraded": "2020-02-10T15:28:50.801000Z",
+                "CurrentPriceType": "LastTraded",
+                "Exposure": 7720,
+                "ExposureCurrency": "EUR",
+                "ExposureInBaseCurrency": 8490.263,
+                "InstrumentPriceDayPercentChange": -0.55,
+                "MarketValue": 768000,
+                "MarketValueInBaseCurrency": 118176.31,
+                "MarketValueOpen": -100,
+                "MarketValueOpenInBaseCurrency": -15.38,
+                "PositionCount": 1,
+                "PositionsAverageBuyPrice": 1,
+                "PositionsAverageSellPrice": 0,
+                "PositionsNotClosedCount": 1,
+                "ProfitLossOnTrade": 7620,
+                "ProfitLossOnTradeInBaseCurrency": 8380.29,
+                "Status": "Open",
+                "TradeCostsTotal": -40,
+                "TradeCostsTotalInBaseCurrency": -43.99
+            },
+            "SinglePosition": {
+                "PositionBase": {
+                    "AccountId": "xmiha_2",
+                    "AccountKey": "WZDwYksA|rmRyI26rvJ1fA==",
+                    "Amount": 100,
+                    "AssetType": "Stock",
+                    "CanBeClosed": true,
+                    "ClientId": "2147338801",
+                    "CloseConversionRateSettled": false,
+                    "CorrelationKey": "d2459fd8-cc2e-4a9f-b99a-e384cdccda9a",
+                    "ExecutionTimeOpen": "2020-02-10T10:59:44.000000Z",
+                    "IsForceOpen": false,
+                    "IsMarketOpen": true,
+                    "OpenPrice": 1,
+                    "RelatedOpenOrders": [],
+                    "SourceOrderId": "59838500",
+                    "Status": "Open",
+                    "Uic": 39731,
+                    "ValueDate": "2020-02-12T00:00:00.000000Z"
+                },
+                "PositionId": "158035741",
+                "PositionView": {
+                    "Ask": 77.21,
+                    "Bid": 77.19,
+                    "CalculationReliability": "OkWithConditions",
+                    "ConversionRateCurrent": 1.099775,
+                    "ConversionRateOpen": 1.099775,
+                    "CurrentPrice": 77.2,
+                    "CurrentPriceDelayMinutes": 15,
+                    "CurrentPriceLastTraded": "2020-02-10T15:28:50.801000Z",
+                    "CurrentPriceType": "LastTraded",
+                    "Exposure": 7720,
+                    "ExposureCurrency": "EUR",
+                    "ExposureInBaseCurrency": 8490.263,
+                    "InstrumentPriceDayPercentChange": -0.55,
+                    "MarketValue": 7720,
+                    "ProfitLossOnTrade": 7620,
+                    "ProfitLossOnTradeInBaseCurrency": 8380.29,
+                    "TradeCostsTotal": -40,
+                    "TradeCostsTotalInBaseCurrency": -43.99
+                }
+            }
+        },
+        {
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 2,
+                "Description": "GS EM MKTS DEBT POR BS (USD) ACC",
+                "Format": "Normal",
+                "Symbol": "GSGEMBA.MFU"
+            },
+            "Exchange": {
+                "Description": "Mutual Funds",
+                "ExchangeId": "MTU",
+                "IsOpen": true
+            },
+            "NetPositionBase": {
+                "AccountId": "test1",
+                "Amount": 500,
+                "AssetType": "MutualFund",
+                "CanBeClosed": true,
+                "ClientId": "996043",
+                "IsMarketOpen": true,
+                "NumberOfRelatedOrders": 0,
+                "PositionsAccount": "125231INET",
+                "SinglePositionId": "1447560216",
+                "SinglePositionStatus": "Open",
+                "Uic": 9878531
+            },
+            "NetPositionId": "GSGEMBA.MFU__MF",
+            "NetPositionView": {
+                "AverageOpenPrice": 23.27,
+                "CalculationReliability": "Ok",
+                "CurrentPrice": 23.27,
+                "CurrentPriceDelayMinutes": 0,
+                "CurrentPriceType": "Mid",
+                "Exposure": 11635,
+                "ExposureCurrency": "USD",
+                "ExposureInBaseCurrency": 10304.42,
+                "InstrumentPriceDayPercentChange": 0.43,
+                "MarketValue": 768000,
+                "MarketValueInBaseCurrency": 118176.31,
+                "MarketValueOpen": -100,
+                "MarketValueOpenInBaseCurrency": -15.38,
+                "PositionCount": 1,
+                "PositionsNotClosedCount": 1,
+                "ProfitLossCurrencyConversion": -102.4,
+                "ProfitLossOnTrade": 0,
+                "ProfitLossOnTradeInBaseCurrency": 0,
+                "Status": "Open",
+                "TradeCostsTotal": 0,
+                "TradeCostsTotalInBaseCurrency": 0
+            },
+            "SinglePosition": {
+                "PositionBase": {
+                    "AccountId": "test1",
+                    "Amount": 500,
+                    "AssetType": "MutualFund",
+                    "CanBeClosed": false,
+                    "ClientId": "996043",
+                    "CloseConversionRateSettled": false,
+                    "CorrelationKey": "4e557783-b8d7-48ba-8c50-62bb9b2801dd",
+                    "ExecutionTimeOpen": "2019-07-02T08:47:39.196177Z",
+                    "IsMarketOpen": true,
+                    "OpenPrice": 23.27,
+                    "RelatedOpenOrders": [],
+                    "Status": "Open",
+                    "Uic": 9878531,
+                    "ValueDate": "2019-07-04T00:00:00.000000Z"
+                },
+                "PositionId": "1447560216",
+                "PositionView": {
+                    "CalculationReliability": "Ok",
+                    "ConversionRateCurrent": 0.8812118,
+                    "ConversionRateOpen": 0.89001292,
+                    "CurrentPrice": 23.27,
+                    "CurrentPriceDelayMinutes": 0,
+                    "CurrentPriceType": "Mid",
+                    "Exposure": 11635,
+                    "ExposureCurrency": "USD",
+                    "ExposureInBaseCurrency": 10304.4214,
+                    "InstrumentPriceDayPercentChange": 0.43,
+                    "ProfitLossCurrencyConversion": -102.4,
+                    "ProfitLossOnTrade": 0,
+                    "ProfitLossOnTradeInBaseCurrency": 0,
+                    "TradeCostsTotal": 0,
+                    "TradeCostsTotalInBaseCurrency": 0
+                }
+            }
+        },
+        {
+            "DisplayAndFormat": {
+                "Currency": "DKK",
+                "Decimals": 2,
+                "Description": "Nykredit 5% 01 Oct 2019, DKK",
+                "Format": "Normal",
+                "Symbol": "5NYK2C 19"
+            },
+            "Exchange": {
+                "Description": "NASDAQ OMX Copenhagen Bonds",
+                "ExchangeId": "CSE_BONDS",
+                "IsOpen": true
+            },
+            "NetPositionBase": {
+                "AccountId": "test1",
+                "Amount": 200000,
+                "AssetType": "Bond",
+                "CanBeClosed": true,
+                "ClientId": "3331602",
+                "ExpiryDate": "2019-10-01T00:00:00.000000Z",
+                "FixedIncomeData": {
+                    "ClosedAccruedInterest": 1467.39,
+                    "ClosedAccruedInterestInBaseCurrency": 175.97,
+                    "OpenAccruedInterest": -1467.39,
+                    "OpenAccruedInterestInBaseCurrency": -177.75
+                },
+                "NumberOfRelatedOrders": 0,
+                "PositionsAccount": "125231INET",
+                "SinglePositionId": "1294676381",
+                "SinglePositionStatus": "Open",
+                "Uic": 10472953,
+                "ValueDate": "2018-08-24T00:00:00.000000Z"
+            },
+            "NetPositionId": "5NYK2C__19__BO",
+            "NetPositionView": {
+                "AverageOpenPrice": 102.6,
+                "CalculationReliability": "Ok",
+                "CurrentPrice": 102.6,
+                "CurrentPriceDelayMinutes": 0,
+                "CurrentPriceType": "Indicative",
+                "Exposure": 206667.39,
+                "ExposureCurrency": "DKK",
+                "ExposureInBaseCurrency": 24908.46,
+                "InstrumentPriceDayPercentChange": -49.71,
+                "PositionCount": 1,
+                "PositionsNotClosedCount": 1,
+                "ProfitLossCurrencyConversion": -250.55,
+                "ProfitLossOnTrade": 0,
+                "ProfitLossOnTradeInBaseCurrency": 0,
+                "Status": "Open",
+                "TradeCostsTotal": -1193.42,
+                "TradeCostsTotalInBaseCurrency": -143.84
+            },
+            "SinglePosition": {
+                "PositionBase": {
+                    "AccountId": "test1",
+                    "Amount": 200000,
+                    "AssetType": "Bond",
+                    "CanBeClosed": true,
+                    "ClientId": "3331602",
+                    "CloseConversionRateSettled": false,
+                    "CorrelationKey": "f9b8bcd7-aa01-42ff-80b7-5f613961bcc4",
+                    "ExecutionTimeOpen": "2018-08-22T12:33:29.519495Z",
+                    "ExpiryDate": "2019-10-01T00:00:00.000000Z",
+                    "FixedIncomeData": {
+                        "ClosedAccruedInterest": 1467.39,
+                        "ClosedAccruedInterestInBaseCurrency": 175.97,
+                        "Duration": -1,
+                        "EffectiveYield": 0,
+                        "OpenAccruedInterest": -1467.39,
+                        "OpenAccruedInterestInBaseCurrency": -177.75
+                    },
+                    "OpenPrice": 102.6,
+                    "RelatedOpenOrders": [],
+                    "SourceOrderId": "253224617",
+                    "Status": "Open",
+                    "Uic": 10472953,
+                    "ValueDate": "2018-08-24T00:00:00.000000Z"
+                },
+                "PositionId": "1294676381",
+                "PositionView": {
+                    "CalculationReliability": "Ok",
+                    "ConversionRateCurrent": 0.119921782975,
+                    "ConversionRateOpen": 0.1211341,
+                    "CurrentPrice": 102.6,
+                    "CurrentPriceDelayMinutes": 0,
+                    "CurrentPriceType": "Indicative",
+                    "Exposure": 206667.391304348,
+                    "ExposureCurrency": "DKK",
+                    "ExposureInBaseCurrency": 24908.464369858717,
+                    "InstrumentPriceDayPercentChange": -49.71,
+                    "ProfitLossCurrencyConversion": -250.55,
+                    "ProfitLossOnTrade": 0,
+                    "ProfitLossOnTradeInBaseCurrency": 0,
+                    "TradeCostsTotal": -1193.42,
+                    "TradeCostsTotalInBaseCurrency": -143.84
+                }
+            },
+            "LastUpdated": "2018-08-22T12:33:59.511Z",
+            "CurrentPriceDirection": "eq"
+        },
+        {
+            "DisplayAndFormat": {
+                "Currency": "EUR",
+                "Decimals": 3,
+                "Description": "Kingdom of Spain 0% 17 Apr 2020, EUR",
+                "Format": "Normal",
+                "Symbol": "SPAIN-0-17APR20"
+            },
+            "Exchange": {
+                "Description": "Bonds Europe Government",
+                "ExchangeId": "EU_GOV",
+                "IsOpen": true
+            },
+            "NetPositionBase": {
+                "AccountId": "test1",
+                "Amount": 150,
+                "AmountLong": 150,
+                "AmountShort": 0,
+                "AssetType": "Bond",
+                "CanBeClosed": true,
+                "ClientId": "2117737",
+                "ExpiryDate": "2020-04-17T00:00:00.000000Z",
+                "FixedIncomeData": {
+                    "ClosedAccruedInterest": 0,
+                    "ClosedAccruedInterestInBaseCurrency": 0,
+                    "OpenAccruedInterest": 0,
+                    "OpenAccruedInterestInBaseCurrency": 0
+                },
+                "HasForceOpenPositions": false,
+                "IsMarketOpen": true,
+                "NumberOfRelatedOrders": 0,
+                "OpeningDirection": "Buy",
+                "OpenOrdersCount": 0,
+                "PositionsAccount": "test1",
+                "SinglePositionId": "1583252505",
+                "SinglePositionStatus": "Open",
+                "Uic": 14446419,
+                "ValueDate": "2020-04-08T00:00:00.000000Z"
+            },
+            "NetPositionId": "SPAIN-0-17APR20__BO",
+            "NetPositionView": {
+                "Ask": 100.028,
+                "AverageOpenPrice": 100.03,
+                "Bid": 99.983,
+                "CalculationReliability": "Ok",
+                "ConversionRateCurrent": 1.05611,
+                "CurrentPrice": 100.006,
+                "CurrentPriceDelayMinutes": 0,
+                "CurrentPriceLastTraded": "1899-12-30T00:00:00.000000Z",
+                "CurrentPriceType": "Indicative",
+                "Exposure": 150.00825,
+                "ExposureCurrency": "EUR",
+                "ExposureInBaseCurrency": 158.4252129075,
+                "InstrumentPriceDayPercentChange": 0,
+                "MarketValue": 768000,
+                "MarketValueInBaseCurrency": 118176.31,
+                "MarketValueOpen": -100,
+                "MarketValueOpenInBaseCurrency": -15.38,
+                "PositionCount": 1,
+                "PositionsAverageBuyPrice": 100.03,
+                "PositionsAverageSellPrice": 0,
+                "PositionsNotClosedCount": 1,
+                "ProfitLossCurrencyConversion": -1.56,
+                "ProfitLossOnTrade": -0.04,
+                "ProfitLossOnTradeInBaseCurrency": -0.04,
+                "Status": "Open",
+                "TradeCostsTotal": -160,
+                "TradeCostsTotalInBaseCurrency": -168.96
+            },
+            "SinglePosition": {
+                "PositionBase": {
+                    "AccountId": "test1",
+                    "AccountKey": "-qukYYCpEBgFglkHwq4mCQ==",
+                    "Amount": 150,
+                    "AssetType": "Bond",
+                    "CanBeClosed": true,
+                    "ClientId": "2117737",
+                    "CloseConversionRateSettled": false,
+                    "CorrelationKey": "1e238f43-8056-492d-b7f8-2983a3aaf8cf",
+                    "ExecutionTimeOpen": "2020-04-08T10:57:46.183761Z",
+                    "ExpiryDate": "2020-04-17T00:00:00.000000Z",
+                    "FixedIncomeData": {
+                        "ClosedAccruedInterest": 0,
+                        "ClosedAccruedInterestInBaseCurrency": 0,
+                        "Duration": -1,
+                        "EffectiveYield": -0.103455621,
+                        "OpenAccruedInterest": 0,
+                        "OpenAccruedInterestInBaseCurrency": 0
+                    },
+                    "IsForceOpen": false,
+                    "IsMarketOpen": true,
+                    "OpenPrice": 100.03,
+                    "RelatedOpenOrders": [],
+                    "Status": "Open",
+                    "Uic": 14446419,
+                    "ValueDate": "2020-04-08T00:00:00.000000Z"
+                },
+                "PositionId": "1583252505",
+                "PositionView": {
+                    "Ask": 100.028,
+                    "Bid": 99.983,
+                    "CalculationReliability": "Ok",
+                    "ConversionRateCurrent": 1.05082945,
+                    "ConversionRateOpen": 1.0611996,
+                    "CurrentPrice": 100.006,
+                    "CurrentPriceDelayMinutes": 0,
+                    "CurrentPriceLastTraded": "1899-12-30T00:00:00.000000Z",
+                    "CurrentPriceType": "Indicative",
+                    "Exposure": 150.00825,
+                    "ExposureCurrency": "EUR",
+                    "ExposureInBaseCurrency": 158.4252129075,
+                    "InstrumentPriceDayPercentChange": 0,
+                    "MarketValue": 150.01,
+                    "ProfitLossCurrencyConversion": -1.56,
+                    "ProfitLossOnTrade": -0.04,
+                    "ProfitLossOnTradeInBaseCurrency": -0.04,
+                    "TradeCostsTotal": -160,
+                    "TradeCostsTotalInBaseCurrency": -168.96
+                }
+            }
+        },
+        {
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 4,
+                "Description": "GBP/US Dollar",
+                "Format": "AllowDecimalPips",
+                "Symbol": "GBPUSD"
+            },
+            "Exchange": {
+                "Description": "Inter Bank",
+                "ExchangeId": "SBFX",
+                "IsOpen": true
+            },
+            "NetPositionBase": {
+                "AccountId": "test1",
+                "Amount": 90000,
+                "AssetType": "FxVanillaOption",
+                "CanBeClosed": true,
+                "ClientId": "3294827",
+                "IsMarketOpen": true,
+                "NumberOfRelatedOrders": 2,
+                "OpenOrdersCount": 23,
+                "PositionsAccount": "test1",
+                "Uic": 5,
+                "ValueDate": "2019-09-19T00:00:00.000000Z"
+            },
+            "NetPositionId": "GBPUSD__FxVanillaOption",
+            "NetPositionView": {
+                "AverageOpenPrice": 0.68419,
+                "CalculationReliability": "Ok",
+                "CurrentPrice": 0.68423,
+                "CurrentPriceDelayMinutes": 0,
+                "CurrentPriceType": "Bid",
+                "Exposure": 90000,
+                "ExposureCurrency": "GBP",
+                "ExposureInBaseCurrency": 61582.05,
+                "MarketValue": 768000,
+                "MarketValueInBaseCurrency": 118176.31,
+                "MarketValueOpen": -100,
+                "MarketValueOpenInBaseCurrency": -15.38,
+                "InstrumentPriceDayPercentChange": -0.34,
+                "PositionCount": 1,
+                "PositionsNotClosedCount": 1,
+                "ProfitLossOnTrade": 4.3,
+                "ProfitLossOnTradeInBaseCurrency": 4.3,
+                "Status": "Open",
+                "TradeCostsTotal": -9.5,
+                "TradeCostsTotalInBaseCurrency": -9.5
+            },
+            "Positions": [
+                {
+                    "PositionBase": {
+                        "AccountId": "test1",
+                        "Amount": 45000,
+                        "AssetType": "FxVanillaOption",
+                        "CanBeClosed": true,
+                        "ClientId": "3294827",
+                        "IsMarketOpen": true,
+                        "OpenPrice": 0.68419,
+                        "Uic": 5,
+                        "ValueDate": "2019-09-19T00:00:00.000000Z",
+                        "RelatedOpenOrders": [
+                            {
+                                "Amount": 100000,
+                                "Duration": {
+                                    "DurationType": "GoodTillCancel"
+                                },
+                                "OpenOrderType": "Limit",
+                                "OrderId": "2688885213",
+                                "OrderPrice": 0.7158
+                            },
+                            {
+                                "Amount": 100000,
+                                "Duration": {
+                                    "DurationType": "GoodTillCancel"
+                                },
+                                "OpenOrderType": "Stop",
+                                "OrderId": "268888524",
+                                "OrderPrice": 0.70585
+                            }
+                        ],
+                        "Status": "Open"
+                    },
+                    "PositionDetails": {
+                        "Greeks": {
+                            "Delta": 11251.07816,
+                            "DeltaCurrency": "GBP",
+                            "Gamma": -20141.50856,
+                            "GammaCurrency": "GBP",
+                            "InstrumentDelta": -11.25108,
+                            "InstrumentGamma": 20.14151,
+                            "InstrumentTheta": -0.00485,
+                            "InstrumentVega": 0.07994,
+                            "MidVol": 0.0435,
+                            "Theta": 4.84521,
+                            "ThetaCurrency": "USD",
+                            "Vega": -79.93548,
+                            "VegaCurrency": "USD"
+                        },
+                        "LockedByBackOffice": false,
+                        "MarketValue": -129.5,
+                        "MarketValueOpen": 66.4,
+                        "OpenInterest": 0.0
+                    },
+                    "PositionId": "13259040689",
+                    "PositionView": {
+                        "AverageOpenPrice": 0.68419,
+                        "CalculationReliability": "Ok",
+                        "CurrentPrice": 0.68423,
+                        "CurrentPriceDelayMinutes": 0,
+                        "CurrentPriceType": "Bid",
+                        "Exposure": 45000,
+                        "ExposureCurrency": "GBP",
+                        "ExposureInBaseCurrency": 61582.05,
+                        "InstrumentPriceDayPercentChange": -0.34,
+                        "ProfitLossOnTrade": 4.3,
+                        "ProfitLossOnTradeInBaseCurrency": 4.3,
+                        "TradeCostsTotal": -9.5,
+                        "TradeCostsTotalInBaseCurrency": -9.5
+                    }
+                }
+            ],
+            "SinglePosition": {
+                "PositionBase": {
+                    "AccountId": "test1",
+                    "Amount": 45000,
+                    "AssetType": "FxVanillaOption",
+                    "CanBeClosed": true,
+                    "ClientId": "3294827",
+                    "IsMarketOpen": true,
+                    "OpenPrice": 0.68419,
+                    "Uic": 5,
+                    "ValueDate": "2019-09-19T00:00:00.000000Z",
+                    "RelatedOpenOrders": [
+                        {
+                            "Amount": 100000,
+                            "Duration": {
+                                "DurationType": "GoodTillCancel"
+                            },
+                            "OpenOrderType": "Limit",
+                            "OrderId": "268888521",
+                            "OrderPrice": 0.7158
+                        },
+                        {
+                            "Amount": 100000,
+                            "Duration": {
+                                "DurationType": "GoodTillCancel"
+                            },
+                            "OpenOrderType": "Stop",
+                            "OrderId": "2688885221",
+                            "OrderPrice": 0.70585
+                        }
+                    ]
+                },
+                "PositionId": "13259040689",
+                "PositionView": {
+                    "AverageOpenPrice": 0.68419,
+                    "CalculationReliability": "Ok",
+                    "CurrentPrice": 0.68423,
+                    "CurrentPriceDelayMinutes": 0,
+                    "CurrentPriceType": "Bid",
+                    "Exposure": 45000,
+                    "ExposureCurrency": "GBP",
+                    "ExposureInBaseCurrency": 61582.05,
+                    "InstrumentPriceDayPercentChange": -0.34,
+                    "ProfitLossOnTrade": 4.3,
+                    "ProfitLossOnTradeInBaseCurrency": 4.3,
+                    "Status": "Open",
+                    "TradeCostsTotal": -9.5,
+                    "TradeCostsTotalInBaseCurrency": -9.5
+                }
+            }
+        },
+        {
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 4,
+                "Description": "Australian Dollar/US Dollar",
+                "Format": "AllowDecimalPips",
+                "Symbol": "AUDUSD"
+            },
+            "Exchange": {
+                "Description": "Inter Bank",
+                "ExchangeId": "SBFX",
+                "IsOpen": true
+            },
+            "NetPositionBase": {
+                "AccountId": "test1",
+                "Amount": 90000,
+                "AssetType": "FxVanillaOption",
+                "CanBeClosed": true,
+                "ClientId": "3294827",
+                "IsMarketOpen": true,
+                "NumberOfRelatedOrders": 2,
+                "OpenOrdersCount": 5,
+                "PositionsAccount": "test1",
+                "Uic": 4,
+                "ValueDate": "2019-09-19T00:00:00.000000Z"
+            },
+            "NetPositionId": "AUDUSD__FxVanillaOption",
+            "NetPositionView": {
+                "AverageOpenPrice": 0.68419,
+                "CalculationReliability": "Ok",
+                "CurrentPrice": 0.68423,
+                "CurrentPriceDelayMinutes": 0,
+                "CurrentPriceType": "Bid",
+                "Exposure": 90000,
+                "ExposureCurrency": "AUD",
+                "ExposureInBaseCurrency": 61582.05,
+                "MarketValue": 768000,
+                "MarketValueInBaseCurrency": 118176.31,
+                "MarketValueOpen": -100,
+                "MarketValueOpenInBaseCurrency": -15.38,
+                "InstrumentPriceDayPercentChange": -0.34,
+                "PositionCount": 2,
+                "PositionsNotClosedCount": 2,
+                "ProfitLossOnTrade": 4.3,
+                "ProfitLossOnTradeInBaseCurrency": 4.3,
+                "Status": "Open",
+                "TradeCostsTotal": -9.5,
+                "TradeCostsTotalInBaseCurrency": -9.5
+            },
+            "NetPositionDetails": {
+                "Greeks": {
+                    "Delta": 215627.40548,
+                    "DeltaCurrency": "AUD",
+                    "Gamma": 76260.66454,
+                    "GammaCurrency": "AUD",
+                    "InstrumentDelta": 0.71876,
+                    "InstrumentGamma": 0.2542,
+                    "InstrumentTheta": -0.0001,
+                    "InstrumentVega": 0.00051,
+                    "MidVol": 0.0652677,
+                    "Theta": -30.5523,
+                    "ThetaCurrency": "USD",
+                    "Vega": 153.85583,
+                    "VegaCurrency": "USD"
+                },
+                "MarketValue": -835.0,
+                "MarketValueInBaseCurrency": -835.0,
+                "MarketValueOpen": 788.0,
+                "MarketValueOpenInBaseCurrency": 788.0
+            },
+            "Positions": [
+                {
+                    "PositionBase": {
+                        "AccountId": "test1",
+                        "Amount": 45000,
+                        "AssetType": "FxVanillaOption",
+                        "CanBeClosed": true,
+                        "ClientId": "3294827",
+                        "IsMarketOpen": true,
+                        "OpenPrice": 0.68419,
+                        "Uic": 4,
+                        "ValueDate": "2019-09-19T00:00:00.000000Z",
+                        "RelatedOpenOrders": [
+                            {
+                                "Amount": 100000,
+                                "Duration": {
+                                    "DurationType": "GoodTillCancel"
+                                },
+                                "OpenOrderType": "Limit",
+                                "OrderId": "2688885212",
+                                "OrderPrice": 0.7158
+                            },
+                            {
+                                "Amount": 100000,
+                                "Duration": {
+                                    "DurationType": "GoodTillCancel"
+                                },
+                                "OpenOrderType": "Stop",
+                                "OrderId": "268888522",
+                                "OrderPrice": 0.70585
+                            }
+                        ]
+                    },
+                    "PositionDetails": {
+                        "Greeks": {
+                            "Delta": 11251.07816,
+                            "DeltaCurrency": "AUD",
+                            "Gamma": -20141.50856,
+                            "GammaCurrency": "AUD",
+                            "InstrumentDelta": -11.25108,
+                            "InstrumentGamma": 20.14151,
+                            "InstrumentTheta": -0.00485,
+                            "InstrumentVega": 0.07994,
+                            "MidVol": 0.0435,
+                            "Theta": 4.84521,
+                            "ThetaCurrency": "USD",
+                            "Vega": -79.93548,
+                            "VegaCurrency": "USD"
+                        },
+                        "LockedByBackOffice": false,
+                        "MarketValue": -129.5,
+                        "MarketValueOpen": 66.4,
+                        "OpenInterest": 0.0
+                    },
+                    "PositionId": "1325904054",
+                    "PositionView": {
+                        "AverageOpenPrice": 0.68419,
+                        "CalculationReliability": "Ok",
+                        "CurrentPrice": 0.68423,
+                        "CurrentPriceDelayMinutes": 0,
+                        "CurrentPriceType": "Bid",
+                        "Exposure": 45000,
+                        "ExposureCurrency": "AUD",
+                        "ExposureInBaseCurrency": 61582.05,
+                        "InstrumentPriceDayPercentChange": -0.34,
+                        "ProfitLossOnTrade": 4.3,
+                        "ProfitLossOnTradeInBaseCurrency": 4.3,
+                        "Status": "Open",
+                        "TradeCostsTotal": -9.5,
+                        "TradeCostsTotalInBaseCurrency": -9.5
+                    }
+                },
+                {
+                    "PositionBase": {
+                        "AccountId": "test1",
+                        "Amount": 45000,
+                        "AssetType": "FxVanillaOption",
+                        "CanBeClosed": true,
+                        "ClientId": "3294827",
+                        "IsMarketOpen": true,
+                        "OpenPrice": 0.68419,
+                        "Uic": 4,
+                        "ValueDate": "2019-09-19T00:00:00.000000Z",
+                        "RelatedOpenOrders": []
+                    },
+                    "PositionDetails": {
+                        "Greeks": {
+                            "Delta": 11251.07816,
+                            "DeltaCurrency": "AUD",
+                            "Gamma": -20141.50856,
+                            "GammaCurrency": "AUD",
+                            "InstrumentDelta": -11.25108,
+                            "InstrumentGamma": 20.14151,
+                            "InstrumentTheta": -0.00485,
+                            "InstrumentVega": 0.07994,
+                            "MidVol": 0.0435,
+                            "Theta": 4.84521,
+                            "ThetaCurrency": "USD",
+                            "Vega": -79.93548,
+                            "VegaCurrency": "USD"
+                        },
+                        "LockedByBackOffice": false,
+                        "MarketValue": -129.5,
+                        "MarketValueOpen": 66.4,
+                        "OpenInterest": 0.0
+                    },
+                    "PositionId": "1325904069",
+                    "PositionView": {
+                        "AverageOpenPrice": 0.68419,
+                        "CalculationReliability": "Ok",
+                        "CurrentPrice": 0.68423,
+                        "CurrentPriceDelayMinutes": 0,
+                        "CurrentPriceType": "Bid",
+                        "Exposure": 45000,
+                        "ExposureCurrency": "AUD",
+                        "ExposureInBaseCurrency": 61582.05,
+                        "InstrumentPriceDayPercentChange": -0.34,
+                        "ProfitLossOnTrade": 4.3,
+                        "ProfitLossOnTradeInBaseCurrency": 4.3,
+                        "Status": "Open",
+                        "TradeCostsTotal": -9.5,
+                        "TradeCostsTotalInBaseCurrency": -9.5
+                    }
+                }
+            ]
+        }
+    ]
+}

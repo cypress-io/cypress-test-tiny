@@ -1,0 +1,24 @@
+{
+    "Instruments": [
+        {
+            "AssetType": "Stock",
+            "Description": "Ambu A/S",
+            "Symbol": "AMBUb:xcse",
+            "Uic": 15254,
+            "WatchlistInstrumentId": "5",
+            "Amount": 7147
+        },
+        {
+            "AssetType": "Stock",
+            "Description": "Apple Inc.",
+            "Symbol": "AAPL:xnas",
+            "Uic": 211,
+            "WatchlistInstrumentId": "6",
+            "Amount": 5895
+        }
+    ],
+    "Name": "Small Stocks Watchlist",
+    "PrimaryAssetType": "Stock",
+    "Type": "UserDefined",
+    "WatchlistId": "11147"
+}

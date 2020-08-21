@@ -1,0 +1,2435 @@
+{
+    "OptionSets": [
+        {
+            "Key": "IitIntendtoinvest",
+            "Options": [
+                {
+                    "Key": "_5000_",
+                    "Value": "< 5,000 (€)"
+                },
+                {
+                    "Key": "_5001_10000_",
+                    "Value": "5,001 - 10,000 (€)"
+                },
+                {
+                    "Key": "_10001_50000_",
+                    "Value": "10,001 - 50,000 (€)"
+                },
+                {
+                    "Key": "_50001_100000_",
+                    "Value": "50,001 - 100,000 (€)"
+                },
+                {
+                    "Key": "_100001_200000_",
+                    "Value": "100,001 - 200,000 (€)"
+                },
+                {
+                    "Key": "_200001_300000_",
+                    "Value": "200,001 - 300,000 (€)"
+                },
+                {
+                    "Key": "_300001_400000_",
+                    "Value": "300,001 - 400,000 (€)"
+                },
+                {
+                    "Key": "_400001_500000_",
+                    "Value": "400,001 - 500,000 (€)"
+                },
+                {
+                    "Key": "_500001_750000_",
+                    "Value": "500,001 - 750,000 (€)"
+                },
+                {
+                    "Key": "_750001_1000000_",
+                    "Value": "750,001 - 1,000,000 (€)"
+                },
+                {
+                    "Key": "_1000001_1500000_",
+                    "Value": "1,000,001 - 1,500,000 (€)"
+                },
+                {
+                    "Key": "_1500001_2000000_",
+                    "Value": "1,500,001 - 2,000,000 (€)"
+                },
+                {
+                    "Key": "_2000001_3000000_",
+                    "Value": "2,000,001 - 3,000,000 (€)"
+                },
+                {
+                    "Key": "_3000001_4000000_",
+                    "Value": "3,000,001 - 4,000,000 (€)"
+                },
+                {
+                    "Key": "_4000001_5000000_",
+                    "Value": "4,000,001 - 5,000,000 (€)"
+                },
+                {
+                    "Key": "_5000000_",
+                    "Value": "> 5,000,000 (€)"
+                }
+            ]
+        },
+        {
+            "Key": "iit_renewaliit_investableassets",
+            "Options": [
+                {
+                    "Key": "_5000_",
+                    "Value": "< 5,000 (€)"
+                },
+                {
+                    "Key": "_5001_10000_",
+                    "Value": "5,001 - 10,000 (€)"
+                },
+                {
+                    "Key": "_10001_50000_",
+                    "Value": "10,001 - 50,000 (€)"
+                },
+                {
+                    "Key": "_50001_100000_",
+                    "Value": "50,001 - 100,000 (€)"
+                },
+                {
+                    "Key": "_100001_200000_",
+                    "Value": "100,001 - 200,000 (€)"
+                },
+                {
+                    "Key": "_200001_300000_",
+                    "Value": "200,001 - 300,000 (€)"
+                },
+                {
+                    "Key": "_300001_400000_",
+                    "Value": "300,001 - 400,000 (€)"
+                },
+                {
+                    "Key": "_400001_500000_",
+                    "Value": "400,001 - 500,000 (€)"
+                },
+                {
+                    "Key": "_500001_750000_",
+                    "Value": "500,001 - 750,000 (€)"
+                },
+                {
+                    "Key": "_750001_1000000_",
+                    "Value": "750,001 - 1,000,000 (€)"
+                },
+                {
+                    "Key": "_1000001_1500000_",
+                    "Value": "1,000,001 - 1,500,000 (€)"
+                },
+                {
+                    "Key": "_1500001_2000000_",
+                    "Value": "1,500,001 - 2,000,000 (€)"
+                },
+                {
+                    "Key": "_2000001_3000000_",
+                    "Value": "2,000,001 - 3,000,000 (€)"
+                },
+                {
+                    "Key": "_3000001_4000000_",
+                    "Value": "3,000,001 - 4,000,000 (€)"
+                },
+                {
+                    "Key": "_4000001_5000000_",
+                    "Value": "4,000,001 - 5,000,000 (€)"
+                },
+                {
+                    "Key": "_5000000_",
+                    "Value": "> 5,000,000 (€)"
+                }
+            ]
+        },
+        {
+            "Key": "iit_renewaliit_natureofbusiness",
+            "Options": [
+                {
+                    "Key": "AntiqueArtdealersAuctionhouses",
+                    "Value": "Antique / Art dealers / Auction houses"
+                },
+                {
+                    "Key": "Attorneyatlaw",
+                    "Value": "Attorney at law"
+                },
+                {
+                    "Key": "Automotive",
+                    "Value": "Automotive"
+                },
+                {
+                    "Key": "CateringRestaurants",
+                    "Value": "Catering / Restaurants"
+                },
+                {
+                    "Key": "Cleaningservices",
+                    "Value": "Cleaning services"
+                },
+                {
+                    "Key": "ConstructionDemolition",
+                    "Value": "Construction / Demolition"
+                },
+                {
+                    "Key": "Digitalcurrencies",
+                    "Value": "Digital currencies"
+                },
+                {
+                    "Key": "GamblingBetting",
+                    "Value": "Gambling / Betting"
+                },
+                {
+                    "Key": "MoneyremittanceCurrencyexchangeproviders",
+                    "Value": "Money remittance / Currency exchange providers"
+                },
+                {
+                    "Key": "NonprofitCharity",
+                    "Value": "Non-profit / Charity"
+                },
+                {
+                    "Key": "Oilandgasexplorationandproduction",
+                    "Value": "Oil and gas exploration and production"
+                },
+                {
+                    "Key": "Preciousmetalsandstones",
+                    "Value": "Precious metals and stones"
+                },
+                {
+                    "Key": "Privatemilitaryfirms",
+                    "Value": "Private military firms"
+                },
+                {
+                    "Key": "Realestate",
+                    "Value": "Real Estate"
+                },
+                {
+                    "Key": "Noneoftheabove",
+                    "Value": "None of the above"
+                }
+            ]
+        },
+        {
+            "Key": "iit_renewaliit_personalidtype",
+            "Options": [
+                {
+                    "Key": "Passportnumber",
+                    "Value": "Passport number"
+                },
+                {
+                    "Key": "Driverslicensenumber",
+                    "Value": "Drivers license number"
+                },
+                {
+                    "Key": "Nationalidentitycard",
+                    "Value": "National identity card"
+                },
+                {
+                    "Key": "TaxIDnumber",
+                    "Value": "Tax ID number"
+                },
+                {
+                    "Key": "Other",
+                    "Value": "Other"
+                }
+            ]
+        },
+        {
+            "Key": "iit_renewaliit_salaryaftertax",
+            "Options": [
+                {
+                    "Key": "_050000_",
+                    "Value": "0-50.000 (€)"
+                },
+                {
+                    "Key": "_50001_100000_",
+                    "Value": "50,001 - 100,000 (€)"
+                },
+                {
+                    "Key": "_100001_150000_",
+                    "Value": "100.001 - 150.000 (€)"
+                },
+                {
+                    "Key": "_150001_200000_",
+                    "Value": "150.001 - 200.000 (€)"
+                },
+                {
+                    "Key": "_200001_500000_",
+                    "Value": "200.001 - 500.000 (€)"
+                },
+                {
+                    "Key": "_500001_750000_",
+                    "Value": "500,001 - 750,000 (€)"
+                },
+                {
+                    "Key": "_750001_1000000_",
+                    "Value": "750,001 - 1,000,000 (€)"
+                },
+                {
+                    "Key": "_1000001_2000000_",
+                    "Value": "1.000.001 - 2.000.000 (€)"
+                },
+                {
+                    "Key": "_2000001_3000000_",
+                    "Value": "2,000,001 - 3,000,000 (€)"
+                },
+                {
+                    "Key": "_3000001_4000000_",
+                    "Value": "3,000,001 - 4,000,000 (€)"
+                },
+                {
+                    "Key": "_4000001_5000000_",
+                    "Value": "4,000,001 - 5,000,000 (€)"
+                },
+                {
+                    "Key": "_5000000_",
+                    "Value": "> 5,000,000 (€)"
+                }
+            ]
+        },
+        {
+            "Key": "iit_renewaliit_totalamountofsecondarysourcesofincome",
+            "Options": [
+                {
+                    "Key": "_0_50000_",
+                    "Value": "0 - 50.000 (€)"
+                },
+                {
+                    "Key": "_50001_100000_",
+                    "Value": "50,001 - 100,000 (€)"
+                },
+                {
+                    "Key": "_100001_150000_",
+                    "Value": "100.001 - 150.000 (€)"
+                },
+                {
+                    "Key": "_150001_200000_",
+                    "Value": "150.001 - 200.000 (€)"
+                },
+                {
+                    "Key": "_200001_500000_",
+                    "Value": "200.001 - 500.000 (€)"
+                },
+                {
+                    "Key": "_500001_750000_",
+                    "Value": "500,001 - 750,000 (€)"
+                },
+                {
+                    "Key": "_750001_1000000_",
+                    "Value": "750,001 - 1,000,000 (€)"
+                },
+                {
+                    "Key": "_1000001_2000000_",
+                    "Value": "1.000.001 - 2.000.000 (€)"
+                },
+                {
+                    "Key": "_2000001_3000000_",
+                    "Value": "2,000,001 - 3,000,000 (€)"
+                },
+                {
+                    "Key": "_3000001_4000000_",
+                    "Value": "3,000,001 - 4,000,000 (€)"
+                },
+                {
+                    "Key": "_4000001_5000000_",
+                    "Value": "4,000,001 - 5,000,000 (€)"
+                },
+                {
+                    "Key": "_5000000_",
+                    "Value": "> 5,000,000 (€)"
+                }
+            ]
+        },
+        {
+            "Key": "iit_renewalStatusCode"
+        },
+        {
+            "Key": "iit_additionalnationalityandtaxresidenceiit_nationalidtype",
+            "Options": [
+                {
+                    "Key": "Passportnumber",
+                    "Value": "Passport number"
+                },
+                {
+                    "Key": "Driverslicensenumber",
+                    "Value": "Drivers license number"
+                },
+                {
+                    "Key": "Nationalidentitycard",
+                    "Value": "National identity card"
+                },
+                {
+                    "Key": "TaxIDnumber",
+                    "Value": "Tax ID number"
+                },
+                {
+                    "Key": "Other",
+                    "Value": "Other"
+                },
+                {
+                    "Key": "Unknown",
+                    "Value": "Unknown"
+                }
+            ]
+        },
+        {
+            "Key": "Countries",
+            "Options": [
+                {
+                    "Key": "AF",
+                    "Value": "Afghanistan"
+                },
+                {
+                    "Key": "AX",
+                    "Value": "Åland Islands"
+                },
+                {
+                    "Key": "AL",
+                    "Value": "Albania"
+                },
+                {
+                    "Key": "DZ",
+                    "Value": "Algeria"
+                },
+                {
+                    "Key": "AS",
+                    "Value": "American Samoa"
+                },
+                {
+                    "Key": "AD",
+                    "Value": "Andorra"
+                },
+                {
+                    "Key": "AO",
+                    "Value": "Angola"
+                },
+                {
+                    "Key": "AI",
+                    "Value": "Anguilla"
+                },
+                {
+                    "Key": "AQ",
+                    "Value": "Antarctica"
+                },
+                {
+                    "Key": "AG",
+                    "Value": "Antigua and Barbuda"
+                },
+                {
+                    "Key": "AR",
+                    "Value": "Argentina"
+                },
+                {
+                    "Key": "AM",
+                    "Value": "Armenia"
+                },
+                {
+                    "Key": "AW",
+                    "Value": "Aruba"
+                },
+                {
+                    "Key": "AU",
+                    "Value": "Australia"
+                },
+                {
+                    "Key": "AT",
+                    "Value": "Austria"
+                },
+                {
+                    "Key": "AZ",
+                    "Value": "Azerbaijan"
+                },
+                {
+                    "Key": "BS",
+                    "Value": "Bahamas"
+                },
+                {
+                    "Key": "BH",
+                    "Value": "Bahrain"
+                },
+                {
+                    "Key": "BD",
+                    "Value": "Bangladesh"
+                },
+                {
+                    "Key": "BB",
+                    "Value": "Barbados"
+                },
+                {
+                    "Key": "BY",
+                    "Value": "Belarus"
+                },
+                {
+                    "Key": "BE",
+                    "Value": "Belgium"
+                },
+                {
+                    "Key": "BZ",
+                    "Value": "Belize"
+                },
+                {
+                    "Key": "BJ",
+                    "Value": "Benin"
+                },
+                {
+                    "Key": "BM",
+                    "Value": "Bermuda"
+                },
+                {
+                    "Key": "BT",
+                    "Value": "Bhutan"
+                },
+                {
+                    "Key": "BO",
+                    "Value": "Bolivia"
+                },
+                {
+                    "Key": "BA",
+                    "Value": "Bosnia And Herzegovina"
+                },
+                {
+                    "Key": "BW",
+                    "Value": "Botswana"
+                },
+                {
+                    "Key": "BV",
+                    "Value": "Bouvet Island"
+                },
+                {
+                    "Key": "BR",
+                    "Value": "Brazil"
+                },
+                {
+                    "Key": "IO",
+                    "Value": "British Indian Ocean Territory"
+                },
+                {
+                    "Key": "BN",
+                    "Value": "Brunei Darussalam"
+                },
+                {
+                    "Key": "BG",
+                    "Value": "Bulgaria"
+                },
+                {
+                    "Key": "BF",
+                    "Value": "Burkina Faso"
+                },
+                {
+                    "Key": "BI",
+                    "Value": "Burundi"
+                },
+                {
+                    "Key": "KH",
+                    "Value": "Cambodia"
+                },
+                {
+                    "Key": "CM",
+                    "Value": "Cameroon"
+                },
+                {
+                    "Key": "CA",
+                    "Value": "Canada"
+                },
+                {
+                    "Key": "CV",
+                    "Value": "Cape Verde"
+                },
+                {
+                    "Key": "KY",
+                    "Value": "Cayman Islands"
+                },
+                {
+                    "Key": "CF",
+                    "Value": "Central African Republic"
+                },
+                {
+                    "Key": "TD",
+                    "Value": "Chad"
+                },
+                {
+                    "Key": "CL",
+                    "Value": "Chile"
+                },
+                {
+                    "Key": "CN",
+                    "Value": "China"
+                },
+                {
+                    "Key": "CX",
+                    "Value": "Christmas Island"
+                },
+                {
+                    "Key": "CC",
+                    "Value": "Cocos (Keeling) Islands"
+                },
+                {
+                    "Key": "CO",
+                    "Value": "Colombia"
+                },
+                {
+                    "Key": "KM",
+                    "Value": "Comoros"
+                },
+                {
+                    "Key": "CG",
+                    "Value": "Congo"
+                },
+                {
+                    "Key": "CK",
+                    "Value": "Cook Islands"
+                },
+                {
+                    "Key": "CR",
+                    "Value": "Costa Rica"
+                },
+                {
+                    "Key": "CI",
+                    "Value": "Côte D'ivoire"
+                },
+                {
+                    "Key": "HR",
+                    "Value": "Croatia"
+                },
+                {
+                    "Key": "CU",
+                    "Value": "Cuba"
+                },
+                {
+                    "Key": "CW",
+                    "Value": "Curacao"
+                },
+                {
+                    "Key": "CY",
+                    "Value": "Cyprus"
+                },
+                {
+                    "Key": "CZ",
+                    "Value": "Czech Republic"
+                },
+                {
+                    "Key": "KP",
+                    "Value": "Democratic People's Republic Of Korea"
+                },
+                {
+                    "Key": "CD",
+                    "Value": "Democratic Republic of Congo"
+                },
+                {
+                    "Key": "DK",
+                    "Value": "Denmark"
+                },
+                {
+                    "Key": "DJ",
+                    "Value": "Djibouti"
+                },
+                {
+                    "Key": "DM",
+                    "Value": "Dominica"
+                },
+                {
+                    "Key": "DO",
+                    "Value": "Dominican Republic"
+                },
+                {
+                    "Key": "TP",
+                    "Value": "East Timor"
+                },
+                {
+                    "Key": "EC",
+                    "Value": "Ecuador"
+                },
+                {
+                    "Key": "EG",
+                    "Value": "Egypt"
+                },
+                {
+                    "Key": "SV",
+                    "Value": "El Salvador"
+                },
+                {
+                    "Key": "GQ",
+                    "Value": "Equatorial Guinea"
+                },
+                {
+                    "Key": "ER",
+                    "Value": "Eritrea"
+                },
+                {
+                    "Key": "EE",
+                    "Value": "Estonia"
+                },
+                {
+                    "Key": "ET",
+                    "Value": "Ethiopia"
+                },
+                {
+                    "Key": "FK",
+                    "Value": "Falkland Islands (Malvinas)"
+                },
+                {
+                    "Key": "FO",
+                    "Value": "Faroe Islands"
+                },
+                {
+                    "Key": "FJ",
+                    "Value": "Fiji"
+                },
+                {
+                    "Key": "FI",
+                    "Value": "Finland"
+                },
+                {
+                    "Key": "FR",
+                    "Value": "France"
+                },
+                {
+                    "Key": "GF",
+                    "Value": "French Guiana"
+                },
+                {
+                    "Key": "PF",
+                    "Value": "French Polynesia"
+                },
+                {
+                    "Key": "TF",
+                    "Value": "French Southern Territories"
+                },
+                {
+                    "Key": "GA",
+                    "Value": "Gabon"
+                },
+                {
+                    "Key": "GM",
+                    "Value": "Gambia"
+                },
+                {
+                    "Key": "GE",
+                    "Value": "Georgia"
+                },
+                {
+                    "Key": "DE",
+                    "Value": "Germany"
+                },
+                {
+                    "Key": "GH",
+                    "Value": "Ghana"
+                },
+                {
+                    "Key": "GI",
+                    "Value": "Gibraltar"
+                },
+                {
+                    "Key": "GR",
+                    "Value": "Greece"
+                },
+                {
+                    "Key": "GL",
+                    "Value": "Greenland"
+                },
+                {
+                    "Key": "GD",
+                    "Value": "Grenada"
+                },
+                {
+                    "Key": "GP",
+                    "Value": "Guadeloupe"
+                },
+                {
+                    "Key": "GU",
+                    "Value": "Guam"
+                },
+                {
+                    "Key": "GT",
+                    "Value": "Guatemala"
+                },
+                {
+                    "Key": "GG",
+                    "Value": "Guernsey"
+                },
+                {
+                    "Key": "GN",
+                    "Value": "Guinea"
+                },
+                {
+                    "Key": "GW",
+                    "Value": "Guinea-Bissau"
+                },
+                {
+                    "Key": "GY",
+                    "Value": "Guyana"
+                },
+                {
+                    "Key": "HT",
+                    "Value": "Haiti"
+                },
+                {
+                    "Key": "HM",
+                    "Value": "Heard Island And Mcdonald Islands"
+                },
+                {
+                    "Key": "VA",
+                    "Value": "Holy See (Vatican City State)"
+                },
+                {
+                    "Key": "HN",
+                    "Value": "Honduras"
+                },
+                {
+                    "Key": "HK",
+                    "Value": "Hong Kong"
+                },
+                {
+                    "Key": "HU",
+                    "Value": "Hungary"
+                },
+                {
+                    "Key": "IS",
+                    "Value": "Iceland"
+                },
+                {
+                    "Key": "IN",
+                    "Value": "India"
+                },
+                {
+                    "Key": "ID",
+                    "Value": "Indonesia"
+                },
+                {
+                    "Key": "IR",
+                    "Value": "Iran"
+                },
+                {
+                    "Key": "IQ",
+                    "Value": "Iraq"
+                },
+                {
+                    "Key": "IE",
+                    "Value": "Ireland"
+                },
+                {
+                    "Key": "IM",
+                    "Value": "Isle of Man"
+                },
+                {
+                    "Key": "IL",
+                    "Value": "Israel"
+                },
+                {
+                    "Key": "IT",
+                    "Value": "Italy"
+                },
+                {
+                    "Key": "JM",
+                    "Value": "Jamaica"
+                },
+                {
+                    "Key": "JP",
+                    "Value": "Japan"
+                },
+                {
+                    "Key": "JE",
+                    "Value": "Jersey"
+                },
+                {
+                    "Key": "JO",
+                    "Value": "Jordan"
+                },
+                {
+                    "Key": "KZ",
+                    "Value": "Kazakhstan"
+                },
+                {
+                    "Key": "KE",
+                    "Value": "Kenya"
+                },
+                {
+                    "Key": "KI",
+                    "Value": "Kiribati"
+                },
+                {
+                    "Key": "KR",
+                    "Value": "Korea"
+                },
+                {
+                    "Key": "KW",
+                    "Value": "Kuwait"
+                },
+                {
+                    "Key": "KG",
+                    "Value": "Kyrgyzstan"
+                },
+                {
+                    "Key": "LA",
+                    "Value": "Laos"
+                },
+                {
+                    "Key": "LV",
+                    "Value": "Latvia"
+                },
+                {
+                    "Key": "LB",
+                    "Value": "Lebanon"
+                },
+                {
+                    "Key": "LS",
+                    "Value": "Lesotho"
+                },
+                {
+                    "Key": "LR",
+                    "Value": "Liberia"
+                },
+                {
+                    "Key": "LY",
+                    "Value": "Libyan Arab Jamahiriya"
+                },
+                {
+                    "Key": "LI",
+                    "Value": "Liechtenstein"
+                },
+                {
+                    "Key": "LT",
+                    "Value": "Lithuania"
+                },
+                {
+                    "Key": "LU",
+                    "Value": "Luxembourg"
+                },
+                {
+                    "Key": "MO",
+                    "Value": "Macau"
+                },
+                {
+                    "Key": "MK",
+                    "Value": "Macedonia"
+                },
+                {
+                    "Key": "MG",
+                    "Value": "Madagascar"
+                },
+                {
+                    "Key": "MW",
+                    "Value": "Malawi"
+                },
+                {
+                    "Key": "MY",
+                    "Value": "Malaysia"
+                },
+                {
+                    "Key": "MV",
+                    "Value": "Maldives"
+                },
+                {
+                    "Key": "ML",
+                    "Value": "Mali"
+                },
+                {
+                    "Key": "MT",
+                    "Value": "Malta"
+                },
+                {
+                    "Key": "MH",
+                    "Value": "Marshall Islands"
+                },
+                {
+                    "Key": "MQ",
+                    "Value": "Martinique"
+                },
+                {
+                    "Key": "MR",
+                    "Value": "Mauritania"
+                },
+                {
+                    "Key": "MU",
+                    "Value": "Mauritius"
+                },
+                {
+                    "Key": "YT",
+                    "Value": "Mayotte Island"
+                },
+                {
+                    "Key": "MX",
+                    "Value": "Mexico"
+                },
+                {
+                    "Key": "FM",
+                    "Value": "Micronesia"
+                },
+                {
+                    "Key": "MD",
+                    "Value": "Moldova"
+                },
+                {
+                    "Key": "MC",
+                    "Value": "Monaco"
+                },
+                {
+                    "Key": "MN",
+                    "Value": "Mongolia"
+                },
+                {
+                    "Key": "ME",
+                    "Value": "Montenegro"
+                },
+                {
+                    "Key": "MS",
+                    "Value": "Montserrat"
+                },
+                {
+                    "Key": "MA",
+                    "Value": "Morocco"
+                },
+                {
+                    "Key": "MZ",
+                    "Value": "Mozambique"
+                },
+                {
+                    "Key": "MM",
+                    "Value": "Myanmar"
+                },
+                {
+                    "Key": "NA",
+                    "Value": "Namibia"
+                },
+                {
+                    "Key": "NR",
+                    "Value": "Nauru"
+                },
+                {
+                    "Key": "NP",
+                    "Value": "Nepal"
+                },
+                {
+                    "Key": "NL",
+                    "Value": "Netherlands"
+                },
+                {
+                    "Key": "AN",
+                    "Value": "Netherlands Antilles"
+                },
+                {
+                    "Key": "NC",
+                    "Value": "New Caledonia"
+                },
+                {
+                    "Key": "NZ",
+                    "Value": "New Zealand"
+                },
+                {
+                    "Key": "NI",
+                    "Value": "Nicaragua"
+                },
+                {
+                    "Key": "NE",
+                    "Value": "Niger"
+                },
+                {
+                    "Key": "NG",
+                    "Value": "Nigeria"
+                },
+                {
+                    "Key": "NU",
+                    "Value": "Niue"
+                },
+                {
+                    "Key": "NF",
+                    "Value": "Norfolk Island"
+                },
+                {
+                    "Key": "MP",
+                    "Value": "Northern Mariana Islands"
+                },
+                {
+                    "Key": "NO",
+                    "Value": "Norway"
+                },
+                {
+                    "Key": "OM",
+                    "Value": "Oman"
+                },
+                {
+                    "Key": "PK",
+                    "Value": "Pakistan"
+                },
+                {
+                    "Key": "PW",
+                    "Value": "Palau"
+                },
+                {
+                    "Key": "PS",
+                    "Value": "Palestinian Territory, Occupied"
+                },
+                {
+                    "Key": "PA",
+                    "Value": "Panama"
+                },
+                {
+                    "Key": "PG",
+                    "Value": "Papua New Guinea"
+                },
+                {
+                    "Key": "PY",
+                    "Value": "Paraguay"
+                },
+                {
+                    "Key": "PE",
+                    "Value": "Peru"
+                },
+                {
+                    "Key": "PH",
+                    "Value": "Philippines"
+                },
+                {
+                    "Key": "PN",
+                    "Value": "Pitcairn"
+                },
+                {
+                    "Key": "PL",
+                    "Value": "Poland"
+                },
+                {
+                    "Key": "PT",
+                    "Value": "Portugal"
+                },
+                {
+                    "Key": "PR",
+                    "Value": "Puerto Rico"
+                },
+                {
+                    "Key": "QA",
+                    "Value": "Qatar"
+                },
+                {
+                    "Key": "RE",
+                    "Value": "Réunion Island"
+                },
+                {
+                    "Key": "RO",
+                    "Value": "Romania"
+                },
+                {
+                    "Key": "RU",
+                    "Value": "Russia"
+                },
+                {
+                    "Key": "RW",
+                    "Value": "Rwanda"
+                },
+                {
+                    "Key": "BQ",
+                    "Value": "Saba, Bonaire, Sint Eustatius"
+                },
+                {
+                    "Key": "BL",
+                    "Value": "Saint Barthelemy"
+                },
+                {
+                    "Key": "SH",
+                    "Value": "Saint Helena"
+                },
+                {
+                    "Key": "KN",
+                    "Value": "Saint Kitts And Nevis"
+                },
+                {
+                    "Key": "LC",
+                    "Value": "Saint Lucia"
+                },
+                {
+                    "Key": "MF",
+                    "Value": "Saint Martin"
+                },
+                {
+                    "Key": "PM",
+                    "Value": "Saint Pierre And Miquelon"
+                },
+                {
+                    "Key": "VC",
+                    "Value": "Saint Vincent and the Grenadines"
+                },
+                {
+                    "Key": "WS",
+                    "Value": "Samoa"
+                },
+                {
+                    "Key": "SM",
+                    "Value": "San Marino"
+                },
+                {
+                    "Key": "ST",
+                    "Value": "Sao Tome And Principe"
+                },
+                {
+                    "Key": "SA",
+                    "Value": "Saudi Arabia"
+                },
+                {
+                    "Key": "SN",
+                    "Value": "Senegal"
+                },
+                {
+                    "Key": "RS",
+                    "Value": "Serbia"
+                },
+                {
+                    "Key": "CS",
+                    "Value": "Serbia And Montenegro"
+                },
+                {
+                    "Key": "SC",
+                    "Value": "Seychelles"
+                },
+                {
+                    "Key": "SL",
+                    "Value": "Sierra Leone"
+                },
+                {
+                    "Key": "SG",
+                    "Value": "Singapore"
+                },
+                {
+                    "Key": "SX",
+                    "Value": "Sint Maarten"
+                },
+                {
+                    "Key": "SK",
+                    "Value": "Slovakia"
+                },
+                {
+                    "Key": "SI",
+                    "Value": "Slovenia"
+                },
+                {
+                    "Key": "SB",
+                    "Value": "Solomon Islands"
+                },
+                {
+                    "Key": "SO",
+                    "Value": "Somalia"
+                },
+                {
+                    "Key": "ZA",
+                    "Value": "South Africa"
+                },
+                {
+                    "Key": "GS",
+                    "Value": "South Georgia And The South Sandwich Islands"
+                },
+                {
+                    "Key": "SS",
+                    "Value": "South Sudan"
+                },
+                {
+                    "Key": "ES",
+                    "Value": "Spain"
+                },
+                {
+                    "Key": "LK",
+                    "Value": "Sri Lanka"
+                },
+                {
+                    "Key": "SD",
+                    "Value": "Sudan"
+                },
+                {
+                    "Key": "SR",
+                    "Value": "Suriname"
+                },
+                {
+                    "Key": "SJ",
+                    "Value": "Svalbard And Jan Mayen"
+                },
+                {
+                    "Key": "SZ",
+                    "Value": "Swaziland"
+                },
+                {
+                    "Key": "SE",
+                    "Value": "Sweden"
+                },
+                {
+                    "Key": "CH",
+                    "Value": "Switzerland"
+                },
+                {
+                    "Key": "SY",
+                    "Value": "Syria"
+                },
+                {
+                    "Key": "TW",
+                    "Value": "Taiwan"
+                },
+                {
+                    "Key": "TJ",
+                    "Value": "Tajikistan"
+                },
+                {
+                    "Key": "TZ",
+                    "Value": "Tanzania"
+                },
+                {
+                    "Key": "TH",
+                    "Value": "Thailand"
+                },
+                {
+                    "Key": "TL",
+                    "Value": "Timor-Leste"
+                },
+                {
+                    "Key": "TG",
+                    "Value": "Togo"
+                },
+                {
+                    "Key": "TK",
+                    "Value": "Tokelau"
+                },
+                {
+                    "Key": "TO",
+                    "Value": "Tonga Islands"
+                },
+                {
+                    "Key": "TT",
+                    "Value": "Trinidad and Tobago"
+                },
+                {
+                    "Key": "TN",
+                    "Value": "Tunisia"
+                },
+                {
+                    "Key": "TR",
+                    "Value": "Turkey"
+                },
+                {
+                    "Key": "TM",
+                    "Value": "Turkmenistan"
+                },
+                {
+                    "Key": "TC",
+                    "Value": "Turks and Caicos Islands"
+                },
+                {
+                    "Key": "TV",
+                    "Value": "Tuvalu"
+                },
+                {
+                    "Key": "UG",
+                    "Value": "Uganda"
+                },
+                {
+                    "Key": "UA",
+                    "Value": "Ukraine"
+                },
+                {
+                    "Key": "AE",
+                    "Value": "United Arab Emirates"
+                },
+                {
+                    "Key": "GB",
+                    "Value": "United Kingdom"
+                },
+                {
+                    "Key": "US",
+                    "Value": "United States"
+                },
+                {
+                    "Key": "UM",
+                    "Value": "United States Minor Outlying Islands"
+                },
+                {
+                    "Key": "--",
+                    "Value": "Unknown"
+                },
+                {
+                    "Key": "UY",
+                    "Value": "Uruguay"
+                },
+                {
+                    "Key": "UZ",
+                    "Value": "Uzbekistan"
+                },
+                {
+                    "Key": "VU",
+                    "Value": "Vanuatu"
+                },
+                {
+                    "Key": "VE",
+                    "Value": "Venezuela"
+                },
+                {
+                    "Key": "VN",
+                    "Value": "Vietnam"
+                },
+                {
+                    "Key": "VG",
+                    "Value": "Virgin Islands, British"
+                },
+                {
+                    "Key": "VI",
+                    "Value": "Virgin Islands, U.S."
+                },
+                {
+                    "Key": "WF",
+                    "Value": "Wallis and Futuna Islands"
+                },
+                {
+                    "Key": "EH",
+                    "Value": "Western Sahara"
+                },
+                {
+                    "Key": "YE",
+                    "Value": "Yemen"
+                },
+                {
+                    "Key": "ZM",
+                    "Value": "Zambia"
+                },
+                {
+                    "Key": "ZW",
+                    "Value": "Zimbabwe"
+                }
+            ]
+        }
+    ],
+    "RenewalEntityId": "3504074",
+    "Sections": [
+        {
+            "DisplayType": "VerticalSection",
+            "Fields": [
+                {
+                    "DisplayType": "SingleLineOfText",
+                    "FieldEditMode": "ReadOnly",
+                    "Name": {
+                        "Key": "iit_firstname",
+                        "Value": "First Name(s) (as on ID)"
+                    },
+                    "Validations": [
+                        {
+                            "Type": "Mandatory"
+                        },
+                        {
+                            "Type": "TextMaxLength",
+                            "Value": "128"
+                        }
+                    ],
+                    "Value": "First3504074",
+                    "ValueType": "String"
+                },
+                {
+                    "DisplayType": "SingleLineOfText",
+                    "FieldEditMode": "ReadOnly",
+                    "Name": {
+                        "Key": "iit_lastname",
+                        "Value": "Surname"
+                    },
+                    "Validations": [
+                        {
+                            "Type": "Mandatory"
+                        },
+                        {
+                            "Type": "TextMaxLength",
+                            "Value": "128"
+                        }
+                    ],
+                    "Value": "Last3504074",
+                    "ValueType": "String"
+                },
+                {
+                    "DisplayType": "DateTime",
+                    "FieldEditMode": "ReadOnly",
+                    "Name": {
+                        "Key": "iit_dateofbirth",
+                        "Value": "Date of Birth"
+                    },
+                    "Validations": [
+                        {
+                            "Type": "Mandatory"
+                        }
+                    ],
+                    "Value": "1/1/1950 12:00:00 AM",
+                    "ValueType": "DateTime"
+                },
+                {
+                    "DisplayType": "DateTime",
+                    "FieldEditMode": "ReadOnly",
+                    "Name": {
+                        "Key": "iit_scrambleddate",
+                        "Value": "Scrambling Date"
+                    },
+                    "Validations": [
+                        {
+                            "Type": "Hidden"
+                        }
+                    ],
+                    "Value": "null",
+                    "ValueType": "DateTime"
+                },
+                {
+                    "DisplayType": "SingleLineOfText",
+                    "FieldEditMode": "ReadOnly",
+                    "Name": {
+                        "Key": "iit_emailaddress1",
+                        "Value": "Email"
+                    },
+                    "Validations": [
+                        {
+                            "Type": "Mandatory"
+                        },
+                        {
+                            "Type": "TextMaxLength",
+                            "Value": "128"
+                        },
+                        {
+                            "Type": "RegularExpression",
+                            "Value": "^([a-zA-Z0-9_\\-\\.]+)@([a-zA-Z0-9_\\-\\.]+)\\.([a-zA-Z]{2,5})$"
+                        }
+                    ],
+                    "Value": "email1_3504074@email.com",
+                    "ValueType": "String"
+                },
+                {
+                    "DisplayType": "SingleLineOfText",
+                    "FieldEditMode": "ReadOnly",
+                    "Name": {
+                        "Key": "iit_mobilephone",
+                        "Value": "Mobile Phone no."
+                    },
+                    "Validations": [
+                        {
+                            "Type": "Mandatory"
+                        },
+                        {
+                            "Type": "TextMaxLength",
+                            "Value": "128"
+                        },
+                        {
+                            "Type": "RegularExpression",
+                            "Value": "^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\\s\\./0-9]*$"
+                        }
+                    ],
+                    "Value": "12345678",
+                    "ValueType": "String"
+                },
+                {
+                    "DisplayType": "SingleLineOfText",
+                    "FieldEditMode": "ReadOnly",
+                    "Name": {
+                        "Key": "iit_telephone1",
+                        "Value": "Telephone #1"
+                    },
+                    "Validations": [
+                        {
+                            "Type": "TextMaxLength",
+                            "Value": "128"
+                        },
+                        {
+                            "Type": "RegularExpression",
+                            "Value": "(^\\s*$|^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\\s\\./0-9]*$)"
+                        }
+                    ],
+                    "Value": "3504074",
+                    "ValueType": "String"
+                },
+                {
+                    "DisplayType": "SingleLineOfText",
+                    "FieldEditMode": "ReadOnly",
+                    "Name": {
+                        "Key": "iit_telephone2",
+                        "Value": "Telephone #2"
+                    },
+                    "Validations": [
+                        {
+                            "Type": "TextMaxLength",
+                            "Value": "128"
+                        },
+                        {
+                            "Type": "RegularExpression",
+                            "Value": "(^\\s*$|^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\\s\\./0-9]*$)"
+                        }
+                    ],
+                    "ValueType": "String"
+                }
+            ],
+            "Name": {
+                "Key": "PersonalDetails",
+                "Value": "Personal Details"
+            }
+        },
+        {
+            "DisplayType": "VerticalSection",
+            "Fields": [
+                {
+                    "DisplayType": "Document",
+                    "FieldEditMode": "ReadOnly",
+                    "Name": {
+                        "Key": "ProofOfResidence",
+                        "Value": "Upload proof of address"
+                    },
+                    "Validations": [
+                        {
+                            "Type": "ReadWrite"
+                        }
+                    ],
+                    "ValueType": "DocumentList"
+                },
+                {
+                    "DisplayType": "SingleLineOfText",
+                    "FieldEditMode": "ReadOnly",
+                    "Name": {
+                        "Key": "iit_address1_buildingname",
+                        "Value": "Building Name"
+                    },
+                    "Validations": [
+                        {
+                            "Type": "TextMaxLength",
+                            "Value": "128"
+                        }
+                    ],
+                    "Value": "",
+                    "ValueType": "String"
+                },
+                {
+                    "DisplayType": "SingleLineOfText",
+                    "FieldEditMode": "ReadOnly",
+                    "Name": {
+                        "Key": "iit_address1_street",
+                        "Value": "Street"
+                    },
+                    "Validations": [
+                        {
+                            "Type": "Mandatory"
+                        },
+                        {
+                            "Type": "TextMaxLength",
+                            "Value": "128"
+                        }
+                    ],
+                    "Value": "",
+                    "ValueType": "String"
+                },
+                {
+                    "DisplayType": "SingleLineOfText",
+                    "FieldEditMode": "ReadOnly",
+                    "Name": {
+                        "Key": "iit_address1_buildingno",
+                        "Value": "Building No"
+                    },
+                    "Validations": [
+                        {
+                            "Type": "TextMaxLength",
+                            "Value": "128"
+                        }
+                    ],
+                    "Value": "1",
+                    "ValueType": "String"
+                },
+                {
+                    "DisplayType": "SingleLineOfText",
+                    "FieldEditMode": "ReadOnly",
+                    "Name": {
+                        "Key": "iit_address1_coname",
+                        "Value": "CO Name"
+                    },
+                    "Validations": [
+                        {
+                            "Type": "TextMaxLength",
+                            "Value": "100"
+                        }
+                    ],
+                    "Value": "",
+                    "ValueType": "String"
+                },
+                {
+                    "DisplayType": "SingleLineOfText",
+                    "FieldEditMode": "ReadOnly",
+                    "Name": {
+                        "Key": "iit_address1_floor",
+                        "Value": "Floor"
+                    },
+                    "Validations": [
+                        {
+                            "Type": "TextMaxLength",
+                            "Value": "128"
+                        }
+                    ],
+                    "Value": "",
+                    "ValueType": "String"
+                },
+                {
+                    "DisplayType": "SingleLineOfText",
+                    "FieldEditMode": "ReadOnly",
+                    "Name": {
+                        "Key": "iit_address1_unit",
+                        "Value": "Unit"
+                    },
+                    "Validations": [
+                        {
+                            "Type": "TextMaxLength",
+                            "Value": "128"
+                        }
+                    ],
+                    "Value": "",
+                    "ValueType": "String"
+                },
+                {
+                    "DisplayType": "SingleLineOfText",
+                    "FieldEditMode": "ReadOnly",
+                    "Name": {
+                        "Key": "iit_address1_sidedoor",
+                        "Value": "Side Door"
+                    },
+                    "Validations": [
+                        {
+                            "Type": "TextMaxLength",
+                            "Value": "128"
+                        }
+                    ],
+                    "Value": "",
+                    "ValueType": "String"
+                },
+                {
+                    "DisplayType": "SingleLineOfText",
+                    "FieldEditMode": "ReadOnly",
+                    "Name": {
+                        "Key": "iit_address1_localarea",
+                        "Value": "Local Area"
+                    },
+                    "Validations": [
+                        {
+                            "Type": "TextMaxLength",
+                            "Value": "128"
+                        }
+                    ],
+                    "Value": "",
+                    "ValueType": "String"
+                },
+                {
+                    "DisplayType": "SingleLineOfText",
+                    "FieldEditMode": "ReadOnly",
+                    "Name": {
+                        "Key": "iit_address1_postofficebox",
+                        "Value": "Post Office Box"
+                    },
+                    "Validations": [
+                        {
+                            "Type": "TextMaxLength",
+                            "Value": "128"
+                        }
+                    ],
+                    "Value": "",
+                    "ValueType": "String"
+                },
+                {
+                    "DisplayType": "SingleLineOfText",
+                    "FieldEditMode": "ReadOnly",
+                    "Name": {
+                        "Key": "iit_address1_city",
+                        "Value": "City"
+                    },
+                    "Validations": [
+                        {
+                            "Type": "Mandatory"
+                        },
+                        {
+                            "Type": "TextMaxLength",
+                            "Value": "128"
+                        }
+                    ],
+                    "Value": "",
+                    "ValueType": "String"
+                },
+                {
+                    "DisplayType": "SingleLineOfText",
+                    "FieldEditMode": "ReadOnly",
+                    "Name": {
+                        "Key": "iit_address1_postalcode",
+                        "Value": "ZIP/Postal Code"
+                    },
+                    "Validations": [
+                        {
+                            "Type": "Mandatory"
+                        },
+                        {
+                            "Type": "TextMaxLength",
+                            "Value": "128"
+                        }
+                    ],
+                    "Value": "",
+                    "ValueType": "String"
+                },
+                {
+                    "DisplayType": "SingleLineOfText",
+                    "FieldEditMode": "ReadOnly",
+                    "Name": {
+                        "Key": "iit_address1_stateorprovince",
+                        "Value": "State/Province"
+                    },
+                    "Validations": [
+                        {
+                            "Type": "TextMaxLength",
+                            "Value": "128"
+                        }
+                    ],
+                    "Value": "",
+                    "ValueType": "String"
+                },
+                {
+                    "DisplayType": "SingleChoice",
+                    "FieldEditMode": "ReadOnly",
+                    "Name": {
+                        "Key": "iit_countryid",
+                        "Value": "Country"
+                    },
+                    "OptionSetKey": "Countries",
+                    "Validations": [
+                        {
+                            "Type": "Mandatory"
+                        }
+                    ],
+                    "Value": "SL",
+                    "ValueType": "OptionListKey"
+                },
+                {
+                    "DisplayType": "Bool",
+                    "FieldEditMode": "ReadOnly",
+                    "Name": {
+                        "Key": "iit_tinnotavailable",
+                        "Value": "Do you have a Tax ID number?"
+                    },
+                    "Validations": [
+                        {
+                            "Type": "Mandatory"
+                        }
+                    ],
+                    "Value": "False",
+                    "ValueType": "Bool"
+                },
+                {
+                    "DisplayType": "SingleLineOfText",
+                    "FieldEditMode": "ReadOnly",
+                    "Name": {
+                        "Key": "iit_taxid",
+                        "Value": "Tax ID number (TIN)"
+                    },
+                    "Validations": [
+                        {
+                            "Type": "TextMaxLength",
+                            "Value": "100"
+                        },
+                        {
+                            "CompareType": "Equals",
+                            "ConditionalFieldName": "iit_taxid",
+                            "TriggerFieldName": "iit_tinnotavailable",
+                            "TriggerFieldValue": "False",
+                            "Type": "Hidden"
+                        },
+                        {
+                            "CompareType": "Equals",
+                            "ConditionalFieldName": "iit_taxid",
+                            "TriggerFieldName": "iit_tinnotavailable",
+                            "TriggerFieldValue": "True",
+                            "Type": "Mandatory"
+                        }
+                    ],
+                    "ValueType": "String"
+                }
+            ],
+            "Name": {
+                "Key": "Address",
+                "Value": "Address"
+            }
+        },
+        {
+            "DisplayType": "VerticalSection",
+            "Name": {
+                "Key": "OccupationDetails",
+                "Value": "Occupation Details"
+            },
+            "Sections": [
+                {
+                    "DisplayType": "VerticalSection",
+                    "Fields": [
+                        {
+                            "DisplayType": "Bool",
+                            "FieldEditMode": "ReadOnly",
+                            "Name": {
+                                "Key": "iit_occupation_financialsectoremployee",
+                                "Value": "Financial Sector Employee"
+                            },
+                            "Validations": [
+                                {
+                                    "CompareType": "HasValue",
+                                    "ConditionalFieldName": "iit_natureofbusiness",
+                                    "TriggerFieldName": "iit_occupation_financialsectoremployee",
+                                    "TriggerFieldValue": "true",
+                                    "Type": "Mandatory"
+                                },
+                                {
+                                    "CompareType": "HasValue",
+                                    "ConditionalFieldName": "iit_employername",
+                                    "TriggerFieldName": "iit_occupation_financialsectoremployee",
+                                    "TriggerFieldValue": "true",
+                                    "Type": "Mandatory"
+                                }
+                            ],
+                            "Value": "False",
+                            "ValueType": "Bool"
+                        },
+                        {
+                            "DisplayType": "Bool",
+                            "FieldEditMode": "ReadOnly",
+                            "Name": {
+                                "Key": "iit_occupation_selfemployed",
+                                "Value": "Self Employed"
+                            },
+                            "Validations": [
+                                {
+                                    "CompareType": "HasValue",
+                                    "ConditionalFieldName": "iit_natureofbusiness",
+                                    "TriggerFieldName": "iit_occupation_selfemployed",
+                                    "TriggerFieldValue": "true",
+                                    "Type": "Mandatory"
+                                },
+                                {
+                                    "CompareType": "HasValue",
+                                    "ConditionalFieldName": "iit_employername",
+                                    "TriggerFieldName": "iit_occupation_selfemployed",
+                                    "TriggerFieldValue": "true",
+                                    "Type": "Mandatory"
+                                }
+                            ],
+                            "Value": "null",
+                            "ValueType": "Bool"
+                        },
+                        {
+                            "DisplayType": "Bool",
+                            "FieldEditMode": "ReadOnly",
+                            "Name": {
+                                "Key": "iit_occupation_retired",
+                                "Value": "Retired"
+                            },
+                            "Value": "null",
+                            "ValueType": "Bool"
+                        },
+                        {
+                            "DisplayType": "Bool",
+                            "FieldEditMode": "ReadOnly",
+                            "Name": {
+                                "Key": "iit_occupation_unemployed",
+                                "Value": "Unemployed"
+                            },
+                            "Value": "null",
+                            "ValueType": "Bool"
+                        },
+                        {
+                            "DisplayType": "Bool",
+                            "FieldEditMode": "ReadOnly",
+                            "Name": {
+                                "Key": "iit_occupation_student",
+                                "Value": "Student"
+                            },
+                            "Value": "False",
+                            "ValueType": "Bool"
+                        },
+                        {
+                            "DisplayType": "SingleLineOfText",
+                            "FieldEditMode": "ReadOnly",
+                            "Name": {
+                                "Key": "iit_employername",
+                                "Value": "Company name"
+                            },
+                            "Validations": [
+                                {
+                                    "Type": "TextMaxLength",
+                                    "Value": "250"
+                                }
+                            ],
+                            "Value": "",
+                            "ValueType": "String"
+                        },
+                        {
+                            "DisplayType": "SingleLineOfText",
+                            "FieldEditMode": "ReadOnly",
+                            "Name": {
+                                "Key": "iit_positiontitle",
+                                "Value": "Position / Title"
+                            },
+                            "Validations": [
+                                {
+                                    "Type": "TextMaxLength",
+                                    "Value": "250"
+                                }
+                            ],
+                            "Value": "",
+                            "ValueType": "String"
+                        },
+                        {
+                            "DisplayType": "SingleChoice",
+                            "FieldEditMode": "ReadOnly",
+                            "Name": {
+                                "Key": "iit_natureofbusiness",
+                                "Value": "Company's business"
+                            },
+                            "OptionList": [
+                                {
+                                    "Key": "AntiqueArtdealersAuctionhouses",
+                                    "Value": "Antique / Art dealers / Auction houses"
+                                },
+                                {
+                                    "Key": "Attorneyatlaw",
+                                    "Value": "Attorney at law"
+                                },
+                                {
+                                    "Key": "Automotive",
+                                    "Value": "Automotive"
+                                },
+                                {
+                                    "Key": "CateringRestaurants",
+                                    "Value": "Catering / Restaurants"
+                                },
+                                {
+                                    "Key": "Cleaningservices",
+                                    "Value": "Cleaning services"
+                                },
+                                {
+                                    "Key": "ConstructionDemolition",
+                                    "Value": "Construction / Demolition"
+                                },
+                                {
+                                    "Key": "Digitalcurrencies",
+                                    "Value": "Digital currencies"
+                                },
+                                {
+                                    "Key": "GamblingBetting",
+                                    "Value": "Gambling / Betting"
+                                },
+                                {
+                                    "Key": "MoneyremittanceCurrencyexchangeproviders",
+                                    "Value": "Money remittance / Currency exchange providers"
+                                },
+                                {
+                                    "Key": "NonprofitCharity",
+                                    "Value": "Non-profit / Charity"
+                                },
+                                {
+                                    "Key": "Oilandgasexplorationandproduction",
+                                    "Value": "Oil and gas exploration and production"
+                                },
+                                {
+                                    "Key": "Preciousmetalsandstones",
+                                    "Value": "Precious metals and stones"
+                                },
+                                {
+                                    "Key": "Privatemilitaryfirms",
+                                    "Value": "Private military firms"
+                                },
+                                {
+                                    "Key": "Realestate",
+                                    "Value": "Real Estate"
+                                },
+                                {
+                                    "Key": "Noneoftheabove",
+                                    "Value": "None of the above"
+                                }
+                            ],
+                            "OptionSetKey": "iit_renewaliit_natureofbusiness",
+                            "Value": "",
+                            "ValueType": "OptionListKey"
+                        },
+                        {
+                            "DisplayType": "MultipleLinesOfText",
+                            "FieldEditMode": "ReadOnly",
+                            "Name": {
+                                "Key": "iit_natureofbusiness_other",
+                                "Value": "Company's business (other)"
+                            },
+                            "ValueType": "String"
+                        },
+                        {
+                            "DisplayType": "Bool",
+                            "FieldEditMode": "ReadOnly",
+                            "Name": {
+                                "Key": "iit_politicallyexposedperson",
+                                "Value": "Are you, or are you connected to a politically exposed person?"
+                            },
+                            "Validations": [
+                                {
+                                    "Type": "Mandatory"
+                                }
+                            ],
+                            "Value": "null",
+                            "ValueType": "Bool"
+                        }
+                    ],
+                    "Name": {
+                        "Key": "OccupationDetails",
+                        "Value": "Occupation details"
+                    }
+                },
+                {
+                    "DisplayType": "VerticalSection",
+                    "Fields": [
+                        {
+                            "DisplayType": "Bool",
+                            "FieldEditMode": "ReadOnly",
+                            "Name": {
+                                "Key": "iit_occupation_privateexecutive",
+                                "Value": "Private company, Executive Management/Board"
+                            },
+                            "Validations": [
+                                {
+                                    "CompareType": "HasValue",
+                                    "ConditionalFieldName": "iit_natureofbusiness",
+                                    "TriggerFieldName": "iit_occupation_privateexecutive",
+                                    "TriggerFieldValue": "true",
+                                    "Type": "Mandatory"
+                                },
+                                {
+                                    "CompareType": "HasValue",
+                                    "ConditionalFieldName": "iit_employername",
+                                    "TriggerFieldName": "iit_occupation_privateexecutive",
+                                    "TriggerFieldValue": "true",
+                                    "Type": "Mandatory"
+                                }
+                            ],
+                            "Value": "False",
+                            "ValueType": "Bool"
+                        },
+                        {
+                            "DisplayType": "Bool",
+                            "FieldEditMode": "ReadOnly",
+                            "Name": {
+                                "Key": "iit_occupation_privateother",
+                                "Value": "Private company, other"
+                            },
+                            "Validations": [
+                                {
+                                    "CompareType": "HasValue",
+                                    "ConditionalFieldName": "iit_natureofbusiness",
+                                    "TriggerFieldName": "iit_occupation_privateother",
+                                    "TriggerFieldValue": "true",
+                                    "Type": "Mandatory"
+                                },
+                                {
+                                    "CompareType": "HasValue",
+                                    "ConditionalFieldName": "iit_employername",
+                                    "TriggerFieldName": "iit_occupation_privateother",
+                                    "TriggerFieldValue": "true",
+                                    "Type": "Mandatory"
+                                }
+                            ],
+                            "Value": "False",
+                            "ValueType": "Bool"
+                        },
+                        {
+                            "DisplayType": "Bool",
+                            "FieldEditMode": "ReadOnly",
+                            "Name": {
+                                "Key": "iit_occupation_publicexecutive",
+                                "Value": "Public sector/state, Executive Management/Board"
+                            },
+                            "Validations": [
+                                {
+                                    "CompareType": "HasValue",
+                                    "ConditionalFieldName": "iit_natureofbusiness",
+                                    "TriggerFieldName": "iit_occupation_publicexecutive",
+                                    "TriggerFieldValue": "true",
+                                    "Type": "Mandatory"
+                                },
+                                {
+                                    "CompareType": "HasValue",
+                                    "ConditionalFieldName": "iit_employername",
+                                    "TriggerFieldName": "iit_occupation_publicexecutive",
+                                    "TriggerFieldValue": "true",
+                                    "Type": "Mandatory"
+                                }
+                            ],
+                            "Value": "False",
+                            "ValueType": "Bool"
+                        },
+                        {
+                            "DisplayType": "Bool",
+                            "FieldEditMode": "ReadOnly",
+                            "Name": {
+                                "Key": "iit_occupation_publicother",
+                                "Value": "Public sector/state, other"
+                            },
+                            "Validations": [
+                                {
+                                    "CompareType": "HasValue",
+                                    "ConditionalFieldName": "iit_natureofbusiness",
+                                    "TriggerFieldName": "iit_occupation_publicother",
+                                    "TriggerFieldValue": "true",
+                                    "Type": "Mandatory"
+                                },
+                                {
+                                    "CompareType": "HasValue",
+                                    "ConditionalFieldName": "iit_employername",
+                                    "TriggerFieldName": "iit_occupation_publicother",
+                                    "TriggerFieldValue": "true",
+                                    "Type": "Mandatory"
+                                }
+                            ],
+                            "Value": "False",
+                            "ValueType": "Bool"
+                        },
+                        {
+                            "DisplayType": "Bool",
+                            "FieldEditMode": "ReadOnly",
+                            "Name": {
+                                "Key": "iit_occupation_politicaloffice",
+                                "Value": "Political/Public office"
+                            },
+                            "Validations": [
+                                {
+                                    "CompareType": "HasValue",
+                                    "ConditionalFieldName": "iit_natureofbusiness",
+                                    "TriggerFieldName": "iit_occupation_politicaloffice",
+                                    "TriggerFieldValue": "true",
+                                    "Type": "Mandatory"
+                                },
+                                {
+                                    "CompareType": "HasValue",
+                                    "ConditionalFieldName": "iit_employername",
+                                    "TriggerFieldName": "iit_occupation_politicaloffice",
+                                    "TriggerFieldValue": "true",
+                                    "Type": "Mandatory"
+                                }
+                            ],
+                            "Value": "False",
+                            "ValueType": "Bool"
+                        }
+                    ],
+                    "Name": {
+                        "Key": "EmploymentDetails",
+                        "Value": "Employment Details"
+                    },
+                    "Validations": [
+                        {
+                            "Type": "AtLeastOneGroupedValueSelected"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "DisplayType": "VerticalSection",
+            "Name": {
+                "Key": "AnnualIncome",
+                "Value": "Sources of Income"
+            },
+            "Sections": [
+                {
+                    "DisplayType": "VerticalSection",
+                    "Fields": [
+                        {
+                            "DisplayType": "SingleChoice",
+                            "FieldEditMode": "ReadOnly",
+                            "Name": {
+                                "Key": "iit_salaryaftertax",
+                                "Value": "Primary income after tax (€)"
+                            },
+                            "OptionList": [
+                                {
+                                    "Key": "_050000_",
+                                    "Value": "0-50.000 (€)"
+                                },
+                                {
+                                    "Key": "_50001_100000_",
+                                    "Value": "50,001 - 100,000 (€)"
+                                },
+                                {
+                                    "Key": "_100001_150000_",
+                                    "Value": "100.001 - 150.000 (€)"
+                                },
+                                {
+                                    "Key": "_150001_200000_",
+                                    "Value": "150.001 - 200.000 (€)"
+                                },
+                                {
+                                    "Key": "_200001_500000_",
+                                    "Value": "200.001 - 500.000 (€)"
+                                },
+                                {
+                                    "Key": "_500001_750000_",
+                                    "Value": "500,001 - 750,000 (€)"
+                                },
+                                {
+                                    "Key": "_750001_1000000_",
+                                    "Value": "750,001 - 1,000,000 (€)"
+                                },
+                                {
+                                    "Key": "_1000001_2000000_",
+                                    "Value": "1.000.001 - 2.000.000 (€)"
+                                },
+                                {
+                                    "Key": "_2000001_3000000_",
+                                    "Value": "2,000,001 - 3,000,000 (€)"
+                                },
+                                {
+                                    "Key": "_3000001_4000000_",
+                                    "Value": "3,000,001 - 4,000,000 (€)"
+                                },
+                                {
+                                    "Key": "_4000001_5000000_",
+                                    "Value": "4,000,001 - 5,000,000 (€)"
+                                },
+                                {
+                                    "Key": "_5000000_",
+                                    "Value": "> 5,000,000 (€)"
+                                }
+                            ],
+                            "OptionSetKey": "iit_renewaliit_salaryaftertax",
+                            "Validations": [
+                                {
+                                    "Type": "Mandatory"
+                                }
+                            ],
+                            "Value": "",
+                            "ValueType": "OptionListKey"
+                        },
+                        {
+                            "DisplayType": "SingleChoice",
+                            "FieldEditMode": "ReadOnly",
+                            "Name": {
+                                "Key": "iit_totalamountofsecondarysourcesofincome",
+                                "Value": "Secondary income after tax (€)"
+                            },
+                            "OptionList": [
+                                {
+                                    "Key": "_0_50000_",
+                                    "Value": "0 - 50.000 (€)"
+                                },
+                                {
+                                    "Key": "_50001_100000_",
+                                    "Value": "50,001 - 100,000 (€)"
+                                },
+                                {
+                                    "Key": "_100001_150000_",
+                                    "Value": "100.001 - 150.000 (€)"
+                                },
+                                {
+                                    "Key": "_150001_200000_",
+                                    "Value": "150.001 - 200.000 (€)"
+                                },
+                                {
+                                    "Key": "_200001_500000_",
+                                    "Value": "200.001 - 500.000 (€)"
+                                },
+                                {
+                                    "Key": "_500001_750000_",
+                                    "Value": "500,001 - 750,000 (€)"
+                                },
+                                {
+                                    "Key": "_750001_1000000_",
+                                    "Value": "750,001 - 1,000,000 (€)"
+                                },
+                                {
+                                    "Key": "_1000001_2000000_",
+                                    "Value": "1.000.001 - 2.000.000 (€)"
+                                },
+                                {
+                                    "Key": "_2000001_3000000_",
+                                    "Value": "2,000,001 - 3,000,000 (€)"
+                                },
+                                {
+                                    "Key": "_3000001_4000000_",
+                                    "Value": "3,000,001 - 4,000,000 (€)"
+                                },
+                                {
+                                    "Key": "_4000001_5000000_",
+                                    "Value": "4,000,001 - 5,000,000 (€)"
+                                },
+                                {
+                                    "Key": "_5000000_",
+                                    "Value": "> 5,000,000 (€)"
+                                }
+                            ],
+                            "OptionSetKey": "iit_renewaliit_totalamountofsecondarysourcesofincome",
+                            "Value": "",
+                            "ValueType": "OptionListKey"
+                        }
+                    ],
+                    "Name": {
+                        "Key": "AnnualIncome",
+                        "Value": "Annual Income"
+                    }
+                },
+                {
+                    "DisplayType": "VerticalSection",
+                    "Fields": [
+                        {
+                            "DisplayType": "Bool",
+                            "FieldEditMode": "ReadOnly",
+                            "Name": {
+                                "Key": "iit_secondarysourceofincome_dividends_stocks",
+                                "Value": "Dividends from stocks/bonds"
+                            },
+                            "Value": "False",
+                            "ValueType": "Bool"
+                        },
+                        {
+                            "DisplayType": "Bool",
+                            "FieldEditMode": "ReadOnly",
+                            "Name": {
+                                "Key": "iit_secondarysourceofincome_dividends_comp",
+                                "Value": "Dividends from company"
+                            },
+                            "Value": "False",
+                            "ValueType": "Bool"
+                        },
+                        {
+                            "DisplayType": "Bool",
+                            "FieldEditMode": "ReadOnly",
+                            "Name": {
+                                "Key": "iit_secondarysourceofincome_royalties",
+                                "Value": "Royalties"
+                            },
+                            "Value": "False",
+                            "ValueType": "Bool"
+                        },
+                        {
+                            "DisplayType": "Bool",
+                            "FieldEditMode": "ReadOnly",
+                            "Name": {
+                                "Key": "iit_secondarysourceofincome_others",
+                                "Value": "Other sources of income"
+                            },
+                            "Value": "False",
+                            "ValueType": "Bool"
+                        },
+                        {
+                            "DisplayType": "SingleLineOfText",
+                            "FieldEditMode": "ReadOnly",
+                            "Name": {
+                                "Key": "iit_othersecondaryincomedescription",
+                                "Value": "Secondary Income"
+                            },
+                            "Validations": [
+                                {
+                                    "Type": "TextMaxLength",
+                                    "Value": "50"
+                                }
+                            ],
+                            "ValueType": "String"
+                        }
+                    ],
+                    "Name": {
+                        "Key": "SecondarySourcesOfIncome",
+                        "Value": "Secondary Income"
+                    },
+                    "Validations": [
+                        {
+                            "CompareType": "Equals",
+                            "ConditionalFieldName": "SecondarySourcesOfIncome",
+                            "TriggerFieldName": "iit_totalamountofsecondarysourcesofincome",
+                            "TriggerFieldValue": "",
+                            "Type": "Hidden"
+                        },
+                        {
+                            "CompareType": "HasValue",
+                            "ConditionalFieldName": "SecondarySourcesOfIncome",
+                            "TriggerFieldName": "iit_totalamountofsecondarysourcesofincome",
+                            "TriggerFieldValue": "",
+                            "Type": "AtLeastOneGroupedValueSelected"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "State": "RenewalEntityInProcessAwaitingCustomerInput"
+}

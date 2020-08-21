@@ -1,0 +1,59 @@
+{
+    "PathTemplate": "productTemplate",
+    "Name": "srdonetf",
+    "IsBackButtonHidden": true,
+    "Sections": [
+        {
+            "Type": "Header",
+            "IsDividerShown": false,
+            "IsNarrow": true,
+            "Name": "header_test",
+            "Title": "",
+            "Id": "61ad4c59-361c-43b3-bc2b-bbc6baf7fb74"
+        },
+        {
+            "Type": "InstrumentChart",
+            "IsDividerShown": true,
+            "Name": "chartsection_srd",
+            "Title": "Price Chart",
+            "Id": "cb44611a-d20a-448d-bb9b-ac3cab06c98a"
+        },
+        {
+            "Type": "NewsList",
+            "IsDividerShown": true,
+            "LayoutType": "stretch",
+            "viewType": "card",
+            "NewsLists": [
+                {
+                    "Title": "",
+                    "NewsLimit": 6,
+                    "Search": "",
+                    "ShouldShowLinkedInstrumentNews": false,
+                    "Id": "74f8ab03-08d5-4f1d-858d-9d67f19b2e1e"
+                }
+            ],
+            "Name": "newslistsection_srd",
+            "Title": "News",
+            "Id": "35a09000-5203-46dd-8021-dfbd6a8bcf4b"
+        },
+        {
+            "Type": "GeneralInfo",
+            "IsDividerShown": true,
+            "IsInset": true,
+            "Name": "generalinfosection_test",
+            "Title": "General Information",
+            "Id": "d3ed500d-b7b2-4b9c-88d0-67c3633c4aa8"
+        },
+        {
+            "Type": "AllocationChart",
+            "IsDividerShown": true,
+            "Name": "allocationchartsection",
+            "Title": "Allocation",
+            "Id": "allocationChart",
+            "Charts": ["asset", "sector", "countryWeight", "exposureCountry"]
+        }
+    ],
+    "Title": "",
+    "Url": "/page/product/SrdOnEtf/:uic",
+    "Id": "5f404f20-ac16-43b2-9085-d6d1c4fxyz1b_investor"
+}

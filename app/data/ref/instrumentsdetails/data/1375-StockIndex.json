@@ -1,0 +1,37 @@
+{
+    "AmountDecimals": 0,
+    "AssetType": "StockIndex",
+    "CurrencyCode": "USD",
+    "DefaultAmount": 0,
+    "Description": "Dow Jones 1/100 Indu Index",
+    "Exchange": {
+        "CountryCode": "US",
+        "ExchangeId": "OPRA",
+        "Name": "Options Price Reporting Authority",
+        "PriceSourceName": "OPRA"
+    },
+    "Format": { "Decimals": 2, "OrderDecimals": 2 },
+    "GroupId": 0,
+    "IncrementSize": 0,
+    "Isin": "XC0009656478",
+    "IssuerCountry": "US",
+    "IsTradable": false,
+    "OrderSetting": {},
+    "PriceCurrency": "USD",
+    "RelatedInstruments": [],
+    "RelatedOptionRoots": [122, 10628128],
+    "RelatedOptionRootsEnhanced": [
+        { "AssetType": "StockIndexOption", "OptionRootId": 122 },
+        { "AssetType": "CfdIndexOption", "OptionRootId": 10628128 }
+    ],
+    "SupportedOrderTypes": [],
+    "Symbol": "DJX.I",
+    "TickSizeScheme": {
+        "DefaultTickSize": 0.05,
+        "Elements": [{ "HighPrice": 100, "TickSize": 0.01 }]
+    },
+    "TradableOn": ["test0", "test1"],
+    "TradingSignals": "NotAllowed",
+    "Uic": 1375,
+    "id": "1375-StockIndex"
+}

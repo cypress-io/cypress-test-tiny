@@ -1,0 +1,40 @@
+{
+    "AccountId": "test1",
+    "AccountKey": "acc-key-1",
+    "Amount": 100000,
+    "AssetType": "FxSpot",
+    "BuySell": "Buy",
+    "CalculationReliability": "Ok",
+    "ClientKey": "client-key-1",
+    "CorrelationKey": "8f5197b3-9823-4956-ab0f-f3a99c9b6203",
+    "CurrentPrice": 1.0735,
+    "CurrentPriceDelayMinutes": 0,
+    "CurrentPriceType": "Ask",
+    "DisplayAndFormat": {
+        "Currency": "USD",
+        "Decimals": 4,
+        "Description": "Euro/US Dollar",
+        "Format": "AllowDecimalPips",
+        "Symbol": "EURUSD"
+    },
+    "DistanceToMarket": 0.00612,
+    "Duration": {
+        "DurationType": "GoodTillCancel"
+    },
+    "Exchange": {
+        "Description": "Inter Bank",
+        "ExchangeId": "SBFX",
+        "IsOpen": true
+    },
+    "OrderId": "257984232",
+    "IsMarketOpen": true,
+    "MarketPrice": 1.0735,
+    "OpenOrderType": "Stop",
+    "OrderAmountType": "Quantity",
+    "OrderRelation": "StandAlone",
+    "OrderTime": "2018-12-12T09:19:23.950000Z",
+    "Price": 1.0622,
+    "RelatedOpenOrders": [],
+    "Status": "Working",
+    "Uic": 21
+}

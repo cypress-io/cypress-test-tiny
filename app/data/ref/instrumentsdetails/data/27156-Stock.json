@@ -1,0 +1,65 @@
+{
+    "AmountDecimals": 0,
+    "AssetType": "Stock",
+    "CurrencyCode": "SGD",
+    "DefaultAmount": 0,
+    "DefaultSlippage": 0,
+    "DefaultSlippageType": "Ticks",
+    "Description": "M1 Ltd",
+    "Exchange": {
+        "CountryCode": "SG",
+        "ExchangeId": "SGX-ST",
+        "Name": "Singapore Exchange",
+        "PriceSourceName": "Singapore Exchange"
+    },
+    "Format": { "Decimals": 3, "OrderDecimals": 3 },
+    "GroupId": 0,
+    "IncrementSize": 1,
+    "Isin": "SG1U89935555",
+    "IssuerCountry": "SG",
+    "IsTradable": true,
+    "LotSize": 100,
+    "LotSizeType": "OddLotsNotAllowed",
+    "MinimumOrderValue": 50,
+    "MinimumTradeSize": 50,
+    "OrderDistances": {
+        "EntryDefaultDistance": 0.25,
+        "EntryDefaultDistanceType": "Percentage",
+        "StopLimitDefaultDistance": 5,
+        "StopLimitDefaultDistanceType": "Pips",
+        "StopLossDefaultDistance": 0.5,
+        "StopLossDefaultDistanceType": "Percentage",
+        "StopLossDefaultEnabled": false,
+        "StopLossDefaultOrderType": "GuaranteedStop",
+        "TakeProfitDefaultDistance": 0.5,
+        "TakeProfitDefaultDistanceType": "Percentage",
+        "TakeProfitDefaultEnabled": false
+    },
+    "PriceCurrency": "SGD",
+    "PriceToContractFactor": 1,
+    "PrimaryListing": 27156,
+    "RelatedInstruments": [{ "AssetType": "CfdOnStock", "Uic": 27156 }],
+    "SaxoFeePercent": 0,
+    "Sector": { "Name": "Mobile Telecommunications", "SectorId": "650" },
+    "StandardAmounts": [1, 10, 100, 500, 1000, 10000, 50000, 100000],
+    "SupportedOrderTypes": [
+        "Market",
+        "Limit",
+        "StopIfTraded",
+        "TrailingStopIfTraded",
+        "StopLimit"
+    ],
+    "Symbol": "B2F:xses",
+    "TickSizeScheme": {
+        "DefaultTickSize": 0.01,
+        "Elements": [
+            { "HighPrice": 0.199, "TickSize": 0.001 },
+            { "HighPrice": 0.995, "TickSize": 0.005 }
+        ]
+    },
+    "TradableAs": ["Stock"],
+    "TradableOn": [],
+    "TradingSignals": "NotAllowed",
+    "Uic": 27156,
+    "YearlyExpensePercent": 0
+}

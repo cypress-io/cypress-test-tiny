@@ -1,0 +1,32 @@
+{
+    "Data": [
+        {
+            "UserId": 0,
+            "UserName": "Treasure",
+            "ExtendedAccounts": [
+                {
+                    "AccountId": "Id12",
+                    "DisplayName": "John"
+                },
+                {
+                    "AccountId": "Id13",
+                    "DisplayName": "Silver"
+                }
+            ]
+        },
+        {
+            "UserId": 123,
+            "UserName": "Island",
+            "ExtendedAccounts": [
+                {
+                    "AccountId": "Id123",
+                    "DisplayName": "Ben"
+                },
+                {
+                    "AccountId": "Id124",
+                    "DisplayName": "Gun"
+                }
+            ]
+        }
+    ]
+}

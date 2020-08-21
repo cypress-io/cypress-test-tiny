@@ -1,0 +1,52 @@
+{
+    "AmountDecimals": 0,
+    "AssetType": "SrdOnStock",
+    "CurrencyCode": "EUR",
+    "DefaultAmount": 0,
+    "Description": "STMicroelectronics",
+    "Exchange": {
+        "CountryCode": "FR",
+        "ExchangeId": "PAR",
+        "Name": "Euronext Paris",
+        "TimeZoneId": "4"
+    },
+    "Format": {
+        "Decimals": 3,
+        "OrderDecimals": 3
+    },
+    "GroupId": 0,
+    "IncrementSize": 0,
+    "IsComplex": false,
+    "Isin": "NL0000226223",
+    "IssuerCountry": "NL",
+    "IssuerName": "STMicroelectronics",
+    "IsTradable": true,
+    "LotSizeType": "NotUsed",
+    "PriceCurrency": "EUR",
+    "RelatedInstruments": [
+        {
+            "AssetType": "Stock",
+            "Uic": 1252
+        }
+    ],
+    "Sector": {
+        "Name": "Semiconductors",
+        "SectorId": "1017"
+    },
+    "ShortTradeDisabled": false,
+    "SupportedOrderTypes": [
+        "Market",
+        "Limit",
+        "Stop",
+        "TrailingStop",
+        "StopLimit",
+        "StopIfTraded",
+        "TrailingStopIfTraded"
+    ],
+    "Symbol": "STM:xpar",
+    "TickSize": 0.001,
+    "TradableAs": ["SrdOnStock"],
+    "TradableOn": [],
+    "TradingSignals": "NotAllowed",
+    "Uic": 1252
+}

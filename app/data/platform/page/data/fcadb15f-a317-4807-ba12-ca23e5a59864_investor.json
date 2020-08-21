@@ -1,0 +1,58 @@
+{
+    "Name": "portfolio_dynamic",
+    "Sections": [
+        {
+            "Type": "AccountSelector",
+            "IsMoreMenuShown": true,
+            "Name": "accountselectorsection",
+            "Title": "Account Selector",
+            "Id": "954afab6-e46d-41dd-85fc-57682bd32d66"
+        },
+        {
+            "Type": "TabSection",
+            "Id": "tab-section-asd-123-ads-asd",
+            "IsDividerShown": true,
+            "Tabs": [
+                {
+                    "Id": "567artb6-e13d-21du-88qc-98982aa32e67",
+                    "Label": "Current Holdings",
+                    "Sections": [
+                        {
+                            "Type": "CurrentHoldings",
+                            "Name": "currentholdingsection",
+                            "Title": "current holding",
+                            "Id": "89d87752-ac1d-405d-a6b6-e2675560b0e6"
+                        }
+                    ]
+                },
+                {
+                    "Id": "124tfaf6-e37v-46kg-35gy-56882ag78d62",
+                    "Label": "Orders",
+                    "Sections": [
+                        {
+                            "Type": "Orders",
+                            "Name": "orderssection",
+                            "Title": "orders",
+                            "Id": "7d4dc24c-2f6f-4a18-81e9-f879e9c615cf"
+                        }
+                    ]
+                },
+                {
+                    "Id": "7d4dc24c-cf4b-4cec-81e9-bbd49bf954da",
+                    "Label": "Historic Earnings",
+                    "Sections": [
+                        {
+                            "Type": "HistoricEarnings",
+                            "Name": "historicearningsection",
+                            "Title": "history",
+                            "Id": "9f945a0c-cf4b-4cec-9bc6-bbd49bf954dc"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Title": "Portfolio",
+    "Url": "/page/portfolio",
+    "Id": "fcadb15f-a317-4807-ba12-ca23e5a59864_investor"
+}

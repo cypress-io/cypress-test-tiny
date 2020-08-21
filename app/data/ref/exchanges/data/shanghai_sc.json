@@ -1,0 +1,49 @@
+{
+    "AllDay": false,
+    "CountryCode": "CN",
+    "Currency": "CNH",
+    "ExchangeId": "SHANGHAI_SC",
+    "ExchangeSessions": [
+        {
+            "EndTime": "2019-11-12T01:15:00.000000Z",
+            "StartTime": "2019-11-11T07:00:00.000000Z",
+            "State": "Closed"
+        },
+        {
+            "EndTime": "2019-11-12T01:25:00.000000Z",
+            "StartTime": "2019-11-12T01:15:00.000000Z",
+            "State": "PreTrading"
+        },
+        {
+            "EndTime": "2019-11-12T01:30:00.000000Z",
+            "StartTime": "2019-11-12T01:25:00.000000Z",
+            "State": "Break"
+        },
+        {
+            "EndTime": "2019-11-12T03:30:00.000000Z",
+            "StartTime": "2019-11-12T01:30:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2019-11-12T05:00:00.000000Z",
+            "StartTime": "2019-11-12T03:30:00.000000Z",
+            "State": "Break"
+        },
+        {
+            "EndTime": "2019-11-12T07:00:00.000000Z",
+            "StartTime": "2019-11-12T05:00:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2019-11-13T01:15:00.000000Z",
+            "StartTime": "2019-11-12T07:00:00.000000Z",
+            "State": "Closed"
+        }
+    ],
+    "Mic": "XSSC",
+    "Name": "Shanghai-Hong Kong Stock Connect",
+    "PriceSourceName": "Shanghai Exchange",
+    "TimeZone": 284,
+    "TimeZoneAbbreviation": "",
+    "TimeZoneOffset": "08:00:00"
+}

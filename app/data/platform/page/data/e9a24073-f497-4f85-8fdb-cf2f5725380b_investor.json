@@ -1,0 +1,209 @@
+{
+    "Id": "e9a24073-f497-4f85-8fdb-cf2f5725380b_investor",
+    "Name": "bonds",
+    "Sections": [
+        {
+            "Id": "cd941793-fed6-4f3f-b966-08350f6f2cac",
+            "IsDividerShown": false,
+            "Name": "themedescriptiontext",
+            "Tags": [],
+            "Text": "Bonds are typically a longer-term investment, which offers you a more secure and stable return. \n\n To get at better overview we have divided the bonds into government bonds, corporate bonds and Danish bonds.  . \n\n  If you want to set up your own search criteria, please select 'Create your own search'.",
+            "TextType": "Expandable",
+            "Title": "",
+            "Type": "Text"
+        },
+        {
+            "Banners": [
+                {
+                    "Align": "center",
+                    "Id": "6e39b828-c793-4ea1-9314-bc9ee3eb00ea",
+                    "Illustration": {
+                        "Url": "etfs-bonds"
+                    },
+                    "IsCompact": false,
+                    "IsTextColorInverted": false,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "",
+                        "Target": "/page/gov-bonds"
+                    },
+                    "Name": "eu-gov-bonds",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Government bonds"
+                },
+                {
+                    "Align": "center",
+                    "Id": "42186706-31ff-46ca-ac5a-a9eea938522d",
+                    "Illustration": {
+                        "Url": "bonds-corporate"
+                    },
+                    "IsCompact": false,
+                    "IsTextColorInverted": false,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "",
+                        "Target": "/page/corp-bonds"
+                    },
+                    "Name": "corp-bonds",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Corporate bonds"
+                },
+                {
+                    "Align": "center",
+                    "Id": "04a440bd-e6bf-43e0-a0a3-24b4008318d6",
+                    "Illustration": {
+                        "Url": "stocks-denmark"
+                    },
+                    "IsCompact": false,
+                    "IsTextColorInverted": false,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "",
+                        "Target": "/page/dk-bonds"
+                    },
+                    "Name": "us-treasury-bonds",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Danish bonds"
+                },
+                {
+                    "Align": "center",
+                    "Id": "fdf6de4a-4028-473e-ae7a-c69d863a188c",
+                    "Illustration": {
+                        "Url": "finder"
+                    },
+                    "IsCompact": false,
+                    "IsTextColorInverted": false,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "",
+                        "Target": "/page/do-your-own-bonds"
+                    },
+                    "Name": "doyourself-bonds",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "All bonds"
+                }
+            ],
+            "Id": "640ce7b7-0993-4564-88bb-2e1d3123c393",
+            "IsDividerShown": false,
+            "LayoutType": "stretch",
+            "Name": "section-1",
+            "Tags": [],
+            "Title": "",
+            "Type": "Banner"
+        },
+        {
+            "AnalystConsensuses": [],
+            "AssetTypes": ["Bond"],
+            "BondRatings": [
+                "A1",
+                "A2",
+                "A3",
+                "Aa",
+                "Aa1",
+                "Aa2",
+                "Aaa",
+                "B",
+                "B1",
+                "B2",
+                "B3"
+            ],
+            "CountryCodes": [
+                "BE",
+                "DK",
+                "GB",
+                "FI",
+                "FR",
+                "GR",
+                "NL",
+                "IE",
+                "IT",
+                "HR",
+                "LV",
+                "LU",
+                "MT",
+                "ME",
+                "PL",
+                "PT",
+                "RO",
+                "SK",
+                "SI",
+                "CZ",
+                "DE",
+                "HU",
+                "US",
+                "AT"
+            ],
+            "Coupons": [],
+            "CurrencyCodes": [],
+            "DebtTypes": ["Corporate"],
+            "ExchangeIds": [],
+            "FundBroadAssetClass": [],
+            "FundCategories": [],
+            "FundIssuerNames": [],
+            "FundRatings": [],
+            "Id": "4e0af75d-d8bc-4b1e-93f2-728153ae5f71",
+            "IncludeNonTradable": false,
+            "InstrumentLimit": 4,
+            "IsDividerShown": false,
+            "IsSeeAllLinkShown": true,
+            "LayoutType": "stretch",
+            "Listing": [],
+            "MarketCaps": [],
+            "Maturities": [],
+            "Name": "screenings-top-four-pop_dk_bonds",
+            "OrderBy": "Popularity",
+            "PriceEarnings": [],
+            "Sectors": [],
+            "SustainabilityRatings": [],
+            "Tags": [],
+            "Target": "/page/popular-bonds",
+            "Title": "Popular bonds",
+            "Type": "InstrumentList",
+            "Uics": [],
+            "YearlyCostPercentages": [],
+            "YieldToMaturity": []
+        },
+        {
+            "Banners": [
+                {
+                    "Align": "center",
+                    "Id": "b480bc25-23b3-40c9-835d-282e87fbb304",
+                    "Image": {
+                        "Alt": "High yield",
+                        "Url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg=="
+                    },
+                    "IsCompact": false,
+                    "IsTextColorInverted": true,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "",
+                        "Target": "/page/dynamicbondtheme2"
+                    },
+                    "Name": "eu-high-yield",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Corporate bonds with reduced minimum ordersize"
+                }
+            ],
+            "Id": "1798f407-7d99-4c08-89d6-81f418fafe71",
+            "IsDividerShown": true,
+            "LayoutType": "stretch",
+            "Name": "corporatebonds",
+            "Tags": [],
+            "Title": "",
+            "Type": "Banner"
+        }
+    ],
+    "Tags": [],
+    "Title": "Bonds",
+    "Url": "/page/bonds"
+}

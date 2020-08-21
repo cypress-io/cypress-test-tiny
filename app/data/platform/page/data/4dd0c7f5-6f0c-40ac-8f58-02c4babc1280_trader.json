@@ -1,0 +1,151 @@
+{
+    "Id": "4dd0c7f5-6f0c-40ac-8f58-02c4babc1280_trader",
+    "Name": "us-stocks",
+    "Sections": [
+        {
+            "Type": "InstrumentGrids",
+            "IsDividerShown": false,
+            "LayoutType": "",
+            "InstrumentGrids": [
+                {
+                    "AssetTypes": ["CfdOnIndex"],
+                    "CountryCodes": ["US"],
+                    "IncludeNonTradable": false,
+                    "InstrumentLimit": 5,
+                    "IsSeeAllLinkShown": false,
+                    "Name": "us cfd - instrumentgrid",
+                    "OrderBy": "",
+                    "Title": "",
+                    "Id": "20614bfc-d8ad-47af-abd8-aff0f4b4a84e"
+                }
+            ],
+            "Name": "cfd - instrumentgridssection",
+            "Title": "",
+            "Id": "cef46ae6-8b76-4d57-889a-74ac156901c4"
+        },
+        {
+            "Type": "InstrumentGrids",
+            "IsDividerShown": false,
+            "LayoutType": "stretch",
+            "InstrumentGrids": [
+                {
+                    "AssetTypes": ["Stock"],
+                    "CountryCodes": ["US"],
+                    "IncludeNonTradable": false,
+                    "InstrumentLimit": 5,
+                    "IsSeeAllLinkShown": true,
+                    "Listing": ["Primary"],
+                    "MarketCaps": ["TenToHundredBillions", "AboveHundredBillions"],
+                    "Name": "us gainers today - instrumentgrid",
+                    "OrderBy": "OneDayReturnPct desc",
+                    "Target": "/page/us_stocks_gainers",
+                    "Title": "Gainers today",
+                    "Id": "fbc2b10d-ad0c-450a-9779-9ace36cc04f0"
+                },
+                {
+                    "AssetTypes": ["Stock"],
+                    "CountryCodes": ["US"],
+                    "IncludeNonTradable": false,
+                    "InstrumentLimit": 5,
+                    "IsSeeAllLinkShown": true,
+                    "Listing": ["Primary"],
+                    "MarketCaps": ["TenToHundredBillions", "AboveHundredBillions"],
+                    "Name": "us losers today - instrumentgrid",
+                    "OrderBy": "OneDayReturnPct",
+                    "Target": "/page/us_stocks_losers",
+                    "Title": "Losers today",
+                    "Id": "c84a11c2-4a23-47b0-9ad4-85963e974ef0"
+                },
+                {
+                    "AssetTypes": ["Stock"],
+                    "CountryCodes": ["US"],
+                    "IncludeNonTradable": false,
+                    "InstrumentLimit": 5,
+                    "IsSeeAllLinkShown": true,
+                    "Listing": ["Primary"],
+                    "Name": "us most traded at saxo - instrumentgrid",
+                    "OrderBy": "Popularity",
+                    "Target": "/page/us_stocks_popular",
+                    "Title": "Most traded at Saxo",
+                    "Id": "a9cbda43-dc61-4797-ab9e-0d2ce83a41f2"
+                }
+            ],
+            "Name": "gainers losers popular - instrumentgridssection",
+            "Title": "",
+            "Id": "0b625b9e-3310-4998-b8cd-decfe56c97d1"
+        },
+        {
+            "Type": "NewsList",
+            "IsDividerShown": false,
+            "LayoutType": "stretch",
+            "viewType": "grid",
+            "NewsLists": [
+                {
+                    "Title": "",
+                    "NewsLimit": 10,
+                    "Search": "",
+                    "ShouldShowLinkedInstrumentNews": false,
+                    "Id": "3aa9a0f9-b5ea-4518-8e6c-7bee405b8aba",
+                    "Uics": [4912, 1376, 4913, 211, 773599, 174185]
+                }
+            ],
+            "Name": "stock latest news - newslistsection",
+            "Title": "Latest news",
+            "Id": "89c83b2a-9401-437d-b89b-ad2578fa4e95"
+        },
+        {
+            "Type": "InstrumentGrids",
+            "IsDividerShown": false,
+            "LayoutType": "stretch",
+            "InstrumentGrids": [
+                {
+                    "AssetTypes": ["CfdOnStock"],
+                    "CountryCodes": ["US"],
+                    "IncludeNonTradable": false,
+                    "InstrumentLimit": 5,
+                    "IsSeeAllLinkShown": false,
+                    "Name": "us cfd on stock - instrumentgrid",
+                    "OrderBy": "",
+                    "Title": "Stock CFDs",
+                    "Id": "665e2d6d-43c6-419c-84f8-cff6c1b9f405"
+                }
+            ],
+            "Name": "stock cfds - instrumentgridssection",
+            "Title": "",
+            "Id": "3ea32758-2c4b-4294-a774-6f786196718a"
+        },
+        {
+            "IsDividerShown": true,
+            "LayoutType": "stretch",
+            "Type": "Banner",
+            "Name": "search us stocks - bannersection",
+            "Title": "",
+            "Id": "c696f19a-4c53-467f-a6d2-ffecf839de8d",
+            "Banners": [
+                {
+                    "Illustration": {
+                        "Id": "00000000-0000-0000-0000-000000000000"
+                    },
+                    "IllustrationType": "finder",
+                    "Text": "",
+                    "Name": "search us stocks - bannerillustration",
+                    "Align": "center",
+                    "IsCompact": false,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "Target": "/page/us_stocks_search",
+                        "TargetId": "a57d80da-6f6c-44c6-a866-74484dceb9b8",
+                        "LinkText": "us_stocks_search"
+                    },
+                    "Title": "Search American Stocks",
+                    "ImageType": "gradient",
+                    "Id": "348c9d6a-7770-4258-bc02-3fb3a1405adf"
+                }
+            ]
+        }
+    ],
+    "Tags": [],
+    "Title": "US stocks",
+    "Url": "/page/us-stocks"
+}

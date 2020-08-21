@@ -1,0 +1,1523 @@
+[
+    {
+        "AccountPerformance": {
+            "Allocation": {
+                "TradesPerAssetType": {
+                    "ClosedTradesAllocations": [
+                        {
+                            "AssetClassType": "Commodity",
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "PortfolioAllocationType": "Asset",
+                            "ReturnAttribution": -0.04343020402299997,
+                            "TradeCount": 30,
+                            "TradePct": 53.57142857142857,
+                            "TradePercent": 0.5357142857142857
+                        },
+                        {
+                            "AssetClassType": "Currency",
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "PortfolioAllocationType": "Asset",
+                            "ReturnAttribution": -0.035305994597161314,
+                            "TradeCount": 14,
+                            "TradePct": 25,
+                            "TradePercent": 0.25
+                        },
+                        {
+                            "AssetClassType": "Equity",
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "PortfolioAllocationType": "Asset",
+                            "ReturnAttribution": -1,
+                            "TradeCount": 8,
+                            "TradePct": 14.285714285714286,
+                            "TradePercent": 0.14285714285714285
+                        },
+                        {
+                            "AssetClassType": "Fixed Income",
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "PortfolioAllocationType": "Asset",
+                            "ReturnAttribution": -0.035425702987522394,
+                            "TradeCount": 4,
+                            "TradePct": 7.142857142857143,
+                            "TradePercent": 0.07142857142857142
+                        }
+                    ]
+                },
+                "TradesPerInstrument": {
+                    "ClosedTradesAllocations": [
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "Gold August 2019",
+                            "InstrumentSymbol": "GOLDAUG19",
+                            "InstrumentUic": 13399331,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": -0.3152423023093072,
+                            "TradeCount": 20,
+                            "TradePct": 35.714285714285715,
+                            "TradePercent": 0.35714285714285715
+                        },
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "Euro/US Dollar",
+                            "InstrumentSymbol": "EURUSD",
+                            "InstrumentUic": 21,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": 0.14556508047585726,
+                            "TradeCount": 9,
+                            "TradePct": 16.071428571428573,
+                            "TradePercent": 0.16071428571428573
+                        },
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "US Tech 100 NAS September 2019",
+                            "InstrumentSymbol": "USNAS100SEP19",
+                            "InstrumentUic": 13280998,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": -1,
+                            "TradeCount": 5,
+                            "TradePct": 8.928571428571429,
+                            "TradePercent": 0.08928571428571429
+                        },
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "30 year US T-Bond September 2019",
+                            "InstrumentSymbol": "30YUSTBONDSEP19",
+                            "InstrumentUic": 13558676,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": -0.0388296011196641,
+                            "TradeCount": 4,
+                            "TradePct": 7.142857142857143,
+                            "TradePercent": 0.07142857142857142
+                        },
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "Silver September 2019",
+                            "InstrumentSymbol": "SILVERSEP19",
+                            "InstrumentUic": 13636993,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": 0.2462298810356893,
+                            "TradeCount": 4,
+                            "TradePct": 7.142857142857143,
+                            "TradePercent": 0.07142857142857142
+                        },
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "US Copper September 2019",
+                            "InstrumentSymbol": "COPPERUSSEP19",
+                            "InstrumentUic": 13636990,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": -0.029251224632610217,
+                            "TradeCount": 4,
+                            "TradePct": 7.142857142857143,
+                            "TradePercent": 0.07142857142857142
+                        },
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "British Pound/US Dollar",
+                            "InstrumentSymbol": "GBPUSD",
+                            "InstrumentUic": 31,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": -0.03693142057382785,
+                            "TradeCount": 3,
+                            "TradePct": 5.357142857142857,
+                            "TradePercent": 0.05357142857142857
+                        },
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "US Crude August 2019",
+                            "InstrumentSymbol": "OILUSAUG19",
+                            "InstrumentUic": 13806391,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": 0.05066042687193842,
+                            "TradeCount": 2,
+                            "TradePct": 3.5714285714285716,
+                            "TradePercent": 0.03571428571428571
+                        },
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "US Dollar/Japanese Yen",
+                            "InstrumentSymbol": "USDJPY",
+                            "InstrumentUic": 42,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": -0.14733205038488453,
+                            "TradeCount": 2,
+                            "TradePct": 3.5714285714285716,
+                            "TradePercent": 0.03571428571428571
+                        },
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "EU Stocks 50 Index September 2019",
+                            "InstrumentSymbol": "EU50SEP19",
+                            "InstrumentUic": 12488567,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": -0.029474282715185443,
+                            "TradeCount": 2,
+                            "TradePct": 3.5714285714285716,
+                            "TradePercent": 0.03571428571428571
+                        },
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "US Tech 100 NAS June 2019",
+                            "InstrumentSymbol": "USNAS100JUN19",
+                            "InstrumentUic": 11570780,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": -0.066611266620014,
+                            "TradeCount": 1,
+                            "TradePct": 1.7857142857142858,
+                            "TradePercent": 0.017857142857142856
+                        }
+                    ]
+                }
+            },
+            "From": "2018-07-20",
+            "InceptionDay": "2010-12-30",
+            "LastTradeDay": "2019-07-19",
+            "Thru": "2019-07-19",
+            "TimeWeightedPerformance": {
+                "PerformanceFraction": -0.07233212412851324,
+                "PerformanceKeyFigures": {
+                    "ClosedTradesCount": 56,
+                    "MaxDrawDownFraction": 0.08186843336471648,
+                    "SampledStandardDeviation": 0.00407649657450877,
+                    "AnnualizedStandardDeviation": 0.06471237693
+                }
+            },
+            "TotalCashBalance": 0,
+            "TotalOpenPositionsValue": 0,
+            "TotalPositionsValuePerProductPerSecurity": []
+        },
+        "AllowMultipleInvestment": false,
+        "AllowPartialWithdrawal": true,
+        "AutoFundTransferEnabled": false,
+        "AutoTradingPartnerLeaderId": "1",
+        "Category": "Trading Strategies",
+        "CategoryId": 2,
+        "CategoryName": "EquityPortfolios",
+        "Currency": "USD",
+        "ShortDescription": "<p>Discretionary Trading can contain both long and short positions across a number of liquid markets including: equities, bonds, commodities and currencies. The investment theme is not managed as a portfolio,  each trade is initiated on its  merits.</p>",
+        "Description": "<p> TEST TSET TSEST TESTA fully discretionary investment theme exploiting short-term price movements across asset-classes.</p>\r\n<br>\r\n<p>Discretionary Trading exploits short-term price movements and is fully discretionary (i.e. trading is not automated), generating absolute returns without reference to a benchmark.</p>\r\n<br>\r\n<p>Discretionary Trading can contain both long and short positions across a number of liquid markets including: equities, bonds, commodities and currencies. The investment theme is not managed as a portfolio,  each trade is initiated on its  merits.</p>\r\n<br>\r\n<p>Equity-related instruments are restricted to the following indices (traded as expiring CFDs): Nasdaq 100 index, Russell 2000 index, Euro STOXX 50 index, S&amp;P 500 index, Nikkei 225 index and DAX 30 index.&#160;</p>\r\n<br>\r\n<p>Fixed-income within this theme is restricted to trading the following instruments as expiring CFDs: 30 year US T-bond, 10 year US T-notes and German Bund.&#160;</p>\r\n<br>\r\n<p>Commodity-related instruments are within this theme restricted to the following instruments traded as expiring CFDs: Gold, Silver, Copper and US Crude Oil.</p>\r\n<br>\r\n<p>For currencies, any FX Spot crosses may be traded, although the theme mostly trades: EURUSD, USDJPY, AUDUSD, GBPUSD and EURJPY.</p>\r\n<br>\r\n<p>The expected annual cost of the strategy is expected to be 7%. This is after trading costs and the 0.5% service fee but before any performance fee, since this can vary significantly depending on the point of entry. For a USD 100,000 portfolio this amounts to USD 7000 per year.<p>\r\n<br>\r\n<p>The performance figures provided below are after trading costs but before performance and service fees. Strategy controls and limits set by Saxo have been in place since it was made available in 2015. <p>",
+        "FollowerAmountRemaining": 34571053.56,
+        "IsInvestmentShieldSupported": true,
+        "IsOpenForFollowers": true,
+        "LeaderPartnerOptions": "None",
+        "LeaderLogoDetails": {
+            "LeaderLogoDarkTheme": "#32a852",
+            "LeaderLogoLightTheme": "#009ADA"
+        },
+        "LogoUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg==",
+        "ManagementFee": 1.08,
+        "MinimumFundingAmount": 20000,
+        "PerformanceFee": 0,
+        "Products": "FX Spot, CFDs",
+        "RiskLevel": "Alpha",
+        "StrategyLegalAssetTypes": ["FxSpot", "CfdOnStock", "Cash", "CfdOnFutures"],
+        "StrategyLegalProductAreas": ["FXSpot", "CFDs", "Stocks"],
+        "StrategyName": "Discretionary Trading",
+        "SuitabilityLevel": "Low",
+        "TotalExpectedCost": "7%",
+        "TradeLeaderId": "5",
+        "TradeLeaderOptions": "JointExecutionModel, UsExchanges",
+        "CategoryType": "Equity Portfolios"
+    },
+    {
+        "AccountPerformance": {
+            "Allocation": {
+                "TradesPerAssetType": {
+                    "ClosedTradesAllocations": [
+                        {
+                            "AssetClassType": "Currency",
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "PortfolioAllocationType": "Asset",
+                            "ReturnAttribution": -1,
+                            "TradeCount": 86,
+                            "TradePct": 100,
+                            "TradePercent": 1
+                        }
+                    ]
+                },
+                "TradesPerInstrument": {
+                    "ClosedTradesAllocations": [
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "Euro/Swiss Franc",
+                            "InstrumentSymbol": "EURCHF",
+                            "InstrumentUic": 14,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": 0.3999634903249361,
+                            "TradeCount": 21,
+                            "TradePct": 24.41860465116279,
+                            "TradePercent": 0.2441860465116279
+                        },
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "British Pound/US Dollar",
+                            "InstrumentSymbol": "GBPUSD",
+                            "InstrumentUic": 31,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": -1,
+                            "TradeCount": 14,
+                            "TradePct": 16.27906976744186,
+                            "TradePercent": 0.16279069767441862
+                        },
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "Euro/US Dollar",
+                            "InstrumentSymbol": "EURUSD",
+                            "InstrumentUic": 21,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": -0.09300839722526469,
+                            "TradeCount": 12,
+                            "TradePct": 13.953488372093023,
+                            "TradePercent": 0.13953488372093023
+                        },
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "US Dollar/Singapore Dollar",
+                            "InstrumentSymbol": "USDSGD",
+                            "InstrumentUic": 45,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": 0.06726907630522089,
+                            "TradeCount": 8,
+                            "TradePct": 9.30232558139535,
+                            "TradePercent": 0.09302325581395349
+                        },
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "British Pound/Swiss Franc",
+                            "InstrumentSymbol": "GBPCHF",
+                            "InstrumentUic": 24,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": 0.337166849215042,
+                            "TradeCount": 8,
+                            "TradePct": 9.30232558139535,
+                            "TradePercent": 0.09302325581395349
+                        },
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "US Dollar/Swiss Franc",
+                            "InstrumentSymbol": "USDCHF",
+                            "InstrumentUic": 39,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": 0.12326579043446513,
+                            "TradeCount": 7,
+                            "TradePct": 8.13953488372093,
+                            "TradePercent": 0.08139534883720931
+                        },
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "Australian Dollar/US Dollar",
+                            "InstrumentSymbol": "AUDUSD",
+                            "InstrumentUic": 4,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": -0.33839905074844834,
+                            "TradeCount": 6,
+                            "TradePct": 6.976744186046512,
+                            "TradePercent": 0.06976744186046512
+                        },
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "Euro/British Pound",
+                            "InstrumentSymbol": "EURGBP",
+                            "InstrumentUic": 17,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": 0.1694961664841183,
+                            "TradeCount": 5,
+                            "TradePct": 5.813953488372093,
+                            "TradePercent": 0.05813953488372093
+                        },
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "US Dollar/Japanese Yen",
+                            "InstrumentSymbol": "USDJPY",
+                            "InstrumentUic": 42,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": -0.24963490324936108,
+                            "TradeCount": 3,
+                            "TradePct": 3.488372093023256,
+                            "TradePercent": 0.03488372093023256
+                        },
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "Euro/Japanese Yen",
+                            "InstrumentSymbol": "EURJPY",
+                            "InstrumentUic": 18,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": -0.2254016064257028,
+                            "TradeCount": 2,
+                            "TradePct": 2.3255813953488373,
+                            "TradePercent": 0.023255813953488372
+                        }
+                    ]
+                }
+            },
+            "From": "2017-08-04",
+            "InceptionDay": "2015-01-14",
+            "LastTradeDay": "2018-08-03",
+            "Thru": "2018-08-03",
+            "TimeWeightedPerformance": {
+                "PerformanceFraction": 0.01108835493516567,
+                "PerformanceKeyFigures": {
+                    "ClosedTradesCount": 86,
+                    "MaxDrawDownFraction": 0.05896710785600438,
+                    "SampledStandardDeviation": 0.0047588530014984,
+                    "AnnualizedStandardDeviation": 0.0755444494
+                }
+            },
+            "TotalCashBalance": 0,
+            "TotalOpenPositionsValue": 0,
+            "TotalPositionsValuePerProductPerSecurity": [
+                {
+                    "Description": "Euro/US Dollar",
+                    "ProductName": "Fx Spot & Forwards",
+                    "Symbol": "EURUSD",
+                    "Value": 111.211403002697
+                },
+                {
+                    "Description": "British Pound/US Dollar",
+                    "ProductName": "Fx Spot & Forwards",
+                    "Symbol": "GBPUSD",
+                    "Value": 64.2890947633934
+                },
+                {
+                    "Description": "British Pound/Swiss Franc",
+                    "ProductName": "Fx Spot & Forwards",
+                    "Symbol": "GBPCHF",
+                    "Value": 29.0932315685669
+                },
+                {
+                    "Description": "Euro/Swiss Franc",
+                    "ProductName": "Fx Spot & Forwards",
+                    "Symbol": "EURCHF",
+                    "Value": 15.1941944373633
+                },
+                {
+                    "Description": "US Dollar/Swiss Franc",
+                    "ProductName": "Fx Spot & Forwards",
+                    "Symbol": "USDCHF",
+                    "Value": -12.0997246320422
+                }
+            ]
+        },
+        "AllowMultipleInvestment": false,
+        "AllowPartialWithdrawal": true,
+        "AutoTradingPartnerLeaderId": "92",
+        "Category": "Trading Strategies",
+        "Currency": "EUR",
+        "ShortDescription": "<p>The Macro FX Trading investment theme focuses on the impact and correlated effects of interest rate curves and interest rate differentials, central bank policies, carry trades and quantitative easing policies on the FX markets.</p>",
+        "Description": "<p>The Macro FX Trading investment theme focuses on the impact and correlated effects of interest rate curves and interest rate differentials, central bank policies, carry trades and quantitative easing policies on the FX markets. The investment theme seeks\n    to exploit FX movements driven by these fundamentals as well as other relevant macro-economic information and geo-political developments.</p>\n<p>The investment theme is fully discretionary (i.e. no automation), and trades liquid Spot FX crosses including the following currencies: USD, EUR, GBP, CHF, JPY, CAD, AUD, NZD, NOK, SEK, SGD.</p>\n<p>The investment theme does not generally trade intra-day to eliminate short-term noise and tends to ease into positions, building on positions where the price action confirms the direction, and reducing positions which become more uncertain.</p>\n<p>The Macro FX Trading investment theme tends to set specific profit targets on short-term positions while remaining agile on positions expected to be held over longer timeframes..</p>\r\n",
+        "FollowerAmountRemaining": 6580786.46067553,
+        "IsInvestmentShieldSupported": true,
+        "IsOpenForFollowers": true,
+        "LeaderPartnerOptions": "PositionsCloseOnDeactivation",
+        "LogoUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg==",
+        "ManagementFee": 0.5,
+        "MinimumFundingAmount": 50000,
+        "PerformanceFee": 20,
+        "Products": "FX Spot",
+        "RiskLevel": "Alpha",
+        "StrategyLegalAssetTypes": ["FxSpot", "ContractFutures", "Bond", "Cash"],
+        "StrategyLegalProductAreas": ["FXSpot", "Futures", "Bonds", "Stocks"],
+        "StrategyName": "Macro FX Trading",
+        "SuitabilityLevel": "High",
+        "TradeLeaderId": "22",
+        "TradeLeaderOptions": "JointExecutionModel"
+    },
+    {
+        "AccountPerformance": {
+            "Allocation": {
+                "TradesPerAssetType": {
+                    "ClosedTradesAllocations": [
+                        {
+                            "AssetClassType": "Equity",
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "PortfolioAllocationType": "Asset",
+                            "ReturnAttribution": 1,
+                            "TradeCount": 6,
+                            "TradePct": 100,
+                            "TradePercent": 1
+                        }
+                    ]
+                },
+                "TradesPerInstrument": {
+                    "ClosedTradesAllocations": [
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "General Electric Co.",
+                            "InstrumentSymbol": "GE:xnys",
+                            "InstrumentUic": 312,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": 1,
+                            "TradeCount": 2,
+                            "TradePct": 33.333333333333336,
+                            "TradePercent": 0.3333333333333333
+                        },
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "Allergan Plc",
+                            "InstrumentSymbol": "AGN:xnys",
+                            "InstrumentUic": 2022609,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": 0.19663446387904265,
+                            "TradeCount": 1,
+                            "TradePct": 16.666666666666668,
+                            "TradePercent": 0.16666666666666666
+                        },
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "NetEase Inc.",
+                            "InstrumentSymbol": "NTES:xnas",
+                            "InstrumentUic": 9487,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": 0.10797025395043593,
+                            "TradeCount": 1,
+                            "TradePct": 16.666666666666668,
+                            "TradePercent": 0.16666666666666666
+                        },
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "McKesson Hboc",
+                            "InstrumentSymbol": "MCK:xnys",
+                            "InstrumentUic": 569,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": 0.23833886205039584,
+                            "TradeCount": 1,
+                            "TradePct": 16.666666666666668,
+                            "TradePercent": 0.16666666666666666
+                        },
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "Adient Plc",
+                            "InstrumentSymbol": "ADNT:xnys",
+                            "InstrumentUic": 5343110,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": 0.10926655541248947,
+                            "TradeCount": 1,
+                            "TradePct": 16.666666666666668,
+                            "TradePercent": 0.16666666666666666
+                        }
+                    ],
+                    "OpenTradesAllocations": [
+                        {
+                            "CalculationBasis": "MarketValue",
+                            "CalculationDataType": "OpenPositions",
+                            "InstrumentDescription": "Link Administration Holdings Ltd",
+                            "InstrumentSymbol": "LNK:xasx",
+                            "PortfolioAllocationType": "Instrument",
+                            "TradeCount": 0,
+                            "TradePct": 20.695461796987985,
+                            "TradePercent": 0.20695461796987985
+                        },
+                        {
+                            "CalculationBasis": "MarketValue",
+                            "CalculationDataType": "OpenPositions",
+                            "InstrumentDescription": "WESCO International Inc.",
+                            "InstrumentSymbol": "WCC:xnys",
+                            "PortfolioAllocationType": "Instrument",
+                            "TradeCount": 0,
+                            "TradePct": 20.131887154073407,
+                            "TradePercent": 0.20131887154073408
+                        },
+                        {
+                            "CalculationBasis": "MarketValue",
+                            "CalculationDataType": "OpenPositions",
+                            "InstrumentDescription": "Macerich Co.",
+                            "InstrumentSymbol": "MAC:xnys",
+                            "PortfolioAllocationType": "Instrument",
+                            "TradeCount": 0,
+                            "TradePct": 20.10695602447078,
+                            "TradePercent": 0.2010695602447078
+                        },
+                        {
+                            "CalculationBasis": "MarketValue",
+                            "CalculationDataType": "OpenPositions",
+                            "InstrumentDescription": "LINE Corp.",
+                            "InstrumentSymbol": "LN:xnys",
+                            "PortfolioAllocationType": "Instrument",
+                            "TradeCount": 0,
+                            "TradePct": 20.047121313424622,
+                            "TradePercent": 0.2004712131342462
+                        },
+                        {
+                            "CalculationBasis": "MarketValue",
+                            "CalculationDataType": "OpenPositions",
+                            "InstrumentDescription": "Tenneco Inc.",
+                            "InstrumentSymbol": "TEN:xnys",
+                            "PortfolioAllocationType": "Instrument",
+                            "TradeCount": 0,
+                            "TradePct": 12.799641937958262,
+                            "TradePercent": 0.12799641937958262
+                        },
+                        {
+                            "CalculationBasis": "MarketValue",
+                            "CalculationDataType": "OpenPositions",
+                            "InstrumentDescription": "Baidu.com Inc.",
+                            "InstrumentSymbol": "BIDU:xnas",
+                            "PortfolioAllocationType": "Instrument",
+                            "TradeCount": 0,
+                            "TradePct": 6.218931773084944,
+                            "TradePercent": 0.062189317730849444
+                        }
+                    ]
+                }
+            },
+            "From": "2018-07-20",
+            "InceptionDay": "2016-05-26",
+            "LastTradeDay": "2019-07-19",
+            "Thru": "2019-07-19",
+            "TimeWeightedPerformance": {
+                "PerformanceFraction": -0.0018786559285678178,
+                "PerformanceKeyFigures": {
+                    "ClosedTradesCount": 6,
+                    "MaxDrawDownFraction": 0.03962333590825823,
+                    "SampledStandardDeviation": 0.00237588580554768,
+                    "AnnualizedStandardDeviation": 0.0377160179
+                }
+            },
+            "TotalCashBalance": 0,
+            "TotalOpenPositionsValue": 0,
+            "TotalPositionsValuePerProductPerSecurity": [
+                {
+                    "Description": "Link Administration Holdings Ltd",
+                    "ProductName": "Shares",
+                    "Symbol": "LNK:xasx",
+                    "Value": 1331.41111390926
+                },
+                {
+                    "Description": "WESCO International Inc.",
+                    "ProductName": "Shares",
+                    "Symbol": "WCC:xnys",
+                    "Value": 1295.15439490224
+                },
+                {
+                    "Description": "Macerich Co.",
+                    "ProductName": "Shares",
+                    "Symbol": "MAC:xnys",
+                    "Value": 1293.55048853084
+                },
+                {
+                    "Description": "LINE Corp.",
+                    "ProductName": "Shares",
+                    "Symbol": "LN:xnys",
+                    "Value": 1289.70111323949
+                },
+                {
+                    "Description": "Tenneco Inc.",
+                    "ProductName": "Shares",
+                    "Symbol": "TEN:xnys",
+                    "Value": 823.445531074688
+                },
+                {
+                    "Description": "Baidu.com Inc.",
+                    "ProductName": "Shares",
+                    "Symbol": "BIDU:xnas",
+                    "Value": 400.085533753771
+                }
+            ]
+        },
+        "AllowMultipleInvestment": false,
+        "AllowPartialWithdrawal": true,
+        "AutoFundTransferEnabled": false,
+        "AutoTradingPartnerLeaderId": "105",
+        "Category": "Equity Portfolios",
+        "CategoryId": 2,
+        "CategoryName": "Stock Portfolios",
+        "Currency": "EUR",
+        "ShortDescription": "<p>Based on the expertise of Morningstar Investment Management Europe Ltd (Morningstar IM), our Saxo Morningstar Moat portfolio is suited for investors looking to get exposure to the global stock market. </p>",
+        "Description": "<p>Based on the expertise of Morningstar Investment Management Europe Ltd (Morningstar IM), our Saxo Morningstar Moat portfolio is suited for investors looking to get exposure to the global stock market.  <p>\r\n<br>\r\n<p>The goal of the portfolio is to outperform global stock markets over the medium to long term, including the MSCI World Index, which is the benchmark for performance comparison. <p>\r\n<br>\r\n<p>The principle of the portfolio is value investing, championed by renowned investor Warren Buffet, amongst others. Morningstar IM have a robust “Moat” research framework, that identifies companies with strong competitive forces, placing them in a better position than their competitors. These stocks are then ranked based on how cheaply they are trading versus their estimated fair price. Those most cheaply priced are invested in the portfolio. The portfolio comprises 30 stocks.<p>\r\n<br>\r\n<p>The stocks held in your portfolio are reviewed on a quarterly basis, and if appropriate replaced with stocks offering stronger opportunities. This is all done for you, watch it take place from your account.<p>\r\n<br>\r\n<p>For an investment of EUR 30,000, after transaction costs (0.06% or 2 Eur minimum) and currency conversion (0.2% on non Euro transactions) the total expected cost of the portfolio is 1.5%, or Eur 450 per year. For an investment of EUR 150,000, after transaction and conversion costs the total expected cost is 1.1%, or Eur 1650 per year. <p>\r\n<br>\r\n<p>The performance figures provided below are after all costs. <p>",
+        "ExpectedCostExplanation": "For an investment of EUR 30,000, after transaction costs (0.06% or 2 EUR minimum) and currency conversion (0.2% on non Euro transactions) the total expected cost of the portfolio is 1.5%, or EUR 450 per year. For an investment of EUR 150,000, after transaction and conversion costs the total expected cost is 1.1%, or EUR 1650 per year.",
+        "FollowerAmountRemaining": 8392726.6,
+        "IsInvestmentShieldSupported": false,
+        "IsOpenForFollowers": true,
+        "LeaderPartnerOptions": "None",
+        "LogoUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg==",
+        "ManagementFee": 0.75,
+        "MinimumFundingAmount": 30000,
+        "PerformanceFee": 0,
+        "Products": "Stocks",
+        "RiskLevel": "Moderate",
+        "StrategyLegalAssetTypes": ["Stock", "Cash"],
+        "StrategyLegalProductAreas": ["Stocks"],
+        "StrategyName": "Saxo Morningstar Moat Portfolio",
+        "SuitabilityLevel": "High",
+        "TotalExpectedCost": "1.50%",
+        "TradeLeaderId": "23",
+        "IsPortfolioMandateRequired": true,
+        "TradeLeaderOptions": "UsExchanges",
+        "CategoryType": "Equity Portfolios",
+        "LeaderLogoDetails": {
+            "LeaderLogoDarkTheme": "#32a852",
+            "LeaderLogoLightTheme": "#009ADA"
+        }
+    },
+    {
+        "AccountPerformance": {
+            "Allocation": {
+                "TradesPerETFCategoryType": { "OpenTradesAllocations": [] },
+                "TradesPerInstrument": { "OpenTradesAllocations": [] }
+            },
+            "From": "2018-08-31",
+            "InceptionDay": "2015-10-22",
+            "LastTradeDay": "2019-08-30",
+            "Thru": "2019-08-30",
+            "TimeWeightedPerformance": {
+                "PerformanceFraction": 0.0022645766476589083639142966,
+                "PerformanceKeyFigures": {
+                    "AnnualizedStandardDeviation": 0.0139288480212415438154182119,
+                    "ClosedTradesCount": 0,
+                    "MaxDrawDownFraction": 0.0124400574515377617227463435,
+                    "SampledStandardDeviation": 0.000877434950329032
+                }
+            },
+            "TotalCashBalance": 0.0,
+            "TotalOpenPositionsValue": 0.0,
+            "TotalPositionsValuePerProductPerSecurity": []
+        },
+        "AllowMultipleInvestment": false,
+        "AllowPartialWithdrawal": true,
+        "AutoFundTransferEnabled": false,
+        "AutoTradingPartnerLeaderId": "112",
+        "Category": "Balanced Portfolios",
+        "CategoryId": 1,
+        "CategoryName": "ETF Portfolios",
+        "Currency": "GBP",
+        "Description": "<p>Our suite of ETF Portfolios are suited for long term savings and investments.</p>\r\n<br>               \r\n<p>The Defensive portfolio has a low risk profile, targeting more stable returns by spreading risk across stock markets, bonds and non-traditional assets like gold or property.<p>\r\n<br>\r\n<p>Investments are placed via Exchange Traded Funds (ETFs) since these instruments avoid concentration risk compared to a portfolio that invests directly into stocks.<p>\r\n<br>\r\n<p>Given that this portfolio targets long term returns (rather than short term gains), changes to your investments happen on a strategic basis which are typically twice a year. <p>\r\n<br>\r\n<p>The goal of the portfolio is maximise returns within its risk profile. Depending on markets, it has the ability to invest up to 80% into stock markets, up to 20% in high yield bond markets, up to 25% in emerging markets, up to 30% in non-traditional assets and up to 100% into government and credit bond markets.<p>\r\n<br>\r\n<p>The expected cost of the ETFs in the portfolio is 0.2%. This is reflected in the ETF performance and not deducted as a separate fee. After the service fee, this brings the total expected cost per year to 0.95%. For a portfolio investment of GBP 50,000, your expected total cost is GBP 475 per year. <p>\r\n<br>\r\n<p>The performance figures provided below are after all costs.<p>",
+        "ExpectedCostExplanation": "The expected cost of the ETFs in the portfolio is 0.2%. This is reflected in the ETF performance and not deducted as a separate fee. After the service fee, this brings the total expected cost per year  to 0.95%. For a portfolio investment of GBP 50,000, your expected total cost is GBP 475 per year.",
+        "FollowerAmountRemaining": 9957000.0,
+        "IsInvestmentShieldSupported": false,
+        "IsOpenForFollowers": true,
+        "IsPortfolioMandateRequired": false,
+        "LeaderLogoDetails": {},
+        "LeaderPartnerOptions": "None",
+        "LogoUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg==",
+        "ManagementFee": 0.75,
+        "MinimumFundingAmount": 10000.0,
+        "PerformanceFee": 0.0,
+        "Products": "Exchange Traded Funds (ETFs)",
+        "RiskLevel": "Defensive",
+        "StrategyLegalAssetTypes": ["Stock", "Cash"],
+        "StrategyLegalProductAreas": ["Stocks"],
+        "StrategyName": "Defensive Portfolio (GBP)",
+        "SuitabilityLevel": "Low",
+        "TotalExpectedCost": "0.95%",
+        "TradeLeaderId": "24",
+        "TradeLeaderOptions": "None"
+    },
+    {
+        "AccountPerformance": {
+            "Allocation": {
+                "TradesPerAssetType": {
+                    "ClosedTradesAllocations": [
+                        {
+                            "AssetClassType": "Equity",
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "PortfolioAllocationType": "Asset",
+                            "ReturnAttribution": 1,
+                            "TradeCount": 2,
+                            "TradePct": 100,
+                            "TradePercent": 1
+                        }
+                    ]
+                },
+                "TradesPerETFCategoryType": {
+                    "OpenTradesAllocations": [
+                        {
+                            "CalculationBasis": "MarketValue",
+                            "CalculationDataType": "OpenPositions",
+                            "ETFCategoryType": "DevelopedEquity",
+                            "PortfolioAllocationType": "EtfCategory",
+                            "TradeCount": 0,
+                            "TradePct": 62.92216184233063,
+                            "TradePercent": 0.6292216184233063,
+                            "TradeVolume": 1616.42
+                        },
+                        {
+                            "CalculationBasis": "MarketValue",
+                            "CalculationDataType": "OpenPositions",
+                            "ETFCategoryType": "Other",
+                            "PortfolioAllocationType": "EtfCategory",
+                            "TradeCount": 0,
+                            "TradePct": 37.07783815766937,
+                            "TradePercent": 0.3707783815766937,
+                            "TradeVolume": 952.5
+                        }
+                    ]
+                },
+                "TradesPerInstrument": {
+                    "ClosedTradesAllocations": [
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "iShares Euro High Yield Corporate Bond UCITS ETF",
+                            "InstrumentSymbol": "EUNW:xetr",
+                            "InstrumentUic": 107853,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": 0.3378574143692565,
+                            "TradeCount": 1,
+                            "TradePct": 50,
+                            "TradePercent": 0.5
+                        },
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "iShares Edge MSCI World Momentum Factor UCITS ETF",
+                            "InstrumentSymbol": "IS3R:xetr",
+                            "InstrumentUic": 2746461,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": 1,
+                            "TradeCount": 1,
+                            "TradePct": 50,
+                            "TradePercent": 0.5
+                        }
+                    ],
+                    "OpenTradesAllocations": [
+                        {
+                            "CalculationBasis": "MarketValue",
+                            "CalculationDataType": "OpenPositions",
+                            "InstrumentDescription": "iShares Edge MSCI World Momentum Factor UCITS ETF",
+                            "InstrumentSymbol": "IS3R:xetr",
+                            "PortfolioAllocationType": "Instrument",
+                            "TradeCount": 0,
+                            "TradePct": 62.92216184233063,
+                            "TradePercent": 0.6292216184233063
+                        },
+                        {
+                            "CalculationBasis": "MarketValue",
+                            "CalculationDataType": "OpenPositions",
+                            "InstrumentDescription": "iShares Euro Covered Bond UCITS ETF",
+                            "InstrumentSymbol": "IUS6:xetr",
+                            "PortfolioAllocationType": "Instrument",
+                            "TradeCount": 0,
+                            "TradePct": 37.07783815766937,
+                            "TradePercent": 0.3707783815766937
+                        }
+                    ]
+                }
+            },
+            "From": "2019-01-23",
+            "InceptionDay": "2019-01-23",
+            "LastTradeDay": "2019-07-19",
+            "Thru": "2019-07-19",
+            "TimeWeightedPerformance": {
+                "PerformanceFraction": 0.01344519907636968,
+                "PerformanceKeyFigures": {
+                    "ClosedTradesCount": 2,
+                    "MaxDrawDownFraction": 0.013701543641481463,
+                    "SampledStandardDeviation": 0.00159025879941409,
+                    "AnnualizedStandardDeviation": 0.02524457582
+                }
+            },
+            "TotalCashBalance": 0,
+            "TotalOpenPositionsValue": 0,
+            "TotalPositionsValuePerProductPerSecurity": [
+                {
+                    "Description": "iShares Edge MSCI World Momentum Factor UCITS ETF",
+                    "ProductName": "Shares",
+                    "Symbol": "IS3R:xetr",
+                    "Value": 1616.42
+                },
+                {
+                    "Description": "iShares Euro Covered Bond UCITS ETF",
+                    "ProductName": "Shares",
+                    "Symbol": "IUS6:xetr",
+                    "Value": 952.5
+                }
+            ]
+        },
+        "AllowMultipleInvestment": false,
+        "AllowPartialWithdrawal": true,
+        "AutoFundTransferEnabled": false,
+        "AutoTradingPartnerLeaderId": "143",
+        "CategoryId": 1,
+        "CategoryName": "ETF Portfolios",
+        "Currency": "EUR",
+        "ShortDescription": "<p>Based on the246\n\n\n expertise of Saxo’s Quantitative Strategies team, the Saxo Stronghold portfolio is for investors looking to reduce periods of significant losses while also capturing part of the stock market’s upside.",
+        "Description": "<p>Based on the246\r\n\r\n\r\n expertise of Saxo’s Quantitative Strategies team, the Saxo Stronghold portfolio is for investors looking to reduce periods of significant losses while also capturing part of the stock market’s upside.<p>\r\n<br>\r\n<p>The goal of Saxo Stronghold is simple: to outperform stock markets during downturns, while capturing part of the returns when stock markets move positively. This is a long term strategy, therefore Saxo Stronghold is not expected to react quickly to short term market movements. Over time, the average expected risk level is medium.<p>\r\n<br>\r\n<p>Our Quantitative Strategies team has honed its abilities to create an agile, professional-level system that’s available to every investor. The system works by adjusting the portfolio’s investments as market conditions change. When conditions are favourable, the portfolio will invest in higher risk investments, including stocks; when markets turn negative, the portfolio increases its exposure to bonds, which are traditionally lower risk. <p> \r\n<br>\r\n<p>The Saxo Stronghold portfolio consists of low-cost ETFs investing in global stocks, bonds and alternatives. The portfolio will be rebalanced more often during periods of significant market movement, and less during calmer conditions. Rebalancing is done for you, so all you have to do is view the results in your account.<p>\r\n<br>\r\n<p>The expected cost of ETFs in the portfolio is 0.28%. This is reflected in the ETF performance and is not charged as a separate fee. After all costs, including the service fee of 0.75%, the total cost of the portfolio is 1.03% per year. For instance, if you invest EUR 30,000, your expected total cost is EUR 309 per year. No trading fees are charged. <p>\r\n<br>\r\n<p>The performance figures provided below are after all costs<p>",
+        "ExpectedCostExplanation": "The expected cost of ETFs in the portfolio is 0.28%. This is reflected in the ETF performance and is not charged as a separate fee. After all costs, including the service fee of 0.75%, the total cost of the portfolio is 1.03% per year. For instance, if you invest EUR 30,000, your expected total cost is EUR 309 per year. No trading fees are charged.",
+        "FollowerAmountRemaining": 7677943.74,
+        "IsInvestmentShieldSupported": false,
+        "IsOpenForFollowers": true,
+        "LeaderPartnerOptions": "None",
+        "LogoUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg==",
+        "ManagementFee": 1.5,
+        "MinimumFundingAmount": 30000,
+        "PerformanceFee": 20,
+        "Products": "Exchange Traded Funds (ETFs)",
+        "RiskLevel": "Moderate",
+        "StrategyLegalAssetTypes": ["Stock", "Cash"],
+        "StrategyLegalProductAreas": ["Stocks"],
+        "StrategyName": "Stronghold EUR",
+        "SuitabilityLevel": "VeryHigh",
+        "TradeLeaderId": "51",
+        "TradeLeaderOptions": "UsExchanges",
+        "CategoryType": "Balanced Portfolios",
+        "LeaderLogoDetails": {
+            "LeaderLogoDarkTheme": "#32a852",
+            "LeaderLogoLightTheme": "#009ADA"
+        }
+    },
+    {
+        "AccountPerformance": {
+            "Allocation": {
+                "TradesPerAssetType": {
+                    "ClosedTradesAllocations": [
+                        {
+                            "AssetClassType": "Equity",
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "PortfolioAllocationType": "Asset",
+                            "ReturnAttribution": 1,
+                            "TradeCount": 1,
+                            "TradePct": 100,
+                            "TradePercent": 1
+                        }
+                    ]
+                },
+                "TradesPerETFCategoryType": {
+                    "OpenTradesAllocations": [
+                        {
+                            "CalculationBasis": "MarketValue",
+                            "CalculationDataType": "OpenPositions",
+                            "ETFCategoryType": "DevelopedEquity",
+                            "PortfolioAllocationType": "EtfCategory",
+                            "TradeCount": 0,
+                            "TradePct": 100,
+                            "TradePercent": 1.0,
+                            "TradeVolume": 1616.42
+                        }
+                    ]
+                },
+                "TradesPerInstrument": {
+                    "ClosedTradesAllocations": [
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "iShares Gold Producers UCITS ETF",
+                            "InstrumentSymbol": "IAUP:xlon",
+                            "InstrumentUic": 107853,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": 1,
+                            "TradeCount": 1,
+                            "TradePct": 100,
+                            "TradePercent": 1
+                        }
+                    ]
+                }
+            },
+            "From": "2019-01-23",
+            "InceptionDay": "2019-01-23",
+            "LastTradeDay": "2019-07-19",
+            "Thru": "2019-07-19",
+            "TimeWeightedPerformance": {
+                "PerformanceFraction": 0.01344519907636968,
+                "PerformanceKeyFigures": {
+                    "ClosedTradesCount": 2,
+                    "MaxDrawDownFraction": 0.013701543641481463,
+                    "SampledStandardDeviation": 0.00159025879941409,
+                    "AnnualizedStandardDeviation": 0.02524457582
+                }
+            },
+            "TotalCashBalance": 0,
+            "TotalOpenPositionsValue": 0,
+            "TotalPositionsValuePerProductPerSecurity": [
+                {
+                    "Description": "iShares Gold Producers UCITS ETF",
+                    "ProductName": "Shares",
+                    "Symbol": "IAUP:xlon",
+                    "Value": 5060.44
+                }
+            ]
+        },
+        "AllowMultipleInvestment": false,
+        "AllowPartialWithdrawal": true,
+        "AutoFundTransferEnabled": false,
+        "AutoTradingPartnerLeaderId": "143",
+        "CategoryId": 1,
+        "CategoryName": "ETF Portfolios",
+        "Currency": "EUR",
+        "ShortDescription": "Exposure to the gold and precious metals industry.",
+        "Description": "Exposure to the gold and precious metals industry.",
+        "ExpectedCostExplanation": "The expected cost of ETFs in the portfolio is 0.82%. This is reflected in the ETF performance and is not charged as a separate fee. After all costs, including the service fee of 0.75%, the total cost of the portfolio is 1.03% per year. For instance, if you invest EUR 30,000, your expected total cost is EUR 309 per year. No trading fees are charged.",
+        "FollowerAmountRemaining": 7677943.74,
+        "IsInvestmentShieldSupported": false,
+        "IsOpenForFollowers": true,
+        "LeaderPartnerOptions": "None",
+        "LogoUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg==",
+        "ManagementFee": 1.5,
+        "MinimumFundingAmount": 5000,
+        "PerformanceFee": 20,
+        "Products": "Exchange Traded Funds (ETFs)",
+        "RiskLevel": "Moderate",
+        "StrategyLegalAssetTypes": ["Stock", "Cash"],
+        "StrategyLegalProductAreas": ["Stocks"],
+        "StrategyName": "Gold and Precious metals (USD)",
+        "SuitabilityLevel": "VeryHigh",
+        "TradeLeaderId": "79",
+        "TradeLeaderOptions": "UsExchanges",
+        "CategoryType": "Balanced Portfolios",
+        "LeaderLogoDetails": {
+            "LeaderLogoDarkTheme": "#32a852",
+            "LeaderLogoLightTheme": "#009ADA"
+        }
+    },
+    {
+        "AccountPerformance": {
+            "Allocation": {
+                "TradesPerAssetType": {
+                    "ClosedTradesAllocations": [
+                        {
+                            "AssetClassType": "Equity",
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "PortfolioAllocationType": "Asset",
+                            "ReturnAttribution": 1,
+                            "TradeCount": 1,
+                            "TradePct": 100,
+                            "TradePercent": 1
+                        }
+                    ]
+                },
+                "TradesPerETFCategoryType": {
+                    "OpenTradesAllocations": [
+                        {
+                            "CalculationBasis": "MarketValue",
+                            "CalculationDataType": "OpenPositions",
+                            "ETFCategoryType": "DevelopedEquity",
+                            "PortfolioAllocationType": "EtfCategory",
+                            "TradeCount": 0,
+                            "TradePct": 100,
+                            "TradePercent": 1.0,
+                            "TradeVolume": 1616.42
+                        }
+                    ]
+                },
+                "TradesPerInstrument": {
+                    "ClosedTradesAllocations": [
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "VanEck Vectors Biotech ETFF",
+                            "InstrumentSymbol": "BBH:xnas",
+                            "InstrumentUic": 107853,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": 1,
+                            "TradeCount": 1,
+                            "TradePct": 100,
+                            "TradePercent": 1
+                        }
+                    ]
+                }
+            },
+            "From": "2019-01-23",
+            "InceptionDay": "2019-01-23",
+            "LastTradeDay": "2019-07-19",
+            "Thru": "2019-07-19",
+            "TimeWeightedPerformance": {
+                "PerformanceFraction": 0.01344519907636968,
+                "PerformanceKeyFigures": {
+                    "ClosedTradesCount": 2,
+                    "MaxDrawDownFraction": 0.013701543641481463,
+                    "SampledStandardDeviation": 0.00159025879941409,
+                    "AnnualizedStandardDeviation": 0.02524457582
+                }
+            },
+            "TotalCashBalance": 0,
+            "TotalOpenPositionsValue": 0,
+            "TotalPositionsValuePerProductPerSecurity": [
+                {
+                    "Description": "VanEck Vectors Biotech ETF",
+                    "ProductName": "Shares",
+                    "Symbol": "BBH:xnas",
+                    "Value": 5060.44
+                }
+            ]
+        },
+        "AllowMultipleInvestment": false,
+        "AllowPartialWithdrawal": true,
+        "AutoFundTransferEnabled": false,
+        "AutoTradingPartnerLeaderId": "143",
+        "CategoryId": 1,
+        "CategoryName": "ETF Portfolios",
+        "Currency": "EUR",
+        "ShortDescription": "Contains Biotech leaders and emerging biotech companies.",
+        "Description": "Contains Biotech leaders and emerging biotech companies.",
+        "ExpectedCostExplanation": "The expected cost of ETFs in the portfolio is 0.56%. This is reflected in the ETF performance and is not charged as a separate fee. After all costs, including the service fee of 0.75%, the total cost of the portfolio is 1.03% per year. For instance, if you invest EUR 30,000, your expected total cost is EUR 309 per year. No trading fees are charged.",
+        "FollowerAmountRemaining": 7677943.74,
+        "IsInvestmentShieldSupported": false,
+        "IsOpenForFollowers": true,
+        "LeaderPartnerOptions": "None",
+        "LogoUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg==",
+        "ManagementFee": 1.5,
+        "MinimumFundingAmount": 2500,
+        "PerformanceFee": 20,
+        "Products": "Exchange Traded Funds (ETFs)",
+        "RiskLevel": "Moderate",
+        "StrategyLegalAssetTypes": ["Stock", "Cash"],
+        "StrategyLegalProductAreas": ["Stocks"],
+        "StrategyName": "World Biotech (EUR)",
+        "SuitabilityLevel": "VeryHigh",
+        "TradeLeaderId": "59",
+        "TradeLeaderOptions": "UsExchanges",
+        "CategoryType": "Balanced Portfolios",
+        "LeaderLogoDetails": {
+            "LeaderLogoDarkTheme": "#32a852",
+            "LeaderLogoLightTheme": "#009ADA"
+        }
+    },
+
+    {
+        "AllowMultipleInvestment": false,
+        "AllowPartialWithdrawal": true,
+        "AutoFundTransferEnabled": false,
+        "AutoTradingPartnerLeaderId": "151",
+        "Category": "Equity Portfolios",
+        "CategoryId": 2,
+        "CategoryName": "Stock Portfolios",
+        "Currency": "USD",
+        "ShortDescription": "<p>Based on recommendations from Nasdaq’s investment management arm, Nasdaq Dorsey Wright (NDW), our Nasdaq DW Global Momentum portfolio invests into stocks across developed and emerging countries but excluding US companies.<p>",
+        "Description": "<p>Based on recommendations from Nasdaq’s investment management arm, Nasdaq Dorsey Wright (NDW), our Nasdaq DW Global Momentum portfolio invests into stocks across developed and emerging countries but excluding US companies.<p>\r\n<br>\r\n<p>Given its exposure to emerging markets, this portfolio is suited for investors looking to accept high levels of risk with the goal of capturing some of the more aggressive opportunities in stock markets and to beat its benchmark, the Nasdaq Global ex US index.<p>\r\n<br>\r\n<p>For over 20 years the team at NDW have been enhancing their investment process called “Relative Strength”. Specifically, this means ranking stocks based on their price movement and buying those which are in a period of enjoying stronger returns, above the market average. <p>\r\n<br>\r\n<p>The stocks held in your portfolio are adjusted approximately once a month, depending on market movement and the attractiveness of other stocks. This is all done for you, watch it take place from your account.<p>\r\n<br>\r\n<p>For an investment of USD 30,000, after transaction costs (0.06% or 2 USD minimum) the total expected cost of the portfolio is 1.55%, or USD 465 per year. For an investment of USD 150,000, after transaction costs the total expected cost is 0.9%, or USD 1650 per year. <p>\r\n<br>\r\n<p>The performance figures provided below are after all costs.<p>",
+        "ExpectedCostExplanation": "For an investment of USD 30,000, after transaction costs (0.06% or 2 USD minimum) the total expected cost per year is 1.55%, or USD 465 per year. For an investment of USD 150,000, after transaction costs the total expected cost is 0.9%, or USD 1650 per year.",
+        "FollowerAmountRemaining": 2502785.21,
+        "IsInvestmentShieldSupported": false,
+        "IsOpenForFollowers": true,
+        "LeaderPartnerOptions": "None",
+        "LogoUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg==",
+        "ManagementFee": 0.75,
+        "MinimumFundingAmount": 30000,
+        "PerformanceFee": 0,
+        "Products": "Stocks",
+        "RiskLevel": "Aggressive",
+        "StrategyLegalAssetTypes": ["Stock", "Cash"],
+        "StrategyLegalProductAreas": ["Stocks"],
+        "StrategyName": "Nasdaq DW Global Momentum",
+        "SuitabilityLevel": "High",
+        "TotalExpectedCost": "1.55%",
+        "TradeLeaderId": "55",
+        "TradeLeaderOptions": "UsExchanges",
+        "CategoryType": "Equity Portfolios"
+    },
+    {
+        "AccountPerformance": {
+            "Allocation": {
+                "TradesPerAssetType": {
+                    "ClosedTradesAllocations": [
+                        {
+                            "AssetClassType": "Equity",
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "PortfolioAllocationType": "Asset",
+                            "ReturnAttribution": 1,
+                            "TradeCount": 10,
+                            "TradePct": 100,
+                            "TradePercent": 1
+                        }
+                    ]
+                },
+                "TradesPerInstrument": {
+                    "ClosedTradesAllocations": [
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "Capgemini",
+                            "InstrumentSymbol": "CAP:xpar",
+                            "InstrumentUic": 112807,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": 0.20063254688457274,
+                            "TradeCount": 2,
+                            "TradePct": 20,
+                            "TradePercent": 0.2
+                        },
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "Pfizer Inc.",
+                            "InstrumentSymbol": "PFE:xnys",
+                            "InstrumentUic": 615,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": 0.5838010813047803,
+                            "TradeCount": 2,
+                            "TradePct": 20,
+                            "TradePercent": 0.2
+                        },
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "Amcor Ltd",
+                            "InstrumentSymbol": "AMC:xasx",
+                            "InstrumentUic": 5041,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": 0.3562784612891551,
+                            "TradeCount": 2,
+                            "TradePct": 20,
+                            "TradePercent": 0.2
+                        },
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "Qualcomm Inc.",
+                            "InstrumentSymbol": "QCOM:xnas",
+                            "InstrumentUic": 278,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": 1,
+                            "TradeCount": 1,
+                            "TradePct": 10,
+                            "TradePercent": 0.1
+                        },
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "Taiwan Semiconductor",
+                            "InstrumentSymbol": "TSM:xnys",
+                            "InstrumentUic": 1077,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": 0.18321953469184152,
+                            "TradeCount": 1,
+                            "TradePct": 10,
+                            "TradePercent": 0.1
+                        },
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "KONE Oyj",
+                            "InstrumentSymbol": "KNEBV:xhel",
+                            "InstrumentUic": 15688,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": 0.3653135969285573,
+                            "TradeCount": 1,
+                            "TradePct": 10,
+                            "TradePercent": 0.1
+                        },
+                        {
+                            "CalculationBasis": "NumberOfTrades",
+                            "CalculationDataType": "ClosedPositions",
+                            "InstrumentDescription": "GPT Group",
+                            "InstrumentSymbol": "GPT:xasx",
+                            "InstrumentUic": 5055,
+                            "PortfolioAllocationType": "Instrument",
+                            "ReturnAttribution": 0.10959404500378046,
+                            "TradeCount": 1,
+                            "TradePct": 10,
+                            "TradePercent": 0.1
+                        }
+                    ],
+                    "OpenTradesAllocations": [
+                        {
+                            "CalculationBasis": "MarketValue",
+                            "CalculationDataType": "OpenPositions",
+                            "InstrumentDescription": "British American Tobacco Plc",
+                            "InstrumentSymbol": "BATS:xlon",
+                            "PortfolioAllocationType": "Instrument",
+                            "TradeCount": 0,
+                            "TradePct": 13.755918238563615,
+                            "TradePercent": 0.13755918238563614
+                        },
+                        {
+                            "CalculationBasis": "MarketValue",
+                            "CalculationDataType": "OpenPositions",
+                            "InstrumentDescription": "Pact Group Holdings Ltd",
+                            "InstrumentSymbol": "PGH:xasx",
+                            "PortfolioAllocationType": "Instrument",
+                            "TradeCount": 0,
+                            "TradePct": 13.396922357988764,
+                            "TradePercent": 0.13396922357988764
+                        },
+                        {
+                            "CalculationBasis": "MarketValue",
+                            "CalculationDataType": "OpenPositions",
+                            "InstrumentDescription": "Maxim Integrated Products",
+                            "InstrumentSymbol": "MXIM:xnas",
+                            "PortfolioAllocationType": "Instrument",
+                            "TradeCount": 0,
+                            "TradePct": 13.333001879093286,
+                            "TradePercent": 0.13333001879093287
+                        },
+                        {
+                            "CalculationBasis": "MarketValue",
+                            "CalculationDataType": "OpenPositions",
+                            "InstrumentDescription": "Hubbell Inc.",
+                            "InstrumentSymbol": "HUBb:xnys",
+                            "PortfolioAllocationType": "Instrument",
+                            "TradeCount": 0,
+                            "TradePct": 12.632578999289972,
+                            "TradePercent": 0.12632578999289973
+                        },
+                        {
+                            "CalculationBasis": "MarketValue",
+                            "CalculationDataType": "OpenPositions",
+                            "InstrumentDescription": "Texas Instruments Inc.",
+                            "InstrumentSymbol": "TXN:xnas",
+                            "PortfolioAllocationType": "Instrument",
+                            "TradeCount": 0,
+                            "TradePct": 12.592040917706862,
+                            "TradePercent": 0.12592040917706862
+                        },
+                        {
+                            "CalculationBasis": "MarketValue",
+                            "CalculationDataType": "OpenPositions",
+                            "InstrumentDescription": "Unibail-Rodamco-Westfield NV",
+                            "InstrumentSymbol": "URW:xams",
+                            "PortfolioAllocationType": "Instrument",
+                            "TradeCount": 0,
+                            "TradePct": 12.533520283891798,
+                            "TradePercent": 0.125335202838918
+                        },
+                        {
+                            "CalculationBasis": "MarketValue",
+                            "CalculationDataType": "OpenPositions",
+                            "InstrumentDescription": "Samsung Electronics Co Ltd",
+                            "InstrumentSymbol": "SMSN:xlon",
+                            "PortfolioAllocationType": "Instrument",
+                            "TradeCount": 0,
+                            "TradePct": 6.6881123009204275,
+                            "TradePercent": 0.06688112300920428
+                        },
+                        {
+                            "CalculationBasis": "MarketValue",
+                            "CalculationDataType": "OpenPositions",
+                            "InstrumentDescription": "Imperial Brands Plc",
+                            "InstrumentSymbol": "IMB:xlon",
+                            "PortfolioAllocationType": "Instrument",
+                            "TradeCount": 0,
+                            "TradePct": 5.219862831041796,
+                            "TradePercent": 0.052198628310417966
+                        },
+                        {
+                            "CalculationBasis": "MarketValue",
+                            "CalculationDataType": "OpenPositions",
+                            "InstrumentDescription": "SSE Plc",
+                            "InstrumentSymbol": "SSE:xlon",
+                            "PortfolioAllocationType": "Instrument",
+                            "TradeCount": 0,
+                            "TradePct": 3.2094541226405515,
+                            "TradePercent": 0.03209454122640552
+                        },
+                        {
+                            "CalculationBasis": "MarketValue",
+                            "CalculationDataType": "OpenPositions",
+                            "InstrumentDescription": "WPP Plc",
+                            "InstrumentSymbol": "WPP:xlon",
+                            "PortfolioAllocationType": "Instrument",
+                            "TradeCount": 0,
+                            "TradePct": 2.7695775699467005,
+                            "TradePercent": 0.027695775699467007
+                        },
+                        {
+                            "CalculationBasis": "MarketValue",
+                            "CalculationDataType": "OpenPositions",
+                            "InstrumentDescription": "Lazard Ltd",
+                            "InstrumentSymbol": "LAZ:xnys",
+                            "PortfolioAllocationType": "Instrument",
+                            "TradeCount": 0,
+                            "TradePct": 2.198117069417413,
+                            "TradePercent": 0.02198117069417413
+                        },
+                        {
+                            "CalculationBasis": "MarketValue",
+                            "CalculationDataType": "OpenPositions",
+                            "InstrumentDescription": "Bayerische Motoren Werke AG - Preferred",
+                            "InstrumentSymbol": "BMW3:xetr",
+                            "PortfolioAllocationType": "Instrument",
+                            "TradeCount": 0,
+                            "TradePct": 1.2586245429316825,
+                            "TradePercent": 0.012586245429316825
+                        },
+                        {
+                            "CalculationBasis": "MarketValue",
+                            "CalculationDataType": "OpenPositions",
+                            "InstrumentDescription": "BT Group Plc",
+                            "InstrumentSymbol": "BT:xlon",
+                            "PortfolioAllocationType": "Instrument",
+                            "TradeCount": 0,
+                            "TradePct": 0.41226888656713034,
+                            "TradePercent": 0.004122688865671304
+                        }
+                    ]
+                }
+            },
+            "From": "2018-07-20",
+            "InceptionDay": "2018-07-18",
+            "LastTradeDay": "2019-07-19",
+            "Thru": "2019-07-19",
+            "TimeWeightedPerformance": {
+                "PerformanceFraction": 0.022228737336675755,
+                "PerformanceKeyFigures": {
+                    "ClosedTradesCount": 10,
+                    "MaxDrawDownFraction": 0.013492626834251656,
+                    "SampledStandardDeviation": 0.00119527149403071,
+                    "AnnualizedStandardDeviation": 0.1897434673
+                }
+            },
+            "TotalCashBalance": 0,
+            "TotalOpenPositionsValue": 0,
+            "TotalPositionsValuePerProductPerSecurity": [
+                {
+                    "Description": "British American Tobacco Plc",
+                    "ProductName": "Shares",
+                    "Symbol": "BATS:xlon",
+                    "Value": 1826.29041406572
+                },
+                {
+                    "Description": "Pact Group Holdings Ltd",
+                    "ProductName": "Shares",
+                    "Symbol": "PGH:xasx",
+                    "Value": 1778.62869319674
+                },
+                {
+                    "Description": "Maxim Integrated Products",
+                    "ProductName": "Shares",
+                    "Symbol": "MXIM:xnas",
+                    "Value": 1770.1423562002
+                },
+                {
+                    "Description": "Hubbell Inc.",
+                    "ProductName": "Shares",
+                    "Symbol": "HUBb:xnys",
+                    "Value": 1677.15142902305
+                },
+                {
+                    "Description": "Texas Instruments Inc.",
+                    "ProductName": "Shares",
+                    "Symbol": "TXN:xnas",
+                    "Value": 1671.76943208792
+                },
+                {
+                    "Description": "Unibail-Rodamco-Westfield NV",
+                    "ProductName": "Shares",
+                    "Symbol": "URW:xams",
+                    "Value": 1664
+                },
+                {
+                    "Description": "Samsung Electronics Co Ltd",
+                    "ProductName": "Shares",
+                    "Symbol": "SMSN:xlon",
+                    "Value": 887.94038838671
+                },
+                {
+                    "Description": "Imperial Brands Plc",
+                    "ProductName": "Shares",
+                    "Symbol": "IMB:xlon",
+                    "Value": 693.00974938515
+                },
+                {
+                    "Description": "SSE Plc",
+                    "ProductName": "Shares",
+                    "Symbol": "SSE:xlon",
+                    "Value": 426.099893653787
+                },
+                {
+                    "Description": "WPP Plc",
+                    "ProductName": "Shares",
+                    "Symbol": "WPP:xlon",
+                    "Value": 367.700133083464
+                },
+                {
+                    "Description": "Lazard Ltd",
+                    "ProductName": "Shares",
+                    "Symbol": "LAZ:xnys",
+                    "Value": 291.830764275496
+                },
+                {
+                    "Description": "Bayerische Motoren Werke AG - Preferred",
+                    "ProductName": "Shares",
+                    "Symbol": "BMW3:xetr",
+                    "Value": 167.1
+                },
+                {
+                    "Description": "BT Group Plc",
+                    "ProductName": "Shares",
+                    "Symbol": "BT:xlon",
+                    "Value": 54.7344570167871
+                }
+            ]
+        },
+        "AllowMultipleInvestment": false,
+        "AllowPartialWithdrawal": true,
+        "AutoFundTransferEnabled": false,
+        "AutoTradingPartnerLeaderId": "192",
+        "Category": "Equity Portfolios",
+        "CategoryId": 2,
+        "CategoryName": "EquityPortfolios",
+        "Currency": "EUR",
+        "ShortDescription": "<p>Based on the expertise of Morningstar Investment Management Europe Ltd, our Saxo Morningstar High Dividend portfolio is for investors looking to get exposure to the global stock market. </p>",
+        "Description": "<p>Based on the expertise of Morningstar Investment Management Europe Ltd, our Saxo Morningstar High Dividend portfolio is for investors looking to get exposure to the global stock market.<p>\r\n<br>\r\n<p>The goal of the portfolio is to provide stable dividend returns, whilst also targeting attractive capital growth. Analysis suggests an annual return from dividends in the range of 3% and 5% on your investment, but please note this is not guaranteed. The performance objective is to outperform global stock markets over the medium to long term, including the MSCI AC World Index, which is the benchmark for performance comparison.<p>\r\n<br>\r\n<p>Morningstar Investment Management Europe Ltd believes the key to superior long-term equity returns is finding companies with a sustainable competitive advantage, or “Economic Moat.” Morningstar’s time-tested research process seeks to identify high-quality firms with an Economic Moat for investment. These companies are then filtered on the quality, reliability and growth of the dividends paid to investors.<p>\r\n<br>\r\n<p>The stocks held in your portfolio are rebalanced on a half-yearly basis and replaced if appropriate with stocks offering stronger opportunities. This is all done for you, watch it take place from your account.<p>\r\n<br>\r\n<p>For a EUR 30,000 portfolio, after transaction costs (0.06% or 2 EUR minimum per trade) and currency conversion (0.2% on non-EUR transactions) the total expected cost of the portfolio is 1.11%, or EUR 333 per year. For a EUR 150,000 portfolio, your total expected cost is 0.91%, or EUR 1365 per year.<p>\r\n<br>\r\n<p> The performance figures provided below are after all costs.<p>",
+        "ExpectedCostExplanation": "<p>For a portfolio of EUR 30,000, after transaction costs (0.06% or 2 EUR minimum per trade) and currency conversion (0.2% on non-EUR transactions) the total expected cost of the portfolio is 1.11%, or EUR 333 per year. For a EUR 150,000 portfolio, your total expected cost is 0.91%, or EUR 1365 per year.<p>",
+        "FollowerAmountRemaining": 8601683.79,
+        "IsInvestmentShieldSupported": false,
+        "IsOpenForFollowers": true,
+        "LeaderPartnerOptions": "PositionsCloseOnDeactivation",
+        "LogoUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg==",
+        "ManagementFee": 0.75,
+        "MinimumFundingAmount": 30000,
+        "PerformanceFee": 0,
+        "Products": "stocks",
+        "RiskLevel": "Aggressive",
+        "StrategyLegalAssetTypes": ["Stock", "Cash"],
+        "StrategyLegalProductAreas": ["Stocks"],
+        "StrategyName": "Saxo Morningstar High Dividend",
+        "SuitabilityLevel": "High",
+        "TradeLeaderId": "60",
+        "TradeLeaderOptions": "UsExchanges",
+        "CategoryType": "Equity Portfolios"
+    },
+    {
+        "AllowMultipleInvestment": false,
+        "AllowPartialWithdrawal": true,
+        "AutoFundTransferEnabled": false,
+        "AutoTradingPartnerLeaderId": "198",
+        "Category": "Equity Portfolios",
+        "CategoryId": 2,
+        "CategoryName": "EquityPortfolios",
+        "Currency": "USD",
+        "ShortDescription": "<p>The Brown Advisory Ethical Selection portfolio leverages Brown Advisory’s long history of both equity and ethical investing.<p>",
+        "Description": "<p>The Brown Advisory Ethical Selection portfolio leverages Brown Advisory’s long history of both equity and ethical investing.<p>\r\n<br>\r\n<p>The portfolio invests in 30-40 U.S stocks, whilst maintaining a strong focus on the ethical standards of the underlying businesses. \r\n<br>\r\n<p>When identifying opportunities, the starting point is to exclude companies that do not meet strict ethical, socially responsible and governance (ESG) standards. This includes companies that:\r\n<ul>\r\n<li>Breach UN Global Compact Principles </li>\r\n<li>Generate any (i.e. greater than 0%) revenue from conventional weapons </li>\r\n<li>Have direct interest in fossil fuels (owns reserves, generates power from or takes any part in oil and gas production)</li>\r\n<li>Generate more than 5% revenue from either alcohol products, tobacco products, gambling products, weapons and firearms or adult entertainment services.</li>\r\n</ul>\r\n<br>\r\n<p> The portfolio goes above and beyond \"negative screening\", that is to simply remove companies that do not meet ESG criteria, by including rigorous ESG analysis on each company considered for investment. The team combines this analysis with their proven active portfolio management capabilities to deliver a best-in-class core, Ethical Selection strategy to investors.<p>\r\n<br>\r\n<p>The performance objective is to deliver market beating returns, above the Russell 300 index, by purchasing companies trading at attractive prices, while not sacrificing performance by having an ethical focus. <p>\r\n<br>\r\n<p>Portfolio rebalancing is ad hoc and not expected to be frequent, given the long term focus.<p>\r\n<br>\r\n<p>For a USD 30,000 portfolio, after transaction costs (0.06% or 2 USD minimum per trade) the total expected cost of the portfolio is 0.99%, or USD 297 per year. For a USD 150,000 portfolio, your total expected cost is 0.80%, or USD 1203 per year.<p>\r\n<br>\r\n<p> The performance figures provided below are after all costs.<p>",
+        "ExpectedCostExplanation": "<p>For a USD 30,000 portfolio, after transaction costs (0.06% or 2 USD minimum per trade) the total expected cost of the portfolio is 0.99%, or USD 297 per year. For a USD 150,000 portfolio, your total expected cost is 0.80%, or USD 1203 per year.<p>",
+        "FollowerAmountRemaining": 5996126.83,
+        "IsInvestmentShieldSupported": false,
+        "IsOpenForFollowers": true,
+        "LeaderPartnerOptions": "None",
+        "LogoUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg==",
+        "ManagementFee": 0.75,
+        "MinimumFundingAmount": 30000,
+        "PerformanceFee": 0,
+        "Products": "stocks",
+        "RiskLevel": "Defensive",
+        "StrategyLegalAssetTypes": ["Stock", "Cash"],
+        "StrategyLegalProductAreas": ["Stocks"],
+        "StrategyName": "Brown Advisory Ethical Selection",
+        "SuitabilityLevel": "Medium",
+        "TradeLeaderId": "61",
+        "TradeLeaderOptions": "UsExchanges",
+        "CategoryType": "Equity Portfolios"
+    }
+]

@@ -1,0 +1,61 @@
+{
+    "AmountDecimals": 0,
+    "AssetType": "SrdOnStock",
+    "CurrencyCode": "EUR",
+    "DefaultAmount": 0,
+    "DefaultSlippage": 0,
+    "DefaultSlippageType": "Ticks",
+    "Description": "Thales",
+    "Exchange": {
+        "CountryCode": "FR",
+        "ExchangeId": "PAR",
+        "Name": "Euronext Paris",
+        "TimeZoneId": "4"
+    },
+    "Format": {
+        "Decimals": 2,
+        "OrderDecimals": 2
+    },
+    "GroupId": 0,
+    "IncrementSize": 1,
+    "IsComplex": false,
+    "Isin": "FR0000121329",
+    "IssuerCountry": "FR",
+    "IssuerName": "Thales",
+    "IsTradable": true,
+    "LotSizeType": "NotUsed",
+    "MinimumOrderValue": 50,
+    "MinimumTradeSize": 1,
+    "OrderSetting": {},
+    "PriceCurrency": "EUR",
+    "Sector": {
+        "Name": "Defense",
+        "SectorId": "1213"
+    },
+    "ShortTradeDisabled": false,
+    "RelatedInstruments": [
+        {
+            "AssetType": "Stock",
+            "Uic": 2824
+        },
+        {
+            "AssetType": "CfdOnStock",
+            "Uic": 2824
+        }
+    ],
+    "SupportedOrderTypes": [
+        "Market",
+        "Limit",
+        "StopIfTraded",
+        "TrailingStopIfTraded",
+        "StopLimit",
+        "Stop",
+        "TrailingStop"
+    ],
+    "TradableAs": ["SrdOnStock"],
+    "Symbol": "TCFP:xpar",
+    "TickSize": 0.001,
+    "TradableOn": [],
+    "TradingSignals": "NotAllowed",
+    "Uic": 2824
+}

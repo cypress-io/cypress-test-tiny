@@ -1,0 +1,78 @@
+{
+    "_entry": {
+        "data": [
+            {
+                "AcquireTime": "2019-09-26T13:46:20.008597Z",
+                "Ask": 219.3,
+                "Bid": 219.27,
+                "Id": 230981,
+                "InstrumentType": "Stock",
+                "Price": 219.29,
+                "Size": 235,
+                "TimeStamp": "2019-09-26T13:46:19.021300Z",
+                "Uic": 49571,
+                "Venue": "ADF"
+            },
+            {
+                "AcquireTime": "2019-09-26T13:46:20.993616Z",
+                "Ask": 219.28,
+                "Bid": 219.26,
+                "Id": 231181,
+                "InstrumentType": "Stock",
+                "Price": 219.27,
+                "Size": 165,
+                "TimeStamp": "2019-09-26T13:46:20.691800Z",
+                "Uic": 49571,
+                "Venue": "ADF"
+            },
+            {
+                "AcquireTime": "2019-09-26T13:46:21.102619Z",
+                "Ask": 219.27,
+                "Bid": 219.25,
+                "Id": 231381,
+                "InstrumentType": "Stock",
+                "Price": 219.26,
+                "Size": 100,
+                "TimeStamp": "2019-09-26T13:46:20.825100Z",
+                "Uic": 49571,
+                "Venue": "ADF"
+            },
+            {
+                "AcquireTime": "2019-09-26T13:46:33.825582Z",
+                "Ask": 219.27,
+                "Bid": 219.25,
+                "Id": 9082,
+                "InstrumentType": "Stock",
+                "Price": 219.27,
+                "Size": 100,
+                "TimeStamp": "2019-09-26T13:46:33.553600Z",
+                "Uic": 49571,
+                "Venue": "Nasdaq"
+            },
+            {
+                "AcquireTime": "2019-09-26T13:46:34.175617Z",
+                "Ask": 219.3,
+                "Bid": 219.28,
+                "Id": 1543,
+                "InstrumentType": "Stock",
+                "Price": 219.29,
+                "Size": 100,
+                "TimeStamp": "2019-09-26T13:46:33.812100Z",
+                "Uic": 49571,
+                "Venue": "Bats"
+            },
+            {
+                "AcquireTime": "2019-09-26T13:46:34.597603Z",
+                "Ask": 219.29,
+                "Bid": 219.28,
+                "Id": 3044,
+                "InstrumentType": "Stock",
+                "Price": 219.28,
+                "Size": 100,
+                "TimeStamp": "2019-09-26T13:46:34.379100Z",
+                "Uic": 49571,
+                "Venue": "NYSE ARCA (Pacific)"
+            }
+        ]
+    }
+}

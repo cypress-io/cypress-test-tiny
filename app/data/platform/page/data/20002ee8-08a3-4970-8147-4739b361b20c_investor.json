@@ -1,0 +1,114 @@
+{
+    "PathTemplate": "productTemplate",
+    "Name": "stock",
+    "IsBackButtonHidden": true,
+    "IsFullBleed": true,
+    "Sections": [
+        {
+            "Type": "Header",
+            "IsDividerShown": false,
+            "IsNarrow": true,
+            "Name": "header_test",
+            "Title": "",
+            "Id": "61ad4c59-361c-43b3-bc2b-bbc6baf7fb74"
+        },
+        {
+            "Type": "TabSection",
+            "IsDividerShown": true,
+            "Name": "tabsection",
+            "Id": "790c2237-e0a7-47ad-a21b-283163da1708",
+            "Tabs": [
+                {
+                    "Label": "Overview",
+                    "Name": "overview",
+                    "Sections": [
+                        {
+                            "Type": "InstrumentChart",
+                            "IsDividerShown": true,
+                            "Name": "chartsection_stock",
+                            "Title": "Price Chart",
+                            "Id": "cb44611a-d20a-448d-bb9b-ac3cab06c98a"
+                        },
+                        {
+                            "Type": "NewsList",
+                            "IsDividerShown": true,
+                            "LayoutType": "stretch",
+                            "viewType": "card",
+                            "NewsLists": [
+                                {
+                                    "Title": "",
+                                    "NewsLimit": 4,
+                                    "Search": "",
+                                    "ShouldShowLinkedInstrumentNews": false,
+                                    "Id": "74f8ab03-08d5-4f1d-858d-9d67f19b2e1e"
+                                }
+                            ],
+                            "Name": "newslistsection_stock",
+                            "Title": "News",
+                            "Id": "35a09000-5203-46dd-8021-dfbd6a8bcf4b"
+                        },
+                        {
+                            "Type": "GeneralInfo",
+                            "IsDividerShown": true,
+                            "IsInset": true,
+                            "Name": "generalinfosection_test",
+                            "Title": "General Information",
+                            "Id": "d3ed500d-b7b2-4b9c-88d0-67c3633c4aa8"
+                        }
+                    ],
+                    "Id": "5101f4a7-78ad-470c-bb45-fdae2fa622a1"
+                },
+                {
+                    "Label": "Analysis",
+                    "Name": "analysis",
+                    "Sections": [
+                        {
+                            "Type": "AnalystRatingBar",
+                            "IsDividerShown": true,
+                            "LayoutType": "stretch",
+                            "Name": "analystratingsection_stock",
+                            "Title": "",
+                            "Id": "c0c012b5-1c7c-458b-b6a5-5fb8ac12b9df"
+                        },
+                        {
+                            "Type": "AnalystGrids",
+                            "IsDividerShown": true,
+                            "LayoutType": "stretch",
+                            "AnalystGrids": [
+                                {
+                                    "Title": "",
+                                    "AnalystsLimit": 0,
+                                    "AssetType": "Stock",
+                                    "HasOnlySelectedInstrumentAnalysts": true,
+                                    "Id": "ce710f27-2c5b-4d77-9778-5899b7dac01b"
+                                }
+                            ],
+                            "Name": "analystgridsection_stock",
+                            "Title": "",
+                            "Id": "c1ae7a71-ca73-403c-868e-0ade460d8c23"
+                        }
+                    ],
+                    "Id": "7e50b811-2e0d-4c02-9207-40a5508b9202"
+                },
+                {
+                    "Label": "Fundamentals",
+                    "Name": "fundamentals",
+                    "Sections": [
+                        {
+                            "IsDividerShown": true,
+                            "IsSectioned": true,
+                            "Type": "FinancialsGrid",
+                            "Name": "financialsgridsection_stock",
+                            "Title": "Financials",
+                            "Id": "f16b8c99-2f9b-43b2-bbfd-03e799bf24db"
+                        }
+                    ],
+                    "Id": "4ee64e48-0333-4087-b2ea-ef8ab52168ed"
+                }
+            ]
+        }
+    ],
+    "Title": "",
+    "Url": "/page/product/stock/:uic",
+    "Id": "20002ee8-08a3-4970-8147-4739b361b20c_investor"
+}

@@ -1,0 +1,267 @@
+{
+    "UserDefined": [
+        {
+            "Name": "Screener-11",
+            "PrimaryAssetType": "Stock",
+            "Query": {
+                "AssetTypes": ["Stock"],
+                "OrderBy": [
+                    {
+                        "IsAscending": false,
+                        "PropertyName": "ThreeMonthPopularity"
+                    }
+                ],
+                "Size": 2
+            },
+            "Type": "UserDefined",
+            "WatchlistId": "11147"
+        },
+        {
+            "Name": "Screener-12",
+            "PrimaryAssetType": "Bond",
+            "Query": {
+                "AssetTypes": ["Bond"],
+                "OrderBy": [
+                    {
+                        "IsAscending": false,
+                        "PropertyName": "ThreeMonthPopularity"
+                    }
+                ],
+                "Size": 20
+            },
+            "Type": "UserDefined",
+            "WatchlistId": "11150"
+        },
+        {
+            "Name": "My Screener List",
+            "PrimaryAssetType": "MutualFund",
+            "Query": {
+                "AssetTypes": ["MutualFund"],
+                "FundRatings": ["Below Avg"],
+                "OrderBy": [
+                    {
+                        "IsAscending": false,
+                        "PropertyName": "ThreeMonthPopularity"
+                    }
+                ],
+                "Size": 2
+            },
+            "WatchlistId": "1748221"
+        },
+        {
+            "Name": "My Screener List4",
+            "PrimaryAssetType": "Stock",
+            "Query": {
+                "AssetTypes": ["Stock"],
+                "IncludeNonTradable": false,
+                "OrderBy": [
+                    { "IsAscending": false, "PropertyName": "ThreeMonthsPopularity" }
+                ],
+                "Size": 50
+            },
+            "WatchlistId": "2709111"
+        },
+        {
+            "Name": "My Screener List6",
+            "PrimaryAssetType": "Stock",
+            "Query": {
+                "AssetTypes": ["Stock"],
+                "IncludeNonTradable": false,
+                "OrderBy": [
+                    { "IsAscending": false, "PropertyName": "ThreeMonthsPopularity" }
+                ],
+                "Size": 50
+            },
+            "WatchlistId": "2709113"
+        },
+        {
+            "Name": "My Screener List7",
+            "PrimaryAssetType": "Stock",
+            "Query": {
+                "AssetTypes": ["Stock"],
+                "IncludeNonTradable": false,
+                "OrderBy": [
+                    { "IsAscending": false, "PropertyName": "ThreeMonthsPopularity" }
+                ],
+                "Size": 50
+            },
+            "WatchlistId": "2709114"
+        },
+        {
+            "Name": "My Screener List8",
+            "PrimaryAssetType": "Stock",
+            "Query": {
+                "AssetTypes": ["Stock"],
+                "IncludeNonTradable": false,
+                "OrderBy": [
+                    { "IsAscending": false, "PropertyName": "ThreeMonthsPopularity" }
+                ],
+                "Size": 50
+            },
+            "WatchlistId": "2709115"
+        },
+        {
+            "Name": "My Screener List9",
+            "PrimaryAssetType": "Stock",
+            "Query": {
+                "AssetTypes": ["Stock"],
+                "IncludeNonTradable": false,
+                "Industries": [],
+                "OrderBy": [
+                    { "IsAscending": false, "PropertyName": "ThreeMonthsPopularity" }
+                ],
+                "Size": 250
+            },
+            "WatchlistId": "2709116"
+        },
+        {
+            "Name": "My Screener List10",
+            "PrimaryAssetType": "Stock",
+            "Query": {
+                "AssetTypes": ["Stock"],
+                "IncludeNonTradable": false,
+                "Industries": [],
+                "OrderBy": [
+                    { "IsAscending": false, "PropertyName": "ThreeMonthsPopularity" }
+                ],
+                "Size": 250
+            },
+            "WatchlistId": "2709117"
+        },
+        {
+            "Name": "My Screener List11",
+            "PrimaryAssetType": "Stock",
+            "Query": {
+                "AssetTypes": ["Stock"],
+                "IncludeNonTradable": false,
+                "OrderBy": [
+                    { "IsAscending": false, "PropertyName": "ThreeMonthsPopularity" }
+                ],
+                "Size": 50
+            },
+            "WatchlistId": "2709118"
+        },
+        {
+            "Name": "My Screener List12",
+            "PrimaryAssetType": "Stock",
+            "Query": {
+                "AssetTypes": ["Stock"],
+                "IncludeNonTradable": false,
+                "OrderBy": [
+                    { "IsAscending": false, "PropertyName": "ThreeMonthsPopularity" }
+                ],
+                "Size": 50
+            },
+            "WatchlistId": "2709119"
+        },
+        {
+            "Name": "My Screener List13",
+            "PrimaryAssetType": "Bond",
+            "Query": {
+                "AssetTypes": ["Bond"],
+                "DebtTypes": [],
+                "IncludeNonTradable": false,
+                "OrderBy": [
+                    { "IsAscending": false, "PropertyName": "ThreeMonthsPopularity" }
+                ],
+                "Size": 50
+            },
+            "WatchlistId": "2709120"
+        },
+        {
+            "Name": "My Screener List14",
+            "PrimaryAssetType": "MutualFund",
+            "Query": {
+                "AssetTypes": ["MutualFund"],
+                "IncludeNonTradable": false,
+                "OrderBy": [
+                    { "IsAscending": false, "PropertyName": "ThreeMonthsPopularity" }
+                ],
+                "Size": 50
+            },
+            "WatchlistId": "2709121"
+        },
+        {
+            "Name": "My Screener List15",
+            "PrimaryAssetType": "Bond",
+            "Query": {
+                "AssetTypes": ["Bond"],
+                "DebtTypes": [],
+                "IncludeNonTradable": false,
+                "OrderBy": [
+                    {
+                        "IsAscending": false,
+                        "PropertyName": "AlphabeticallyByDescription"
+                    }
+                ],
+                "Size": 100
+            },
+            "WatchlistId": "2709125"
+        },
+        {
+            "Name": "Explore",
+            "PrimaryAssetType": "Stock",
+            "Query": {
+                "AssetTypes": ["Stock"],
+                "IncludeNonTradable": false,
+                "OrderBy": [
+                    { "IsAscending": false, "PropertyName": "ThreeMonthsPopularity" }
+                ],
+                "Size": 50
+            },
+            "WatchlistId": "2709541"
+        },
+        {
+            "Name": "My Screener List",
+            "PrimaryAssetType": "Stock",
+            "Query": {
+                "AssetTypes": ["Stock"],
+                "IncludeNonTradable": false,
+                "OrderBy": [
+                    { "IsAscending": false, "PropertyName": "ThreeMonthsPopularity" }
+                ],
+                "Size": 50
+            },
+            "WatchlistId": "2709575"
+        },
+        {
+            "Name": "My Screener List1",
+            "PrimaryAssetType": "Stock",
+            "Query": {
+                "AssetTypes": ["Stock"],
+                "IncludeNonTradable": false,
+                "OrderBy": [
+                    { "IsAscending": false, "PropertyName": "ThreeMonthsPopularity" }
+                ],
+                "Size": 50
+            },
+            "WatchlistId": "2709576"
+        },
+        {
+            "Name": "My Screener List2",
+            "PrimaryAssetType": "Stock",
+            "Query": {
+                "AssetTypes": ["Stock"],
+                "IncludeNonTradable": false,
+                "OrderBy": [
+                    { "IsAscending": false, "PropertyName": "ThreeMonthsPopularity" }
+                ],
+                "Size": 50
+            },
+            "WatchlistId": "2709577"
+        },
+        {
+            "Name": "My Screener List3",
+            "PrimaryAssetType": "Stock",
+            "Query": {
+                "AssetTypes": ["Stock"],
+                "IncludeNonTradable": false,
+                "OrderBy": [
+                    { "IsAscending": false, "PropertyName": "ThreeMonthsPopularity" }
+                ],
+                "Size": 50
+            },
+            "WatchlistId": "2709578"
+        }
+    ]
+}

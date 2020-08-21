@@ -1,0 +1,49 @@
+{
+    "AllDay": false,
+    "CountryCode": "NL",
+    "Currency": "EUR",
+    "ExchangeId": "AMS",
+    "ExchangeSessions": [
+        {
+            "EndTime": "2020-01-23T16:30:00.000000Z",
+            "StartTime": "2020-01-23T08:00:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2020-01-23T16:35:00.000000Z",
+            "StartTime": "2020-01-23T16:30:00.000000Z",
+            "State": "CallAuctionTrading"
+        },
+        {
+            "EndTime": "2020-01-24T06:15:00.000000Z",
+            "StartTime": "2020-01-23T16:35:00.000000Z",
+            "State": "Closed"
+        },
+        {
+            "EndTime": "2020-01-24T08:00:00.000000Z",
+            "StartTime": "2020-01-24T06:15:00.000000Z",
+            "State": "PreTrading"
+        },
+        {
+            "EndTime": "2020-01-24T16:30:00.000000Z",
+            "StartTime": "2020-01-24T08:00:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2020-01-24T16:35:00.000000Z",
+            "StartTime": "2020-01-24T16:30:00.000000Z",
+            "State": "CallAuctionTrading"
+        },
+        {
+            "EndTime": "2020-01-27T06:15:00.000000Z",
+            "StartTime": "2020-01-24T16:35:00.000000Z",
+            "State": "Closed"
+        }
+    ],
+    "Mic": "XAMS",
+    "Name": "Euronext Amsterdam",
+    "PriceSourceName": "Euronext",
+    "TimeZone": 4,
+    "TimeZoneAbbreviation": "CET",
+    "TimeZoneOffset": "01:00:00"
+}

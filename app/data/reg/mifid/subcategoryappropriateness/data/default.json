@@ -1,0 +1,268 @@
+{
+    "__count": 21,
+    "Data": [
+        {
+            "AssetTypes": [
+                {
+                    "AssetType": "FxSpot",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                },
+                {
+                    "AssetType": "FxForwards",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                },
+                {
+                    "AssetType": "FxSwap",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                }
+            ],
+            "AssetTypeSubCategory": "FxSpots",
+            "AssetTypeTopCategory": "Forex"
+        },
+        {
+            "AssetTypes": [
+                {
+                    "AssetType": "FxVanillaOption",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                }
+            ],
+            "AssetTypeSubCategory": "FxOptions",
+            "AssetTypeTopCategory": "Forex"
+        },
+        {
+            "AssetTypes": [
+                {
+                    "AssetType": "ContractFutures",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                },
+                {
+                    "AssetType": "FuturesStrategy",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                }
+            ],
+            "AssetTypeSubCategory": "Futures",
+            "AssetTypeTopCategory": "Futures"
+        },
+        {
+            "AssetTypes": [
+                {
+                    "AssetType": "Stock",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                },
+                {
+                    "AssetType": "Stock",
+                    "IsComplex": false,
+                    "Status": "TestNotTaken"
+                }
+            ],
+            "AssetTypeSubCategory": "Stocks",
+            "AssetTypeTopCategory": "Stocks"
+        },
+        {
+            "AssetTypes": [
+                {
+                    "AssetType": "Bond",
+                    "IsComplex": false,
+                    "Status": "TestNotTaken"
+                }
+            ],
+            "AssetTypeSubCategory": "Bonds",
+            "AssetTypeTopCategory": "Bonds"
+        },
+        {
+            "AssetTypes": [
+                {
+                    "AssetType": "CfdOnStock",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                },
+                {
+                    "AssetType": "CfdOnEtf",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                },
+                {
+                    "AssetType": "CfdOnEtc",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                },
+                {
+                    "AssetType": "CfdOnEtn",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                },
+                {
+                    "AssetType": "CfdOnFund",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                },
+                {
+                    "AssetType": "CfdOnRights",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                },
+                {
+                    "AssetType": "CfdStockOption",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                },
+                {
+                    "AssetType": "CfdOnWarrant",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                },
+                {
+                    "AssetType": "CfdFutureOption",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                }
+            ],
+            "AssetTypeSubCategory": "CFDs",
+            "AssetTypeTopCategory": "Cfds"
+        },
+        {
+            "AssetTypes": [
+                {
+                    "AssetType": "MutualFund",
+                    "IsComplex": false,
+                    "Status": "TestNotTaken"
+                }
+            ],
+            "AssetTypeSubCategory": "MutualFunds",
+            "AssetTypeTopCategory": "MutualFunds"
+        },
+        {
+            "AssetTypes": [
+                {
+                    "AssetType": "Etf",
+                    "IsComplex": false,
+                    "Status": "TestNotTaken"
+                },
+                {
+                    "AssetType": "Etf",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                }
+            ],
+            "AssetTypeSubCategory": "Etf",
+            "AssetTypeTopCategory": "Etps"
+        },
+        {
+            "AssetTypes": [
+                {
+                    "AssetType": "Etc",
+                    "IsComplex": false,
+                    "Status": "TestNotTaken"
+                },
+                {
+                    "AssetType": "Etc",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                }
+            ],
+            "AssetTypeSubCategory": "Etc",
+            "AssetTypeTopCategory": "Etps"
+        },
+        {
+            "AssetTypes": [
+                {
+                    "AssetType": "Etn",
+                    "IsComplex": false,
+                    "Status": "TestNotTaken"
+                },
+                {
+                    "AssetType": "Etn",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                }
+            ],
+            "AssetTypeSubCategory": "Etn",
+            "AssetTypeTopCategory": "Etps"
+        },
+        {
+            "AssetTypes": [
+                {
+                    "AssetType": "WarrantSpread",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                }
+            ],
+            "AssetTypeSubCategory": "Warrants",
+            "AssetTypeTopCategory": "Warrants"
+        },
+        {
+            "AssetTypes": [
+                {
+                    "AssetType": "CertificateUncappedCapitalProtection",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                },
+                {
+                    "AssetType": "CertificateCappedCapitalProtected",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                },
+                {
+                    "AssetType": "CertificateDiscount",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                },
+                {
+                    "AssetType": "CertificateCappedOutperformance",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                },
+                {
+                    "AssetType": "CertificateCappedBonus",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                },
+                {
+                    "AssetType": "CertificateTracker",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                },
+                {
+                    "AssetType": "CertificateUncappedOutperformance",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                },
+                {
+                    "AssetType": "CertificateBonus",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                },
+                {
+                    "AssetType": "CertificateConstantLeverage",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                }
+            ],
+            "AssetTypeSubCategory": "Certificates",
+            "AssetTypeTopCategory": "Certificates"
+        },
+        {
+            "AssetTypes": [
+                {
+                    "AssetType": "Srd",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                },
+                {
+                    "AssetType": "SrdOnStock",
+                    "IsComplex": true,
+                    "Status": "TestNotTaken"
+                }
+            ],
+            "AssetTypeSubCategory": "Srds",
+            "AssetTypeTopCategory": "Srds"
+        }
+    ]
+}

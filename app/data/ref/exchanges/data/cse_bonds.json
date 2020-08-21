@@ -1,0 +1,34 @@
+{
+    "AllDay": false,
+    "CountryCode": "DK",
+    "Currency": "DKK",
+    "ExchangeId": "CSE_BONDS",
+    "ExchangeSessions": [
+        {
+            "EndTime": "2019-11-11T16:00:00.000000Z",
+            "StartTime": "2019-11-11T07:30:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2019-11-12T07:30:00.000000Z",
+            "StartTime": "2019-11-11T16:00:00.000000Z",
+            "State": "Closed"
+        },
+        {
+            "EndTime": "2019-11-12T16:00:00.000000Z",
+            "StartTime": "2019-11-12T07:30:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2019-11-13T07:30:00.000000Z",
+            "StartTime": "2019-11-12T16:00:00.000000Z",
+            "State": "Closed"
+        }
+    ],
+    "Mic": "XCSE",
+    "Name": "NASDAQ OMX Copenhagen Bonds",
+    "PriceSourceName": "NASDAQ OMX",
+    "TimeZone": 4,
+    "TimeZoneAbbreviation": "CET",
+    "TimeZoneOffset": "01:00:00"
+}

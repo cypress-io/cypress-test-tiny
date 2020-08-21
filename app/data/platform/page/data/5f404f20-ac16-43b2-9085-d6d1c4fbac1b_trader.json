@@ -1,0 +1,18 @@
+{
+    "Name": "education_view-charts",
+    "Sections": [
+        {
+            "IsDividerShown": false,
+            "MediaAlignment": "right",
+            "MediaType": "video",
+            "MediaUrl": "",
+            "RichText": "This video shows you how to view charts on SaxoTrader GO",
+            "Type": "MediaTextSection",
+            "Name": "mediatextsection",
+            "Id": "3646b62a-dff1-4dda-81f1-136d225f0ad9"
+        }
+    ],
+    "Title": "Viewing charts",
+    "Url": "/page/education_view-charts",
+    "Id": "5f404f20-ac16-43b2-9085-d6d1c4fbac1b_trader"
+}

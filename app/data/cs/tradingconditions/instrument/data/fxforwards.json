@@ -1,0 +1,151 @@
+{
+    "AccountCurrency": "EUR",
+    "AmountCurrency": "AUD",
+    "CommissionLimits": [
+        {
+            "Currency": "USD",
+            "MinCommission": 3,
+            "OrderAction": "ExecuteOrder",
+            "RateOnAmount": 0.00005
+        }
+    ],
+    "CurrencyCutSpreadRate": 0.5,
+    "ExposureLimits": [
+        {
+            "Currency": "USD",
+            "Identifier": "AUD",
+            "Level": "Currency",
+            "RuleType": "Value",
+            "Value": 50000000
+        },
+        {
+            "Currency": "USD",
+            "Identifier": "CAD",
+            "Level": "Currency",
+            "RuleType": "Value",
+            "Value": 50000000
+        },
+        {
+            "Currency": "USD",
+            "Identifier": "Fx-NOP",
+            "Level": "Asset",
+            "RuleType": "Value",
+            "Value": 50000000
+        }
+    ],
+    "FxForwardMaxOrderAutoPlaceAmount": 18000000,
+    "InterestRateInstrumentMarginRequirement": {
+        "ExtraWeek": 0.01,
+        "Initial": 0.01,
+        "IntraWeek": 0.01,
+        "MarginType": "Percentage"
+    },
+    "InterestRateMarginRequirement": {
+        "ExtraWeek": 0.01,
+        "ExtraWeekPct": 0.01,
+        "Initial": 0.01,
+        "InitialPct": 0.01,
+        "IntraWeek": 0.01,
+        "IntraWeekPct": 0.01,
+        "MarginType": "Percentage"
+    },
+    "FxForwardMaxStreamingAmount": 18000000,
+    "IndicativeSpread": {
+        "CalculationTime": "2019-06-13T11:13:36.414728Z",
+        "PipSize": 0.0001,
+        "Tenors": [
+            {
+                "Period": "1W",
+                "Spread": 2.4
+            },
+            {
+                "Period": "2W",
+                "Spread": 4.4
+            },
+            {
+                "Period": "3W",
+                "Spread": 4.5
+            },
+            {
+                "Period": "1M",
+                "Spread": 5.1
+            },
+            {
+                "Period": "2M",
+                "Spread": 6.2
+            },
+            {
+                "Period": "3M",
+                "Spread": 8.5
+            },
+            {
+                "Period": "6M",
+                "Spread": 15.6
+            },
+            {
+                "Period": "9M",
+                "Spread": 30.8
+            },
+            {
+                "Period": "1Y",
+                "Spread": 36
+            }
+        ]
+    },
+    "InstrumentCurrency": "CAD",
+    "IsTradable": true,
+    "MarginTierRequirement": {
+        "Entries": [
+            {
+                "ExtraWeekMarginRate": 0.01,
+                "InitialMarginRate": 0.02,
+                "IntraWeekMarginRate": 0.01,
+                "TierLowerBound": 0
+            },
+            {
+                "ExtraWeekMarginRate": 0.015,
+                "InitialMarginRate": 0.02,
+                "IntraWeekMarginRate": 0.015,
+                "TierLowerBound": 1000000
+            },
+            {
+                "ExtraWeekMarginRate": 0.02,
+                "InitialMarginRate": 0.02,
+                "IntraWeekMarginRate": 0.02,
+                "TierLowerBound": 3000000
+            },
+            {
+                "ExtraWeekMarginRate": 0.03,
+                "InitialMarginRate": 0.03,
+                "IntraWeekMarginRate": 0.03,
+                "TierLowerBound": 10000000
+            },
+            {
+                "ExtraWeekMarginRate": 0.045,
+                "InitialMarginRate": 0.045,
+                "IntraWeekMarginRate": 0.045,
+                "TierLowerBound": 25000000
+            },
+            {
+                "ExtraWeekMarginRate": 0.07,
+                "InitialMarginRate": 0.07,
+                "IntraWeekMarginRate": 0.07,
+                "TierLowerBound": 50000000
+            },
+            {
+                "ExtraWeekMarginRate": 1,
+                "InitialMarginRate": 1,
+                "IntraWeekMarginRate": 1,
+                "TierLowerBound": 150000000
+            }
+        ],
+        "TierCurrency": "USD"
+    },
+    "FxSpotMaxOrderAutoPlaceAmount": 18000000,
+    "FxSpotMaxStreamingAmount": 18000000,
+    "MinOrderSize": 1000,
+    "MinOrderSizeCurrency": "AUD",
+    "Rating": 0,
+    "SpreadAsLowAs": 0,
+    "TicketFeeThreshold": 100000
+}

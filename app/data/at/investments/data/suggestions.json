@@ -1,0 +1,54 @@
+[
+    {
+        "AutoTradingPartnerLeaderId": "1",
+        "ClientId": 1234567,
+        "IsAuthorizedToFollow": false,
+        "IsFollowAllowed": true,
+        "IsFollowing": false,
+        "IsOpenForFollowers": true,
+        "IsReadyForTrading": false,
+        "IsTradeFollowerReady": false,
+        "MinimumFunding": 20000,
+        "StrategyName": "Discretionary Trading",
+        "TradeLeaderId": "5"
+    },
+    {
+        "AutoTradingPartnerLeaderId": "2",
+        "ClientId": 1234567,
+        "IsAuthorizedToFollow": false,
+        "IsFollowAllowed": true,
+        "IsFollowing": false,
+        "IsOpenForFollowers": true,
+        "IsReadyForTrading": false,
+        "IsTradeFollowerReady": false,
+        "MinimumFunding": 20000,
+        "StrategyName": "Global StockPicker",
+        "TradeLeaderId": "8"
+    },
+    {
+        "AutoTradingPartnerLeaderId": "92",
+        "ClientId": 1234567,
+        "IsAuthorizedToFollow": false,
+        "IsFollowAllowed": true,
+        "IsFollowing": false,
+        "IsOpenForFollowers": true,
+        "IsReadyForTrading": false,
+        "IsTradeFollowerReady": false,
+        "MinimumFunding": 20000,
+        "StrategyName": "Macro FX Trading",
+        "TradeLeaderId": "22"
+    },
+    {
+        "AutoTradingPartnerLeaderId": "105",
+        "ClientId": 1234567,
+        "IsAuthorizedToFollow": false,
+        "IsFollowAllowed": true,
+        "IsFollowing": false,
+        "IsOpenForFollowers": true,
+        "IsReadyForTrading": false,
+        "IsTradeFollowerReady": false,
+        "MinimumFunding": 30000,
+        "StrategyName": "Saxo Morningstar Moat Portfolio",
+        "TradeLeaderId": "23"
+    }
+]

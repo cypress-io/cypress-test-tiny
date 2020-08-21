@@ -1,0 +1,190 @@
+{
+    "Details": {
+        "Chart": {
+            "Breakout": 3,
+            "Clarity": 7,
+            "InitialTrend": 0,
+            "PredictionPriceFrom": 0.9486,
+            "PredictionPriceTo": 0.9507,
+            "PredictionTimeFrom": "2019-07-27T00:00:00.000000Z",
+            "PredictionTimeTo": "2019-08-27T00:00:00.000000Z",
+            "ResistanceX0": "2019-05-23T00:00:00.000000Z",
+            "ResistanceX1": "2019-07-09T00:00:00.000000Z",
+            "ResistanceY0": 0.9553,
+            "ResistanceY1": 0.9496,
+            "StopLoss": 0.9457,
+            "SupportX0": "2019-07-03T00:00:00.000000Z",
+            "SupportX1": "2019-07-25T00:00:00.000000Z",
+            "SupportY0": 0.9492,
+            "SupportY1": 0.9457,
+            "Trend": "Reversal",
+            "Uniformity": 8,
+            "VolumeIncrease": 0.0
+        },
+        "KeyLevels": {
+            "Point1": "2018-07-17T23:00:00.000000Z",
+            "Point2": "2018-09-28T00:00:00.000000Z",
+            "Point3": "2018-08-13T23:00:00.000000Z",
+            "Point4": "2018-07-17T23:00:00.000000Z",
+            "PredictionPriceFrom": 0,
+            "PredictionPriceTo": 0,
+            "PredictionTimeBars": 0,
+            "Price": 109.160004,
+            "StopLoss": 77.5
+        }
+    },
+    "PowerStats": {
+        "MovementPerDay": {
+            "Friday": {
+                "High": 0.01407,
+                "Low": 0.00955
+            },
+            "Monday": {
+                "High": 0.01227,
+                "Low": 0.0091
+            },
+            "Saturday": {
+                "High": 0.01438,
+                "Low": 0.00429
+            },
+            "Sunday": {
+                "High": 0.00743,
+                "Low": 0.00349
+            },
+            "Thursday": {
+                "High": 0.01435,
+                "Low": 0.00936
+            },
+            "Tuesday": {
+                "High": 0.01161,
+                "Low": 0.00913
+            },
+            "Wednesday": {
+                "High": 0.01277,
+                "Low": 0.00918
+            }
+        },
+        "MovementPerHour": {
+            "Hour0": {
+                "High": 0.00232,
+                "Low": 0.00094
+            },
+            "Hour1": {
+                "High": 0.00168,
+                "Low": 0.00075
+            },
+            "Hour10": {
+                "High": 0.00357,
+                "Low": 0.00223
+            },
+            "Hour11": {
+                "High": 0.0032,
+                "Low": 0.00204
+            },
+            "Hour12": {
+                "High": 0.0039,
+                "Low": 0.00242
+            },
+            "Hour13": {
+                "High": 0.00386,
+                "Low": 0.00253
+            },
+            "Hour14": {
+                "High": 0.00451,
+                "Low": 0.00286
+            },
+            "Hour15": {
+                "High": 0.00413,
+                "Low": 0.00255
+            },
+            "Hour16": {
+                "High": 0.00299,
+                "Low": 0.00159
+            },
+            "Hour17": {
+                "High": 0.00225,
+                "Low": 0.00103
+            },
+            "Hour18": {
+                "High": 0.00197,
+                "Low": 0.00071
+            },
+            "Hour19": {
+                "High": 0.00243,
+                "Low": 0.00061
+            },
+            "Hour2": {
+                "High": 0.00171,
+                "Low": 0.00072
+            },
+            "Hour20": {
+                "High": 0.00248,
+                "Low": 0.00105
+            },
+            "Hour21": {
+                "High": 0.00286,
+                "Low": 0.00128
+            },
+            "Hour22": {
+                "High": 0.00234,
+                "Low": 0.00132
+            },
+            "Hour23": {
+                "High": 0.00199,
+                "Low": 0.00098
+            },
+            "Hour3": {
+                "High": 0.00154,
+                "Low": 0.00057
+            },
+            "Hour4": {
+                "High": 0.0014,
+                "Low": 0.00063
+            },
+            "Hour5": {
+                "High": 0.00178,
+                "Low": 0.0008
+            },
+            "Hour6": {
+                "High": 0.00348,
+                "Low": 0.00188
+            },
+            "Hour7": {
+                "High": 0.00427,
+                "Low": 0.00278
+            },
+            "Hour8": {
+                "High": 0.00474,
+                "Low": 0.003
+            },
+            "Hour9": {
+                "High": 0.00401,
+                "Low": 0.00255
+            }
+        },
+        "PriceRangeForecast": {
+            "Min1440": {
+                "High": 4.2786,
+                "Low": 4.2664
+            },
+            "Min15": {
+                "High": 4.27305,
+                "Low": 4.27195
+            },
+            "Min240": {
+                "High": 4.27669,
+                "Low": 4.26831
+            },
+            "Min30": {
+                "High": 4.27355,
+                "Low": 4.27145
+            },
+            "Min60": {
+                "High": 4.27409,
+                "Low": 4.27091
+            }
+        }
+    },
+    "SignalKey": "ac_1_21_611721758",
+    "UpdateSquenceId": 7227988
+}

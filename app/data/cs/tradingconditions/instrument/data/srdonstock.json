@@ -1,0 +1,49 @@
+{
+    "AccountCurrency": "NOK",
+    "AmountCurrency": "EUR",
+    "AssetType": "SrdOnStock",
+    "CommissionLimits": [
+        {
+            "BaseCommission": 5,
+            "Currency": "EUR",
+            "OrderAction": "ExecuteOrder"
+        }
+    ],
+    "CurrencyCutSpreadRate": 0.5,
+    "InstrumentCurrency": "EUR",
+    "InterestPerDay": {
+        "AskMarkUp": 0.035,
+        "BidMarkDown": 0.03
+    },
+    "InstrumentMarginRequirements": [
+        {
+            "ExtraWeek": 0.1,
+            "Initial": 0.1,
+            "IntraWeek": 0.1,
+            "MarginType": "Percentage"
+        }
+    ],
+    "MinOrderSizeCurrency": "EUR",
+    "HasKID": true,
+    "InitialCollateralValue": 0,
+    "InternalCosts": {
+        "OngoingCostPct": 0.25
+    },
+    "IsSrdEligible": false,
+    "IsTradable": true,
+    "Rating": 2,
+    "RolloverFee": {
+        "Currency": "EUR",
+        "MinRollover": 10,
+        "RolloverPct": 0.002
+    },
+    "ScheduledTradingConditions": [
+        {
+            "ScheduledDate": "2020-08-31T08:29:39",
+            "TradingCondition": {
+                "Rating": 3
+            }
+        }
+    ],
+    "Uic": 1252
+}

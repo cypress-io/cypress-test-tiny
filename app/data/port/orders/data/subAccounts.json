@@ -1,0 +1,447 @@
+{
+    "__count": 12,
+    "Data": [
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 100000,
+            "AssetType": "FxSpot",
+            "BuySell": "Sell",
+            "ClientId": "1234567",
+            "ClientKey": "client-key-1",
+            "ClientName": "Tea Rex III",
+            "CurrentPrice": 1.0916,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "OpenOrderType": "MarketStopOut",
+            "OrderId": "299153371",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2020-01-06T16:03:06.733000Z",
+            "OwnerId": "8844363",
+            "Price": 0,
+            "Status": "Working",
+            "TradeAllocationKey": 0,
+            "Uic": 21
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 1,
+            "AssetType": "StockOption",
+            "BuySell": "Buy",
+            "ClientId": "1234567",
+            "ClientKey": "client-key-1",
+            "ClientName": "Tea Rex III",
+            "CurrentPrice": 0.68,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "OpenOrderType": "Limit",
+            "OrderId": "299208266",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2020-01-22T12:05:26.463000Z",
+            "OwnerId": "8844363",
+            "Price": 0.83,
+            "Status": "Working",
+            "TradeAllocationKey": 0,
+            "Uic": 4988778
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 100,
+            "AssetType": "Stock",
+            "BuySell": "Buy",
+            "ClientId": "1234567",
+            "ClientKey": "client-key-1",
+            "ClientName": "Tea Rex III",
+            "CurrentPrice": 2118.7,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "OpenOrderType": "Limit",
+            "OrderId": "299159181",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2020-01-06T10:34:53.207000Z",
+            "OwnerId": "8844363",
+            "Price": 1870.11,
+            "Status": "Working",
+            "TradeAllocationKey": 0,
+            "Uic": 15254
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 100,
+            "Ask": 12.86,
+            "AssetType": "Etf",
+            "Bid": 12.71,
+            "BuySell": "Buy",
+            "CalculationReliability": "Ok",
+            "ClientId": "1234567",
+            "ClientKey": "client-key-1",
+            "ClientName": "Tea Rex III",
+            "CorrelationKey": "6862bd87-5adb-4f14-b1c0-67e584ffc5c4",
+            "CurrentPrice": 12.85,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceLastTraded": "2020-06-12T10:03:57.447000Z",
+            "CurrentPriceType": "LastTraded",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 3,
+                "Description": "Lyxor ETF Comm Thomson Reuters/Jefferies CRB",
+                "Format": "Normal",
+                "Symbol": "CAC:xpar"
+            },
+            "DistanceToMarket": 0.046,
+            "Duration": { "DurationType": "GoodTillCancel" },
+            "Exchange": {
+                "Description": "Lyxor UCITS ETF CAC 40",
+                "ExchangeId": "PAR",
+                "IsOpen": true
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 12.85,
+            "MarketValue": 0,
+            "NonTradableReason": "None",
+            "OpenOrderType": "StopLimit",
+            "OrderAmountType": "Quantity",
+            "OrderId": "327970648",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2020-06-22T08:47:21.023333Z",
+            "Price": 12.896,
+            "RelatedOpenOrders": [],
+            "Status": "Working",
+            "StopLimitPrice": 12.906,
+            "TradingStatus": "Tradable",
+            "Uic": 9104
+        },
+        {
+            "AccountId": "test6",
+            "AccountKey": "acc-key-6",
+            "Amount": 100,
+            "AssetType": "CfdOnStock",
+            "BuySell": "Buy",
+            "ClientId": "2345678",
+            "ClientKey": "client-key-2",
+            "ClientName": "DJH3",
+            "CurrentPrice": 2118.7,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "OpenOrderType": "Limit",
+            "OrderId": "299159951",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2020-01-06T15:28:01.837000Z",
+            "OwnerId": "8844363",
+            "Price": 1857.1,
+            "Status": "Working",
+            "TradeAllocationKey": 0,
+            "Uic": 211
+        },
+        {
+            "AccountId": "test5",
+            "AccountKey": "acc-key-5",
+            "Amount": 1,
+            "AssetType": "ContractFutures",
+            "BuySell": "Buy",
+            "ClientId": "2345678",
+            "ClientKey": "client-key-2",
+            "ClientName": "DJH3",
+            "CurrentPrice": 449.5,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "OpenOrderType": "Limit",
+            "OrderId": "299192200",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2020-01-15T14:23:35.343000Z",
+            "OwnerId": "9870924",
+            "Price": 420.2,
+            "Status": "Working",
+            "TradeAllocationKey": 0,
+            "Uic": 10795354
+        },
+        {
+            "AccountId": "test4",
+            "AccountKey": "acc-key-4",
+            "Amount": 1,
+            "AssetType": "FuturesOption",
+            "BuySell": "Buy",
+            "ClientId": "2345678",
+            "ClientKey": "client-key-2",
+            "ClientName": "DJH3",
+            "CurrentPrice": 0.7,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "OpenOrderType": "Limit",
+            "OrderId": "299239108",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2020-02-10T15:29:36.777000Z",
+            "OwnerId": "8844363",
+            "Price": 0.725,
+            "Status": "Working",
+            "TradeAllocationKey": 0,
+            "Uic": 8490777
+        },
+        {
+            "AccountId": "test5",
+            "AccountKey": "acc-key-5",
+            "Amount": 100000,
+            "AssetType": "FxSpot",
+            "BuySell": "Buy",
+            "ClientId": "2345678",
+            "ClientKey": "client-key-2",
+            "ClientName": "DJH3",
+            "CurrentPrice": 0.92986,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "OpenOrderType": "Limit",
+            "OrderId": "60055111",
+            "OrderRelation": "Oco",
+            "OrderTime": "2020-03-19T14:42:08.210000Z",
+            "OwnerId": "2147045812",
+            "Price": 0.9239,
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 100000,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "Stop",
+                    "OrderId": "60055112",
+                    "OrderPrice": 0.93315,
+                    "Status": "Working"
+                }
+            ],
+            "Status": "Working",
+            "TradeAllocationKey": 0,
+            "Uic": 4
+        },
+        {
+            "AccountId": "test5",
+            "AccountKey": "acc-key-5",
+            "Amount": 100000,
+            "AssetType": "FxSpot",
+            "BuySell": "Buy",
+            "ClientId": "2345678",
+            "ClientKey": "client-key-2",
+            "ClientName": "DJH3",
+            "CurrentPrice": 0.92961,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "OpenOrderType": "Stop",
+            "OrderId": "60055112",
+            "OrderRelation": "Oco",
+            "OrderTime": "2020-03-19T14:42:08.747000Z",
+            "OwnerId": "2147045812",
+            "Price": 0.93315,
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 100000,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "Limit",
+                    "OrderId": "60055111",
+                    "OrderPrice": 0.9239,
+                    "Status": "Working"
+                }
+            ],
+            "Status": "Working",
+            "TradeAllocationKey": 0,
+            "Uic": 4
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 100000,
+            "AssetType": "FxSpot",
+            "BuySell": "Buy",
+            "ClientId": "1234567",
+            "ClientKey": "client-key-1",
+            "ClientName": "Tea Rex III",
+            "CurrentPrice": 1.08355,
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 4,
+                "Description": "Euro/US Dollar",
+                "Format": "AllowDecimalPips",
+                "Symbol": "EURUSD"
+            },
+            "DistanceToMarket": 0.00625,
+            "Duration": {
+                "DurationType": "GoodTillDate",
+                "ExpirationDate": "2020-04-30T00:00:00.000000Z",
+                "ExpirationDateContainsTime": false,
+                "ExpirationDateTime": "2020-04-30T00:00:00"
+            },
+            "Exchange": {
+                "Description": "Inter Bank",
+                "ExchangeId": "SBFX",
+                "IsOpen": true
+            },
+            "IsMarketOpen": true,
+            "OpenOrderType": "Limit",
+            "OrderId": "315728664",
+            "OrderRelation": "IfDoneMaster",
+            "OrderTime": "2020-04-17T08:10:45.720000Z",
+            "OwnerId": "8844363",
+            "Price": 1.0773,
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 100000,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "Stop",
+                    "OrderId": "315728665",
+                    "OrderPrice": 1.0723,
+                    "Status": "NotWorking"
+                }
+            ],
+            "Status": "Working",
+            "TradeAllocationKey": 0,
+            "Uic": 21
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 100000,
+            "AssetType": "FxSpot",
+            "BuySell": "Sell",
+            "ClientId": "1234567",
+            "ClientKey": "client-key-1",
+            "ClientName": "Tea Rex III",
+            "CurrentPrice": 1.08355,
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 4,
+                "Description": "Euro/US Dollar",
+                "Format": "AllowDecimalPips",
+                "Symbol": "EURUSD"
+            },
+            "DistanceToMarket": 0.01125,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "Inter Bank",
+                "ExchangeId": "SBFX",
+                "IsOpen": true
+            },
+            "IsMarketOpen": true,
+            "OpenOrderType": "Stop",
+            "OrderId": "315728665",
+            "OrderRelation": "IfDoneSlave",
+            "OrderTime": "2020-04-17T08:11:04.147000Z",
+            "OwnerId": "8844363",
+            "Price": 1.0723,
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 100000,
+                    "Duration": {
+                        "DurationType": "GoodTillDate",
+                        "ExpirationDate": "2020-04-30T00:00:00.000000Z",
+                        "ExpirationDateContainsTime": false,
+                        "ExpirationDateTime": "2020-04-30T00:00:00"
+                    },
+                    "OpenOrderType": "Limit",
+                    "OrderId": "315728664",
+                    "OrderPrice": 1.0773,
+                    "Status": "Working"
+                }
+            ],
+            "Status": "NotWorking",
+            "TradeAllocationKey": 0,
+            "Uic": 21
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 100000,
+            "AssetType": "FxSpot",
+            "BuySell": "Buy",
+            "ClientId": "1234567",
+            "ClientKey": "client-key-1",
+            "ClientName": "Tea Rex III",
+            "CurrentPrice": 1.08355,
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 4,
+                "Description": "Euro/US Dollar",
+                "Format": "AllowDecimalPips",
+                "Symbol": "EURUSD"
+            },
+            "DistanceToMarket": 0.00545,
+            "Duration": {
+                "DurationType": "GoodTillDate",
+                "ExpirationDate": "2020-04-30T00:00:00.000000Z",
+                "ExpirationDateContainsTime": false,
+                "ExpirationDateTime": "2020-04-30T00:00:00"
+            },
+            "Exchange": {
+                "Description": "Inter Bank",
+                "ExchangeId": "SBFX",
+                "IsOpen": true
+            },
+            "IsMarketOpen": true,
+            "OpenOrderType": "Limit",
+            "OrderId": "315728710",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2020-04-17T10:57:05.850000Z",
+            "OwnerId": "8844363",
+            "Price": 1.0781,
+            "RelatedOpenOrders": [],
+            "Status": "Working",
+            "TradeAllocationKey": 0,
+            "Uic": 21
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 100000,
+            "AssetType": "FxSpot",
+            "BuySell": "Buy",
+            "ClientId": "1234567",
+            "ClientKey": "client-key-1",
+            "ClientName": "Tea Rex III",
+            "CurrentPrice": 1.08355,
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 4,
+                "Description": "Euro/US Dollar",
+                "Format": "AllowDecimalPips",
+                "Symbol": "EURUSD"
+            },
+            "DistanceToMarket": 0.00545,
+            "Duration": {
+                "DurationType": "GoodTillDate",
+                "ExpirationDate": "2020-04-30T00:00:00.000000Z",
+                "ExpirationDateContainsTime": false,
+                "ExpirationDateTime": "2020-04-30T00:00:00"
+            },
+            "Exchange": {
+                "Description": "Inter Bank",
+                "ExchangeId": "SBFX",
+                "IsOpen": true
+            },
+            "IsMarketOpen": true,
+            "OpenOrderType": "Limit",
+            "OrderId": "315728711",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2020-04-17T10:57:14.210000Z",
+            "OwnerId": "8844363",
+            "Price": 1.0781,
+            "RelatedOpenOrders": [],
+            "Status": "Working",
+            "TradeAllocationKey": 0,
+            "Uic": 21
+        }
+    ]
+}

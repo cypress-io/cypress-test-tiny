@@ -1,0 +1,202 @@
+[
+    {
+        "AccountId": "test1",
+        "ActivityTime": "2019-02-10T14:49:00.000000Z",
+        "ActivityType": "Orders",
+        "Amount": 100,
+        "AssetType": "FxSpot",
+        "BuySell": "Buy",
+        "ClientId": "1234567",
+        "CorrelationKey": "6cbf5311-8929-4a45-bc94-a852bf224d7e",
+        "DisplayAndFormat": {
+            "Currency": "USD",
+            "Decimals": 4,
+            "Description": "British Pound/US Dollers",
+            "OrderDecimals": 4,
+            "Symbol": "EURUSD"
+        },
+        "Duration": {
+            "DurationType": "GoodTillCancel"
+        },
+        "HandledBy": "2104319",
+        "OrderId": "315738225",
+        "OrderRelation": "StandAlone",
+        "OrderType": "Limit",
+        "Price": 1.13445,
+        "SequenceId": "64779504",
+        "OrderState": "Working",
+        "Status": "Placed",
+        "SubStatus": "Confirmed",
+        "Symbol": "EURUSD",
+        "Uic": 21,
+        "ValueDate": "2019-02-10"
+    },
+    {
+        "AccountId": "test1",
+        "ActivityTime": "2019-02-05T14:49:00.000000Z",
+        "ActivityType": "Orders",
+        "Amount": 100,
+        "AssetType": "FxSpot",
+        "BuySell": "Buy",
+        "ClientId": "1234567",
+        "CorrelationKey": "6cbf5311-8929-4a45-bc94-a852bf224d7e",
+        "DisplayAndFormat": {
+            "Currency": "USD",
+            "Decimals": 4,
+            "Description": "British Pound/US Dollers",
+            "OrderDecimals": 4,
+            "Symbol": "EURUSD"
+        },
+        "Duration": {
+            "DurationType": "GoodTillCancel"
+        },
+        "HandledBy": "2104319",
+        "OrderId": "315738224",
+        "OrderRelation": "StandAlone",
+        "OrderType": "Limit",
+        "Price": 1.13445,
+        "SequenceId": "64779504",
+        "OrderState": "Working",
+        "Status": "Placed",
+        "SubStatus": "Confirmed",
+        "Symbol": "EURUSD",
+        "Uic": 21,
+        "ValueDate": "2019-02-05"
+    },
+    {
+        "AccountId": "test1",
+        "ActivityTime": "2017-04-26T20:14:00.000000Z",
+        "ActivityType": "Orders",
+        "Amount": 100,
+        "AssetType": "FxSpot",
+        "BuySell": "Buy",
+        "ClientId": "1234567",
+        "CorrelationKey": "6cbf5311-8929-4a45-bc94-a852bf224d7e",
+        "DisplayAndFormat": {
+            "Currency": "USD",
+            "Decimals": 4,
+            "Description": "British Pound/US Dollers",
+            "OrderDecimals": 4,
+            "Symbol": "EURUSD"
+        },
+        "Duration": {
+            "DurationType": "GoodTillCancel"
+        },
+        "HandledBy": "2104319",
+        "OrderId": "315738223",
+        "OrderRelation": "StandAlone",
+        "OrderType": "Limit",
+        "Price": 1.13445,
+        "SequenceId": "64779504",
+        "OrderState": "Working",
+        "Status": "Placed",
+        "SubStatus": "Confirmed",
+        "Symbol": "EURUSD",
+        "Uic": 21,
+        "ValueDate": "2017-04-26"
+    },
+    {
+        "AccountId": "test1",
+        "ActivityTime": "2019-02-10T14:49:00.000000Z",
+        "ActivityType": "Orders",
+        "Amount": 100,
+        "AssetType": "Stock",
+        "AveragePrice": 1,
+        "BuySell": "Buy",
+        "ClientId": "8844363",
+        "CorrelationKey": "70de85bb-0ad4-4e9f-b7ec-03cf74bee6c6",
+        "DisplayAndFormat": {
+            "Currency": "USD",
+            "Decimals": 2,
+            "Description": "Apple Inc.",
+            "OrderDecimals": 2,
+            "Symbol": "AAPL:xnas"
+        },
+        "Duration": {
+            "DurationType": "GoodTillDate",
+            "ExpirationDate": "2020-06-01T00:00:00.000000Z"
+        },
+        "ExecutionPrice": 1,
+        "FillAmount": 100,
+        "FilledAmount": 100,
+        "HandledBy": "32155129",
+        "OrderId": "315790062",
+        "OrderRelation": "StandAlone",
+        "OrderType": "StopLimit",
+        "PositionId": "1604990861",
+        "Price": 288.44,
+        "SequenceId": "64785715",
+        "OrderState": "Traded",
+        "Status": "FinalFill",
+        "StopLimitPrice": 288.49,
+        "SubStatus": "Confirmed",
+        "Symbol": "AAPL:xnas",
+        "Uic": 211,
+        "ValueDate": "2019-02-10"
+    },
+    {
+        "AccountId": "test1",
+        "ActivityTime": "2019-02-10T14:49:00.000000Z",
+        "ActivityType": "Orders",
+        "Amount": null,
+        "AssetType": "MutualFund",
+        "BuySell": "Buy",
+        "ClientId": "1234567",
+        "CorrelationKey": "fd68f312-96d6-4113-bff1-837cd43d4c20",
+        "DisplayAndFormat": {
+            "Currency": "EUR",
+            "Decimals": 2,
+            "Description": "BGF CONTINENTAL EUROPEAN FLEXIBLE E2",
+            "OrderDecimals": 2,
+            "Symbol": "MIGOEEE.MFU"
+        },
+        "Duration": {
+            "DurationType": "GoodTillCancel"
+        },
+        "HandledBy": "2104319",
+        "OrderId": "326469612",
+        "OrderRelation": "StandAlone",
+        "OrderType": "Market",
+        "ExecutionPrice": 15.86,
+        "FillAmount": 315.26,
+        "FilledAmount": 315.26,
+        "SequenceId": "64779504",
+        "OrderState": "Traded",
+        "Status": "FinalFill",
+        "SubStatus": "Confirmed",
+        "Symbol": "MIGOEEE.MFU",
+        "Uic": 8244532,
+        "ValueDate": "2019-02-10"
+    },
+    {
+        "AccountId": "test1",
+        "ActivityTime": "2019-02-10T14:49:00.000000Z",
+        "ActivityType": "Orders",
+        "Amount": null,
+        "AssetType": "MutualFund",
+        "BuySell": "Buy",
+        "ClientId": "1234567",
+        "CorrelationKey": "fd68f312-96d6-4113-bff1-837cd43d4c21",
+        "DisplayAndFormat": {
+            "Currency": "EUR",
+            "Decimals": 2,
+            "Description": "FIDELITY EURO BOND E",
+            "OrderDecimals": 2,
+            "Symbol": "FIDEBFE.MFU"
+        },
+        "Duration": {
+            "DurationType": "GoodTillCancel"
+        },
+        "HandledBy": "2104319",
+        "OrderId": "326469613",
+        "OrderRelation": "StandAlone",
+        "OrderType": "Market",
+        "SequenceId": "64779504",
+        "OrderState": "Working",
+        "Status": "Placed",
+        "SubStatus": "Confirmed",
+        "Symbol": "MIGOEEE.MFU",
+        "Uic": 8249012,
+        "ValueDate": "2019-02-10"
+    }
+]

@@ -1,0 +1,186 @@
+{
+    "Instruments": [
+        {
+            "AssetType": "FxSpot",
+            "Description": "Japanese Yen/US Dollar",
+            "Symbol": "JPYUSD",
+            "Uic": 3849,
+            "Amount": 94603,
+            "WatchlistInstrumentId": "10"
+        },
+        {
+            "AssetType": "FxSpot",
+            "Description": "Euro/US Dollar",
+            "Symbol": "EURUSD",
+            "Uic": 21,
+            "Amount": 26431,
+            "WatchlistInstrumentId": "4"
+        },
+        {
+            "AssetType": "FxSpot",
+            "Description": "British Pound/US Dollar",
+            "Symbol": "GBPUSD",
+            "Uic": 31,
+            "Amount": 74873,
+            "WatchlistInstrumentId": "11"
+        },
+        {
+            "AssetType": "FxSpot",
+            "Description": "British Pound/US Dollar",
+            "Symbol": "GBPUSD",
+            "Uic": 31,
+            "Amount": 74873,
+            "WatchlistInstrumentId": "1111"
+        },
+        {
+            "AssetType": "FxSpot",
+            "Description": "Euro/Japanese Yen",
+            "Symbol": "EURJPY",
+            "Uic": 18,
+            "Amount": 37363,
+            "WatchlistInstrumentId": "12"
+        },
+        {
+            "AssetType": "FxSpot",
+            "Description": "British Pound/Japanese Yen",
+            "Symbol": "GBPJPY",
+            "Uic": 26,
+            "Amount": 73091,
+            "WatchlistInstrumentId": "13"
+        },
+        {
+            "AssetType": "FxSpot",
+            "Description": "US Dollar/Japanese Yen",
+            "Symbol": "USDJPY",
+            "Uic": 42,
+            "Amount": 78511,
+            "WatchlistInstrumentId": "14"
+        },
+        {
+            "AssetType": "FxSpot",
+            "Description": "Euro/Swiss Franc",
+            "Symbol": "EURCHF",
+            "Uic": 14,
+            "Amount": 16741,
+            "WatchlistInstrumentId": "15"
+        },
+        {
+            "AssetType": "FxSpot",
+            "Description": "Euro/British Pound",
+            "Symbol": "EURGBP",
+            "Uic": 17,
+            "Amount": 78889,
+            "WatchlistInstrumentId": "16"
+        },
+        {
+            "AssetType": "FxSpot",
+            "Description": "Gold/US Dollar",
+            "DisplayHint": "PreciousMetal",
+            "Symbol": "XAUUSD",
+            "Uic": 8176,
+            "Amount": 76303,
+            "WatchlistInstrumentId": "17"
+        },
+        {
+            "AssetType": "FxSpot",
+            "Description": "Euro/Australian Dollar",
+            "Symbol": "EURAUD",
+            "Uic": 12,
+            "Amount": 37361,
+            "WatchlistInstrumentId": "18"
+        },
+        {
+            "AssetType": "FxSpot",
+            "Description": "Euro/Canadian Dollar",
+            "Symbol": "EURCAD",
+            "Uic": 13,
+            "Amount": 95257,
+            "WatchlistInstrumentId": "19"
+        },
+        {
+            "AssetType": "FxSpot",
+            "Description": "British Pound/Australian Dollar",
+            "Symbol": "GBPAUD",
+            "Uic": 22,
+            "Amount": 67601,
+            "WatchlistInstrumentId": "20"
+        },
+        {
+            "AssetType": "FxSpot",
+            "Description": "Silver/US Dollar",
+            "DisplayHint": "PreciousMetal",
+            "Symbol": "XAGUSD",
+            "Uic": 8177,
+            "Amount": 20533,
+            "WatchlistInstrumentId": "21"
+        },
+        {
+            "AssetType": "FxSpot",
+            "Description": "Australian Dollar/Japanese Yen",
+            "Symbol": "AUDJPY",
+            "Uic": 2,
+            "Amount": 63473,
+            "WatchlistInstrumentId": "22"
+        },
+        {
+            "AssetType": "FxSpot",
+            "Description": "Australian Dollar/New Zealand Dollar",
+            "Symbol": "AUDNZD",
+            "Uic": 3,
+            "Amount": 85853,
+            "WatchlistInstrumentId": "23"
+        },
+        {
+            "AssetType": "FxSpot",
+            "Description": "Australian Dollar/US Dollar",
+            "Symbol": "AUDUSD",
+            "Uic": 4,
+            "Amount": 94477,
+            "WatchlistInstrumentId": "2"
+        },
+        {
+            "AssetType": "FxSpot",
+            "Description": "New Zealand Dollar/US Dollar",
+            "Symbol": "NZDUSD",
+            "Uic": 37,
+            "Amount": 71261,
+            "WatchlistInstrumentId": "24"
+        },
+        {
+            "AssetType": "FxSpot",
+            "Description": "US Dollar/Australian Dollar",
+            "Symbol": "USDAUD",
+            "Uic": 22413,
+            "Amount": 82727,
+            "WatchlistInstrumentId": "25"
+        },
+        {
+            "AssetType": "FxSpot",
+            "Description": "US Dollar/Canadian Dollar",
+            "Symbol": "USDCAD",
+            "Uic": 38,
+            "Amount": 50131,
+            "WatchlistInstrumentId": "26"
+        },
+        {
+            "AssetType": "FxSpot",
+            "Description": "US Dollar/Swiss Franc",
+            "Symbol": "USDCHF",
+            "Uic": 39,
+            "Amount": 35159,
+            "WatchlistInstrumentId": "27"
+        },
+        {
+            "AssetType": "FxSpot",
+            "Description": "US Dollar/Turkish Lira",
+            "Symbol": "USDTRY",
+            "Uic": 13928,
+            "Amount": 22073,
+            "WatchlistInstrumentId": "28"
+        }
+    ],
+    "Name": "FX Top 20",
+    "PrimaryAssetType": "FxSpot",
+    "Type": "Predefined",
+    "WatchlistId": "10693"
+}

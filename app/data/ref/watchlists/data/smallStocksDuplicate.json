@@ -1,0 +1,40 @@
+{
+    "Instruments": [
+        {
+            "AssetType": "Stock",
+            "Description": "Fannie Mae",
+            "Symbol": "FNMA:xnas",
+            "Uic": 47705,
+            "WatchlistInstrumentId": "7",
+            "Amount": 7147
+        },
+        {
+            "AssetType": "Stock",
+            "Description": "Fannie Mae",
+            "Symbol": "FNMA:xnas",
+            "Uic": 47705,
+            "WatchlistInstrumentId": "7777",
+            "Amount": 7147
+        },
+        {
+            "AssetType": "FxSpot",
+            "Description": "British Pound/US Dollar",
+            "Symbol": "GBPUSD",
+            "Uic": 31,
+            "WatchlistInstrumentId": "11",
+            "Amount": 5895
+        },
+        {
+            "AssetType": "FxSpot",
+            "Description": "British Pound/US Dollar",
+            "Symbol": "GBPUSD",
+            "Uic": 31,
+            "WatchlistInstrumentId": "1111",
+            "Amount": 5895
+        }
+    ],
+    "Name": "Watchlist with duplicates",
+    "PrimaryAssetType": "Stock",
+    "Type": "UserDefined",
+    "WatchlistId": "11148"
+}

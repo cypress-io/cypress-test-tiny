@@ -1,0 +1,779 @@
+{
+    "AnalystRating": {
+        "Buy": 19,
+        "Consensus": { "Key": "Buy", "Value": "Buy" },
+        "HighTargetPrice": 350.0,
+        "Hold": 11,
+        "LowTargetPrice": 150.0,
+        "Sell": 2,
+        "TargetPrice": 267.57,
+        "UpsidePct": -7.67
+    },
+    "AssetType": "SrdOnStock",
+    "CountryCode": "FR",
+    "CurrencyCode": "EUR",
+    "Description": "STMicroelectronics",
+    "ExchangeId": "PAR",
+    "Financials": [
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 11868000000
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 2127000000
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 9556000000
+                },
+                {
+                    "Key": "EBITDA",
+                    "Value": 2097000000
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 1032000000
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 1.14
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 0.24
+                },
+                {
+                    "Key": "GrossMargin",
+                    "Value": 0.386773
+                },
+                {
+                    "Key": "ROE",
+                    "Value": 0.154007
+                },
+                {
+                    "Key": "DebtTotalCapitalRatio",
+                    "Value": 0.212369
+                }
+            ],
+            "ReportingPeriod": "2019-12-31"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 10867000000
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 1910000000
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 9664000000
+                },
+                {
+                    "Key": "EBITDA",
+                    "Value": 2234000000
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 1287000000
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 1.41
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 0.24
+                },
+                {
+                    "Key": "GrossMargin",
+                    "Value": 0.399524
+                },
+                {
+                    "Key": "ROE",
+                    "Value": 0.218822
+                },
+                {
+                    "Key": "DebtTotalCapitalRatio",
+                    "Value": 0.217161
+                }
+            ],
+            "ReportingPeriod": "2018-12-31"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 9681000000
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 1701000000
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 8347000000
+                },
+                {
+                    "Key": "EBITDA",
+                    "Value": 1655000000
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 802000000
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 0.89
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 0.24
+                },
+                {
+                    "Key": "GrossMargin",
+                    "Value": 0.391518
+                },
+                {
+                    "Key": "ROE",
+                    "Value": 0.161384
+                },
+                {
+                    "Key": "DebtTotalCapitalRatio",
+                    "Value": 0.226564
+                }
+            ],
+            "ReportingPeriod": "2017-12-31"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 8008000000
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 1451000000
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 6973000000
+                },
+                {
+                    "Key": "EBITDA",
+                    "Value": 937000000
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 165000000
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 0.19
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 0.28
+                },
+                {
+                    "Key": "GrossMargin",
+                    "Value": 0.352072
+                },
+                {
+                    "Key": "ROE",
+                    "Value": 0.035999
+                },
+                {
+                    "Key": "DebtTotalCapitalRatio",
+                    "Value": 0.227296
+                }
+            ],
+            "ReportingPeriod": "2016-12-31"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 8195000000
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 1612000000
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 6897000000
+                },
+                {
+                    "Key": "EBITDA",
+                    "Value": 865000000
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 104000000
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 0.12
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 0.4
+                },
+                {
+                    "Key": "GrossMargin",
+                    "Value": 0.338118
+                },
+                {
+                    "Key": "ROE",
+                    "Value": 0.021608
+                },
+                {
+                    "Key": "DebtTotalCapitalRatio",
+                    "Value": 0.23476
+                }
+            ],
+            "ReportingPeriod": "2015-12-31"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 9008000000
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 1805000000
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 7404000000
+                },
+                {
+                    "Key": "EBITDA",
+                    "Value": 947000000
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 128000000
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 0.14
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 0.4
+                },
+                {
+                    "Key": "GrossMargin",
+                    "Value": 0.337385
+                },
+                {
+                    "Key": "ROE",
+                    "Value": 0.024067
+                },
+                {
+                    "Key": "DebtTotalCapitalRatio",
+                    "Value": 0.242989
+                }
+            ],
+            "ReportingPeriod": "2014-12-31"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 9173000000
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 1153000000
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 8082000000
+                },
+                {
+                    "Key": "EBITDA",
+                    "Value": 341000000
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": -500000000
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": -0.56
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 0.4
+                },
+                {
+                    "Key": "GrossMargin",
+                    "Value": 0.323435
+                },
+                {
+                    "Key": "ROE",
+                    "Value": -0.08426
+                },
+                {
+                    "Key": "DebtTotalCapitalRatio",
+                    "Value": 0.141227
+                }
+            ],
+            "ReportingPeriod": "2013-12-31"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 10434000000
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 1301000000
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 8493000000
+                },
+                {
+                    "Key": "EBITDA",
+                    "Value": -954000000
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": -1158000000
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": -1.31
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 0.4
+                },
+                {
+                    "Key": "GrossMargin",
+                    "Value": 0.327682
+                },
+                {
+                    "Key": "ROE",
+                    "Value": -0.167486
+                },
+                {
+                    "Key": "DebtTotalCapitalRatio",
+                    "Value": 0.097303
+                }
+            ],
+            "ReportingPeriod": "2012-12-31"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 12094000000
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 1566000000
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 9735000000
+                },
+                {
+                    "Key": "EBITDA",
+                    "Value": 1640000000
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 650000000
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 0.72
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 0.37
+                },
+                {
+                    "Key": "GrossMargin",
+                    "Value": 0.367129
+                },
+                {
+                    "Key": "ROE",
+                    "Value": 0.085583
+                },
+                {
+                    "Key": "DebtTotalCapitalRatio",
+                    "Value": 0.097995
+                }
+            ],
+            "ReportingPeriod": "2011-12-31"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 13349000000
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 1770000000
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 10346000000
+                },
+                {
+                    "Key": "EBITDA",
+                    "Value": 1965000000
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 830000000
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 0.92
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 0.24
+                },
+                {
+                    "Key": "GrossMargin",
+                    "Value": 0.388073
+                },
+                {
+                    "Key": "ROE",
+                    "Value": 0.112665
+                },
+                {
+                    "Key": "DebtTotalCapitalRatio",
+                    "Value": 0.12157
+                }
+            ],
+            "ReportingPeriod": "2010-12-31"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 13655000000
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 2492000000
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 8510000000
+                },
+                {
+                    "Key": "EBITDA",
+                    "Value": -79000000
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": -1131000000
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": -1.29
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 0.18
+                },
+                {
+                    "Key": "GrossMargin",
+                    "Value": 0.308578
+                },
+                {
+                    "Key": "ROE",
+                    "Value": -0.147814
+                },
+                {
+                    "Key": "DebtTotalCapitalRatio",
+                    "Value": 0.244743
+                }
+            ],
+            "ReportingPeriod": "2009-12-31"
+        }
+    ],
+    "GeneralInfo": {
+        "StockInfo": {
+            "Beta": 1.437128,
+            "Description": "A merger between Italian firm SGS Microelettronica and the nonmilitary business of Thomson Semiconductors in France formed STMicroelectronics in 1987. STMicro is a leader in a variety of semiconductor products, including analog chips, discrete power semiconductors, microcontrollers, and sensors. STMicro is an especially prominent chip supplier into the industrial and automotive industries.",
+            "DividentYieldPct": 0.65,
+            "MarketCap": 21285816144,
+            "NoOfEmployees": 43480,
+            "PriceEarnings": 23.529412,
+            "SalesGrowthRatePct": -1.1175,
+            "Sector": {
+                "Key": "Technology",
+                "Value": "Technology"
+            },
+            "SubSector": {
+                "Key": "Semiconductors",
+                "Value": "Semiconductors"
+            }
+        }
+    },
+    "RevenueExposure": {
+        "Countries": [
+            {
+                "Key": "China, People's Republic of",
+                "Pct": 0.0473267894516534
+            },
+            {
+                "Key": "Other countries",
+                "Pct": 0.13604018417748
+            },
+            {
+                "Key": "Taiwan",
+                "Pct": 0.00204980117203851
+            },
+            {
+                "Key": "United States",
+                "Pct": 12.1075763917957
+            },
+            {
+                "Key": "USA",
+                "Pct": 12.1075763917957
+            },
+            {
+                "CountryCode": "AUS",
+                "Key": "Australia",
+                "Pct": 0.0049809229803265
+            },
+            {
+                "CountryCode": "BRA",
+                "Key": "Brazil",
+                "Pct": 0.0064987547090833
+            },
+            {
+                "CountryCode": "CAN",
+                "Key": "Canada",
+                "Pct": 0.00594474675596484
+            },
+            {
+                "CountryCode": "CHE",
+                "Key": "Switzerland",
+                "Pct": 0.00245361029719548
+            },
+            {
+                "CountryCode": "DEU",
+                "Key": "Germany",
+                "Pct": 0.0139000313938887
+            },
+            {
+                "CountryCode": "ESP",
+                "Key": "Spain",
+                "Pct": 0.00496003557974048
+            },
+            {
+                "CountryCode": "FRA",
+                "Key": "France",
+                "Pct": 1.1301799916283
+            },
+            {
+                "CountryCode": "GBR",
+                "Key": "United Kingdom",
+                "Pct": 0.00982558601925492
+            },
+            {
+                "CountryCode": "IDN",
+                "Key": "Indonesia",
+                "Pct": 0.0036244976977815
+            },
+            {
+                "CountryCode": "IND",
+                "Key": "India",
+                "Pct": 0.00948167643365425
+            },
+            {
+                "CountryCode": "ITA",
+                "Key": "Italy",
+                "Pct": 0.617413143574717
+            },
+            {
+                "CountryCode": "JPN",
+                "Key": "Japan",
+                "Pct": 5.4416073670992
+            },
+            {
+                "CountryCode": "KOR",
+                "Key": "Korea, Republic of",
+                "Pct": 0.00563207408957723
+            },
+            {
+                "CountryCode": "MEX",
+                "Key": "Mexico",
+                "Pct": 0.00425619506069485
+            },
+            {
+                "CountryCode": "NLD",
+                "Key": "Netherlands",
+                "Pct": 29.7404771871076
+            },
+            {
+                "CountryCode": "POL",
+                "Key": "Poland",
+                "Pct": 0.00203725408120553
+            },
+            {
+                "CountryCode": "RUS",
+                "Key": "Russian Federation",
+                "Pct": 0.00576468187526162
+            },
+            {
+                "CountryCode": "SAU",
+                "Key": "Saudi Arabia",
+                "Pct": 0.00272133737965676
+            },
+            {
+                "CountryCode": "SGP",
+                "Key": "Singapore",
+                "Pct": 50.826705734617
+            },
+            {
+                "CountryCode": "SWE",
+                "Key": "Sweden",
+                "Pct": 0.00191638760987861
+            },
+            {
+                "CountryCode": "TUR",
+                "Key": "Turkey",
+                "Pct": 0.00266578066136459
+            }
+        ],
+        "Segments": [
+            {
+                "Key": "Analog, MEMS and Sensors Group (AMS)",
+                "Pct": 34.5228128924236
+            },
+            {
+                "Key": "Automotive and Discrete Group (ADG)",
+                "Pct": 37.7354541649226
+            },
+            {
+                "Key": "Microcontrollers and Digital ICs Group (MDG)",
+                "Pct": 27.6056927584764
+            },
+            {
+                "Key": "Others",
+                "Pct": 0.13604018417748
+            }
+        ]
+    },
+    "Format": {
+        "Decimals": 2
+    },
+    "AnalystConsensus": {
+        "Consensus": {
+            "Key": "StrongSell",
+            "Value": "Strong sell"
+        },
+        "Rating": 2.0,
+        "ImpliedReturn": 2.34,
+        "Overweight": 10,
+        "Hold": 2,
+        "Underweight": 0,
+        "Sell": 15
+    },
+    "KeyStats": [
+        {
+            "Key": "PriceEarnings",
+            "Value": 29.850746
+        },
+        {
+            "Key": "DividendYield",
+            "Value": 0.86
+        },
+        {
+            "Key": "EPS",
+            "Value": 11.89
+        },
+        {
+            "Key": "Volatility30Days",
+            "Value": 5
+        },
+        {
+            "Key": "Beta",
+            "Value": 1.081448
+        },
+        {
+            "Key": "EnterpriseValue",
+            "Value": 13.7472
+        },
+        {
+            "Key": "TotalDebt",
+            "Value": 108047
+        },
+        {
+            "Key": "PriceBookValue",
+            "Value": 10.7447
+        },
+        {
+            "Key": "DividendPayoutRatio",
+            "Value": 0.7447
+        }
+    ],
+    "Instrument": "STM:xpar",
+    "Uic": 1252
+}

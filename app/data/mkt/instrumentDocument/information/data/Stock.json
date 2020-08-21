@@ -1,0 +1,32 @@
+{
+    "Uic": 6215871,
+    "AssetType": "FxSpot",
+    "DocumentType": "KIIDs",
+    "DocumentDetails": [
+        {
+            "LanguageCode": "en",
+            "DocumentId": "a101601c-3443-4a3d-a7c0-edb15d451b8e",
+            "DocumentDateTime": "2019-08-05T20:00:00.000000Z"
+        },
+        {
+            "LanguageCode": "dk",
+            "DocumentId": "0ced6212-ba90-4467-9c0f-a951d24e8de6",
+            "DocumentDateTime": "2019-08-05T20:00:00.000000Z"
+        },
+        {
+            "LanguageCode": "ch",
+            "DocumentId": "fe3c4c26-0f41-4d52-8ee5-a0a0c9de72e2",
+            "DocumentDateTime": "2019-08-05T20:00:00.000000Z"
+        },
+        {
+            "LanguageCode": "mf",
+            "DocumentId": "3ecad3ef-5aa5-4b4f-90ad-6dce96c5590f",
+            "DocumentDateTime": "2019-08-05T20:00:00.000000Z"
+        },
+        {
+            "LanguageCode": "arb",
+            "DocumentId": "8c14dd71-9906-4c03-b9b5-e1a5a7ac851c",
+            "DocumentDateTime": "2019-08-05T20:00:00.000000Z"
+        }
+    ]
+}

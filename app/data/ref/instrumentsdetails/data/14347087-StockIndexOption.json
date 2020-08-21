@@ -1,0 +1,61 @@
+{
+    "AmountDecimals": 0,
+    "AssetType": "StockIndexOption",
+    "ContractSize": 100,
+    "CurrencyCode": "EUR",
+    "DefaultAmount": 1,
+    "Description": "AEX Index  Sep2019 535 C",
+    "Exchange": {
+        "CountryCode": "NL",
+        "ExchangeId": "EUR_AMS2",
+        "Name": "Euronext Equity & Index Derivatives - AMS",
+        "PriceSourceName": "Euronext"
+    },
+    "ExerciseCutOffTime": "23:59:00",
+    "ExpiryDate": "2019-09-20",
+    "Format": { "Decimals": 2, "OrderDecimals": 2, "StrikeDecimals": 2 },
+    "GroupId": 0,
+    "IncrementSize": 1,
+    "Isin": "NLENX5444841",
+    "IsTradable": true,
+    "LotSizeText": "0",
+    "LotSizeType": "OddLotsNotAllowed",
+    "OptionsChainSubscriptionAllowed": true,
+    "OrderDistances": {
+        "EntryDefaultDistance": 0,
+        "EntryDefaultDistanceType": "Percentage",
+        "StopLimitDefaultDistance": 5,
+        "StopLimitDefaultDistanceType": "Pips",
+        "StopLossDefaultDistance": 0.5,
+        "StopLossDefaultDistanceType": "Percentage",
+        "StopLossDefaultEnabled": false,
+        "StopLossDefaultOrderType": "Stop",
+        "TakeProfitDefaultDistance": 0.5,
+        "TakeProfitDefaultDistanceType": "Percentage",
+        "TakeProfitDefaultEnabled": false
+    },
+    "OrderSetting": {},
+    "PriceCurrency": "EUR",
+    "PriceToContractFactor": 100,
+    "PutCall": "Call",
+    "RelatedInstruments": [],
+    "RelatedOptionRoots": [1],
+    "RelatedOptionRootsEnhanced": [
+        { "AssetType": "StockIndexOption", "OptionRootId": 1 }
+    ],
+    "SettlementStyle": "CashDelivery",
+    "StandardAmounts": [1, 5, 10, 25, 50, 100, 500, 1000],
+    "StrikePrice": 535,
+    "SupportedOrderTypes": ["Limit"],
+    "Symbol": "AEX/U19C535:xams",
+    "TickSizeScheme": {
+        "DefaultTickSize": 0.05,
+        "Elements": [{ "HighPrice": 1.5, "TickSize": 0.01 }]
+    },
+    "TradableAs": ["StockIndexOption"],
+    "TradableOn": [],
+    "TradingSignals": "NotAllowed",
+    "Uic": 14347087,
+    "UnderlyingAssetType": "StockIndex",
+    "UnderlyingUic": 1957254
+}

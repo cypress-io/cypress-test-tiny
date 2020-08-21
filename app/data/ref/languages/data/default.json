@@ -1,0 +1,68 @@
+{
+    "Data": [
+        { "LanguageCode": "ar", "LanguageName": "Arabic", "NativeName": "Arabic - عربي" },
+        {
+            "LanguageCode": "bg",
+            "LanguageName": "Bulgarian",
+            "NativeName": "Bulgarian - Български"
+        },
+        { "LanguageCode": "cs", "LanguageName": "Czech", "NativeName": "Cesky" },
+        { "LanguageCode": "da", "LanguageName": "Danish", "NativeName": "Dansk" },
+        { "LanguageCode": "de", "LanguageName": "German", "NativeName": "Deutsch" },
+        {
+            "LanguageCode": "el",
+            "LanguageName": "Greek",
+            "NativeName": "Greek - Ελληνικά"
+        },
+        { "LanguageCode": "en", "LanguageName": "English", "NativeName": "English" },
+        { "LanguageCode": "es", "LanguageName": "Spanish", "NativeName": "Español" },
+        { "LanguageCode": "et", "LanguageName": "Estonian", "NativeName": "Eesti" },
+        { "LanguageCode": "fi", "LanguageName": "Finnish", "NativeName": "Suomi" },
+        { "LanguageCode": "fr", "LanguageName": "French", "NativeName": "Français" },
+        {
+            "LanguageCode": "he",
+            "LanguageName": "Hebrew",
+            "NativeName": "Hebrew - עברית"
+        },
+        { "LanguageCode": "hr", "LanguageName": "Croatian", "NativeName": "Hrvatski" },
+        { "LanguageCode": "hu", "LanguageName": "Hungarian", "NativeName": "Magyar" },
+        { "LanguageCode": "it", "LanguageName": "Italian", "NativeName": "Italiano" },
+        {
+            "LanguageCode": "ja",
+            "LanguageName": "Japanese",
+            "NativeName": "Japanese - 日本語"
+        },
+        { "LanguageCode": "lt", "LanguageName": "Lithuanian", "NativeName": "Lietuvių" },
+        { "LanguageCode": "lv", "LanguageName": "Latvian", "NativeName": "Latviešu" },
+        { "LanguageCode": "nl", "LanguageName": "Dutch", "NativeName": "Nederlands" },
+        { "LanguageCode": "no", "LanguageName": "Norwegian", "NativeName": "Norsk" },
+        { "LanguageCode": "pl", "LanguageName": "Polish", "NativeName": "Polski" },
+        { "LanguageCode": "pt", "LanguageName": "Portuguese", "NativeName": "Português" },
+        {
+            "LanguageCode": "pt-BR",
+            "LanguageName": "Portuguese - Brazil",
+            "NativeName": "Português - Brasil"
+        },
+        { "LanguageCode": "ro", "LanguageName": "Romanian", "NativeName": "Română" },
+        {
+            "LanguageCode": "ru",
+            "LanguageName": "Russian",
+            "NativeName": "Russian - Русский"
+        },
+        { "LanguageCode": "sk", "LanguageName": "Slovak", "NativeName": "Slovak" },
+        { "LanguageCode": "sl", "LanguageName": "Slovenian", "NativeName": "Slovenian" },
+        { "LanguageCode": "sv", "LanguageName": "Swedish", "NativeName": "Svenska" },
+        { "LanguageCode": "th", "LanguageName": "Thai", "NativeName": "???" },
+        { "LanguageCode": "tr", "LanguageName": "Turkish", "NativeName": "Türkçe" },
+        {
+            "LanguageCode": "zh-CN",
+            "LanguageName": "Chinese Simplified",
+            "NativeName": "Chinese -  中文简体"
+        },
+        {
+            "LanguageCode": "zh-TW",
+            "LanguageName": "Chinese Traditional",
+            "NativeName": "Chinese -  中文繁體"
+        }
+    ]
+}

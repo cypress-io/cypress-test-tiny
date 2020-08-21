@@ -1,0 +1,47 @@
+{
+    "__count": 3,
+    "Data": [
+        {
+            "Amount": -100950,
+            "Asset": "FxSpot",
+            "CurrentPrice": 16.84,
+            "Description": "Silver/US Dollar",
+            "ExposurePercentage": -291.05,
+            "InstrumentCurrency": "USD",
+            "LongShort": "Short",
+            "NetExposure": -1699998,
+            "OpenPrice": 17.381202852947002,
+            "ProfitLoss": 54634.428005,
+            "ReportCurrencyCode": "USD",
+            "Symbol": "XAGUSD"
+        },
+        {
+            "Amount": 5000,
+            "Asset": "FxSpot",
+            "CurrentPrice": 110.065,
+            "Description": "US Dollar/Japanese Yen",
+            "ExposurePercentage": 0.86,
+            "InstrumentCurrency": "JPY",
+            "LongShort": "Long",
+            "NetExposure": 4995.088277293665,
+            "OpenPrice": 109.7927122,
+            "ProfitLoss": 12.283626208191684,
+            "ReportCurrencyCode": "USD",
+            "Symbol": "USDJPY"
+        },
+        {
+            "Amount": -2000,
+            "Asset": "FxSpot",
+            "CurrentPrice": 0.75365,
+            "Description": "Australian Dollar/US Dollar",
+            "ExposurePercentage": -0.26,
+            "InstrumentCurrency": "USD",
+            "LongShort": "Short",
+            "NetExposure": -1507.3,
+            "OpenPrice": 0.754141,
+            "ProfitLoss": 0.982,
+            "ReportCurrencyCode": "USD",
+            "Symbol": "AUDUSD"
+        }
+    ]
+}

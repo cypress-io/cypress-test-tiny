@@ -1,0 +1,1175 @@
+{
+    "_entry": {
+        "data": {
+            "AssetType": "FxBinaryOption",
+            "Expiries": [
+                {
+                    "DisplayDate": "0001-01-01",
+                    "DisplayDaysToExpiry": 2,
+                    "Expiry": "2019-08-21T00:00:00.000000Z",
+                    "Index": 0,
+                    "LastTradeDate": "0001-01-01T00:00:00.000000Z",
+                    "MidStrikePrice": 1.10905,
+                    "StrikeCount": 3,
+                    "Strikes": [
+                        {
+                            "Barrier": 1.105,
+                            "Index": 0,
+                            "MidVolatilityPct": 0.0589773983722094,
+                            "NoTouch": {
+                                "Ask": 0.6978,
+                                "Bid": 0.5294,
+                                "ContractId": 942370,
+                                "DeltaPct": 122.613292829224,
+                                "Net": 0,
+                                "PriceTypeAsk": "Indicative",
+                                "PriceTypeBid": "Indicative"
+                            },
+                            "OneTouch": {
+                                "Ask": 0.4706,
+                                "Bid": 0.3022,
+                                "ContractId": 942356,
+                                "DeltaPct": 121.610988419786,
+                                "Net": 0,
+                                "PriceTypeAsk": "Indicative",
+                                "PriceTypeBid": "Indicative"
+                            }
+                        },
+                        {
+                            "Barrier": 1.11,
+                            "Index": 1,
+                            "MidVolatilityPct": 0.0589773983722094,
+                            "NoTouch": {
+                                "Ask": 0.242,
+                                "Bid": 0.0736,
+                                "ContractId": 897144,
+                                "DeltaPct": 184.275287081019,
+                                "Net": 0,
+                                "PriceTypeAsk": "OldIndicative",
+                                "PriceTypeBid": "OldIndicative"
+                            },
+                            "OneTouch": {
+                                "Ask": 0.9264,
+                                "Bid": 0.758,
+                                "ContractId": 897119,
+                                "DeltaPct": 185.268407875664,
+                                "Net": 0,
+                                "PriceTypeAsk": "OldIndicative",
+                                "PriceTypeBid": "OldIndicative"
+                            }
+                        },
+                        {
+                            "Barrier": 1.115,
+                            "Index": 2,
+                            "MidVolatilityPct": 0.0589773983722094,
+                            "NoTouch": {
+                                "Ask": 0.8391,
+                                "Bid": 0.6707,
+                                "ContractId": 943355,
+                                "DeltaPct": 69.2738646477178,
+                                "Net": 0,
+                                "PriceTypeAsk": "Indicative",
+                                "PriceTypeBid": "Indicative"
+                            },
+                            "OneTouch": {
+                                "Ask": 0.3294,
+                                "Bid": 0.161,
+                                "ContractId": 943350,
+                                "DeltaPct": 70.2728309272537,
+                                "Net": 0,
+                                "PriceTypeAsk": "Indicative",
+                                "PriceTypeBid": "Indicative"
+                            }
+                        }
+                    ],
+                    "StrikeWindowStartIndex": 0
+                },
+                {
+                    "DisplayDate": "0001-01-01",
+                    "DisplayDaysToExpiry": 9,
+                    "Expiry": "2019-08-28T00:00:00.000000Z",
+                    "Index": 1,
+                    "LastTradeDate": "0001-01-01T00:00:00.000000Z",
+                    "MidStrikePrice": 1.10905,
+                    "StrikeCount": 6,
+                    "Strikes": [
+                        {
+                            "Barrier": 1.095,
+                            "Index": 0,
+                            "MidVolatilityPct": 0.0614943172830909,
+                            "NoTouch": {
+                                "Ask": 0.8834,
+                                "Bid": 0.7848,
+                                "ContractId": 950203,
+                                "DeltaPct": 28.5227950729817,
+                                "Net": 0,
+                                "PriceTypeAsk": "Indicative",
+                                "PriceTypeBid": "Indicative"
+                            },
+                            "OneTouch": {
+                                "Ask": 0.2153,
+                                "Bid": 0.1167,
+                                "ContractId": 950202,
+                                "DeltaPct": 27.5211041667391,
+                                "Net": 0,
+                                "PriceTypeAsk": "Indicative",
+                                "PriceTypeBid": "Indicative"
+                            }
+                        },
+                        {
+                            "Barrier": 1.1,
+                            "Index": 1,
+                            "MidVolatilityPct": 0.0614943172830909,
+                            "NoTouch": {
+                                "Ask": 0.7001,
+                                "Bid": 0.6015,
+                                "ContractId": 899190,
+                                "DeltaPct": 55.0079136639325,
+                                "Net": 0,
+                                "PriceTypeAsk": "Indicative",
+                                "PriceTypeBid": "Indicative"
+                            },
+                            "OneTouch": {
+                                "Ask": 0.3986,
+                                "Bid": 0.3,
+                                "ContractId": 899163,
+                                "DeltaPct": 54.0035009483858,
+                                "Net": 0,
+                                "PriceTypeAsk": "Indicative",
+                                "PriceTypeBid": "Indicative"
+                            }
+                        },
+                        {
+                            "Barrier": 1.105,
+                            "Index": 2,
+                            "MidVolatilityPct": 0.0614943172830909,
+                            "NoTouch": {
+                                "Ask": 0.3854,
+                                "Bid": 0.2868,
+                                "ContractId": 947012,
+                                "DeltaPct": 83.8304001988441,
+                                "Net": 0,
+                                "PriceTypeAsk": "Indicative",
+                                "PriceTypeBid": "Indicative"
+                            },
+                            "OneTouch": {
+                                "Ask": 0.7132,
+                                "Bid": 0.6146,
+                                "ContractId": 947008,
+                                "DeltaPct": 82.8197002677234,
+                                "Net": 0,
+                                "PriceTypeAsk": "Indicative",
+                                "PriceTypeBid": "Indicative"
+                            }
+                        },
+                        {
+                            "Barrier": 1.115,
+                            "Index": 3,
+                            "MidVolatilityPct": 0.0614943172830909,
+                            "NoTouch": {
+                                "Ask": 0.4752,
+                                "Bid": 0.3766,
+                                "ContractId": 947013,
+                                "DeltaPct": 70.9521566007113,
+                                "Net": 0,
+                                "PriceTypeAsk": "Indicative",
+                                "PriceTypeBid": "Indicative"
+                            },
+                            "OneTouch": {
+                                "Ask": 0.6235,
+                                "Bid": 0.5249,
+                                "ContractId": 947009,
+                                "DeltaPct": 71.9446384080975,
+                                "Net": 0,
+                                "PriceTypeAsk": "Indicative",
+                                "PriceTypeBid": "Indicative"
+                            }
+                        },
+                        {
+                            "Barrier": 1.12,
+                            "Index": 4,
+                            "MidVolatilityPct": 0.0614943172830909,
+                            "NoTouch": {
+                                "Ask": 0.7358,
+                                "Bid": 0.6372,
+                                "ContractId": 899192,
+                                "DeltaPct": 43.7896595632064,
+                                "Net": 0,
+                                "PriceTypeAsk": "Indicative",
+                                "PriceTypeBid": "Indicative"
+                            },
+                            "OneTouch": {
+                                "Ask": 0.3629,
+                                "Bid": 0.2643,
+                                "ContractId": 899165,
+                                "DeltaPct": 44.7865902600366,
+                                "Net": 0,
+                                "PriceTypeAsk": "Indicative",
+                                "PriceTypeBid": "Indicative"
+                            }
+                        },
+                        {
+                            "Barrier": 1.125,
+                            "Index": 5,
+                            "MidVolatilityPct": 0.0614943172830909,
+                            "NoTouch": {
+                                "Ask": 0.8812,
+                                "Bid": 0.7826,
+                                "ContractId": 947014,
+                                "DeltaPct": 21.8497588855557,
+                                "Net": 0,
+                                "PriceTypeAsk": "Indicative",
+                                "PriceTypeBid": "Indicative"
+                            },
+                            "OneTouch": {
+                                "Ask": 0.2175,
+                                "Bid": 0.1189,
+                                "ContractId": 947010,
+                                "DeltaPct": 22.8484880517465,
+                                "Net": 0,
+                                "PriceTypeAsk": "Indicative",
+                                "PriceTypeBid": "Indicative"
+                            }
+                        }
+                    ],
+                    "StrikeWindowStartIndex": 0
+                },
+                {
+                    "DisplayDate": "0001-01-01",
+                    "DisplayDaysToExpiry": 16,
+                    "Expiry": "2019-09-04T00:00:00.000000Z",
+                    "Index": 2,
+                    "LastTradeDate": "0001-01-01T00:00:00.000000Z",
+                    "MidStrikePrice": 1.10905,
+                    "StrikeCount": 7,
+                    "Strikes": [
+                        {
+                            "Barrier": 1.095,
+                            "Index": 0,
+                            "MidVolatilityPct": 0.0569946198095603,
+                            "NoTouch": {
+                                "Ask": 0.7976,
+                                "Bid": 0.7308,
+                                "ContractId": 950140,
+                                "DeltaPct": 32.8194371693502,
+                                "Net": 0,
+                                "PriceTypeAsk": "Indicative",
+                                "PriceTypeBid": "Indicative"
+                            },
+                            "OneTouch": {
+                                "Ask": 0.2693,
+                                "Bid": 0.2025,
+                                "ContractId": 950139,
+                                "DeltaPct": 31.8155677663062,
+                                "Net": 0,
+                                "PriceTypeAsk": "Indicative",
+                                "PriceTypeBid": "Indicative"
+                            }
+                        },
+                        {
+                            "Barrier": 1.1,
+                            "Index": 1,
+                            "MidVolatilityPct": 0.0569946198095603,
+                            "NoTouch": {
+                                "Ask": 0.6064,
+                                "Bid": 0.5396,
+                                "ContractId": 902081,
+                                "DeltaPct": 53.054169158423,
+                                "Net": 0,
+                                "PriceTypeAsk": "Indicative",
+                                "PriceTypeBid": "Indicative"
+                            },
+                            "OneTouch": {
+                                "Ask": 0.4606,
+                                "Bid": 0.3938,
+                                "ContractId": 902069,
+                                "DeltaPct": 52.0456984361658,
+                                "Net": 0,
+                                "PriceTypeAsk": "Indicative",
+                                "PriceTypeBid": "Indicative"
+                            }
+                        },
+                        {
+                            "Barrier": 1.105,
+                            "Index": 2,
+                            "MidVolatilityPct": 0.0569946198095603,
+                            "NoTouch": {
+                                "Ask": 0.3213,
+                                "Bid": 0.2545,
+                                "ContractId": 949666,
+                                "DeltaPct": 72.8023310918538,
+                                "Net": 0,
+                                "PriceTypeAsk": "Indicative",
+                                "PriceTypeBid": "Indicative"
+                            },
+                            "OneTouch": {
+                                "Ask": 0.7455,
+                                "Bid": 0.6787,
+                                "ContractId": 949662,
+                                "DeltaPct": 71.7850379854964,
+                                "Net": 0,
+                                "PriceTypeAsk": "Indicative",
+                                "PriceTypeBid": "Indicative"
+                            }
+                        },
+                        {
+                            "Barrier": 1.115,
+                            "Index": 3,
+                            "MidVolatilityPct": 0.0569946198095603,
+                            "NoTouch": {
+                                "Ask": 0.3754,
+                                "Bid": 0.3086,
+                                "ContractId": 949667,
+                                "DeltaPct": 60.8172146203197,
+                                "Net": 0,
+                                "PriceTypeAsk": "Indicative",
+                                "PriceTypeBid": "Indicative"
+                            },
+                            "OneTouch": {
+                                "Ask": 0.6915,
+                                "Bid": 0.6247,
+                                "ContractId": 949663,
+                                "DeltaPct": 61.8044064281797,
+                                "Net": 0,
+                                "PriceTypeAsk": "Indicative",
+                                "PriceTypeBid": "Indicative"
+                            }
+                        },
+                        {
+                            "Barrier": 1.12,
+                            "Index": 4,
+                            "MidVolatilityPct": 0.0569946198095603,
+                            "NoTouch": {
+                                "Ask": 0.6178,
+                                "Bid": 0.551,
+                                "ContractId": 902083,
+                                "DeltaPct": 45.3864129553685,
+                                "Net": 0,
+                                "PriceTypeAsk": "Indicative",
+                                "PriceTypeBid": "Indicative"
+                            },
+                            "OneTouch": {
+                                "Ask": 0.4491,
+                                "Bid": 0.3823,
+                                "ContractId": 902071,
+                                "DeltaPct": 46.3800294347807,
+                                "Net": 0,
+                                "PriceTypeAsk": "Indicative",
+                                "PriceTypeBid": "Indicative"
+                            }
+                        },
+                        {
+                            "Barrier": 1.125,
+                            "Index": 5,
+                            "MidVolatilityPct": 0.0569946198095603,
+                            "NoTouch": {
+                                "Ask": 0.783,
+                                "Bid": 0.7162,
+                                "ContractId": 949668,
+                                "DeltaPct": 27.9031612175219,
+                                "Net": 0,
+                                "PriceTypeAsk": "Indicative",
+                                "PriceTypeBid": "Indicative"
+                            },
+                            "OneTouch": {
+                                "Ask": 0.2839,
+                                "Bid": 0.2171,
+                                "ContractId": 949664,
+                                "DeltaPct": 28.9001091564772,
+                                "Net": 0,
+                                "PriceTypeAsk": "Indicative",
+                                "PriceTypeBid": "Indicative"
+                            }
+                        },
+                        {
+                            "Barrier": 1.13,
+                            "Index": 6,
+                            "MidVolatilityPct": 0
+                        }
+                    ],
+                    "StrikeWindowStartIndex": 0
+                }
+            ],
+            "ExpiryCount": 3,
+            "LastUpdated": "2019-08-19T06:03:39.085510Z"
+        },
+        "next": "update_1"
+    },
+    "update_1": {
+        "data": {
+            "ReservedField": 0,
+            "ReferenceId": "25",
+            "DataFormat": 0,
+            "Data": {
+                "LastUpdated": "2019-08-19T06:03:39.112506Z"
+            }
+        },
+        "next": "update_2"
+    },
+    "update_2": {
+        "data": {
+            "ReservedField": 0,
+            "ReferenceId": "25",
+            "DataFormat": 0,
+            "Data": {
+                "Expiries": [
+                    {
+                        "Index": 3,
+                        "StrikeCount": 3,
+                        "Strikes": [
+                            {
+                                "Index": 0,
+                                "Barrier": 1.1,
+                                "MidVolatilityPct": 0.0517103896081958,
+                                "NoTouch": {
+                                    "Ask": 0.5742,
+                                    "Bid": 0.5187,
+                                    "ContractId": 934765,
+                                    "DeltaPct": 51.821294770645,
+                                    "Net": 0,
+                                    "PriceTypeAsk": "Indicative",
+                                    "PriceTypeBid": "Indicative"
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.4815,
+                                    "Bid": 0.426,
+                                    "ContractId": 934758,
+                                    "DeltaPct": 50.8084542693853,
+                                    "Net": 0,
+                                    "PriceTypeAsk": "Indicative",
+                                    "PriceTypeBid": "Indicative"
+                                }
+                            },
+                            {
+                                "Index": 1,
+                                "Barrier": 1.12,
+                                "MidVolatilityPct": 0.0517103896081958,
+                                "NoTouch": {
+                                    "Ask": 0.5621,
+                                    "Bid": 0.5066,
+                                    "ContractId": 934767,
+                                    "DeltaPct": 44.8971443897381,
+                                    "Net": 0,
+                                    "PriceTypeAsk": "Indicative",
+                                    "PriceTypeBid": "Indicative"
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.4937,
+                                    "Bid": 0.4382,
+                                    "ContractId": 934760,
+                                    "DeltaPct": 45.887153043664,
+                                    "Net": 0,
+                                    "PriceTypeAsk": "Indicative",
+                                    "PriceTypeBid": "Indicative"
+                                }
+                            },
+                            {
+                                "Index": 2,
+                                "Barrier": 1.13,
+                                "MidVolatilityPct": 0.0517103896081958,
+                                "NoTouch": {
+                                    "Ask": 0.8419,
+                                    "Bid": 0.7864,
+                                    "ContractId": 935676,
+                                    "DeltaPct": 18.229324951014,
+                                    "Net": 0,
+                                    "PriceTypeAsk": "Indicative",
+                                    "PriceTypeBid": "Indicative"
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.2139,
+                                    "Bid": 0.1584,
+                                    "ContractId": 935675,
+                                    "DeltaPct": 19.2266677407248,
+                                    "Net": 0,
+                                    "PriceTypeAsk": "Indicative",
+                                    "PriceTypeBid": "Indicative"
+                                }
+                            }
+                        ],
+                        "StrikeWindowStartIndex": 0
+                    },
+                    {
+                        "Index": 4,
+                        "StrikeCount": 4,
+                        "Strikes": [
+                            {
+                                "Index": 0,
+                                "Barrier": 1.09,
+                                "MidVolatilityPct": 0.0506858434884276,
+                                "NoTouch": {
+                                    "Ask": 0.8059,
+                                    "Bid": 0.7633,
+                                    "ContractId": 909542,
+                                    "DeltaPct": 24.0729217340884,
+                                    "Net": 0,
+                                    "PriceTypeAsk": "Indicative",
+                                    "PriceTypeBid": "Indicative"
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.2371,
+                                    "Bid": 0.1945,
+                                    "ContractId": 909529,
+                                    "DeltaPct": 23.0661768389522,
+                                    "Net": 0,
+                                    "PriceTypeAsk": "Indicative",
+                                    "PriceTypeBid": "Indicative"
+                                }
+                            },
+                            {
+                                "Index": 1,
+                                "Barrier": 1.1,
+                                "MidVolatilityPct": 0.0506858434884276,
+                                "NoTouch": {
+                                    "Ask": 0.4891,
+                                    "Bid": 0.4465,
+                                    "ContractId": 909543,
+                                    "DeltaPct": 47.3252883953959,
+                                    "Net": 0,
+                                    "PriceTypeAsk": "Indicative",
+                                    "PriceTypeBid": "Indicative"
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.5538,
+                                    "Bid": 0.5112,
+                                    "ContractId": 909530,
+                                    "DeltaPct": 46.3037123358152,
+                                    "Net": 0,
+                                    "PriceTypeAsk": "Indicative",
+                                    "PriceTypeBid": "Indicative"
+                                }
+                            },
+                            {
+                                "Index": 2,
+                                "Barrier": 1.12,
+                                "MidVolatilityPct": 0.0506858434884276,
+                                "NoTouch": {
+                                    "Ask": 0.4459,
+                                    "Bid": 0.4033,
+                                    "ContractId": 909545,
+                                    "DeltaPct": 40.1271549032343,
+                                    "Net": 0,
+                                    "PriceTypeAsk": "Indicative",
+                                    "PriceTypeBid": "Indicative"
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.597,
+                                    "Bid": 0.5544,
+                                    "ContractId": 909532,
+                                    "DeltaPct": 41.10980626114,
+                                    "Net": 0,
+                                    "PriceTypeAsk": "Indicative",
+                                    "PriceTypeBid": "Indicative"
+                                }
+                            },
+                            {
+                                "Index": 3,
+                                "Barrier": 1.13,
+                                "MidVolatilityPct": 0.0506858434884276,
+                                "NoTouch": {
+                                    "Ask": 0.7363,
+                                    "Bid": 0.6938,
+                                    "ContractId": 923146,
+                                    "DeltaPct": 23.351707752803,
+                                    "Net": 0,
+                                    "PriceTypeAsk": "Indicative",
+                                    "PriceTypeBid": "Indicative"
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.3067,
+                                    "Bid": 0.2641,
+                                    "ContractId": 923133,
+                                    "DeltaPct": 24.3455039317496,
+                                    "Net": 0,
+                                    "PriceTypeAsk": "Indicative",
+                                    "PriceTypeBid": "Indicative"
+                                }
+                            }
+                        ],
+                        "StrikeWindowStartIndex": 0
+                    },
+                    {
+                        "Index": 5,
+                        "StrikeCount": 5,
+                        "Strikes": [
+                            {
+                                "Index": 0,
+                                "Barrier": 1.09,
+                                "MidVolatilityPct": 0.0514126686989323,
+                                "NoTouch": {
+                                    "Ask": 0.739,
+                                    "Bid": 0.6964,
+                                    "ContractId": 913895,
+                                    "DeltaPct": 25.7619231136399,
+                                    "Net": 0,
+                                    "PriceTypeAsk": "Indicative",
+                                    "PriceTypeBid": "Indicative"
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.3042,
+                                    "Bid": 0.2616,
+                                    "ContractId": 913884,
+                                    "DeltaPct": 24.7510062492689,
+                                    "Net": 0,
+                                    "PriceTypeAsk": "Indicative",
+                                    "PriceTypeBid": "Indicative"
+                                }
+                            },
+                            {
+                                "Index": 1,
+                                "Barrier": 1.1,
+                                "MidVolatilityPct": 0.0514126686989323,
+                                "NoTouch": {
+                                    "Ask": 0.4311,
+                                    "Bid": 0.3885,
+                                    "ContractId": 913896,
+                                    "DeltaPct": 43.0022477856421,
+                                    "Net": 0,
+                                    "PriceTypeAsk": "Indicative",
+                                    "PriceTypeBid": "Indicative"
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.6119,
+                                    "Bid": 0.5693,
+                                    "ContractId": 913885,
+                                    "DeltaPct": 41.9739952750305,
+                                    "Net": 0,
+                                    "PriceTypeAsk": "Indicative",
+                                    "PriceTypeBid": "Indicative"
+                                }
+                            },
+                            {
+                                "Index": 2,
+                                "Barrier": 1.12,
+                                "MidVolatilityPct": 0.0514126686989323,
+                                "NoTouch": {
+                                    "Ask": 0.3683,
+                                    "Bid": 0.3258,
+                                    "ContractId": 928001,
+                                    "DeltaPct": 34.7288663500905,
+                                    "Net": 0,
+                                    "PriceTypeAsk": "Indicative",
+                                    "PriceTypeBid": "Indicative"
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.6745,
+                                    "Bid": 0.6319,
+                                    "ContractId": 927988,
+                                    "DeltaPct": 35.7060145770824,
+                                    "Net": 0,
+                                    "PriceTypeAsk": "Indicative",
+                                    "PriceTypeBid": "Indicative"
+                                }
+                            },
+                            {
+                                "Index": 3,
+                                "Barrier": 1.13,
+                                "MidVolatilityPct": 0.0514126686989323,
+                                "NoTouch": {
+                                    "Ask": 0.6432,
+                                    "Bid": 0.6006,
+                                    "ContractId": 915666,
+                                    "DeltaPct": 25.0164080265238,
+                                    "Net": 0,
+                                    "PriceTypeAsk": "Indicative",
+                                    "PriceTypeBid": "Indicative"
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.3999,
+                                    "Bid": 0.3573,
+                                    "ContractId": 915665,
+                                    "DeltaPct": 26.0062508786941,
+                                    "Net": 0,
+                                    "PriceTypeAsk": "Indicative",
+                                    "PriceTypeBid": "Indicative"
+                                }
+                            },
+                            {
+                                "Index": 4,
+                                "Barrier": 1.14,
+                                "MidVolatilityPct": 0.0514126686989323,
+                                "NoTouch": {
+                                    "Ask": 0.8187,
+                                    "Bid": 0.7761,
+                                    "ContractId": 913899,
+                                    "DeltaPct": 13.834588605158,
+                                    "Net": 0,
+                                    "PriceTypeAsk": "Indicative",
+                                    "PriceTypeBid": "Indicative"
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.2245,
+                                    "Bid": 0.1819,
+                                    "ContractId": 913888,
+                                    "DeltaPct": 14.8304408354494,
+                                    "Net": 0,
+                                    "PriceTypeAsk": "Indicative",
+                                    "PriceTypeBid": "Indicative"
+                                }
+                            }
+                        ],
+                        "StrikeWindowStartIndex": 0
+                    }
+                ],
+                "LastUpdated": "2019-08-19T06:03:39.535545Z"
+            }
+        },
+        "next": "update_3"
+    },
+    "update_3": {
+        "data": {
+            "ReservedField": 0,
+            "ReferenceId": "25",
+            "DataFormat": 0,
+            "Data": {
+                "LastUpdated": "2019-08-19T06:03:40.213478Z"
+            }
+        },
+        "next": "update_4"
+    },
+    "update_4": {
+        "data": {
+            "ReservedField": 0,
+            "ReferenceId": "25",
+            "DataFormat": 0,
+            "Data": {
+                "LastUpdated": "2019-08-19T06:03:41.127466Z"
+            }
+        },
+        "next": "update_5"
+    },
+    "update_5": {
+        "data": {
+            "ReservedField": 0,
+            "ReferenceId": "25",
+            "DataFormat": 0,
+            "Data": {
+                "Expiries": [
+                    {
+                        "Index": 0,
+                        "MidStrikePrice": 1.109155,
+                        "Strikes": [
+                            {
+                                "Index": 0,
+                                "MidVolatilityPct": 0.0589766341450341,
+                                "NoTouch": {
+                                    "Ask": 0.706,
+                                    "Bid": 0.5376,
+                                    "DeltaPct": 120.629943628297
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.4624,
+                                    "Bid": 0.294,
+                                    "DeltaPct": 119.627705739233
+                                }
+                            },
+                            {
+                                "Index": 1,
+                                "MidVolatilityPct": 0.0589766341450341,
+                                "NoTouch": {
+                                    "Ask": 0.2295,
+                                    "Bid": 0.0611,
+                                    "DeltaPct": 184.839397549245
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.9389,
+                                    "Bid": 0.7705,
+                                    "DeltaPct": 185.832335332042
+                                }
+                            },
+                            {
+                                "Index": 2,
+                                "MidVolatilityPct": 0.0589766341450341,
+                                "NoTouch": {
+                                    "Ask": 0.8343,
+                                    "Bid": 0.6659,
+                                    "DeltaPct": 70.9331132559401
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.3341,
+                                    "Bid": 0.1657,
+                                    "DeltaPct": 71.9320538839901
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Index": 1,
+                        "MidStrikePrice": 1.109155,
+                        "Strikes": [
+                            {
+                                "Index": 0,
+                                "MidVolatilityPct": 0.0614942205253128,
+                                "NoTouch": {
+                                    "Ask": 0.8852,
+                                    "Bid": 0.7866,
+                                    "DeltaPct": 28.2104376812341
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.2135,
+                                    "Bid": 0.1149,
+                                    "DeltaPct": 27.2087702497256
+                                }
+                            },
+                            {
+                                "Index": 1,
+                                "MidVolatilityPct": 0.0614942206953457,
+                                "NoTouch": {
+                                    "Ask": 0.7038,
+                                    "Bid": 0.6052,
+                                    "DeltaPct": 54.5587381208351
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.3949,
+                                    "Bid": 0.2963,
+                                    "DeltaPct": 53.5543870012584
+                                }
+                            },
+                            {
+                                "Index": 2,
+                                "MidVolatilityPct": 0.0614942205253128,
+                                "NoTouch": {
+                                    "Ask": 0.391,
+                                    "Bid": 0.2924,
+                                    "DeltaPct": 83.4644163305827
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.7076,
+                                    "Bid": 0.609,
+                                    "DeltaPct": 82.4538466029819
+                                }
+                            },
+                            {
+                                "Index": 3,
+                                "MidVolatilityPct": 0.0614942205253128,
+                                "NoTouch": {
+                                    "Ask": 0.4703,
+                                    "Bid": 0.3717,
+                                    "DeltaPct": 71.3019891847719
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.6283,
+                                    "Bid": 0.5297,
+                                    "DeltaPct": 72.2943739195224
+                                }
+                            },
+                            {
+                                "Index": 4,
+                                "MidVolatilityPct": 0.0614942206953457,
+                                "NoTouch": {
+                                    "Ask": 0.7328,
+                                    "Bid": 0.6342,
+                                    "DeltaPct": 44.200966359893
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.3659,
+                                    "Bid": 0.2673,
+                                    "DeltaPct": 45.1978543653979
+                                }
+                            },
+                            {
+                                "Index": 5,
+                                "MidVolatilityPct": 0.0614942205253128,
+                                "NoTouch": {
+                                    "Ask": 0.8796,
+                                    "Bid": 0.781,
+                                    "DeltaPct": 22.0926841957889
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.2191,
+                                    "Bid": 0.1205,
+                                    "DeltaPct": 23.0913971744336
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Index": 2,
+                        "MidStrikePrice": 1.109155,
+                        "Strikes": [
+                            {
+                                "Index": 0,
+                                "MidVolatilityPct": 0.056994708826072,
+                                "NoTouch": {
+                                    "Ask": 0.7998,
+                                    "Bid": 0.733,
+                                    "DeltaPct": 32.551165074638
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.2671,
+                                    "Bid": 0.2003,
+                                    "DeltaPct": 31.5473410561305
+                                }
+                            },
+                            {
+                                "Index": 1,
+                                "MidVolatilityPct": 0.0569947086696438,
+                                "NoTouch": {
+                                    "Ask": 0.6099,
+                                    "Bid": 0.5431,
+                                    "DeltaPct": 52.7378529136881
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.457,
+                                    "Bid": 0.3902,
+                                    "DeltaPct": 51.7294770508185
+                                }
+                            },
+                            {
+                                "Index": 2,
+                                "MidVolatilityPct": 0.056994708826072,
+                                "NoTouch": {
+                                    "Ask": 0.3262,
+                                    "Bid": 0.2594,
+                                    "DeltaPct": 72.5484604970449
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.7406,
+                                    "Bid": 0.6738,
+                                    "DeltaPct": 71.5313390914087
+                                }
+                            },
+                            {
+                                "Index": 3,
+                                "MidVolatilityPct": 0.056994708826072,
+                                "NoTouch": {
+                                    "Ask": 0.3712,
+                                    "Bid": 0.3044,
+                                    "DeltaPct": 60.9799155897052
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.6957,
+                                    "Bid": 0.6289,
+                                    "DeltaPct": 61.9669810155865
+                                }
+                            },
+                            {
+                                "Index": 4,
+                                "MidVolatilityPct": 0.0569947086696438,
+                                "NoTouch": {
+                                    "Ask": 0.6147,
+                                    "Bid": 0.5479,
+                                    "DeltaPct": 45.6610646333321
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.4523,
+                                    "Bid": 0.3855,
+                                    "DeltaPct": 46.6546100904876
+                                }
+                            },
+                            {
+                                "Index": 5,
+                                "MidVolatilityPct": 0.056994708826072,
+                                "NoTouch": {
+                                    "Ask": 0.7811,
+                                    "Bid": 0.7143,
+                                    "DeltaPct": 28.1406247357639
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.2858,
+                                    "Bid": 0.219,
+                                    "DeltaPct": 29.1375385677736
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Index": 3,
+                        "MidStrikePrice": 1.109155,
+                        "Strikes": [
+                            {
+                                "Index": 0,
+                                "MidVolatilityPct": 0.0517104337865954,
+                                "NoTouch": {
+                                    "Ask": 0.5777,
+                                    "Bid": 0.5222,
+                                    "DeltaPct": 51.5468965038093
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.478,
+                                    "Bid": 0.4225,
+                                    "DeltaPct": 50.5341877685131
+                                }
+                            },
+                            {
+                                "Index": 1,
+                                "MidVolatilityPct": 0.0517104337089611,
+                                "NoTouch": {
+                                    "Ask": 0.559,
+                                    "Bid": 0.5035,
+                                    "DeltaPct": 45.1083418908951
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.4967,
+                                    "Bid": 0.4412,
+                                    "DeltaPct": 46.0982521257372
+                                }
+                            },
+                            {
+                                "Index": 2,
+                                "MidVolatilityPct": 0.0517104337089611,
+                                "NoTouch": {
+                                    "Ask": 0.8406,
+                                    "Bid": 0.7851,
+                                    "DeltaPct": 18.3792818150441
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.2152,
+                                    "Bid": 0.1597,
+                                    "DeltaPct": 19.3765984963874
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Index": 4,
+                        "MidStrikePrice": 1.109155,
+                        "Strikes": [
+                            {
+                                "Index": 0,
+                                "MidVolatilityPct": 0.0506858141178564,
+                                "NoTouch": {
+                                    "Ask": 0.8075,
+                                    "Bid": 0.7649,
+                                    "DeltaPct": 23.9252778459966
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.2356,
+                                    "Bid": 0.193,
+                                    "DeltaPct": 22.9185932248011
+                                }
+                            },
+                            {
+                                "Index": 1,
+                                "MidVolatilityPct": 0.0506858141178564,
+                                "NoTouch": {
+                                    "Ask": 0.4923,
+                                    "Bid": 0.4497,
+                                    "DeltaPct": 47.1460929465878
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.5507,
+                                    "Bid": 0.5081,
+                                    "DeltaPct": 46.1246889317504
+                                }
+                            },
+                            {
+                                "Index": 2,
+                                "MidVolatilityPct": 0.0506858141178564,
+                                "NoTouch": {
+                                    "Ask": 0.4432,
+                                    "Bid": 0.4006,
+                                    "DeltaPct": 40.2238332538304
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.5997,
+                                    "Bid": 0.5571,
+                                    "DeltaPct": 41.2063589617993
+                                }
+                            },
+                            {
+                                "Index": 3,
+                                "MidVolatilityPct": 0.0506858141178564,
+                                "NoTouch": {
+                                    "Ask": 0.7347,
+                                    "Bid": 0.6921,
+                                    "DeltaPct": 23.4820487697383
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.3083,
+                                    "Bid": 0.2657,
+                                    "DeltaPct": 24.47579404911
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Index": 5,
+                        "MidStrikePrice": 1.109155,
+                        "Strikes": [
+                            {
+                                "Index": 0,
+                                "MidVolatilityPct": 0.0514126490876566,
+                                "NoTouch": {
+                                    "Ask": 0.7407,
+                                    "Bid": 0.6981,
+                                    "DeltaPct": 25.6430657532738
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.3025,
+                                    "Bid": 0.2599,
+                                    "DeltaPct": 24.6322298781185
+                                }
+                            },
+                            {
+                                "Index": 1,
+                                "MidVolatilityPct": 0.0514126490876566,
+                                "NoTouch": {
+                                    "Ask": 0.434,
+                                    "Bid": 0.3914,
+                                    "DeltaPct": 42.8748835451336
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.609,
+                                    "Bid": 0.5664,
+                                    "DeltaPct": 41.8468153514896
+                                }
+                            },
+                            {
+                                "Index": 2,
+                                "MidVolatilityPct": 0.0514126490876566,
+                                "NoTouch": {
+                                    "Ask": 0.3661,
+                                    "Bid": 0.3235,
+                                    "DeltaPct": 34.7709235938057
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.6768,
+                                    "Bid": 0.6343,
+                                    "DeltaPct": 35.7479435248266
+                                }
+                            },
+                            {
+                                "Index": 3,
+                                "MidVolatilityPct": 0.0514126491221192,
+                                "NoTouch": {
+                                    "Ask": 0.6415,
+                                    "Bid": 0.5989,
+                                    "DeltaPct": 25.1082311853045
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.4015,
+                                    "Bid": 0.359,
+                                    "DeltaPct": 26.098006495026
+                                }
+                            },
+                            {
+                                "Index": 4,
+                                "MidVolatilityPct": 0.0514126491221192,
+                                "NoTouch": {
+                                    "Ask": 0.8177,
+                                    "Bid": 0.7751,
+                                    "DeltaPct": 13.9067500730595
+                                },
+                                "OneTouch": {
+                                    "Ask": 0.2255,
+                                    "Bid": 0.1829,
+                                    "DeltaPct": 14.9025730771973
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Index": 6,
+                        "MidStrikePrice": 1.109155
+                    },
+                    {
+                        "Index": 7,
+                        "MidStrikePrice": 1.109155
+                    }
+                ],
+                "LastUpdated": "2019-08-19T06:03:43.182469Z"
+            }
+        }
+    }
+}

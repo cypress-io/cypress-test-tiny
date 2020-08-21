@@ -1,0 +1,177 @@
+[
+    {
+        "Description": "Ritzau Finans Light (excluding flashes), 60-min delay",
+        "SourceId": 1054,
+        "WireId": "8C"
+    },
+    {
+        "Description": "Ritzau Finans Light (excluding flashes), Real-time",
+        "SourceId": 1053,
+        "WireId": "8B"
+    },
+    {
+        "Description": "Ritzau Finans Premium (including flashes), Real-time",
+        "SourceId": 334,
+        "WireId": "8A"
+    },
+    {
+        "Description": "Johannesburg Stock Exchange (SENS)",
+        "SourceId": 1156,
+        "WireId": "1156"
+    },
+    {
+        "Description": "MNI Commodity Bullets",
+        "SourceId": 1050,
+        "WireId": "CU"
+    },
+    {
+        "Description": "MNI FX Bullets",
+        "SourceId": 221,
+        "WireId": "MR"
+    },
+    {
+        "Description": "NewsEdge Arabic",
+        "SourceId": 1420,
+        "WireId": "X1"
+    },
+    {
+        "Description": "NewsEdge Australia & New Zealand",
+        "SourceId": 1422,
+        "WireId": "C5"
+    },
+    {
+        "Description": "NewsEdge Bonds",
+        "SourceId": 1392,
+        "WireId": "S1"
+    },
+    {
+        "Description": "NewsEdge Central Banks",
+        "SourceId": 1393,
+        "WireId": "S2"
+    },
+    {
+        "Description": "NewsEdge Chinese",
+        "SourceId": 1421,
+        "WireId": "C3"
+    },
+    {
+        "Description": "NewsEdge Commodities",
+        "SourceId": 1394,
+        "WireId": "S3"
+    },
+    {
+        "Description": "NewsEdge Corporate",
+        "SourceId": 1385,
+        "WireId": "S8"
+    },
+    {
+        "Description": "NewsEdge Equities",
+        "SourceId": 1386,
+        "WireId": "S7"
+    },
+    {
+        "Description": "NewsEdge Forex",
+        "SourceId": 1395,
+        "WireId": "S4"
+    },
+    {
+        "Description": "NewsEdge French",
+        "SourceId": 1423,
+        "WireId": "X6"
+    },
+    {
+        "Description": "NewsEdge Futures",
+        "SourceId": 1396,
+        "WireId": "S5"
+    },
+    {
+        "Description": "NewsEdge German",
+        "SourceId": 1424,
+        "WireId": "X3"
+    },
+    {
+        "Description": "NewsEdge Japanese",
+        "SourceId": 1426,
+        "WireId": "C7"
+    },
+    {
+        "Description": "NewsEdge Macro",
+        "SourceId": 1378,
+        "WireId": "S6"
+    },
+    {
+        "Description": "NewsEdge Portuguese",
+        "SourceId": 1427,
+        "WireId": "Q0"
+    },
+    {
+        "Description": "NewsEdge Portuguese LATAM",
+        "SourceId": 1428,
+        "WireId": "Q9"
+    },
+    {
+        "Description": "NewsEdge Russian",
+        "SourceId": 1429,
+        "WireId": "Q6"
+    },
+    {
+        "Description": "NewsEdge Spanish",
+        "SourceId": 1430,
+        "WireId": "C2"
+    },
+    {
+        "Description": "NewsEdge Spanish LATAM",
+        "SourceId": 1431,
+        "WireId": "C1"
+    },
+    {
+        "Description": "Oslo Børs, Real-time",
+        "SourceId": 1179,
+        "WireId": "@F"
+    },
+    {
+        "Description": "TDN Finans",
+        "SourceId": 1073,
+        "WireId": "=H"
+    },
+    {
+        "Description": "TDN Finans, 25-min delay",
+        "SourceId": 1159,
+        "WireId": "@*"
+    },
+    {
+        "Description": "UBS Morning Adviser",
+        "SourceId": 1082,
+        "WireId": "9Y"
+    },
+    {
+        "Description": "Wallstreet CN Headlines, 3-min delay",
+        "SourceId": 1436,
+        "WireId": "3%"
+    },
+    {
+        "Description": "Wallstreet CN Headlines, Real-time",
+        "SourceId": 1437,
+        "WireId": "1%"
+    },
+    {
+        "Description": "Wallstreet CN News, 15-min delay",
+        "SourceId": 1438,
+        "WireId": "4%"
+    },
+    {
+        "Description": "Wallstreet CN News, Real-time",
+        "SourceId": 1439,
+        "WireId": "2%"
+    },
+    {
+        "Description": "Market Analysis",
+        "SourceId": 1556,
+        "WireId": "B9"
+    },
+    {
+        "Description": "Trade Views",
+        "SourceId": 1557,
+        "WireId": "B="
+    }
+]

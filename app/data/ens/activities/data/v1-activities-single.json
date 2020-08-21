@@ -1,0 +1,41 @@
+{
+    "Data": [
+        {
+            "AccountId": "test1",
+            "ActivityTime": "2019-02-10T10:48:05.150000Z",
+            "ActivityType": "Positions",
+            "Amount": 40000,
+            "AssetType": "FxSpot",
+            "BuySell": "Sell",
+            "ClientId": "1234567",
+            "ClientName": "Client 1234567",
+            "Commission": 20.38,
+            "ConversionRate": 0.14793047,
+            "CorrelationKey": "1de3d3fe-0bd3-4a25-a488-e5596b2ded62",
+            "CurrencyCode": "USD",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 4,
+                "Description": "British Pound/Danish Krone",
+                "OrderDecimals": 4,
+                "Symbol": "EURUSD"
+            },
+            "ExecutionTime": "2019-02-10T10:48:05.148882Z",
+            "OpenPrice": 8.4483,
+            "OpenSpot": 8.4483,
+            "PositionEvent": "New",
+            "PositionId": "1480368449",
+            "Price": 8.4483,
+            "PriceType": "Amount",
+            "SequenceId": "33812410",
+            "SourceOrderId": "288213896",
+            "SpotDate": "2019-09-25",
+            "Symbol": "EURUSD",
+            "TotalCost": 20.38,
+            "Uic": 21,
+            "UserId": 9624509,
+            "ValueDate": "2019-09-25"
+        }
+    ],
+    "__count": 1
+}

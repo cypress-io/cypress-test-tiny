@@ -1,0 +1,162 @@
+{
+    "AmountDecimals": 0,
+    "AssetType": "Stock",
+    "CurrencyCode": "EUR",
+    "DefaultAmount": 0,
+    "DefaultSlippage": 0,
+    "DefaultSlippageType": "Ticks",
+    "Description": "Bayer AG",
+    "Exchange": {
+        "CountryCode": "DE",
+        "ExchangeId": "FSE",
+        "Name": "Deutsche Börse (XETRA)",
+        "PriceSourceName": "Deutsche Börse"
+    },
+    "Format": {
+        "Decimals": 2,
+        "OrderDecimals": 2
+    },
+    "GroupId": 0,
+    "IncrementSize": 1,
+    "IsTradable": true,
+    "MarketData": {
+        "AverageExpectedSalesGrowthRatePct": -25.132,
+        "Country": "DE",
+        "DividendYieldPct": 4.16,
+        "EPS": 8.41,
+        "MarketCap": 65825966285.79741,
+        "MarketCapLocalCurrency": 57670493454,
+        "PriceEarnings": 16.891892,
+        "Sector": {
+            "Key": "Healthcare",
+            "Value": "Healthcare"
+        }
+    },
+    "MinimumOrderValue": 50,
+    "MinimumTradeSize": 50,
+    "DisplayHint": "Etf",
+    "OrderDistances": {
+        "EntryDefaultDistance": 0.25,
+        "EntryDefaultDistanceType": "Percentage",
+        "StopLimitDefaultDistance": 5,
+        "StopLimitDefaultDistanceType": "Pips",
+        "StopLossDefaultDistance": 0.5,
+        "StopLossDefaultDistanceType": "Percentage",
+        "StopLossDefaultEnabled": false,
+        "StopLossDefaultOrderType": "GuaranteedStop",
+        "TakeProfitDefaultDistance": 0.5,
+        "TakeProfitDefaultDistanceType": "Percentage",
+        "TakeProfitDefaultEnabled": false
+    },
+    "OrderSetting": {},
+    "PriceCurrency": "EUR",
+    "PriceToContractFactor": 1,
+    "PrimaryListing": 20096,
+    "RelatedInstruments": [
+        {
+            "AssetType": "CfdOnStock",
+            "Uic": 3102
+        },
+        {
+            "AssetType": "Bond",
+            "Uic": 12572271
+        }
+    ],
+    "RelatedOptionRoots": [193, 1609],
+    "RelatedOptionRootsEnhanced": [
+        {
+            "AssetType": "StockOption",
+            "OptionRootId": 193
+        },
+        {
+            "AssetType": "StockOption",
+            "OptionRootId": 1609
+        }
+    ],
+    "StandardAmounts": [1, 10, 100, 500, 1000, 10000, 50000, 100000],
+    "SupportedOrderTypes": [
+        "Market",
+        "Limit",
+        "StopIfTraded",
+        "TrailingStopIfTraded",
+        "StopLimit"
+    ],
+    "SupportedStrategies": [
+        "VWAP",
+        "With Volume",
+        "Implementation Shortfall",
+        "Reload",
+        "Iceberg",
+        "TWAP",
+        "Dark"
+    ],
+    "Symbol": "BAYN:xetr",
+    "TickSizeScheme": {
+        "DefaultTickSize": 10,
+        "Elements": [
+            {
+                "HighPrice": 0.9999,
+                "TickSize": 0.0001
+            },
+            {
+                "HighPrice": 1.9998,
+                "TickSize": 0.0002
+            },
+            {
+                "HighPrice": 4.9995,
+                "TickSize": 0.0005
+            },
+            {
+                "HighPrice": 9.999,
+                "TickSize": 0.001
+            },
+            {
+                "HighPrice": 19.998,
+                "TickSize": 0.002
+            },
+            {
+                "HighPrice": 49.995,
+                "TickSize": 0.005
+            },
+            {
+                "HighPrice": 99.99,
+                "TickSize": 0.01
+            },
+            {
+                "HighPrice": 199.98,
+                "TickSize": 0.02
+            },
+            {
+                "HighPrice": 499.95,
+                "TickSize": 0.05
+            },
+            {
+                "HighPrice": 999.9,
+                "TickSize": 0.1
+            },
+            {
+                "HighPrice": 1999.8,
+                "TickSize": 0.2
+            },
+            {
+                "HighPrice": 4999.5,
+                "TickSize": 0.5
+            },
+            {
+                "HighPrice": 9999,
+                "TickSize": 1
+            },
+            {
+                "HighPrice": 19998,
+                "TickSize": 2
+            },
+            {
+                "HighPrice": 49995,
+                "TickSize": 5
+            }
+        ]
+    },
+    "TradableAs": ["Stock"],
+    "TradableOn": ["test3", "125668INET", "125668INET1"],
+    "Uic": 20096
+}

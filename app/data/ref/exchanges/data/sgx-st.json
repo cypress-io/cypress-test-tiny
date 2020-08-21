@@ -1,0 +1,59 @@
+{
+    "AllDay": false,
+    "CountryCode": "SG",
+    "Currency": "SGD",
+    "ExchangeId": "SGX-ST",
+    "ExchangeSessions": [
+        {
+            "EndTime": "2020-08-13T09:00:00.000000Z",
+            "StartTime": "2020-08-13T05:00:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2020-08-13T09:06:00.000000Z",
+            "StartTime": "2020-08-13T09:00:00.000000Z",
+            "State": "CallAuctionTrading"
+        },
+        {
+            "EndTime": "2020-08-14T00:30:00.000000Z",
+            "StartTime": "2020-08-13T09:06:00.000000Z",
+            "State": "Closed"
+        },
+        {
+            "EndTime": "2020-08-14T01:00:00.000000Z",
+            "StartTime": "2020-08-14T00:30:00.000000Z",
+            "State": "PreTrading"
+        },
+        {
+            "EndTime": "2020-08-14T04:00:00.000000Z",
+            "StartTime": "2020-08-14T01:00:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2020-08-14T05:00:00.000000Z",
+            "StartTime": "2020-08-14T04:00:00.000000Z",
+            "State": "Break"
+        },
+        {
+            "EndTime": "2020-08-14T09:00:00.000000Z",
+            "StartTime": "2020-08-14T05:00:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2020-08-14T09:06:00.000000Z",
+            "StartTime": "2020-08-14T09:00:00.000000Z",
+            "State": "CallAuctionTrading"
+        },
+        {
+            "EndTime": "2020-08-17T00:30:00.000000Z",
+            "StartTime": "2020-08-14T09:06:00.000000Z",
+            "State": "Closed"
+        }
+    ],
+    "Mic": "XSES",
+    "Name": "Singapore Exchange",
+    "PriceSourceName": "Singapore Exchange",
+    "TimeZone": 2,
+    "TimeZoneAbbreviation": "SGT",
+    "TimeZoneOffset": "08:00:00"
+}

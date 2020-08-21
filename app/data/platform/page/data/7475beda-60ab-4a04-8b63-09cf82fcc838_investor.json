@@ -1,0 +1,43 @@
+{
+    "PathTemplate": "productTemplate",
+    "Name": "fxspot",
+    "IsBackButtonHidden": true,
+    "Sections": [
+        {
+            "Type": "Header",
+            "IsDividerShown": true,
+            "IsNarrow": true,
+            "Name": "header_fx",
+            "Title": "",
+            "Id": "e9fc1c20-ba43-40b9-831d-504a498ff44d"
+        },
+        {
+            "Type": "InstrumentChart",
+            "IsDividerShown": true,
+            "Name": "chartsection_fx",
+            "Title": "Price Chart",
+            "Id": "9b9d2f1a-292e-4743-86c8-a4947ed9ccd1"
+        },
+        {
+            "Type": "NewsList",
+            "IsDividerShown": true,
+            "LayoutType": "wrap",
+            "viewType": "card",
+            "NewsLists": [
+                {
+                    "Title": "",
+                    "NewsLimit": 10,
+                    "Search": "",
+                    "ShouldShowLinkedInstrumentNews": true,
+                    "Id": "b92a1cf4-4668-4d09-ac83-dd3070cfd465"
+                }
+            ],
+            "Name": "newslistsection_fx",
+            "Title": "News",
+            "Id": "fc96fb75-95d5-4064-bd76-d09c8bb08e6d"
+        }
+    ],
+    "Title": "",
+    "Url": "/page/product/fxspot/:uic",
+    "Id": "7475beda-60ab-4a04-8b63-09cf82fcc838_investor"
+}

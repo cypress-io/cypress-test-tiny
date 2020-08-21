@@ -1,0 +1,105 @@
+{
+    "AccountCurrency": "GBP",
+    "AccountID": "",
+    "Amount": 1000,
+    "AssetType": "FxSpot",
+    "Cost": {
+        "Long": {
+            "BuySell": "Buy",
+            "Currency": "AUD",
+            "HoldingCost": {
+                "TomNext": {
+                    "Pct": 0.037,
+                    "Rule": {
+                        "Markup": 0.45
+                    },
+                    "Value": 1.604
+                }
+            },
+            "TotalCost": 47.85,
+            "TotalCostPct": 1.104,
+            "TradingCost": {
+                "Commissions": [
+                    {
+                        "Pct": 0.529,
+                        "Rule": {
+                            "Currency": "USD",
+                            "MinCommission": 3
+                        },
+                        "Value": 22.923
+                    }
+                ],
+                "Spread": {
+                    "DisplayDecimals": 5,
+                    "Pct": 0.009,
+                    "Rule": {
+                        "Value": 0.0004
+                    },
+                    "Value": 0.4
+                },
+                "TicketFee": {
+                    "Pct": 0.529,
+                    "Rule": {
+                        "Currency": "USD",
+                        "Value": 3
+                    },
+                    "Value": 22.923
+                }
+            }
+        },
+        "Short": {
+            "BuySell": "Sell",
+            "Currency": "AUD",
+            "HoldingCost": {
+                "TomNext": {
+                    "Pct": 0.037,
+                    "Rule": {
+                        "Markup": 0.45
+                    },
+                    "Value": 1.604
+                }
+            },
+            "TotalCost": 47.85,
+            "TotalCostPct": 1.104,
+            "TradingCost": {
+                "Commissions": [
+                    {
+                        "Pct": 0.529,
+                        "Rule": {
+                            "Currency": "USD",
+                            "MinCommission": 3
+                        },
+                        "Value": 22.923
+                    }
+                ],
+                "Spread": {
+                    "DisplayDecimals": 5,
+                    "Pct": 0.009,
+                    "Rule": {
+                        "Value": 0.0004
+                    },
+                    "Value": 0.4
+                },
+                "TicketFee": {
+                    "Pct": 0.529,
+                    "Rule": {
+                        "Currency": "USD",
+                        "Value": 3
+                    },
+                    "Value": 22.923
+                }
+            }
+        }
+    },
+    "CostCalculationAssumptions": [
+        "IncludesOpenAndCloseCost",
+        "EquivalentOpenAndClosePrice",
+        "ConversionCostNotIncluded",
+        "BasisOnMidPrice",
+        "InterbankChargesExcluded"
+    ],
+    "HoldingPeriodInDays": 30,
+    "Instrument": "Australian Dollar/US Dollar",
+    "Price": 4.336195,
+    "Uic": 1343
+}

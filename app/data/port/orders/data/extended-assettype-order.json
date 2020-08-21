@@ -1,0 +1,257 @@
+{
+    "Data": [
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 1,
+            "AssetType": "Stock",
+            "BuySell": "Buy",
+            "CalculationReliability": "OkWithConditions",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "57f6bfe5-31ca-4a95-8eec-462a8af5de6b",
+            "CorrelationTypes": ["Allocation", "AutoTrade"],
+            "CurrentPrice": 23.96,
+            "CurrentPriceDelayMinutes": 15,
+            "CurrentPriceLastTraded": "2018-12-03T20:59:58.264000Z",
+            "CurrentPriceType": "Ask",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 2,
+                "Description": "HP Inc.",
+                "Format": "Normal",
+                "Symbol": "HPQ:xnys"
+            },
+            "Duration": {
+                "DurationType": "DayOrder"
+            },
+            "Exchange": {
+                "Description": "New York Stock Exchange",
+                "ExchangeId": "NYSE",
+                "IsOpen": false
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": false,
+            "MarketPrice": 23.96,
+            "OpenOrderType": "Market",
+            "OrderAmountType": "Quantity",
+            "OrderId": "257984869",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2018-12-04T10:31:13.230000Z",
+            "RelatedOpenOrders": [],
+            "Status": "Working",
+            "Uic": 3102
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 100,
+            "Ask": 12.86,
+            "AssetType": "Etf",
+            "Bid": 12.71,
+            "BuySell": "Buy",
+            "CalculationReliability": "Ok",
+            "ClientId": "569960",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "6862bd87-5adb-4f14-b1c0-67e584ffc5c4",
+            "CurrentPrice": 12.85,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceLastTraded": "2020-06-12T10:03:57.447000Z",
+            "CurrentPriceType": "LastTraded",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 3,
+                "Description": "Lyxor ETF Comm Thomson Reuters/Jefferies CRB",
+                "Format": "Normal",
+                "Symbol": "CAC:xpar"
+            },
+            "DistanceToMarket": 0.046,
+            "Duration": { "DurationType": "GoodTillCancel" },
+            "Exchange": {
+                "Description": "Lyxor UCITS ETF CAC 40",
+                "ExchangeId": "PAR",
+                "IsOpen": true
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 12.85,
+            "MarketValue": 0,
+            "NonTradableReason": "None",
+            "OpenOrderType": "StopLimit",
+            "OrderAmountType": "Quantity",
+            "OrderId": "327970648",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2020-06-22T08:47:21.023333Z",
+            "Price": 12.896,
+            "RelatedOpenOrders": [],
+            "Status": "Working",
+            "StopLimitPrice": 12.906,
+            "TradingStatus": "Tradable",
+            "Uic": 9104
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 200,
+            "Ask": 35.08,
+            "AssetType": "SrdOnStock",
+            "Bid": 35.06,
+            "BuySell": "Buy",
+            "CalculationReliability": "OkWithConditions",
+            "ClientId": "3019971",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "5899c0a7-f67c-4e49-84a5-9e5fe229ac4d",
+            "CurrentPrice": 35.06,
+            "CurrentPriceDelayMinutes": 15,
+            "CurrentPriceLastTraded": "2020-07-13T11:35:07.173000Z",
+            "CurrentPriceType": "LastTraded",
+            "DisplayAndFormat": {
+                "Currency": "EUR",
+                "Decimals": 2,
+                "Description": "STMicroelectronics",
+                "Format": "Percentage",
+                "Symbol": "STM:xpar"
+            },
+            "DistanceToMarket": 0.94,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "Euronext Paris",
+                "ExchangeId": "PAR",
+                "IsOpen": true
+            },
+            "IsForceOpen": false,
+            "Isin": "FR0000121147",
+            "IsMarketOpen": true,
+            "MarketPrice": 35.06,
+            "MarketValue": 0,
+            "NonTradableReason": "None",
+            "OpenOrderType": "StopIfTraded",
+            "OrderAmountType": "Quantity",
+            "OrderId": "331558080",
+            "OrderRelation": "Oco",
+            "OrderTime": "2020-07-29T09:24:30.623717Z",
+            "Price": 36,
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 200,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "Limit",
+                    "OrderId": "331558079",
+                    "OrderPrice": 33,
+                    "Status": "Working"
+                }
+            ],
+            "ShortTrading": "Allowed",
+            "Status": "Working",
+            "TradingStatus": "Tradable",
+            "Uic": 1252
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 200,
+            "Ask": 35.08,
+            "AssetType": "SrdOnStock",
+            "Bid": 35.06,
+            "BuySell": "Buy",
+            "CalculationReliability": "OkWithConditions",
+            "ClientId": "3019971",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "5899c0a7-f67c-4e49-84a5-9e5fe229ac4d",
+            "CurrentPrice": 35.08,
+            "CurrentPriceDelayMinutes": 15,
+            "CurrentPriceLastTraded": "2020-07-13T11:35:07.173000Z",
+            "CurrentPriceType": "Ask",
+            "DisplayAndFormat": {
+                "Currency": "EUR",
+                "Decimals": 2,
+                "Description": "STMicroelectronics",
+                "Format": "Percentage",
+                "Symbol": "STM:xpar"
+            },
+            "DistanceToMarket": 2.08,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "Euronext Paris",
+                "ExchangeId": "PAR",
+                "IsOpen": true
+            },
+            "IsForceOpen": false,
+            "Isin": "FR0000121147",
+            "IsMarketOpen": true,
+            "MarketPrice": 35.08,
+            "MarketValue": 0,
+            "NonTradableReason": "None",
+            "OpenOrderType": "Limit",
+            "OrderAmountType": "Quantity",
+            "OrderId": "331558079",
+            "OrderRelation": "Oco",
+            "OrderTime": "2020-07-29T09:24:30.139418Z",
+            "Price": 33,
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 200,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "StopIfTraded",
+                    "OrderId": "331558080",
+                    "OrderPrice": 36,
+                    "Status": "Working"
+                }
+            ],
+            "ShortTrading": "Allowed",
+            "Status": "Working",
+            "TradingStatus": "Tradable",
+            "Uic": 1252
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 6,
+            "Ask": 14.61,
+            "AssetType": "SrdOnStock",
+            "Bid": 14.6,
+            "BuySell": "Buy",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "1e52a549-2850-443a-a19d-9f0e351de3ef",
+            "CurrentPrice": 14.61,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceType": "Ask",
+            "DistanceToMarket": -0.186,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 2
+            },
+            "Exchange": {
+                "Description": "Euronext Paris",
+                "ExchangeId": "PAR",
+                "IsOpen": true
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 14.61,
+            "MarketValue": 0,
+            "NonTradableReason": "None",
+            "OpenOrderType": "Limit",
+            "OrderAmountType": "Quantity",
+            "OrderId": "325169685",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2020-06-03T09:08:30.177055Z",
+            "Price": 14.796,
+            "RelatedOpenOrders": [],
+            "Status": "NotWorking",
+            "TradingStatus": "Tradable",
+            "Uic": 1622
+        }
+    ]
+}

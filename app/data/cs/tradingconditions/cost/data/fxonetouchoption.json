@@ -1,0 +1,48 @@
+{
+    "AccountCurrency": "EUR",
+    "AccountID": "",
+    "Amount": 1000,
+    "AssetType": "FxOneTouchOption",
+    "Cost": {
+        "Long": {
+            "BuySell": "Buy",
+            "Currency": "EUR",
+            "TotalCost": 0.51,
+            "TradingCost": {
+                "Spread": {
+                    "DisplayDecimals": 5,
+                    "Rule": {
+                        "Value": 0.00051
+                    },
+                    "Value": 0.51
+                }
+            }
+        },
+        "Short": {
+            "BuySell": "Sell",
+            "Currency": "EUR",
+            "TotalCost": 0.51,
+            "TradingCost": {
+                "Spread": {
+                    "DisplayDecimals": 5,
+                    "Rule": {
+                        "Value": 0.00051
+                    },
+                    "Value": 0.51
+                }
+            }
+        }
+    },
+    "CostCalculationAssumptions": [
+        "IncludesOpenAndCloseCost",
+        "EquivalentOpenAndClosePrice",
+        "ExpiryAssignmentCostExcluded",
+        "DefaultCallOption",
+        "AtmStrikePrice",
+        "ConversionCostNotIncluded"
+    ],
+    "HoldingPeriodInDays": 30,
+    "Instrument": "Euro/US Dollar",
+    "Price": 0.00675570679884416,
+    "Uic": 21
+}

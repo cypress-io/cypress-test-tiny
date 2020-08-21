@@ -1,0 +1,7 @@
+{
+    "AllowIncomingNotification": false,
+    "SubscriptionLevel": {
+        "Key": "4",
+        "Value": "Default Service"
+    }
+}

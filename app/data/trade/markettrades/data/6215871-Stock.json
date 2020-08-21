@@ -1,0 +1,89 @@
+{
+    "_entry": {
+        "data": [
+            {
+                "AcquireTime": "2019-09-25T11:47:51.797502Z",
+                "Ask": 93.76,
+                "Bid": 93.72,
+                "Id": 65712917,
+                "InstrumentType": "Stock",
+                "Price": 93.74,
+                "Size": 52,
+                "TimeStamp": "2019-09-25T11:47:51.697300Z",
+                "Uic": 6215871,
+                "Venue": "ADF"
+            },
+            {
+                "AcquireTime": "2019-09-25T11:47:51.357517Z",
+                "Ask": 93.78,
+                "Bid": 93.74,
+                "Id": 65705574,
+                "InstrumentType": "Stock",
+                "Price": 93.74,
+                "Size": 236,
+                "TimeStamp": "2019-09-25T11:47:51.216700Z",
+                "Uic": 6215871,
+                "Venue": "ADF"
+            }
+        ],
+        "next": "update_1"
+    },
+    "update_1": {
+        "data": [
+            {
+                "AcquireTime": "2019-09-25T11:47:51.797502Z",
+                "Ask": 93.76,
+                "Bid": 93.72,
+                "Id": 65712917,
+                "InstrumentType": "Stock",
+                "Price": 93.74,
+                "Size": 52,
+                "TimeStamp": "2019-09-25T11:47:51.697300Z",
+                "Uic": 6215871,
+                "Venue": "ADF"
+            },
+            {
+                "AcquireTime": "2019-09-25T11:47:51.357517Z",
+                "Ask": 93.78,
+                "Bid": 93.74,
+                "Id": 65705574,
+                "InstrumentType": "Stock",
+                "Price": 93.74,
+                "Size": 236,
+                "TimeStamp": "2019-09-25T11:47:51.216700Z",
+                "Uic": 6215871,
+                "Venue": "ADF"
+            }
+        ],
+        "next": "update_2"
+    },
+    "update_2": {
+        "data": [
+            {
+                "AcquireTime": "2019-09-25T11:47:51.797502Z",
+                "Ask": 93.76,
+                "Bid": 93.72,
+                "Id": 65712917,
+                "InstrumentType": "Stock",
+                "Price": 93.74,
+                "Size": 52,
+                "TimeStamp": "2019-09-25T11:47:51.697300Z",
+                "Uic": 6215871,
+                "Venue": ""
+            },
+            {
+                "AcquireTime": "2019-09-25T11:47:51.357517Z",
+                "Ask": 93.78,
+                "Bid": 93.74,
+                "Id": 65705574,
+                "InstrumentType": "Stock",
+                "Price": 93.74,
+                "Size": 236,
+                "TimeStamp": "2019-09-25T11:47:51.216700Z",
+                "Uic": 6215871,
+                "Venue": ""
+            }
+        ],
+        "next": "update_2"
+    }
+}

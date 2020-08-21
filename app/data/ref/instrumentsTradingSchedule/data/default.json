@@ -1,0 +1,37 @@
+{
+    "Sessions": [
+        {
+            "EndTime": "2019-03-13T20:59:00.000000Z",
+            "StartTime": "2019-03-12T21:04:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2019-03-13T21:04:00.000000Z",
+            "StartTime": "2019-03-13T20:59:00.000000Z",
+            "State": "Closed"
+        },
+        {
+            "EndTime": "2019-03-14T20:59:00.000000Z",
+            "StartTime": "2019-03-13T21:04:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2019-03-14T21:04:00.000000Z",
+            "StartTime": "2019-03-14T20:59:00.000000Z",
+            "State": "Closed"
+        },
+        {
+            "EndTime": "2019-03-15T20:59:00.000000Z",
+            "StartTime": "2019-03-14T21:04:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2019-03-17T17:04:00.000000Z",
+            "StartTime": "2019-03-15T20:59:00.000000Z",
+            "State": "Closed"
+        }
+    ],
+    "TimeZone": 3,
+    "TimeZoneAbbreviation": "EDT",
+    "TimeZoneOffset": "-04:00:00"
+}

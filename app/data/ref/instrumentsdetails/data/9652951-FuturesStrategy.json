@@ -1,0 +1,75 @@
+{
+    "AmountDecimals": 0,
+    "AssetType": "FuturesStrategy",
+    "ContractSize": 1,
+    "CurrencyCode": "USD",
+    "DefaultAmount": 0,
+    "DefaultSlippage": 0,
+    "DefaultSlippageType": "Ticks",
+    "Description": "Lean Hogs Spreads Jun-19 Jul-19 ",
+    "Exchange": {
+        "CountryCode": "US",
+        "ExchangeId": "CME",
+        "Name": "Chicago Mercantile Exchange",
+        "PriceSourceName": "CME Group"
+    },
+    "ExpiryDate": "2019-06-14",
+    "Format": { "Decimals": 3, "OrderDecimals": 3 },
+    "GroupId": 0,
+    "IncrementSize": 1,
+    "Isin": "",
+    "IsPitTraded": false,
+    "IsTradable": true,
+    "Legs": [
+        {
+            "AssetType": "ContractFutures",
+            "BuySell": "Buy",
+            "Description": "Lean Hogs - Jun 2019",
+            "LegNumber": 1,
+            "Multiplier": 1,
+            "Uic": 9450682
+        },
+        {
+            "AssetType": "ContractFutures",
+            "BuySell": "Sell",
+            "Description": "Lean Hogs - Jul 2019",
+            "LegNumber": 2,
+            "Multiplier": 1,
+            "Uic": 9647862
+        }
+    ],
+    "LotSizeText": "",
+    "MinimumTradeSize": 1,
+    "OrderDistances": {
+        "EntryDefaultDistance": 0.25,
+        "EntryDefaultDistanceType": "Percentage",
+        "StopLimitDefaultDistance": 5,
+        "StopLimitDefaultDistanceType": "Pips",
+        "StopLossDefaultDistance": 0.5,
+        "StopLossDefaultDistanceType": "Percentage",
+        "StopLossDefaultEnabled": false,
+        "StopLossDefaultOrderType": "Stop",
+        "TakeProfitDefaultDistance": 0.5,
+        "TakeProfitDefaultDistanceType": "Percentage",
+        "TakeProfitDefaultEnabled": false
+    },
+    "OrderSetting": {},
+    "PriceCurrency": "USX",
+    "PriceToContractFactor": 400,
+    "PrimaryListing": 9652951,
+    "RelatedInstruments": [
+        { "AssetType": "ContractFutures", "Uic": 9647862 },
+        { "AssetType": "CfdOnFutures", "Uic": 13748724 }
+    ],
+    "Sector": { "Name": "Meats", "SectorId": "252" },
+    "StandardAmounts": [1, 5, 10, 25, 50, 100, 500, 1000],
+    "StrategyType": "CalendarSpread",
+    "SupportedOrderTypes": ["Market", "Limit"],
+    "Symbol": "HEM9-N9",
+    "TickSize": 0.025,
+    "TradableAs": ["FuturesStrategy"],
+    "TradableOn": [],
+    "TradingSignals": "NotAllowed",
+    "Uic": 9652951,
+    "id": "9652951-FuturesStrategy"
+}

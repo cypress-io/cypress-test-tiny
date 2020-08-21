@@ -1,0 +1,37 @@
+{
+    "Name": "education_howto-guides",
+    "Sections": [
+        {
+            "IsDividerShown": false,
+            "LayoutType": "stretch",
+            "Type": "Banner",
+            "Name": "chart videos topics - bannersection",
+            "Title": "Chart videos",
+            "Id": "ad113260-c352-45a5-b4c3-7d32e06c4111",
+            "Banners": [
+                {
+                    "Image": {
+                        "Alt": "Viewing charts",
+                        "Url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg=="
+                    },
+                    "Text": "",
+                    "Name": "viewing charts - bannerimage",
+                    "Align": "center",
+                    "IsCompact": false,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "Target": "/page/education_view-charts",
+                        "TargetId": "1012f1d2-bf24-4622-a220-3e9beadd0612",
+                        "LinkText": "education_view-charts"
+                    },
+                    "Title": "Viewing charts",
+                    "Id": "0a1b56e8-ce79-4eff-bcbf-81a266cde8da"
+                }
+            ]
+        }
+    ],
+    "Title": "How to guides",
+    "Url": "/page/education_howto-guides",
+    "Id": "ca5563d0-572a-4ff4-8a16-3a12d5a31dc0_trader"
+}

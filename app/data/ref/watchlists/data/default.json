@@ -1,0 +1,1372 @@
+{
+    "Predefined": [
+        {
+            "CategoryId": "10691",
+            "Name": "Forex",
+            "PrimaryAssetType": "FxSpot",
+            "Watchlists": [
+                {
+                    "Name": "FX Top 10",
+                    "ParentCategoryId": "10691",
+                    "PrimaryAssetType": "FxSpot",
+                    "TradeRegionId": "7",
+                    "WatchlistId": "10692"
+                },
+                {
+                    "Name": "FX Top 20",
+                    "ParentCategoryId": "10691",
+                    "PrimaryAssetType": "FxSpot",
+                    "TradeRegionId": "3",
+                    "WatchlistId": "10693"
+                }
+            ]
+        },
+        {
+            "Name": "CFD Indices",
+            "PrimaryAssetType": "CfdOnIndex",
+            "TradeRegionId": "31",
+            "WatchlistId": "10694"
+        },
+        {
+            "CategoryId": "10695",
+            "Name": "CFDs by region",
+            "PrimaryAssetType": "CfdOnStock",
+            "Watchlists": [
+                {
+                    "Name": "CFDs Asian",
+                    "ParentCategoryId": "10695",
+                    "PrimaryAssetType": "CfdOnStock",
+                    "TradeRegionId": "6",
+                    "WatchlistId": "10696"
+                },
+                {
+                    "Name": "CFDs Australia",
+                    "ParentCategoryId": "10695",
+                    "PrimaryAssetType": "CfdOnStock",
+                    "TradeRegionId": "18",
+                    "WatchlistId": "10697"
+                },
+                {
+                    "Name": "CFDs Austria",
+                    "ParentCategoryId": "10695",
+                    "PrimaryAssetType": "CfdOnStock",
+                    "TradeRegionId": "28",
+                    "WatchlistId": "10698"
+                },
+                {
+                    "Name": "CFDs Belgium",
+                    "ParentCategoryId": "10695",
+                    "PrimaryAssetType": "CfdOnStock",
+                    "TradeRegionId": "20",
+                    "WatchlistId": "10699"
+                },
+                {
+                    "Name": "CFDs Brazil ADR",
+                    "ParentCategoryId": "10695",
+                    "PrimaryAssetType": "CfdOnStock",
+                    "TradeRegionId": "10",
+                    "WatchlistId": "10700"
+                },
+                {
+                    "Name": "CFDs Canada",
+                    "ParentCategoryId": "10695",
+                    "PrimaryAssetType": "CfdOnStock",
+                    "TradeRegionId": "29",
+                    "WatchlistId": "10701"
+                },
+                {
+                    "Name": "CFDs Czech Republic",
+                    "ParentCategoryId": "10695",
+                    "PrimaryAssetType": "CfdOnStock",
+                    "TradeRegionId": "34",
+                    "WatchlistId": "10702"
+                },
+                {
+                    "Name": "CFDs Denmark",
+                    "ParentCategoryId": "10695",
+                    "PrimaryAssetType": "CfdOnStock",
+                    "TradeRegionId": "8",
+                    "WatchlistId": "10703"
+                },
+                {
+                    "Name": "CFDs European",
+                    "ParentCategoryId": "10695",
+                    "PrimaryAssetType": "CfdOnStock",
+                    "TradeRegionId": "3",
+                    "WatchlistId": "10704"
+                },
+                {
+                    "Name": "CFDs Finland",
+                    "ParentCategoryId": "10695",
+                    "PrimaryAssetType": "CfdOnStock",
+                    "TradeRegionId": "24",
+                    "WatchlistId": "10705"
+                },
+                {
+                    "Name": "CFDs France",
+                    "ParentCategoryId": "10695",
+                    "PrimaryAssetType": "CfdOnStock",
+                    "TradeRegionId": "9",
+                    "WatchlistId": "10706"
+                },
+                {
+                    "Name": "CFDs Germany",
+                    "ParentCategoryId": "10695",
+                    "PrimaryAssetType": "CfdOnStock",
+                    "TradeRegionId": "22",
+                    "WatchlistId": "10707"
+                },
+                {
+                    "Name": "CFDs Hong Kong",
+                    "ParentCategoryId": "10695",
+                    "PrimaryAssetType": "CfdOnStock",
+                    "TradeRegionId": "23",
+                    "WatchlistId": "10708"
+                },
+                {
+                    "Name": "CFDs Hungary",
+                    "ParentCategoryId": "10695",
+                    "PrimaryAssetType": "CfdOnStock",
+                    "TradeRegionId": "33",
+                    "WatchlistId": "10709"
+                },
+                {
+                    "Name": "CFDs Italy",
+                    "ParentCategoryId": "10695",
+                    "PrimaryAssetType": "CfdOnStock",
+                    "TradeRegionId": "19",
+                    "WatchlistId": "10710"
+                },
+                {
+                    "Name": "CFDs Japan",
+                    "ParentCategoryId": "10695",
+                    "PrimaryAssetType": "CfdOnStock",
+                    "TradeRegionId": "26",
+                    "WatchlistId": "10711"
+                },
+                {
+                    "Name": "CFDs Netherlands",
+                    "ParentCategoryId": "10695",
+                    "PrimaryAssetType": "CfdOnStock",
+                    "TradeRegionId": "16",
+                    "WatchlistId": "10712"
+                },
+                {
+                    "Name": "CFDs Nordic",
+                    "ParentCategoryId": "10695",
+                    "PrimaryAssetType": "CfdOnStock",
+                    "TradeRegionId": "15",
+                    "WatchlistId": "10713"
+                },
+                {
+                    "Name": "CFDs Norway",
+                    "ParentCategoryId": "10695",
+                    "PrimaryAssetType": "CfdOnStock",
+                    "TradeRegionId": "14",
+                    "WatchlistId": "10714"
+                },
+                {
+                    "Name": "CFDs Poland",
+                    "ParentCategoryId": "10695",
+                    "PrimaryAssetType": "CfdOnStock",
+                    "TradeRegionId": "27",
+                    "WatchlistId": "10715"
+                },
+                {
+                    "Name": "CFDs Portugal",
+                    "ParentCategoryId": "10695",
+                    "PrimaryAssetType": "CfdOnStock",
+                    "TradeRegionId": "21",
+                    "WatchlistId": "10716"
+                },
+                {
+                    "Name": "CFDs Russia LI/ADR",
+                    "ParentCategoryId": "10695",
+                    "PrimaryAssetType": "CfdOnStock",
+                    "TradeRegionId": "38",
+                    "WatchlistId": "10717"
+                },
+                {
+                    "Name": "CFDs Singapore",
+                    "ParentCategoryId": "10695",
+                    "PrimaryAssetType": "CfdOnStock",
+                    "TradeRegionId": "25",
+                    "WatchlistId": "10718"
+                },
+                {
+                    "Name": "CFDs South Africa",
+                    "ParentCategoryId": "10695",
+                    "PrimaryAssetType": "CfdOnStock",
+                    "TradeRegionId": "32",
+                    "WatchlistId": "10719"
+                },
+                {
+                    "Name": "CFDs Spain",
+                    "ParentCategoryId": "10695",
+                    "PrimaryAssetType": "CfdOnStock",
+                    "TradeRegionId": "12",
+                    "WatchlistId": "10720"
+                },
+                {
+                    "Name": "CFDs Sweden",
+                    "ParentCategoryId": "10695",
+                    "PrimaryAssetType": "CfdOnStock",
+                    "TradeRegionId": "13",
+                    "WatchlistId": "10721"
+                },
+                {
+                    "Name": "CFDs Switzerland",
+                    "ParentCategoryId": "10695",
+                    "PrimaryAssetType": "CfdOnStock",
+                    "TradeRegionId": "11",
+                    "WatchlistId": "10722"
+                },
+                {
+                    "Name": "CFDs UK",
+                    "ParentCategoryId": "10695",
+                    "PrimaryAssetType": "CfdOnStock",
+                    "TradeRegionId": "1",
+                    "WatchlistId": "10723"
+                },
+                {
+                    "Name": "CFDs US",
+                    "ParentCategoryId": "10695",
+                    "PrimaryAssetType": "CfdOnStock",
+                    "TradeRegionId": "7",
+                    "WatchlistId": "10724"
+                },
+                {
+                    "Name": "Popular CFDs",
+                    "ParentCategoryId": "10695",
+                    "PrimaryAssetType": "CfdOnIndex",
+                    "TradeRegionId": "31",
+                    "WatchlistId": "10725"
+                }
+            ]
+        },
+        {
+            "Name": "CFD Commodities",
+            "PrimaryAssetType": "CfdOnFutures",
+            "TradeRegionId": "31",
+            "WatchlistId": "10726"
+        },
+        {
+            "CategoryId": "10727",
+            "Name": "Stocks by region",
+            "PrimaryAssetType": "Stock",
+            "Watchlists": [
+                {
+                    "Name": "Stocks Asian",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "6",
+                    "WatchlistId": "10728"
+                },
+                {
+                    "Name": "Stocks Australia",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "18",
+                    "WatchlistId": "10729"
+                },
+                {
+                    "Name": "Stocks Austria",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "28",
+                    "WatchlistId": "10730"
+                },
+                {
+                    "Name": "Stocks Belgium",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "20",
+                    "WatchlistId": "10731"
+                },
+                {
+                    "Name": "Stocks Brazil ADR",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "10",
+                    "WatchlistId": "10732"
+                },
+                {
+                    "Name": "Stocks Canada",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "29",
+                    "WatchlistId": "10733"
+                },
+                {
+                    "Name": "Stocks China",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "39",
+                    "WatchlistId": "10734"
+                },
+                {
+                    "Name": "Stocks Czech",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "34",
+                    "WatchlistId": "10735"
+                },
+                {
+                    "Name": "Stocks Denmark",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "8",
+                    "WatchlistId": "10736"
+                },
+                {
+                    "Name": "Stocks European",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "3",
+                    "WatchlistId": "10737"
+                },
+                {
+                    "Name": "Stocks Finland",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "24",
+                    "WatchlistId": "10738"
+                },
+                {
+                    "Name": "Stocks France",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "9",
+                    "WatchlistId": "10739"
+                },
+                {
+                    "Name": "Stocks Germany",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "22",
+                    "WatchlistId": "10740"
+                },
+                {
+                    "Name": "Stocks Greece",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "17",
+                    "WatchlistId": "10741"
+                },
+                {
+                    "Name": "Stocks Hong Kong",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "23",
+                    "WatchlistId": "10742"
+                },
+                {
+                    "Name": "Stocks Italy",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "19",
+                    "WatchlistId": "10743"
+                },
+                {
+                    "Name": "Stocks Japan",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "26",
+                    "WatchlistId": "10744"
+                },
+                {
+                    "Name": "Stocks Netherlands",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "16",
+                    "WatchlistId": "10745"
+                },
+                {
+                    "Name": "Stocks Nordic",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "15",
+                    "WatchlistId": "10746"
+                },
+                {
+                    "Name": "Stocks Norway",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "14",
+                    "WatchlistId": "10747"
+                },
+                {
+                    "Name": "Stocks Poland",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "27",
+                    "WatchlistId": "10748"
+                },
+                {
+                    "Name": "Stocks Portugal",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "21",
+                    "WatchlistId": "10749"
+                },
+                {
+                    "Name": "Stocks Russia LI/ADR",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "38",
+                    "WatchlistId": "10750"
+                },
+                {
+                    "Name": "Stocks Singapore",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "25",
+                    "WatchlistId": "10751"
+                },
+                {
+                    "Name": "Stocks South Africa",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "32",
+                    "WatchlistId": "10752"
+                },
+                {
+                    "Name": "Stocks Southern Europe",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "30",
+                    "WatchlistId": "10753"
+                },
+                {
+                    "Name": "Stocks Spain",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "12",
+                    "WatchlistId": "10754"
+                },
+                {
+                    "Name": "Stocks Sweden",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "13",
+                    "WatchlistId": "10755"
+                },
+                {
+                    "Name": "Stocks Switzerland",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "11",
+                    "WatchlistId": "10756"
+                },
+                {
+                    "Name": "Stocks UK",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "1",
+                    "WatchlistId": "10757"
+                },
+                {
+                    "Name": "Stocks US",
+                    "ParentCategoryId": "10727",
+                    "PrimaryAssetType": "Stock",
+                    "TradeRegionId": "7",
+                    "WatchlistId": "10758"
+                }
+            ]
+        },
+        {
+            "CategoryId": "10759",
+            "Name": "Futures",
+            "PrimaryAssetType": "ContractFutures",
+            "Watchlists": [
+                {
+                    "Name": "Futures Currencies",
+                    "ParentCategoryId": "10759",
+                    "PrimaryAssetType": "ContractFutures",
+                    "TradeRegionId": "26",
+                    "WatchlistId": "10761"
+                },
+                {
+                    "Name": "Futures Stocks",
+                    "ParentCategoryId": "10759",
+                    "PrimaryAssetType": "ContractFutures",
+                    "TradeRegionId": "13",
+                    "WatchlistId": "10768"
+                },
+                {
+                    "Name": "Power & Gas",
+                    "ParentCategoryId": "10759",
+                    "PrimaryAssetType": "ContractFutures",
+                    "TradeRegionId": "3",
+                    "WatchlistId": "10769"
+                },
+                {
+                    "Name": "Futures Commodities",
+                    "ParentCategoryId": "10759",
+                    "PrimaryAssetType": "ContractFutures",
+                    "TradeRegionId": "38",
+                    "WatchlistId": "10760"
+                },
+                {
+                    "Name": "Futures Energies",
+                    "ParentCategoryId": "10759",
+                    "PrimaryAssetType": "ContractFutures",
+                    "TradeRegionId": "23",
+                    "WatchlistId": "10762"
+                },
+                {
+                    "Name": "Futures Indices",
+                    "ParentCategoryId": "10759",
+                    "PrimaryAssetType": "ContractFutures",
+                    "TradeRegionId": "33",
+                    "WatchlistId": "10763"
+                },
+                {
+                    "Name": "Futures Interest Rates and Bonds",
+                    "ParentCategoryId": "10759",
+                    "PrimaryAssetType": "ContractFutures",
+                    "TradeRegionId": "17",
+                    "WatchlistId": "10764"
+                },
+                {
+                    "Name": "Futures Main",
+                    "ParentCategoryId": "10759",
+                    "PrimaryAssetType": "ContractFutures",
+                    "TradeRegionId": "7",
+                    "WatchlistId": "10765"
+                },
+                {
+                    "Name": "Futures Meats",
+                    "ParentCategoryId": "10759",
+                    "PrimaryAssetType": "ContractFutures",
+                    "TradeRegionId": "14",
+                    "WatchlistId": "10766"
+                },
+                {
+                    "Name": "Futures Metals",
+                    "ParentCategoryId": "10759",
+                    "PrimaryAssetType": "ContractFutures",
+                    "TradeRegionId": "8",
+                    "WatchlistId": "10767"
+                }
+            ]
+        },
+        {
+            "Name": "Danske obligationer",
+            "PrimaryAssetType": "Bond",
+            "TradeRegionId": "8",
+            "WatchlistId": "10841"
+        },
+        {
+            "CategoryId": "10826",
+            "Name": "Bonds most active",
+            "PrimaryAssetType": "Bond",
+            "Watchlists": [
+                {
+                    "Name": "Bonds  Asia",
+                    "ParentCategoryId": "10826",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "6",
+                    "WatchlistId": "10827"
+                },
+                {
+                    "Name": "Bonds  Australia and NZ",
+                    "ParentCategoryId": "10826",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "18",
+                    "WatchlistId": "10828"
+                },
+                {
+                    "Name": "Bonds  Central Eastern Europe",
+                    "ParentCategoryId": "10826",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "3",
+                    "WatchlistId": "10829"
+                },
+                {
+                    "Name": "Bonds  China",
+                    "ParentCategoryId": "10826",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "23",
+                    "WatchlistId": "10830"
+                },
+                {
+                    "Name": "Bonds  European Government",
+                    "ParentCategoryId": "10826",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "22",
+                    "WatchlistId": "10831"
+                },
+                {
+                    "Name": "Bonds  European High Yield",
+                    "ParentCategoryId": "10826",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "24",
+                    "WatchlistId": "10832"
+                },
+                {
+                    "Name": "Bonds  European Investment Grade",
+                    "ParentCategoryId": "10826",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "14",
+                    "WatchlistId": "10833"
+                },
+                {
+                    "Name": "Bonds  Low minimum size",
+                    "ParentCategoryId": "10826",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "35",
+                    "WatchlistId": "10834"
+                },
+                {
+                    "Name": "Bonds  Middle East and Africa",
+                    "ParentCategoryId": "10826",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "32",
+                    "WatchlistId": "10835"
+                },
+                {
+                    "Name": "Bonds  Russia",
+                    "ParentCategoryId": "10826",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "38",
+                    "WatchlistId": "10836"
+                },
+                {
+                    "Name": "Bonds  Supranationals",
+                    "ParentCategoryId": "10826",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "36",
+                    "WatchlistId": "10837"
+                },
+                {
+                    "Name": "Bonds  US High Yield",
+                    "ParentCategoryId": "10826",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "29",
+                    "WatchlistId": "10838"
+                },
+                {
+                    "Name": "Bonds  US Investment Grade",
+                    "ParentCategoryId": "10826",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "10",
+                    "WatchlistId": "10839"
+                },
+                {
+                    "Name": "Bonds  US Treasuries",
+                    "ParentCategoryId": "10826",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "7",
+                    "WatchlistId": "10840"
+                }
+            ]
+        },
+        {
+            "CategoryId": "10805",
+            "Name": "Bonds Emerging Markets",
+            "PrimaryAssetType": "Bond",
+            "Watchlists": [
+                {
+                    "Name": "Bonds Africa",
+                    "ParentCategoryId": "10805",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "32",
+                    "WatchlistId": "10806"
+                },
+                {
+                    "Name": "Bonds Argentina",
+                    "ParentCategoryId": "10805",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "18",
+                    "WatchlistId": "10807"
+                },
+                {
+                    "Name": "Bonds Baltic",
+                    "ParentCategoryId": "10805",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "15",
+                    "WatchlistId": "10808"
+                },
+                {
+                    "Name": "Bonds Brazil",
+                    "ParentCategoryId": "10805",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "7",
+                    "WatchlistId": "10809"
+                },
+                {
+                    "Name": "Bonds CEE",
+                    "ParentCategoryId": "10805",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "3",
+                    "WatchlistId": "10810"
+                },
+                {
+                    "Name": "Bonds Chile",
+                    "ParentCategoryId": "10805",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "27",
+                    "WatchlistId": "10811"
+                },
+                {
+                    "Name": "Bonds China (High Yield)",
+                    "ParentCategoryId": "10805",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "6",
+                    "WatchlistId": "10812"
+                },
+                {
+                    "Name": "Bonds China (Investment Grade)",
+                    "ParentCategoryId": "10805",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "26",
+                    "WatchlistId": "10813"
+                },
+                {
+                    "Name": "Bonds CIS",
+                    "ParentCategoryId": "10805",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "21",
+                    "WatchlistId": "10814"
+                },
+                {
+                    "Name": "Bonds Colombia",
+                    "ParentCategoryId": "10805",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "29",
+                    "WatchlistId": "10815"
+                },
+                {
+                    "Name": "Bonds GCC",
+                    "ParentCategoryId": "10805",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "36",
+                    "WatchlistId": "10816"
+                },
+                {
+                    "Name": "Bonds Hong Kong",
+                    "ParentCategoryId": "10805",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "23",
+                    "WatchlistId": "10817"
+                },
+                {
+                    "Name": "Bonds India",
+                    "ParentCategoryId": "10805",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "11",
+                    "WatchlistId": "10818"
+                },
+                {
+                    "Name": "Bonds Indonesia",
+                    "ParentCategoryId": "10805",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "19",
+                    "WatchlistId": "10819"
+                },
+                {
+                    "Name": "Bonds Mexico",
+                    "ParentCategoryId": "10805",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "31",
+                    "WatchlistId": "10820"
+                },
+                {
+                    "Name": "Bonds Peru",
+                    "ParentCategoryId": "10805",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "39",
+                    "WatchlistId": "10821"
+                },
+                {
+                    "Name": "Bonds Russia",
+                    "ParentCategoryId": "10805",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "38",
+                    "WatchlistId": "10822"
+                },
+                {
+                    "Name": "Bonds Singapore",
+                    "ParentCategoryId": "10805",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "25",
+                    "WatchlistId": "10823"
+                },
+                {
+                    "Name": "Bonds South Africa",
+                    "ParentCategoryId": "10805",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "30",
+                    "WatchlistId": "10824"
+                },
+                {
+                    "Name": "Bonds Turkey",
+                    "ParentCategoryId": "10805",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "35",
+                    "WatchlistId": "10825"
+                }
+            ]
+        },
+        {
+            "CategoryId": "10770",
+            "Name": "Bonds Developed Markets",
+            "PrimaryAssetType": "Bond",
+            "Watchlists": [
+                {
+                    "Name": "Bonds Australia and NZ",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "18",
+                    "WatchlistId": "10771"
+                },
+                {
+                    "Name": "Bonds Austria",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "28",
+                    "WatchlistId": "10772"
+                },
+                {
+                    "Name": "Bonds Belgium",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "20",
+                    "WatchlistId": "10773"
+                },
+                {
+                    "Name": "Bonds Canada",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "29",
+                    "WatchlistId": "10774"
+                },
+                {
+                    "Name": "Bonds Denmark",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "8",
+                    "WatchlistId": "10775"
+                },
+                {
+                    "Name": "Bonds Finland",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "24",
+                    "WatchlistId": "10776"
+                },
+                {
+                    "Name": "Bonds France (Government)",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "9",
+                    "WatchlistId": "10777"
+                },
+                {
+                    "Name": "Bonds France (High Yield)",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "32",
+                    "WatchlistId": "10778"
+                },
+                {
+                    "Name": "Bonds France (Investment Grade)",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "27",
+                    "WatchlistId": "10779"
+                },
+                {
+                    "Name": "Bonds Germany (Government)",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "22",
+                    "WatchlistId": "10780"
+                },
+                {
+                    "Name": "Bonds Germany (High Yield)",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "33",
+                    "WatchlistId": "10781"
+                },
+                {
+                    "Name": "Bonds Germany (Investment Grade)",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "16",
+                    "WatchlistId": "10782"
+                },
+                {
+                    "Name": "Bonds Greece",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "17",
+                    "WatchlistId": "10783"
+                },
+                {
+                    "Name": "Bonds Ireland",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "3",
+                    "WatchlistId": "10784"
+                },
+                {
+                    "Name": "Bonds Israel",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "36",
+                    "WatchlistId": "10785"
+                },
+                {
+                    "Name": "Bonds Italy (Government)",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "19",
+                    "WatchlistId": "10786"
+                },
+                {
+                    "Name": "Bonds Italy (High Yield)",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "6",
+                    "WatchlistId": "10787"
+                },
+                {
+                    "Name": "Bonds Italy (Investment Grade)",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "34",
+                    "WatchlistId": "10788"
+                },
+                {
+                    "Name": "Bonds Japan",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "26",
+                    "WatchlistId": "10789"
+                },
+                {
+                    "Name": "Bonds Korea",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "25",
+                    "WatchlistId": "10790"
+                },
+                {
+                    "Name": "Bonds Luxembourg",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "35",
+                    "WatchlistId": "10791"
+                },
+                {
+                    "Name": "Bonds Netherlands",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "31",
+                    "WatchlistId": "10792"
+                },
+                {
+                    "Name": "Bonds Norway",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "14",
+                    "WatchlistId": "10793"
+                },
+                {
+                    "Name": "Bonds Portugal",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "21",
+                    "WatchlistId": "10794"
+                },
+                {
+                    "Name": "Bonds Spain",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "12",
+                    "WatchlistId": "10795"
+                },
+                {
+                    "Name": "Bonds Supranationals",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "23",
+                    "WatchlistId": "10796"
+                },
+                {
+                    "Name": "Bonds Sweden",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "13",
+                    "WatchlistId": "10797"
+                },
+                {
+                    "Name": "Bonds Switzerland",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "11",
+                    "WatchlistId": "10798"
+                },
+                {
+                    "Name": "Bonds United Kingdom (Government)",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "1",
+                    "WatchlistId": "10799"
+                },
+                {
+                    "Name": "Bonds United Kingdom (High Yield)",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "15",
+                    "WatchlistId": "10800"
+                },
+                {
+                    "Name": "Bonds United Kingdom (Investment Grade)",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "30",
+                    "WatchlistId": "10801"
+                },
+                {
+                    "Name": "Bonds United States (Government)",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "7",
+                    "WatchlistId": "10802"
+                },
+                {
+                    "Name": "Bonds United States (High Yield)",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "38",
+                    "WatchlistId": "10803"
+                },
+                {
+                    "Name": "Bonds United States (Investment Grade)",
+                    "ParentCategoryId": "10770",
+                    "PrimaryAssetType": "Bond",
+                    "TradeRegionId": "10",
+                    "WatchlistId": "10804"
+                }
+            ]
+        },
+        {
+            "CategoryId": "10842",
+            "Name": "Mutual Funds, Categories",
+            "PrimaryAssetType": "MutualFund",
+            "Watchlists": [
+                {
+                    "Name": "Allocation",
+                    "ParentCategoryId": "10842",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "33",
+                    "WatchlistId": "10843"
+                },
+                {
+                    "Name": "Alternative",
+                    "ParentCategoryId": "10842",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "19",
+                    "WatchlistId": "10844"
+                },
+                {
+                    "Name": "Asia ex-Japan Equity",
+                    "ParentCategoryId": "10842",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "18",
+                    "WatchlistId": "10845"
+                },
+                {
+                    "Name": "Bonds - Other",
+                    "ParentCategoryId": "10842",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "1",
+                    "WatchlistId": "10846"
+                },
+                {
+                    "Name": "Emerging Markets Equity",
+                    "ParentCategoryId": "10842",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "28",
+                    "WatchlistId": "10847"
+                },
+                {
+                    "Name": "Emerging Markets Fixed Income",
+                    "ParentCategoryId": "10842",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "20",
+                    "WatchlistId": "10848"
+                },
+                {
+                    "Name": "Europe Equity",
+                    "ParentCategoryId": "10842",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "34",
+                    "WatchlistId": "10849"
+                },
+                {
+                    "Name": "Europe Fixed Income",
+                    "ParentCategoryId": "10842",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "29",
+                    "WatchlistId": "10850"
+                },
+                {
+                    "Name": "Global Equity",
+                    "ParentCategoryId": "10842",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "24",
+                    "WatchlistId": "10851"
+                },
+                {
+                    "Name": "Global Fixed Income",
+                    "ParentCategoryId": "10842",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "9",
+                    "WatchlistId": "10852"
+                },
+                {
+                    "Name": "High Yield Fixed Income",
+                    "ParentCategoryId": "10842",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "22",
+                    "WatchlistId": "10853"
+                },
+                {
+                    "Name": "Japan Equity",
+                    "ParentCategoryId": "10842",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "17",
+                    "WatchlistId": "10854"
+                },
+                {
+                    "Name": "Long/Short Equity",
+                    "ParentCategoryId": "10842",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "23",
+                    "WatchlistId": "10855"
+                },
+                {
+                    "Name": "Money Market",
+                    "ParentCategoryId": "10842",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "26",
+                    "WatchlistId": "10856"
+                },
+                {
+                    "Name": "Specialist Sector",
+                    "ParentCategoryId": "10842",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "3",
+                    "WatchlistId": "10857"
+                },
+                {
+                    "Name": "US Equity",
+                    "ParentCategoryId": "10842",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "10",
+                    "WatchlistId": "10858"
+                },
+                {
+                    "Name": "US Fixed Income",
+                    "ParentCategoryId": "10842",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "36",
+                    "WatchlistId": "10859"
+                }
+            ]
+        },
+        {
+            "CategoryId": "10860",
+            "Name": "Mutual Funds, Fund Houses",
+            "PrimaryAssetType": "MutualFund",
+            "Watchlists": [
+                {
+                    "Name": "Aberdeen Asset Management",
+                    "ParentCategoryId": "10860",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "18",
+                    "WatchlistId": "10861"
+                },
+                {
+                    "Name": "AXA Investment Managers",
+                    "ParentCategoryId": "10860",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "28",
+                    "WatchlistId": "10862"
+                },
+                {
+                    "Name": "Blackrock Global Funds",
+                    "ParentCategoryId": "10860",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "10",
+                    "WatchlistId": "10863"
+                },
+                {
+                    "Name": "BNY Mellon Fund Managers",
+                    "ParentCategoryId": "10860",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "20",
+                    "WatchlistId": "10864"
+                },
+                {
+                    "Name": "Fidelity International",
+                    "ParentCategoryId": "10860",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "36",
+                    "WatchlistId": "10865"
+                },
+                {
+                    "Name": "Franklin Templeton Investments",
+                    "ParentCategoryId": "10860",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "16",
+                    "WatchlistId": "10866"
+                },
+                {
+                    "Name": "GAM Investments",
+                    "ParentCategoryId": "10860",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "29",
+                    "WatchlistId": "10867"
+                },
+                {
+                    "Name": "GLG Partners LP",
+                    "ParentCategoryId": "10860",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "8",
+                    "WatchlistId": "10868"
+                },
+                {
+                    "Name": "Goldman Sachs AM",
+                    "ParentCategoryId": "10860",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "24",
+                    "WatchlistId": "10869"
+                },
+                {
+                    "Name": "Henderson Global Investors",
+                    "ParentCategoryId": "10860",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "9",
+                    "WatchlistId": "10870"
+                },
+                {
+                    "Name": "HSBC Global Asset Management",
+                    "ParentCategoryId": "10860",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "39",
+                    "WatchlistId": "10871"
+                },
+                {
+                    "Name": "Investec Asset Management",
+                    "ParentCategoryId": "10860",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "3",
+                    "WatchlistId": "10872"
+                },
+                {
+                    "Name": "JP Morgan Asset Management",
+                    "ParentCategoryId": "10860",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "25",
+                    "WatchlistId": "10873"
+                },
+                {
+                    "Name": "Local Groups",
+                    "ParentCategoryId": "10860",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "27",
+                    "WatchlistId": "10874"
+                },
+                {
+                    "Name": "M&G Securities Limited",
+                    "ParentCategoryId": "10860",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "22",
+                    "WatchlistId": "10875"
+                },
+                {
+                    "Name": "MFS Investment Management",
+                    "ParentCategoryId": "10860",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "1",
+                    "WatchlistId": "10876"
+                },
+                {
+                    "Name": "NN Investment Partners",
+                    "ParentCategoryId": "10860",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "17",
+                    "WatchlistId": "10877"
+                },
+                {
+                    "Name": "Nomura Asset Management",
+                    "ParentCategoryId": "10860",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "23",
+                    "WatchlistId": "10878"
+                },
+                {
+                    "Name": "PIMCO",
+                    "ParentCategoryId": "10860",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "26",
+                    "WatchlistId": "10879"
+                },
+                {
+                    "Name": "Pinebridge Investments",
+                    "ParentCategoryId": "10860",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "33",
+                    "WatchlistId": "10880"
+                },
+                {
+                    "Name": "Schroder Investment Management",
+                    "ParentCategoryId": "10860",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "15",
+                    "WatchlistId": "10881"
+                },
+                {
+                    "Name": "T Rowe Prices Funds",
+                    "ParentCategoryId": "10860",
+                    "PrimaryAssetType": "MutualFund",
+                    "TradeRegionId": "19",
+                    "WatchlistId": "10882"
+                }
+            ]
+        }
+    ],
+    "UserDefined": [
+        {
+            "Name": "Small Fx Watchlist",
+            "PrimaryAssetType": "FxSpot",
+            "WatchlistId": "11146"
+        },
+        {
+            "Name": "Small Stocks Watchlist",
+            "PrimaryAssetType": "Stock",
+            "WatchlistId": "11147"
+        },
+        {
+            "Name": "Market closed instruments",
+            "PrimaryAssetType": "Stock",
+            "WatchlistId": "10692"
+        },
+        {
+            "Name": "Market closed instruments and Bond",
+            "PrimaryAssetType": "Stock",
+            "WatchlistId": "10691"
+        },
+        {
+            "Name": "Watchlist with duplicates",
+            "PrimaryAssetType": "Stock",
+            "WatchlistId": "11148"
+        }
+    ]
+}

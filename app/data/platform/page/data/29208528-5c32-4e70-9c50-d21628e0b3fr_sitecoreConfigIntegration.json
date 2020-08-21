@@ -1,0 +1,77 @@
+{
+    "Id": "29208528-5c32-4e70-9c50-d21628e0b3fr_sitecoreConfigIntegration",
+    "Name": "stocks",
+    "Sections": [
+        {
+            "Banners": [
+                {
+                    "Image": {
+                        "Alt": "SaxoTraderGO platforms image",
+                        "Url": "/-/media/images/saxotradergo/platform.png"
+                    },
+                    "Text": "My banner text",
+                    "Align": "",
+                    "Id": "e361b289-80b5-4cdb-b6b3-b10a50f4c2f4",
+                    "IsCompact": false,
+                    "LinkConfiguration": {
+                        "TargetId": "00000000-0000-0000-0000-000000000000",
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "Target": null
+                    },
+                    "Name": "bannerimage",
+                    "Title": "My banner title"
+                }
+            ],
+            "IsDividerShown": true,
+            "LayoutType": "stretch",
+            "Id": "3feed65d-3702-488f-be0c-75e5d0f72a5c",
+            "Title": "Saxo banner",
+            "Type": "Banner",
+            "Name": "bannersection"
+        },
+        {
+            "AssetTypes": ["Stock"],
+            "BondRatings": ["A"],
+            "CountryCodes": ["US"],
+            "DebtTypes": ["Corporate"],
+            "IncludeNonTradable": true,
+            "IsDividerShown": false,
+            "LayoutType": "stretch",
+            "OrderBy": "OneDayReturnPct desc",
+            "Uics": ["123"],
+            "Id": "75412d4f-a867-436b-b034-2582293a644d",
+            "Title": "Instrument List",
+            "Type": "InstrumentList",
+            "Name": "instrumentlistsection",
+            "IsSeeAllLinkShown": true,
+            "Target": "/page/stocks",
+            "Tags": []
+        },
+        {
+            "InstrumentGrids": [
+                {
+                    "AssetTypes": ["Stock"],
+                    "CountryCodes": ["US"],
+                    "FundBroadAssetClass": [],
+                    "Id": "9578a921-3079-4808-8b25-8357bff91fe6",
+                    "InstrumentLimit": 10,
+                    "IsSeeAllLinkShown": false,
+                    "MarketCaps": [],
+                    "Target": null,
+                    "Title": "A grid",
+                    "Tags": null
+                }
+            ],
+            "IsDividerShown": false,
+            "LayoutType": "stretch",
+            "Id": "ac96c210-0f2c-4ada-8639-5db41d10db84",
+            "Title": "Instrument grid section",
+            "Type": "InstrumentGrids",
+            "Name": "instrumentgridssection",
+            "Tags": []
+        }
+    ],
+    "Title": "Saxo Platform Config",
+    "Url": "/page/stocks"
+}

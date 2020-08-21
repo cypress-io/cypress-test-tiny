@@ -1,0 +1,87 @@
+{
+    "AmountDecimals": 0,
+    "AssetType": "FuturesOption",
+    "ContractSize": 1,
+    "CurrencyCode": "USD",
+    "DefaultAmount": 1,
+    "Description": "EURUSD - 2pm fix Dec2018 1.145 C",
+    "Exchange": {
+        "CountryCode": "US",
+        "ExchangeId": "CME",
+        "Name": "Chicago Mercantile Exchange"
+    },
+    "ExerciseCutOffTime": "17:00:00",
+    "ExpiryDate": "2018-12-07",
+    "Format": {
+        "Decimals": 5,
+        "OrderDecimals": 5,
+        "StrikeDecimals": 5
+    },
+    "GroupId": 0,
+    "IncrementSize": 1,
+    "Isin": "",
+    "IsTradable": true,
+    "LotSizeText": "0",
+    "LotSizeType": "OddLotsNotAllowed",
+    "OptionsChainSubscriptionAllowed": true,
+    "OrderDistances": {
+        "EntryDefaultDistance": 0,
+        "EntryDefaultDistanceType": "Percentage",
+        "StopLimitDefaultDistance": 5,
+        "StopLimitDefaultDistanceType": "Pips",
+        "StopLossDefaultDistance": 0.5,
+        "StopLossDefaultDistanceType": "Percentage",
+        "StopLossDefaultEnabled": false,
+        "StopLossDefaultOrderType": "GuaranteedStop",
+        "TakeProfitDefaultDistance": 0.5,
+        "TakeProfitDefaultDistanceType": "Percentage",
+        "TakeProfitDefaultEnabled": false
+    },
+    "PriceCurrency": "USD",
+    "PriceToContractFactor": 125000,
+    "PutCall": "Call",
+    "RelatedInstruments": [
+        {
+            "AssetType": "FuturesStrategy",
+            "Uic": 9140364
+        },
+        {
+            "AssetType": "CfdOnFutures",
+            "Uic": 9967250
+        },
+        {
+            "AssetType": "ContractFutures",
+            "Uic": 8438639
+        }
+    ],
+    "RelatedOptionRoots": [1279],
+    "RelatedOptionRootsEnhanced": [
+        {
+            "AssetType": "FuturesOption",
+            "OptionRootId": 1279
+        }
+    ],
+    "Sector": {
+        "Name": "Financials - Currencies",
+        "SectorId": "247"
+    },
+    "SettlementStyle": "PhysicalDelivery",
+    "StandardAmounts": [1, 5, 10, 25, 50, 100, 500, 1000],
+    "StrikePrice": 1.145,
+    "SupportedOrderTypes": ["Limit"],
+    "Symbol": "EUU/Z18C1.145:xcme",
+    "TickSizeScheme": {
+        "DefaultTickSize": 0.0001,
+        "Elements": [
+            {
+                "HighPrice": 0.00045,
+                "TickSize": 0.00005
+            }
+        ]
+    },
+    "TradableOn": ["test1", "test0"],
+    "TradingSignals": "NotAllowed",
+    "Uic": 8490777,
+    "UnderlyingAssetType": "ContractFutures",
+    "UnderlyingUic": 8438639
+}

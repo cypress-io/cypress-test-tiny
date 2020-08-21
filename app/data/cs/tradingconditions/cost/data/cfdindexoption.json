@@ -1,0 +1,40 @@
+{
+    "AccountCurrency": "EUR",
+    "AccountID": "",
+    "Amount": 1000,
+    "AssetType": "CfdIndexOption",
+    "Cost": {
+        "Long": {
+            "BuySell": "Buy",
+            "Currency": "AUD",
+            "HoldingCost": {
+                "HoldingFee": {
+                    "Pct": 0.026,
+                    "Rule": {
+                        "Value": 1.1
+                    },
+                    "Value": 191.4
+                }
+            },
+            "TotalCost": 191.4,
+            "TotalCostPct": 0.026
+        },
+        "Short": {
+            "BuySell": "Sell",
+            "Currency": "AUD",
+            "TotalCost": 0,
+            "TotalCostPct": 0.026
+        }
+    },
+    "CostCalculationAssumptions": [
+        "IncludesOpenAndCloseCost",
+        "EquivalentOpenAndClosePrice",
+        "BasisOnLastClosePrice",
+        "ConversionCostNotIncluded",
+        "InterbankChargesExcluded"
+    ],
+    "HoldingPeriodInDays": 30,
+    "Instrument": "S&P ASX200 Index Jun2019 5800 C",
+    "Price": 746.9,
+    "Uic": 10736760
+}

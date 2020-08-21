@@ -1,0 +1,287 @@
+{
+    "Id": "f5765448-7338-4f7e-bc65-0eb1b6096e8c_trader",
+    "Name": "markets",
+    "Sections": [
+        {
+            "Banners": [
+                {
+                    "Align": "center",
+                    "AssetType": "Stock",
+                    "DisplayHint": "",
+                    "Id": "24c47345-d244-46a1-a617-b0d88357fdf6",
+                    "IsCompact": true,
+                    "IsTextColorInverted": false,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "stocks",
+                        "Target": "/page/stocks",
+                        "TargetId": "a6347f74-4709-41ef-b874-fedc1fa88fdf"
+                    },
+                    "Name": "explore-stock-markets-banner",
+                    "Tags": [],
+                    "Title": "Stocks"
+                },
+                {
+                    "Align": "center",
+                    "AssetType": "MutualFund",
+                    "DisplayHint": "",
+                    "Id": "2419f3cc-bf10-479d-b633-6924559ed311",
+                    "IsCompact": true,
+                    "IsTextColorInverted": false,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "",
+                        "Target": "/page/mutualfunds"
+                    },
+                    "Name": "int-funds",
+                    "Tags": [],
+                    "Title": "Funds"
+                },
+                {
+                    "Align": "center",
+                    "AssetType": "Stock",
+                    "DisplayHint": "Etf",
+                    "Id": "dd014249-d00f-43db-abb1-8fa8b94c0361",
+                    "IsCompact": true,
+                    "IsTextColorInverted": false,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "",
+                        "Target": "/page/etfs"
+                    },
+                    "Name": "index-funds-banner",
+                    "Tags": [],
+                    "Title": "ETFs"
+                },
+                {
+                    "Align": "center",
+                    "AssetType": "Bond",
+                    "DisplayHint": "",
+                    "Id": "3f4eb956-834d-489a-b317-39106ecf03d7",
+                    "IsCompact": true,
+                    "IsTextColorInverted": false,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "",
+                        "Target": "/page/bonds"
+                    },
+                    "Name": "explore-unique-bonds-banner",
+                    "Tags": [],
+                    "Title": "Bonds"
+                }
+            ],
+            "Id": "c694be08-6e76-4bf0-9a40-518bb8b46985",
+            "IsDividerShown": false,
+            "LayoutType": "stretch",
+            "Name": "section-1",
+            "Tags": [],
+            "Title": "",
+            "Type": "Banner"
+        },
+        {
+            "Banners": [
+                {
+                    "Align": "bottom",
+                    "Id": "e4af63c2-115b-4dbf-a444-83390d074856",
+                    "Image": {
+                        "Alt": "Environmental",
+                        "Url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg=="
+                    },
+                    "IsCompact": false,
+                    "IsTextColorInverted": true,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "themes",
+                        "Target": "/page/themes",
+                        "TargetId": "e998528b-bfd1-42b7-82f7-9b70a8dc4a21"
+                    },
+                    "Name": "get-inspired-banner",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Investment themes"
+                },
+                {
+                    "Align": "bottom",
+                    "Id": "7585c8b8-cb46-44eb-a29d-3b804e9e2f71",
+                    "Image": {
+                        "Alt": "Allocation",
+                        "Url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg=="
+                    },
+                    "IsCompact": false,
+                    "IsTextColorInverted": true,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "",
+                        "Target": "/page/fundthemes"
+                    },
+                    "Name": "get-inspired-banner",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Fund inspiration"
+                }
+            ],
+            "Id": "9c438fc0-96d5-48b0-b0ae-4ff6bbabaceb",
+            "IsDividerShown": true,
+            "LayoutType": "stretch",
+            "Name": "section-2",
+            "Tags": [],
+            "Title": "Inspiration",
+            "Type": "Banner"
+        },
+        {
+            "AnalystConsensuses": [],
+            "AssetTypes": ["StockIndex"],
+            "BondRatings": [],
+            "CountryCodes": [],
+            "Coupons": [],
+            "CurrencyCodes": [],
+            "DebtTypes": [],
+            "ExchangeIds": [],
+            "FundBroadAssetClass": [],
+            "FundCategories": [],
+            "FundIssuerNames": [],
+            "FundRatings": [],
+            "Id": "2288caef-eed4-40cf-bbe9-95dddcef0de7",
+            "IncludeNonTradable": true,
+            "InstrumentLimit": 0,
+            "IsDividerShown": true,
+            "IsSeeAllLinkShown": true,
+            "LayoutType": "truncate",
+            "Listing": [],
+            "MarketCaps": [],
+            "Maturities": [],
+            "Name": "local",
+            "OrderBy": "",
+            "PriceEarnings": [],
+            "Sectors": [],
+            "SustainabilityRatings": [],
+            "Tags": [],
+            "Target": "/page/more-markets",
+            "Title": "Global markets",
+            "Type": "InstrumentList",
+            "Uics": [5889633, 1909050, 26586, 1907570],
+            "YearlyCostPercentages": [],
+            "YieldToMaturity": []
+        },
+        {
+            "Id": "1b1babac-b8a6-41fd-8343-62b77d3d3d0f",
+            "InstrumentGrids": [
+                {
+                    "AnalystConsensuses": [],
+                    "AssetTypes": ["Stock"],
+                    "BondRatings": [],
+                    "CountryCodes": ["DK"],
+                    "Coupons": [],
+                    "CurrencyCodes": [],
+                    "DebtTypes": [],
+                    "ExchangeIds": [],
+                    "FundBroadAssetClass": [],
+                    "FundCategories": [],
+                    "FundIssuerNames": [],
+                    "FundRatings": [],
+                    "Id": "0ebc7db0-dd6c-4c2b-a8fd-abd57fa33ec9",
+                    "IncludeNonTradable": false,
+                    "InstrumentLimit": 5,
+                    "IsDividerShown": false,
+                    "IsSeeAllLinkShown": true,
+                    "Listing": [],
+                    "MarketCaps": [
+                        "OneToTenBillions",
+                        "TenToHundredBillions",
+                        "AboveHundredBillions"
+                    ],
+                    "Maturities": [],
+                    "OrderBy": "OneDayReturnPct desc",
+                    "PriceEarnings": [],
+                    "Sectors": [],
+                    "SustainabilityRatings": [],
+                    "Target": "/page/dk-stocks",
+                    "Title": "Danish gainers today",
+                    "Uics": [],
+                    "YearlyCostPercentages": [],
+                    "YieldToMaturity": []
+                },
+                {
+                    "AnalystConsensuses": [],
+                    "AssetTypes": ["Stock"],
+                    "BondRatings": [],
+                    "CountryCodes": ["DK"],
+                    "Coupons": [],
+                    "CurrencyCodes": [],
+                    "DebtTypes": [],
+                    "ExchangeIds": [],
+                    "FundBroadAssetClass": [],
+                    "FundCategories": [],
+                    "FundIssuerNames": [],
+                    "FundRatings": [],
+                    "Id": "057438fe-96d3-43c1-a543-ff8e3230b3e6",
+                    "IncludeNonTradable": false,
+                    "InstrumentLimit": 5,
+                    "IsDividerShown": false,
+                    "IsSeeAllLinkShown": true,
+                    "Listing": [],
+                    "MarketCaps": [
+                        "OneToTenBillions",
+                        "TenToHundredBillions",
+                        "AboveHundredBillions"
+                    ],
+                    "Maturities": [],
+                    "OrderBy": "OneDayReturnPct",
+                    "PriceEarnings": [],
+                    "Sectors": [],
+                    "SustainabilityRatings": [],
+                    "Target": "/page/dk-stocks",
+                    "Title": "Danish losers today",
+                    "Uics": [],
+                    "YearlyCostPercentages": [],
+                    "YieldToMaturity": []
+                }
+            ],
+            "IsDividerShown": true,
+            "LayoutType": "stretch",
+            "Name": "instrumentgridssection-1",
+            "Tags": [],
+            "Title": "",
+            "Type": "InstrumentGrids"
+        },
+        {
+            "Banners": [
+                {
+                    "Align": "center",
+                    "Id": "667ed717-c648-4bbb-91b9-873273cea562",
+                    "Illustration": {
+                        "Url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iNHB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMCIgeDI9IjEwMCIgeTI9IjEwMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjxsaW5lIHgxPSIwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMnB4IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz4KCjwvc3ZnPg=="
+                    },
+                    "IsCompact": false,
+                    "IsTextColorInverted": false,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "LinkText": "",
+                        "Target": "/page/do-your-own"
+                    },
+                    "Name": "doyourownbanner",
+                    "Tags": [],
+                    "Text": "",
+                    "Title": "Create your own search"
+                }
+            ],
+            "Id": "11c50ef0-cb44-432e-96d2-5e19138e2ebb",
+            "IsDividerShown": true,
+            "LayoutType": "stretch",
+            "Name": "do_own_screening",
+            "Tags": [],
+            "Title": "",
+            "Type": "Banner"
+        }
+    ],
+    "Tags": [],
+    "Title": "Markets",
+    "Url": "/page/markets"
+}

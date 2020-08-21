@@ -1,0 +1,322 @@
+{
+    "__count": 21,
+    "Data": [
+        {
+            "Accounts": [
+                {
+                    "AccountId": "182149/COMMGBP",
+                    "AccountKey": "pjhzUUO5B2fgoY1cfHNWhA==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "182149/TRADING",
+                    "AccountKey": "NnW-IVSOa|7znOGM4DBmeQ==",
+                    "AccountType": "Normal"
+                }
+            ],
+            "ClientId": "6353975",
+            "ClientKey": "q-srNhs5yR4qdVIguGKUxQ==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "182149/TRADING",
+            "DefaultAccountKey": "NnW-IVSOa|7znOGM4DBmeQ==",
+            "LegalAssetTypes": [
+                "Cash",
+                "ContractFutures",
+                "Stock",
+                "Bond",
+                "StockOption",
+                "MutualFund"
+            ],
+            "Name": "Client 6353975",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "182149/ERROR", "AccountKey": "Ceu1pRy-GFsd7eBrp91qnA==" }
+            ],
+            "ClientId": "6583869",
+            "ClientKey": "wktWTBsupOmCOd9wSSrtwA==",
+            "ClientTypeName": "Internet Client",
+            "ClientType": "Client",
+            "DefaultAccountId": "182149/ERROR",
+            "DefaultAccountKey": "Ceu1pRy-GFsd7eBrp91qnA==",
+            "LegalAssetTypes": [
+                "ContractFutures",
+                "Stock",
+                "Bond",
+                "StockOption",
+                "MutualFund",
+                "Cash"
+            ],
+            "Name": "Client 6583869",
+            "OwnerId": "6353975"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "68400/TRADCR", "AccountKey": "S9FzfAmnHMpQsPuH3Berow==" }
+            ],
+            "ClientId": "6354252",
+            "ClientKey": "kSe-9pyarLawKyG3k0cLIg==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADCR",
+            "DefaultAccountKey": "S9FzfAmnHMpQsPuH3Berow==",
+            "LegalAssetTypes": ["Stock", "Bond", "MutualFund"],
+            "Name": "Client 6354252",
+            "OwnerId": "6353975"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "68400/TRADDE", "AccountKey": "B4IJgalNZgNzCUWvHhYzRw==" }
+            ],
+            "ClientId": "6487342",
+            "ClientKey": "CXMrTxwttvLuRLlQkyvgwg==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADDE",
+            "DefaultAccountKey": "B4IJgalNZgNzCUWvHhYzRw==",
+            "LegalAssetTypes": ["Stock", "Bond", "MutualFund"],
+            "Name": "Client 6487342",
+            "OwnerId": "6353975"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "68400/TRADFP", "AccountKey": "VmXt5e4F22qExHjRmVLLFQ==" }
+            ],
+            "ClientId": "7717265",
+            "ClientKey": "vzxMXCkporQOGR9HW6gqFQ==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADFP",
+            "DefaultAccountKey": "VmXt5e4F22qExHjRmVLLFQ==",
+            "LegalAssetTypes": ["Stock", "Bond", "MutualFund"],
+            "Name": "Client 7717265",
+            "OwnerId": "6353975"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "68400/TRADGA", "AccountKey": "sIINITyeXFDN-Qr3D7ALUA==" }
+            ],
+            "ClientId": "6354280",
+            "ClientKey": "60rxVSfkWJPV9QgXyXPLOw==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADGA",
+            "DefaultAccountKey": "sIINITyeXFDN-Qr3D7ALUA==",
+            "LegalAssetTypes": ["Stock", "Bond", "MutualFund"],
+            "Name": "Client 6354280",
+            "OwnerId": "6353975"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "68400/TRADGR", "AccountKey": "YVFzKdpBMqCN2KkUhywvjA==" }
+            ],
+            "ClientId": "6354300",
+            "ClientKey": "y8Njzbgw69TG|ZJI-FdZwQ==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADGR",
+            "DefaultAccountKey": "YVFzKdpBMqCN2KkUhywvjA==",
+            "LegalAssetTypes": ["Stock", "Bond", "MutualFund"],
+            "Name": "Client 6354300",
+            "OwnerId": "6353975"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "68400/TRADGWA", "AccountKey": "VwdAWJpvRiCHuELT2ama6w==" }
+            ],
+            "ClientId": "7779379",
+            "ClientKey": "BnlkFCGj|NZvs2zwicGClA==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADGWA",
+            "DefaultAccountKey": "VwdAWJpvRiCHuELT2ama6w==",
+            "LegalAssetTypes": ["Stock", "Bond", "MutualFund"],
+            "Name": "Client 7779379",
+            "OwnerId": "6353975"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "68400/TRADHE", "AccountKey": "GeW3ByyhfSoXogQx3QolIw==" }
+            ],
+            "ClientId": "7076535",
+            "ClientKey": "31dzNyuVogdVaH0dr0nLsQ==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADHE",
+            "DefaultAccountKey": "GeW3ByyhfSoXogQx3QolIw==",
+            "LegalAssetTypes": ["Stock", "Bond", "MutualFund"],
+            "Name": "Client 7076535",
+            "OwnerId": "6353975"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "68400/TRADJA", "AccountKey": "lJCsUeqwLAT6jghkhKJaVA==" }
+            ],
+            "ClientId": "6354287",
+            "ClientKey": "H-4Go80MULsxWV3b-3lc9w==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADJA",
+            "DefaultAccountKey": "lJCsUeqwLAT6jghkhKJaVA==",
+            "LegalAssetTypes": ["Stock", "Bond", "MutualFund"],
+            "Name": "Client 6354287",
+            "OwnerId": "6353975"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "68400/TRADJBD", "AccountKey": "LVdLdGSwHmhzs09qRJts6A==" }
+            ],
+            "ClientId": "8433656",
+            "ClientKey": "k|H-r5QyDR3346H0MLgrVw==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADJBD",
+            "DefaultAccountKey": "LVdLdGSwHmhzs09qRJts6A==",
+            "LegalAssetTypes": ["Stock", "Bond", "MutualFund"],
+            "Name": "Client 8433656",
+            "OwnerId": "6353975"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "68400/TRADJO", "AccountKey": "FhPeLlx4D6XvtglMAAMANw==" }
+            ],
+            "ClientId": "6354277",
+            "ClientKey": "cBaQFSAi9NyUDIvbtbcXCg==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADJO",
+            "DefaultAccountKey": "FhPeLlx4D6XvtglMAAMANw==",
+            "LegalAssetTypes": ["Stock", "Bond", "MutualFund"],
+            "Name": "Client 6354277",
+            "OwnerId": "6353975"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "68400/TRADKVW", "AccountKey": "JayjuD5bz8z7h4Ti5sWKtw==" }
+            ],
+            "ClientId": "7846457",
+            "ClientKey": "8sNUr|iz2cT0EwFi9XKH2w==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADKVW",
+            "DefaultAccountKey": "JayjuD5bz8z7h4Ti5sWKtw==",
+            "LegalAssetTypes": ["Stock", "Bond", "MutualFund"],
+            "Name": "Client 7846457",
+            "OwnerId": "6353975"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "68400/TRADLRW", "AccountKey": "Qm1|X1XrpmMsb4VrWNnihA==" }
+            ],
+            "ClientId": "7846444",
+            "ClientKey": "MCBhFaBma4tBE7xn-Rxnug==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADLRW",
+            "DefaultAccountKey": "Qm1|X1XrpmMsb4VrWNnihA==",
+            "LegalAssetTypes": ["Stock", "Bond", "MutualFund"],
+            "Name": "Client 7846444",
+            "OwnerId": "6353975"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "68400/TRADMA", "AccountKey": "fwRbM7ljEynhMF8F6nCoog==" }
+            ],
+            "ClientId": "7076532",
+            "ClientKey": "lXJ3meoCYsORaVDctBpSlA==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADMA",
+            "DefaultAccountKey": "fwRbM7ljEynhMF8F6nCoog==",
+            "LegalAssetTypes": ["Stock", "Bond", "MutualFund"],
+            "Name": "Client 7076532",
+            "OwnerId": "6353975"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "68400/TRADMG", "AccountKey": "xLe2gfQeTIqqXAJeZSWzEA==" }
+            ],
+            "ClientId": "7763419",
+            "ClientKey": "Bhakd|mOY|ZCj2xB4BhVFQ==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADMG",
+            "DefaultAccountKey": "xLe2gfQeTIqqXAJeZSWzEA==",
+            "LegalAssetTypes": ["Stock", "Bond", "MutualFund"],
+            "Name": "Client 7763419",
+            "OwnerId": "6353975"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "68400/TRADMI", "AccountKey": "hEUhJR9eUYDdMCIyXMyAkg==" }
+            ],
+            "ClientId": "6741372",
+            "ClientKey": "EtdHY9vUpsijh2qj3iPcLA==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADMI",
+            "DefaultAccountKey": "hEUhJR9eUYDdMCIyXMyAkg==",
+            "LegalAssetTypes": ["Stock", "Bond", "MutualFund"],
+            "Name": "Client 6741372",
+            "OwnerId": "6353975"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "68400/TRADMS", "AccountKey": "0lnDZSnUeMULc7hLEYsVag==" }
+            ],
+            "ClientId": "7076539",
+            "ClientKey": "AGyIAomVA1D8AYFRbxGHnA==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADMS",
+            "DefaultAccountKey": "0lnDZSnUeMULc7hLEYsVag==",
+            "LegalAssetTypes": ["Stock", "Bond", "MutualFund"],
+            "Name": "Client 7076539",
+            "OwnerId": "6353975"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "68400/TRADPA", "AccountKey": "75MffkZjRreZJ-B|s|g4|w==" }
+            ],
+            "ClientId": "6354298",
+            "ClientKey": "Dnf4gtuvWHgcss0d2mEHDg==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADPA",
+            "DefaultAccountKey": "75MffkZjRreZJ-B|s|g4|w==",
+            "LegalAssetTypes": ["Stock", "Bond", "MutualFund"],
+            "Name": "Client 6354298",
+            "OwnerId": "6353975"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "68400/TRADSLN", "AccountKey": "8tj5dGfYkqBwyoVjdkvjKg==" }
+            ],
+            "ClientId": "8421556",
+            "ClientKey": "afGs2j4TP0mQ4acTY8tVqA==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADSLN",
+            "DefaultAccountKey": "8tj5dGfYkqBwyoVjdkvjKg==",
+            "LegalAssetTypes": ["Stock", "Bond", "MutualFund"],
+            "Name": "Client 8421556",
+            "OwnerId": "6353975"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "68400/TRADTR", "AccountKey": "9km6Yfq8F3g2ncZ4SaREaQ==" }
+            ],
+            "ClientId": "6354279",
+            "ClientKey": "2J0slTA0-8gxzWGtsaMt4A==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADTR",
+            "DefaultAccountKey": "9km6Yfq8F3g2ncZ4SaREaQ==",
+            "LegalAssetTypes": ["Stock", "Bond", "MutualFund"],
+            "Name": "Client 6354279",
+            "OwnerId": "6353975"
+        }
+    ]
+}

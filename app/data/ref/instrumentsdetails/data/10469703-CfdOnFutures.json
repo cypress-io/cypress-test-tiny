@@ -1,0 +1,74 @@
+{
+    "AmountDecimals": 2,
+    "AssetType": "CfdOnFutures",
+    "CurrencyCode": "USD",
+    "DefaultAmount": 0,
+    "DefaultSlippage": 0.02,
+    "DefaultSlippageType": "Percentage",
+    "Description": "NY Cocoa March 2019",
+    "Exchange": {
+        "CountryCode": "",
+        "ExchangeId": "",
+        "Name": ""
+    },
+    "ExpiryDate": "2019-02-12",
+    "ExpiryDateTime": "2019-02-12T16:00:00.000000Z",
+    "Format": {
+        "Decimals": 1,
+        "OrderDecimals": 1
+    },
+    "GroupId": 0,
+    "IncrementSize": 1,
+    "IsTradable": true,
+    "LotSize": 1,
+    "LotSizeType": "OddLotsNotAllowed",
+    "MinimumLotSize": 1,
+    "MinimumOrderValue": 0,
+    "OrderDistances": {
+        "EntryDefaultDistance": 0.25,
+        "EntryDefaultDistanceType": "Percentage",
+        "StopLimitDefaultDistance": 5,
+        "StopLimitDefaultDistanceType": "Pips",
+        "StopLossDefaultDistance": 0.5,
+        "StopLossDefaultDistanceType": "Percentage",
+        "StopLossDefaultEnabled": false,
+        "StopLossDefaultOrderType": "GuaranteedStop",
+        "TakeProfitDefaultDistance": 0.5,
+        "TakeProfitDefaultDistanceType": "Percentage",
+        "TakeProfitDefaultEnabled": false
+    },
+    "PriceCurrency": "USD",
+    "PriceToContractFactor": 1,
+    "PrimaryListing": 10469703,
+    "RelatedInstruments": [
+        {
+            "AssetType": "ContractFutures",
+            "Uic": 7968536
+        },
+        {
+            "AssetType": "FuturesStrategy",
+            "Uic": 8438667
+        }
+    ],
+    "Sector": {
+        "Name": "Softs",
+        "SectorId": "249"
+    },
+    "StandardAmounts": [10, 50, 100, 500, 1000, 5000, 10000, 50000, 100000],
+    "SupportedOrderTypes": [
+        "Market",
+        "Limit",
+        "StopIfTraded",
+        "TrailingStopIfTraded",
+        "StopLimit"
+    ],
+    "Symbol": "COCOANYMAR19",
+    "TickSize": 0.1,
+    "TradableAs": ["CfdOnFutures"],
+    "TradableOn": ["test1", "test0"],
+    "TradingSignals": "NotAllowed",
+    "TradingUnitsPlural": "Metric Tons",
+    "TradingUnitsSingular": "Metric Ton",
+    "Uic": 10469703,
+    "UnderlyingUic": 7968536
+}

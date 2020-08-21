@@ -1,0 +1,121 @@
+{
+    "Name": "211",
+    "Sections": [
+        {
+            "Type": "Header",
+            "IsDividerShown": false,
+            "IsNarrow": false,
+            "Name": "header",
+            "Title": "",
+            "Id": "57fd5a5e-e77a-4782-b4a6-536e526d2f33"
+        },
+        {
+            "Id": "7898af16-f3c6-42a4-931a-76143ddcd455",
+            "IsDividerShown": true,
+            "Type": "TabSection",
+            "Name": "tabsection",
+            "activeTabId": "7898af17-f3c6-42a4-931a-76143ddcd4551",
+            "Tabs": [
+                {
+                    "Label": "Overview",
+                    "Name": "tab1",
+                    "Sections": [
+                        {
+                            "Type": "MarketDepth",
+                            "IsDividerShown": true,
+                            "Title": "MarketDepth",
+                            "Name": "MarketDepthSection",
+                            "Id": "MarketDepth",
+                            "TabId": "Overview"
+                        },
+                        {
+                            "Type": "InstrumentChart",
+                            "IsDividerShown": true,
+                            "Title": "PriceChart",
+                            "Name": "ChartSection",
+                            "Id": "InstrumentChart",
+                            "TabId": "Overview"
+                        },
+                        {
+                            "Type": "NewsList",
+                            "IsDividerShown": false,
+                            "LayoutType": "stretch",
+                            "viewType": "grid",
+                            "NewsLists": [
+                                {
+                                    "Title": "",
+                                    "NewsLimit": 10,
+                                    "Id": "eb01c89c-9107-4ed6-9aaa-2da77f4d6bab1",
+                                    "Uics": [21, 31, 31]
+                                }
+                            ],
+                            "Name": "latest news - newslistsection",
+                            "Title": "Latest news",
+                            "Tags": null,
+                            "Id": "a228164d-5213-47fb-a526-4297556275e72"
+                        },
+                        {
+                            "Type": "GeneralInfo",
+                            "Title": "General Information",
+                            "IsDividerShown": true,
+                            "Id": "GeneralInfo",
+                            "IsInset": true
+                        }
+                    ],
+                    "Id": "7898af17-f3c6-42a4-931a-76143ddcd4551"
+                },
+                {
+                    "Label": "Analysis",
+                    "Name": "tab2",
+                    "Sections": [
+                        {
+                            "Type": "AnalystRatingBar",
+                            "LayoutType": "stretch",
+                            "IsDividerShown": true,
+                            "Title": "AnalystRatingBar",
+                            "Id": "AnalystRatingBar"
+                        },
+                        {
+                            "Name": "analystgridsection",
+                            "Id": "92f0c7fb-c894-4c50-8152-eac43fa13bf2",
+                            "Type": "AnalystGrids",
+                            "LayoutType": "stretch",
+                            "IsDividerShown": true,
+                            "AnalystGrids": [
+                                {
+                                    "Id": "minilist-most-traded-danish-stocks3",
+                                    "AnalystsLimit": 5,
+                                    "AssetType": "Stock",
+                                    "CountryCodes": ["US"],
+                                    "HasOnlySelectedInstrumentAnalysts": true
+                                }
+                            ]
+                        }
+                    ],
+                    "Id": "8898af18-f3c6-42a4-931a-76143ddcd4552"
+                },
+                {
+                    "Label": "Fundamentals",
+                    "Name": "tab3",
+                    "Sections": [
+                        {
+                            "IsDividerShown": false,
+                            "IsSectioned": true,
+                            "Type": "FinancialsGrid",
+                            "Name": "finacialgridssection",
+                            "Title": "FinancialGrid",
+                            "Id": "5824a206-033e-4089-9a8c-8583c43cf43d"
+                        }
+                    ],
+                    "Id": "9898af19-f3c6-42a4-931a-76143ddcd4553"
+                }
+            ]
+        }
+    ],
+    "Tags": null,
+    "Title": "",
+    "Url": "/page/product/Stock",
+    "Id": "7898af16-f3c6-42a4-931a-76143ddcd452_trader",
+    "IsBackButtonHidden": true,
+    "IsFullBleed": true
+}

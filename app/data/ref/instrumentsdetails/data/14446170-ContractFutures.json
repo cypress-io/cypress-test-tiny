@@ -1,0 +1,82 @@
+{
+    "AmountDecimals": 0,
+    "AssetType": "ContractFutures",
+    "ContractSize": 50,
+    "CurrencyCode": "HKD",
+    "DefaultAmount": 0,
+    "DefaultSlippage": 0,
+    "DefaultSlippageType": "Ticks",
+    "Description": "Hang Seng Index - Oct 2019",
+    "Exchange": {
+        "CountryCode": "HK",
+        "ExchangeId": "HKEX",
+        "Name": "Hong Kong Exchanges"
+    },
+    "ExpiryDate": "2019-10-30",
+    "Format": {
+        "Decimals": 0,
+        "OrderDecimals": 0
+    },
+    "GroupId": 0,
+    "IncrementSize": 1,
+    "IsPitTraded": false,
+    "IsTradable": true,
+    "LotSizeText": "50 HKD * Index",
+    "MinimumTradeSize": 1,
+    "OrderDistances": {
+        "EntryDefaultDistance": 0.25,
+        "EntryDefaultDistanceType": "Percentage",
+        "StopLimitDefaultDistance": 5,
+        "StopLimitDefaultDistanceType": "Pips",
+        "StopLossDefaultDistance": 0.5,
+        "StopLossDefaultDistanceType": "Percentage",
+        "StopLossDefaultEnabled": false,
+        "StopLossDefaultOrderType": "Stop",
+        "TakeProfitDefaultDistance": 0.5,
+        "TakeProfitDefaultDistanceType": "Percentage",
+        "TakeProfitDefaultEnabled": false
+    },
+    "OrderSetting": {},
+    "PriceCurrency": "HKD",
+    "PriceToContractFactor": 50,
+    "PrimaryListing": 12390739,
+    "RelatedInstruments": [
+        {
+            "AssetType": "StockIndex",
+            "Uic": 41353
+        },
+        {
+            "AssetType": "CfdOnIndex",
+            "Uic": 47624
+        }
+    ],
+    "RelatedOptionRoots": [70, 10628127],
+    "RelatedOptionRootsEnhanced": [
+        {
+            "AssetType": "StockIndexOption",
+            "OptionRootId": 70
+        },
+        {
+            "AssetType": "CfdIndexOption",
+            "OptionRootId": 10628127
+        }
+    ],
+    "Sector": {
+        "Name": "Stock Indices",
+        "SectorId": "244"
+    },
+    "StandardAmounts": [1, 5, 10, 25, 50, 100, 500, 1000],
+    "SupportedOrderTypes": [
+        "Market",
+        "Limit",
+        "StopIfTraded",
+        "TrailingStopIfTraded",
+        "StopLimit"
+    ],
+    "Symbol": "HSIV9",
+    "TickSize": 1,
+    "TradableAs": ["ContractFutures"],
+    "TradableOn": ["70943INETA"],
+    "TradingSignals": "NotAllowed",
+    "Uic": 14446170
+}

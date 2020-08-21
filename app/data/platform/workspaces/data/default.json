@@ -1,0 +1,926 @@
+[
+    {
+        "Created": "2019-05-28T11:28:50Z",
+        "Device": "Virtual Machine",
+        "Host": "SAXOVMS2634",
+        "InstallerUUID": "227897b0-7576-11e9-9a30-812054720891",
+        "LastUpdated": "2019-05-29T13:42:18.2866667Z",
+        "Name": "Autosaved (1568186447649)",
+        "RecentStatus": "Autosaved",
+        "WorkspaceId": "2",
+        "Data": {
+            "activeWorkspaceId": "workspace-1",
+            "isMultiWorkspacesEnabled": true,
+            "restorableUserSettings": {
+                "shared/chart": {
+                    "component-2": {
+                        "instrumentIds": ["47556-Stock"],
+                        "plotsState": {
+                            "0": 29,
+                            "1": [
+                                {
+                                    "13": [
+                                        {
+                                            "20": "candlestick",
+                                            "21": "pricePlot",
+                                            "22": "TSLA:xnas (32)",
+                                            "25": 0,
+                                            "297": true,
+                                            "299": false,
+                                            "300": false
+                                        }
+                                    ],
+                                    "77": 347,
+                                    "id": 0
+                                }
+                            ],
+                            "39": {}
+                        },
+                        "primaryInstrument": {
+                            "id": "47556-Stock",
+                            "isLinked": false
+                        }
+                    },
+                    "component-3": null,
+                    "component-4": {
+                        "instrumentIds": ["790014-Stock"],
+                        "plotsState": {
+                            "0": 29,
+                            "1": [
+                                {
+                                    "13": [
+                                        {
+                                            "20": "candlestick",
+                                            "21": "pricePlot",
+                                            "22": "GOOG:xnas (32)",
+                                            "25": 0,
+                                            "297": true,
+                                            "299": false,
+                                            "300": false
+                                        }
+                                    ],
+                                    "35": {
+                                        "130": {
+                                            "131": 0,
+                                            "132": 0
+                                        }
+                                    },
+                                    "77": 653,
+                                    "id": 0
+                                }
+                            ],
+                            "39": {}
+                        },
+                        "primaryInstrument": {
+                            "id": "790014-Stock",
+                            "isLinked": false
+                        }
+                    }
+                },
+                "shared/last-loaded-instrument": {
+                    "assetType": "ContractFutures",
+                    "uic": 4037
+                },
+                "shared/activeWorkspace": "trading"
+            },
+            "userPersistedSettings": {
+                "account": null,
+                "account-overview": null,
+                "account-report": null,
+                "account-standard-report": null,
+                "account-statement": null,
+                "accountsummary": null,
+                "accountsummary-tabs": null,
+                "bookings-report": null,
+                "calendar": null,
+                "calendar-component": null,
+                "charts1": null,
+                "charts1-tabs": null,
+                "charts2": null,
+                "charts2-tabs": null,
+                "chartws-chart1-tab": null,
+                "chartws-chart2-tab": null,
+                "chartws-chart3-tab": null,
+                "chartws-chart4-tab": null,
+                "chartws-charts1": null,
+                "chartws-charts2": null,
+                "chartws-charts3": null,
+                "chartws-charts4": null,
+                "chartws-root-grid": null,
+                "closed-positions-report": null,
+                "closedpositions": null,
+                "component-1": {},
+                "component-2": {
+                    "selectedChartId": "component-2"
+                },
+                "component-3": null,
+                "component-4": {
+                    "selectedChartId": "component-4"
+                },
+                "component-5": {
+                    "selectedTabId": "component-4"
+                },
+                "component-6": {},
+                "component-7": {},
+                "component-8": null,
+                "component-9": null,
+                "component-account-overview": null,
+                "component-account-statement": null,
+                "component-performance": null,
+                "component-portfolio": null,
+                "component-trades-executed": null,
+                "deposits-transfers": null,
+                "depth-trader": null,
+                "misc-other-cards": null,
+                "news": null,
+                "news-all": null,
+                "news-provider-1": null,
+                "news-provider-2": null,
+                "news-tabs": null,
+                "opinions": null,
+                "opinions-component": null,
+                "options-chain": null,
+                "orders": null,
+                "orders-tabs": null,
+                "performance": null,
+                "portfolio": null,
+                "positions": null,
+                "positions-tabs": null,
+                "profit-loss-report": null,
+                "root-grid": null,
+                "standard-reports": null,
+                "time-and-sales": null,
+                "trades-executed": null,
+                "tradeticket": null,
+                "tradeticket-tabs": null,
+                "watchlist-first-own": null,
+                "watchlist-tabs": null
+            },
+            "windowsLayout": [
+                {
+                    "dimensions": {
+                        "height": 1200,
+                        "width": 1827
+                    },
+                    "position": {
+                        "x": 93,
+                        "y": 0
+                    },
+                    "workspace": "workspace-1"
+                },
+                {},
+                {
+                    "dimensions": {
+                        "height": 450,
+                        "width": 850
+                    },
+                    "position": {
+                        "x": -1046,
+                        "y": 536
+                    },
+                    "workspace": "workspace-3"
+                },
+                {}
+            ],
+            "workspaces": [
+                {
+                    "id": "workspace-1",
+                    "layout": {
+                        "id": "component-1",
+                        "layout": {
+                            "height": 100,
+                            "items": [
+                                {
+                                    "id": "component-5",
+                                    "layout": {
+                                        "height": 64.44,
+                                        "label": null,
+                                        "left": 22.47,
+                                        "tabs": [
+                                            {
+                                                "id": "component-4",
+                                                "layout": {
+                                                    "label": "Wykres",
+                                                    "tabTitle": "Chart: GOOG:xnas",
+                                                    "type": "chart"
+                                                }
+                                            }
+                                        ],
+                                        "top": 10.93,
+                                        "type": "tabs",
+                                        "width": 48.36
+                                    }
+                                }
+                            ],
+                            "label": null,
+                            "left": 0,
+                            "top": 0,
+                            "type": "grid",
+                            "width": 100
+                        }
+                    },
+                    "name": "chart",
+                    "type": "dynamic"
+                },
+                {
+                    "id": "workspace-3",
+                    "layout": {
+                        "id": "component-6",
+                        "layout": {
+                            "height": 100,
+                            "items": [
+                                {
+                                    "id": "component-7",
+                                    "layout": {
+                                        "height": 100,
+                                        "label": null,
+                                        "left": 0,
+                                        "tabs": [
+                                            {
+                                                "id": "component-2",
+                                                "layout": {
+                                                    "isResizable": true,
+                                                    "label": "Chart",
+                                                    "tabTitle": "Chart: TSLA:xnas",
+                                                    "type": "chart"
+                                                }
+                                            }
+                                        ],
+                                        "top": 0,
+                                        "type": "tabs",
+                                        "width": 100
+                                    }
+                                }
+                            ],
+                            "label": null,
+                            "left": 0,
+                            "top": 0,
+                            "type": "grid",
+                            "width": 100
+                        }
+                    },
+                    "name": "Sub Window 2",
+                    "type": "sub-window"
+                }
+            ]
+        }
+    },
+    {
+        "Created": "2019-05-29T13:35:03.0933333Z",
+        "Device": "Virtual Machine",
+        "Host": "SAXOVMS2634",
+        "InstallerUUID": "227897b0-7576-11e9-9a30-812054720892",
+        "Name": "legacy component settings",
+        "RecentStatus": "Manual",
+        "WorkspaceId": "1",
+        "Data": {
+            "activeWorkspaceId": "workspace-1",
+            "currentComponentSettings": {
+                "pro/ws/component-1": {},
+                "pro/ws/component-2": {
+                    "selectedChartId": "component-2"
+                },
+                "pro/ws/component-4": {
+                    "selectedChartId": "component-4"
+                },
+                "pro/ws/component-5": {
+                    "selectedTabId": "component-4"
+                },
+                "pro/ws/component-6": {},
+                "pro/ws/component-7": {}
+            },
+            "isMultiWorkspacesEnabled": true,
+            "restorableUserSettings": {
+                "shared/chart": {
+                    "component-2": {
+                        "instrumentIds": ["47556-Stock"],
+                        "plotsState": {
+                            "0": 29,
+                            "1": [
+                                {
+                                    "13": [
+                                        {
+                                            "20": "candlestick",
+                                            "21": "pricePlot",
+                                            "22": "TSLA:xnas (32)",
+                                            "25": 0,
+                                            "297": true,
+                                            "299": false,
+                                            "300": false
+                                        }
+                                    ],
+                                    "77": 347,
+                                    "id": 0
+                                }
+                            ],
+                            "39": {}
+                        },
+                        "primaryInstrument": {
+                            "id": "47556-Stock",
+                            "isLinked": false
+                        }
+                    },
+                    "component-3": null,
+                    "component-4": {
+                        "instrumentIds": ["790014-Stock"],
+                        "plotsState": {
+                            "0": 29,
+                            "1": [
+                                {
+                                    "13": [
+                                        {
+                                            "20": "candlestick",
+                                            "21": "pricePlot",
+                                            "22": "GOOG:xnas (32)",
+                                            "25": 0,
+                                            "297": true,
+                                            "299": false,
+                                            "300": false
+                                        }
+                                    ],
+                                    "35": {
+                                        "130": {
+                                            "131": 0,
+                                            "132": 0
+                                        }
+                                    },
+                                    "77": 653,
+                                    "id": 0
+                                }
+                            ],
+                            "39": {}
+                        },
+                        "primaryInstrument": {
+                            "id": "790014-Stock",
+                            "isLinked": false
+                        }
+                    }
+                },
+                "shared/last-loaded-instrument": {
+                    "assetType": "ContractFutures",
+                    "uic": 4037
+                },
+                "shared/activeWorkspace": "trading"
+            },
+            "userPersistedSettings": {
+                "desktop/ws/account": null,
+                "desktop/ws/account-overview": null,
+                "desktop/ws/account-report": null,
+                "desktop/ws/account-standard-report": null,
+                "desktop/ws/account-statement": null,
+                "desktop/ws/accountsummary": null,
+                "desktop/ws/accountsummary-tabs": null,
+                "desktop/ws/bookings-report": null,
+                "desktop/ws/calendar": null,
+                "desktop/ws/calendar-component": null,
+                "desktop/ws/charts1": null,
+                "desktop/ws/charts1-tabs": null,
+                "desktop/ws/charts2": null,
+                "desktop/ws/charts2-tabs": null,
+                "desktop/ws/chartws-chart1-tab": null,
+                "desktop/ws/chartws-chart2-tab": null,
+                "desktop/ws/chartws-chart3-tab": null,
+                "desktop/ws/chartws-chart4-tab": null,
+                "desktop/ws/chartws-charts1": null,
+                "desktop/ws/chartws-charts2": null,
+                "desktop/ws/chartws-charts3": null,
+                "desktop/ws/chartws-charts4": null,
+                "desktop/ws/chartws-root-grid": null,
+                "desktop/ws/closed-positions-report": null,
+                "desktop/ws/closedpositions": null,
+                "desktop/ws/component-1": {},
+                "desktop/ws/component-2": {
+                    "selectedChartId": "component-2"
+                },
+                "desktop/ws/component-3": null,
+                "desktop/ws/component-4": {
+                    "selectedChartId": "component-4"
+                },
+                "desktop/ws/component-5": {
+                    "selectedTabId": "component-4"
+                },
+                "desktop/ws/component-6": {},
+                "desktop/ws/component-7": {},
+                "desktop/ws/component-8": null,
+                "desktop/ws/component-9": null,
+                "desktop/ws/component-account-overview": null,
+                "desktop/ws/component-account-statement": null,
+                "desktop/ws/component-performance": null,
+                "desktop/ws/component-portfolio": null,
+                "desktop/ws/component-trades-executed": null,
+                "desktop/ws/deposits-transfers": null,
+                "desktop/ws/depth-trader": null,
+                "desktop/ws/misc-other-cards": null,
+                "desktop/ws/news": null,
+                "desktop/ws/news-all": null,
+                "desktop/ws/news-provider-1": null,
+                "desktop/ws/news-provider-2": null,
+                "desktop/ws/news-tabs": null,
+                "desktop/ws/opinions": null,
+                "desktop/ws/opinions-component": null,
+                "desktop/ws/options-chain": null,
+                "desktop/ws/orders": null,
+                "desktop/ws/orders-tabs": null,
+                "desktop/ws/performance": null,
+                "desktop/ws/portfolio": null,
+                "desktop/ws/positions": null,
+                "desktop/ws/positions-tabs": null,
+                "desktop/ws/profit-loss-report": null,
+                "desktop/ws/root-grid": null,
+                "desktop/ws/standard-reports": null,
+                "desktop/ws/time-and-sales": null,
+                "desktop/ws/trades-executed": null,
+                "desktop/ws/tradeticket": null,
+                "desktop/ws/tradeticket-tabs": null,
+                "desktop/ws/watchlist-first-own": null,
+                "desktop/ws/watchlist-tabs": null
+            },
+            "windowsLayout": [
+                {
+                    "dimensions": {
+                        "height": 1200,
+                        "width": 1827
+                    },
+                    "position": {
+                        "x": 93,
+                        "y": 0
+                    },
+                    "workspace": "workspace-1"
+                },
+                {},
+                {
+                    "dimensions": {
+                        "height": 450,
+                        "width": 850
+                    },
+                    "position": {
+                        "x": -1046,
+                        "y": 536
+                    },
+                    "workspace": "workspace-3"
+                },
+                {}
+            ],
+            "workspaces": [
+                {
+                    "id": "workspace-1",
+                    "layout": {
+                        "id": "component-1",
+                        "layout": {
+                            "height": 100,
+                            "items": [
+                                {
+                                    "id": "component-5",
+                                    "layout": {
+                                        "height": 64.44,
+                                        "label": null,
+                                        "left": 22.47,
+                                        "tabs": [
+                                            {
+                                                "id": "component-4",
+                                                "layout": {
+                                                    "label": "Wykres",
+                                                    "tabTitle": "Chart: GOOG:xnas",
+                                                    "type": "chart"
+                                                }
+                                            }
+                                        ],
+                                        "top": 10.93,
+                                        "type": "tabs",
+                                        "width": 48.36
+                                    }
+                                }
+                            ],
+                            "label": null,
+                            "left": 0,
+                            "top": 0,
+                            "type": "grid",
+                            "width": 100
+                        }
+                    },
+                    "name": "chart",
+                    "type": "dynamic"
+                },
+                {
+                    "id": "workspace-3",
+                    "layout": {
+                        "id": "component-6",
+                        "layout": {
+                            "height": 100,
+                            "items": [
+                                {
+                                    "id": "component-7",
+                                    "layout": {
+                                        "height": 100,
+                                        "label": null,
+                                        "left": 0,
+                                        "tabs": [
+                                            {
+                                                "id": "component-2",
+                                                "layout": {
+                                                    "isResizable": true,
+                                                    "label": "Chart",
+                                                    "tabTitle": "Chart: TSLA:xnas",
+                                                    "type": "chart"
+                                                }
+                                            }
+                                        ],
+                                        "top": 0,
+                                        "type": "tabs",
+                                        "width": 100
+                                    }
+                                }
+                            ],
+                            "label": null,
+                            "left": 0,
+                            "top": 0,
+                            "type": "grid",
+                            "width": 100
+                        }
+                    },
+                    "name": "Sub Window 2",
+                    "type": "sub-window"
+                }
+            ]
+        }
+    },
+    {
+        "Created": "2019-05-27T13:35:03.0933333Z",
+        "Device": "Virtual Machine",
+        "Host": "SAXOVMS2634",
+        "InstallerUUID": "227897b0-7576-11e9-9a30-812054720892",
+        "Name": "Autosaved (1568186448650)",
+        "RecentStatus": "Autosaved",
+        "WorkspaceId": "3",
+        "Data": {
+            "activeWorkspaceId": "workspace-1",
+            "workspaces": [
+                {
+                    "layout": {
+                        "id": "component-1",
+                        "layout": {
+                            "height": 100,
+                            "items": [
+                                {
+                                    "id": "component-5",
+                                    "layout": {
+                                        "height": 39.4,
+                                        "label": null,
+                                        "left": 26,
+                                        "tabs": [
+                                            {
+                                                "id": "component-2",
+                                                "layout": {
+                                                    "dialogType": null,
+                                                    "isResizable": true,
+                                                    "label": "Chart",
+                                                    "singletonKey": null,
+                                                    "tabTitle": "Chart: TWOH:xnas",
+                                                    "type": "chart"
+                                                }
+                                            }
+                                        ],
+                                        "top": 19.53,
+                                        "type": "tabs",
+                                        "width": 46.63
+                                    }
+                                }
+                            ],
+                            "label": null,
+                            "left": 0,
+                            "top": 0,
+                            "type": "grid",
+                            "width": 100
+                        }
+                    },
+                    "id": "workspace-1",
+                    "isAlwaysOnTop": null,
+                    "name": "View 2",
+                    "type": "dynamic"
+                }
+            ],
+            "windowsLayout": [
+                {
+                    "workspace": "workspace-1",
+                    "dimensions": {
+                        "width": 1827,
+                        "height": 1200
+                    },
+                    "position": {
+                        "x": 93,
+                        "y": 0
+                    }
+                }
+            ],
+            "isMultiWorkspacesEnabled": true,
+            "userPersistedSettings": {
+                "component-4": null,
+                "accountsummary": null,
+                "accountsummary-tabs": null,
+                "calendar": null,
+                "charts1": null,
+                "charts1-tabs": null,
+                "charts2": null,
+                "charts2-tabs": null,
+                "component-3": null,
+                "component-6": null,
+                "component-8": null,
+                "news": null,
+                "news-tabs": null,
+                "orders": null,
+                "orders-tabs": null,
+                "positions": null,
+                "positions-tabs": null,
+                "root-grid": null,
+                "tradeblotter": null,
+                "tradeticket": null,
+                "tradeticket-tabs": null,
+                "watchlist-1022": null,
+                "watchlist-1028": null,
+                "watchlist-1162": null,
+                "watchlist-first-own": null,
+                "watchlist-tabs": null,
+                "component-5": {
+                    "selectedTabId": "component-2"
+                },
+                "component-2": {
+                    "selectedChartId": "component-2"
+                },
+                "component-1": {},
+                "opinions": null,
+                "options-chain": null,
+                "depth-trader": null,
+                "time-and-sales": null,
+                "chartws-charts4": null,
+                "chartws-charts3": null,
+                "chartws-charts2": null,
+                "chartws-charts1": null,
+                "chartws-root-grid": null,
+                "chartws-chart1-tab": null,
+                "chartws-chart2-tab": null,
+                "chartws-chart3-tab": null,
+                "chartws-chart4-tab": null,
+                "news-all": null,
+                "news-provider-1": null,
+                "news-provider-2": null,
+                "calendar-component": null,
+                "account": null,
+                "portfolio": null,
+                "component-portfolio": null,
+                "performance": null,
+                "component-performance": null,
+                "account-standard-report": null,
+                "standard-reports": null,
+                "deposits-transfers": null,
+                "misc-other-cards": null,
+                "account-report": null,
+                "profit-loss-report": null,
+                "bookings-report": null,
+                "closed-positions-report": null,
+                "opinions-component": null,
+                "closedpositions": null,
+                "component-10": null,
+                "component-7": null
+            },
+            "componentsOutsideModuleLimit": {
+                "accountsummary": [],
+                "calendar": [],
+                "chart": [],
+                "dialogs": [],
+                "grid": [],
+                "modulePicker": [],
+                "news": [],
+                "optionschain": [],
+                "orders": [],
+                "positions": [],
+                "protradeticket": [],
+                "settings": [],
+                "tabs": [],
+                "tradeblotter": [],
+                "undefined": [],
+                "watchlist": []
+            },
+            "restorableUserSettings": {
+                "shared/last-loaded-instrument": {
+                    "uic": 21,
+                    "assetType": "FxSpot"
+                },
+                "shared/chart": {
+                    "charts1": {
+                        "instrumentIds": ["21-FxSpot"],
+                        "isLinking": true,
+                        "plotsState": {
+                            "0": 29,
+                            "1": [
+                                {
+                                    "13": [
+                                        {
+                                            "20": "candlestick",
+                                            "21": "pricePlot",
+                                            "22": "EURUSD (1)",
+                                            "25": 0,
+                                            "297": true,
+                                            "299": false,
+                                            "300": false
+                                        }
+                                    ],
+                                    "35": {
+                                        "130": {
+                                            "131": 0,
+                                            "132": 0
+                                        }
+                                    },
+                                    "77": 260,
+                                    "id": 0
+                                }
+                            ],
+                            "39": {},
+                            "56": {
+                                "118": 157,
+                                "119": 14400
+                            }
+                        },
+                        "previousLinkedInstrumentId": "21-FxSpot",
+                        "primaryInstrument": {
+                            "id": "21-FxSpot",
+                            "isLinked": true
+                        }
+                    },
+                    "charts2": {
+                        "instrumentIds": ["21-FxSpot"],
+                        "isLinking": true,
+                        "plotsState": {
+                            "0": 29,
+                            "1": [
+                                {
+                                    "13": [
+                                        {
+                                            "20": "candlestick",
+                                            "21": "pricePlot",
+                                            "22": "EURUSD (1)",
+                                            "25": 0,
+                                            "297": true,
+                                            "299": false,
+                                            "300": false
+                                        }
+                                    ],
+                                    "35": {
+                                        "130": {
+                                            "131": 0,
+                                            "132": 0
+                                        }
+                                    },
+                                    "77": 239,
+                                    "id": 0
+                                }
+                            ],
+                            "39": {},
+                            "56": {
+                                "26": 1,
+                                "118": 145,
+                                "119": 720
+                            }
+                        },
+                        "primaryInstrument": {
+                            "id": "21-FxSpot",
+                            "isLinked": true
+                        },
+                        "selectedTimeRangePeriod": {
+                            "period": "fiveMinutes",
+                            "timeRange": "twelveHours"
+                        }
+                    },
+                    "chartws-charts1": null,
+                    "chartws-charts2": null,
+                    "chartws-charts3": null,
+                    "chartws-charts4": null,
+                    "component-2": {
+                        "plotsState": {
+                            "0": 29,
+                            "1": [
+                                {
+                                    "13": [
+                                        {
+                                            "20": "candlestick",
+                                            "21": "pricePlot",
+                                            "22": "TWOH:xnas (32)",
+                                            "25": 0,
+                                            "297": true,
+                                            "299": false,
+                                            "300": false
+                                        }
+                                    ],
+                                    "35": {
+                                        "130": {
+                                            "131": 0,
+                                            "132": 0
+                                        }
+                                    },
+                                    "77": 367,
+                                    "id": 0
+                                }
+                            ],
+                            "39": {},
+                            "56": {
+                                "118": 40,
+                                "119": 14400
+                            }
+                        },
+                        "annotationsState": {
+                            "0": 29,
+                            "78": [
+                                {
+                                    "20": "trendLine",
+                                    "84": {
+                                        "7": "PricePlot",
+                                        "22": "TWOH:xnas (32)",
+                                        "297": true
+                                    },
+                                    "86": 4,
+                                    "101": false,
+                                    "110": false,
+                                    "112": [
+                                        {
+                                            "79": 0.012394083213256482,
+                                            "80": 1524243600000,
+                                            "81": 0.0068,
+                                            "82": 1524852000000,
+                                            "113": true
+                                        }
+                                    ],
+                                    "snapAnnotation": true
+                                }
+                            ]
+                        },
+                        "instrumentIds": ["5108514-Stock"],
+                        "primaryInstrument": {
+                            "id": "5108514-Stock",
+                            "isLinked": false
+                        }
+                    },
+                    "go-chart-0": {
+                        "isLinking": true
+                    },
+                    "multiChart": {
+                        "positionMatrix": [["go-chart-0"]]
+                    }
+                },
+                "pro/module": {
+                    "trade-model": {
+                        "trade-model1": {
+                            "accountId": "118377INETA",
+                            "algoOrderType": null,
+                            "algoParams": null,
+                            "algoStrategy": null,
+                            "amount": 100000,
+                            "direction": "None",
+                            "durationDate": null,
+                            "durationType": "ImmediateOrCancel",
+                            "exerciseMethod": "None",
+                            "expiryDate": null,
+                            "instrumentId": "21-FxSpot",
+                            "isQuoteCurrency": false,
+                            "modifiedFields": [],
+                            "optionType": "None",
+                            "orderPrice": 0,
+                            "orderType": "Trade",
+                            "priceTolerance": 0.01,
+                            "priceToleranceType": "Percentage",
+                            "relatedOrders": null,
+                            "stopLimitPrice": null,
+                            "strikePrice": null,
+                            "trailingStep": null,
+                            "valueDate": null,
+                            "valueDateType": null
+                        },
+                        "trade-model2": {
+                            "accountId": "118377INETA",
+                            "algoOrderType": null,
+                            "algoParams": null,
+                            "algoStrategy": null,
+                            "amount": 1,
+                            "direction": "Sell",
+                            "durationDate": null,
+                            "durationType": "GoodTillCancel",
+                            "exerciseMethod": "None",
+                            "expiryDate": null,
+                            "instrumentId": "9431685-StockOption",
+                            "isQuoteCurrency": false,
+                            "modifiedFields": [],
+                            "optionType": "None",
+                            "orderPrice": 24.3,
+                            "orderType": "Limit",
+                            "priceTolerance": null,
+                            "priceToleranceType": "None",
+                            "stopLimitPrice": null,
+                            "strikePrice": null,
+                            "trailingStep": null,
+                            "valueDate": null,
+                            "valueDateType": null
+                        }
+                    }
+                }
+            }
+        }
+    }
+]

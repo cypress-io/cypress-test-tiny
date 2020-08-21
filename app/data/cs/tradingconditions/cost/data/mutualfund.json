@@ -1,0 +1,54 @@
+{
+    "AccountCurrency": "GBP",
+    "AccountID": "",
+    "Amount": 1000,
+    "AssetType": "MutualFund",
+    "Cost": {
+        "Long": {
+            "BuySell": "Buy",
+            "ConversionCost": {
+                "Pct": 1,
+                "Rule": {
+                    "Pct": 0.5
+                },
+                "Value": 290.8
+            },
+            "Currency": "EUR",
+            "FundCost": {
+                "EntryCost": {
+                    "Pct": 0.11,
+                    "Rule": {
+                        "Pct": 0.4
+                    },
+                    "Value": 39.462
+                },
+                "ExitCost": {
+                    "Pct": 0.1,
+                    "Rule": {
+                        "Pct": 0.3
+                    },
+                    "Value": 39.2
+                },
+                "OnGoingCost": {
+                    "Pct": 0.115,
+                    "Rule": {
+                        "Pct": 1.4
+                    },
+                    "Value": 33.462
+                }
+            },
+            "TotalCost": 402.924,
+            "TotalCostPct": 1.525
+        }
+    },
+    "CostCalculationAssumptions": [
+        "IncludesOpenAndCloseCost",
+        "EquivalentOpenAndClosePrice",
+        "AmountInUnits",
+        "BasisOnMidPrice"
+    ],
+    "HoldingPeriodInDays": 30,
+    "Instrument": "FIDELITY EURO BOND E",
+    "Price": 29.08,
+    "Uic": 8249012
+}

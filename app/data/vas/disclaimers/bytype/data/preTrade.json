@@ -1,0 +1,24 @@
+[
+    {
+        "AcceptLabel": "OK",
+        "Body": "<p>PreView test...</p>",
+        "CanAccept": true,
+        "CanAcceptWithUserInput": false,
+        "CanReject": false,
+        "Counted": 19,
+        "DisclaimerId": 42,
+        "DisclaimerKey": "DisclaimerSystem Preview - PreTrade",
+        "DisclaimerType": "PreTrade",
+        "DismissLabel": "",
+        "ExposureIncreaseOnly": false,
+        "LanguageCode": "en",
+        "LegalAssetTypes": ["FxSpot", "CfdOnStock"],
+        "RejectLabel": "",
+        "Revision": 1,
+        "SequenceNo": 0,
+        "ShowCount": 0,
+        "Title": "DisclaimerSystem Preview - PreTrade",
+        "UserInputText": "",
+        "Version": 1
+    }
+]

@@ -1,0 +1,63 @@
+{
+    "__count": 2,
+    "Data": [
+        {
+            "AccountId": "test1",
+            "ActivityId": "19439",
+            "ActivityTime": "2020-06-17T09:27:57.395000Z",
+            "Amount": 100.0,
+            "AssetType": "FxSpot",
+            "BuySell": "Buy",
+            "ClientId": "2004935",
+            "CorrelationKey": "10a3646a-4d70-443b-b61e-9c81aaa48462",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 7,
+                "Description": "JPYUSD - Sep 2020",
+                "OrderDecimals": 7,
+                "Symbol": "JYU0"
+            },
+            "Duration": { "DurationType": "GoodTillCancel" },
+            "HandledBy": "2004935",
+            "OrderId": "326469653",
+            "OrderRelation": "StandAlone",
+            "OrderState": "Working",
+            "OrderType": "StopLimit",
+            "Price": 0.0093515,
+            "Status": "Placed",
+            "StopLimitPrice": 0.009354,
+            "SubStatus": "Confirmed",
+            "Uic": 21,
+            "UserId": "2004935"
+        },
+        {
+            "AccountId": "test1",
+            "ActivityId": "19441",
+            "ActivityTime": "2020-06-17T09:27:57.452000Z",
+            "Amount": 100.0,
+            "AssetType": "FxSpot",
+            "BuySell": "Buy",
+            "ClientId": "2004935",
+            "CorrelationKey": "10a3646a-4d70-443b-b61e-9c81aaa48462",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 7,
+                "Description": "JPYUSD - Sep 2020",
+                "OrderDecimals": 7,
+                "Symbol": "JYU0"
+            },
+            "Duration": { "DurationType": "GoodTillCancel" },
+            "HandledBy": "2004935",
+            "OrderId": "326469653",
+            "OrderRelation": "StandAlone",
+            "OrderState": "Working",
+            "OrderType": "StopLimit",
+            "Price": 0.0093515,
+            "Status": "Working",
+            "StopLimitPrice": 0.009354,
+            "SubStatus": "Confirmed",
+            "Uic": 21,
+            "UserId": "2004935"
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+{
+    "Data": [
+        {
+            "Date": "2019-06-27",
+            "PointSourceType": {
+                "Key": "21",
+                "Value": "Trade"
+            },
+            "AssetType": "Stock",
+            "Uic": 21,
+            "Amount": 16,
+            "DisplayAndFormat": {
+                "Description": "Vanguard S&P500 ETF",
+                "DisplayHint": "Etf",
+                "Symbol": "VOO"
+            },
+            "Points": 10,
+            "MembershipPointId": 12345,
+            "ExpiryDate": "2019-05-16"
+        },
+        {
+            "Date": "2019-05-01",
+            "PointSourceType": {
+                "Key": "21",
+                "Value": "Trade"
+            },
+            "Amount": 5,
+            "AssetType": "FxSpot",
+            "Uic": 21,
+            "DisplayAndFormat": {
+                "Description": "Platinum",
+                "DisplayHint": "PreciousMetal",
+                "Symbol": "Platinum"
+            },
+            "Points": 60,
+            "MembershipPointId": 12345,
+            "ExpiryDate": "2019-12-16"
+        },
+        {
+            "Date": "2019-04-23",
+            "PointSourceType": {
+                "Key": "21",
+                "Value": "Trade"
+            },
+            "Amount": 23,
+            "AssetType": "Stock",
+            "Uic": 21,
+            "DisplayAndFormat": {
+                "Description": "IBM Common Stock",
+                "Symbol": "IBM"
+            },
+            "Points": 55,
+            "MembershipPointId": 12345,
+            "ExpiryDate": "2019-09-16"
+        },
+        {
+            "Date": "2019-04-05",
+            "PointSourceType": {
+                "Key": "21",
+                "Value": "Trade"
+            },
+            "Amount": 5,
+            "AssetType": "CfdOnStock",
+            "Uic": 21,
+            "DisplayAndFormat": {
+                "Description": "Microsoft Corporation",
+                "Symbol": "MSFT"
+            },
+            "Points": 100,
+            "MembershipPointId": 12345,
+            "ExpiryDate": "2019-12-16"
+        },
+        {
+            "Date": "2019-03-18",
+            "PointSourceType": {
+                "Key": "21",
+                "Value": "Trade"
+            },
+            "Amount": 40,
+            "AssetType": "Stock",
+            "Uic": 21,
+            "DisplayAndFormat": { "Description": "Apple Inc.", "Symbol": "AAPL" },
+            "Points": 150,
+            "MembershipPointId": 12345,
+            "ExpiryDate": "2019-12-16"
+        },
+        {
+            "Date": "2019-03-16",
+            "PointSourceType": {
+                "Key": "21",
+                "Value": "Trade"
+            },
+            "Amount": 100000,
+            "AssetType": "FxSpot",
+            "Uic": 21,
+            "DisplayAndFormat": {
+                "Description": "Euro/US Dollar",
+                "Symbol": "EURUSD"
+            },
+            "Points": 35,
+            "MembershipPointId": 12345,
+            "ExpiryDate": "2019-12-16",
+            "IsExpired": true
+        },
+        {
+            "Date": "2019-03-16",
+            "Description": "Thanks for participating in the CFD trading seminar",
+            "PointSourceType": {
+                "Key": "22",
+                "Value": "Voucher"
+            },
+            "Points": 100,
+            "MembershipPointId": 12346,
+            "ExpiryDate": "2019-12-16",
+            "IsExpired": true
+        }
+    ]
+}

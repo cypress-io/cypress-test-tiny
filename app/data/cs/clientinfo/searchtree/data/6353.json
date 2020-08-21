@@ -1,0 +1,291 @@
+{
+    "__count": 1,
+    "Data": [
+        {
+            "Accounts": [
+                { "AccountId": "59700", "AccountKey": "Lo|2zNY4ONwBDB2XTh6L-Q==" }
+            ],
+            "ClientId": "8479680",
+            "ClientKey": "client-key-1",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "59700/TRADING",
+            "DefaultAccountKey": "YfouTkJBL2CoJYzhNE6qAQ==",
+            "LegalAssetTypes": [],
+            "Name": "xlub",
+            "SubClients": [
+                {
+                    "Accounts": [
+                        {
+                            "AccountId": "68400/COMMAUDGLA",
+                            "AccountKey": "caTwS7h-2O-A9Y3nUEDfSGaxhirhFa0fze-4aCtRGfM="
+                        }
+                    ],
+                    "ClientId": "6308780",
+                    "ClientKey": "kH3iICmhS2XaMdCQCAca-g==",
+                    "ClientTypeName": "IB",
+                    "ClientType": "House",
+                    "DefaultAccountId": "68400/TRADGLAC",
+                    "DefaultAccountKey": "K9Y-eEMGV10PRUG5wI-7|A==",
+                    "LegalAssetTypes": ["Cash"],
+                    "Name": "Client 6308780",
+                    "OwnerId": "8479680",
+                    "SubClients": [
+                        {
+                            "Accounts": [
+                                {
+                                    "AccountId": "68400/COMMGBPNV",
+                                    "AccountKey": "DYxOVlU81Lbd4kPibdeXzQ=="
+                                }
+                            ],
+                            "ClientId": "6338436",
+                            "ClientKey": "1vhQGn1eEJGDCy|1DY|MTQ==",
+                            "ClientTypeName": "IB",
+                            "ClientType": "House",
+                            "DefaultAccountId": "68400/TRADNV",
+                            "DefaultAccountKey": "gKrzpNUEBxk9PCtBnlzXyg==",
+                            "LegalAssetTypes": ["Cash"],
+                            "Name": "Client 6338436",
+                            "OwnerId": "6308780",
+                            "SubClients": [
+                                {
+                                    "Accounts": [
+                                        {
+                                            "AccountId": "68400/106353USD",
+                                            "AccountKey": "fR43r|fnaVZ8X2dh7ncrMQ=="
+                                        }
+                                    ],
+                                    "Users": [
+                                        {
+                                            "UserId": "32155043",
+                                            "UserKey": "CD7ZNO3iCY0EV-ICNxLd9A==",
+                                            "UserName": "marmc"
+                                        },
+                                        {
+                                            "UserId": "32155044",
+                                            "UserKey": "SLyoYT1Bob1P5H7N4XSI1g==",
+                                            "UserName": "marmc2"
+                                        }
+                                    ],
+                                    "ClientId": "8013568",
+                                    "ClientKey": "RHW2asqfgWYJZ3oP-8JwWg==",
+                                    "ClientTypeName": "Internet Client",
+                                    "ClientType": "Client",
+                                    "DefaultAccountId": "68400/106353USD",
+                                    "DefaultAccountKey": "fR43r|fnaVZ8X2dh7ncrMQ==",
+                                    "LegalAssetTypes": [
+                                        "Stock",
+                                        "Bond",
+                                        "MutualFund",
+                                        "Cash"
+                                    ],
+                                    "Name": "Client 8013568",
+                                    "OwnerId": "6338436",
+                                    "SubClients": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Accounts": [
+                        {
+                            "AccountId": "59700/ERRORSAS",
+                            "AccountKey": "uLyjxn8OgIOBG12znq8qhA=="
+                        },
+                        {
+                            "AccountId": "59700/TRADSAS",
+                            "AccountKey": "aXEAPDYhlgsURZUYrKTgXQ=="
+                        },
+                        {
+                            "AccountId": "68400/COMMUSDSAS",
+                            "AccountKey": "S1QATybE6pRfts6cZ-0Fm|FvacSORalMRmg4MAA3cc4="
+                        }
+                    ],
+                    "ClientId": "6353856",
+                    "ClientKey": "d0rYvk41l9FOvoBx-hqkKg==",
+                    "ClientTypeName": "IB",
+                    "ClientType": "House",
+                    "DefaultAccountId": "68400/COMMUSDSAS",
+                    "DefaultAccountKey": "S1QATybE6pRfts6cZ-0Fm|FvacSORalMRmg4MAA3cc4=",
+                    "LegalAssetTypes": ["Stock", "Bond", "MutualFund", "Cash"],
+                    "Name": "Client 6353856",
+                    "OwnerId": "8479680",
+                    "SubClients": [
+                        {
+                            "Accounts": [
+                                {
+                                    "AccountId": "68400/TRADSASBJ",
+                                    "AccountKey": "ryV3bHadQr1ximtdQoKYvA=="
+                                }
+                            ],
+                            "ClientId": "6485163",
+                            "ClientKey": "CQEKfCdLulpiKRNd2B0xFw==",
+                            "ClientTypeName": "IB",
+                            "ClientType": "House",
+                            "DefaultAccountId": "68400/TRADSASBJ",
+                            "DefaultAccountKey": "ryV3bHadQr1ximtdQoKYvA==",
+                            "LegalAssetTypes": ["Stock", "Bond", "MutualFund"],
+                            "Name": "Client 6485163",
+                            "OwnerId": "6353856",
+                            "SubClients": [
+                                {
+                                    "Accounts": [
+                                        {
+                                            "AccountId": "68400/106441",
+                                            "AccountKey": "B9Due13V8SBWMJZ9zf7QJA=="
+                                        }
+                                    ],
+                                    "Users": [
+                                        {
+                                            "UserId": "9870924",
+                                            "UserKey": "Y4iPeH0jpZYSlnohKxAJ|Q==",
+                                            "UserName": "User 9870924"
+                                        }
+                                    ],
+                                    "ClientId": "8106353",
+                                    "ClientKey": "5M9Zn2uMZpH10lrMy7Wmfg==",
+                                    "ClientTypeName": "Internet Client",
+                                    "ClientType": "Client",
+                                    "DefaultAccountId": "68400/106441",
+                                    "DefaultAccountKey": "B9Due13V8SBWMJZ9zf7QJA==",
+                                    "LegalAssetTypes": [
+                                        "Stock",
+                                        "Bond",
+                                        "MutualFund",
+                                        "Cash"
+                                    ],
+                                    "Name": "Client 8106353",
+                                    "OwnerId": "6485163",
+                                    "SubClients": []
+                                }
+                            ]
+                        },
+                        {
+                            "Accounts": [
+                                {
+                                    "AccountId": "68400/TRADSAS15",
+                                    "AccountKey": "rmGNtFGNfMrs3S3n4Qa7cA=="
+                                }
+                            ],
+                            "ClientId": "6505245",
+                            "ClientKey": "JG731yZ2CFTJH59kp8hJQQ==",
+                            "ClientTypeName": "IB",
+                            "ClientType": "House",
+                            "DefaultAccountId": "68400/TRADSAS15",
+                            "DefaultAccountKey": "rmGNtFGNfMrs3S3n4Qa7cA==",
+                            "LegalAssetTypes": ["Stock", "Bond", "MutualFund"],
+                            "Name": "Client 6505245",
+                            "OwnerId": "6353856",
+                            "SubClients": [
+                                {
+                                    "Accounts": [
+                                        {
+                                            "AccountId": "68400/20250",
+                                            "AccountKey": "7W|29PRBZnEAvtm3E9M-tA=="
+                                        }
+                                    ],
+                                    "ClientId": "8956353",
+                                    "ClientKey": "pFkIwXjNCj6zLWOFIX0Vqg==",
+                                    "ClientTypeName": "Internet Client",
+                                    "ClientType": "Client",
+                                    "DefaultAccountId": "68400/20250",
+                                    "DefaultAccountKey": "7W|29PRBZnEAvtm3E9M-tA==",
+                                    "LegalAssetTypes": [
+                                        "Stock",
+                                        "Bond",
+                                        "MutualFund",
+                                        "Cash"
+                                    ],
+                                    "Name": "Client 8956353",
+                                    "OwnerId": "6505245",
+                                    "SubClients": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Accounts": [
+                        {
+                            "AccountId": "182149/COMMGBP",
+                            "AccountKey": "pjhzUUO5B2fgoY1cfHNWhA=="
+                        },
+                        {
+                            "AccountId": "182149/TRADING",
+                            "AccountKey": "NnW-IVSOa|7znOGM4DBmeQ=="
+                        }
+                    ],
+                    "ClientId": "6353975",
+                    "ClientKey": "q-srNhs5yR4qdVIguGKUxQ==",
+                    "ClientTypeName": "IB",
+                    "ClientType": "House",
+                    "DefaultAccountId": "182149/TRADING",
+                    "DefaultAccountKey": "NnW-IVSOa|7znOGM4DBmeQ==",
+                    "LegalAssetTypes": [
+                        "Cash",
+                        "ContractFutures",
+                        "Stock",
+                        "Bond",
+                        "StockOption",
+                        "MutualFund"
+                    ],
+                    "Name": "Client 6353975",
+                    "OwnerId": "8479680",
+                    "SubClients": []
+                },
+                {
+                    "Accounts": [
+                        {
+                            "AccountId": "95400/COMMGBPHHI",
+                            "AccountKey": "-6wNdPi5hxMOLQTwVsnlyWVhJzLdtd62fdvvoYRppjE="
+                        }
+                    ],
+                    "ClientId": "7914709",
+                    "ClientKey": "MZdY7-Y0qExyF|el-YttfQ==",
+                    "ClientTypeName": "IB",
+                    "ClientType": "House",
+                    "DefaultAccountId": "95400/TRADHHI",
+                    "DefaultAccountKey": "bIboliJAcaIfg2076lDBNQ==",
+                    "LegalAssetTypes": ["Cash"],
+                    "Name": "Client 7914709",
+                    "OwnerId": "8479680",
+                    "SubClients": [
+                        {
+                            "Accounts": [
+                                {
+                                    "AccountId": "95400/100578USD1",
+                                    "AccountKey": "sYK-8wI7NZ9p51lFGNdO1|7rjJ1u9JqODvfCGGkSq6s="
+                                }
+                            ],
+                            "ClientId": "8046353",
+                            "ClientKey": "0LzhNW5x4SXaXno4v7L6kQ==",
+                            "ClientTypeName": "Internet Client",
+                            "ClientType": "Client",
+                            "DefaultAccountId": "95400/100578USD1",
+                            "DefaultAccountKey": "sYK-8wI7NZ9p51lFGNdO1|7rjJ1u9JqODvfCGGkSq6s=",
+                            "LegalAssetTypes": [
+                                "FxSpot",
+                                "FxForwards",
+                                "FxVanillaOption",
+                                "ContractFutures",
+                                "FuturesStrategy",
+                                "Stock",
+                                "Bond",
+                                "FuturesOption",
+                                "StockIndexOption",
+                                "MutualFund",
+                                "Cash",
+                                "CfdOnStock",
+                                "CfdOnFutures"
+                            ],
+                            "Name": "Client 8046353",
+                            "OwnerId": "7914709",
+                            "SubClients": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

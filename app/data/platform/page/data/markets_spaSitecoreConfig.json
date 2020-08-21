@@ -1,0 +1,40 @@
+{
+    "Name": "markets",
+    "Sections": [
+        {
+            "Type": "CurrentHoldings",
+            "Name": "currentholdingssection",
+            "Title": "Current Holdings",
+            "Id": "d76819e3-1d0d-4971-aeca-7aa00c6002a9"
+        },
+        {
+            "IsDividerShown": false,
+            "LayoutType": "stretch",
+            "Type": "Banner",
+            "Name": "markets - bannersection",
+            "Title": "",
+            "Id": "d706acca-b631-4e6a-a4e3-66f3202cf272",
+            "Banners": [
+                {
+                    "DisplayHint": "",
+                    "Name": "stocks - bannerproduction",
+                    "Align": "center",
+                    "IsCompact": true,
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "Target": "/page/stocks",
+                        "TargetId": "689b2e12-f8ff-40a0-b5c2-f899e7aa8d56",
+                        "LinkText": "stocks"
+                    },
+                    "Title": "Stocks",
+                    "Id": "5a4cef23-86f5-4f98-94f9-8dd533db1aee",
+                    "AssetType": "Stock"
+                }
+            ]
+        }
+    ],
+    "Title": "SPA Markets",
+    "Url": "/page/markets",
+    "Id": "markets_spaSitecoreConfig"
+}

@@ -1,0 +1,70 @@
+{
+    "Name": "23",
+    "Title": "Custom title",
+    "Sections": [
+        {
+            "Type": "PortfolioLogo",
+            "Text": "23 portfolio details",
+            "Logo": {
+                "Id": "00000000-0000-0000-0000-000000000000"
+            },
+            "IsDividerShown": false,
+            "Name": "portfoliologosection",
+            "Title": "",
+            "Id": "579f5705-a842-4295-b187-411d4f0bab7d"
+        },
+        {
+            "LayoutType": "wrap",
+            "LayoutJustify": "center",
+            "Buttons": [
+                {
+                    "Text": "",
+                    "Align": "",
+                    "Size": "medium",
+                    "IsPrimary": true,
+                    "IsOutline": false,
+                    "IsNoCase": false,
+                    "IsClear": false,
+                    "Name": "TraderButton",
+                    "Title": "Select portfolio",
+                    "LinkConfiguration": {
+                        "IsExternal": false,
+                        "IsNewWindow": false,
+                        "Target": "/investment-ticket",
+                        "LinkText": ""
+                    },
+                    "Id": "97668e1f-206e-4ccc-80c8-d71259af2186"
+                }
+            ],
+            "Type": "Button",
+            "Name": "buttonsection",
+            "Title": "Ready to invest?",
+            "Id": "c0159e0e-9405-42c9-b9d7-29d3fc83151c"
+        },
+        {
+            "Type": "PerformanceGraph",
+            "IsDividerShown": false,
+            "Name": "performancegraphsection",
+            "Title": "",
+            "Id": "ffe425c7-106a-41ca-bb2d-f07ba85bcba3"
+        },
+        {
+            "Type": "PerformanceBar",
+            "IsDividerShown": false,
+            "Name": "performancebarsection",
+            "Title": "",
+            "Id": "6b1f0f47-fe16-4691-b7c7-c7d053f7c6b4"
+        },
+        {
+            "Type": "CompositionAndGraph",
+            "LayoutType": "",
+            "Text": "",
+            "IsDividerShown": false,
+            "Name": "compositionandgraphsection",
+            "Title": "",
+            "Id": "0f3d0043-a8d6-4278-b64d-4d7299570abb"
+        }
+    ],
+    "Url": "/page/managed-portfolio/23",
+    "Id": "ae6eeda1-c6e2-4804-a129-29ab181a87fb_autoTradingWithRiskLevel"
+}

@@ -1,0 +1,54 @@
+{
+    "Data": [
+        {
+            "ClientKey": "client-key-1",
+            "Culture": "en-US",
+            "Language": "en",
+            "LastLoginStatus": "Successful",
+            "LastLoginTime": "2020-02-24T10:39:10.190000Z",
+            "LegalAssetTypes": [
+                "Stock",
+                "Bond",
+                "ManagedFund",
+                "Cash",
+                "CfdOnStock",
+                "CfdOnIndex",
+                "CfdOnFutures",
+                "StockIndex",
+                "MutualFund",
+                "CfdIndexOption",
+                "IpoOnStock"
+            ],
+            "MarketDataViaOpenApiTermsAccepted": false,
+            "Name": "User 1",
+            "TimeZoneId": 26,
+            "UserId": "user-id-1",
+            "UserKey": "user-key-1"
+        },
+        {
+            "ClientKey": "client-key-1",
+            "Culture": "en-GB",
+            "Language": "en",
+            "LastLoginStatus": "Successful",
+            "LastLoginTime": "2020-04-27T16:54:46.630000Z",
+            "LegalAssetTypes": [
+                "Stock",
+                "Bond",
+                "ManagedFund",
+                "Cash",
+                "CfdOnStock",
+                "CfdOnIndex",
+                "CfdOnFutures",
+                "StockIndex",
+                "MutualFund",
+                "CfdIndexOption",
+                "IpoOnStock"
+            ],
+            "MarketDataViaOpenApiTermsAccepted": false,
+            "Name": "User 2",
+            "TimeZoneId": 26,
+            "UserId": "user-id-2",
+            "UserKey": "user-key-2"
+        }
+    ]
+}

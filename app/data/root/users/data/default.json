@@ -1,0 +1,12 @@
+{
+    "AccessRights": {
+        "CanManageCashTransfers": true,
+        "CanTakePriceSession": true,
+        "CanTakeTradeSession": true,
+        "CanTrade": true,
+        "CanViewAnyClient": false
+    },
+    "ClientId": 1230970,
+    "Roles": ["OAPI.Roles.Default"],
+    "UserId": 1230970
+}

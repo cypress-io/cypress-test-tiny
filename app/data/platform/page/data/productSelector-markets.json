@@ -1,0 +1,15 @@
+{
+    "Name": "markets",
+    "Sections": [
+        {
+            "Type": "ProductSelector",
+            "IsDividerShown": true,
+            "Name": "productselectorsection",
+            "Title": "Product selector section",
+            "Id": "d5e96059-41c2-48d3-8964-c4765bacb266"
+        }
+    ],
+    "Title": "Markets",
+    "Url": "/page/markets",
+    "Id": "productSelector-markets"
+}

@@ -1,0 +1,30 @@
+{
+    "Data": [
+        {
+            "Type": {
+                "Key": "1",
+                "Value": "Classic"
+            },
+            "MinPoints": 0,
+            "MaxPoints": 30000,
+            "Description": "With Classic membership you get basic access to more than 35.000 instruments across multiple asset classes."
+        },
+        {
+            "Type": {
+                "Key": "3",
+                "Value": "Platinum"
+            },
+            "MinPoints": 30000,
+            "MaxPoints": 500000,
+            "Description": "With Platinum membership you get access to more than 35.000 instruments across multiple asset classes, free online support and some other benefits."
+        },
+        {
+            "Type": {
+                "Key": "4",
+                "Value": "VIP"
+            },
+            "MinPoints": 500000,
+            "Description": "As a VIP member you get access to more than 35.000 instruments across multiple asset classes, free online support, VIP pricing and much more."
+        }
+    ]
+}

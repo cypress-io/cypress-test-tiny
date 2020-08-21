@@ -1,0 +1,1005 @@
+{
+    "DefaultPageId": "f5765448-7338-4f7e-bc65-0eb1b6096e8c_trader",
+    "Languages": ["en"],
+    "Links": {
+        "Footer": [
+            {
+                "IconType": "",
+                "Id": "fdc630ab-e31f-4005-aa9f-abc1b82d6123",
+                "Label": "General terms",
+                "Name": "disclaimer",
+                "Url": "https://www.home.saxo/legal/general-business-terms/saxo-general-business-terms"
+            },
+            {
+                "IconType": "",
+                "Id": "36903191-240e-4b59-aa12-177c9e445ee8",
+                "Label": "Market data disclaimer",
+                "Name": "marketdatadisclaimer",
+                "Url": "/page/marketdata"
+            },
+            {
+                "IconType": "",
+                "Id": "1f9eb402-3718-4c37-98b6-c2fe463b5f84",
+                "Label": "Contact support",
+                "Name": "contactsupport",
+                "Url": "/contact-support"
+            },
+            {
+                "IconType": "",
+                "Id": "329aad48-f1d0-49d4-80a2-b09ebfd88662",
+                "Label": "SaxoInvestor help",
+                "Name": "saxoinvestorhelp",
+                "Url": "https://investor.help.saxo/hc/da"
+            },
+            {
+                "IconType": "",
+                "Id": "2b0f57d1-8cbd-4398-b164-a7bc5be9aeda",
+                "Label": "Try our more advanced platform",
+                "Name": "tryourmoreadvancedplatform",
+                "Url": "https://www.home.saxo/investor/platforms/saxotradergo"
+            }
+        ],
+        "Header": [
+            {
+                "IconType": "Briefcase",
+                "Id": "19a6eab4-9cb1-464b-b222-ff85b2966c1d",
+                "Label": "Portfolio",
+                "Name": "portfolio",
+                "Url": "/investments/current-holdings"
+            },
+            {
+                "IconType": "Basket",
+                "Id": "1be4d946-ddf4-4d21-873b-596e175f145f",
+                "Label": "Markets",
+                "Name": "markets",
+                "Url": "/page/markets"
+            }
+        ],
+        "Secondary": [],
+        "ResearchTabs": [
+            {
+                "Id": "cd833570-ba63-4719-8a18-c3bcd599f2fb",
+                "Name": "markets",
+                "IconType": "Basket",
+                "Label": "Overview",
+                "Url": "/page/markets",
+                "PageId": "0a3d8eec-9b88-457d-819c-eccf90e2d3a7"
+            },
+            {
+                "Id": "36903191-240e-4b59-aa12-177c9e445ee8",
+                "Name": "stocks",
+                "IconType": "",
+                "Label": "Stocks",
+                "Url": "/page/stocks",
+                "PageId": "cb24f1d9-7635-4a45-9a82-c2395a3b8b1c"
+            },
+            {
+                "Id": "e9cb5c55-955a-40e3-acf1-c15f288de953",
+                "Name": "education",
+                "IconType": "",
+                "Label": "Education",
+                "Url": "/page/education",
+                "PageId": "de0a4a8c-b678-471a-a732-fcf95edb1dce"
+            },
+            {
+                "IconType": "",
+                "Id": "6572671f-2998-4a66-9d80-c8b47314b386",
+                "Label": "Overview 2",
+                "Name": "overview",
+                "PageId": "0b2dc2fa-3347-4885-8625-64b0c73b75fe",
+                "Url": "/page/overview"
+            },
+            {
+                "IconType": "",
+                "Id": "d99db75a-58d8-468c-aa51-92fcae7130e6",
+                "Label": "Forex",
+                "Name": "forex",
+                "PageId": "614bbb21-e822-4753-bf47-02e4b4fa92e5",
+                "Url": "/page/forex"
+            },
+            {
+                "IconType": "",
+                "Id": "3713b19e-a0dd-4829-8113-15ced73a2936",
+                "Label": "Commodities",
+                "Name": "commodities",
+                "PageId": "b68b68b0-4363-4c86-a0f4-4debbf01e0e9",
+                "Url": "/page/commodities"
+            },
+            {
+                "IconType": "",
+                "Id": "c7e2e00b-2434-422b-bbb4-b945cec7e9de",
+                "Label": "Bonds",
+                "Name": "bonds",
+                "PageId": "aae7bb7a-886a-4031-aa25-7de642ef03e4",
+                "Url": "/page/bonds"
+            },
+            {
+                "IconType": "",
+                "Id": "11c78a35-ea29-45d0-a0c2-5910905a0c15",
+                "Label": "ETFs",
+                "Name": "etfs",
+                "PageId": "9b896772-6aa8-4bbd-8935-864f831f0096",
+                "Url": "/page/etfs"
+            },
+            {
+                "IconType": "",
+                "Id": "79a1234c-2440-4b5f-a8de-583401d3e2e3",
+                "Label": "Funds",
+                "Name": "funds",
+                "PageId": "b2a7fb3a-3259-43b7-8ec9-4aa1b2dad47e",
+                "Url": "/page/funds"
+            },
+            {
+                "IconType": "",
+                "Id": "13ce4bd0-4425-4397-ac40-95fa4ecab6c7",
+                "Label": "Test",
+                "Name": "test",
+                "PageId": "62a1f0ee-615f-47c6-992a-626c53d088e2",
+                "Url": "/page/test"
+            },
+            {
+                "IconType": "",
+                "Id": "b22198e9-803a-46d0-832f-f3834e608dc2",
+                "Label": "Test1",
+                "Name": "test1",
+                "PageId": "9b128107-864d-456f-b5c8-dd849fdb0f1c",
+                "Url": "/page/test1"
+            }
+        ]
+    },
+    "MappedSections": {
+        "Matchers": [
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [30528, 3400711, 12799673]
+                },
+                "PageId": "Index_cn_trader"
+            },
+            {
+                "Rule": {
+                    "AssetType": "Bond",
+                    "Uic": [12572271]
+                },
+                "PageId": "Index_banner_trader"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [1909050]
+                },
+                "PageId": "Index_us_trader"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [1907570]
+                },
+                "PageId": "Index_de_trader"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [13720]
+                },
+                "PageId": "Index_au_trader"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [12799674]
+                },
+                "PageId": "Index_hk_trader"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [12799676]
+                },
+                "PageId": "Index_sg_trader"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [12799676]
+                },
+                "PageId": "Index_sg_trader"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [12799675]
+                },
+                "PageId": "Index_jp_trader"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [12799672]
+                },
+                "PageId": "Index_th_trader"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [12799671]
+                },
+                "PageId": "Index_tw_trader"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [12799670]
+                },
+                "PageId": "Index_my_trader"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [12799182]
+                },
+                "PageId": "Index_kr_trader"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [12799181]
+                },
+                "PageId": "Index_id_trader"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [26586]
+                },
+                "PageId": "Index_se_trader"
+            },
+            {
+                "Rule": {
+                    "AssetType": "StockIndex",
+                    "Uic": [5889633]
+                },
+                "PageId": "Index_dk_trader"
+            }
+        ]
+    },
+    "Pages": [
+        {
+            "Id": "440f88ea-87cf-43c6-8afc-10e1718ae4cf_trader",
+            "Name": "fundview",
+            "Tags": [],
+            "Title": "",
+            "Url": "/page/fundview"
+        },
+        {
+            "Id": "f5765448-7338-4f7e-bc65-0eb1b6096e8c_trader",
+            "Name": "markets",
+            "Tags": [],
+            "Title": "Markets",
+            "Url": "/page/markets"
+        },
+        {
+            "Id": "1dfd7eec-9afb-4051-b145-2139a9ea9232_trader",
+            "Name": "stockview",
+            "Tags": [],
+            "Title": "Stocks",
+            "Url": "/page/stockview"
+        },
+        {
+            "Id": "a6347f74-4709-41ef-b874-fedc1fa88fdf_trader",
+            "Name": "stocks",
+            "Tags": [],
+            "Title": "Stocks",
+            "Url": "/page/stocks"
+        },
+        {
+            "Id": "e9cb5c55-955a-40e3-acf1-c15f288de953_trader",
+            "Name": "education",
+            "Tags": [],
+            "Title": "Education",
+            "Url": "/page/education"
+        },
+        {
+            "Id": "e9a24073-f497-4f85-8fdb-cf2f5725380b_trader",
+            "Name": "bonds",
+            "Tags": [],
+            "Title": "Bonds",
+            "Url": "/page/bonds"
+        },
+        {
+            "Id": "7af175e1-e8b4-488d-b586-d5bff30675f1_trader",
+            "Name": "etfs",
+            "Tags": [],
+            "Title": "ETFs",
+            "Url": "/page/etfs"
+        },
+        {
+            "Id": "6acfe33e-baf3-4c35-9f3c-086454e00712_trader",
+            "Name": "mutualfunds",
+            "Tags": [],
+            "Title": "Funds",
+            "Url": "/page/mutualfunds"
+        },
+        {
+            "Id": "4d3864ef-0677-4948-9f8f-efa681c7d075_trader",
+            "Name": "more-fundhouses",
+            "Tags": [],
+            "Title": "Danish funds",
+            "Url": "/page/more-fundhouses"
+        },
+        {
+            "Id": "e998528b-bfd1-42b7-82f7-9b70a8dc4a21_trader",
+            "Name": "themes",
+            "Tags": [],
+            "Title": "Themes",
+            "Url": "/page/themes"
+        },
+        {
+            "Id": "36229f6d-7b88-4015-bf1c-2b8e781d212b_trader",
+            "Name": "fundthemes",
+            "Tags": [],
+            "Title": "Fund Inspiration",
+            "Url": "/page/fundthemes"
+        },
+        {
+            "Id": "cfc243de-65a2-40ea-b040-19f58278853b_trader",
+            "Name": "fundtheme1",
+            "Tags": [],
+            "Title": "Funds for share saving account",
+            "Url": "/page/fundtheme1"
+        },
+        {
+            "Id": "02578a59-3180-42a8-8c1e-0dd3f06197e1_trader",
+            "Name": "fundtheme2",
+            "Tags": [],
+            "Title": "Responsible investments",
+            "Url": "/page/fundtheme2"
+        },
+        {
+            "Id": "d5b9ccf4-87c2-4b4d-a11e-097440a7c604_trader",
+            "Name": "fundtheme3",
+            "Tags": [],
+            "Title": "Danish stocks",
+            "Url": "/page/fundtheme3"
+        },
+        {
+            "Id": "05512692-4e27-45fb-b061-277ee454d040_trader",
+            "Name": "fundtheme4",
+            "Tags": [],
+            "Title": "Balanced funds",
+            "Url": "/page/fundtheme4"
+        },
+        {
+            "Id": "06572cfe-a657-4257-a402-6c218269efae_trader",
+            "Name": "fundtheme5",
+            "Tags": [],
+            "Title": "Global stock funds",
+            "Url": "/page/fundtheme5"
+        },
+        {
+            "Id": "ce7b3036-b7f9-4b7c-b7bc-dda364b029d0_trader",
+            "Name": "fundtheme6",
+            "Tags": [],
+            "Title": "Emerging markets",
+            "Url": "/page/fundtheme6"
+        },
+        {
+            "Id": "2334128d-451d-41f1-949c-16ad4489fd73_trader",
+            "Name": "theme1",
+            "Tags": [],
+            "Title": "Chinese technology",
+            "Url": "/page/theme1"
+        },
+        {
+            "Id": "78e33716-d608-4613-9855-12d2145678c9_trader",
+            "Name": "theme2",
+            "Tags": [],
+            "Title": "Cybersecurity",
+            "Url": "/page/theme2"
+        },
+        {
+            "Id": "35eb36e5-9301-4ed4-9f6d-a874939cda69_trader",
+            "Name": "theme3",
+            "Tags": [],
+            "Title": "Digitalization",
+            "Url": "/page/theme3"
+        },
+        {
+            "Id": "a9347915-4616-4520-aaf7-dc33ac7bc073_trader",
+            "Name": "theme4",
+            "Tags": [],
+            "Title": "Electric cars and battery technology",
+            "Url": "/page/theme4"
+        },
+        {
+            "Id": "1852726f-1c73-4662-bbc7-a5673853c7d0_trader",
+            "Name": "theme5",
+            "Tags": [],
+            "Title": "Emerging markets' consumer growth",
+            "Url": "/page/theme5"
+        },
+        {
+            "Id": "eaa4c0c7-bdc0-4547-98e0-a2da361bf960_trader",
+            "Name": "theme6",
+            "Tags": [],
+            "Title": "Responsible investments (ESG)",
+            "Url": "/page/theme6"
+        },
+        {
+            "Id": "8f5a5d41-1fb0-4f34-b2da-681664c96719_trader",
+            "Name": "theme7",
+            "Tags": [],
+            "Title": "Renewable energy",
+            "Url": "/page/theme7"
+        },
+        {
+            "Id": "7ca25c04-a01d-435e-92b4-3368b49cbff9_trader",
+            "Name": "theme8",
+            "Tags": [],
+            "Title": "Robotics and automation",
+            "Url": "/page/theme8"
+        },
+        {
+            "Id": "268dfca8-f5d6-4e69-adda-2d77100e7a2f_trader",
+            "Name": "theme9",
+            "Tags": [],
+            "Title": "Emerging markets' infrastructure",
+            "Url": "/page/theme9"
+        },
+        {
+            "Id": "54494b8e-dc56-47b8-8cc0-e7f83725951e_trader",
+            "Name": "theme10",
+            "Tags": [],
+            "Title": "Medical technology",
+            "Url": "/page/theme10"
+        },
+        {
+            "Id": "afeaf94e-ac4f-40d2-9655-91e7e10f04ee_trader",
+            "Name": "theme11",
+            "Tags": [],
+            "Title": "Nordic consumer brands",
+            "Url": "/page/theme11"
+        },
+        {
+            "Id": "a69822b1-9aca-4aeb-8d9f-db807c4472d1_trader",
+            "Name": "theme12",
+            "Tags": [],
+            "Title": "Nordic quality",
+            "Url": "/page/theme12"
+        },
+        {
+            "Id": "8359b61e-aa33-40e7-96db-7cf41ab65b7e_trader",
+            "Name": "dynamicstocktheme1",
+            "Tags": [],
+            "Title": "Growth Stocks",
+            "Url": "/page/dynamicstocktheme1"
+        },
+        {
+            "Id": "7cc1bd7d-8307-43e9-8c04-90b8c03d05f8_trader",
+            "Name": "dynamicstocktheme2",
+            "Tags": [],
+            "Title": "Analysts' favourites",
+            "Url": "/page/dynamicstocktheme2"
+        },
+        {
+            "Id": "d02af08f-a35c-4b58-b249-5cac6cf52273_trader",
+            "Name": "dynamicstocktheme3",
+            "Tags": [],
+            "Title": "Dividend stocks",
+            "Url": "/page/dynamicstocktheme3"
+        },
+        {
+            "Id": "22c556e9-d7fb-44aa-970d-55f49c3c7714_trader",
+            "Name": "dynamicetftheme2",
+            "Tags": [],
+            "Title": "Best return, latest year",
+            "Url": "/page/dynamicetftheme2"
+        },
+        {
+            "Id": "638c90d4-3c57-4ba4-969e-da9b90892659_trader",
+            "Name": "dynamicetftheme3",
+            "Tags": [],
+            "Title": "Lowest ongoing cost",
+            "Url": "/page/dynamicetftheme3"
+        },
+        {
+            "Id": "1206c42d-ae69-4770-895a-c207dcf799ba_trader",
+            "Name": "dynamicmftheme1",
+            "Tags": [],
+            "Title": "Highest return latest year",
+            "Url": "/page/dynamicmftheme1"
+        },
+        {
+            "Id": "d831e9b9-856f-47d7-9828-84e8374e2cb2_trader",
+            "Name": "dynamicmftheme2",
+            "Tags": [],
+            "Title": "Balanced investment funds",
+            "Url": "/page/dynamicmftheme2"
+        },
+        {
+            "Id": "d2546aeb-af1b-429f-a161-ce80108daf50_trader",
+            "Name": "dynamicbondtheme1",
+            "Tags": [],
+            "Title": "Global companies",
+            "Url": "/page/dynamicbondtheme1"
+        },
+        {
+            "Id": "1efe19a5-f4fe-4d50-9b71-2be34f4ecb97_trader",
+            "Name": "dynamicbondtheme2",
+            "Tags": [],
+            "Title": "Bonds with lower minimum ordersize",
+            "Url": "/page/dynamicbondtheme2"
+        },
+        {
+            "Id": "172f3cf7-4f8e-4507-a02f-0b05f57fe2cc_trader",
+            "Name": "marketdata",
+            "Tags": [],
+            "Title": "Market data disclaimer",
+            "Url": "/page/marketdata"
+        },
+        {
+            "Id": "25dcfc3a-7dcf-409a-abd4-5749565ba3f3_trader",
+            "Name": "more-markets",
+            "Tags": [],
+            "Title": "Global markets",
+            "Url": "/page/more-markets"
+        },
+        {
+            "Id": "5003b4f8-9aa3-4f74-9cba-a4e043bede01_trader",
+            "Name": "danish-stocks",
+            "Tags": [],
+            "Title": "Danish stocks",
+            "Url": "/page/danish-stocks"
+        },
+        {
+            "Id": "f19675c3-4a61-4a79-9da2-d63e093460df_trader",
+            "Name": "do-your-own",
+            "Tags": [],
+            "Title": "Create your own search",
+            "Url": "/page/do-your-own"
+        },
+        {
+            "Id": "6922b2e5-d6b6-496c-bb49-a5cf0bd653b9_trader",
+            "Name": "do-your-own-stock",
+            "Tags": [],
+            "Title": "Create your own stock search",
+            "Url": "/page/do-your-own-stock"
+        },
+        {
+            "Id": "04f00c0c-b8cf-490c-9cae-8241529176fb_trader",
+            "Name": "do-your-own-fund",
+            "Tags": [],
+            "Title": "Create your own fund search",
+            "Url": "/page/do-your-own-fund"
+        },
+        {
+            "Id": "8fb5cff8-0770-438f-84ab-2415bc38f5d8_trader",
+            "Name": "do-your-own-dk-fund",
+            "Tags": [],
+            "Title": "Create your own danish fund search",
+            "Url": "/page/do-your-own-dk-fund"
+        },
+        {
+            "Id": "d740b61e-f477-4ef9-9f85-4a8825a45a6b_trader",
+            "Name": "5-star-dk-funds",
+            "Tags": [],
+            "Title": "Danish funds with 5 stars from Morningstar™",
+            "Url": "/page/5-star-dk-funds"
+        },
+        {
+            "Id": "c57bc6ce-6fb8-4698-908f-73e5c74a7643_trader",
+            "Name": "5-star-funds",
+            "Tags": [],
+            "Title": "Funds",
+            "Url": "/page/5-star-funds"
+        },
+        {
+            "Id": "e66f6698-2e4f-4432-aa3d-7cd40cf21602_trader",
+            "Name": "majinvest",
+            "Tags": [],
+            "Title": "Maj Invest",
+            "Url": "/page/majinvest"
+        },
+        {
+            "Id": "efe771a0-c3c5-48da-825d-77c127df7cb8_trader",
+            "Name": "sparinvest",
+            "Tags": [],
+            "Title": "SparInvest",
+            "Url": "/page/sparinvest"
+        },
+        {
+            "Id": "102faeea-4d59-4fdd-9964-c6d68ba66bf2_trader",
+            "Name": "bankinvest",
+            "Tags": [],
+            "Title": "BankInvest",
+            "Url": "/page/bankinvest"
+        },
+        {
+            "Id": "412d1744-e44b-4e9d-b625-2a7677c95966_trader",
+            "Name": "cworldwide",
+            "Tags": [],
+            "Title": "C WorldWide",
+            "Url": "/page/cworldwide"
+        },
+        {
+            "Id": "32fd93c9-db6a-42c0-88fc-bb34a8438608_trader",
+            "Name": "almbrand",
+            "Tags": [],
+            "Title": "Alm. Brand Invest",
+            "Url": "/page/almbrand"
+        },
+        {
+            "Id": "4fc3091a-2916-4834-bdac-79ec9a3011c8_trader",
+            "Name": "bildanmark",
+            "Tags": [],
+            "Title": "BIL Danmark",
+            "Url": "/page/bildanmark"
+        },
+        {
+            "Id": "2c6bd157-b64b-48e1-b0ca-80e26100ab14_trader",
+            "Name": "danskeinvest",
+            "Tags": [],
+            "Title": "Danske Invest",
+            "Url": "/page/danskeinvest"
+        },
+        {
+            "Id": "ba948b12-ed3b-4f3b-b445-fc3043283685_trader",
+            "Name": "fundamentalinvest",
+            "Tags": [],
+            "Title": "Fundamental Invest",
+            "Url": "/page/fundamentalinvest"
+        },
+        {
+            "Id": "9e3b939a-8756-4fee-b77b-f7b422ea2d0e_trader",
+            "Name": "halberg-gundersen",
+            "Tags": [],
+            "Title": "Halberg-Gundersen Invest",
+            "Url": "/page/halberg-gundersen"
+        },
+        {
+            "Id": "bef957f8-ae4f-41b6-9915-94aae4ef55f6_trader",
+            "Name": "handelsinvest",
+            "Tags": [],
+            "Title": "Handelsinvest",
+            "Url": "/page/handelsinvest"
+        },
+        {
+            "Id": "d44a4f54-65f4-49b2-a896-4ff487f9b20e_trader",
+            "Name": "gudme",
+            "Tags": [],
+            "Title": "Gudme Raaschou Invest",
+            "Url": "/page/gudme"
+        },
+        {
+            "Id": "08a665df-f212-49f5-ab0a-1bc7816bdbae_trader",
+            "Name": "nordeainvest",
+            "Tags": [],
+            "Title": "Nordea Invest",
+            "Url": "/page/nordeainvest"
+        },
+        {
+            "Id": "af7d4a21-e3e3-47a1-b94e-0977e17c5eb0_trader",
+            "Name": "pfainvest",
+            "Tags": [],
+            "Title": "PFA Invest",
+            "Url": "/page/pfainvest"
+        },
+        {
+            "Id": "b9dc91dd-b80e-449e-ad0f-fa53b7b5631d_trader",
+            "Name": "nykredit",
+            "Tags": [],
+            "Title": "Nykredit Invest",
+            "Url": "/page/nykredit"
+        },
+        {
+            "Id": "17c0f514-296e-4201-91fe-3c2b87d564bd_trader",
+            "Name": "sebinvest",
+            "Tags": [],
+            "Title": "SEBinvest",
+            "Url": "/page/sebinvest"
+        },
+        {
+            "Id": "033ea71a-2919-4c22-b1ba-d69dae68c953_trader",
+            "Name": "skagen",
+            "Tags": [],
+            "Title": "Skagen Invest",
+            "Url": "/page/skagen"
+        },
+        {
+            "Id": "45c18c21-676c-4f4d-817e-cd92067dcfc9_trader",
+            "Name": "storebrand",
+            "Tags": [],
+            "Title": "Storebrand",
+            "Url": "/page/storebrand"
+        },
+        {
+            "Id": "f1a7671e-4d16-41a4-bc4f-b428d7587b2f_trader",
+            "Name": "sydinvest",
+            "Tags": [],
+            "Title": "Sydinvest",
+            "Url": "/page/sydinvest"
+        },
+        {
+            "Id": "5aea79b8-cc6a-46c8-b693-fb7db174521e_trader",
+            "Name": "laanspar",
+            "Tags": [],
+            "Title": "Lån & Spar Invest",
+            "Url": "/page/laanspar"
+        },
+        {
+            "Id": "e0021daa-68ee-4803-ba31-6e51535e1198_trader",
+            "Name": "jyske-invest",
+            "Tags": [],
+            "Title": "Jyske Invest",
+            "Url": "/page/jyske-invest"
+        },
+        {
+            "Id": "40488ec2-756b-43ce-8982-54adee4809b5_trader",
+            "Name": "do-your-own-etf",
+            "Tags": [],
+            "Title": "Create your own ETF search",
+            "Url": "/page/do-your-own-etf"
+        },
+        {
+            "Id": "41f0d473-c7b3-4bbe-be95-c7840be1d696_trader",
+            "Name": "global-eqt-etfs",
+            "Tags": [],
+            "Title": "Equity ETFs",
+            "Url": "/page/global-eqt-etfs"
+        },
+        {
+            "Id": "33adee43-842d-49f4-82ca-e5f13d7f8013_trader",
+            "Name": "global-bond-etfs",
+            "Tags": [],
+            "Title": "Bond ETFs",
+            "Url": "/page/global-bond-etfs"
+        },
+        {
+            "Id": "383d6dbe-8b14-43d1-bf5d-dc52d5555776_trader",
+            "Name": "em-etfs",
+            "Tags": [],
+            "Title": "Emerging markets ETFs",
+            "Url": "/page/em-etfs"
+        },
+        {
+            "Id": "29714c4e-1410-4f17-96bd-2ae132b88a2a_trader",
+            "Name": "global-eqt-funds",
+            "Tags": [],
+            "Title": "Equity funds",
+            "Url": "/page/global-eqt-funds"
+        },
+        {
+            "Id": "eb8b6346-ca01-4836-9464-3ab1b98346c5_trader",
+            "Name": "global-bond-funds",
+            "Tags": [],
+            "Title": "Bond funds",
+            "Url": "/page/global-bond-funds"
+        },
+        {
+            "Id": "c4ea1742-49c1-415b-a7d4-32fc5c20cc9f_trader",
+            "Name": "em-funds",
+            "Tags": [],
+            "Title": "Emerging markets funds",
+            "Url": "/page/em-funds"
+        },
+        {
+            "Id": "d9ba3a42-f000-41b3-b6c8-6a49afee76e0_trader",
+            "Name": "do-your-own-bonds",
+            "Tags": [],
+            "Title": "Create your own bond search",
+            "Url": "/page/do-your-own-bonds"
+        },
+        {
+            "Id": "769e3953-abb4-4aa2-bc61-cf5fd9071199_trader",
+            "Name": "corp-bonds",
+            "Tags": [],
+            "Title": "Corporate bonds",
+            "Url": "/page/corp-bonds"
+        },
+        {
+            "Id": "7b0326f3-1f3e-488f-8c0b-9d71b51f8ca9_trader",
+            "Name": "dk-bonds",
+            "Tags": [],
+            "Title": "Danish bonds",
+            "Url": "/page/dk-bonds"
+        },
+        {
+            "Id": "c2fa0751-b521-4f95-90ab-3765d0aa4100_trader",
+            "Name": "gov-bonds",
+            "Tags": [],
+            "Title": "Government bonds",
+            "Url": "/page/gov-bonds"
+        },
+        {
+            "Id": "776f583a-e36d-46ed-a247-c3d4f67db009_trader",
+            "Name": "popular-bonds",
+            "Tags": [],
+            "Title": "Popular bonds at Saxo",
+            "Url": "/page/popular-bonds"
+        },
+        {
+            "Id": "8920f9fe-d18f-4181-b58f-637a0f88c738_trader",
+            "Name": "most-traded-int",
+            "Tags": [],
+            "Title": "Saxo's most-traded international stocks",
+            "Url": "/page/most-traded-int"
+        },
+        {
+            "Id": "5a54c1de-b2e3-4a70-9714-944afa6d0505_trader",
+            "Name": "most-popular-etfs",
+            "Tags": [],
+            "Title": "Most-traded ETFs at Saxo",
+            "Url": "/page/most-popular-etfs"
+        },
+        {
+            "Id": "4dd0c7f5-6f0c-40ac-8f58-02c4babc1280_trader",
+            "Name": "us-stocks",
+            "Tags": [],
+            "Title": "US stocks",
+            "Url": "/page/us-stocks"
+        },
+        {
+            "Id": "9781a989-d87a-4468-ad0a-087e03f9993c_trader",
+            "Name": "swedish-stocks",
+            "Tags": [],
+            "Title": "Swedish stocks",
+            "Url": "/page/swedish-stocks"
+        },
+        {
+            "Id": "6ff04e59-97db-4819-8234-ee56b0f2e8ce_trader",
+            "Name": "de-stocks",
+            "Tags": [],
+            "Title": "German stocks",
+            "Url": "/page/de-stocks"
+        },
+        {
+            "Id": "761d269e-2697-414e-b64b-9ac25faad496_trader",
+            "Name": "sector-consumer",
+            "Tags": [],
+            "Title": "Consumer stocks",
+            "Url": "/page/sector-consumer"
+        },
+        {
+            "Id": "9b206fcc-60ee-41d6-809e-44d0a9d48f6d_trader",
+            "Name": "sector-healthcare",
+            "Tags": [],
+            "Title": "Healthcare",
+            "Url": "/page/sector-healthcare"
+        },
+        {
+            "Id": "fe5d52e4-29c6-473f-81cf-d181f82ae98c_trader",
+            "Name": "sector-it",
+            "Tags": [],
+            "Title": "Technology stocks",
+            "Url": "/page/sector-it"
+        },
+        {
+            "Id": "4246423b-0bc1-4f75-a758-a63b2f72b008_trader",
+            "Name": "sector-finance",
+            "Tags": [],
+            "Title": "Finance stocks",
+            "Url": "/page/sector-finance"
+        },
+        {
+            "Id": "51fccaa4-df6e-4276-b48d-967f5d916157_trader",
+            "Name": "get-started",
+            "Tags": [],
+            "Title": "Help portal",
+            "Url": "/page/get-started"
+        },
+        {
+            "Id": "747c1fad-9748-434e-90b6-8c9ad83f567c_trader",
+            "Name": "dk-stocks",
+            "Tags": [],
+            "Title": "Danish stocks",
+            "Url": "/page/dk-stocks"
+        },
+        {
+            "Id": "Index_dk_trader"
+        },
+        {
+            "Id": "Index_se_trader"
+        },
+        {
+            "Id": "Index_sg_trader"
+        },
+        {
+            "Id": "Index_banner_trader"
+        },
+        {
+            "Id": "Index_vn_trader"
+        },
+        {
+            "Id": "Index_id_trader"
+        },
+        {
+            "Id": "Index_kr_trader"
+        },
+        {
+            "Id": "Index_MY_trader"
+        },
+        {
+            "Id": "Index_TW_trader"
+        },
+        {
+            "Id": "Index_TH_trader"
+        },
+        {
+            "Id": "Index_JP_trader"
+        },
+        {
+            "Id": "Index_us_trader"
+        },
+        {
+            "Id": "Index_de_trader"
+        },
+        {
+            "Id": "Index_hk_trader"
+        },
+        {
+            "Id": "Index_au_trader"
+        },
+        {
+            "Id": "Index_cn_trader"
+        },
+        {
+            "Id": "7898af16-f3c6-42a4-931a-76143ddcd452_trader",
+            "Name": "211",
+            "Tags": null,
+            "Title": "",
+            "Url": "/page/product/Stock"
+        },
+        {
+            "Id": "7898af16-f3c6-42a4-931a-76143ddcd459_trader",
+            "Name": "Bond",
+            "Tags": null,
+            "Title": "",
+            "Url": "/page/product/Bond"
+        },
+        {
+            "Id": "7898af16-f3c6-42a4-931a-76143ddcd454_trader",
+            "Name": "FxSpot",
+            "Tags": null,
+            "Title": "",
+            "Url": "/page/product/FxSpot"
+        },
+        {
+            "Id": "7898af16-f3c6-42a4-931a-76143ddcd487_trader",
+            "Name": "Etf",
+            "Tags": null,
+            "Title": "",
+            "Url": "/page/product/Etf"
+        },
+        {
+            "Id": "7898af16-f3c6-42a4-931a-76143ddcd4869_trader",
+            "Name": "MutualFund",
+            "Tags": null,
+            "Title": "",
+            "Url": "/page/product/MutualFund/:uic"
+        },
+        {
+            "Id": "ca5563d0-572a-4ff4-8a16-3a12d5a31dc0_trader",
+            "Name": "education_howto-guides",
+            "Title": "How to guides",
+            "Url": "/page/education_howto-guides"
+        },
+        {
+            "Id": "5f404f20-ac16-43b2-9085-d6d1c4fbac1b_trader",
+            "Name": "education_view-charts",
+            "Title": "Viewing charts",
+            "Url": "/page/education_view-charts"
+        },
+        {
+            "Id": "5f404f20-ac54-43b2-9085-d6d1c4fbac1b_trader",
+            "Name": "srdonstock",
+            "Title": "",
+            "Url": "/page/product/SrdOnStock/:uic"
+        },
+        {
+            "Id": "5f404f20-ac54-43b2-9085-d6d1c4fxyz1b_trader",
+            "Name": "srdonetf",
+            "Title": "",
+            "Url": "/page/product/SrdOnEtf/:uic"
+        }
+    ]
+}

@@ -1,0 +1,387 @@
+[
+    {
+        "ClosedPosition": {
+            "AccountId": "test1",
+            "Amount": 1,
+            "AssetType": "CfdOnIndex",
+            "BuyOrSell": "Buy",
+            "ClientId": "668595",
+            "ClosedProfitLoss": -2.45,
+            "ClosedProfitLossInBaseCurrency": -0.329515284525,
+            "ClosingMarketValue": 0,
+            "ClosingMarketValueInBaseCurrency": 0,
+            "ClosingMethod": "Fifo",
+            "ClosingPositionId": "1497035843",
+            "ClosingPrice": 1095.26,
+            "ConversionRateInstrumentToBaseSettledClosing": true,
+            "ConversionRateInstrumentToBaseSettledOpening": true,
+            "ExecutionTimeClose": "2019-11-12T12:59:50.304432Z",
+            "ExecutionTimeOpen": "2019-11-12T12:59:38.620292Z",
+            "OpeningPositionId": "1497035839",
+            "OpenPrice": 1097.71,
+            "Uic": 4911
+        },
+        "ClosedPositionUniqueId": "1497035839-1497035843",
+        "DisplayAndFormat": {
+            "Currency": "USD",
+            "Decimals": 2,
+            "Description": "US Tech 100 NAS",
+            "Format": "Normal",
+            "Symbol": "US30.I"
+        },
+        "Exchange": {
+            "Description": "",
+            "ExchangeId": "",
+            "IsOpen": true
+        },
+        "NetPositionId": "US30.I__CfdOnIndex"
+    },
+
+    {
+        "ClosedPosition": {
+            "AccountId": "test1",
+            "Amount": 800,
+            "AssetType": "CfdOnFutures",
+            "BuyOrSell": "Buy",
+            "ClientId": "668595",
+            "ClosedProfitLoss": 3.12,
+            "ClosedProfitLossInBaseCurrency": 2.817662094,
+            "ClosingMarketValue": 0,
+            "ClosingMarketValueInBaseCurrency": 0,
+            "ClosingMethod": "Fifo",
+            "ClosingPositionId": "1497035823",
+            "ClosingPrice": 161.49,
+            "ConversionRateInstrumentToBaseSettledClosing": true,
+            "ConversionRateInstrumentToBaseSettledOpening": true,
+            "ExecutionTimeClose": "2019-11-12T12:54:34.892499Z",
+            "ExecutionTimeOpen": "2019-10-31T12:22:21.245757Z",
+            "ExpiryDate": "2019-11-27T00:00:00.000000Z",
+            "OpeningPositionId": "1496972949",
+            "OpenPrice": 161.1,
+            "Uic": 13347933
+        },
+        "ClosedPositionUniqueId": "1496972949-1497035823",
+        "DisplayAndFormat": {
+            "Currency": "USD",
+            "Decimals": 2,
+            "Description": "Euro/US Dollar September 2019",
+            "Format": "Normal",
+            "Symbol": "EURUSDECSEP19"
+        },
+        "Exchange": {
+            "Description": "",
+            "ExchangeId": "",
+            "IsOpen": true
+        },
+        "NetPositionId": "EURUSDECSEP19__CfdOnFuture"
+    },
+    {
+        "ClosedPosition": {
+            "AccountId": "test1",
+            "Amount": 100000,
+            "AssetType": "FxVanillaOption",
+            "BuyOrSell": "Buy",
+            "ClientId": "668595",
+            "ClosedProfitLoss": -507,
+            "ClosedProfitLossInBaseCurrency": -453.47432856,
+            "ClosingMarketValue": 120,
+            "ClosingMarketValueInBaseCurrency": 108.8072832,
+            "ClosingMethod": "Fifo",
+            "ClosingPositionId": "1497035276",
+            "ClosingPremium": 120,
+            "ClosingPremiumInBaseCurrency": 108.8072832,
+            "ClosingPrice": 0.0012,
+            "ConversionRateInstrumentToBaseSettledClosing": true,
+            "ConversionRateInstrumentToBaseSettledOpening": true,
+            "ExecutionTimeClose": "2019-11-12T12:51:50.214030Z",
+            "ExecutionTimeOpen": "2019-10-31T07:34:56.593958Z",
+            "FxOptionData": {
+                "ExpiryCut": "NY",
+                "ExpiryDate": "2019-12-02T00:00:00.000000Z",
+                "PutCall": "Call",
+                "Strike": 0.692
+            },
+            "OpeningPositionId": "1496966941",
+            "OpenPrice": 0.00627,
+            "ProfitLossCurrencyConversion": 1.1935776,
+            "ProfitLossOnTrade": -507,
+            "ProfitLossOnTradeInBaseCurrency": -454.66790616,
+            "Uic": 4
+        },
+        "ClosedPositionUniqueId": "1496966941-1497035276",
+        "DisplayAndFormat": {
+            "Currency": "USD",
+            "Decimals": 4,
+            "Description": "Australian Dollar/US Dollar",
+            "Format": "AllowDecimalPips",
+            "StrikeDecimals": 4,
+            "StrikeFormat": "Normal",
+            "Symbol": "AUDUSD"
+        },
+        "Exchange": {
+            "Description": "Inter Bank",
+            "ExchangeId": "SBFX",
+            "IsOpen": true
+        },
+        "NetPositionId": "AUDUSD__43801NY__0.692__C"
+    },
+    {
+        "ClosedPosition": {
+            "AccountId": "test1",
+            "Amount": 100,
+            "AssetType": "Stock",
+            "BuyOrSell": "Buy",
+            "ClientId": "668595",
+            "ClosedProfitLoss": 0,
+            "ClosedProfitLossInBaseCurrency": -0.13386,
+            "ClosingMarketValue": 100,
+            "ClosingMarketValueInBaseCurrency": 13.319015,
+            "ClosingMethod": "Explicit",
+            "ClosingPositionId": "1496972021",
+            "ClosingPrice": 1,
+            "ConversionRateInstrumentToBaseSettledClosing": true,
+            "ConversionRateInstrumentToBaseSettledOpening": true,
+            "CostClosing": -29,
+            "CostClosingInBaseCurrency": -3.86,
+            "CostOpening": -29,
+            "CostOpeningInBaseCurrency": -3.9,
+            "ExecutionTimeClose": "2019-10-31T10:32:16.000000Z",
+            "ExecutionTimeOpen": "2019-10-31T10:31:43.831570Z",
+            "OpeningPositionId": "1496972017",
+            "OpenPrice": 1,
+            "ProfitLossCurrencyConversion": -0.13386,
+            "ProfitLossOnTrade": 0,
+            "ProfitLossOnTradeInBaseCurrency": 0,
+            "Uic": 15254
+        },
+        "ClosedPositionUniqueId": "1496972017-1496972021",
+        "DisplayAndFormat": {
+            "Currency": "DKK",
+            "Decimals": 2,
+            "Description": "Ambu A/S",
+            "Format": "Normal",
+            "Symbol": "AMBUb:xcse"
+        },
+        "Exchange": {
+            "Description": "NASDAQ OMX Copenhagen",
+            "ExchangeId": "CSE",
+            "IsOpen": true
+        },
+        "NetPositionId": "AMBUb:xcse__Share"
+    },
+    {
+        "ClosedPosition": {
+            "AccountId": "test1",
+            "Amount": 100000,
+            "AssetType": "FxForwards",
+            "BuyOrSell": "Buy",
+            "ClientId": "668595",
+            "ClosedProfitLoss": -507,
+            "ClosedProfitLossInBaseCurrency": -453.47432856,
+            "ClosingMarketValue": 120,
+            "ClosingMarketValueInBaseCurrency": 108.8072832,
+            "ClosingMethod": "Fifo",
+            "ClosingPositionId": "1497035277",
+            "ClosingPremium": 120,
+            "ClosingPremiumInBaseCurrency": 108.8072832,
+            "ClosingPrice": 0.0012,
+            "ConversionRateInstrumentToBaseSettledClosing": true,
+            "ConversionRateInstrumentToBaseSettledOpening": true,
+            "ExecutionTimeClose": "2019-11-12T12:51:50.214030Z",
+            "ExecutionTimeOpen": "2019-10-31T07:34:56.593958Z",
+            "FxOptionData": {
+                "ExpiryCut": "NY",
+                "ValueDate": "2017-05-04T00:00:00Z",
+                "PutCall": "Call",
+                "Strike": 0.692
+            },
+            "OpeningPositionId": "1496966942",
+            "OpenPrice": 0.00627,
+            "ProfitLossCurrencyConversion": 1.1935776,
+            "ProfitLossOnTrade": -507,
+            "ProfitLossOnTradeInBaseCurrency": -454.66790616,
+            "Uic": 21
+        },
+        "ClosedPositionUniqueId": "1496966942-1497035277",
+        "DisplayAndFormat": {
+            "Currency": "USD",
+            "Decimals": 4,
+            "Description": "British Pound/US Dollar",
+            "Format": "AllowDecimalPips",
+            "StrikeDecimals": 4,
+            "StrikeFormat": "Normal",
+            "Symbol": "GBPUSD"
+        },
+        "Exchange": {
+            "CountryCode": "DK",
+            "ExchangeId": "SBFX",
+            "Name": "Inter Bank",
+            "TimeZoneId": "3"
+        },
+        "NetPositionId": "GBPUSD__43801NY__0.692__C"
+    },
+    {
+        "ClosedPosition": {
+            "AccountId": "test1",
+            "Amount": 100000,
+            "AssetType": "FxSpot",
+            "BuyOrSell": "Buy",
+            "ClientId": "668595",
+            "ClosedProfitLoss": -22,
+            "ClosedProfitLossInBaseCurrency": -19.80757515,
+            "ClosingMarketValue": 0,
+            "ClosingMarketValueInBaseCurrency": 0,
+            "ClosingMethod": "Fifo",
+            "ClosingPositionId": "1496967484",
+            "ClosingPrice": 0.69198,
+            "ConversionRateInstrumentToBaseSettledClosing": true,
+            "ConversionRateInstrumentToBaseSettledOpening": true,
+            "CostClosing": -3.46,
+            "CostClosingInBaseCurrency": -3.12,
+            "CostOpening": -3.46,
+            "CostOpeningInBaseCurrency": -3.11,
+            "ExecutionTimeClose": "2019-10-31T07:34:10.958155Z",
+            "ExecutionTimeOpen": "2019-10-31T07:30:05.891618Z",
+            "OpeningPositionId": "1496967480",
+            "OpenPrice": 0.6922,
+            "Uic": 4
+        },
+        "ClosedPositionUniqueId": "1496967480-1496967484",
+        "DisplayAndFormat": {
+            "Currency": "USD",
+            "Decimals": 4,
+            "Description": "Australian Dollar/US Dollar",
+            "Format": "AllowDecimalPips",
+            "Symbol": "AUDUSD"
+        },
+        "Exchange": {
+            "Description": "Inter Bank",
+            "ExchangeId": "SBFX",
+            "IsOpen": true
+        },
+        "NetPositionId": "AUDUSD__FxSpot"
+    },
+    {
+        "ClosedPosition": {
+            "AccountId": "test1",
+            "Amount": 100000,
+            "AssetType": "FxSpot",
+            "BuyOrSell": "Buy",
+            "ClientId": "668595",
+            "ClosedProfitLoss": 150600,
+            "ClosedProfitLossInBaseCurrency": 1238.8001337,
+            "ClosingMarketValue": 0,
+            "ClosingMarketValueInBaseCurrency": 0,
+            "ClosingMethod": "Explicit",
+            "ClosingPositionId": "1496965192",
+            "ClosingPrice": 120.96,
+            "ConversionRateInstrumentToBaseSettledClosing": true,
+            "ConversionRateInstrumentToBaseSettledOpening": true,
+            "CostClosing": -605,
+            "CostClosingInBaseCurrency": -4.98,
+            "CostOpening": -597,
+            "CostOpeningInBaseCurrency": -5.02,
+            "ExecutionTimeClose": "2019-10-30T11:52:51.051763Z",
+            "ExecutionTimeOpen": "2019-10-15T07:32:26.859624Z",
+            "OpeningPositionId": "1496928758",
+            "OpenPrice": 119.454,
+            "Uic": 18
+        },
+        "ClosedPositionUniqueId": "1496928758-1496965192",
+        "DisplayAndFormat": {
+            "Currency": "JPY",
+            "Decimals": 2,
+            "Description": "Euro/Japanese Yen",
+            "Format": "AllowDecimalPips",
+            "Symbol": "EURJPY"
+        },
+        "Exchange": {
+            "Description": "Inter Bank",
+            "ExchangeId": "SBFX",
+            "IsOpen": true
+        },
+        "NetPositionId": "EURJPY__FxSpot"
+    },
+    {
+        "ClosedPosition": {
+            "AccountId": "test1",
+            "Amount": 100000,
+            "AssetType": "MutualFund",
+            "BuyOrSell": "Buy",
+            "ClientId": "668595",
+            "ClosedProfitLoss": 150600,
+            "ClosedProfitLossInBaseCurrency": 1238.8001337,
+            "ClosingMarketValue": 0,
+            "ClosingMarketValueInBaseCurrency": 0,
+            "ClosingMethod": "Explicit",
+            "ClosingPositionId": "1496965192",
+            "ClosingPrice": 120.96,
+            "ConversionRateInstrumentToBaseSettledClosing": true,
+            "ConversionRateInstrumentToBaseSettledOpening": true,
+            "CostClosing": -605,
+            "CostClosingInBaseCurrency": -4.98,
+            "CostOpening": -597,
+            "CostOpeningInBaseCurrency": -5.02,
+            "ExecutionTimeClose": "2019-10-30T11:52:51.051763Z",
+            "ExecutionTimeOpen": "2019-10-15T07:32:26.859624Z",
+            "OpeningPositionId": "1496928758",
+            "OpenPrice": 119.454,
+            "Uic": 8244532
+        },
+        "ClosedPositionUniqueId": "1496928758-1496965892",
+        "DisplayAndFormat": {
+            "Currency": "EUR",
+            "Decimals": 2,
+            "Description": "BGF CONTINENTAL EUROPEAN FLEXIBLE E2",
+            "Format": "AllowDecimalPips",
+            "Symbol": "MIGOEEE.MFU"
+        },
+        "Exchange": {
+            "Description": "Inter Bank",
+            "ExchangeId": "MTU",
+            "IsOpen": true
+        },
+        "NetPositionId": "MIGOEEE.MFU__MutualFund"
+    },
+    {
+        "ClosedPosition": {
+            "AccountId": "test1",
+            "Amount": 100000,
+            "AssetType": "FuturesStrategy",
+            "BuyOrSell": "Buy",
+            "ClientId": "668595",
+            "ClosedProfitLoss": 150600,
+            "ClosedProfitLossInBaseCurrency": 1238.8001337,
+            "ClosingMarketValue": 0,
+            "ClosingMarketValueInBaseCurrency": 0,
+            "ClosingMethod": "Explicit",
+            "ClosingPositionId": "11496965192",
+            "ClosingPrice": 120.96,
+            "ConversionRateInstrumentToBaseSettledClosing": true,
+            "ConversionRateInstrumentToBaseSettledOpening": true,
+            "CostClosing": -605,
+            "CostClosingInBaseCurrency": -4.98,
+            "CostOpening": -597,
+            "CostOpeningInBaseCurrency": -5.02,
+            "ExecutionTimeClose": "2019-10-30T11:52:51.051763Z",
+            "ExecutionTimeOpen": "2019-10-15T07:32:26.859624Z",
+            "OpeningPositionId": "12496928758",
+            "OpenPrice": 119.454,
+            "Uic": 9652951
+        },
+        "ClosedPositionUniqueId": "1196928758-1496965892",
+        "DisplayAndFormat": {
+            "Currency": "USX",
+            "Decimals": 2,
+            "Description": "Lean Hogs Spreads Jun-19 Jul-19",
+            "Format": "AllowDecimalPips",
+            "Symbol": "HEM9-N9"
+        },
+        "Exchange": {
+            "Description": "CME",
+            "ExchangeId": "CME",
+            "IsOpen": true
+        },
+        "NetPositionId": "HEM9-N9__FUTURES"
+    }
+]

@@ -1,0 +1,90 @@
+{
+    "UserDefined": [
+        {
+            "Name": "Screener-11",
+            "PrimaryAssetType": "Stock",
+            "Query": {
+                "AssetTypes": ["Stock"],
+                "OrderBy": [
+                    {
+                        "IsAscending": false,
+                        "PropertyName": "ThreeMonthPopularity"
+                    }
+                ],
+                "Size": 2
+            },
+            "Type": "UserDefined",
+            "WatchlistId": "11147"
+        },
+        {
+            "Name": "Screener-12",
+            "PrimaryAssetType": "Bond",
+            "Query": {
+                "AssetTypes": ["Bond"],
+                "OrderBy": [
+                    {
+                        "IsAscending": false,
+                        "PropertyName": "ThreeMonthPopularity"
+                    }
+                ],
+                "Size": 20
+            },
+            "Type": "UserDefined",
+            "WatchlistId": "11150"
+        },
+        {
+            "Name": "Screener-13",
+            "PrimaryAssetType": "SrdOnStock",
+            "Query": {
+                "AssetTypes": ["SrdOnStock"],
+                "OrderBy": [
+                    {
+                        "IsAscending": false,
+                        "PropertyName": "ThreeMonthPopularity"
+                    }
+                ],
+                "Size": 2
+            },
+            "Type": "UserDefined",
+            "WatchlistId": "10691"
+        },
+        {
+            "Name": "My Screener List",
+            "PrimaryAssetType": "MutualFund",
+            "Query": {
+                "AssetTypes": ["MutualFund"],
+                "FundRatings": ["Below Avg"],
+                "OrderBy": [
+                    {
+                        "IsAscending": false,
+                        "PropertyName": "ThreeMonthPopularity"
+                    }
+                ],
+                "Size": 2
+            },
+            "WatchlistId": "1748221"
+        },
+        {
+            "Name": "Mutual Funds with Export To Watchlist",
+            "PrimaryAssetType": "MutualFund",
+            "WatchlistId": "1748222"
+        },
+        {
+            "Name": "Explore",
+            "PrimaryAssetType": "FxSpot",
+            "Query": {
+                "AssetTypes": ["FxSpot"],
+                "IncludeNonTradable": false,
+                "OrderBy": [
+                    {
+                        "IsAscending": false,
+                        "PropertyName": "ThreeMonthsPopularity"
+                    }
+                ],
+                "Size": 50
+            },
+            "WatchlistId": "2708700",
+            "Type": "UserDefined"
+        }
+    ]
+}

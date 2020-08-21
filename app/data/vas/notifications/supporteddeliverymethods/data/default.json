@@ -1,0 +1,84 @@
+{
+    "Data": [
+        {
+            "MethodId": "GcmPush",
+            "NotificationSupportlevelId": "SubscriptionBased",
+            "TypeId": "TradeConfirmation"
+        },
+        {
+            "MethodId": "ApplePush",
+            "NotificationSupportlevelId": "SubscriptionBased",
+            "TypeId": "TradeConfirmation"
+        },
+        {
+            "MethodId": "Email",
+            "NotificationSupportlevelId": "SubscriptionBased",
+            "TypeId": "TradeConfirmation"
+        },
+        {
+            "MethodId": "GcmPush",
+            "NotificationSupportlevelId": "SubscriptionBased",
+            "TypeId": "MarginCall"
+        },
+        {
+            "MethodId": "ApplePush",
+            "NotificationSupportlevelId": "SubscriptionBased",
+            "TypeId": "MarginCall"
+        },
+        {
+            "MethodId": "GcmPush",
+            "NotificationSupportlevelId": "SubscriptionBased",
+            "TypeId": "PriceAlert"
+        },
+        {
+            "MethodId": "ApplePush",
+            "NotificationSupportlevelId": "SubscriptionBased",
+            "TypeId": "PriceAlert"
+        },
+        {
+            "MethodId": "GcmPush",
+            "NotificationSupportlevelId": "SubscriptionBased",
+            "TypeId": "Security"
+        },
+        {
+            "MethodId": "ApplePush",
+            "NotificationSupportlevelId": "SubscriptionBased",
+            "TypeId": "Security"
+        },
+        {
+            "MethodId": "Email",
+            "NotificationSupportlevelId": "SubscriptionBased",
+            "TypeId": "Security"
+        },
+        {
+            "MethodId": "GcmPush",
+            "NotificationSupportlevelId": "SubscriptionBased",
+            "TypeId": "Message"
+        },
+        {
+            "MethodId": "ApplePush",
+            "NotificationSupportlevelId": "SubscriptionBased",
+            "TypeId": "Message"
+        },
+        {
+            "MethodId": "Email",
+            "NotificationSupportlevelId": "SubscriptionBased",
+            "TypeId": "Message"
+        },
+        {
+            "MethodId": "GcmPush",
+            "NotificationSupportlevelId": "SubscriptionBased",
+            "TypeId": "Account"
+        },
+        {
+            "MethodId": "ApplePush",
+            "NotificationSupportlevelId": "SubscriptionBased",
+            "TypeId": "Account"
+        },
+        {
+            "MethodId": "Email",
+            "NotificationSupportlevelId": "SubscriptionBased",
+            "TypeId": "Account"
+        }
+    ]
+}

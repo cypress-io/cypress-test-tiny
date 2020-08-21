@@ -1,0 +1,10 @@
+{
+    "Amount": 100,
+    "AmountToCharge": 115.0463775,
+    "AmountToDeposit": 115.0463775,
+    "DisplayFeeDisclaimer": true,
+    "ExchangeRate": 1.150503575,
+    "FromCurrency": "EUR",
+    "ToCurrency": "USD",
+    "TransactionFee": 0.0
+}

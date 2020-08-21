@@ -1,0 +1,568 @@
+{
+    "AssetType": "WarrantDoubleKnockOut",
+    "CountryCode": "CN",
+    "CurrencyCode": "CNH",
+    "Description": "Bank Of China",
+    "ExchangeId": "SHANGHAI_SC",
+    "Financials": [
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 21267275000000.0
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 1109376000000.0
+                },
+                {
+                    "Key": "SharesOutstanding",
+                    "Value": 294387791241.0
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 501997000000.0
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 180086000000.0
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 0.59
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 0.176
+                },
+                {
+                    "Key": "ROE",
+                    "Value": 0.123789
+                },
+                {
+                    "Key": "DebtTotalCapitalRatio",
+                    "Value": 0.326552
+                }
+            ],
+            "ReportingPeriod": "2018-12-31"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 19467424000000.0
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 740820000000.0
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 482116000000.0
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 172407000000.0
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 0.56
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 0.168
+                },
+                {
+                    "Key": "ROE",
+                    "Value": 0.127319
+                },
+                {
+                    "Key": "DebtTotalCapitalRatio",
+                    "Value": 0.250171
+                }
+            ],
+            "ReportingPeriod": "2017-12-31"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 18148889000000.0
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 548735000000.0
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 482733000000.0
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 164578000000.0
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 0.54
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 0.175
+                },
+                {
+                    "Key": "ROE",
+                    "Value": 0.130763
+                },
+                {
+                    "Key": "DebtTotalCapitalRatio",
+                    "Value": 0.204238
+                }
+            ],
+            "ReportingPeriod": "2016-12-31"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 16815597000000.0
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 547375000000.0
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 471987000000.0
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 170845000000.0
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 0.56
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 0.19
+                },
+                {
+                    "Key": "ROE",
+                    "Value": 0.150237
+                },
+                {
+                    "Key": "DebtTotalCapitalRatio",
+                    "Value": 0.178181
+                }
+            ],
+            "ReportingPeriod": "2015-12-31"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 15251382000000.0
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 466314000000.0
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 455012000000.0
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 169595000000.0
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 0.58
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 0.196
+                },
+                {
+                    "Key": "ROE",
+                    "Value": 0.170188
+                },
+                {
+                    "Key": "DebtTotalCapitalRatio",
+                    "Value": 0.195958
+                }
+            ],
+            "ReportingPeriod": "2014-12-31"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 13874299000000.0
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 492609000000.0
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 406416000000.0
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 156911000000.0
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 0.54
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 0.175
+                },
+                {
+                    "Key": "ROE",
+                    "Value": 0.179471
+                },
+                {
+                    "Key": "DebtTotalCapitalRatio",
+                    "Value": 0.19563
+                }
+            ],
+            "ReportingPeriod": "2013-12-31"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 12680615000000.0
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 442676000000.0
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 365478000000.0
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 139432000000.0
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 0.48
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 0.155
+                },
+                {
+                    "Key": "ROE",
+                    "Value": 0.180163
+                },
+                {
+                    "Key": "DebtTotalCapitalRatio",
+                    "Value": 0.194502
+                }
+            ],
+            "ReportingPeriod": "2012-12-31"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 11830066000000.0
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 401100000000.0
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 327650000000.0
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 124182000000.0
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 0.43
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 0.146
+                },
+                {
+                    "Key": "ROE",
+                    "Value": 0.181642
+                },
+                {
+                    "Key": "DebtTotalCapitalRatio",
+                    "Value": 0.190246
+                }
+            ],
+            "ReportingPeriod": "2011-12-31"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 10459865000000.0
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 287444000000.0
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 275788000000.0
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 104418000000.0
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 0.39
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 0.135616
+                },
+                {
+                    "Key": "ROE",
+                    "Value": 0.180162
+                },
+                {
+                    "Key": "DebtTotalCapitalRatio",
+                    "Value": 0.169946
+                }
+            ],
+            "ReportingPeriod": "2010-12-31"
+        },
+        {
+            "BalanceSheets": [
+                {
+                    "Key": "TotalAssets",
+                    "Value": 8751943000000.0
+                },
+                {
+                    "Key": "TotalDebt",
+                    "Value": 181594000000.0
+                }
+            ],
+            "Incomes": [
+                {
+                    "Key": "Sales",
+                    "Value": 231377000000.0
+                },
+                {
+                    "Key": "NetIncome",
+                    "Value": 80819000000.0
+                }
+            ],
+            "KeyNumbers": [
+                {
+                    "Key": "EarningsPerShare",
+                    "Value": 0.309978
+                },
+                {
+                    "Key": "DividendPerShare",
+                    "Value": 0.125929
+                },
+                {
+                    "Key": "ROE",
+                    "Value": 0.164389
+                },
+                {
+                    "Key": "DebtTotalCapitalRatio",
+                    "Value": 0.129772
+                }
+            ],
+            "ReportingPeriod": "2009-12-31"
+        }
+    ],
+    "Format": {
+        "Decimals": 2
+    },
+    "GeneralInfo": {
+        "StockInfo": {
+            "Beta": 0.600028,
+            "Description": "The Bank of China, with its headquarters in Beijing and founded in 1912, has evolved as a central bank, international exchange bank, and state-owned bank specializing in foreign trade business. BOC was listed on the Hong Kong and Shanghai stock exchanges in 2006. It provides a comprehensive range of financial services to customers across greater China and overseas. Central Huijin, a Chinese state-owned investment company and BOC's largest shareholder, controls 68%.",
+            "MarketCap": 1029440911328.0,
+            "PriceEarnings": 6.049607,
+            "SalesGrowthRatePct": 4.1237
+        }
+    },
+    "Instrument": "601988:xssc",
+    "MinimumTradeSize": 1.0,
+    "RevenueExposure": {
+        "Countries": [
+            {
+                "Key": "China, People's Republic of",
+                "Pct": 77.0169380632488
+            },
+            {
+                "Key": "Hong Kong, Macao and Taiwan: Bank of China, Hong Kong",
+                "Pct": 11.4854584443382
+            },
+            {
+                "Key": "Hong Kong, Macao and Taiwan: Other",
+                "Pct": 6.6313302532994
+            },
+            {
+                "Key": "Macao",
+                "Pct": 0.971935488697267
+            },
+            {
+                "Key": "Mainland China",
+                "Pct": 77.7656330898004
+            },
+            {
+                "Key": "Offset",
+                "Pct": -0.549486517743257
+            },
+            {
+                "Key": "Other countries and regions",
+                "Pct": 4.66706473030527
+            },
+            {
+                "Key": "Taiwan",
+                "Pct": 10.5023025899929
+            },
+            {
+                "Key": "United States",
+                "Pct": 1.74431194460408
+            },
+            {
+                "CountryCode": "AUS",
+                "Key": "Australia",
+                "Pct": 0.121898262413154
+            },
+            {
+                "CountryCode": "BRA",
+                "Key": "Brazil",
+                "Pct": 0.159044155685546
+            },
+            {
+                "CountryCode": "CAN",
+                "Key": "Canada",
+                "Pct": 0.145485778505447
+            },
+            {
+                "CountryCode": "DEU",
+                "Key": "Germany",
+                "Pct": 0.340175710305466
+            },
+            {
+                "CountryCode": "ESP",
+                "Key": "Spain",
+                "Pct": 0.121387070771856
+            },
+            {
+                "CountryCode": "FRA",
+                "Key": "France",
+                "Pct": 0.236404034993082
+            },
+            {
+                "CountryCode": "GBR",
+                "Key": "United Kingdom",
+                "Pct": 0.240461596372985
+            },
+            {
+                "CountryCode": "HKG",
+                "Key": "Hong Kong",
+                "Pct": 6.46812974711923
+            },
+            {
+                "CountryCode": "IDN",
+                "Key": "Indonesia",
+                "Pct": 0.088702375353763
+            },
+            {
+                "CountryCode": "IND",
+                "Key": "India",
+                "Pct": 0.232045180851656
+            },
+            {
+                "CountryCode": "ITA",
+                "Key": "Italy",
+                "Pct": 0.176515779723656
+            },
+            {
+                "CountryCode": "JPN",
+                "Key": "Japan",
+                "Pct": 0.423088959399209
+            },
+            {
+                "CountryCode": "KOR",
+                "Key": "Korea, Republic of",
+                "Pct": 0.137833821584767
+            },
+            {
+                "CountryCode": "MEX",
+                "Key": "Mexico",
+                "Pct": 0.10416190390576
+            },
+            {
+                "CountryCode": "NLD",
+                "Key": "Netherlands",
+                "Pct": 0.0776971969672445
+            },
+            {
+                "CountryCode": "RUS",
+                "Key": "Russian Federation",
+                "Pct": 0.14107918143634
+            },
+            {
+                "CountryCode": "SAU",
+                "Key": "Saudi Arabia",
+                "Pct": 0.0665994247934666
+            },
+            {
+                "CountryCode": "TUR",
+                "Key": "Turkey",
+                "Pct": 0.0652397991919166
+            }
+        ]
+    },
+    "Uic": 9450680
+}

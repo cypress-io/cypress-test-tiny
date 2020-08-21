@@ -1,0 +1,26 @@
+{
+    "ClientUserInformations": [
+        {
+            "ClientId": 65,
+            "ClientName": "Client65",
+            "Token": "Token65",
+            "UserId": 0,
+            "UserName": "User12"
+        },
+        {
+            "ClientId": 75,
+            "ClientName": "Client75",
+            "Token": "Token75",
+            "UserId": 123,
+            "UserName": "User123"
+        },
+        {
+            "ClientId": 85,
+            "ClientName": "Client85",
+            "Token": "Token85",
+            "UserId": 1234,
+            "UserName": "User1234"
+        }
+    ],
+    "DefaultUserId": 12
+}

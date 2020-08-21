@@ -1,0 +1,27 @@
+{
+    "AccountCurrency": "GBP",
+    "AmountCurrency": "USD",
+    "AssetTypeClassification": "Fixed Income",
+    "CommissionLimits": [
+        {
+            "Currency": "EUR",
+            "OrderAction": "ExecuteOrder"
+        }
+    ],
+    "CurrencyCutSpreadRate": 0.5,
+    "FundCountry": "Luxembourg ",
+    "FundCountryCode": "LU",
+    "HasKID": true,
+    "InstrumentCurrency": "EUR",
+    "InternalCosts": {
+        "EligilbeForTraspaso": true,
+        "ManagementFeePct": 0.75,
+        "OngoingCostPct": 1.4,
+        "EntryCostPct": 0.4,
+        "ExitCostPct": 0.3
+    },
+    "IsTradable": true,
+    "MinOrderSize": 2500,
+    "MinOrderSizeCurrency": "USD",
+    "Rating": 3
+}

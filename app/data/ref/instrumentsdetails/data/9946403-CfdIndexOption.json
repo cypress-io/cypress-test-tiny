@@ -1,0 +1,63 @@
+{
+    "AmountDecimals": 0,
+    "AssetType": "CfdIndexOption",
+    "ContractSize": 1,
+    "CurrencyCode": "EUR",
+    "DefaultAmount": 1,
+    "Description": "DAX Index Dec2018 11700 C",
+    "ExpiryDate": "2019-09-20",
+    "Format": {
+        "Decimals": 2,
+        "OrderDecimals": 2,
+        "StrikeDecimals": 2
+    },
+    "GroupId": 0,
+    "IncrementSize": 1,
+    "Isin": "DE0008469495",
+    "IsTradable": true,
+    "LotSizeText": "0",
+    "LotSizeType": "OddLotsNotAllowed",
+    "OptionsChainSubscriptionAllowed": true,
+    "OrderDistances": {
+        "EntryDefaultDistance": 0,
+        "EntryDefaultDistanceType": "Percentage",
+        "StopLimitDefaultDistance": 5,
+        "StopLimitDefaultDistanceType": "Pips",
+        "StopLossDefaultDistance": 0.5,
+        "StopLossDefaultDistanceType": "Percentage",
+        "StopLossDefaultEnabled": false,
+        "StopLossDefaultOrderType": "Stop",
+        "TakeProfitDefaultDistance": 0.5,
+        "TakeProfitDefaultDistanceType": "Percentage",
+        "TakeProfitDefaultEnabled": false
+    },
+    "OrderSetting": {},
+    "PriceCurrency": "EUR",
+    "PriceToContractFactor": 1,
+    "PutCall": "Call",
+    "RelatedInstruments": [],
+    "RelatedOptionRoots": [1],
+    "RelatedOptionRootsEnhanced": [
+        {
+            "AssetType": "CfdIndexOption",
+            "OptionRootId": 1
+        }
+    ],
+    "Exchange": {
+        "CountryCode": "DE",
+        "ExchangeId": "EUREX",
+        "Name": "Eurex"
+    },
+    "SettlementStyle": "CashDelivery",
+    "StandardAmounts": [1, 5, 10, 25, 50, 100, 500, 1000],
+    "StrikePrice": 11700,
+    "SupportedOrderTypes": ["Limit"],
+    "Symbol": "ODAX/Z18C11700",
+    "TickSize": 0.1,
+    "TradableAs": ["CfdIndexOption"],
+    "TradableOn": [],
+    "TradingSignals": "NotAllowed",
+    "Uic": 9946403,
+    "UnderlyingAssetType": "StockIndex",
+    "UnderlyingUic": 1957254
+}

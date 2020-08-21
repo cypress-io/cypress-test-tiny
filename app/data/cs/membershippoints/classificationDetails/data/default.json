@@ -1,0 +1,26 @@
+{
+    "CurrentClassification": {
+        "Classification": {
+            "Key": "1",
+            "Value": "Classic"
+        },
+        "EndDate": "2019-12-10",
+        "StartDate": "2019-09-10",
+        "Points": 0,
+        "ValidUntil": "2019-12-10"
+    },
+    "TargetClassification": {
+        "ActionType": {
+            "Key": "Get",
+            "Value": "GET"
+        },
+        "Classification": {
+            "Key": "3",
+            "Value": "Platinum"
+        },
+        "DaysLeft": 5,
+        "EndDate": "2019-10-10",
+        "Points": 30000,
+        "StartDate": "2019-09-10"
+    }
+}

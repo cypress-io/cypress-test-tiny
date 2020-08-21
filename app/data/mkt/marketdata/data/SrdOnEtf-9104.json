@@ -1,0 +1,323 @@
+{
+    "AssetAllocations": [
+        {
+            "Key": "Stock",
+            "Pct": 100
+        },
+        {
+            "Key": "Bond",
+            "Pct": 0
+        },
+        {
+            "Key": "Cash",
+            "Pct": 0
+        },
+        {
+            "Key": "Convertible",
+            "Pct": 0
+        },
+        {
+            "Key": "Other",
+            "Pct": 0
+        },
+        {
+            "Key": "Preferred",
+            "Pct": 0
+        }
+    ],
+    "AssetType": "SrdOnEtf",
+    "CountryCode": "FR",
+    "CountryWeightAllocations": [
+        {
+            "Country": {
+                "Key": "France",
+                "Value": "France"
+            },
+            "CountryCode": "FRA",
+            "Pct": 94.63586
+        },
+        {
+            "Country": {
+                "Key": "Netherlands",
+                "Value": "Netherlands"
+            },
+            "CountryCode": "NLD",
+            "Pct": 3.5015
+        },
+        {
+            "Country": {
+                "Key": "Singapore",
+                "Value": "Singapore"
+            },
+            "CountryCode": "SGP",
+            "Pct": 1.28093
+        },
+        {
+            "Country": {
+                "Key": "United States of America ",
+                "Value": "United States of America "
+            },
+            "CountryCode": "USA",
+            "Pct": 0.58171
+        }
+    ],
+    "CurrencyCode": "EUR",
+    "Description": "Lyxor UCITS ETF CAC 40",
+    "ExchangeId": "PAR",
+    "Format": {
+        "Decimals": 2
+    },
+    "GeneralInfo": {
+        "FundInfo": {
+            "AssetClassification": {
+                "Key": "SICAV",
+                "Value": "SICAV"
+            },
+            "Benchmark": "Euronext Paris CAC 40 GR EUR",
+            "BroadAssetClass": {
+                "Key": "Equity",
+                "Value": "Equity"
+            },
+            "Description": "The Lyxor CAC 40 (DR) UCITS ETF is a UCITS compliant exchange traded fund that aims to track the benchmark index CAC 40 Total Return Index so genau wie möglich abzubilden.The index tracks the performance of the 40 largest French stocks by free float market capitalization and turnover. The index is a gross total return index and assumes that gross dividends (withholding taxes are not deducted) paid by its constituents are reinvested in the index. More information on www.euronext.com.Lyxor ETFs are efficient investment vehicles listed on exchange that offer transparent, liquid and low-cost exposure to the underlying benchmark index.",
+            "Distribution": "true",
+            "DistributionFeePercOfNAVActualPct": 0,
+            "DistributionFeePercOfNAVEstimatedPct": 0,
+            "DistributionFrequency": {
+                "Key": "Annually",
+                "Value": "Annually"
+            },
+            "Domicile": "France",
+            "Exchange": "PAR",
+            "FundBaseCurrency": "EUR",
+            "FundCategory": {
+                "Key": "Europe Equity Large Cap",
+                "Value": "Europe Equity Large Cap"
+            },
+            "FundSizeMio": 3258.809,
+            "FundType": {
+                "Key": "SICAV",
+                "Value": "SICAV"
+            },
+            "InceptionDate": "2000-12-13",
+            "IssuerName": "Lyxor International Asset Management S.A.S.",
+            "MaxExitChargesPct": 0,
+            "MaxInitialChargesPct": 0,
+            "MgtFeeActualPct": 0.25,
+            "MgtFeeEstimatedPct": 0.25,
+            "OngoingCostActualPct": 0.25,
+            "OngoingCostEstimatedPct": 0.25,
+            "Rating": 4,
+            "RatingEffectiveEndDate": "2020-04-30",
+            "ShareClassCurrency": "Euro",
+            "ShareClassInception": "2000-12-13",
+            "TransactionFeeEstimatedPct": 0.016,
+            "TypicalExitCostPct": 0
+        }
+    },
+    "Instrument": "CAC:xpar",
+    "MinimumTradeSize": 1,
+    "Performance": {
+        "FundBased": [
+            {
+                "Date": "2020-05-28",
+                "Pct": 1.39681,
+                "ReportingPeriod": {
+                    "DisplayValue": "MTD - Month to Date",
+                    "Key": "D0"
+                }
+            },
+            {
+                "Date": "2020-05-28",
+                "Pct": 1.46027,
+                "ReportingPeriod": {
+                    "DisplayValue": "1 Day",
+                    "Key": "D1"
+                }
+            },
+            {
+                "Date": "2020-05-28",
+                "Pct": -22.10065,
+                "ReportingPeriod": {
+                    "DisplayValue": "YTD - Year to Date",
+                    "Key": "M0"
+                }
+            },
+            {
+                "Date": "2020-05-28",
+                "Pct": 5.53058,
+                "ReportingPeriod": {
+                    "DisplayValue": "1 Month",
+                    "Key": "M1"
+                }
+            },
+            {
+                "Date": "2020-05-28",
+                "Pct": -11.33071,
+                "ReportingPeriod": {
+                    "DisplayValue": "1 Year",
+                    "Key": "M12"
+                }
+            },
+            {
+                "Date": "2020-05-28",
+                "Pct": 86.02783,
+                "ReportingPeriod": {
+                    "DisplayValue": "10 Years",
+                    "Key": "M120"
+                }
+            },
+            {
+                "Date": "2020-05-28",
+                "Pct": 35.49251,
+                "ReportingPeriod": {
+                    "DisplayValue": "Since Inception",
+                    "Key": "M255"
+                }
+            },
+            {
+                "Date": "2020-05-28",
+                "Pct": -18.10989,
+                "ReportingPeriod": {
+                    "DisplayValue": "3 Months",
+                    "Key": "M3"
+                }
+            },
+            {
+                "Date": "2020-05-28",
+                "Pct": -6.13116,
+                "ReportingPeriod": {
+                    "DisplayValue": "3 Years",
+                    "Key": "M36"
+                }
+            },
+            {
+                "Date": "2020-05-28",
+                "Pct": -21.40778,
+                "ReportingPeriod": {
+                    "DisplayValue": "6 Months",
+                    "Key": "M6"
+                }
+            },
+            {
+                "Date": "2020-05-28",
+                "Pct": 4.92318,
+                "ReportingPeriod": {
+                    "DisplayValue": "5 Years",
+                    "Key": "M60"
+                }
+            },
+            {
+                "Date": "2020-05-28",
+                "Pct": 3.31663,
+                "ReportingPeriod": {
+                    "DisplayValue": "1 Week",
+                    "Key": "W1"
+                }
+            },
+            {
+                "Date": "2020-05-28",
+                "Pct": -12.12739,
+                "ReportingPeriod": {
+                    "DisplayValue": "2 Years",
+                    "Key": "M24"
+                }
+            },
+            {
+                "Date": "2020-05-28",
+                "Pct": 14.27718,
+                "ReportingPeriod": {
+                    "DisplayValue": "4 Years",
+                    "Key": "M48"
+                }
+            },
+            {
+                "Date": "2020-05-28",
+                "Pct": 42.86843,
+                "ReportingPeriod": {
+                    "DisplayValue": "7 Years",
+                    "Key": "M84"
+                }
+            }
+        ]
+    },
+    "SectorAllocations": [
+        {
+            "Key": {
+                "Key": "Industrials",
+                "Value": "Industrials"
+            },
+            "Pct": 19.93412
+        },
+        {
+            "Key": {
+                "Key": "Consumer Cyclical",
+                "Value": "Consumer Cyclical"
+            },
+            "Pct": 18.107
+        },
+        {
+            "Key": {
+                "Key": "Consumer Defensive",
+                "Value": "Consumer Defensive"
+            },
+            "Pct": 14.0127
+        },
+        {
+            "Key": {
+                "Key": "Healthcare",
+                "Value": "Healthcare"
+            },
+            "Pct": 13.11418
+        },
+        {
+            "Key": {
+                "Key": "Financial Services",
+                "Value": "Financial Services"
+            },
+            "Pct": 8.11879
+        },
+        {
+            "Key": {
+                "Key": "Energy",
+                "Value": "Energy"
+            },
+            "Pct": 8.09087
+        },
+        {
+            "Key": {
+                "Key": "Basic Materials",
+                "Value": "Basic Materials"
+            },
+            "Pct": 5.97018
+        },
+        {
+            "Key": {
+                "Key": "Technology",
+                "Value": "Technology"
+            },
+            "Pct": 5.94851
+        },
+        {
+            "Key": {
+                "Key": "Communication Services",
+                "Value": "Communication Services"
+            },
+            "Pct": 4.22239
+        },
+        {
+            "Key": {
+                "Key": "Utilities",
+                "Value": "Utilities"
+            },
+            "Pct": 1.75865
+        },
+        {
+            "Key": {
+                "Key": "Real Estate",
+                "Value": "Real Estate"
+            },
+            "Pct": 0.72262
+        }
+    ],
+    "Uic": 9104
+}

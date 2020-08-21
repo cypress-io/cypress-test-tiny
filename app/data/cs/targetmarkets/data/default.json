@@ -1,0 +1,94 @@
+{
+    "AbilityToBearLosses": [
+        {
+            "Description": "No loss of invested capital, 100% protected",
+            "Id": "1",
+            "Name": "Fully protected capital"
+        },
+        {
+            "Description": "Partial loss of capital possible, protection between 0% and 100%",
+            "Id": "2",
+            "Name": "Partially protected capital"
+        },
+        {
+            "Description": "Total loss of invested capital possible, protection against further losses",
+            "Id": "3",
+            "Name": "Not protected capital"
+        },
+        {
+            "Description": "Losses larger than invested capital possible, no protection at all",
+            "Id": "4",
+            "Name": "Loss of more than capital"
+        }
+    ],
+    "DefaultRiskRewardProfileId": "1",
+    "DistributionStrategies": [
+        {
+            "Description": "Can be sold online or without advisory",
+            "Id": "1",
+            "Name": "Execution only"
+        },
+        {
+            "Description": "Can be sold with investment advisory only",
+            "Id": "2",
+            "Name": "Advised"
+        },
+        {
+            "Description": "Portfolio management possible",
+            "Id": "3",
+            "Name": "Discretionary"
+        }
+    ],
+    "InvestmentObjectives": [
+        {
+            "Description": "Maturity or next call/put date <= 3Y",
+            "Id": "1",
+            "Name": "Short-term"
+        },
+        {
+            "Description": "Maturity or next call/put date > 3Y & < 5Y",
+            "Id": "2",
+            "Name": "Medium-term"
+        },
+        {
+            "Description": "Maturity or next call/put date >= 5Y",
+            "Id": "3",
+            "Name": "Long-term"
+        },
+        {
+            "Description": "Investment must be easy to liquidate to provide cash liquidity",
+            "Id": "4",
+            "Name": "Cash liquidity supply"
+        }
+    ],
+    "InvestorTypes": [
+        {
+            "Description": "Instrument suitable for retail clients and professionals",
+            "Id": "1",
+            "Name": "Retail"
+        },
+        {
+            "Description": "Instrument suitable for professional clients only",
+            "Id": "2",
+            "Name": "Professional"
+        }
+    ],
+    "KnowledgeAndExperiences": [
+        {
+            "Description": "Instrument requires basic knowledge and experience",
+            "Id": "1",
+            "Name": "Basic"
+        },
+        {
+            "Description": "Instrument requires intermediate knowledge and experience",
+            "Id": "2",
+            "Name": "Intermediate"
+        },
+        {
+            "Description": "Instrument requires expert knowledge and experience",
+            "Id": "3",
+            "Name": "Expert"
+        }
+    ],
+    "RiskRewardProfileType": "CATEGORICAL"
+}

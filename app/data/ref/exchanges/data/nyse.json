@@ -1,0 +1,44 @@
+{
+    "AllDay": false,
+    "CountryCode": "US",
+    "Currency": "USD",
+    "ExchangeId": "NYSE",
+    "ExchangeSessions": [
+        {
+            "EndTime": "2019-11-11T14:30:00.000000Z",
+            "StartTime": "2019-11-11T12:00:00.000000Z",
+            "State": "PreTrading"
+        },
+        {
+            "EndTime": "2019-11-11T21:00:00.000000Z",
+            "StartTime": "2019-11-11T14:30:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2019-11-12T12:00:00.000000Z",
+            "StartTime": "2019-11-11T21:00:00.000000Z",
+            "State": "Closed"
+        },
+        {
+            "EndTime": "2019-11-12T14:30:00.000000Z",
+            "StartTime": "2019-11-12T12:00:00.000000Z",
+            "State": "PreTrading"
+        },
+        {
+            "EndTime": "2019-11-12T21:00:00.000000Z",
+            "StartTime": "2019-11-12T14:30:00.000000Z",
+            "State": "AutomatedTrading"
+        },
+        {
+            "EndTime": "2019-11-13T12:00:00.000000Z",
+            "StartTime": "2019-11-12T21:00:00.000000Z",
+            "State": "Closed"
+        }
+    ],
+    "Mic": "XNYS",
+    "Name": "New York Stock Exchange",
+    "PriceSourceName": "NYSE",
+    "TimeZone": 3,
+    "TimeZoneAbbreviation": "EST",
+    "TimeZoneOffset": "-05:00:00"
+}

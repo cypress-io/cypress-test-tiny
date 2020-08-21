@@ -1,0 +1,64 @@
+{
+    "__count": 2,
+    "Data": [
+        {
+            "AccountId": "test1",
+            "ActivityId": "21298",
+            "ActivityTime": "2019-02-10T11:15:00.000Z",
+            "Amount": 100000,
+            "AssetType": "FxSpot",
+            "BuySell": "Buy",
+            "ClientId": "8844363",
+            "CorrelationKey": "a805a6b4-a736-4f11-a93c-82c55c938015",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 4,
+                "Description": "Euro/US Dollar",
+                "Format": "AllowDecimalPips",
+                "OrderDecimals": 4
+            },
+            "Duration": { "DurationType": "GoodTillCancel" },
+            "HandledBy": "32155049",
+            "OrderId": "325172611",
+            "OrderRelation": "StandAlone",
+            "OrderState": "Working",
+            "OrderType": "Limit",
+            "Price": 1.12165,
+            "Status": "Placed",
+            "SubStatus": "Confirmed",
+            "Uic": 21,
+            "UserId": "32155049",
+            "ValueDate": "2019-02-10"
+        },
+        {
+            "AccountId": "test1",
+            "ActivityId": "21299",
+            "ActivityTime": "2019-02-10T11:15:00.000Z",
+            "Amount": 100000,
+            "AssetType": "FxSpot",
+            "BuySell": "Buy",
+            "ClientId": "8844363",
+            "CorrelationKey": "7c4a6051-4402-4128-911b-b27fa23a8062",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 4,
+                "Description": "Euro/US Dollar",
+                "Format": "AllowDecimalPips",
+                "OrderDecimals": 4
+            },
+            "Duration": { "DurationType": "GoodTillCancel" },
+            "HandledBy": "32155049",
+            "OrderId": "325172612",
+            "OrderRelation": "Oco",
+            "OrderState": "Working",
+            "OrderType": "Stop",
+            "Price": 1.13295,
+            "RelatedOrderIds": ["325172611"],
+            "Status": "Placed",
+            "SubStatus": "Confirmed",
+            "Uic": 21,
+            "UserId": "32155049",
+            "ValueDate": "2019-02-10"
+        }
+    ]
+}

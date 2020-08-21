@@ -1,0 +1,46 @@
+{
+    "__count": 101,
+    "Data": [
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDUNC",
+                    "AccountKey": "RqiOIkO-kABQOTxcTVMhOdejU8aUpbfz8oP1mnrr4oE=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDUNC",
+                    "AccountKey": "dEpwp3UyObIjYNd9vOLCNg==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADUNC", "AccountKey": "GvH7WM1QuhO|hMfmUG6tdg==" }
+            ],
+            "ClientId": "8070101",
+            "ClientKey": "rwX9fR4tvZgHL7lORYyj6g==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADUNC",
+            "DefaultAccountKey": "GvH7WM1QuhO|hMfmUG6tdg==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 8070101",
+            "OwnerId": "8479680"
+        }
+    ]
+}

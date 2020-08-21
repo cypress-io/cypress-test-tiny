@@ -1,0 +1,37 @@
+{
+    "Campaigns": {
+        "Data": [
+            {
+                "Campaigns": {
+                    "Data": [
+                        {
+                            "CampaignId": 1268028,
+                            "DataType": "Text",
+                            "Description": "Welcome screen message (DB modified)",
+                            "Extensions": {
+                                "SubType": "Free",
+                                "Template": "Not used template",
+                                "AccountThresholdTypeList": "",
+                                "AccountThresholds": "",
+                                "ExchangeIdList": "",
+                                "MoveTypeIdList": "",
+                                "DefaultLanguage": "EN",
+                                "ResourceType": "SitecoreArticle",
+                                "ResourceId": "7b56c5c8-f9fc-4607-a5f7-c0294ba94ea6"
+                            },
+                            "FullScreenMode": false,
+                            "Link": "",
+                            "Path": "",
+                            "PublishDate": "2020-03-20T07:26:26.153000Z",
+                            "SourceETag": "",
+                            "Title": "Welcome screen message (DB modified)"
+                        }
+                    ]
+                },
+                "Position": 1097,
+                "Shuffle": false
+            }
+        ]
+    },
+    "ImpressionId": 658610
+}

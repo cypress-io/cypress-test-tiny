@@ -1,0 +1,3306 @@
+{
+    "__count": 101,
+    "Data": [
+        {
+            "Accounts": [
+                {
+                    "AccountId": "182149/COMMGBP",
+                    "AccountKey": "pjhzUUO5B2fgoY1cfHNWhA==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "182149/TRADING",
+                    "AccountKey": "NnW-IVSOa|7znOGM4DBmeQ==",
+                    "AccountType": "Normal"
+                }
+            ],
+            "Users": [
+                {
+                    "UserId": "32155043",
+                    "UserKey": "CD7ZNO3iCY0EV-ICNxLd9A==",
+                    "UserName": "marmc"
+                },
+                {
+                    "UserId": "32155044",
+                    "UserKey": "SLyoYT1Bob1P5H7N4XSI1g==",
+                    "UserName": "marmc2"
+                }
+            ],
+            "ClientId": "1234567",
+            "ClientKey": "client-key-1",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "182149/TRADING",
+            "DefaultAccountKey": "NnW-IVSOa|7znOGM4DBmeQ==",
+            "LegalAssetTypes": [
+                "Cash",
+                "ContractFutures",
+                "Stock",
+                "Bond",
+                "StockOption",
+                "MutualFund"
+            ],
+            "Name": "xlub",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "48900/ERROR", "AccountKey": "BzcBfmyb|v49dNfiusg|mw==" },
+                { "AccountId": "48900/FEUR", "AccountKey": "KggCqFiR485o|b6D5tQ2kg==" },
+                { "AccountId": "48900/FGBP", "AccountKey": "scJbN0Jj7Wq-IOcSBVn6LA==" },
+                { "AccountId": "48900/FUSD", "AccountKey": "mrhmneJE|yhqdDgGlIQjqw==" },
+                { "AccountId": "48900/INTEUR", "AccountKey": "eaPKKfZFAnYmuqDj|DDL|Q==" },
+                { "AccountId": "48900/INTGBP", "AccountKey": "Z1j1JmgCLfySxBgQ5OZGnw==" },
+                { "AccountId": "48900/INTUSD", "AccountKey": "ArPJs-y|kmoNCHJsCeKKBA==" },
+                {
+                    "AccountId": "48900/MGTFEEGBP",
+                    "AccountKey": "5KugGHqAY8hMcFbusGQmjA==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "48900/TRADING", "AccountKey": "U-VrKbJhLFsdYdx5pRaQgQ==" }
+            ],
+            "Users": [
+                {
+                    "UserId": "9870924",
+                    "UserKey": "Y4iPeH0jpZYSlnohKxAJ|Q==",
+                    "UserName": "User 9870924"
+                }
+            ],
+            "ClientId": "7632240",
+            "ClientKey": "client-key-2",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "48900/TRADING",
+            "DefaultAccountKey": "U-VrKbJhLFsdYdx5pRaQgQ==",
+            "LegalAssetTypes": ["Stock", "MutualFund", "Cash"],
+            "Name": "Client 7632240",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "59700", "AccountKey": "Lo|2zNY4ONwBDB2XTh6L-Q==" },
+                { "AccountId": "59700/CNGBP", "AccountKey": "goGvX55LFJsX1H2D6Y5cVg==" },
+                {
+                    "AccountId": "59700/COMMUSD",
+                    "AccountKey": "|xFY|e7hUruZJ1TrUHQYmw==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/CUSTUSD",
+                    "AccountKey": "M8u7CLJ7cVR0Mm65|rVJHg==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "59700/ERROR", "AccountKey": "AGMmsaExOTKFi-rk-lpPgQ==" },
+                { "AccountId": "59700/FAED", "AccountKey": "aMET79ik4lcnJnDyaZEneQ==" },
+                { "AccountId": "59700/FAUD", "AccountKey": "-1lZYwKY4fbDM3DSUDaAiw==" },
+                { "AccountId": "59700/FCAD", "AccountKey": "Ep46V8vtyeq92rbN8||5rg==" },
+                { "AccountId": "59700/FCHF", "AccountKey": "R9QauzCAWHUDtBhm7nAFXQ==" },
+                { "AccountId": "59700/FDKK", "AccountKey": "NPHT7cH4OIhcFAuT6ppUVw==" },
+                { "AccountId": "59700/FEUR", "AccountKey": "qvZT6RX88EJqz1wedlC5Nw==" },
+                { "AccountId": "59700/FGBP", "AccountKey": "|-Ux64WZAvZY2Xc1EOrwdw==" },
+                { "AccountId": "59700/FHKD", "AccountKey": "VtqmOYsXD|Rnc8CHId3uGw==" },
+                { "AccountId": "59700/FJPY", "AccountKey": "REn6RufREWa7eztTkBAjNQ==" },
+                { "AccountId": "59700/FNOK", "AccountKey": "gH2xASchziHkwJjfX8BHjA==" },
+                { "AccountId": "59700/FNZD", "AccountKey": "6H2UHlLpuWkoDd|IWTFnqw==" },
+                { "AccountId": "59700/FSEK", "AccountKey": "ZdrzVYOXMPU34Lx5i|oKUA==" },
+                { "AccountId": "59700/FSGD", "AccountKey": "Ginabl-YpLb|hFal2skXiA==" },
+                { "AccountId": "59700/FUSD", "AccountKey": "FLyhzLqr9prYzAQmrUkYEg==" },
+                { "AccountId": "59700/FZAR", "AccountKey": "TGSLm7YaI8WA01nbxnJ42w==" },
+                { "AccountId": "59700/INTAUD", "AccountKey": "R5FP15shf26BuAitZDD6MQ==" },
+                { "AccountId": "59700/INTCHF", "AccountKey": "eC3xHb5EUaJHnUwIKj2LeQ==" },
+                { "AccountId": "59700/INTEUR", "AccountKey": "vP0A7YVhlT22dHITEYXXLQ==" },
+                { "AccountId": "59700/INTGBP", "AccountKey": "grkNRhy-qR8YRT9vulvB1Q==" },
+                { "AccountId": "59700/INTUSD", "AccountKey": "CdokPPVxywpRjaj0D1Zc8w==" },
+                {
+                    "AccountId": "59700/MKTDATA",
+                    "AccountKey": "4DTAKXuRjT4nJzu6OWM8JQ==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "59700/TAXUSD", "AccountKey": "6arvNdxj1KyFJdIf-dpfdA==" },
+                { "AccountId": "59700/TRADING", "AccountKey": "YfouTkJBL2CoJYzhNE6qAQ==" }
+            ],
+            "Users": [
+                {
+                    "UserId": "1048819",
+                    "UserKey": "vwEuqF9k8Cbbtlhstyg8Ag==",
+                    "UserName": "baf"
+                }
+            ],
+            "ClientId": "8479680",
+            "ClientKey": "5IE4wL4RyFx4oDoPFRVVUA==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "59700/TRADING",
+            "DefaultAccountKey": "YfouTkJBL2CoJYzhNE6qAQ==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 8479680",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "59700/20529", "AccountKey": "GRBsX9WvpSNU-q68mlJgaQ==" },
+                {
+                    "AccountId": "59700/20529ZAR",
+                    "AccountKey": "2BI2yOhp1wAHqRAzqMzSUA==",
+                    "AccountType": "Normal"
+                }
+            ],
+            "Users": [
+                {
+                    "UserId": "2618565",
+                    "UserKey": "DDSpDc|rOl-RvqfpCMAIxQ==",
+                    "UserName": "User 2618565"
+                },
+                {
+                    "UserId": "32155007",
+                    "UserKey": "EZv8mFnctp8iLqlel3fhUA==",
+                    "UserName": "User 32155007"
+                },
+                {
+                    "UserId": "32155014",
+                    "UserKey": "hs6NXhWBtmeHi1M7mvBRNQ==",
+                    "UserName": "User 32155014"
+                }
+            ],
+            "ClientId": "9275871",
+            "ClientKey": "client-key-3",
+            "ClientTypeName": "Internet Client",
+            "ClientType": "Client",
+            "DefaultAccountId": "59700/20529",
+            "DefaultAccountKey": "GRBsX9WvpSNU-q68mlJgaQ==",
+            "LegalAssetTypes": [
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "Cash",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 9275871",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "59700/30265", "AccountKey": "0ziWoRr6T1AHAa864LEBgw==" }
+            ],
+            "Users": [
+                {
+                    "UserId": "2900671",
+                    "UserKey": "iDm1qarfnzo5MpvYPUtWDw==",
+                    "UserName": "xpiol"
+                }
+            ],
+            "ClientId": "8956056",
+            "ClientKey": "4y7-VUH5y00XcyavEO4ciw==",
+            "ClientTypeName": "Internet Client",
+            "ClientType": "Client",
+            "DefaultAccountId": "59700/30265",
+            "DefaultAccountKey": "0ziWoRr6T1AHAa864LEBgw==",
+            "LegalAssetTypes": [
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "Cash",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 8956056",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "59700/COMMUSDAFR",
+                    "AccountKey": "fI9A3N6aicXaRFf9uiZ9EPrLFu0UzgmRrp|urcwkw88=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/ERRORAFR",
+                    "AccountKey": "KFbfwcYKmr1F0D-f5YzAgA==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/INTUSDAFR",
+                    "AccountKey": "rKwvMh025tVD|MDIIQ-LeA==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "59700/TRADAFR", "AccountKey": "pH6w8ZZG48LmsqM8ciwhLQ==" }
+            ],
+            "ClientId": "8944939",
+            "ClientKey": "TJQwc5LQCISdQLL0e988qA==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "59700/TRADAFR",
+            "DefaultAccountKey": "pH6w8ZZG48LmsqM8ciwhLQ==",
+            "LegalAssetTypes": [
+                "Cash",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 8944939",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "59700/COMMUSDAPC",
+                    "AccountKey": "ok8GgfVZQaUNtBD35V8mFBd3M-jmUxBW-aB9983-898=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/ERRORAPC",
+                    "AccountKey": "-QZY|krfIBqK8XaJ-Oza-Q==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/INTUSDAPC",
+                    "AccountKey": "Q5p|GXDOf6jU55rBa91vyg==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "59700/TRADAPC", "AccountKey": "puyuvWPHNul3UsJ6XreH|Q==" }
+            ],
+            "ClientId": "8908902",
+            "ClientKey": "Joxs-cS39PZUH9Gjj2mdqQ==",
+            "ClientTypeName": "EGO Accounts",
+            "ClientType": "House",
+            "DefaultAccountId": "59700/TRADAPC",
+            "DefaultAccountKey": "puyuvWPHNul3UsJ6XreH|Q==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 8908902",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "59700/COMMUSDBAY",
+                    "AccountKey": "PdczGpjcBRHnPSUyCpXYkpZCQ308yOsa0G1-HDopaDY=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/ERRORBAY",
+                    "AccountKey": "1W9BzoNPikshYogrAzQbRQ==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "59700/TRADBAY", "AccountKey": "gUJFcoIH5AZ8c5Xrs7RnBw==" }
+            ],
+            "ClientId": "9490123",
+            "ClientKey": "06WOlEyeTFzqCwd9ysfXIw==",
+            "ClientTypeName": "Broker",
+            "ClientType": "Client",
+            "DefaultAccountId": "59700/TRADBAY",
+            "DefaultAccountKey": "gUJFcoIH5AZ8c5Xrs7RnBw==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 9490123",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "59700/COMMUSDBEZ",
+                    "AccountKey": "pEaquFxip5ixQc-yUQm2bDTHBJ6vZ80oYfOyONAgOQg=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/ERRORBEZ1",
+                    "AccountKey": "G6URyZs0LYATq3BHy-|DsA==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/INTUSDBEZ",
+                    "AccountKey": "0osRKm2G85d1tvdJXYN1qQ==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "59700/TRADBEZ", "AccountKey": "q5TrpGx580TrqswVlvropQ==" }
+            ],
+            "ClientId": "8852510",
+            "ClientKey": "QvrcE2LhvJbcFfX60UuypA==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "59700/TRADBEZ",
+            "DefaultAccountKey": "q5TrpGx580TrqswVlvropQ==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 8852510",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "59700/COMMUSDCHA",
+                    "AccountKey": "gCrbUSMFZv|MSr1BtpL6QfyeSd3HEC3GPMVIoXNIzFI=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/ERRORCHA",
+                    "AccountKey": "adUQ89cPJ7DaS2TFtmy-0A==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "59700/TRADCHA", "AccountKey": "vuC7fw86a2EppnIGuUEGWQ==" }
+            ],
+            "ClientId": "9540042",
+            "ClientKey": "Wj43zcxxiLT5eSzPJb0BKg==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "59700/TRADCHA",
+            "DefaultAccountKey": "vuC7fw86a2EppnIGuUEGWQ==",
+            "LegalAssetTypes": ["Cash", "Stock", "Bond", "CfdOnStock"],
+            "Name": "Client 9540042",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "59700/COMMUSDCHR",
+                    "AccountKey": "qsXwmKCQfoZN8t2U09a86g0e-vb|7mUVeBkhipK5GrE=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/ERRORCHR",
+                    "AccountKey": "ZlY1idFzL4SeY1H5WRKS7A==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "59700/TRADCHR", "AccountKey": "bARLkaZiau8CUrXga9Xthg==" }
+            ],
+            "ClientId": "9817219",
+            "ClientKey": "Q|m4tZ1JpX-Jgq9|sNxzRA==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "59700/TRADCHR",
+            "DefaultAccountKey": "bARLkaZiau8CUrXga9Xthg==",
+            "LegalAssetTypes": ["Cash", "Stock", "MutualFund"],
+            "Name": "Client 9817219",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "59700/COMMUSDCRA",
+                    "AccountKey": "stbb0fe0rG7aYm4gVrzqK28rPgd4LCZxbkfW5WKsb8o=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/ERRORCRA",
+                    "AccountKey": "vb4CRUGhMspMDaiSRlS2Qg==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/INTUSDCRA",
+                    "AccountKey": "c7NfmleTB8RjFXjPNJ2ZTw==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "59700/TRADCRA", "AccountKey": "rBSZou16281kJoo6V5DatA==" }
+            ],
+            "ClientId": "8933701",
+            "ClientKey": "KAjbijbG5VC1aov9gtcYEg==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "59700/TRADCRA",
+            "DefaultAccountKey": "rBSZou16281kJoo6V5DatA==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 8933701",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "59700/COMMUSDFEA",
+                    "AccountKey": "Y5M9FR7dgJzuGat3dc1IRON-ULinXCT|1gUp5dE9w04=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/ERRORFEA",
+                    "AccountKey": "00azkwlbSvkjXTZdLYC8oA==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/INTUSDFEA",
+                    "AccountKey": "6IGcG-nMnBwNUmp07MbqFg==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "59700/TRADFEA", "AccountKey": "AizK7rlrCX3wBufOmeNfyg==" }
+            ],
+            "ClientId": "8971969",
+            "ClientKey": "cBU5wRm63J5CIqoBzau9XQ==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "59700/TRADFEA",
+            "DefaultAccountKey": "AizK7rlrCX3wBufOmeNfyg==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 8971969",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "59700/COMMUSDFIS",
+                    "AccountKey": "XqQ6SRHSV7MnXz49crqEAk654|fLKoI1u5IZqYZ6gJo=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/ERRORFIS",
+                    "AccountKey": "3GtHMeY8Bhj14IQub8BmSA==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "59700/TRADFIS", "AccountKey": "AbmNulfr6j1IqP7trJVoRw==" }
+            ],
+            "ClientId": "9485568",
+            "ClientKey": "M5XItKU6W-dPvgLi-coe|A==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "59700/TRADFIS",
+            "DefaultAccountKey": "AbmNulfr6j1IqP7trJVoRw==",
+            "LegalAssetTypes": ["Cash", "Stock", "Bond", "MutualFund"],
+            "Name": "Client 9485568",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "59700/COMMUSDGRE",
+                    "AccountKey": "6zb4uuut4CY624KEOC8c3CG43xzf-Yn5gZEMED7O5zc=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/ERRORGRE",
+                    "AccountKey": "RVSyQyVNvlqnRMHfzFwlTw==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/INTUSDGRE",
+                    "AccountKey": "TAaTcN3mfG55al4mE2IrrQ==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "59700/TRADGRE", "AccountKey": "Yl6Zu9h54fSOGqgQfngWtw==" }
+            ],
+            "ClientId": "9507168",
+            "ClientKey": "b8X5fkhpLBtMD0YHres6yw==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "59700/TRADGRE",
+            "DefaultAccountKey": "Yl6Zu9h54fSOGqgQfngWtw==",
+            "LegalAssetTypes": ["Cash", "Stock", "Bond", "MutualFund"],
+            "Name": "Client 9507168",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "59700/COMMUSDINN",
+                    "AccountKey": "7Fl|YyRHxcMpJc4dPtM-Gic0-4LNdvPH87MsBQsIlFk=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/ERRORINN",
+                    "AccountKey": "2uq2zXGXa20Qmt3TfqfoIg==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/TRADEINN",
+                    "AccountKey": "l3ywGoR-5sRj5B44vAwFww==",
+                    "AccountType": "Normal"
+                }
+            ],
+            "ClientId": "9403721",
+            "ClientKey": "oIx8vSWnrJ6F6a9-DhDWVQ==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "59700/TRADEINN",
+            "DefaultAccountKey": "l3ywGoR-5sRj5B44vAwFww==",
+            "LegalAssetTypes": ["Cash", "Stock", "Bond", "MutualFund"],
+            "Name": "Client 9403721",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "59700/COMMUSDLEG",
+                    "AccountKey": "p|4XlpjoeFy-ifPNnGnsRu8zvemh87Ii|ln0TmgTDjY=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/ERRORLEG",
+                    "AccountKey": "f4TxZPlHu3QIazCR9Q13oA==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/INTUSDLEG",
+                    "AccountKey": "5e3-lOUf4tfuMz0Savbv6Q==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/TRADELEG",
+                    "AccountKey": "wcCSe6WpEepjR-AYhFV7Mg==",
+                    "AccountType": "Normal"
+                }
+            ],
+            "ClientId": "9431726",
+            "ClientKey": "Vxf6eLQDAvQ20gBqeKlSVA==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "59700/TRADELEG",
+            "DefaultAccountKey": "wcCSe6WpEepjR-AYhFV7Mg==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 9431726",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "59700/COMMUSDMET",
+                    "AccountKey": "mgIghfX7OGsCY86CRX01Vg5tdiY3Q50aqqJlIRJ21MM=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/ERRORMET",
+                    "AccountKey": "3MEcOxipt786nUXeumH83g==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/INTUSDMET",
+                    "AccountKey": "QnHGbavFfQhB8ZtOZcxjUg==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "59700/TRADMET", "AccountKey": "G4z51xsJCubZjDYbPZWJaw==" }
+            ],
+            "ClientId": "9257503",
+            "ClientKey": "k4cpAofRqCGAijewbe5bqQ==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "59700/TRADMET",
+            "DefaultAccountKey": "G4z51xsJCubZjDYbPZWJaw==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 9257503",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "59700/COMMUSDPRI",
+                    "AccountKey": "nPXgCbTYfP1|ljZOpTxOq4xwUUa8LlCgq95gT9cBP8Y=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/ERRORPRI",
+                    "AccountKey": "gtomoAJFUD5qnvFv|8nT-Q==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/INTUSDPRI",
+                    "AccountKey": "DXRqvx6cJnkfonEOyEGP7Q==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "59700/TRADPRI", "AccountKey": "HYWACYisbDicNYeHlgeP1g==" }
+            ],
+            "ClientId": "8984559",
+            "ClientKey": "MBqsjmNE0iFj3N1bogNyQw==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "59700/TRADPRI",
+            "DefaultAccountKey": "HYWACYisbDicNYeHlgeP1g==",
+            "LegalAssetTypes": ["Cash", "Stock", "MutualFund", "StockOption"],
+            "Name": "Client 8984559",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "59700/COMMUSDPRO",
+                    "AccountKey": "wRAnWKpsEZ2UqNnapYqKN53NssGFMcKtUt7YzhXb4GI=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/ERRORPRO",
+                    "AccountKey": "e0KI6LK8Cj2-csSgbea0Tw==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/INTUSDPRO",
+                    "AccountKey": "|Qmj3omaOp2VleZjBoZTTw==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "59700/TRADPRO", "AccountKey": "ETOkw3kMAP2dEHnVahojYg==" }
+            ],
+            "ClientId": "9541558",
+            "ClientKey": "jXYYtzfm|HGZNQj9LtXApA==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "59700/TRADPRO",
+            "DefaultAccountKey": "ETOkw3kMAP2dEHnVahojYg==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 9541558",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "59700/COMMUSDPRQ",
+                    "AccountKey": "mwyCIalwKnrPbylxPvjhgsKkS4Ro55ZXFQ1ywMTCqgE=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/ERRORPRQ",
+                    "AccountKey": "63Mv3nJqjOGDDGaCJVAvpQ==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/TRADEPRQ",
+                    "AccountKey": "XvnxHnbUk7CtrEPGKwLpmA==",
+                    "AccountType": "Normal"
+                }
+            ],
+            "ClientId": "9232758",
+            "ClientKey": "I7EZG8q3frdsJGNfaF35fg==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "59700/TRADEPRQ",
+            "DefaultAccountKey": "XvnxHnbUk7CtrEPGKwLpmA==",
+            "LegalAssetTypes": ["Cash", "Stock", "MutualFund"],
+            "Name": "Client 9232758",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "59700/COMMUSDSSC",
+                    "AccountKey": "3n1pg|pQCNHTBFpazKEihvg7gfpwCEn1gOqPKr4bp6o=",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "59700/TRADSSC", "AccountKey": "T6fp90RAlBHnggx9SAqGGw==" }
+            ],
+            "ClientId": "8852597",
+            "ClientKey": "Hrx-UHR36vCd621urmxeNQ==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "59700/TRADSSC",
+            "DefaultAccountKey": "T6fp90RAlBHnggx9SAqGGw==",
+            "LegalAssetTypes": ["Cash", "Stock", "Bond", "MutualFund"],
+            "Name": "Client 8852597",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "59700/COMMUSDSWI",
+                    "AccountKey": "E1UdEEsZh2M0NsYs6DZgA37DkbkaQHI1k7fzH|zBMik=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/ERRORSWI",
+                    "AccountKey": "msxQi-iYoVdqc-uryvRuMg==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "59700/TRADSWI", "AccountKey": "Qr3rzsZmNlf74D5A56VaqA==" }
+            ],
+            "ClientId": "9455573",
+            "ClientKey": "9Sv2y0kr0e6xF7pPNEPr6A==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "59700/TRADSWI",
+            "DefaultAccountKey": "Qr3rzsZmNlf74D5A56VaqA==",
+            "LegalAssetTypes": ["Cash", "Stock", "Bond", "MutualFund"],
+            "Name": "Client 9455573",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "59700/ERRORSAS",
+                    "AccountKey": "uLyjxn8OgIOBG12znq8qhA==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "59700/TRADSAS",
+                    "AccountKey": "aXEAPDYhlgsURZUYrKTgXQ==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "68400/COMMUSDSAS",
+                    "AccountKey": "S1QATybE6pRfts6cZ-0Fm|FvacSORalMRmg4MAA3cc4=",
+                    "AccountType": "Normal"
+                }
+            ],
+            "ClientId": "6353856",
+            "ClientKey": "d0rYvk41l9FOvoBx-hqkKg==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/COMMUSDSAS",
+            "DefaultAccountKey": "S1QATybE6pRfts6cZ-0Fm|FvacSORalMRmg4MAA3cc4=",
+            "LegalAssetTypes": ["Stock", "Bond", "MutualFund", "Cash"],
+            "Name": "Client 6353856",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "59700/FOURFEE", "AccountKey": "ofPXsAYgeOUTrtqGSx-7hg==" }
+            ],
+            "ClientId": "9421709",
+            "ClientKey": "mp0hBu2wIQt9YHN9AWAFKw==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "59700/FOURFEE",
+            "DefaultAccountKey": "ofPXsAYgeOUTrtqGSx-7hg==",
+            "LegalAssetTypes": ["Cash"],
+            "Name": "Client 9421709",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "59700/TRADDIR", "AccountKey": "o9QOCbNTbw3vHcbj4hpr3Q==" }
+            ],
+            "ClientId": "8901296",
+            "ClientKey": "v7E7lfhqEmwJ046rNICN0A==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "59700/TRADDIR",
+            "DefaultAccountKey": "o9QOCbNTbw3vHcbj4hpr3Q==",
+            "LegalAssetTypes": ["MutualFund"],
+            "Name": "Client 8901296",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "59700/TRADJPM", "AccountKey": "XJ3rCwCJC7Wy2IWQ801-Sw==" }
+            ],
+            "ClientId": "9030576",
+            "ClientKey": "9sn3OgBCwsu6XmSl|T5UeQ==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "59700/TRADJPM",
+            "DefaultAccountKey": "XJ3rCwCJC7Wy2IWQ801-Sw==",
+            "LegalAssetTypes": [],
+            "Name": "Client 9030576",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "59700/TRADOFFACL",
+                    "AccountKey": "|JZNnVL9|wqdH4SHb5MxDjLqIzpjkRA8GP2ECk4MJcs=",
+                    "AccountType": "Normal"
+                }
+            ],
+            "ClientId": "8856167",
+            "ClientKey": "KRzwW4HaFgQ9b1-c1dy82A==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "59700/TRADOFFACL",
+            "DefaultAccountKey": "|JZNnVL9|wqdH4SHb5MxDjLqIzpjkRA8GP2ECk4MJcs=",
+            "LegalAssetTypes": [
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 8856167",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "59700/TRSTFEE", "AccountKey": "BJsGnO0AuY-drBMWEDthsw==" }
+            ],
+            "ClientId": "9308272",
+            "ClientKey": "r|M3LrTDzkMbhfuPhofkTA==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "59700/TRSTFEE",
+            "DefaultAccountKey": "BJsGnO0AuY-drBMWEDthsw==",
+            "LegalAssetTypes": ["Cash"],
+            "Name": "Client 9308272",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "68400/ADVFFW", "AccountKey": "a4J8Jiqc3Or2b3OC3YPtvA==" },
+                {
+                    "AccountId": "68400/COMMFFW",
+                    "AccountKey": "KQtTJGipxzKuHTi9KQqHRQ==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "68400/MGTFFW", "AccountKey": "h74z85qQDovvXFKPcUXYBg==" },
+                { "AccountId": "68400/TRADFFW", "AccountKey": "-pDEQ7UEnhsrn9q00HpRog==" }
+            ],
+            "ClientId": "6394008",
+            "ClientKey": "yXOquyAKg|y5-29hQTgZIQ==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADFFW",
+            "DefaultAccountKey": "-pDEQ7UEnhsrn9q00HpRog==",
+            "LegalAssetTypes": ["Cash", "Stock", "Bond", "StockOption", "MutualFund"],
+            "Name": "Client 6394008",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "68400/COMMAUDGLA",
+                    "AccountKey": "caTwS7h-2O-A9Y3nUEDfSGaxhirhFa0fze-4aCtRGfM=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "68400/COMMCHFGLA",
+                    "AccountKey": "PSixA1w5ZaStX1apLs91TiTG5pcR5A38Qd2b5rSaQ2A=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "68400/COMMEURGLA",
+                    "AccountKey": "SZG2ylvD1z0U16tYzcKi9uQmesasocApe6VyEjSxtoE=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "68400/COMMGBPGLA",
+                    "AccountKey": "rmBm4n4ueJhh5S5kJc7ZbXQnmfsh|ACaBjPTPLZPbv0=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "68400/COMMUSDGLA",
+                    "AccountKey": "m-IDXxD96akgBmdF78tw00bu53nZR9n68x6KYAQpMZo=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "68400/TRADGLAC",
+                    "AccountKey": "K9Y-eEMGV10PRUG5wI-7|A==",
+                    "AccountType": "Normal"
+                }
+            ],
+            "ClientId": "6308780",
+            "ClientKey": "kH3iICmhS2XaMdCQCAca-g==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADGLAC",
+            "DefaultAccountKey": "K9Y-eEMGV10PRUG5wI-7|A==",
+            "LegalAssetTypes": ["Cash", "ContractFutures", "Stock", "Bond", "MutualFund"],
+            "Name": "Client 6308780",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "68400/COMMEFF2",
+                    "AccountKey": "irUanxUG84qqySGwWfCsww==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "68400/TRADEFF2",
+                    "AccountKey": "bYZImvVct761f95fdevC8g==",
+                    "AccountType": "Normal"
+                }
+            ],
+            "ClientId": "6300382",
+            "ClientKey": "KuiprQL9wGA7hx0t0CEMsg==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADEFF2",
+            "DefaultAccountKey": "bYZImvVct761f95fdevC8g==",
+            "LegalAssetTypes": ["Cash", "Stock", "Bond", "StockOption", "MutualFund"],
+            "Name": "Client 6300382",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "68400/COMMGBPCL",
+                    "AccountKey": "niH2t4xPr9qfADNn|q4W6A==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "68400/TRADCL", "AccountKey": "fgI8E1Z|KTC1VOBLVnHJlg==" }
+            ],
+            "ClientId": "7629954",
+            "ClientKey": "cDEh-i5bYvnq8nW2tnK6sw==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADCL",
+            "DefaultAccountKey": "fgI8E1Z|KTC1VOBLVnHJlg==",
+            "LegalAssetTypes": ["Cash", "Stock", "Bond", "StockOption", "MutualFund"],
+            "Name": "Client 7629954",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "68400/COMMGBPCRB",
+                    "AccountKey": "eyMMAVtymqyowpbZPg3jOV6yxsCHSlP2TveOfS1guTU=",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "68400/TRADCRB", "AccountKey": "njmtJisBO|pKBmh4MPYLDg==" }
+            ],
+            "ClientId": "7629986",
+            "ClientKey": "ckvSPvqsbotel9Du5OpGsw==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADCRB",
+            "DefaultAccountKey": "njmtJisBO|pKBmh4MPYLDg==",
+            "LegalAssetTypes": ["Cash", "Stock", "Bond", "StockOption", "MutualFund"],
+            "Name": "Client 7629986",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "68400/COMMGBPRCI",
+                    "AccountKey": "TPQnHlqIC99j71KdGv9YaYrylEpmfNENtCJR6uCIxu8=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "68400/COMMUSDRCI",
+                    "AccountKey": "gwnmDBngj8Es9vwzk|h3BlCx|YVbQyzv3lkpskmDrd0=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "68400/TRADINGRCI",
+                    "AccountKey": "F8v8mU8UgC-2dNj4bvUD2wgTNXIicmGGxfEUw-nZBiM=",
+                    "AccountType": "Normal"
+                }
+            ],
+            "ClientId": "6383267",
+            "ClientKey": "yOYV-m7ApI99D5PFTcBzCw==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADINGRCI",
+            "DefaultAccountKey": "F8v8mU8UgC-2dNj4bvUD2wgTNXIicmGGxfEUw-nZBiM=",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "Stock",
+                "Bond",
+                "StockOption",
+                "MutualFund"
+            ],
+            "Name": "Client 6383267",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "68400/COMMGBPRFS",
+                    "AccountKey": "8Yrg3Gj1d5RangPDeQ5PTQ7mIIQ03Sv2L0lBImghFfM=",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "68400/TRADRFS", "AccountKey": "xD|Boe4HxmnjcIlbPMI5Cw==" }
+            ],
+            "ClientId": "7529155",
+            "ClientKey": "yCnG9A3mUYIGCPMHZRd5mA==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADRFS",
+            "DefaultAccountKey": "xD|Boe4HxmnjcIlbPMI5Cw==",
+            "LegalAssetTypes": ["Cash", "Stock", "Bond", "StockOption", "MutualFund"],
+            "Name": "Client 7529155",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "68400/COMMIOMA",
+                    "AccountKey": "z7eKGcP33yOvCjJQzfjmqw==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "68400/TRADIOMA",
+                    "AccountKey": "DA4|m-lorJnC5|Izcig9vA==",
+                    "AccountType": "Normal"
+                }
+            ],
+            "ClientId": "6390539",
+            "ClientKey": "RitrihRYpEEjk6tLdfp0NQ==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADIOMA",
+            "DefaultAccountKey": "DA4|m-lorJnC5|Izcig9vA==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "Stock",
+                "Bond",
+                "StockOption",
+                "MutualFund"
+            ],
+            "Name": "Client 6390539",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "68400/COMMLIF",
+                    "AccountKey": "SQm8nP1J71UXSZPS3qm3HQ==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "68400/TRADLIF", "AccountKey": "TlZiGJ5|47BsJIbso2WfJw==" }
+            ],
+            "ClientId": "6361199",
+            "ClientKey": "X4he|6jzJIXm6PpaOPD|lQ==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADLIF",
+            "DefaultAccountKey": "TlZiGJ5|47BsJIbso2WfJw==",
+            "LegalAssetTypes": ["Cash", "Stock", "Bond", "StockOption", "MutualFund"],
+            "Name": "Client 6361199",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "68400/COMMMAM",
+                    "AccountKey": "66D8sStL-Q365FEtVu8-qg==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "68400/TRADMAM", "AccountKey": "Rw0TGMXCq9H|xY3Ny3y9HA==" }
+            ],
+            "ClientId": "6822359",
+            "ClientKey": "9HbZsiNKwljo-ZkS9NAsZg==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADMAM",
+            "DefaultAccountKey": "Rw0TGMXCq9H|xY3Ny3y9HA==",
+            "LegalAssetTypes": ["Cash", "Stock", "Bond", "MutualFund"],
+            "Name": "Client 6822359",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "68400/COMMSIPPSI",
+                    "AccountKey": "V-aZRvlBdRxab2X6TBqQhEbP0MRlLs3lcWVX-EX1oC0=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "68400/TRADSIPPSI",
+                    "AccountKey": "sUg9luF2qWSF5bsuS5AWpIcpY4|6sUyhi|ZgFMvvWwE=",
+                    "AccountType": "Normal"
+                }
+            ],
+            "ClientId": "6650078",
+            "ClientKey": "pbF8BxZOggbmD45w6jB10A==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADSIPPSI",
+            "DefaultAccountKey": "sUg9luF2qWSF5bsuS5AWpIcpY4|6sUyhi|ZgFMvvWwE=",
+            "LegalAssetTypes": ["Cash", "Stock", "Bond", "StockOption", "MutualFund"],
+            "Name": "Client 6650078",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "68400/COMMSPMW",
+                    "AccountKey": "b2rUP-Rk66Z8vu4hXxfX4w==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "68400/TRADSPMW",
+                    "AccountKey": "K3snGX3LsaAOz2vEWgBqpA==",
+                    "AccountType": "Normal"
+                }
+            ],
+            "ClientId": "7124281",
+            "ClientKey": "Tmj4pjhFXPG1NspGt6CQ-g==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADSPMW",
+            "DefaultAccountKey": "K3snGX3LsaAOz2vEWgBqpA==",
+            "LegalAssetTypes": ["Cash", "Stock", "MutualFund"],
+            "Name": "Client 7124281",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "68400/COMMUSDCAP",
+                    "AccountKey": "Ax3qPEDGwo9kB|U3NV6uHAADEAFsh-mTilXtKJbhem8=",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "68400/TRADCAP", "AccountKey": "Vi3TuZW3iz14E8gFV4TDAA==" }
+            ],
+            "ClientId": "7081757",
+            "ClientKey": "TiItlRtXD3zsKcNF03tDSQ==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADCAP",
+            "DefaultAccountKey": "Vi3TuZW3iz14E8gFV4TDAA==",
+            "LegalAssetTypes": ["Cash", "Stock", "Bond", "StockOption", "MutualFund"],
+            "Name": "Client 7081757",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "68400/COMMUSDFCL",
+                    "AccountKey": "utsq3CbwtTuT1nyZhbwnRYsKGQzQvHd0w2xEW3VhoxI=",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "68400/TRADFCL", "AccountKey": "8OBikX3fS-OX5CIUTneAxA==" }
+            ],
+            "ClientId": "7050920",
+            "ClientKey": "sQjxV9BhyNd5aWzN8ayzew==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADFCL",
+            "DefaultAccountKey": "8OBikX3fS-OX5CIUTneAxA==",
+            "LegalAssetTypes": ["Cash", "Stock", "Bond", "StockOption", "MutualFund"],
+            "Name": "Client 7050920",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "68400/COMMUSDHSA",
+                    "AccountKey": "eL|1yaysBVDiICbpeDb5NXfGSn5PSmCS-Yd-LA0dVD0=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "68400/TRADHSAP",
+                    "AccountKey": "jP55NsxnSn8lVpkGHCpcFA==",
+                    "AccountType": "Normal"
+                }
+            ],
+            "ClientId": "6362938",
+            "ClientKey": "Flzuhtm1i0Rz5onJaePJdw==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADHSAP",
+            "DefaultAccountKey": "jP55NsxnSn8lVpkGHCpcFA==",
+            "LegalAssetTypes": ["Cash", "Stock", "Bond", "StockOption", "MutualFund"],
+            "Name": "Client 6362938",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "68400/COMMUSDNA",
+                    "AccountKey": "UwXOFREiiB3lM8Wl1KTlMA==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "68400/TRADNA", "AccountKey": "OZF4QYvI10ZAG2stHk6ZuA==" }
+            ],
+            "ClientId": "7082448",
+            "ClientKey": "sSuu|JzUMvXnUGCEaE0Yvw==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADNA",
+            "DefaultAccountKey": "OZF4QYvI10ZAG2stHk6ZuA==",
+            "LegalAssetTypes": ["Cash", "Stock", "Bond", "StockOption", "MutualFund"],
+            "Name": "Client 7082448",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "68400/FCHFOMIM",
+                    "AccountKey": "EGtPUxbeu53uTLQ3muvf6Q==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "68400/FEUROMIM",
+                    "AccountKey": "|VdUq2Hm2pe|XNlSJmrBwA==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "68400/FGBPOMIM",
+                    "AccountKey": "|VRaN1QOANp8zYUazrbREw==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "68400/FUSDOMIM",
+                    "AccountKey": "v4e-g8e5Wl3jPfnqJ5QRwQ==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "68400/TRADROYAL",
+                    "AccountKey": "TgvlrF8khg9icyr5vEmAxg==",
+                    "AccountType": "Normal"
+                }
+            ],
+            "ClientId": "6263342",
+            "ClientKey": "1XLo0s0LaOBn4g3YAm4xVg==",
+            "ClientTypeName": "IB Not Liable",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADROYAL",
+            "DefaultAccountKey": "TgvlrF8khg9icyr5vEmAxg==",
+            "LegalAssetTypes": ["Cash", "Stock", "Bond", "MutualFund"],
+            "Name": "Client 6263342",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "68400/MFEEUSDGS",
+                    "AccountKey": "g898BPnk4JCg114RbBHyIQ==",
+                    "AccountType": "Normal"
+                }
+            ],
+            "ClientId": "8164486",
+            "ClientKey": "FFJ2l4SNfcyQcUD0vY3j7w==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/MFEEUSDGS",
+            "DefaultAccountKey": "g898BPnk4JCg114RbBHyIQ==",
+            "LegalAssetTypes": ["Cash"],
+            "Name": "Client 8164486",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "68400/MGTUSD", "AccountKey": "AMKTdaPMu7vlf5McJtfbcQ==" }
+            ],
+            "ClientId": "7669837",
+            "ClientKey": "oTX8T47nZQhqloJiXraq8Q==",
+            "ClientTypeName": "IB Not Liable",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/MGTUSD",
+            "DefaultAccountKey": "AMKTdaPMu7vlf5McJtfbcQ==",
+            "LegalAssetTypes": ["Cash"],
+            "Name": "Client 7669837",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "68400/TRADGLC", "AccountKey": "bFvQbN-NMnSD6QmFi8zj4w==" }
+            ],
+            "ClientId": "7634981",
+            "ClientKey": "0JcNaspqrU11vl6pneUAzg==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADGLC",
+            "DefaultAccountKey": "bFvQbN-NMnSD6QmFi8zj4w==",
+            "LegalAssetTypes": ["Stock", "Bond", "MutualFund"],
+            "Name": "Client 7634981",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "68400/TRADMWI", "AccountKey": "W8xxtLWxVh8ABzZPuLdi5Q==" }
+            ],
+            "ClientId": "7006174",
+            "ClientKey": "5AXsRIOEMCVUZ5XEaOU1Tg==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "68400/TRADMWI",
+            "DefaultAccountKey": "W8xxtLWxVh8ABzZPuLdi5Q==",
+            "LegalAssetTypes": ["Stock", "Bond", "StockOption", "MutualFund"],
+            "Name": "Client 7006174",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "95400/106685", "AccountKey": "SQ1QxVYp9j2lpM-JJs3ltg==" }
+            ],
+            "ClientId": "8503737",
+            "ClientKey": "Fmz1SY3ofqXlmE2E4ZxP3g==",
+            "ClientTypeName": "Internet Client",
+            "ClientType": "Client",
+            "DefaultAccountId": "95400/106685",
+            "DefaultAccountKey": "SQ1QxVYp9j2lpM-JJs3ltg==",
+            "LegalAssetTypes": [],
+            "Name": "Client 8503737",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "95400/ADVPCP", "AccountKey": "ZgqPAqKYOzctu1AXA17C6A==" },
+                {
+                    "AccountId": "95400/COMMPCP",
+                    "AccountKey": "09yawl2gpPSTfCWHws8tYA==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDPCP",
+                    "AccountKey": "0iOKJoRRgU6sujFfndbgNw==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADPCP", "AccountKey": "U8Y4dM|qF5AOFB-5LCstIQ==" }
+            ],
+            "ClientId": "7914744",
+            "ClientKey": "M18njogoEcHrmK2zrufiZA==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADPCP",
+            "DefaultAccountKey": "U8Y4dM|qF5AOFB-5LCstIQ==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 7914744",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "95400/COMMAG", "AccountKey": "3|FX0ghktzvzW0oz9qQxLQ==" },
+                { "AccountId": "95400/INTAG", "AccountKey": "BqxOgdKwr7FYQyT7rRRFPQ==" },
+                { "AccountId": "95400/TRADAG", "AccountKey": "nSkaaorRBALhqI8jf9Rj0Q==" }
+            ],
+            "ClientId": "6656576",
+            "ClientKey": "nWq3eRCNcF2bV3swulZNaA==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADAG",
+            "DefaultAccountKey": "nSkaaorRBALhqI8jf9Rj0Q==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 6656576",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "95400/COMMFF", "AccountKey": "5mvob0Bv66il0Hom8nas2Q==" },
+                { "AccountId": "95400/INTFF", "AccountKey": "NrjyF085KjQhtqT2F4xLYw==" },
+                { "AccountId": "95400/TRADFF", "AccountKey": "rVGlY|4pJgr6qiYKt5ZhfQ==" }
+            ],
+            "ClientId": "6770674",
+            "ClientKey": "-4YT2U|zlcJE22NRq|tBeg==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADFF",
+            "DefaultAccountKey": "rVGlY|4pJgr6qiYKt5ZhfQ==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 6770674",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMGBPBI",
+                    "AccountKey": "Zu-4-YbPdpYT2U0yQGubng==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTGBPBI",
+                    "AccountKey": "5j9nGf5GOM2AwTHg3baQlw==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADBI", "AccountKey": "PhHSQHMo6qzRfGAfVjUUkQ==" }
+            ],
+            "ClientId": "7702074",
+            "ClientKey": "ll9FdLkLNIKkW2qxLuQ2WQ==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADBI",
+            "DefaultAccountKey": "PhHSQHMo6qzRfGAfVjUUkQ==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 7702074",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMGBPHHI",
+                    "AccountKey": "-6wNdPi5hxMOLQTwVsnlyWVhJzLdtd62fdvvoYRppjE=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTGBPHHI",
+                    "AccountKey": "Lo4|5CcH33G7MBHCUK-0hA==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDHHI",
+                    "AccountKey": "dJgkZlZIm89XwxEBUET8Kw==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADHHI", "AccountKey": "bIboliJAcaIfg2076lDBNQ==" }
+            ],
+            "ClientId": "7914709",
+            "ClientKey": "MZdY7-Y0qExyF|el-YttfQ==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADHHI",
+            "DefaultAccountKey": "bIboliJAcaIfg2076lDBNQ==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 7914709",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMGBPSTI",
+                    "AccountKey": "RzVxmMpz-RqBC8QtSaleloKcndxyDj7Y|ebVPfuDV|M=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTGBPSTI",
+                    "AccountKey": "xdpgXAe3JMo1RI7KAHsBUA==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADSTI", "AccountKey": "7tNIdwnIFOX8E1S7x63rzw==" }
+            ],
+            "ClientId": "7754720",
+            "ClientKey": "IDtMn3AMhi02RZ7k28RPMA==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADSTI",
+            "DefaultAccountKey": "7tNIdwnIFOX8E1S7x63rzw==",
+            "LegalAssetTypes": ["Cash", "Stock", "Bond", "MutualFund"],
+            "Name": "Client 7754720",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "95400/COMMGT", "AccountKey": "r76YQTi|Ht7OWPoNlFiwtg==" },
+                { "AccountId": "95400/TRADGT", "AccountKey": "yri4oT55IWy4wA417DpOZA==" }
+            ],
+            "ClientId": "6946174",
+            "ClientKey": "FS8uoWZ22oQ1I7cuK0x|pA==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADGT",
+            "DefaultAccountKey": "yri4oT55IWy4wA417DpOZA==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 6946174",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMGTC",
+                    "AccountKey": "NciZ9Kbt5J37kW4yHEG7FA==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/INTGTC", "AccountKey": "YIVkENcdQc-Ix4XN9|0Mvw==" },
+                { "AccountId": "95400/TRADGTC", "AccountKey": "YDpPiwq5a1patKA-WoltYg==" }
+            ],
+            "ClientId": "7122377",
+            "ClientKey": "9vo378KyXu4wUL2g8XL-fA==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADGTC",
+            "DefaultAccountKey": "YDpPiwq5a1patKA-WoltYg==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 7122377",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                { "AccountId": "95400/COMMMS", "AccountKey": "C2O-P8pqPUHexqv11AT9yg==" },
+                { "AccountId": "95400/TRADMS", "AccountKey": "zxVcEhWM5lGAKUPxSdlCaQ==" }
+            ],
+            "ClientId": "7783687",
+            "ClientKey": "u9T9pvYln|eUfn9rDIUq6g==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADMS",
+            "DefaultAccountKey": "zxVcEhWM5lGAKUPxSdlCaQ==",
+            "LegalAssetTypes": ["Cash", "Stock", "Bond", "MutualFund"],
+            "Name": "Client 7783687",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMPAM",
+                    "AccountKey": "wCAat4IXiwg4jzdC1G|7bg==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/INTPAM", "AccountKey": "twwep3PEF45z77n05sIVGA==" },
+                { "AccountId": "95400/TRADPAM", "AccountKey": "hOvXwDzUSgeMa-QFqUJlog==" }
+            ],
+            "ClientId": "7424149",
+            "ClientKey": "bXA|oaxkdBAesAuLH7bpFA==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADPAM",
+            "DefaultAccountKey": "hOvXwDzUSgeMa-QFqUJlog==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 7424149",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMPWH",
+                    "AccountKey": "dXyGZ-IKG2-ohohywZrwzQ==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADPWH", "AccountKey": "9TN9DKjV3aYGaXYzqpj1Zg==" }
+            ],
+            "ClientId": "7918810",
+            "ClientKey": "55MPcl1MulGjGHhx6Q7wBA==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADPWH",
+            "DefaultAccountKey": "9TN9DKjV3aYGaXYzqpj1Zg==",
+            "LegalAssetTypes": ["Cash", "Stock", "Bond", "MutualFund"],
+            "Name": "Client 7918810",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMRAND",
+                    "AccountKey": "c1j4Nv2HqiDp9dEsWK9u|A==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTRAND",
+                    "AccountKey": "Ir0erCvJIJJ4lrPp51Crgw==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/TRADRAND",
+                    "AccountKey": "8b2paKKjyzJ62r|feMF6lQ==",
+                    "AccountType": "Normal"
+                }
+            ],
+            "ClientId": "6914460",
+            "ClientKey": "CpDSaTAMc29x|2cGUANqEw==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/COMMRAND",
+            "DefaultAccountKey": "c1j4Nv2HqiDp9dEsWK9u|A==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 6914460",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMTFM",
+                    "AccountKey": "dSzzETNW1UGAltx2ngrNkA==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTGBPTFM",
+                    "AccountKey": "uGqr0ObTfr|rjgx8Mj3HYA==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADTFM", "AccountKey": "6nQU6KoZFFdnt57ctYfJaw==" }
+            ],
+            "ClientId": "7914758",
+            "ClientKey": "XhkHIEUe3cbDmdRH2|h1Dg==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADTFM",
+            "DefaultAccountKey": "6nQU6KoZFFdnt57ctYfJaw==",
+            "LegalAssetTypes": [
+                "Cash",
+                "Stock",
+                "Bond",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 7914758",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDAAM",
+                    "AccountKey": "KistIKSRJazGz1l6a6mdMSU3|YcH70-dRCvAKnRATBg=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDAAM",
+                    "AccountKey": "WK8jVVqgMQVuNKLbCfGdTQ==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADAAM", "AccountKey": "AVCP5JYgK-EaMF-r3U0wsw==" }
+            ],
+            "ClientId": "8168170",
+            "ClientKey": "npv3CUcIzFw|3dB8cxRbpQ==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADAAM",
+            "DefaultAccountKey": "AVCP5JYgK-EaMF-r3U0wsw==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 8168170",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDACA",
+                    "AccountKey": "bRvMAggznaJVVx-AjmumFvxOwBJ|AhdetBx-2n-fisA=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDACA",
+                    "AccountKey": "0LHo5qdBeT-waKl2owRjsA==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADACA", "AccountKey": "3Zg9QFA|K91OT2rLhcSFNg==" }
+            ],
+            "ClientId": "7850699",
+            "ClientKey": "LFRdw-RXs3xytbBJsoBoIQ==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADACA",
+            "DefaultAccountKey": "3Zg9QFA|K91OT2rLhcSFNg==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 7850699",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDACI",
+                    "AccountKey": "JThTLk6rbVtveKkm3zW3xKWZKoRCXvQ3naBwiFcSqvI=",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADACI", "AccountKey": "4RSPnWXYtgAbC-TgNriWGw==" }
+            ],
+            "ClientId": "8236676",
+            "ClientKey": "R7bV4xnu8R-0|CDQOEqlIg==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADACI",
+            "DefaultAccountKey": "4RSPnWXYtgAbC-TgNriWGw==",
+            "LegalAssetTypes": ["Cash", "Stock", "MutualFund"],
+            "Name": "Client 8236676",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDAFF",
+                    "AccountKey": "1FxIg5|n-7zL0Wmz6lzh0xM2ECKmEeF4MBLHHX|p59Q=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDAFF",
+                    "AccountKey": "DAlLkd-Pkoh3OBDCTAp1rg==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADAFF", "AccountKey": "BMR0t3S-tDhiKri-M5P38g==" }
+            ],
+            "ClientId": "6967235",
+            "ClientKey": "YFwC|Jnf5bEbvdH4KrlLWQ==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADAFF",
+            "DefaultAccountKey": "BMR0t3S-tDhiKri-M5P38g==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 6967235",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDAGO",
+                    "AccountKey": "3B9ljLJjt28ngvFNICEO5a9M-3yxf66JilHoBl2rlkQ=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDAGO",
+                    "AccountKey": "U|eOrZ7OMbor|iRwIFiaow==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADAGO", "AccountKey": "pLrll9DqHzB|3W-FgL5tAw==" }
+            ],
+            "ClientId": "8111869",
+            "ClientKey": "-750u0b4rDlnWm865i16Bg==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADAGO",
+            "DefaultAccountKey": "pLrll9DqHzB|3W-FgL5tAw==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 8111869",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDAIH",
+                    "AccountKey": "jTJhfC4Q2VFhJCdbIGRuOgsZ4GKzkRb2yeo|ZD52cnM=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDAIH",
+                    "AccountKey": "ouodb-d9ij6StIQrfYW6Mg==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADAIH", "AccountKey": "Pop2S5uW8LOMStJZWv0S3g==" }
+            ],
+            "ClientId": "7832708",
+            "ClientKey": "6czfVey0No4OEPgyS3l9QA==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADAIH",
+            "DefaultAccountKey": "Pop2S5uW8LOMStJZWv0S3g==",
+            "LegalAssetTypes": ["Cash", "Stock", "Bond", "MutualFund"],
+            "Name": "Client 7832708",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDAIR",
+                    "AccountKey": "cpzUYpr0qg4Q|hYg7SEmPyUjvi53sew8N0voXl|nNlE=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDAIR",
+                    "AccountKey": "U2pl4CUbXoMduQQ4kMNTaw==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADAIR", "AccountKey": "b21V1HjXQO7iD3hD2DoeuQ==" }
+            ],
+            "ClientId": "8126726",
+            "ClientKey": "fNc0QHhpVzgjUBh3fQC8bQ==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADAIR",
+            "DefaultAccountKey": "b21V1HjXQO7iD3hD2DoeuQ==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 8126726",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDANB",
+                    "AccountKey": "w1NnPiMw275JpLW3wZWQZUEavmMPLtG6eCCtLqtacuk=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDANB",
+                    "AccountKey": "BXXLHJyuHjWREij8NZwEWA==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADANB", "AccountKey": "XdKRKfjiun7tmy0TbGxY7Q==" }
+            ],
+            "ClientId": "7924759",
+            "ClientKey": "-ryc|BTpl|Z2pP2ckTWlMw==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADANB",
+            "DefaultAccountKey": "XdKRKfjiun7tmy0TbGxY7Q==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 7924759",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDAND",
+                    "AccountKey": "aCiwoR4RQ-ge-luTINxkHKzIkNPdo8d-jS6UIhnN6|o=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDAND",
+                    "AccountKey": "Tc8YfySCkBWb2aUuRrMHxA==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADAND", "AccountKey": "qQxBqILOuyVHQ6lYprWR2A==" }
+            ],
+            "ClientId": "7066902",
+            "ClientKey": "oYwDw2GUM04X13P-O3bmKg==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADAND",
+            "DefaultAccountKey": "qQxBqILOuyVHQ6lYprWR2A==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 7066902",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDAPB",
+                    "AccountKey": "MYg|obbBSqVJ6WyMeNCwGxfkJ8A2t9W9QwqU|ytDttE=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDAPB",
+                    "AccountKey": "QqIKazq2MfMSK8eCn6Cc1w==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADAPB", "AccountKey": "UaXTtFw5PlFmZnTs0AOZkg==" }
+            ],
+            "ClientId": "7919190",
+            "ClientKey": "n-zfEQCKNM0NGi0WLQ1cjg==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADAPB",
+            "DefaultAccountKey": "UaXTtFw5PlFmZnTs0AOZkg==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 7919190",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDAXI",
+                    "AccountKey": "Nywvpx7KJt3AKJV3XjhzTpcJiE3NYT7g4rqHgU4uHcU=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDAXI",
+                    "AccountKey": "77aWSkV6NEpRTK2QaVbcrA==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADAXI", "AccountKey": "v0hDGwwMSfojPSuqdn1HdQ==" }
+            ],
+            "ClientId": "7914883",
+            "ClientKey": "Fpw-YlII8SNyIRm6N2xv8g==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADAXI",
+            "DefaultAccountKey": "v0hDGwwMSfojPSuqdn1HdQ==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 7914883",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDBAY",
+                    "AccountKey": "ijUdonQ3lhU|sQlNOvVNb2qReWDgOMP-4rLOxcI1ojA=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDBAY",
+                    "AccountKey": "wd3Gg972xsOdglCi2TnPjw==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADBAY", "AccountKey": "|7Y8JgC0rAeHxtB9UH3hjA==" }
+            ],
+            "ClientId": "7914866",
+            "ClientKey": "yEzPgEj9Z|w0-bKLydW-tA==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADBAY",
+            "DefaultAccountKey": "|7Y8JgC0rAeHxtB9UH3hjA==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 7914866",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDBPB",
+                    "AccountKey": "Lcj52Pc64EbK2TFFeojAorn3-hY7vpkbmMTIoanQu0M=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDBPB",
+                    "AccountKey": "326L9jiPlLyIQS1QeY|8Eg==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADBPB", "AccountKey": "FiAH|AWfqkoV6OCgnzv8vg==" }
+            ],
+            "ClientId": "7709995",
+            "ClientKey": "9yfMbDJjrH44zV1lQY|x0g==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADBPB",
+            "DefaultAccountKey": "FiAH|AWfqkoV6OCgnzv8vg==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 7709995",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDCAC",
+                    "AccountKey": "EI-mWkSac6i05pcoYcaTK9lxVh-6Qt5pplhHwtE957s=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDCAC",
+                    "AccountKey": "Ba0jDSoae6prY1nHXbKKJQ==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADCAC", "AccountKey": "QzHxd4bs5o-hOB5UGjnpyQ==" }
+            ],
+            "ClientId": "8159649",
+            "ClientKey": "|V1KBDYbZ3DHCg018r8gNQ==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADCAC",
+            "DefaultAccountKey": "QzHxd4bs5o-hOB5UGjnpyQ==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 8159649",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDCAP",
+                    "AccountKey": "BtRj7B84QWhDz-5FjB9tNxsmSk|N-EvZPV52Uaemwgw=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDCAP",
+                    "AccountKey": "2v44Ygqqty32wnb2biUDvQ==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADCAP", "AccountKey": "IdrQK7FyTmbNUF50R6nHmQ==" }
+            ],
+            "ClientId": "7918720",
+            "ClientKey": "XMU0sdg8BIUnRNmjo0-CIg==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADCAP",
+            "DefaultAccountKey": "IdrQK7FyTmbNUF50R6nHmQ==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 7918720",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDCOH",
+                    "AccountKey": "x2rFLaQuk|LOqYhlTBMkFpm0WpMS-TAO8iITbtnIRGs=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDCOH",
+                    "AccountKey": "AfAbrfh7DJ8Q-z-wk-m7xw==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADCOH", "AccountKey": "XmW4VVIVAZjAvy7MZBR3PQ==" }
+            ],
+            "ClientId": "7921601",
+            "ClientKey": "Xm-t6zXyIKSuxpy3mptupw==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADCOH",
+            "DefaultAccountKey": "XmW4VVIVAZjAvy7MZBR3PQ==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 7921601",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDCON",
+                    "AccountKey": "vpRZxQ-qynNHFeV9k-AMJ|24QQ7vbA8R9Mpsg6cJWE0=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDCON",
+                    "AccountKey": "KugYUoEY6DFoHAtn2YDlmA==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADCON", "AccountKey": "ACEM8RHdf2peybdRcHD1gw==" }
+            ],
+            "ClientId": "7410929",
+            "ClientKey": "g396vPiMkJnZhf|ZXBtB9g==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADCON",
+            "DefaultAccountKey": "ACEM8RHdf2peybdRcHD1gw==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 7410929",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDEFF",
+                    "AccountKey": "MB-RBaAfQJSpbM8KfQgG2Uher2ppiCaSDdmFM4o16Oc=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDEFF",
+                    "AccountKey": "XLWaufuLukNM6k2aiibmSw==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADEFF", "AccountKey": "VP8JxtRN|45ZlYgQ6ayHCg==" }
+            ],
+            "ClientId": "7897660",
+            "ClientKey": "ww08cECyImC4YMqhv1Mn5w==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADEFF",
+            "DefaultAccountKey": "VP8JxtRN|45ZlYgQ6ayHCg==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 7897660",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDFRE",
+                    "AccountKey": "D-ZXIf7MwnGZ3TmE6Ou1C2BLtGohudhmtVzY8fwnoL8=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDFRE",
+                    "AccountKey": "Xhb81WCeXPj3CetxrDSWQA==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADFRE", "AccountKey": "1C7kQq625T25QzsX02YFyg==" }
+            ],
+            "ClientId": "7726294",
+            "ClientKey": "j-lCZeNpA1P8lENN9aloZQ==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADFRE",
+            "DefaultAccountKey": "1C7kQq625T25QzsX02YFyg==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 7726294",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDGFA",
+                    "AccountKey": "Ea2dakV8ZMcYzaPB8bplB9w-Q7WdT5i6TwBzLBs6pHY=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDGFA",
+                    "AccountKey": "dgne9GRpvK1kaOo1y79oSQ==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADGFA", "AccountKey": "8NKRmP7RQ2KzxnnUEwYuEg==" }
+            ],
+            "ClientId": "8089833",
+            "ClientKey": "ya-V-Q0-EPKQ6Qc|IACN1A==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADGFA",
+            "DefaultAccountKey": "8NKRmP7RQ2KzxnnUEwYuEg==",
+            "LegalAssetTypes": ["Cash", "Stock", "Bond", "MutualFund"],
+            "Name": "Client 8089833",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDHEI",
+                    "AccountKey": "0aVHmLRfLibd4V1pVv773WQYA8nylbpEs3-qrRZAdA0=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDHEI",
+                    "AccountKey": "xgOVILUs2|thExAOa|UZ3w==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADHEI", "AccountKey": "F7iEwwtnAEPq5cFBY9SGTQ==" }
+            ],
+            "ClientId": "7914654",
+            "ClientKey": "e8vVv7jKPL5nBJ08-nHacA==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADHEI",
+            "DefaultAccountKey": "F7iEwwtnAEPq5cFBY9SGTQ==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 7914654",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDIND",
+                    "AccountKey": "s-sZlr5PyyTlMgv1-jc56X4zv8bg5DyPy64CQ3HHL9c=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDIND",
+                    "AccountKey": "c9IyMmL5PnVAQ|eUpW4vMA==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADIND", "AccountKey": "duJbbRWq3tUrcQHyNScLRw==" }
+            ],
+            "ClientId": "7914698",
+            "ClientKey": "l-DXJJ2|G2H5hUVPwx9Uaw==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADIND",
+            "DefaultAccountKey": "duJbbRWq3tUrcQHyNScLRw==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 7914698",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDK2C",
+                    "AccountKey": "Vgte|O3VILEsM5lpIFcphEvN-x0P9xY-PqOXfsFxkYk=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDK2C",
+                    "AccountKey": "OKV6M0|3BZDuJUygxtX2tw==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADK2C", "AccountKey": "y9I01NJeESr0yuXAiUc3uw==" }
+            ],
+            "ClientId": "7914816",
+            "ClientKey": "bpxTFTimA6lzMEqVJB0x3g==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADK2C",
+            "DefaultAccountKey": "y9I01NJeESr0yuXAiUc3uw==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 7914816",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDKPL",
+                    "AccountKey": "nB-dOS8AkXwHl7Fu|gH6PJUmQn2OXtQGlrvgQKS8idI=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDKPL",
+                    "AccountKey": "UQUQCO7ql70ae4ebJLzkCw==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADKPL", "AccountKey": "ECtYLx8IOk6Lr1f7c-7Zlw==" }
+            ],
+            "ClientId": "7678762",
+            "ClientKey": "doUQ5Qb5YAYd0411UU2W6Q==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADKPL",
+            "DefaultAccountKey": "ECtYLx8IOk6Lr1f7c-7Zlw==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 7678762",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDMSR",
+                    "AccountKey": "UCMOfaKPzKo6M9IH18Ivgetqtyd2DvvB5t4ihMLmmi8=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDMSR",
+                    "AccountKey": "kFCogEKFMx3fNy7Ey2eJtw==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADMSR", "AccountKey": "R7uzFQzFZP-Temu8dsM1Cg==" }
+            ],
+            "ClientId": "7796805",
+            "ClientKey": "8mJh-mSfPDSNZ|zeLOr2IA==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADMSR",
+            "DefaultAccountKey": "R7uzFQzFZP-Temu8dsM1Cg==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 7796805",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDNFS",
+                    "AccountKey": "QDvaHUY5-rjOpFiWHbQiE97f8xxQkCkAMRFaIOsymKw=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDNFS",
+                    "AccountKey": "yStCsRg0I3EWERqOK45hfw==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADNFS", "AccountKey": "SwtiMkkhwq2FrLzDPzd5kg==" }
+            ],
+            "ClientId": "7918670",
+            "ClientKey": "Tle-GI8NRiH4TJ70ddFjRQ==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADNFS",
+            "DefaultAccountKey": "SwtiMkkhwq2FrLzDPzd5kg==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 7918670",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDNVS",
+                    "AccountKey": "yy0Vc0Yirb5TyEePbVWLBQNJJ7ntuQkWHgxVjEgZBY4=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDNVS",
+                    "AccountKey": "jZTHrnVNXbr1rhkmDVYuBw==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADNVS", "AccountKey": "hyNKlbixWIfBbs|m2W44Rw==" }
+            ],
+            "ClientId": "7914737",
+            "ClientKey": "YZxiuzaGVBXM2EvbjUmyDw==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/COMMUSDNVS",
+            "DefaultAccountKey": "yy0Vc0Yirb5TyEePbVWLBQNJJ7ntuQkWHgxVjEgZBY4=",
+            "LegalAssetTypes": ["Cash", "Stock", "Bond", "MutualFund"],
+            "Name": "Client 7914737",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDPER",
+                    "AccountKey": "bQo5hE3h2flu6zgmOXqzoY5YekXSSb9dqox|yHUWSPI=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDPER",
+                    "AccountKey": "pRX4|4R0l28aGEXdmXabjQ==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADPER", "AccountKey": "MwYhZL85uxzxe3ffqHhJog==" }
+            ],
+            "ClientId": "8186475",
+            "ClientKey": "s-vLYLH0vYF4jg8VDiJgFw==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADPER",
+            "DefaultAccountKey": "MwYhZL85uxzxe3ffqHhJog==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 8186475",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDRCM",
+                    "AccountKey": "txPuWm1CXmLedkpZyPInp9idyz5v4bcGvz4kE9X0m9I=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDRCM",
+                    "AccountKey": "RBWdNYXDuu6mrwWtzb|t-g==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADRCM", "AccountKey": "4y2BTu939uZF1C7fb8LNOQ==" }
+            ],
+            "ClientId": "8137008",
+            "ClientKey": "ECtcd4On7Ygz0G8Va|Wbcw==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADRCM",
+            "DefaultAccountKey": "4y2BTu939uZF1C7fb8LNOQ==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 8137008",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDSCH",
+                    "AccountKey": "TxCPRE8ubOunDJUaYwuste3kNCVdsWhMfRdALfyclpM=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDSCH",
+                    "AccountKey": "q|asrAmWtB5|ECTzqEBBhw==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADSCH", "AccountKey": "8jdqtKBhaVJX4ek51Y-gyg==" }
+            ],
+            "ClientId": "7029792",
+            "ClientKey": "|2kn9pWt4MnKgjrUUxHzEw==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADSCH",
+            "DefaultAccountKey": "8jdqtKBhaVJX4ek51Y-gyg==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 7029792",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDSHI",
+                    "AccountKey": "AogHPK9N09|EAXHVrFDkyX8|goh5wZkAu8qr2gMUxH4=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/ERRORSHI",
+                    "AccountKey": "8oN47q0dhkLzWwRtMzgEJQ==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDSHI",
+                    "AccountKey": "kKSBNbSL2fdVAHXwpSzMiQ==",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/TRADESHI",
+                    "AccountKey": "n7hy4FV7RFsbOlBQAn3P2A==",
+                    "AccountType": "Normal"
+                }
+            ],
+            "ClientId": "9253016",
+            "ClientKey": "qmtCB3ewmMgQoejOLEROxQ==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADESHI",
+            "DefaultAccountKey": "n7hy4FV7RFsbOlBQAn3P2A==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 9253016",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDSHS",
+                    "AccountKey": "98EkvWZ3WtJKaUoqM2gLMkJ6KgLIc8gONTN8In75jZw=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDSHS",
+                    "AccountKey": "O3ExL9s7j-jC8cYeOH02QQ==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADSHS", "AccountKey": "k9w8REFnRc2c-Za|3SjiJg==" }
+            ],
+            "ClientId": "8249406",
+            "ClientKey": "E7f-YtkLSxNVF7-9sfQUsQ==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADSHS",
+            "DefaultAccountKey": "k9w8REFnRc2c-Za|3SjiJg==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 8249406",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDSKY",
+                    "AccountKey": "YfnsaQBFa8pNX31T1aGLh5l2dcZd3kd2ZrzAjAa8wrA=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDSKY",
+                    "AccountKey": "i6xtHsgl3Xxu0lyESpa1kQ==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADSKY", "AccountKey": "BTFEuqzlot781g-dZjVfjQ==" }
+            ],
+            "ClientId": "8444645",
+            "ClientKey": "FVlQB2Dja8yujfXTe0L0VQ==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADSKY",
+            "DefaultAccountKey": "BTFEuqzlot781g-dZjVfjQ==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 8444645",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDSTY",
+                    "AccountKey": "C0Sdh3gp5a1yapLmVpWPAmbAghSQx7hELLSIjhP93nI=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDSTY",
+                    "AccountKey": "f|Y2pY5qD-fWGdHWYQCtZw==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADSTY", "AccountKey": "N6j2z67BAdJnzpgX-UGYBQ==" }
+            ],
+            "ClientId": "8075978",
+            "ClientKey": "KDghKXKNiJTbwBG3u30d4A==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADSTY",
+            "DefaultAccountKey": "N6j2z67BAdJnzpgX-UGYBQ==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 8075978",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDTAM",
+                    "AccountKey": "YCRc|FFvIctUFTCDEj3RPx05usXj7Jw2fJPa7ECyERs=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDTAM",
+                    "AccountKey": "|LAM6mpYnP-FVbaEKuBGQg==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADTAM", "AccountKey": "DZTtSbhjGx|j8JN7Qxlj6A==" }
+            ],
+            "ClientId": "7536069",
+            "ClientKey": "8vpHz8Kb|3EsJ6436AlwDA==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADTAM",
+            "DefaultAccountKey": "DZTtSbhjGx|j8JN7Qxlj6A==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 7536069",
+            "OwnerId": "8479680"
+        },
+        {
+            "Accounts": [
+                {
+                    "AccountId": "95400/COMMUSDTRG",
+                    "AccountKey": "kWT|OrU41fg9juVL6KbwwL-DQkRRlTeOMkTUlk1|eXc=",
+                    "AccountType": "Normal"
+                },
+                {
+                    "AccountId": "95400/INTUSDTRG",
+                    "AccountKey": "uVGmxTIDJGN3a47dSAddaw==",
+                    "AccountType": "Normal"
+                },
+                { "AccountId": "95400/TRADTRG", "AccountKey": "89JW3FDe9fKY5T8SJwXBTw==" }
+            ],
+            "ClientId": "7893735",
+            "ClientKey": "jJW1e1HFEfLuJA-xK26qmA==",
+            "ClientTypeName": "IB",
+            "ClientType": "House",
+            "DefaultAccountId": "95400/TRADTRG",
+            "DefaultAccountKey": "89JW3FDe9fKY5T8SJwXBTw==",
+            "LegalAssetTypes": [
+                "Cash",
+                "FxSpot",
+                "FxForwards",
+                "FxVanillaOption",
+                "FxOneTouchOption",
+                "FxNoTouchOption",
+                "ContractFutures",
+                "FuturesStrategy",
+                "Stock",
+                "Bond",
+                "FuturesOption",
+                "StockIndexOption",
+                "StockOption",
+                "MutualFund",
+                "CfdOnStock",
+                "CfdOnFutures"
+            ],
+            "Name": "Client 7893735",
+            "OwnerId": "8479680"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "CurrentClassification": {
+        "Classification": {
+            "Key": "4",
+            "Value": "VIP"
+        },
+        "EndDate": "2019-12-10",
+        "StartDate": "2019-09-10",
+        "Points": 750000,
+        "ValidUntil": "2019-12-10"
+    },
+    "TargetClassification": {
+        "DaysLeft": 5,
+        "EndDate": "2019-10-10",
+        "StartDate": "2019-09-10"
+    }
+}

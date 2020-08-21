@@ -1,0 +1,424 @@
+{
+    "__count": 228,
+    "__next": "https://ba.orange.saxobank.com:443/openapi/mkt/v1/marketdata/analyst/?countrycodes=SE&assettype=Stock&$top=10&$skiptoken=9578850",
+    "Data": [
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "RBC Capital",
+                "GoodRecommendations": 1,
+                "Id": "ac15571c4fd48876d45deb90918d5c0b1fa39202",
+                "Name": "Sebastian Kuenne",
+                "NumberOfStars": 0.8,
+                "OverallAverageReturn": -14.8,
+                "OverallSuccessRate": 0.25,
+                "Rank": 4876,
+                "TotalNumberOfRankedAnalysts": 5852,
+                "TotalRecommendations": 4
+            },
+            "AverageReturn": 0.0,
+            "Consensus": {
+                "Key": "Hold",
+                "Value": "Hold"
+            },
+            "GoodRecommendations": 0,
+            "Id": 9573557,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "SE",
+                "Description": "Atlas Copco AB ser. A",
+                "ExchangeId": "SSE",
+                "Format": {
+                    "Decimals": 2
+                },
+                "Instrument": "ATCOa:xome",
+                "Uic": 103
+            },
+            "RecommendationArticleTitle": "Atlas Copco AB (ATCOA:SS) (ATLKY) PT Lowered to SEK335 at RBC Capital",
+            "RecommendationDate": "2020-01-31",
+            "RecommendationSite": "StreetInsider",
+            "RecommendationUrl": "http://www.streetinsider.com/intl+ratings/atlas+copco+ab+%28atcoa%3ass%29+%28atlky%29+pt+lowered+to+sek335+at+rbc+capital/16397709.html?si_client=tipranks-16397709-481fc7b986",
+            "SuccessRate": 0.0,
+            "TargetPrice": 335.0,
+            "TotalRecommendations": 0
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "RBC Capital",
+                "GoodRecommendations": 2,
+                "Id": "694f2f29ee2042b10a61b2e04635277272345db0",
+                "Name": "Tom Narayan",
+                "NumberOfStars": 0.6,
+                "OverallAverageReturn": -12.9,
+                "OverallSuccessRate": 0.222,
+                "Rank": 5104,
+                "TotalNumberOfRankedAnalysts": 5852,
+                "TotalRecommendations": 9
+            },
+            "AverageReturn": 0.0,
+            "Consensus": {
+                "Key": "Hold",
+                "Value": "Hold"
+            },
+            "GoodRecommendations": 0,
+            "Id": 9573323,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "SE",
+                "Description": "Volvo, AB Ser. B",
+                "ExchangeId": "SSE",
+                "Format": {
+                    "Decimals": 2
+                },
+                "Instrument": "VOLVb:xome",
+                "Uic": 134
+            },
+            "RecommendationArticleTitle": "Volvo AB (VOLVB:SS) (VLVLY) PT Raised to SEK166 at RBC Capital",
+            "RecommendationDate": "2020-01-31",
+            "RecommendationSite": "StreetInsider",
+            "RecommendationUrl": "http://www.streetinsider.com/intl+ratings/volvo+ab+%28volvb%3ass%29+%28vlvly%29+pt+raised+to+sek166+at+rbc+capital/16397708.html?si_client=tipranks-16397708-10026f1c1c",
+            "SuccessRate": 0.0,
+            "TargetPrice": 166.0,
+            "TotalRecommendations": 0
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "Deutsche Bank",
+                "GoodRecommendations": 1,
+                "Id": "1896e264ebe17d37fe6befdf53c7f0fa3d2ac3d3",
+                "Name": "Tim Rokossa",
+                "NumberOfStars": 0.3,
+                "OverallAverageReturn": -11.8,
+                "OverallSuccessRate": 0.031,
+                "Rank": 5453,
+                "TotalNumberOfRankedAnalysts": 5852,
+                "TotalRecommendations": 32
+            },
+            "AverageReturn": 0.0,
+            "Consensus": {
+                "Key": "Buy",
+                "Value": "Buy"
+            },
+            "GoodRecommendations": 0,
+            "Id": 9573322,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "SE",
+                "Description": "Volvo, AB Ser. B",
+                "ExchangeId": "SSE",
+                "Format": {
+                    "Decimals": 2
+                },
+                "Instrument": "VOLVb:xome",
+                "Uic": 134
+            },
+            "RecommendationArticleTitle": "",
+            "RecommendationDate": "2020-01-31",
+            "RecommendationSite": "BusinessInsider",
+            "RecommendationUrl": "https://markets.businessinsider.com/analysts-opinions/volvo-ab-b-buy-689191",
+            "SuccessRate": 0.0,
+            "TargetPrice": 190.0,
+            "TotalRecommendations": 0
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "Kepler Capital ",
+                "GoodRecommendations": 0,
+                "Id": "a851a569dd6ef1856a74c3a43d098cc15aba047d",
+                "Name": "Mats Liss",
+                "TotalNumberOfRankedAnalysts": 5852,
+                "TotalRecommendations": 0
+            },
+            "AverageReturn": 0.0,
+            "Consensus": {
+                "Key": "Buy",
+                "Value": "Buy"
+            },
+            "GoodRecommendations": 0,
+            "Id": 9573321,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "SE",
+                "Description": "Volvo, AB Ser. B",
+                "ExchangeId": "SSE",
+                "Format": {
+                    "Decimals": 2
+                },
+                "Instrument": "VOLVb:xome",
+                "Uic": 134
+            },
+            "RecommendationArticleTitle": "",
+            "RecommendationDate": "2020-01-31",
+            "RecommendationSite": "BusinessInsider",
+            "RecommendationUrl": "https://markets.businessinsider.com/analysts-opinions/volvo-ab-b-buy-689169",
+            "SuccessRate": 0.0,
+            "TargetPrice": 185.0,
+            "TotalRecommendations": 0
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "Kepler Capital ",
+                "GoodRecommendations": 0,
+                "Id": "ebdd1a87bb9cd37c9cbd6e777e76a073f3699aba",
+                "Name": "Magnus Raman",
+                "TotalNumberOfRankedAnalysts": 5852,
+                "TotalRecommendations": 0
+            },
+            "AverageReturn": 0.0,
+            "Consensus": {
+                "Key": "Buy",
+                "Value": "Buy"
+            },
+            "GoodRecommendations": 0,
+            "Id": 9571650,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "SE",
+                "Description": "Hennes & Mauritz AB, H & M ser. B",
+                "ExchangeId": "SSE",
+                "Format": {
+                    "Decimals": 2
+                },
+                "Instrument": "HMb:xome",
+                "Uic": 110
+            },
+            "RecommendationArticleTitle": "",
+            "RecommendationDate": "2020-01-31",
+            "RecommendationSite": "BusinessInsider",
+            "RecommendationUrl": "https://markets.businessinsider.com/analysts-opinions/hennes-&-mauritz-ab-h-&-m--h&m-buy-689167",
+            "SuccessRate": 0.0,
+            "TargetPrice": 230.0,
+            "TotalRecommendations": 0
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "J.P. Morgan",
+                "GoodRecommendations": 13,
+                "Id": "ce20959ad6b6261c1c1866feca9f8dbcd8a7e035",
+                "Name": "Sandeep Deshpande",
+                "NumberOfStars": 3.6,
+                "OverallAverageReturn": 11.2,
+                "OverallSuccessRate": 0.542,
+                "Rank": 1645,
+                "TotalNumberOfRankedAnalysts": 5849,
+                "TotalRecommendations": 24
+            },
+            "AverageReturn": 0.0,
+            "Consensus": {
+                "Key": "Hold",
+                "Value": "Hold"
+            },
+            "GoodRecommendations": 0,
+            "Id": 9568593,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "SE",
+                "Description": "Nokia Corp.",
+                "ExchangeId": "SSE",
+                "Format": {
+                    "Decimals": 3
+                },
+                "Instrument": "NOKIA_SEK:xome",
+                "Uic": 2309242
+            },
+            "RecommendationArticleTitle": "",
+            "RecommendationDate": "2020-01-31",
+            "RecommendationSite": "BusinessInsider",
+            "RecommendationUrl": "https://markets.businessinsider.com/analysts-opinions/nokia-oyj-nokia-corp--neutral-689182",
+            "SuccessRate": 0.0,
+            "TargetPrice": 40.0275,
+            "TotalRecommendations": 0
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "Barclays",
+                "GoodRecommendations": 8,
+                "Id": "c6afcdafe7a7ebf251d55fdd3f40824416c9b79a",
+                "Name": "Lars Brorson",
+                "NumberOfStars": 1.0,
+                "OverallAverageReturn": -5.3,
+                "OverallSuccessRate": 0.5,
+                "Rank": 4736,
+                "TotalNumberOfRankedAnalysts": 5852,
+                "TotalRecommendations": 16
+            },
+            "AverageReturn": 0.0,
+            "Consensus": {
+                "Key": "Hold",
+                "Value": "Hold"
+            },
+            "GoodRecommendations": 0,
+            "Id": 9566414,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "SE",
+                "Description": "Epiroc AB - A shares - A shares",
+                "ExchangeId": "SSE",
+                "Format": {
+                    "Decimals": 2
+                },
+                "Instrument": "EPI_A:xome",
+                "Uic": 9936752
+            },
+            "RecommendationDate": "2020-01-31",
+            "SuccessRate": 0.0,
+            "TargetPrice": 95.0,
+            "TotalRecommendations": 0
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "RBC Capital",
+                "GoodRecommendations": 19,
+                "Id": "e91a5481e8e67b97a1a925b72567262f5c0b3567",
+                "Name": "Wasi Rizvi",
+                "NumberOfStars": 3.4,
+                "OverallAverageReturn": 6.7,
+                "OverallSuccessRate": 0.576,
+                "Rank": 1894,
+                "TotalNumberOfRankedAnalysts": 5852,
+                "TotalRecommendations": 33
+            },
+            "AverageReturn": 0.0,
+            "Consensus": {
+                "Key": "Hold",
+                "Value": "Hold"
+            },
+            "GoodRecommendations": 0,
+            "Id": 9565243,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "SE",
+                "Description": "ABB Ltd",
+                "ExchangeId": "SSE",
+                "Format": {
+                    "Decimals": 2
+                },
+                "Instrument": "ABB:xome",
+                "Uic": 101
+            },
+            "RecommendationArticleTitle": "RBC Capital Reiterates Sector Perform Rating on ABB LTD (ABBN:SW) (ABB)",
+            "RecommendationDate": "2020-01-31",
+            "RecommendationSite": "StreetInsider",
+            "RecommendationUrl": "http://www.streetinsider.com/intl+ratings/rbc+capital+reiterates+sector+perform+rating+on+abb+ltd+%28abbn%3asw%29+%28abb%29/16397710.html?si_client=tipranks-16397710-4209a69150",
+            "SuccessRate": 0.0,
+            "TargetPrice": 224.75475,
+            "TotalRecommendations": 0
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "Barclays",
+                "GoodRecommendations": 36,
+                "Id": "8a60a5406c47996f9503c2099291ef01f3f3a725",
+                "Name": "Andrew Gardiner",
+                "NumberOfStars": 3.6,
+                "OverallAverageReturn": 5.9,
+                "OverallSuccessRate": 0.48,
+                "PictureUrl": "https://cdn.tipranks.com/expert-pictures/13386_FAB294F0C3_tsqr.jpg",
+                "Rank": 1661,
+                "TotalNumberOfRankedAnalysts": 5852,
+                "TotalRecommendations": 75
+            },
+            "AverageReturn": 0.0,
+            "Consensus": {
+                "Key": "Buy",
+                "Value": "Buy"
+            },
+            "GoodRecommendations": 0,
+            "Id": 9588195,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "SE",
+                "Description": "Ericsson, Telefonab. L M ser. B",
+                "ExchangeId": "SSE",
+                "Format": {
+                    "Decimals": 2
+                },
+                "Instrument": "ERICb:xome",
+                "Uic": 1388
+            },
+            "RecommendationDate": "2020-01-30",
+            "SuccessRate": 0.0,
+            "TargetPrice": 100.0,
+            "TotalRecommendations": 0
+        },
+        {
+            "AnalystAction": {
+                "Key": "maintained",
+                "Value": "maintained"
+            },
+            "AnalystInfo": {
+                "FirmName": "Morgan Stanley",
+                "GoodRecommendations": 58,
+                "Id": "e2c9a59156eee6712353d9b97500cfa597b78edd",
+                "Name": "David Risinger",
+                "NumberOfStars": 0.3,
+                "OverallAverageReturn": -8.2,
+                "OverallSuccessRate": 0.417,
+                "PictureUrl": "https://cdn.tipranks.com/expert-pictures/1552_AABBDHJJHB_tsqr.jpg",
+                "Rank": 5550,
+                "TotalNumberOfRankedAnalysts": 5852,
+                "TotalRecommendations": 139
+            },
+            "AverageReturn": 7.5,
+            "Consensus": {
+                "Key": "Hold",
+                "Value": "Hold"
+            },
+            "GoodRecommendations": 6,
+            "Id": 9578850,
+            "InstrumentInfo": {
+                "AssetType": "Stock",
+                "CountryCode": "SE",
+                "Description": "Pfizer Inc.",
+                "ExchangeId": "SSE",
+                "Format": {
+                    "Decimals": 2
+                },
+                "Instrument": "PFE:xome",
+                "Uic": 221889
+            },
+            "RecommendationArticleTitle": "Pfizer (PFE) PT Raised to $46 at Morgan Stanley",
+            "RecommendationDate": "2020-01-30",
+            "RecommendationSite": "StreetInsider",
+            "RecommendationUrl": "http://www.streetinsider.com/analyst+pt+change/pfizer+%28pfe%29+pt+raised+to+%2446+at+morgan+stanley/16392286.html?si_client=tipranks-16392286-bd6bf2a674",
+            "SuccessRate": 0.75,
+            "TargetPrice": 443.095,
+            "TotalRecommendations": 8
+        }
+    ]
+}

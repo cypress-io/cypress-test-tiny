@@ -1,0 +1,8 @@
+{
+    "AccountID": "test1",
+    "AccountCurrency": "EUR",
+    "FundingSchedule": "Annual",
+    "MaxFundingLimit": 50000,
+    "RemainingFundingLimit": 35000,
+    "NetFundedAmount": 15000
+}

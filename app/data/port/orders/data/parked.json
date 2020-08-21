@@ -1,0 +1,468 @@
+{
+    "Data": [
+        {
+            "OrderId": "291761788",
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 75000,
+            "ApprovalState": {
+                "ApprovalExpiryTime": "2019-05-17T15:07:31.970000Z",
+                "ExternalReference": "Approval000001",
+                "State": "ApprovalRequested"
+            },
+            "AssetType": "Bond",
+            "BuySell": "Buy",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "b6b5be2d-79e7-418d-b4f7-06710f3587e9",
+            "CurrentPrice": 100.404,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceType": "Ask",
+            "DisplayAndFormat": {
+                "Currency": "DKK",
+                "Decimals": 2,
+                "Description": "Kingdom of Denmark 0% 03 Jun 2019, DKK",
+                "Format": "Normal",
+                "Symbol": "SKBV 19/II"
+            },
+            "Duration": {
+                "DurationType": "FillOrKill"
+            },
+            "Exchange": {
+                "Description": "NASDAQ OMX Copenhagen Bonds",
+                "ExchangeId": "CSE_BONDS",
+                "IsOpen": true
+            },
+            "ExpiryDate": "2019-06-03T00:00:00.000000Z",
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 100.404,
+            "OpenOrderType": "Market",
+            "OrderAmountType": "Quantity",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2019-05-16T15:07:31.970000Z",
+            "RelatedOpenOrders": [],
+            "Status": "Parked",
+            "Uic": 12572271
+        },
+        {
+            "OrderId": "291761787",
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 10000,
+            "ApprovalState": {
+                "ExternalReference": "Approval000001",
+                "State": "Approved"
+            },
+            "AssetType": "Bond",
+            "BuySell": "Buy",
+            "CalculationReliability": "Ok",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "b75980a2-9cbb-4011-9fa1-54c5ea5d82ea",
+            "CurrentPrice": 100.404,
+            "CurrentPriceDelayMinutes": 0,
+            "CurrentPriceType": "Ask",
+            "DisplayAndFormat": {
+                "Currency": "DKK",
+                "Decimals": 2,
+                "Description": "Kingdom of Denmark 0% 03 Jun 2019, DKK",
+                "Format": "Normal",
+                "Symbol": "SKBV 19/II"
+            },
+            "Duration": {
+                "DurationType": "FillOrKill"
+            },
+            "Exchange": {
+                "Description": "NASDAQ OMX Copenhagen Bonds",
+                "ExchangeId": "CSE_BONDS",
+                "IsOpen": true
+            },
+            "ExpiryDate": "2019-06-03T00:00:00.000000Z",
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 100.404,
+            "OpenOrderType": "Market",
+            "OrderAmountType": "Quantity",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2019-05-16T15:07:31.970000Z",
+            "RelatedOpenOrders": [],
+            "Status": "Working",
+            "Uic": 12572271
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 690,
+            "ApprovalState": {
+                "ExternalReference": "PDF00X1Cancel",
+                "State": "CancelRequested"
+            },
+            "AssetType": "Stock",
+            "BuySell": "Buy",
+            "CalculationReliability": "OkWithConditions",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "6c5f4919-e90c-4a6a-99b0-571e883fc954",
+            "CurrentPrice": 233.29,
+            "CurrentPriceDelayMinutes": 15,
+            "CurrentPriceLastTraded": "2019-10-11T13:52:37.210000Z",
+            "CurrentPriceType": "LastTraded",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 2,
+                "Description": "Apple Inc.",
+                "Format": "Normal",
+                "Symbol": "AAPL:xnas"
+            },
+            "DistanceToMarket": 30.38,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "NASDAQ",
+                "ExchangeId": "NASDAQ",
+                "IsOpen": true
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 233.29,
+            "OpenOrderType": "StopIfTraded",
+            "OrderAmountType": "Quantity",
+            "OrderId": "291761786",
+            "OrderRelation": "StandAlone",
+            "OrderTime": "2019-10-11T14:02:37.856666Z",
+            "Price": 263.67,
+            "RelatedOpenOrders": [],
+            "Status": "Working",
+            "Uic": 211
+        },
+        {
+            "OrderId": "291761784",
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 420,
+            "ApprovalState": {
+                "ApprovalExpiryTime": "2019-10-12T14:00:41.460000Z",
+                "ExternalReference": "",
+                "State": "Initial"
+            },
+            "AssetType": "Stock",
+            "BuySell": "Sell",
+            "CalculationReliability": "OkWithConditions",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "f57ba988-c606-4f42-9a83-2ddc901c81f7",
+            "CurrentPrice": 233.29,
+            "CurrentPriceDelayMinutes": 15,
+            "CurrentPriceLastTraded": "2019-10-11T13:52:37.210000Z",
+            "CurrentPriceType": "LastTraded",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 2,
+                "Description": "Apple Inc.",
+                "Format": "Normal",
+                "Symbol": "AAPL:xnas"
+            },
+            "DistanceToMarket": 1.94,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "NASDAQ",
+                "ExchangeId": "NASDAQ",
+                "IsOpen": true
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 233.29,
+            "OpenOrderType": "StopIfTraded",
+            "OrderAmountType": "Quantity",
+            "OrderRelation": "IfDoneSlaveOco",
+            "OrderTime": "2019-10-11T14:00:41.460000Z",
+            "Price": 231.35,
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 420,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "Limit",
+                    "OrderId": "291761783",
+                    "OrderPrice": 233.67,
+                    "Status": "Parked"
+                },
+                {
+                    "Amount": 420,
+                    "Duration": {
+                        "DurationType": "GoodTillDate",
+                        "ExpirationDate": "2019-10-18T00:00:00.000000Z",
+                        "ExpirationDateContainsTime": false,
+                        "ExpirationDateTime": "2019-10-18T00:00:00"
+                    },
+                    "OpenOrderType": "Limit",
+                    "OrderId": "291761782",
+                    "OrderPrice": 232.51,
+                    "Status": "Parked"
+                }
+            ],
+            "Status": "Parked",
+            "Uic": 211
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 420,
+            "ApprovalState": {
+                "ApprovalExpiryTime": "2019-10-12T14:00:41.450000Z",
+                "ExternalReference": "",
+                "State": "Initial"
+            },
+            "AssetType": "Stock",
+            "BuySell": "Sell",
+            "CalculationReliability": "OkWithConditions",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "f57ba988-c606-4f42-9a83-2ddc901c81f7",
+            "CurrentPrice": 233.28,
+            "CurrentPriceDelayMinutes": 15,
+            "CurrentPriceLastTraded": "2019-10-11T13:52:37.210000Z",
+            "CurrentPriceType": "Bid",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 2,
+                "Description": "Apple Inc.",
+                "Format": "Normal",
+                "Symbol": "AAPL:xnas"
+            },
+            "DistanceToMarket": 0.39,
+            "Duration": {
+                "DurationType": "GoodTillCancel"
+            },
+            "Exchange": {
+                "Description": "NASDAQ",
+                "ExchangeId": "NASDAQ",
+                "IsOpen": true
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 233.28,
+            "OpenOrderType": "Limit",
+            "OrderAmountType": "Quantity",
+            "OrderId": "291761783",
+            "OrderRelation": "IfDoneSlaveOco",
+            "OrderTime": "2019-10-11T14:00:41.450000Z",
+            "Price": 233.67,
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 420,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "StopIfTraded",
+                    "OrderId": "291761784",
+                    "OrderPrice": 231.35,
+                    "Status": "Parked"
+                },
+                {
+                    "Amount": 420,
+                    "Duration": {
+                        "DurationType": "GoodTillDate",
+                        "ExpirationDate": "2019-10-18T00:00:00.000000Z",
+                        "ExpirationDateContainsTime": false,
+                        "ExpirationDateTime": "2019-10-18T00:00:00"
+                    },
+                    "OpenOrderType": "Limit",
+                    "OrderId": "291761782",
+                    "OrderPrice": 232.51,
+                    "Status": "Parked"
+                }
+            ],
+            "Status": "Parked",
+            "Uic": 211
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 420,
+            "ApprovalState": {
+                "ApprovalExpiryTime": "2019-10-12T14:07:06.420000Z",
+                "ExternalReference": "",
+                "State": "Initial"
+            },
+            "AssetType": "Stock",
+            "BuySell": "Buy",
+            "CalculationReliability": "OkWithConditions",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "f57ba988-c606-4f42-9a83-2ddc901c81f7",
+            "CurrentPrice": 233.3,
+            "CurrentPriceDelayMinutes": 15,
+            "CurrentPriceLastTraded": "2019-10-11T13:52:37.210000Z",
+            "CurrentPriceType": "Ask",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 2,
+                "Description": "Apple Inc.",
+                "Format": "Normal",
+                "Symbol": "AAPL:xnas"
+            },
+            "DistanceToMarket": 0.79,
+            "Duration": {
+                "DurationType": "GoodTillDate",
+                "ExpirationDate": "2019-10-18T00:00:00.000000Z",
+                "ExpirationDateContainsTime": false,
+                "ExpirationDateTime": "2019-10-18T00:00:00"
+            },
+            "Exchange": {
+                "Description": "NASDAQ",
+                "ExchangeId": "NASDAQ",
+                "IsOpen": true
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": true,
+            "MarketPrice": 233.3,
+            "OpenOrderType": "Limit",
+            "OrderAmountType": "Quantity",
+            "OrderId": "291761782",
+            "OrderRelation": "IfDoneMaster",
+            "OrderTime": "2019-10-11T14:07:06.420000Z",
+            "Price": 232.51,
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 420,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "StopIfTraded",
+                    "OrderId": "291761784",
+                    "OrderPrice": 231.35,
+                    "Status": "Parked"
+                },
+                {
+                    "Amount": 420,
+                    "Duration": {
+                        "DurationType": "GoodTillCancel"
+                    },
+                    "OpenOrderType": "Limit",
+                    "OrderId": "291761783",
+                    "OrderPrice": 233.67,
+                    "Status": "Parked"
+                }
+            ],
+            "Status": "Parked",
+            "Uic": 211
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 100,
+            "ApprovalState": {
+                "ApprovalExpiryTime": "2019-11-06T10:29:03.246666Z",
+                "ApprovalType": "None",
+                "ExternalReference": "",
+                "State": "Initial"
+            },
+            "AssetType": "Stock",
+            "BuySell": "Buy",
+            "CalculationReliability": "OkWithConditions",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "0ca770a7-173d-4046-96dd-6b270caf43e5",
+            "CurrentPrice": 0,
+            "CurrentPriceDelayMinutes": 15,
+            "CurrentPriceType": "None",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 2,
+                "Description": "Apple Inc.",
+                "Format": "Normal",
+                "Symbol": "AAPL:xnas"
+            },
+            "Duration": {
+                "DurationType": "DayOrder"
+            },
+            "Exchange": {
+                "Description": "NASDAQ",
+                "ExchangeId": "NASDAQ",
+                "IsOpen": false
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": false,
+            "MarketPrice": 0,
+            "OpenOrderType": "StopIfTraded",
+            "OrderAmountType": "Quantity",
+            "OrderId": "291841006",
+            "OrderRelation": "Oco",
+            "OrderTime": "2019-11-05T10:29:03.246666Z",
+            "OwnerId": "9081948",
+            "Price": 258.17,
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 100,
+                    "Duration": {
+                        "DurationType": "DayOrder"
+                    },
+                    "OpenOrderType": "Limit",
+                    "OrderId": "291841005",
+                    "OrderPrice": 256.89,
+                    "Status": "Parked"
+                }
+            ],
+            "Status": "Parked",
+            "Uic": 211
+        },
+        {
+            "AccountId": "test1",
+            "AccountKey": "acc-key-1",
+            "Amount": 100,
+            "ApprovalState": {
+                "ApprovalExpiryTime": "2019-11-06T10:29:03.230000Z",
+                "ApprovalType": "None",
+                "ExternalReference": "",
+                "State": "Initial"
+            },
+            "AssetType": "Stock",
+            "BuySell": "Buy",
+            "CalculationReliability": "OkWithConditions",
+            "ClientKey": "client-key-1",
+            "CorrelationKey": "0ca770a7-173d-4046-96dd-6b270caf43e5",
+            "CurrentPrice": 0,
+            "CurrentPriceDelayMinutes": 15,
+            "CurrentPriceType": "None",
+            "DisplayAndFormat": {
+                "Currency": "USD",
+                "Decimals": 2,
+                "Description": "Apple Inc.",
+                "Format": "Normal",
+                "Symbol": "AAPL:xnas"
+            },
+            "Duration": {
+                "DurationType": "DayOrder"
+            },
+            "Exchange": {
+                "Description": "NASDAQ",
+                "ExchangeId": "NASDAQ",
+                "IsOpen": false
+            },
+            "IsForceOpen": false,
+            "IsMarketOpen": false,
+            "MarketPrice": 0,
+            "OpenOrderType": "Limit",
+            "OrderAmountType": "Quantity",
+            "OrderId": "291841005",
+            "OrderRelation": "Oco",
+            "OrderTime": "2019-11-05T10:29:03.230000Z",
+            "OwnerId": "9081948",
+            "Price": 256.89,
+            "RelatedOpenOrders": [
+                {
+                    "Amount": 100,
+                    "Duration": {
+                        "DurationType": "DayOrder"
+                    },
+                    "OpenOrderType": "StopIfTraded",
+                    "OrderId": "291841006",
+                    "OrderPrice": 258.17,
+                    "Status": "Parked"
+                }
+            ],
+            "Status": "Parked",
+            "Uic": 211
+        }
+    ]
+}

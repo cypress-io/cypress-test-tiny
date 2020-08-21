@@ -1,0 +1,62 @@
+{
+    "AmountDecimals": 0,
+    "AssetType": "StockOption",
+    "ContractSize": 100,
+    "CurrencyCode": "USD",
+    "DefaultAmount": 1,
+    "Description": "Apple Inc. Jan2019 42 C",
+    "Exchange": {
+        "CountryCode": "US",
+        "ExchangeId": "OPRA",
+        "Name": "Options Price Reporting Authority",
+        "PriceSourceName": "OPRA"
+    },
+    "ExerciseCutOffTime": "16:30:00",
+    "ExpiryDate": "2019-01-18",
+    "Format": { "Decimals": 2, "OrderDecimals": 2, "StrikeDecimals": 2 },
+    "GroupId": 0,
+    "IncrementSize": 1,
+    "IsTradable": false,
+    "LotSizeText": "0",
+    "LotSizeType": "OddLotsNotAllowed",
+    "OptionsChainSubscriptionAllowed": true,
+    "OrderDistances": {
+        "EntryDefaultDistance": 0,
+        "EntryDefaultDistanceType": "Percentage",
+        "StopLimitDefaultDistance": 5,
+        "StopLimitDefaultDistanceType": "Pips",
+        "StopLossDefaultDistance": 0.5,
+        "StopLossDefaultDistanceType": "Percentage",
+        "StopLossDefaultEnabled": false,
+        "StopLossDefaultOrderType": "Stop",
+        "TakeProfitDefaultDistance": 0.5,
+        "TakeProfitDefaultDistanceType": "Percentage",
+        "TakeProfitDefaultEnabled": false
+    },
+    "OrderSetting": {},
+    "PriceCurrency": "USD",
+    "PriceToContractFactor": 100,
+    "PutCall": "Call",
+    "RelatedInstruments": [
+        { "AssetType": "CfdOnStock", "Uic": 721 },
+        { "AssetType": "Bond", "Uic": 13280877 },
+        { "AssetType": "Stock", "Uic": 721 }
+    ],
+    "RelatedOptionRoots": [327],
+    "RelatedOptionRootsEnhanced": [{ "AssetType": "StockOption", "OptionRootId": 327 }],
+    "SettlementStyle": "PhysicalDelivery",
+    "StandardAmounts": [1, 5, 10, 25, 50, 100, 500, 1000],
+    "StrikePrice": 42,
+    "SupportedOrderTypes": ["Limit"],
+    "Symbol": "VZ/18F19C42:xcbf",
+    "TickSizeScheme": {
+        "DefaultTickSize": 0.05,
+        "Elements": [{ "HighPrice": 2.99, "TickSize": 0.01 }]
+    },
+    "TradableAs": ["StockOption"],
+    "TradableOn": [],
+    "TradingSignals": "NotAllowed",
+    "Uic": 9580657,
+    "UnderlyingAssetType": "Stock",
+    "UnderlyingUic": 721
+}
