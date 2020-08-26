@@ -1,5 +1,6 @@
 {
   "baseUrl": "http://localhost:3001",
   "port": 2222,
-  "retries": 3
+  "fixturesFolder": false,
+  "pluginsFile": false
 }
