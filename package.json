@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Small project for quickly testing Cypress.io test runner",
   "scripts": {
-    "cypress:run": "cypress run",
-    "cypress:open": "cypress open",
-    "cypress:verify": "cypress verify",
-    "cypress:version": "cypress version",
+    "cypress:run": "$(yarn bin)/cypress run",
+    "cypress:open": "$(yarn bin)/cypress open",
+    "cypress:verify": "$(yarn bin)/cypress verify",
+    "cypress:version": "$(yarn bin) cypress version",
     "list-videos": "ls -l cypress/videos",
     "check-videos": "ok-file 'cypress/videos/*.mp4'",
     "set-status": "set-status"
@@ -15,10 +15,15 @@
   "author": "Gleb Bahmutov <gleb@cypress.io>",
   "license": "ISC",
   "devDependencies": {
-    "ok-file": "1.5.2"
+    "ok-file": "1.5.2",
+    "test-petstore-service": "1.0.2",
+    "cypress": "5.0.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/cypress-io/cypress-test-tiny.git"
+  },
+  "dependencies": {
+    "swagger-petstore": "^1.0.0"
   }
 }
