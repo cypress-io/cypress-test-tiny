@@ -1,12 +1,6 @@
 function get(selectorOrAlias, options) {
-  cy.window().then(
-    (win) =>
-      new Promise((resolve) => {
-        win.getPromiseForTimersToComplete().then(() => {
-            resolve();
-        });
-      }),
-  );
+  cy.wait(1000);
+
   return cy.get(selectorOrAlias, options);
 }
 
