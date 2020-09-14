@@ -62,6 +62,7 @@ jobs:
           key: dependencies-v2-{{ arch }}-{{ .Branch }}-{{ checksum "package.json" }}
 
       - run: $(npm bin)/commit-message-install --else "npm install cypress"
+      - run: $(npm bin)/run-if npm run cypress:info
       - run: $(npm bin)/run-if npm run cypress:version
       - run: $(npm bin)/run-if npm run cypress:run
       - run: $(npm bin)/run-if npm run check-videos
@@ -113,6 +114,7 @@ jobs:
       - run: $(npm bin)/run-if npm run cypress:version
       - run: $(npm bin)/run-if npm run cypress:run
       - run: $(npm bin)/run-if npm run check-videos
+      - run: $(npm bin)/run-if npm run cypress:info
 
       - run:
           when: on_success
@@ -151,6 +153,7 @@ jobs:
       - run: $(npm bin)/commit-message-install --else "npm install cypress"
       - run: $(npm bin)/run-if npm run cypress:version
       - run: $(npm bin)/run-if npm run cypress:run
+      - run: $(npm bin)/run-if npm run cypress:info
       - run:
           name: check videos
           command: $(npm bin)/run-if npm run check-videos
