@@ -66,6 +66,7 @@ jobs:
       - run: $(npm bin)/run-if npm run cypress:version
       - run: $(npm bin)/run-if npm run cypress:run
       - run: $(npm bin)/run-if npm run check-videos
+      - run: $(npm bin)/run-if npm run cypress:cache:list
 
       - run:
           when: on_success
@@ -115,6 +116,7 @@ jobs:
       - run: $(npm bin)/run-if npm run cypress:run
       - run: $(npm bin)/run-if npm run check-videos
       - run: $(npm bin)/run-if npm run cypress:info
+      - run: $(npm bin)/run-if npm run cypress:cache:list
 
       - run:
           when: on_success
@@ -154,6 +156,7 @@ jobs:
       - run: $(npm bin)/run-if npm run cypress:version
       - run: $(npm bin)/run-if npm run cypress:run
       - run: $(npm bin)/run-if npm run cypress:info
+      - run: $(npm bin)/run-if npm run cypress:cache:list
       - run:
           name: check videos
           command: $(npm bin)/run-if npm run check-videos
