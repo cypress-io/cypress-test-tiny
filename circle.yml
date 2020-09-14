@@ -42,9 +42,9 @@ jobs:
       # Download and cache dependencies for the app and for tests
       - restore_cache:
           keys:
-            - dependencies-{{ arch }}-{{ .Branch }}-{{ checksum "package.json" }}
+            - dependencies-v2-{{ arch }}-{{ .Branch }}-{{ checksum "package.json" }}
             # fallback to using the latest cache if no exact match is found
-            - dependencies-{{ arch }}-{{ .Branch }}-
+            - dependencies-v2-{{ arch }}-{{ .Branch }}-
 
       - run: npm ci
       - run: npm install @cypress/commit-message-install
@@ -59,7 +59,7 @@ jobs:
             - ~/.npm
             # Cypress binary (or yarn dependencies) on Linux
             - ~/Library/Caches/Cypress
-          key: dependencies-{{ arch }}-{{ .Branch }}-{{ checksum "package.json" }}
+          key: dependencies-v2-{{ arch }}-{{ .Branch }}-{{ checksum "package.json" }}
 
       - run: $(npm bin)/commit-message-install --else "npm install cypress"
       - run: $(npm bin)/run-if npm run cypress:version
