@@ -18,10 +18,14 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "5.2.0",
+    "jest": "26.4.2",
     "ok-file": "1.5.2"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/cypress-io/cypress-test-tiny.git"
+  },
+  "dependencies": {
+    "next": "9.5.3"
   }
 }
