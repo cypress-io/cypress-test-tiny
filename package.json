@@ -11,7 +11,9 @@
     "cypress:cache:list": "cypress cache list",
     "list-videos": "ls -l cypress/videos",
     "check-videos": "ok-file 'cypress/videos/*.mp4'",
-    "set-status": "set-status"
+    "set-status": "set-status",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "keywords": [],
   "author": "Gleb Bahmutov <gleb@cypress.io>",
@@ -22,5 +24,11 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/cypress-io/cypress-test-tiny.git"
+  },
+  "dependencies": {
+    "cypress": "^5.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.3"
   }
 }
