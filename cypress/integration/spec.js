@@ -1,6 +1,8 @@
 /// <reference types="cypress" />
 describe('page', () => {
-  it('works', () => {
-    cy.visit('https://example.cypress.io')
-  })
+  for (let i = 0; i < 10; i++) {
+    it(`test ${i}`, { retries: 4 }, () => {
+      expect(true).to.be.false
+    })
+  }
 })
