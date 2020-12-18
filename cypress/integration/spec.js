@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
-describe('page', () => {
+describe('fixtures in the same folder as integration specs', () => {
   it('works', () => {
-    cy.visit('https://example.cypress.io')
+    cy.fixture('example')
   })
 })
