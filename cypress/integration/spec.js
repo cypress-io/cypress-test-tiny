@@ -1,14 +1,10 @@
 /// <reference types="cypress" />
-describe('page', () => {
-  it('works', () => {
-    cy.visit('https://example.cypress.io')
-    cy.wrap(false, {timeout: 100}).should('be.true')
-  })
-})
-
-afterEach(function () {
-  console.log(this.currentTest)
-  if (this.currentTest.state === 'failed') {
-    cy.wait(5000)
-  }
+it('opens the video in frame', () => {
+  cy.visit('/')
+  // Scroll to feed
+  cy.get('.cy-grid').scrollIntoView()
+  // Should hover over to the video at index 1
+  cy.get(`.cy-thumbnail-link`).eq(1)
+    .pause()
+    .trigger('click')
 })

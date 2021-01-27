@@ -1,1 +1,5 @@
-{}
+{
+  "baseUrl" : "https://cat-press.com/cat-movies/firework",
+  "supportFile": false,
+  "pluginsFile": false
+}
