@@ -1,5 +1,6 @@
 {
-  "baseUrl" : "https://cat-press.com/cat-movies/firework",
+  "baseUrl" : "https://fireworktv.com/embed/demo",
   "supportFile": false,
-  "pluginsFile": false
+  "pluginsFile": false,
+  "fixturesFolder": false
 }
