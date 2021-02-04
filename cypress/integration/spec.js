@@ -9,8 +9,8 @@ describe('form', () => {
       // fail the HTML validation
       cy.get('input[type=submit]').click()
 
-    // but the .submit() happily ignores the checks
-      cy.get('form').submit()
+      // but the .submit() happily ignores the checks
+      cy.root().submit()
     })
   })
 })
