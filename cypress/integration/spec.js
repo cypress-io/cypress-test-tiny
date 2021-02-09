@@ -1,6 +1,4 @@
 /// <reference types="cypress" />
-describe('page', () => {
-  it('works', () => {
-    cy.visit('https://example.cypress.io')
-  })
+it('has hostname', () => {
+  expect(Cypress.env('testing_computer')).to.be.a('string').and.not.be.empty
 })
