@@ -2,7 +2,7 @@
 describe('Test window.confirm', () => {
   it('should accept the confirm and successfully reload', function () {
     cy.visit('/')
-      .wait(1000)
+      // .pause()
     cy.reload()
       .wait(1000)
     cy.reload()
