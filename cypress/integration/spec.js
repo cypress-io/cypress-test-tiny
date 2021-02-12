@@ -1,4 +1,12 @@
 /// <reference types="cypress" />
-it('has hostname', () => {
-  expect(Cypress.env('testing_computer')).to.be.a('string').and.not.be.empty
-})
+describe('Test window.confirm', () => {
+  it('should accept the confirm and successfully reload', function () {
+    cy.visit('/')
+      .wait(1000)
+    cy.reload()
+      .wait(1000)
+    cy.reload()
+      .wait(1000)
+    cy.wait(1000) // let the video finish
+  });
+});
