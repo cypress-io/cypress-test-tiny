@@ -1,6 +1,7 @@
 /// <reference types="cypress" />
-describe('page', () => {
-  it('works', () => {
-    cy.visit('https://example.cypress.io')
-  })
+describe("Connetti al db", () => {
+
+    it("crea una connessione", () => {
+        cy.task('log', 'messaggio')
+    });
 })
