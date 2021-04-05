@@ -11,13 +11,18 @@
     "cypress:cache:list": "cypress cache list",
     "list-videos": "ls -l cypress/videos",
     "check-videos": "ok-file 'cypress/videos/*.mp4'",
-    "set-status": "set-status"
+    "set-status": "set-status",
+    "start": "serve .",
+    "dev": "start-test 5000 cypress:open"
   },
   "keywords": [],
   "author": "Gleb Bahmutov <gleb@cypress.io>",
   "license": "ISC",
   "devDependencies": {
-    "ok-file": "1.5.2"
+    "cypress": "6.8.0",
+    "ok-file": "1.5.2",
+    "serve": "11.3.2",
+    "start-server-and-test": "1.12.1"
   },
   "repository": {
     "type": "git",

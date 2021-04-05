@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
-describe('page', () => {
-  it('works', () => {
-    cy.visit('https://example.cypress.io')
-  })
+it('uses the alias', () => {
+  // cy.visit('/')
+  cy.visit('index.html')
+  cy.focused().should('have.id', 'fname')
 })
