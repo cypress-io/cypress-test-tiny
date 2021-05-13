@@ -1,1 +1,5 @@
-{}
+{
+  "baseUrl": "https://www.telerik.com",
+  "viewportWidth": 500,
+  "viewportHeight": 300
+}
