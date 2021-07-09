@@ -10,6 +10,15 @@ describe('page', () => {
     cy.get('button').click()
   })
 
+  it('works without jumps using CSS resource link even if it is delayed', () => {
+    cy.intercept('reset.css', {
+      fixture: 'reset.css',
+      delay: 500,
+    })
+    cy.visit('index-with-css-link.html')
+    cy.get('button').click()
+  })
+
   it('DOM snapshots jump', () => {
     cy.visit('index-with-css-import.html')
     cy.get('button').click()
