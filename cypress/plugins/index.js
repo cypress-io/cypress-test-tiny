@@ -19,3 +19,41 @@ module.exports = (on, config) => {
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
 }
+
+Cypress.Commands.add(
+    'iframeLoaded',
+    {prevSubject: 'element'},
+    ($iframe) => {
+        const contentWindow = $iframe.prop('contentWindow');
+        return new Promise(resolve => {
+            if (
+                contentWindow &&
+                contentWindow.document.readyState === 'complete'
+            ) {
+                resolve(contentWindow)
+            } else {
+                $iframe.on('load', () => {
+                    resolve(contentWindow)
+                })
+            }
+        })
+    });
+
+
+Cypress.Commands.add(
+    'getInDocument',
+    {prevSubject: 'document'},
+    (document, selector) => Cypress.$(selector, document)
+);
+
+Cypress.Commands.add(
+    'getWithinIframe',
+    (targetElement) => cy.get('iframe').iframeLoaded().its('document').getInDocument(targetElement)
+);
+
+Cypress.Commands.add('getIframe', (iframe) => {
+    return cy.get('iframe')
+        .its('0.contentDocument.body')
+        .should('be.visible')
+        .then(cy.wrap);
+});
