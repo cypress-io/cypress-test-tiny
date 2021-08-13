@@ -4,7 +4,9 @@
   "description": "Small project for quickly testing Cypress.io test runner",
   "scripts": {
     "cypress:run": "cypress run",
+    "cypress:run-ct": "cypress run-ct",
     "cypress:open": "cypress open",
+    "cypress:open-ct": "cypress open-ct",
     "cypress:verify": "cypress verify",
     "cypress:version": "cypress version",
     "cypress:info": "cypress info",
@@ -17,7 +19,21 @@
   "author": "Gleb Bahmutov <gleb@cypress.io>",
   "license": "ISC",
   "devDependencies": {
-    "ok-file": "1.5.2"
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7",
+    "@babel/runtime": "^7.12.5",
+    "@cypress/react": "^5.9.4",
+    "babel-loader": "^8.2.2",
+    "cypress": "^8.2.0",
+    "ok-file": "1.5.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
   },
   "repository": {
     "type": "git",
