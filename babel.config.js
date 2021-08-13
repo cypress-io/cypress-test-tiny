@@ -2,9 +2,9 @@
 module.exports = (api) => {
   let plugins = [];
 
-  // if (api.env() !== "production") {
-  //   plugins = [...plugins];
-  // }
+  if (api.env() !== "production") {
+    plugins = [...plugins];
+  }
 
   return {
     sourceMaps: true,
