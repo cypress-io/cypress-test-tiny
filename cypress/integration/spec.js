@@ -1,6 +1,4 @@
 /// <reference types="cypress" />
-describe('page', () => {
-  it('works', () => {
-    cy.visit('https://example.cypress.io')
-  })
+it('never finishes', () => {
+  cy.wrap(1).should(() => cy.log('here'))
 })
