@@ -17,7 +17,8 @@
   "author": "Gleb Bahmutov <gleb@cypress.io>",
   "license": "ISC",
   "devDependencies": {
-    "ok-file": "1.5.2"
+    "ok-file": "1.5.2",
+    "cypress": "^9.5.1"
   },
   "repository": {
     "type": "git",
