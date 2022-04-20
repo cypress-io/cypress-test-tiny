@@ -1,1 +1,3 @@
-{}
+{
+  "blockHosts": "*.ingest.sentry.io"
+}
