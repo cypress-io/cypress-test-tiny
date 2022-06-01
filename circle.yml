@@ -80,7 +80,7 @@ jobs:
   linux-test:
     docker:
       # find Docker image at https://github.com/cypress-io/cypress-docker-images
-      - image: cypress/base:10
+      - image: cypress/base:16.14.2-slim
 
     working_directory: ~/repo
 
