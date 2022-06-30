@@ -4,6 +4,7 @@
   "description": "Small project for quickly testing Cypress.io test runner",
   "scripts": {
     "cypress:run": "cypress run",
+    "cypress:run-hang": "DEBUG=cypress-verbose:server:browser*,cypress:server:browser* cypress run --browser chrome --headed",
     "cypress:open": "cypress open",
     "cypress:verify": "cypress verify",
     "cypress:version": "cypress version",
@@ -17,6 +18,7 @@
   "author": "Gleb Bahmutov <gleb@cypress.io>",
   "license": "ISC",
   "devDependencies": {
+    "cypress": "10.3.0",
     "ok-file": "1.5.2"
   },
   "repository": {
