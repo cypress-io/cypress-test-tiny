@@ -4,7 +4,7 @@ const shouldNotExecute = () => {
 
 Cypress.on('test:before:run', () => {
   console.log('test:before:run....throw an error')
-  throw new Error('Test Override validation should have failed & it block should not have executed.')
+  throw new Error('test:before:run....throw an error')
 })
 
 
