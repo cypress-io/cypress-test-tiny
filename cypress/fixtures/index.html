@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <div id="local_storage"></div>
+  <div id="session_storage"></div>
+  <div id="cookies"></div>
+
+  <script type="text/javascript">
+    window.onload = function() {
+      document.getElementById("local_storage").append(JSON.stringify(window.localStorage))
+      document.getElementById("session_storage").append(JSON.stringify(window.sessionStorage))
+      document.getElementById("cookies").append(JSON.stringify(window.cookies))
+    }
+  </script>
+</body>
+</html>
