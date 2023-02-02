@@ -10,14 +10,12 @@
     "cypress:info": "cypress info",
     "cypress:cache:list": "cypress cache list",
     "list-videos": "ls -l cypress/videos",
-    "check-videos": "ok-file 'cypress/videos/*.mp4'",
     "set-status": "set-status"
   },
   "keywords": [],
   "author": "Cypress-io",
   "license": "ISC",
   "devDependencies": {
-    "ok-file": "1.5.2"
   },
   "repository": {
     "type": "git",
