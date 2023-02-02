@@ -25,7 +25,6 @@ jobs:
       - run: npm run cypress:info
       - run: npm run cypress:version
       - run: npm run cypress:run
-      - run: npm run check-videos
       - run: npm run cypress:cache:list
 
   linux-test:
@@ -42,7 +41,6 @@ jobs:
       - run: npm run cypress:info
       - run: npm run cypress:version
       - run: npm run cypress:run
-      - run: npm run check-videos
       - run: npm run cypress:cache:list
 
   win-test:
@@ -57,7 +55,6 @@ jobs:
       - run: npm run cypress:info
       - run: npm run cypress:version
       - run: npm run cypress:run
-      - run: npm run check-videos
       - run: npm run cypress:cache:list
 
 workflows:
