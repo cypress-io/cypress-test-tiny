@@ -12,20 +12,6 @@ executors:
     macos:
       xcode: "13.0.0"
 
-commands:
-  early-stop:
-    description: |
-      Early halt if this commit is for testing binaries for different platform
-      Place this command AFTER checkout command because we need to look
-      at the commit subject text
-    parameters:
-      substring:
-        type: string
-        description: String to search for in the commit subject to skip build
-    steps:
-      - run:
-          name: Checking OS platform for "<< parameters.substring >>"
-          command: node ./early-stop "<< parameters.substring >>" || circleci step halt
 jobs:
   mac-test:
     executor: mac
