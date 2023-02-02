@@ -14,7 +14,7 @@
     "set-status": "set-status"
   },
   "keywords": [],
-  "author": "Gleb Bahmutov <gleb@cypress.io>",
+  "author": "Cypress-io",
   "license": "ISC",
   "devDependencies": {
     "ok-file": "1.5.2"
