@@ -9,8 +9,7 @@
     "cypress:version": "cypress version",
     "cypress:info": "cypress info",
     "cypress:cache:list": "cypress cache list",
-    "list-videos": "ls -l cypress/videos",
-    "set-status": "set-status"
+    "list-videos": "ls -l cypress/videos"
   },
   "keywords": [],
   "author": "Cypress-io",
