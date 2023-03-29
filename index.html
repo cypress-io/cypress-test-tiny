@@ -1,0 +1,13 @@
+<body>
+    <button class="button small borderless regular" name="Mail" aria-label="button" type="button" onclick="openMailTemplate()">
+        <span class="button__content icon-before">
+            <span class="button__content__label ng-star-inserted">Open New Mail</span>
+            <span class="button__content__icon la-envelope la-las las ng-star-inserted"></span>
+        </span>
+    </button>
+</body>
+<script>
+openMailTemplate = () => {
+    window.location.href = 'mailto:test@mail.com'
+}
+</script>
