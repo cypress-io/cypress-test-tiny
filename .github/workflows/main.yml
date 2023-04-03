@@ -18,11 +18,10 @@ jobs:
       - name: Run E2E Tests without recording (if not on master branch)
         uses: cypress-io/github-action@v5
         with:
+          install: true
           browser: chrome
-          record: true
           headless: true
-              record: true
-              install: true
-              group: 'E2E'
+          record: true
+          group: 'E2E'
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
