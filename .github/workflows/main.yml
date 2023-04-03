@@ -1,7 +1,6 @@
 name: Run End-to-End Test Suite
 
-# on:
-#   pull_request:
+on: push
 #     branches:
 #       - master
 
