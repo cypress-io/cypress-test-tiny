@@ -21,10 +21,8 @@ jobs:
           browser: chrome
           record: true
           headless: true
-              start: npm run start:local
               record: true
               install: true
               group: 'E2E'
-              tag: 'pull-request'
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
