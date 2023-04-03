@@ -1,0 +1,30 @@
+name: Run End-to-End Test Suite
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build-and-e2e-test:
+    runs-on: ubuntu-16.04
+    steps:
+      - name: Checkout Commit
+        uses: actions/checkout@v3
+      - name: Use Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Run E2E Tests without recording (if not on master branch)
+        uses: cypress-io/github-action@v5
+        with:
+          browser: chrome
+          record: true
+          headless: true
+              start: npm run start:local
+              record: true
+              install: true
+              group: 'E2E'
+              tag: 'pull-request'
+        env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
