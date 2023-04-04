@@ -6,7 +6,6 @@ orbs:
 workflows:
   setup-workflow:
     jobs:
-    jobs:
       - cypress/install
       - cypress/run:
           name: cypress-tests-webkit
