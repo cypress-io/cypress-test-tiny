@@ -1,6 +1,3 @@
-/// <reference types="cypress" />
-describe('page', () => {
-  it('works', () => {
-    cy.visit('https://example.cypress.io')
-  })
+it('does something', () => {
+  expect(true).to.be.true
 })

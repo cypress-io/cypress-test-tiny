@@ -4,17 +4,21 @@
   "description": "Small project for quickly testing Cypress.io test runner",
   "scripts": {
     "cypress:run": "cypress run",
+    "cypress:run:chrome": "cypress run --browser chrome",
     "cypress:open": "cypress open",
     "cypress:verify": "cypress verify",
     "cypress:version": "cypress version",
     "cypress:info": "cypress info",
     "cypress:cache:list": "cypress cache list",
-    "list-videos": "ls -l cypress/videos"
+    "list-videos": "ls -l cypress/videos",
+    "check-videos": "ok-file 'cypress/videos/*.mp4'",
+    "set-status": "set-status"
   },
   "keywords": [],
-  "author": "Cypress-io",
+  "author": "Gleb Bahmutov <gleb@cypress.io>",
   "license": "ISC",
   "devDependencies": {
+    "cypress": "^10.6.0"
   },
   "repository": {
     "type": "git",

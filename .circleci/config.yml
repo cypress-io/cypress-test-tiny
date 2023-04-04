@@ -1,0 +1,18 @@
+version: 2.1
+setup: true
+
+orbs:
+  continuation: circleci/continuation@0.3.1
+  cypress: cypress-io/cypress@3.0.0
+
+workflows:
+  setup-workflow:
+    jobs:
+      - cypress/install
+      - cypress/run:
+          name: cypress-tests-webkit
+          executor: base-14
+          browser: webkit
+          start: npx playwright install && npx playwright install-deps webkit && npm run start:test
+          requires:
+            - cypress/install
