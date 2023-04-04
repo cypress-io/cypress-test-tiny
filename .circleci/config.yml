@@ -9,7 +9,7 @@ workflows:
       - cypress/install
       - cypress/run:
           name: cypress-tests-webkit
-          executor: base-14
+          executor: cypress/base-14
           browser: webkit
           start: npx playwright install && npx playwright install-deps webkit && npm run start:test
           requires:
