@@ -4,7 +4,7 @@
   "description": "Small project for quickly testing Cypress.io test runner",
   "scripts": {
     "cypress:run": "cypress run",
-    "cypress:open": "cypress open",
+    "cypress:open": "ELECTRON_EXTRA_LAUNCH_ARGS=--remote-debugging-port=9222 cypress open",
     "cypress:verify": "cypress verify",
     "cypress:version": "cypress version",
     "cypress:info": "cypress info",
@@ -14,10 +14,12 @@
   "keywords": [],
   "author": "Cypress-io",
   "license": "ISC",
-  "devDependencies": {
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/cypress-io/cypress-test-tiny.git"
+  },
+  "dependencies": {
+    "cypress": "^12.17.1",
+    "cypress-debugger": "^1.0.6"
   }
 }
