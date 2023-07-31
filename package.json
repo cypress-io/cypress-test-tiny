@@ -15,6 +15,8 @@
   "author": "Cypress-io",
   "license": "ISC",
   "devDependencies": {
+    "express": "^4.18.2",
+    "puppeteer-core": "^20.9.0"
   },
   "repository": {
     "type": "git",

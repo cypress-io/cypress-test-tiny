@@ -1,0 +1,24 @@
+<p>This is a paragraph</p>
+<form>
+  <input />
+  <button id="send" type="submit">Send message</button>
+</form>
+<button id="close">Close</button>
+
+<script>
+  const input = document.querySelector('input')
+
+  document.querySelector('form').addEventListener('submit', (e) => {
+    e.preventDefault()
+  })
+
+  document.querySelector('#send').addEventListener('click', () => {
+    window.opener.postMessage({ message: input.value })
+
+    input.value = ''
+  })
+
+  document.querySelector('#close').addEventListener('click', () => {
+    window.opener.postMessage({ close: true, payload: { some: 'very', important: 'data' } })
+  })
+</script>

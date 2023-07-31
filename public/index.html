@@ -1,0 +1,29 @@
+<button>Open new tab</button>
+
+<h3>Messages</h3>
+<ul></ul>
+
+<h3>Data on Close</h3>
+<pre><code></code></pre>
+
+<script>
+  document.querySelector('button').addEventListener('click', () => {
+    const win = window.open('/new-tab.html')
+
+    window.addEventListener('message', (event) => {
+      if (event.data.close === true) {
+        win.close()
+
+        document.querySelector('code').innerText = JSON.stringify(event.data.payload)
+
+        return
+      }
+
+      const li = document.createElement('li')
+
+      li.textContent = event.data.message
+
+      document.querySelector('ul').appendChild(li)
+    })
+  })
+</script>
