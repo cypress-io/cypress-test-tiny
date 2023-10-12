@@ -19,6 +19,8 @@
     "url": "https://github.com/cypress-io/cypress-test-tiny.git"
   },
   "dependencies": {
-    "cypress": "^12.17.3"
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.6",
+    "@cypress/webpack-preprocessor": "^6.0.0",
+    "cypress": "^13.3.1"
   }
 }
