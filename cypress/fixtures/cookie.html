@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+
+<body>
+  <div>
+    Cookie Value: <span id="cookieVal"></span>
+  </div>
+  <script>
+    if (window.location.search.split('&').find((s) => s.includes('set'))?.split('=')[1] === 'true') {
+      document.cookie = 'some value'
+    }
+    document.getElementById('cookieVal').innerText = document.cookie || 'none'
+    
+  </script>
+</body>
+</html>
