@@ -6,5 +6,6 @@ describe('page', () => {
 
   it('works too', () => {
     cy.visit('https://example.cypress.io')
+    cy.contains('google')
   })
 })
