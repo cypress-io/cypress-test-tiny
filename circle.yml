@@ -57,6 +57,18 @@ jobs:
       - run: npm run cypress:version
       - run: npm run cypress:cache:list
 
+  verify-linux-test:
+    docker:
+      # find Docker image at https://github.com/cypress-io/cypress-docker-images
+      - image: cypress/base:18.16.1
+
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+      - run: npm ci
+      - run: npm install --force https://cdn.cypress.io/extract-cloud-results/beta/v1/extract-cloud-results.tgz && CYPRESS_INTERNAL_ENV=staging CYPRESS_PROJECT_ID=3ik9rd CYPRESS_RECORD_KEY=$CYPRESS_RECORD_KEY_STAGING_TYLER_TESTS node ./scripts/verifyAccessibilityResults.js
+
 workflows:
   version: 2
   tests:
@@ -66,5 +78,8 @@ workflows:
       - linux-test:
           context: test-runner:commit-status-checks
       - mac-test:
+          context: test-runner:commit-status-checks
+      - verify-linux-test:
+          requires: [linux-test]
           context: test-runner:commit-status-checks
 
