@@ -40,7 +40,7 @@ jobs:
       - run: npm install cypress
       - run: npm run cypress:info
       - run: npm run cypress:version
-      - run: CYPRESS_INTERNAL_ENV=staging CYPRESS_PROJECT_ID=3ik9rd CYPRESS_RECORD_KEY=$CYPRESS_RECORD_KEY_STAGING_TYLER_TESTS npm run cypress:run -- --record
+      - run: CYPRESS_PROJECT_ID=k9pinr CYPRESS_RECORD_KEY=$CYPRESS_RECORD_KEY_PROD_TYLER_TESTS npm run cypress:run -- --record
       - run: npm run cypress:cache:list
 
   win-test:
@@ -66,7 +66,7 @@ jobs:
     steps:
       - checkout
       - run: npm ci
-      - run: npm install --force https://cdn.cypress.io/extract-cloud-results/beta/v1/extract-cloud-results.tgz && CYPRESS_INTERNAL_ENV=staging CYPRESS_PROJECT_ID=3ik9rd CYPRESS_RECORD_KEY=$CYPRESS_RECORD_KEY_STAGING_TYLER_TESTS node ./scripts/verifyAccessibilityResults.js
+      - run: npm install --force https://cdn.cypress.io/extract-cloud-results/beta/v1/extract-cloud-results.tgz && CYPRESS_PROJECT_ID=k9pinr CYPRESS_RECORD_KEY=$CYPRESS_RECORD_KEY_PROD_TYLER_TESTS node ./scripts/verifyAccessibilityResults.js
 
 workflows:
   version: 2
