@@ -1,6 +1,9 @@
 /// <reference types="cypress" />
 describe('page', () => {
-  it('works', () => {
-    cy.visit('https://example.cypress.io')
-  })
+  for (let i = 0; i < 500 ; i++) {    
+    it('Yeah - ' + i, () => {
+      cy.wait(5000)
+      cy.visit('https://www.google.com/');
+    });
+  }
 })
