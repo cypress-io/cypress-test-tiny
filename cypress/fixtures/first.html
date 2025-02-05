@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+  <h1>first.domain.test</h1>
+  <button id="second">second</button>
+  <script>
+    document.getElementById('second').addEventListener('click', async () => {
+      const code = await (await fetch('/code')).text()
+      window.location.href = `http://second.domain.test:3030/second?code=${code}`
+    })
+  </script>
+</body>
