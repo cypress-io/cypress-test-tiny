@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Small project for quickly testing Cypress.io test runner",
   "scripts": {
+    "start": "node ./server/index.js",
     "cypress:run": "cypress run",
     "cypress:open": "cypress open",
     "cypress:verify": "cypress verify",
