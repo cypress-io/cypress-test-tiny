@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<body>
+  <div>
+    <select id="i18nOptions" data-cy="i18n-options">
+      <option>---</option>
+      <option value="fr">En français</option>
+      <option value="de">Auf Deutsch</option>
+      <option value="en">In English</option>
+    </select>
+    <button id="translate" data-cy="translate-button">Translate</button>
+  </div>
+  {{{ body }}}
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('translate').addEventListener('click', () => {
+        const lang = document.getElementById('i18nOptions').value
+        window.location = `http://${lang}.origin.com:3000`
+      })
+    })
+  </script>  
+</body>

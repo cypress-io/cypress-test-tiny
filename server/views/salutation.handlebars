@@ -1,0 +1,5 @@
+<h1>{{i.salutation}}{{#if email}}, {{email}}!{{/if}}</h1>
+
+{{#unless email}}
+<a href="/signup" data-cy="signup-link">{{i.signUp.legend}}</a>
+{{/unless}}
