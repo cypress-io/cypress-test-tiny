@@ -1,5 +1,6 @@
 module.exports = {
   e2e: {
-    setupNodeEvents(on, config) {},
+    setupNodeEvents(on, config) {}
   },
-}
+  experimentalStudio: true
+};
