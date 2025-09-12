@@ -1,6 +1,8 @@
 module.exports = {
+  projectId: "5tnyrt",
   e2e: {
-    setupNodeEvents(on, config) {}
+    setupNodeEvents(on, config) {},
+    experimentalPromptCommand: true
   },
   experimentalStudio: true
 };

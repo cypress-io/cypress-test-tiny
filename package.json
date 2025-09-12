@@ -19,6 +19,6 @@
     "url": "https://github.com/cypress-io/cypress-test-tiny.git"
   },
   "devDependencies": {
-    "cypress": "^15.2.0"
+    "cypress": "https://cdn.cypress.io/beta/npm/15.2.0/darwin-arm64/feat/cy-prompt-45faf633d23122da51a3ce741c600f75e6f7ef72/cypress.tgz"
   }
 }
