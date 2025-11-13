@@ -9,8 +9,8 @@ orbs:
 executors:
   mac:
     macos:
-      xcode: "14.3.1"
-    resource_class: macos.m1.medium.gen1
+      xcode: "16.4.0"
+    resource_class: m4pro.medium
 
 jobs:
   mac-test:
@@ -20,6 +20,13 @@ jobs:
 
     steps:
       - checkout
+      - run:
+          name: Install Node.js
+          command: |
+            nvm --version
+            nvm install 24.11.0
+            nvm use 24.11.0
+            nvm alias default 24.11.0
       - run: npm ci
       - run: npm install cypress
       - run: npm run cypress:info
@@ -30,7 +37,7 @@ jobs:
   linux-test:
     docker:
       # find Docker image at https://github.com/cypress-io/cypress-docker-images
-      - image: cypress/base:18.16.1
+      - image: cypress/base:24.11.0
 
     working_directory: ~/repo
 
