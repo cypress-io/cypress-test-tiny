@@ -12,22 +12,32 @@ Note that this project **DOES NOT** include Cypress dependency in the [package.j
 
 ## Headless rAF + floating-vue reproduction
 
-Minimal repro for `requestAnimationFrame` callbacks not firing in Cypress's headless Electron AUT, which prevents [floating-vue](https://floating-vue.starpad.dev/) dropdowns, menus, and popovers from opening.
+Minimal repro scaffold for a reported issue where `requestAnimationFrame` callbacks do not fire in Cypress's headless Electron AUT, which would prevent [floating-vue](https://floating-vue.starpad.dev/) dropdowns, menus, and popovers from opening.
 
 **Environment:** Cypress 15.10.0 · Electron headless · Vue 3 · floating-vue 5.2.2
+
+### Reproduction status
+
+**The suspected issue was not reproduced.** Running this scaffold locally (macOS, Cypress 15.10.0, Electron 138 headless) passes all specs — including the rAF and floating-vue tests without the workaround. The tests below were written to fail if rAF is broken in the AUT; they remain useful for validating the report on other platforms or Cypress versions.
+
+**Originally reported expected behavior:** 2 specs fail and 1 workaround spec passes under `cypress run` (headless Electron).
+
+**Observed in this repo:** all specs pass under headless Electron, headed Electron, and Chrome.
 
 ### Run
 
 ```shell
 npm ci
-npm run test:repro            # headless Electron — 2 specs fail, 1 passes
-npm run test:repro:headed     # all specs pass
-npm run test:repro:chrome     # all specs pass
+npm run test:repro            # headless Electron
+npm run test:repro:headed     # headed Electron
+npm run test:repro:chrome     # Chrome
 ```
 
 If Cypress fails to start with `bad option: --no-sandbox`, unset `ELECTRON_RUN_AS_NODE` (set automatically in some IDE terminals). The npm scripts already run Cypress via `env -u ELECTRON_RUN_AS_NODE`.
 
-### Expected results
+### Expected results (if the issue reproduces)
+
+If rAF is broken in the headless AUT as originally reported, results should look like:
 
 | Command | rAF spec | floating-vue spec | workaround spec |
 | --- | --- | --- | --- |
@@ -35,9 +45,11 @@ If Cypress fails to start with `bad option: --no-sandbox`, unset `ELECTRON_RUN_A
 | `npm run test:repro:headed` | pass | pass | pass |
 | `npm run test:repro:chrome` | pass | pass | pass |
 
-### Root cause
+**Currently:** all specs pass in all three modes on the environment where this scaffold was verified.
 
-floating-vue reveals a popover by mounting it hidden (`v-popper__popper--hidden`) and flipping to shown (`v-popper__popper--shown`) inside a `requestAnimationFrame` callback. In Cypress's headless Electron AUT, rAF callbacks never fire — even though `document.visibilityState` is `"visible"`, `document.hidden` is `false`, and `document.hasFocus()` is `true`. The popover stays hidden forever.
+### Root cause (reported, not confirmed here)
+
+floating-vue reveals a popover by mounting it hidden (`v-popper__popper--hidden`) and flipping to shown (`v-popper__popper--shown`) inside a `requestAnimationFrame` callback. The original report states that in Cypress's headless Electron AUT, rAF callbacks never fire — even though `document.visibilityState` is `"visible"`, `document.hidden` is `false`, and `document.hasFocus()` is `true` — leaving the popover hidden forever.
 
 The Cypress AUT runs inside an iframe. Per the HTML spec, `requestAnimationFrame` is paused for documents that are not being rendered. In headless Electron the AUT iframe appears to be treated as not-rendered, so rAF is never scheduled.
 
@@ -47,9 +59,9 @@ Enabling video recording also restores rAF (see [#31068](https://github.com/cypr
 
 | File | Purpose |
 | --- | --- |
-| [cypress/e2e/request-animation-frame.cy.ts](cypress/e2e/request-animation-frame.cy.ts) | Proves rAF never fires in headless AUT |
-| [cypress/e2e/floating-vue-dropdown.cy.ts](cypress/e2e/floating-vue-dropdown.cy.ts) | Proves floating-vue dropdown stays hidden |
-| [cypress/e2e/floating-vue-dropdown-workaround.cy.ts](cypress/e2e/floating-vue-dropdown-workaround.cy.ts) | Same test with rAF polyfill — passes everywhere |
+| [cypress/e2e/request-animation-frame.cy.ts](cypress/e2e/request-animation-frame.cy.ts) | Asserts rAF fires in the AUT |
+| [cypress/e2e/floating-vue-dropdown.cy.ts](cypress/e2e/floating-vue-dropdown.cy.ts) | Asserts floating-vue dropdown opens on click |
+| [cypress/e2e/floating-vue-dropdown-workaround.cy.ts](cypress/e2e/floating-vue-dropdown-workaround.cy.ts) | Same test with rAF polyfill via `setTimeout` |
 
 ### Workaround
 
