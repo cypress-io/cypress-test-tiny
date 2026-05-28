@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "jsx": "preserve",
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "include": ["app/**/*.ts", "app/**/*.vue", "vite.config.ts"]
+}

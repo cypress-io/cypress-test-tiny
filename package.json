@@ -3,18 +3,29 @@
   "version": "1.0.0",
   "description": "Small project for quickly testing Cypress.io test runner",
   "scripts": {
-    "cypress:run": "cypress run",
-    "cypress:open": "cypress open",
-    "cypress:verify": "cypress verify",
+    "cypress:run": "env -u ELECTRON_RUN_AS_NODE cypress run",
+    "cypress:open": "env -u ELECTRON_RUN_AS_NODE cypress open",
+    "cypress:verify": "env -u ELECTRON_RUN_AS_NODE cypress verify",
     "cypress:version": "cypress version",
     "cypress:info": "cypress info",
     "cypress:cache:list": "cypress cache list",
-    "list-videos": "ls -l cypress/videos"
+    "list-videos": "ls -l cypress/videos",
+    "dev": "vite",
+    "test:repro": "start-server-and-test dev http://localhost:5173 cypress:run",
+    "test:repro:headed": "start-server-and-test dev http://localhost:5173 'cypress run --headed'",
+    "test:repro:chrome": "start-server-and-test dev http://localhost:5173 'cypress run --browser chrome'"
   },
   "keywords": [],
   "author": "Cypress-io",
   "license": "ISC",
   "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.4",
+    "cypress": "15.10.0",
+    "floating-vue": "5.2.2",
+    "start-server-and-test": "^2.1.3",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vue": "^3.5.16"
   },
   "repository": {
     "type": "git",
