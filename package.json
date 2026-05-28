@@ -9,12 +9,26 @@
     "cypress:version": "cypress version",
     "cypress:info": "cypress info",
     "cypress:cache:list": "cypress cache list",
-    "list-videos": "ls -l cypress/videos"
+    "list-videos": "ls -l cypress/videos",
+    "server": "tsx server/index.ts",
+    "test:33939": "start-server-and-test server 3444 'cypress run --spec cypress/e2e/multi-subdomain-login.cy.ts'",
+    "test:33939:firefox": "start-server-and-test server 3444 'cypress run --browser firefox --spec cypress/e2e/multi-subdomain-login.cy.ts'",
+    "test:33939:chrome": "start-server-and-test server 3444 'cypress run --browser chrome --spec cypress/e2e/multi-subdomain-login.cy.ts'"
   },
   "keywords": [],
   "author": "Cypress-io",
   "license": "ISC",
   "devDependencies": {
+    "@types/cookie-parser": "^1.4.10",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.6.0",
+    "cookie-parser": "^1.4.7",
+    "cypress": "14.5.4",
+    "express": "^5.2.1",
+    "selfsigned": "^5.5.0",
+    "start-server-and-test": "^2.1.3",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
   },
   "repository": {
     "type": "git",
