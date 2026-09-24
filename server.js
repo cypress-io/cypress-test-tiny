@@ -14,6 +14,23 @@ function startServer () {
       res.setHeader('access-control-allow-credentials', 'true')
     }
 
+    // 302 that carries its own set-cookie, closer to the shape in the issue
+    if (req.url.startsWith('/redirect')) {
+      res.statusCode = 302
+      res.setHeader('set-cookie', 'foo=original; Path=/; Secure; SameSite=None')
+      res.setHeader('location', '/after-redirect')
+      res.end()
+
+      return
+    }
+
+    if (req.url.startsWith('/after-redirect')) {
+      res.setHeader('content-type', 'text/plain')
+      res.end('landed')
+
+      return
+    }
+
     if (req.url.startsWith('/set-cookie')) {
       // /set-cookie?samesite=lax|none
       const samesite = /samesite=none/i.test(req.url)
@@ -21,6 +38,9 @@ function startServer () {
         : 'SameSite=Lax'
 
       res.setHeader('set-cookie', `foo=original; Path=/; ${samesite}`)
+      // an ordinary header, rewritten alongside set-cookie and readable from JS
+      res.setHeader('x-probe', 'original')
+      res.setHeader('access-control-expose-headers', 'x-probe')
       res.setHeader('content-type', 'text/plain')
       res.end('ok')
 

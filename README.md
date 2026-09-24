@@ -41,7 +41,7 @@ through the legacy proxy, and Electron never left it.
 Each test was also run standalone (`it.only`) on 16.1.0 and behaves the same way, so
 nothing here depends on the order tests run in.
 
-One difference from the issue report: there, the `set-cookie` arrives on a 302 that
-the browser follows as a top-level navigation. Here it arrives on a cross-site fetch,
-which makes the assertion simpler. If a fix turns out to be specific to one request
-path, this repro only covers the fetch case.
+[cypress/e2e/redirect.cy.js](cypress/e2e/redirect.cy.js) covers the redirect hop, which
+is closer to the shape in the report. It fails the same way.
+
+[ROOT-CAUSE.md](ROOT-CAUSE.md) has the diagnosis and the two probe specs it rests on.
