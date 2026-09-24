@@ -42,6 +42,8 @@ Each test was also run standalone (`it.only`) on 16.1.0 and behaves the same way
 nothing here depends on the order tests run in.
 
 [cypress/e2e/redirect.cy.js](cypress/e2e/redirect.cy.js) covers the redirect hop, which
-is closer to the shape in the report. It fails the same way.
+is closer to the shape in the report. It fails the same way. Two further specs,
+`continue-path.cy.js` and `fulfill-path.cy.js`, are probes rather than bug evidence —
+they narrow down which CDP call is responsible.
 
 [ROOT-CAUSE.md](ROOT-CAUSE.md) has the diagnosis and the two probe specs it rests on.

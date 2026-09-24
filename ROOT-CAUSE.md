@@ -21,12 +21,13 @@ referenced here is the code that shipped.
 
 | spec | what it changes in the response handler | native path | `forceHttp1` |
 | :--- | :--- | :--- | :--- |
-| [spec.cy.js](cypress/e2e/spec.cy.js) | `set-cookie` only | **fails** | passes |
+| [spec.cy.js](cypress/e2e/spec.cy.js) | `set-cookie` on a 200 | **fails** | passes |
 | [redirect.cy.js](cypress/e2e/redirect.cy.js) | `set-cookie` on a 302 hop | **fails** | passes |
-| [continue-path.cy.js](cypress/e2e/continue-path.cy.js) | `set-cookie` and `x-probe` | **`set-cookie` fails, `x-probe` lands** | passes |
-| [fulfill-path.cy.js](cypress/e2e/fulfill-path.cy.js) | `set-cookie` and the body | passes | passes |
+| [continue-path.cy.js](cypress/e2e/continue-path.cy.js) | `set-cookie` and `x-probe` on a 200 | **`set-cookie` fails, `x-probe` lands** | passes |
+| [fulfill-path.cy.js](cypress/e2e/fulfill-path.cy.js) | `set-cookie` and the body, on a 200 | passes | passes |
+| [redirect-fulfill.cy.js](cypress/e2e/redirect-fulfill.cy.js) | `set-cookie` and the body, on a 302 hop | **fails** | passes |
 
-Three of these are ordinary failure evidence. Two of them do the real work.
+The first two are ordinary failure evidence. The last three do the real work.
 
 `continue-path.cy.js` rules out Cypress dropping the headers. It rewrites an ordinary
 header and `set-cookie` in the same handler and touches nothing else, so both ride the
@@ -37,6 +38,11 @@ was ignored.
 `fulfill-path.cy.js` identifies the lever. It makes the same `set-cookie` edit and also
 assigns `res.body`. That one extra line flips Cypress from `Fetch.continueResponse` to
 `Fetch.fulfillRequest`, and the cookie rewrite lands.
+
+`redirect-fulfill.cy.js` shows the lever does not work on a 302. Same body assignment,
+scoped to the redirect hop, and the cookie stays `foo=original`. The browser still
+follows the redirect, so fulfilling did not break the hop — it just did not update the
+cookie. This is the result that constrains the fix, and it is covered in full below.
 
 ## Where this lives in the code
 
@@ -77,28 +83,45 @@ overrides reach the renderer and not the cookie jar, `fulfillRequest` reaches bo
 
 ## What a fix has to weigh
 
-The narrow fix is to add a modified `set-cookie` to the fulfill list, next to
-`contentTypeModified`. Compare the middleware's `set-cookie` entries against the pause's
+The obvious fix is to add a modified `set-cookie` to the fulfill list, next to
+`contentTypeModified`: compare the middleware's `set-cookie` entries against the pause's
 merged ones and set `fulfilled` when they differ.
 
-Fulfilling is not free, which is why the current code avoids it by default. Four things
-to check before taking that route:
+That fix is not enough on its own. `redirect-fulfill.cy.js` already forces the fulfill
+path on a 302 by hand, and the cookie rewrite still does not land. The reporter's cookie
+arrives on a 302 from their auth proxy, so a fulfill-list change alone would leave the
+reported case broken.
+
+Why the 302 behaves differently is the open question. Two candidates, and I could not
+separate them — the shipped binary runs from a V8 snapshot, and the `cypress:server`
+debug namespaces produced no output from either the binary or the dev monorepo in this
+environment, so I never saw the actual CDP calls:
+
+- Chrome does not apply `Set-Cookie` from a fulfilled redirect either.
+- The fulfill never happened. `Fetch.fulfillRequest` on a redirect pause threw, and the
+  `catch` in `resolveResponse` fell back to a bare `Fetch.continueResponse`. That
+  fallback exists in the transport and would produce exactly what the test shows: the
+  redirect followed, the cookie unchanged.
+
+Reading the transport's own comment at `isRedirectPause` — "a middleware that writes a
+body onto one falls back to fulfill" — the fulfill was meant to happen. Anyone taking
+this on should confirm which of the two it is before designing the fix. One debug run
+with the CDP namespaces visible settles it.
+
+Three further things to check, whichever direction the fix takes:
 
 - A fulfilled response needs a materialized body. Responses that set `bodySkipped`, or
   that `shouldStreamResponseBody` routes to streaming, may have no body to hand back.
 - Fulfilling gives up the streaming, `extraInfo` and HTTP caching behavior that the doc
   comment cites as the reason to prefer `continueResponse`.
-- Redirect hops go through `isRedirectPause` and never carry a body. `redirect.cy.js`
-  fails today, so whatever the fix is has to cover that path, and fulfilling a 302 is
-  not the same operation as fulfilling a 200.
-- Deleting a `set-cookie` is a case worth deciding deliberately. Fulfilling without it
-  stops the cookie being set. Nothing in this repo tests that, and I have not checked
-  what the legacy proxy path does with it.
+- Deleting a `set-cookie` is a case worth deciding deliberately. Nothing in this repo
+  tests it, and I have not checked what the legacy proxy path does with it.
 
-If fulfilling turns out to be too costly on those paths, the other direction is to write
-the cookie through `Network.setCookie` when the handler changed it. That keeps
-`continueResponse` and its wire semantics. It also means the browser's cookie jar is
-updated out of band from the response, which is a different set of edge cases.
+The other direction is to write the cookie through `Network.setCookie` when the handler
+changed it. That keeps `continueResponse` and its wire semantics, and it would cover the
+redirect hop and the 200 by the same mechanism. It also updates the cookie jar out of
+band from the response, which brings its own edge cases — ordering against the page's
+own reads, and what to do when the handler deletes the header.
 
 ## Reproducing
 
@@ -107,5 +130,5 @@ npm ci
 npx cypress run --browser chrome
 ```
 
-Four of ten tests fail. All ten pass with `--config forceHttp1=true`, and all ten pass
-in Electron, which never uses the native path.
+Five of twelve tests fail. All twelve pass with `--config forceHttp1=true`, and all
+twelve pass in Electron, which never uses the native path.
