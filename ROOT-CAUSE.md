@@ -114,8 +114,8 @@ so the probe cannot distinguish the two. The page cannot read any other header o
 intermediate redirect response, so there is nothing else to observe from the test side.
 
 Logs would settle it, and I could not get any. The `cypress:server` debug namespaces
-produced no output from the shipped binary or from the dev monorepo at
-`/Users/cacie/git/cypress`, with or without `cypress:stderr` added. The binary's server
+produced no output from the shipped binary or from a local `cypress` dev checkout,
+with or without `cypress:stderr` added. The binary's server
 code runs from a V8 snapshot, so there is no file to instrument either. Whoever picks
 this up should get one run with the CDP calls visible before designing the fix. The
 transport's own comment at `isRedirectPause` says "a middleware that writes a body onto
