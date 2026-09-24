@@ -33,11 +33,20 @@ function requestCookie (samesite) {
   })
 }
 
+// The handler firing and seeing the header is what makes the failures below
+// meaningful: the edit is made and then ignored, rather than never attempted.
+function assertHandlerSawSetCookie () {
+  cy.then(() => {
+    const entry = seen.find((s) => s.url.includes('/set-cookie'))
+
+    expect(entry, 'response handler ran for the cookie request').to.exist
+    expect(entry.setCookies, 'response handler saw the set-cookie header').to.exist
+  })
+}
+
 function logCookie (label) {
   cy.getCookie('foo', { domain: '127.0.0.1' }).then((cookie) => {
     cy.log(`${label}: ${JSON.stringify(cookie)}`)
-    // eslint-disable-next-line no-console
-    console.log(`${label}: ${JSON.stringify(cookie)}`, 'handler saw:', JSON.stringify(seen))
   })
 }
 
@@ -67,6 +76,7 @@ describe('rewriting set-cookie in an intercept response handler', () => {
     interceptAndRewrite()
     requestCookie('none')
     logCookie('value-rewrite')
+    assertHandlerSawSetCookie()
     cy.getCookie('foo', { domain: '127.0.0.1' }).should('have.property', 'value', 'rewritten')
   })
 
@@ -75,6 +85,7 @@ describe('rewriting set-cookie in an intercept response handler', () => {
     interceptAndRewrite()
     requestCookie('lax')
     logCookie('samesite-rewrite')
+    assertHandlerSawSetCookie()
     cy.getCookie('foo', { domain: '127.0.0.1' }).should('have.property', 'sameSite', 'no_restriction')
   })
 })

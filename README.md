@@ -37,3 +37,11 @@ The value-rewrite test is what separates the two readings: it is not that `SameS
 specifically is mishandled, it is that no edit to `set-cookie` survives at all. The
 last two rows point at the native path as the cause — `forceHttp1` routes Chrome back
 through the legacy proxy, and Electron never left it.
+
+Each test was also run standalone (`it.only`) on 16.1.0 and behaves the same way, so
+nothing here depends on the order tests run in.
+
+One difference from the issue report: there, the `set-cookie` arrives on a 302 that
+the browser follows as a top-level navigation. Here it arrives on a cross-site fetch,
+which makes the assertion simpler. If a fix turns out to be specific to one request
+path, this repro only covers the fetch case.
