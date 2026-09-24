@@ -25,9 +25,10 @@ referenced here is the code that shipped.
 | [redirect.cy.js](cypress/e2e/redirect.cy.js) | `set-cookie` on a 302 hop | **fails** | passes |
 | [continue-path.cy.js](cypress/e2e/continue-path.cy.js) | `set-cookie` and `x-probe` on a 200 | **`set-cookie` fails, `x-probe` lands** | passes |
 | [fulfill-path.cy.js](cypress/e2e/fulfill-path.cy.js) | `set-cookie` and the body, on a 200 | passes | passes |
-| [redirect-fulfill.cy.js](cypress/e2e/redirect-fulfill.cy.js) | `set-cookie` and the body, on a 302 hop | **fails** | passes |
+| [redirect-fulfill.cy.js](cypress/e2e/redirect-fulfill.cy.js) | `set-cookie` and the body, on a 302 hop | **cookie fails**, redirect still followed | passes |
+| [redirect-location.cy.js](cypress/e2e/redirect-location.cy.js) | `location` on a 302 hop | **fails** | passes |
 
-The first two are ordinary failure evidence. The last three do the real work.
+The first two are ordinary failure evidence. The rest do the real work.
 
 `continue-path.cy.js` rules out Cypress dropping the headers. It rewrites an ordinary
 header and `set-cookie` in the same handler and touches nothing else, so both ride the
@@ -43,6 +44,12 @@ assigns `res.body`. That one extra line flips Cypress from `Fetch.continueRespon
 scoped to the redirect hop, and the cookie stays `foo=original`. The browser still
 follows the redirect, so fulfilling did not break the hop — it just did not update the
 cookie. This is the result that constrains the fix, and it is covered in full below.
+
+`redirect-location.cy.js` widens the symptom. Rewriting `location` on the 302, with no
+other change, also has no effect: the browser follows the address the origin sent. It
+passes under `forceHttp1`, so this is native-path behavior, not something redirects
+always did. `set-cookie` and `location` are both headers Chrome's network stack consumes
+before the response pause fires.
 
 ## Where this lives in the code
 
@@ -92,21 +99,27 @@ path on a 302 by hand, and the cookie rewrite still does not land. The reporter'
 arrives on a 302 from their auth proxy, so a fulfill-list change alone would leave the
 reported case broken.
 
-Why the 302 behaves differently is the open question. Two candidates, and I could not
-separate them — the shipped binary runs from a V8 snapshot, and the `cypress:server`
-debug namespaces produced no output from either the binary or the dev monorepo in this
-environment, so I never saw the actual CDP calls:
+Why the 302 behaves differently is the open question. Two candidates:
 
 - Chrome does not apply `Set-Cookie` from a fulfilled redirect either.
 - The fulfill never happened. `Fetch.fulfillRequest` on a redirect pause threw, and the
-  `catch` in `resolveResponse` fell back to a bare `Fetch.continueResponse`. That
-  fallback exists in the transport and would produce exactly what the test shows: the
-  redirect followed, the cookie unchanged.
+  `catch` in `resolveResponse` fell back to a bare `Fetch.continueResponse` carrying no
+  headers. That fallback is in the transport and would produce exactly what the test
+  shows: the redirect followed, the cookie unchanged.
 
-Reading the transport's own comment at `isRedirectPause` — "a middleware that writes a
-body onto one falls back to fulfill" — the fulfill was meant to happen. Anyone taking
-this on should confirm which of the two it is before designing the fix. One debug run
-with the CDP namespaces visible settles it.
+I could not separate them. The natural probe is to rewrite `location` on the same hop,
+since the bare-continue fallback would drop it — but `redirect-location.cy.js` shows
+`location` overrides do not apply on a redirect hop even on the ordinary continue path,
+so the probe cannot distinguish the two. The page cannot read any other header off an
+intermediate redirect response, so there is nothing else to observe from the test side.
+
+Logs would settle it, and I could not get any. The `cypress:server` debug namespaces
+produced no output from the shipped binary or from the dev monorepo at
+`/Users/cacie/git/cypress`, with or without `cypress:stderr` added. The binary's server
+code runs from a V8 snapshot, so there is no file to instrument either. Whoever picks
+this up should get one run with the CDP calls visible before designing the fix. The
+transport's own comment at `isRedirectPause` says "a middleware that writes a body onto
+one falls back to fulfill", so the fulfill was meant to happen.
 
 Three further things to check, whichever direction the fix takes:
 
@@ -130,5 +143,5 @@ npm ci
 npx cypress run --browser chrome
 ```
 
-Five of twelve tests fail. All twelve pass with `--config forceHttp1=true`, and all
-twelve pass in Electron, which never uses the native path.
+Six of thirteen tests fail. All thirteen pass with `--config forceHttp1=true`, and all
+thirteen pass in Electron, which never uses the native path.

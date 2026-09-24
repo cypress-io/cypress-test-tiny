@@ -25,8 +25,11 @@ function startServer () {
     }
 
     if (req.url.startsWith('/after-redirect')) {
+      // echo the query so a rewritten `location` is observable from the page
+      const query = req.url.split('?')[1]
+
       res.setHeader('content-type', 'text/plain')
-      res.end('landed')
+      res.end(query ? `landed:${query}` : 'landed')
 
       return
     }
