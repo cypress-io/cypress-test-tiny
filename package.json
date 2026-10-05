@@ -9,12 +9,15 @@
     "cypress:version": "cypress version",
     "cypress:info": "cypress info",
     "cypress:cache:list": "cypress cache list",
-    "list-videos": "ls -l cypress/videos"
+    "list-videos": "ls -l cypress/videos",
+    "repro:default": "cypress run --record --browser chrome --headed",
+    "repro:http1": "cypress run --record --browser chrome --headed --config forceHttp1=true"
   },
   "keywords": [],
   "author": "Cypress-io",
   "license": "ISC",
   "devDependencies": {
+    "cypress": "16.1.0"
   },
   "repository": {
     "type": "git",
