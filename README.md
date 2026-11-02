@@ -41,7 +41,8 @@ a rewrite that keeps the array length) and the failing case.
 | 16.2.0, chrome, `--config forceHttp1=true` | pass | **fail**: `dropped` stays `origin` |
 | 16.2.0, chrome | pass | **fail**: `dropped` stays `origin` |
 
-It fails on every network path and predates Cypress 16, so it is not the native CDP
-path. The cause is `mergeWithPreservedBuffers`, which applies handler changes with
+The failure is the same on the HTTP proxy path and the native CDP path. The cause is `mergeWithPreservedBuffers`, which applies handler changes with
 lodash `_.mergeWith`, and lodash merges arrays by index. It has done so since
 cypress-io/cypress#16755. Request handlers share the same merge.
+
+[ROOT-CAUSE.md](ROOT-CAUSE.md) traces the merge and how the leftover value reaches the browser.
